@@ -1,0 +1,2156 @@
+[
+  {
+    "id": "hab-1",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Anamnese Estruturada Universal (Os 6 Tempos)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Entrevista Clínica",
+    "hab_category": "Entrevista Clínica",
+    "time_goal": "6–10 min",
+    "anchor": "60s Livres → OPQRST-IP → 6 Fantasmas → MACHO-F → Pesca → Espelho",
+    "pre_porta": "1. ABERTURA (0–60s): Apresentar + Lavar mãos + Pergunta aberta + NÃO interromper por 45–60s + \"Além disso, tem mais alguma dúvida/queixa hoje?\" (Negociar agenda se ≥ 3 queixas).\n2. HMA (Funil): Linha do tempo (\"Quando estava 100% bem?\") -> O-P-Q-R-S-T-I-P -> 3 sintomas associados por hipótese.\n3. RED FLAGS (6 Fantasmas): Febre/confusão | Dor torácica/dispneia/síncope | Cefaleia súbita/déficit focal | Dor abdominal/vômitos/parada | Sangramento ativo | Perda de peso/sudorese.\n4. MACHO-F: Medicamentos (adesão + automedicação) | Alergias (+ TIPO da reação!) | Comorbidades/Cirurgias/Vacinas | Hábitos (carga tabágica/álcool/drogas/sono) | Obs/Gineco (DUM/gestação/GPA) | Familiar (1º grau + idade) & Social/Ocupação.\n5. PESCA (30s): Visão/cabeça | Falta ar/palpitação | Apetite/intestino/xixi | Pele/edema | Humor/sono.\n6. FECHAMENTO: Resumo espelhado (\"Entendi certo?\") + Agenda oculta (\"Qual seu maior medo com isso?\") + Ponte para o exame físico.",
+    "checklist_sections": [
+      {
+        "title": "1. Abertura & Agenda",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Higienizei as mãos, me apresentei e chamei o paciente pelo nome"
+          },
+          {
+            "id": "0-1",
+            "text": "Deixei o paciente falar livremente por 45–60s sem interromper"
+          },
+          {
+            "id": "0-2",
+            "text": "Perguntei ativamente se havia outras queixas/demandas antes de aprofundar"
+          }
+        ]
+      },
+      {
+        "title": "2. HMA & Red Flags",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Investiguei início exato e evolução temporal (\"quando estava 100% bem?\")"
+          },
+          {
+            "id": "1-1",
+            "text": "Caracterizei o sintoma completo (OPQRST + impacto funcional + episódios prévios/remédios usados)"
+          },
+          {
+            "id": "1-2",
+            "text": "Excluí ativamente os sinais de alarme (Red Flags) pertinentes à síndrome"
+          }
+        ]
+      },
+      {
+        "title": "3. Bloco MACHO-F & Pesca",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "M: Chequei medicações contínuas + adesão real + chás/automedicação"
+          },
+          {
+            "id": "2-1",
+            "text": "A: Perguntei alergias E o tipo de reação que causou"
+          },
+          {
+            "id": "2-2",
+            "text": "C: Comorbidades, cirurgias, internações prévias e vacinas"
+          },
+          {
+            "id": "2-3",
+            "text": "H: Tabagismo (maços-ano), álcool, drogas, sono e atividade física"
+          },
+          {
+            "id": "2-4",
+            "text": "O: DUM / chance de gestação / GPA (se mulher em idade fértil)"
+          },
+          {
+            "id": "2-5",
+            "text": "F: História familiar (1º grau + idade) e contexto social/profissão"
+          },
+          {
+            "id": "2-6",
+            "text": "Fiz varredura rápida da Revisão de Sistemas (\"Rede de Pesca\")"
+          }
+        ]
+      },
+      {
+        "title": "4. Fechamento Espelhado",
+        "items": [
+          {
+            "id": "3-0",
+            "text": "Fiz resumo espelhado em voz alta para validar o entendimento"
+          },
+          {
+            "id": "3-1",
+            "text": "Perguntei medos/expectativas ocultas (\"Tem algo que te preocupa mais?\")"
+          },
+          {
+            "id": "3-2",
+            "text": "Fiz ponte clara explicando o exame físico antes de tocar o paciente"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 16,
+    "pitfalls": [
+      {
+        "title": "Interromper aos 15 segundos",
+        "detail": "Você resolve a queixa errada e o paciente solta a real só na maçaneta da porta."
+      },
+      {
+        "title": "Esquecer o tipo de reação alérgica",
+        "detail": "Rotular \"intolerância gástrica\" como alergia impede uso de drogas essenciais."
+      },
+      {
+        "title": "Ignorar DUM / chance de gestação",
+        "detail": "Risco de solicitar exame ionizante ou prescrever fármaco teratogênico."
+      },
+      {
+        "title": "Pergunta dupla indutora",
+        "detail": "(\"Não tem febre nem falta de ar, né?\") induz falso negativo no paciente."
+      },
+      {
+        "title": "Pular o resumo espelhado",
+        "detail": "Perde a chance de corrigir erros de cronologia antes do exame físico."
+      }
+    ],
+    "pitfalls_raw": "- **Interromper aos 15 segundos:** Você resolve a queixa errada e o paciente solta a real só na maçaneta da porta.\n- **Esquecer o tipo de reação alérgica:** Rotular \"intolerância gástrica\" como alergia impede uso de drogas essenciais.\n- **Ignorar DUM / chance de gestação:** Risco de solicitar exame ionizante ou prescrever fármaco teratogênico.\n- **Pergunta dupla indutora:** (\"Não tem febre nem falta de ar, né?\") induz falso negativo no paciente.\n- **Pular o resumo espelhado:** Perde a chance de corrigir erros de cronologia antes do exame físico.",
+    "path": "05_Habilidades_Clinicas/01_Anamnese_Estruturada_Universal.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-2",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Exame Físico Geral Coreografado (Zero Ping-Pong)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Semiologia Geral",
+    "hab_category": "Semiologia Geral",
+    "time_goal": "5–7 min",
+    "anchor": "Frente → Costas → 30°-45° → Deitado 0° → Em Pé",
+    "pre_porta": "ESTAÇÃO 0 (ENTRADA + SSVV): Marcha, postura, fala, fácies | PA (manguito certo) + FC (pulso) + FR REAL (fingindo pegar pulso 30-60s) + SpO2 + Tax.\nESTAÇÃO 1 (SENTADO FRENTE): Mãos/unhas/TEC (<2s)/Pulsos radiais simétricos -> Olhos (conjuntiva/esclera/pupilas/H) -> Boca/orofaringe (\"Aaah\") -> Traqueia/deglutição.\nESTAÇÃO 2 (SENTADO COSTAS): Tireoide por trás -> Colar de linfonodos (pré/retro/occipital/submento/submandib/jugular/supraclav) -> Pulmão posterior (Inspeção -> Expansibilidade/FTV \"33\" -> Percussão -> Ausculta em Z + axilas) -> Giordano bilateral.\nESTAÇÃO 3 (DEITADO 30°-45°): Jugular + Refluxo hepatojugular -> Carótidas (1 DE CADA VEZ!) -> Precórdio (frêmito/ictus -> Ausculta A-P-A-T-M palpando pulso p/ achar B1!) -> Pulmão anterior.\nESTAÇÃO 4 (DEITADO 0°, joelhos semifletidos): Abdome SEMPRE I-A-P-P (Inspeção -> Ausculta antes de tocar -> Percussão/Traube/Hepatimetria -> Palpação superficial longe da dor -> Profunda fígado/baço/manobras) -> MMII (edema cacifo/panturrilha/pulsos pedioso e tibial post bilateral) -> Neuro express (força/sensib/reflexos/meníngeos).\nESTAÇÃO 5 (EM PÉ, se indicado): Marcha/Romberg | PA ortostática (1 e 3 min) | Coluna/Hérnias.",
+    "checklist_sections": [
+      {
+        "title": "0. Ectoscopia & Sinais Vitais",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Observei ectoscopia geral desde a entrada (consciência, fala, esforço, fácies)"
+          },
+          {
+            "id": "0-1",
+            "text": "Medi SSVV completos e contei a FR de verdade por 30–60s (sem chutar)"
+          }
+        ]
+      },
+      {
+        "title": "1. Sentado — Visão Anterior",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Mãos, unhas, baqueteamento, TEC (< 2s) e pulsos radiais bilaterais"
+          },
+          {
+            "id": "1-1",
+            "text": "Conjuntiva (palidez), esclera (icterícia), pupilas (foto/isocoria) e MOE (\"H\")"
+          },
+          {
+            "id": "1-2",
+            "text": "Boca/orofaringe com lanterna e elevação simétrica de palato/úvula (\"Aaah\")"
+          },
+          {
+            "id": "1-3",
+            "text": "Inspeção do pescoço + centralização de traqueia"
+          }
+        ]
+      },
+      {
+        "title": "2. Sentado — Visão Posterior",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Tireoide palpada por abordagem posterior durante deglutição"
+          },
+          {
+            "id": "2-1",
+            "text": "Cadeias linfonodais completas até supraclaviculares (Virchow)"
+          },
+          {
+            "id": "2-2",
+            "text": "Pulmão posterior nos 4 tempos (Inspeção, Expansibilidade/FTV, Percussão, Ausculta em Z + axilar)"
+          },
+          {
+            "id": "2-3",
+            "text": "Punho-percussão lombar (Giordano) bilateral antes de deitar"
+          }
+        ]
+      },
+      {
+        "title": "3. Deitado a 30°–45°",
+        "items": [
+          {
+            "id": "3-0",
+            "text": "Avaliei turgência jugular a 45° e carótidas (UMA de cada vez!)"
+          },
+          {
+            "id": "3-1",
+            "text": "Palpei precórdio (frêmitos e localização do ictus cordis)"
+          },
+          {
+            "id": "3-2",
+            "text": "Auscultei 4 focos + acessório (A-P-A-T-M) palpando pulso simultaneamente para diferenciar B1/B2"
+          },
+          {
+            "id": "3-3",
+            "text": "Auscultei/percuti tórax anterior (lobo médio/língula)"
+          }
+        ]
+      },
+      {
+        "title": "4. Deitado Horizontal 0° (Joelhos Fletidos)",
+        "items": [
+          {
+            "id": "4-0",
+            "text": "Segui a ordem obrigatória no abdome: Inspeção → Ausculta → Percussão → Palpação"
+          },
+          {
+            "id": "4-1",
+            "text": "Percuti Traube e fiz hepatimetria antes da palpação profunda"
+          },
+          {
+            "id": "4-2",
+            "text": "Palpei abdome começando pelo quadrante mais distante da dor, olhando o rosto do paciente"
+          },
+          {
+            "id": "4-3",
+            "text": "Avaliei MMII: edema (cacifo), panturrilhas e pulsos distais (pedioso + tibial posterior) bilaterais"
+          },
+          {
+            "id": "4-4",
+            "text": "Fiz triagem neurológica mínima pertinente (força simétrica, sensibilidade, reflexos/meníngeos se indicado)"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 19,
+    "pitfalls": [
+      {
+        "title": "Palpar abdome antes de auscultar",
+        "detail": "Altera RHA e provoca defesa muscular precoce."
+      },
+      {
+        "title": "Chutar \"FR 16\"",
+        "detail": "Taquipneia (> 22 irpm) é o alarme mais precoce de sepse e TEP."
+      },
+      {
+        "title": "Auscultar coração sem sentir o pulso",
+        "detail": "Faz confundir B1 com B2 e errar sopro sistólico vs diastólico."
+      },
+      {
+        "title": "Palpar as duas carótidas juntas",
+        "detail": "Risco de queda súbita de perfusão cerebral e síncope."
+      },
+      {
+        "title": "Esquecer pulsos pediosos/tibiais posteriores",
+        "detail": "Erro crítico em diabéticos, idosos e vasculopatas."
+      }
+    ],
+    "pitfalls_raw": "- **Palpar abdome antes de auscultar:** Altera RHA e provoca defesa muscular precoce.\n- **Chutar \"FR 16\":** Taquipneia (> 22 irpm) é o alarme mais precoce de sepse e TEP.\n- **Auscultar coração sem sentir o pulso:** Faz confundir B1 com B2 e errar sopro sistólico vs diastólico.\n- **Palpar as duas carótidas juntas:** Risco de queda súbita de perfusão cerebral e síncope.\n- **Esquecer pulsos pediosos/tibiais posteriores:** Erro crítico em diabéticos, idosos e vasculopatas.",
+    "path": "05_Habilidades_Clinicas/02_Exame_Fisico_Geral_Coreografado.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-3",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Anamnese & Exame Físico Dirigido de GO (MATER / VL / CSE)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Ginecologia & Obstetrícia",
+    "hab_category": "Ginecologia & Obstetrícia",
+    "time_goal": "8–12 min",
+    "anchor": "4 Alarmes Obs | Mamas → Abdome → Vulva → Especular → Toque | AU → 4 Leopold → BCF",
+    "pre_porta": "ANAMNESE OBSTÉTRICA: DUM vs USG precoce (IG definitiva) | Caderneta (ABO/Rh, Sorologias, Glicemia/TOTG, Urocult, EGB, Vacinas) | 4 ALARMES OBRIGATÓRIOS: Sangramento | Perda de líquido | Contrações/dor | Movimentação fetal (+ Cefaleia/Escotomas/Epigastralgia se ≥ 20s ou PA alta).\nANAMNESE GINECO: Menacme/Menopausa | DUM | Padrão menstrual (Freq/Dur/Vol+Coágulos) | GPA detalhado (via/complicações) | Contracepção/Vida sexual/IST | Rastreios (Papanicolau + Mamografia + HF mama/ovário) | Red Flags: sinusorragia, sangramento pós-menopausa, dor aguda.\n\nEXAME OBSTÉTRICO:\n1. PA sentada ou DLE (nunca DD puro no 3º tri!) + Edema + Reflexo patelar se DHEG.\n2. Bexiga vazia -> AU (0 cm borda sup sínfise -> borda ulnar no fundo).\n3. 4 LEOPOLD: (1) Fundo/Situação -> (2) Dorso/Lado -> (3) Pawlik/Mobilidade -> (4) Olhar PÉS: Insinuação.\n4. BCF no dorso (110-160 bpm em 1 min) CHECANDO PULSO MATERNO junto!\n5. DU: mão no fundo por 10 min reais.\n6. TOQUE: NUNCA se sangramento > 20s sem excluir placenta prévia! Especular estéril ANTES se RPMO.\n\nEXAME GINECO (Chaperona + Explicar tudo antes!):\nMamas (Estática -> Dinâmica -> Axilas/Supraclav -> Palpação deitada 3 pressões) -> Abdome -> Vulva/Bartholin -> Especular (SEM gel se colher Papanicolau! Ayre 360° primeiro, Escova depois) -> Toque Bimanual (Colo/Frenkel, Útero, Anexos, Douglas).",
+    "checklist_sections": [
+      {
+        "title": "1. Anamnese Dirigida GO",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Validei DUM e cruzei com a USG mais precoce para cravar a IG definitiva (Obstetrícia)"
+          },
+          {
+            "id": "0-1",
+            "text": "Chequei caderneta completa: ABO/Rh, sorologias, glicemia/TOTG, urocultura e vacinas"
+          },
+          {
+            "id": "0-2",
+            "text": "Perguntei os 4 alarmes obstétricos (sangramento, líquido, contrações, movimentação fetal)"
+          },
+          {
+            "id": "0-3",
+            "text": "Investiguei sintomas premonitórios de eclâmpsia (cefaleia, escotomas, epigastralgia) se ≥ 20s/PA alta"
+          },
+          {
+            "id": "0-4",
+            "text": "Em Gineco: GPA detalhado, padrão menstrual, rastreios (Papanicolau/MMG) e sinusorragia/pós-menopausa"
+          }
+        ]
+      },
+      {
+        "title": "2. Exame Físico Obstétrico (Pré-Natal / CO)",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Medi PA sem compressão aorto-cava (sentada ou DLE) + chequei edema/reflexos se DHEG"
+          },
+          {
+            "id": "1-1",
+            "text": "Pedi para esvaziar bexiga antes de medir AU (zero na sínfise púbica até borda ulnar no fundo)"
+          },
+          {
+            "id": "1-2",
+            "text": "Executei as 4 Manobras de Leopold na ordem correta (virando para os pés no 4º tempo)"
+          },
+          {
+            "id": "1-3",
+            "text": "Auscultei BCF no dorso fetal por 1 min completo conferindo pulso radial materno junto"
+          },
+          {
+            "id": "1-4",
+            "text": "Se CO/queixa de contração: avaliei Dinâmica Uterina por 10 minutos reais"
+          },
+          {
+            "id": "1-5",
+            "text": "Respeitei as travas de segurança antes do toque (excluí placenta prévia; fiz especular estéril antes se RPMO)"
+          }
+        ]
+      },
+      {
+        "title": "3. Exame Físico Ginecológico & Coleta",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Garanti privacidade, chaperona/acompanhante e expliquei cada toque antes de realizar"
+          },
+          {
+            "id": "2-1",
+            "text": "Mamas: inspeção estática + dinâmica (3 posições) + linfonodos + palpação sistemática completa"
+          },
+          {
+            "id": "2-2",
+            "text": "Genitália externa: toque prévio na coxa, inspeção vulvar, Bartholin e Valsalva (se indicado)"
+          },
+          {
+            "id": "2-3",
+            "text": "Especular: sem lubrificante para coleta; colhi ecto (Ayre) ANTES da endo (escova) e fixei rápido"
+          },
+          {
+            "id": "2-4",
+            "text": "Toque bimanual por último: avaliei colo (Frenkel), corpo uterino, anexos e fundo de saco"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 16,
+    "pitfalls": [
+      {
+        "title": "Tocar gestante com sangramento da 2ª metade",
+        "detail": "Risco catastrófico se for placenta prévia — USG primeiro!"
+      },
+      {
+        "title": "Passar gel no espéculo antes do Papanicolau",
+        "detail": "Estraga a leitura citológica; usar apenas SF/água se precisar."
+      },
+      {
+        "title": "Colher escova endocervical antes da espátula",
+        "detail": "Sangra o canal e contamina a amostra ectocervical."
+      },
+      {
+        "title": "Achar BCF sem palpar pulso materno",
+        "detail": "Risco clássico de contar pulso da aorta materna achando que é bradicardia fetal."
+      },
+      {
+        "title": "Medir PA em decúbito dorsal no 3º trimestre",
+        "detail": "Compressão da cava falseia pressão e causa hipotensão supina."
+      }
+    ],
+    "pitfalls_raw": "- **Tocar gestante com sangramento da 2ª metade:** Risco catastrófico se for placenta prévia — USG primeiro!\n- **Passar gel no espéculo antes do Papanicolau:** Estraga a leitura citológica; usar apenas SF/água se precisar.\n- **Colher escova endocervical antes da espátula:** Sangra o canal e contamina a amostra ectocervical.\n- **Achar BCF sem palpar pulso materno:** Risco clássico de contar pulso da aorta materna achando que é bradicardia fetal.\n- **Medir PA em decúbito dorsal no 3º trimestre:** Compressão da cava falseia pressão e causa hipotensão supina.",
+    "path": "05_Habilidades_Clinicas/03_Exame_Fisico_Anamnese_GO.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-4",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Apresentação Oral de Caso (60–90s) & Passagem SBAR",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Round & Comunicação Médica",
+    "hab_category": "Round & Comunicação Médica",
+    "time_goal": "60–90 segundos",
+    "anchor": "Manchete → História Filtrada → Vitais/EF → SNAPPS | SBAR + SE-ENTÃO",
+    "pre_porta": "CASO NOVO (60–90s — FÓRMULA M-H-E-S + SNAPPS):\n1. MANCHETE (10s): Quem é + Riscos-chave + Queixa/Duração + Estável ou Grave agora?\n2. HISTÓRIA FILTRADA (25s): Só cronologia que muda hipótese + Negativas pertinentes + Meds/Alergias. (PROIBIDO ler revisão de sistemas inteira!)\n3. EXAME FÍSICO (20s): SSVV com números reais -> Estado geral -> Positivos e negativos-chave.\n4. SÍNTESE SNAPPS (20s): Síntese 1 frase -> 2-3 diferenciais -> Por que a 1ª ganha -> 1 dúvida honesta ao preceptor -> SEU plano inicial proposto!\n\nROUND MATINAL ENFERMARIA (45s):\nLeito/DI/Diagnóstico/ATB em D[X] -> Últimas 24h (O que mudou?) -> Vitais/Balanço/EF dirigido/Dispositivos -> Exames de HOJE -> Meta do dia e critério de alta.\n\nPASSAGEM DE PLANTÃO (SBAR DEFENSIVO):\nS: Gravidade atual | B: Comorbidades/Alergias/Dispositivos | A: Evolução + Exames pendentes de resultado | R: Regra \"SE [alteração X] -> ENTÃO [conduta Y]\".",
+    "checklist_sections": [
+      {
+        "title": "1. Caso Novo ao Preceptor (60–90s)",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Abri com a Manchete em 1 frase (quem, risco, queixa/duração e estabilidade atual)"
+          },
+          {
+            "id": "0-1",
+            "text": "Filtrei a história (contei apenas evolução, negativas pertinentes, meds e alergias)"
+          },
+          {
+            "id": "0-2",
+            "text": "Falei todos os Sinais Vitais numéricos reais antes do exame físico dirigido"
+          },
+          {
+            "id": "0-3",
+            "text": "Fechei assumindo posição clínica: síntese + 2 a 3 hipóteses diferenciais (SNAPPS)"
+          },
+          {
+            "id": "0-4",
+            "text": "Propôs explicitamente o meu plano de exames/conduta (não joguei no colo do preceptor)"
+          },
+          {
+            "id": "0-5",
+            "text": "Mantive a apresentação enxuta entre 60 e 90 segundos"
+          }
+        ]
+      },
+      {
+        "title": "2. Round Matinal / Passagem SBAR",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "No round de enfermaria: foquei apenas no que mudou nas últimas 24h e nos exames novos"
+          },
+          {
+            "id": "1-1",
+            "text": "Defini o destino de cada dispositivo invasivo (acesso, SVD, dreno, O2)"
+          },
+          {
+            "id": "1-2",
+            "text": "Na passagem de plantão: deixei plano de contingência (\"SE acontecer X -> fazer Y\") para toda pendência"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 9,
+    "pitfalls": [
+      {
+        "title": "Ler o prontuário de ponta a ponta",
+        "detail": "O preceptor desliga a atenção aos 30 segundos se não ouvir a manchete primeiro."
+      },
+      {
+        "title": "Terminar com \"É isso, doutor\"",
+        "detail": "Nunca apresente só dados sem cravar hipóteses e propor um plano inicial."
+      },
+      {
+        "title": "Pular os Sinais Vitais",
+        "detail": "Dizer \"exame normal\" sem citar PA, FC, FR, SpO2 e Tax em paciente agudo."
+      },
+      {
+        "title": "Passar pendência sem dono nem critério",
+        "detail": "Dizer \"olhar potássio\" sem combinar o corte de reposição."
+      }
+    ],
+    "pitfalls_raw": "- **Ler o prontuário de ponta a ponta:** O preceptor desliga a atenção aos 30 segundos se não ouvir a manchete primeiro.\n- **Terminar com \"É isso, doutor\":** Nunca apresente só dados sem cravar hipóteses e propor um plano inicial.\n- **Pular os Sinais Vitais:** Dizer \"exame normal\" sem citar PA, FC, FR, SpO2 e Tax em paciente agudo.\n- **Passar pendência sem dono nem critério:** Dizer \"olhar potássio\" sem combinar o corte de reposição.",
+    "path": "05_Habilidades_Clinicas/04_Apresentacao_Oral_e_SBAR.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-5",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Exame Cardiovascular Avançado (À Beira do Leito)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Semiologia Dirigida",
+    "hab_category": "Semiologia Dirigida",
+    "time_goal": "5–7 min",
+    "anchor": "Mão/Pulsos → Jugular 45° → Ictus/Frêmito → A-P-A-T-M (Pulso junto!) → DLE → Sentado",
+    "pre_porta": "1. EXTREMIDADES & PULSOS: PA (manguito certo; 2 braços se dor torácica/síncope; ortostática 1/3 min) | TEC (<2s) | Estigmas endocardite (estilhas, Osler doloroso, Janeway indolor) | Pulsos 0-4+: Radiais (déficit pulso na FA!), Braquiais, Femorais vs Radiais (atraso = coarctação!), Pediosos/Tibiais Post | Isquemia Aguda 6 Ps | TVP (panturrilha 10cm abaixo tuberosidade tibial + Bancroft/Bandeira) | DM: monofilamento 10g (4 pontos) + diapasão 128Hz.\n2. PESCOÇO A 45° & SOPROS VASCULARES: Jugular interna D (bifásica, não palpável, cai na insp; PVC = altura acima de Louis + 5 cm; normal <= 3-4 cm) + Refluxo Hepatojugular (10-15s QSD) + Kussmaul | Carótidas: UMA POR VEZ no 1/3 inferior! (Parvus/tardus = EAo; Martelo d'água = IAo; Paradoxal >10mmHg = Tamponamento) | Na HAS: auscultar carótidas, aorta e artérias renais.\n3. PRECÓRDIO A 45°: Frêmitos (base dedos = sopro >=4/6) + Impulsão paraesternal E (VD) + Ictus (4º-5º EIC E LHC; <=2,5 cm; DLE se não achar).\n4. AUSCULTA (SEMPRE PALPANDO PULSO p/ CRAVAR B1!):\n   - Diafragma firme: Aórtico (2º EIC D) -> Pulmonar (2º EIC E: desdobramento) -> Erb (3º EIC E) -> Tricúspide (4º-5º EIC E) -> Mitral (ápice).\n   - Campânula LEVE no Ápice: B3 (volume/IC) e B4 (rigidez/HAS; nunca em FA!). Sopro = Tempo + Foco + Irradiação + Levine 1-6 + Timbre + Manobras.\n5. MANOBRAS DINÂMICAS:\n   - DLE (Pachon + campânula ápice): realça B3, B4 e Ruflar EM.\n   - Sentado inclinado p/ frente + expiração (diafragma em Erb): realça IAo e atrito pericárdico.\n   - Rivero-Carvallo (inspiração profunda): aumenta sopros DIREITOS (IT/EP/IP).\n   - Valsalva / Levantar súbito: DIMINUI quase todos, EXCETO CMHO e PVM (aumentam!). Agachamento faz o oposto.\n6. PERFIL IC (Stevenson): Seco vs Úmido (ortopneia, estase, B3, estertores, edema) x Quente vs Frio (TEC, extremidade, pulso, oligúria).",
+    "checklist_sections": [
+      {
+        "title": "1. SSVV, Pulsos & Sinais Periféricos",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Medi PA com manguito adequado (e nos 2 braços ou ortostática quando indicado)"
+          },
+          {
+            "id": "0-1",
+            "text": "Avaliei TEC (< 2s), temperatura de extremidades e estigmas de endocardite (Osler/Janeway/estilhas)"
+          },
+          {
+            "id": "0-2",
+            "text": "Palpei pulsos periféricos simétricos (radiais, femorais vs radiais e pediosos/tibiais posteriores)"
+          },
+          {
+            "id": "0-3",
+            "text": "Palpei as carótidas uma de cada vez no terço inferior do pescoço (longe do seio carotídeo)"
+          }
+        ]
+      },
+      {
+        "title": "2. Pescoço 45° & Precórdio",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Avaliei pulso venoso jugular interno direito a 45° + ângulo de Louis (e refluxo hepatojugular se dúvida)"
+          },
+          {
+            "id": "1-1",
+            "text": "Palpei precórdio buscando frêmitos, impulsão paraesternal esquerda (VD) e ictus cordis (DLE se preciso)"
+          }
+        ]
+      },
+      {
+        "title": "3. Ausculta Sistemática & Manobras",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Auscultei A-P-A-T-M com diafragma PALPANDO pulso arterial simultâneo para diferenciar B1 de B2"
+          },
+          {
+            "id": "2-1",
+            "text": "Usei a campânula com toque leve no ápice (e DLE) buscando B3, B4 e ruflar da estenose mitral"
+          },
+          {
+            "id": "2-2",
+            "text": "Fiz manobra sentado inclinado para frente em expiração (Erb) para pesquisar insuficiência aórtica"
+          },
+          {
+            "id": "2-3",
+            "text": "Apliquei manobras dinâmicas pertinentes (Rivero-Carvallo, Valsalva ou agachamento) e caracterizei sopros em 6 atributos"
+          },
+          {
+            "id": "2-4",
+            "text": "Classifiquei perfil hemodinâmico (Seco/Úmido x Quente/Frio) se suspeita de IC ou choque"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 11,
+    "pitfalls": [
+      {
+        "title": "Auscultar coração sem sentir o pulso",
+        "detail": "Faz confundir B1 com B2 e errar sopro sistólico vs diastólico."
+      },
+      {
+        "title": "Esquecer de sentar e inclinar para frente em expiração",
+        "detail": "Deixa passar o sopro aspirativo de Insuficiência Aórtica no foco de Erb."
+      },
+      {
+        "title": "Apertar a campânula com força",
+        "detail": "Transforma a campânula em diafragma e apaga B3, B4 e ruflar mitral."
+      },
+      {
+        "title": "Palpar as duas carótidas juntas",
+        "detail": "Risco grave de isquemia cerebral aguda, bradicardia reflexa e síncope."
+      },
+      {
+        "title": "Dar diurético para estase jugular da Tríade de Beck",
+        "detail": "No tamponamento cardíaco, a estase jugular exige volume cauteloso e pericardiocentese, nunca diurético."
+      }
+    ],
+    "pitfalls_raw": "- **Auscultar coração sem sentir o pulso:** Faz confundir B1 com B2 e errar sopro sistólico vs diastólico.\n- **Esquecer de sentar e inclinar para frente em expiração:** Deixa passar o sopro aspirativo de Insuficiência Aórtica no foco de Erb.\n- **Apertar a campânula com força:** Transforma a campânula em diafragma e apaga B3, B4 e ruflar mitral.\n- **Palpar as duas carótidas juntas:** Risco grave de isquemia cerebral aguda, bradicardia reflexa e síncope.\n- **Dar diurético para estase jugular da Tríade de Beck:** No tamponamento cardíaco, a estase jugular exige volume cauteloso e pericardiocentese, nunca diurético.",
+    "path": "05_Habilidades_Clinicas/05_Cartao_EF_Cardiovascular.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-6",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Exame Pulmonar & Esforço Respiratório",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Semiologia Dirigida",
+    "hab_category": "Semiologia Dirigida",
+    "time_goal": "4–6 min",
+    "anchor": "Esforço/FR 60s → Ruault/Bases → FTV \"33\" → Escada/Excursão → Z + Axilas + Lobo Médio/Língula",
+    "pre_porta": "0. INSPEÇÃO DE ESFORÇO (ANTES DO ESTETO!):\n   - FR REAL por 60s fingindo checar pulso (alerta >22 irpm; grave >28-30).\n   - Fadiga iminente: fala entrecortada, tripé, ECM/escalenos, batimento asa nasal, tiragens (fúrcula/intercostal/subcostal), RESPIRAÇÃO PARADOXAL ABDOMINAL (= fadiga diafragma -> IOT!), cianose central.\n   - Padrões: Kussmaul (acidose), Cheyne-Stokes (IC/SNC), Biot (bulbo), frenolabial (DPOC).\n1. PALPAÇÃO (COSTAS -> TRAQUEIA):\n   - Expansibilidade: Ruault (ápices C7-T1) + Bases (prega em T9-T10) na inspiração profunda.\n   - FTV (\"33\" borda ulnar, 3 andares D vs E fora da escápula!): ↑ na consolidação; ↓/abolido no derrame e pneumotórax.\n   - Traqueia na fúrcula: desvia p/ LADO OPOSTO (pneumotórax hipertensivo/derrame maciço) ou MESMO lado (atelectasia).\n2. PERCUSSÃO EM ESCADA (Só EICs, nunca escápula/osso!):\n   - Claro pulmonar vs Macicez pétrea (derrame/Damoiseau) vs Hipersonoridade (pneumotórax/DPOC).\n   - Excursão diafragmática (linha hemiescapular: exp máx -> insp máx = normal 3-5 cm).\n3. AUSCULTA EM Z + AXILAS + LOBO MÉDIO/LÍNGULA (Boca aberta, ciclo completo):\n   - Costas (Z simétrico + bases) -> Axilas -> Frente (infraclavicular + 4º-5º EIC D = Lobo Médio + 4º-5º EIC E = Língula!).\n   - Voz (\"33\" normal e sussurrado): Pectorilóquia afônica / Broncofonia = Consolidação; Egofonia (\"E\" -> \"Á\") = topo de Derrame!",
+    "checklist_sections": [
+      {
+        "title": "1. Ectoscopia & Sinais de Esforço",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Contei a FR real por 30–60s sem avisar o paciente (sem chutar \"16 irpm\")"
+          },
+          {
+            "id": "0-1",
+            "text": "Chequei ativamente tiragens, musculatura acessória, fala entrecortada e respiração paradoxal abdominal"
+          },
+          {
+            "id": "0-2",
+            "text": "Identifiquei o padrão respiratório e cianose central/periférica quando presentes"
+          }
+        ]
+      },
+      {
+        "title": "2. Palpação & Percussão Torácica",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Chequei centralização da traqueia na fúrcula esternal"
+          },
+          {
+            "id": "1-1",
+            "text": "Avaliei expansibilidade de ápices (Ruault) e bases (T9–T10) bilateralmente"
+          },
+          {
+            "id": "1-2",
+            "text": "Testei Frêmito Toracovocal (\"33\") com borda ulnar em 3 andares comparativos fora das escápulas"
+          },
+          {
+            "id": "1-3",
+            "text": "Percuti espaços intercostais em escada comparando D vs E (e excursão diafragmática se indicado)"
+          }
+        ]
+      },
+      {
+        "title": "3. Ausculta Sistemática & Diferenciação Sindrômica",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Auscultei em Z comparando D vs E no mesmo nível (costas, bases, axilas)"
+          },
+          {
+            "id": "2-1",
+            "text": "Auscultei a região anterior incluindo obrigatoriamente Lobo Médio (4º–5º EIC D) e Língula (4º–5º EIC E)"
+          },
+          {
+            "id": "2-2",
+            "text": "Diferenciei ruídos adventícios (crepitantes vs subcrepitantes vs sibilos vs roncos vs atrito/estridor)"
+          },
+          {
+            "id": "2-3",
+            "text": "Fiz testes de transmissão da voz (broncofonia, pectorilóquia sussurrada, egofonia) diante de alteração focal"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 11,
+    "pitfalls": [
+      {
+        "title": "Chutar FR normal",
+        "detail": "Taquipneia (> 22 irpm) precede a queda da SpO2 em sepse, acidose e TEP."
+      },
+      {
+        "title": "Comemorar \"tórax limpo\" em crise de asma grave",
+        "detail": "Tórax silencioso com esforço extremo significa obstrução crítica e parada respiratória iminente."
+      },
+      {
+        "title": "Esquecer axilas, lobo médio D e língula E",
+        "detail": "São áreas anteriores/laterais onde pneumonias focais passam batidas se você só auscultar as costas."
+      },
+      {
+        "title": "Percutir ou testar FTV sobre a escápula",
+        "detail": "O osso bloqueia o som e simula macicez/FTV reduzido falso (mande abraçar os ombros para afastar as escápulas!)."
+      },
+      {
+        "title": "Ignorar respiração paradoxal abdominal",
+        "detail": "Sinal de falência diafragmática que exige preparo imediato para suporte ventilatório."
+      }
+    ],
+    "pitfalls_raw": "- **Chutar FR normal:** Taquipneia (> 22 irpm) precede a queda da SpO2 em sepse, acidose e TEP.\n- **Comemorar \"tórax limpo\" em crise de asma grave:** Tórax silencioso com esforço extremo significa obstrução crítica e parada respiratória iminente.\n- **Esquecer axilas, lobo médio D e língula E:** São áreas anteriores/laterais onde pneumonias focais passam batidas se você só auscultar as costas.\n- **Percutir ou testar FTV sobre a escápula:** O osso bloqueia o som e simula macicez/FTV reduzido falso (mande abraçar os ombros para afastar as escápulas!).\n- **Ignorar respiração paradoxal abdominal:** Sinal de falência diafragmática que exige preparo imediato para suporte ventilatório.",
+    "path": "05_Habilidades_Clinicas/06_Cartao_EF_Pulmonar.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-7",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Exame do Abdome Agudo Cirúrgico",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Semiologia Dirigida",
+    "hab_category": "Semiologia Dirigida",
+    "time_goal": "4–6 min",
+    "anchor": "Analgesia → I-A-P-P (Longe→Rosto) → Defesa vs Tábua → 5 Manobras → Virilhas & Toque",
+    "pre_porta": "0. PREPARO & MITO ZERO: Analgesia NÃO mascara peritonite (reduz defesa voluntária!). Decúbito 0° + joelhos semifletidos + bexiga vazia + expor até virilhas + perguntar onde dói p/ começar LONGE!\n1. INSPEÇÃO: Distensão (simétrica vs volvo), cicatrizes (bridas!), peristaltismo, abaulamento, Cullen (periumbilical) e Grey-Turner (flancos).\n2. AUSCULTA (ANTES DE TUDO!): 4 quadrantes (2 min p/ dizer RHA abolidos!). Luta/metálico = obstrução; silêncio = íleo/peritonite; sopros (AAA/renais).\n3. PERCUSSÃO SUAVE: Jobert (timpanismo na loja hepática = pneumoperitônio!) | Dor leve à percussão já prova irritação (não torture no Blumberg!) | Macicez móvel (ascite mod) vs Piparote (borda ulnar na linha média).\n4. PALPAÇÃO & MANOBRAS (OLHAR NO ROSTO DO PACIENTE!):\n   - Defesa voluntária (cede na expiração/distração) vs Rigidez/Tábua (madeira contínua) | Carnett (dor piora ao elevar cabeça = parede!).\n   - Blumberg (FID McBurney: dor MAIOR na retirada brusca) | Rovsing (comprime FIE -> dor FID) | Psoas (DLE hiperestende coxa D) | Obturador (quadril/joelho 90° + rotação interna) | Murphy (ponto cístico + insp profunda -> PARADA súbita da inspiração!) | Giordano (ângulo costovertebral).\n5. OBRIGATÓRIO NÃO PULAR: Orifícios herniários (Inguinal ACIMA vs Femoral ABAIXO do lig inguinal + Valsalva) | Toque retal (HDB, obstrução/ampola vazia vs fecaloma, dor pélvica/Douglas, trauma; cuidado neutropenia!) | Beta-hCG + toque/especular em mulher fértil | TRAVAS FMRP: Jobert/tábua = NÃO pedir EDA; Obstrução = NÃO dar laxativo/procinético; Volvo c/ peritonite = NÃO tentar endoscopia!",
+    "checklist_sections": [
+      {
+        "title": "1. Preparo, Inspeção & Ausculta",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Garanti analgesia/conforto, decúbito 0° horizontal com joelhos fletidos e exposição até a raiz das coxas"
+          },
+          {
+            "id": "0-1",
+            "text": "Perguntei onde doía antes de tocar para começar pelo quadrante mais distante"
+          },
+          {
+            "id": "0-2",
+            "text": "Inspecionei cicatrizes (bridas), distensão, hérnias visíveis e equimoses (Cullen / Grey-Turner)"
+          },
+          {
+            "id": "0-3",
+            "text": "Auscultei os 4 quadrantes ANTES de percutir ou palpar (e contei 2 min antes de declarar silêncio)"
+          }
+        ]
+      },
+      {
+        "title": "2. Percussão, Palpação & Manobras Dirigidas",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Percuti suavemente buscando dor localizada, Sinal de Jobert (pneumoperitônio) e macicez móvel/piparote se ascite"
+          },
+          {
+            "id": "1-1",
+            "text": "Palpei com mão plana olhando para o rosto do paciente, diferenciando defesa voluntária de rigidez/tábua (e Carnett se dúvida)"
+          },
+          {
+            "id": "1-2",
+            "text": "Executei corretamente as manobras dirigidas pertinentes (Blumberg, Rovsing, Psoas, Obturador, Murphy e Giordano)"
+          }
+        ]
+      },
+      {
+        "title": "3. Orifícios, Toque & Segurança Cirúrgica",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Examinei ativamente todas as cicatrizes e orifícios herniários inguinais E femorais (com tosse/Valsalva)"
+          },
+          {
+            "id": "2-1",
+            "text": "Avaliei necessidade de toque retal (sangramento, obstrução, apendicite pélvica/Douglas, trauma) respeitando contraindicações"
+          },
+          {
+            "id": "2-2",
+            "text": "Em mulher em idade fértil com dor abdominal baixa: solicitei Beta-hCG e considerei exame ginecológico (ectópica/DIP)"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 10,
+    "pitfalls": [
+      {
+        "title": "Não baixar a roupa até as virilhas",
+        "detail": "Deixar passar uma hérnia femoral encarcerada em idosa é erro clássico de PS cirúrgico."
+      },
+      {
+        "title": "Negar analgésico esperando \"o cirurgião avaliar\"",
+        "detail": "Dor extrema gera defesa voluntária que piora o exame e causa sofrimento inútil."
+      },
+      {
+        "title": "Começar palpando o ponto da dor ou olhar para a barriga em vez do rosto",
+        "detail": "Causa espasmo muscular imediato e falseia Blumberg/rigidez."
+      },
+      {
+        "title": "Confundir dor à compressão simples no ponto cístico com Sinal de Murphy",
+        "detail": "Murphy verdadeiro exige parada súbita da inspiração profunda."
+      },
+      {
+        "title": "Esquecer Beta-hCG em dor de fossa ilíaca feminina",
+        "detail": "Gravidez ectópica rota imita perfeitamente apendicite aguda."
+      }
+    ],
+    "pitfalls_raw": "- **Não baixar a roupa até as virilhas:** Deixar passar uma hérnia femoral encarcerada em idosa é erro clássico de PS cirúrgico.\n- **Negar analgésico esperando \"o cirurgião avaliar\":** Dor extrema gera defesa voluntária que piora o exame e causa sofrimento inútil.\n- **Começar palpando o ponto da dor ou olhar para a barriga em vez do rosto:** Causa espasmo muscular imediato e falseia Blumberg/rigidez.\n- **Confundir dor à compressão simples no ponto cístico com Sinal de Murphy:** Murphy verdadeiro exige parada súbita da inspiração profunda.\n- **Esquecer Beta-hCG em dor de fossa ilíaca feminina:** Gravidez ectópica rota imita perfeitamente apendicite aguda.",
+    "path": "05_Habilidades_Clinicas/07_Cartao_EF_Abdome_Agudo.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-8",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Exame Osteoarticular & Ortopédico",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Semiologia Dirigida",
+    "hab_category": "Semiologia Dirigida",
+    "time_goal": "4–7 min",
+    "anchor": "GALS → Look-Feel-Move (Ativo→Passivo) → Testes → Neurovascular Distal",
+    "pre_porta": "REGRA ZERO TRAUMA: Deformidade/suspeita de fratura = IMOBILIZE + NEUROVASCULAR + RX ANTES de testar mobilidade/estabilidade! Ferida perto = fratura exposta até prova em contrário!\nROTEIRO UNIVERSAL: Triagem GALS (2 min: Marcha, Arms, Legs, Spine) -> LOOK (lado sadio primeiro!) -> FEEL (calor/osso/interlinha) -> MOVE (Ativo primeiro; se limitado -> Passivo: Ativo↓+Passivo N = tendão/nervo; Ambos↓ = articulação) -> TESTES -> NEUROVASCULAR DISTAL!\n\n1. COLUNA: Alinhamento/espinhosas | Lasègue (30°-70°: dor irradiada ABAIXO do joelho! Confirmar com Bragard/dorsiflexão) | Raízes: L4 (patelar/quadríceps), L5 (extensão hálux/calcanhar), S1 (aquileu/ponta pé) | CAUDA EQUINA (emergência!): anestesia em sela + retenção/incontinência + tônus anal!\n2. OMBRO: Arco doloroso 60°-120° | Neer (rotação int + elevação estabilizando escápula) & Hawkins (ombro/cotovelo 90° + rot int) = Impacto | Jobe (90° escápula, polegares p/ baixo) = Supraespinhal | Gerber (mão nas costas afastando) = Subescapular | Apreensão (90°+rot ext) = medo de luxar!\n3. QUADRIL: Idoso caído com membro encurtado + rot externa = Fratura fêmur (NÃO mexer!) | Rotação interna (1ª a limitar na artrose/sinovite) | FABER/Patrick | Trendelenburg.\n4. JOELHO: Tecla (ordenha suprapatelar + empurra patela) = Derrame | Lachman (20°-30°, puxar tíbia, checar batente!) = Melhor p/ LCA | Gaveta 90° (OLHAR afundamento posterior de Godfrey p/ LCP antes!) | McMurray (rot ext+valgo = medial; rot int+varo = lateral) | Apley ventral (compressão = menisco; distração = ligamento).\n5. TORNOZELO (OTTAWA — RX se dor + qualquer 1): 6 cm post maléolo lateral | 6 cm post maléolo medial | Base 5º MTT | Navicular | Incapaz de dar 4 passos (trauma + PS). Não vale em <18a, neuropatia/DM ou embriaguez!\n6. NEUROVASCULAR & COMPARTIMENTO: Pulso + TEC + Sensib/Motor distal (antes/depois de tala!). Dor desproporcional ao estiramento passivo = Síndrome Compartimental (não espere pulso sumir!).",
+    "checklist_sections": [
+      {
+        "title": "1. Método Universal & Segurança no Trauma",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Apliquei triagem GALS quando queixa difusa/poliarticular antes de focar"
+          },
+          {
+            "id": "0-1",
+            "text": "Segui a ordem Look → Feel → Move (Ativo antes do Passivo) comparando com o lado sadio primeiro"
+          },
+          {
+            "id": "0-2",
+            "text": "No trauma com deformidade/suspeita de fratura: NÃO forcei amplitude nem testes de estabilidade antes do RX"
+          },
+          {
+            "id": "0-3",
+            "text": "Chequei pele ao redor de toda fratura buscando exposição oculta"
+          }
+        ]
+      },
+      {
+        "title": "2. Testes Específicos por Região Pertinente",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Coluna: avaliei raízes L4/L5/S1, Lasègue verdadeiro (abaixo do joelho + Bragard) e red flags de Cauda Equina"
+          },
+          {
+            "id": "1-1",
+            "text": "Ombro: executei testes dirigidos (Neer, Hawkins, Jobe, Gerber e Apreensão anterior) + nervo axilar se luxação"
+          },
+          {
+            "id": "1-2",
+            "text": "Quadril: observei posição/encurtamento (sem manipular se suspeita de fratura), rotação interna e FABER/Trendelenburg"
+          },
+          {
+            "id": "1-3",
+            "text": "Joelho: pesquisei derrame (Tecla), chequei afundamento posterior (LCP) antes da Gaveta, fiz Lachman (20°–30°) e McMurray/Apley"
+          },
+          {
+            "id": "1-4",
+            "text": "Tornozelo/Pé: apliquei Regras de Ottawa corretamente (6 cm maleolares, base 5º MTT, navicular, 4 passos) e palpei fíbula proximal se dor medial"
+          }
+        ]
+      },
+      {
+        "title": "3. Neurovascular Distal & Síndrome Compartimental",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Documentei pulso distal, TEC, sensibilidade e motricidade distal ANTES e DEPOIS de qualquer imobilização/redução"
+          },
+          {
+            "id": "2-1",
+            "text": "Rastreiei síndrome compartimental (dor desproporcional que não cede e dor extrema ao estiramento passivo dos dedos)"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 11,
+    "pitfalls": [
+      {
+        "title": "Esquecer exame neurovascular antes e depois da tala/redução",
+        "detail": "Lesão de artéria poplítea, nervo axilar ou fibular passa sem diagnóstico."
+      },
+      {
+        "title": "Esperar pulso desaparecer para diagnosticar Síndrome Compartimental",
+        "detail": "A ausência de pulso é sinal tardio/catastrófico; dor desproporcional ao estiramento passivo vem muito antes!"
+      },
+      {
+        "title": "Chamar dor atrás da coxa de \"Lasègue positivo\"",
+        "detail": "Encurtamento de isquiotibiais não é radiculopatia; Lasègue irradia para baixo do joelho e piora com dorsiflexão do pé."
+      },
+      {
+        "title": "Fazer Gaveta Anterior sem checar afundamento posterior (LCP)",
+        "detail": "Tíbia caída para trás puxada para posição neutra simula falso LCA positivo."
+      },
+      {
+        "title": "Usar Regras de Ottawa em diabético neuropático, criança (< 18a) ou paciente intoxicado",
+        "detail": "Risco alto de perder fratura oculta sem dor local confiável."
+      }
+    ],
+    "pitfalls_raw": "- **Esquecer exame neurovascular antes e depois da tala/redução:** Lesão de artéria poplítea, nervo axilar ou fibular passa sem diagnóstico.\n- **Esperar pulso desaparecer para diagnosticar Síndrome Compartimental:** A ausência de pulso é sinal tardio/catastrófico; dor desproporcional ao estiramento passivo vem muito antes!\n- **Chamar dor atrás da coxa de \"Lasègue positivo\":** Encurtamento de isquiotibiais não é radiculopatia; Lasègue irradia para baixo do joelho e piora com dorsiflexão do pé.\n- **Fazer Gaveta Anterior sem checar afundamento posterior (LCP):** Tíbia caída para trás puxada para posição neutra simula falso LCA positivo.\n- **Usar Regras de Ottawa em diabético neuropático, criança (< 18a) ou paciente intoxicado:** Risco alto de perder fratura oculta sem dor local confiável.",
+    "path": "05_Habilidades_Clinicas/08_Cartao_EF_Osteoarticular.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-9",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Exame Neurológico Completo (6 Blocos + AVC/NIHSS)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Semiologia Dirigida",
+    "hab_category": "Semiologia Dirigida",
+    "time_goal": "8–12 min",
+    "anchor": "Mente/Glasgow → 12 Pares → Força/Tônus/Mingazzini → Reflexos/Babinski → Sensib → Cerebelo/Marcha/Meninges",
+    "pre_porta": "1. MENTE & GLASGOW-P: Consciência (AO+RV+RM - Reatividade Pupilar) | Orientação | Atenção (MUNDO invertido) | Memória (3 palavras) | Linguagem: Fluência, Compreensão, Repetição, Nomeação (Broca = não fluente/compreende | Wernicke = fluente/não compreende | Disartria = articulação).\n2. 12 PARES CRANIANOS:\n   - I (só se indicado; sem amônia!) | II: Acuidade, Campos (4 quadrantes), Fundo, Fotomotor aferente.\n   - III/IV/VI: Ptose/Pupilas (direto/consensual/Marcus Gunn) + MOE em \"H\" (LR6-SO4-R3).\n   - V: Sensib V1/V2/V3 (poupa ângulo mandíbula), Córneo-palpebral, Masseter/desvio queixo.\n   - VII: Testa (Central POUPA testa! Periférica acomete TODA hemiface) + Olho + Sorriso.\n   - VIII: Sussurro/dedos + Rinne/Weber (512Hz) + Nistagmo/HINTS | IX/X: \"Aaah\" (úvula foge da lesão) + Gag | XI: Ombros/ECM (vira p/ lado oposto) | XII: Língua repouso (fasciculação) + protrusão (desvia P/ LADO LESADO).\n3. MOTRICIDADE: Trofismo/fasciculações -> Tônus (Espasticidade canivete = 1ºN | Rigidez cano/roda denteada = Extrapiram) -> Força MRC 0-5 (prox/distal D vs E: C5-T1 e L1-S1) -> Manobras: Braços estendidos supinados olhos fechados (20-30s = deriva pronadora!), Mingazzini MMII (30-60s) e Barré.\n4. REFLEXOS & PIRAMIDAL: Martelo solto (+ Jendrassik!): Bicipital(C5-6), Estilorradial(C5-6), Tricipital(C7), Patelar(L3-4), Aquileu(S1) [0 a 4+] -> Cutâneo-plantar (borda lateral -> arco medial = Babinski) + Clônus aquileu + Hoffmann.\n5. SENSIBILIDADE (olhos fechados, distal -> proximal, D vs E): Superficial (algodão, ponta romba, frio/quente) + Profunda: Propriocepção segurando BORDAS LATERAIS do hálux + Vibração 128Hz (1ª MTF/maléolo) | Dermátomos-chave (T4 mamilo, T10 umbigo, L4-S1, S4-5 sela!).\n6. COORDENAÇÃO, MARCHA & MENINGES: Índex-nariz (abertos/fechados), Diadococinesia, Calcanhar-joelho -> Romberg (ao lado! Só + se piora AO FECHAR olhos) -> Marcha normal/Tandem/Ponta(S1)/Calcanhar(L4-5) -> Sem trauma cervical: Rigidez nuca, Brudzinski, Kernig.\n🚨 AVC AGUDO: HGT AGORA! + Hora UMVB + SAMU + NIHSS (11 itens; atenção: AVC fossa posterior dá NIHSS baixo!).",
+    "checklist_sections": [
+      {
+        "title": "1. Estado Mental, Linguagem & Glasgow",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Avaliei nível de consciência e apliquei Escala de Coma de Glasgow com reatividade pupilar (Glasgow-P)"
+          },
+          {
+            "id": "0-1",
+            "text": "Chequei orientação (autopsíquica/tempo/espaço), atenção e evocação recente (3 palavras)"
+          },
+          {
+            "id": "0-2",
+            "text": "Testei linguagem completa (fluência, compreensão, repetição, nomeação) diferenciando afasia de disartria"
+          }
+        ]
+      },
+      {
+        "title": "2. Os 12 Pares Cranianos",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Avaliei nervo óptico (acuidade, confrontação visual nos 4 quadrantes e reflexo fotomotor direto/consensual/Marcus Gunn)"
+          },
+          {
+            "id": "1-1",
+            "text": "Testei motilidade ocular extrínseca em \"H\" (III, IV, VI) buscando diplopia, ptose e nistagmo"
+          },
+          {
+            "id": "1-2",
+            "text": "Testei V (V1/V2/V3 + motor) e VII par (andar superior vs inferior — diferenciando paralisia central de periférica)"
+          },
+          {
+            "id": "1-3",
+            "text": "Avaliei VIII (audição/Weber-Rinne/HINTS se tontura), IX/X (elevação de palato/\"Aaah\"), XI (trapézio/ECM) e XII (língua em repouso e protrusão)"
+          }
+        ]
+      },
+      {
+        "title": "3. Motricidade, Reflexos & Piramidal",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Inspecionei trofismo/fasciculações e testei tônus passivo lento e rápido (espasticidade vs rigidez)"
+          },
+          {
+            "id": "2-1",
+            "text": "Testei força muscular (MRC 0–5) proximal e distal comparando D vs E em MMSS e MMII"
+          },
+          {
+            "id": "2-2",
+            "text": "Executei manobras deficitárias (braços estendidos supinados com olhos fechados / Mingazzini / Barré)"
+          },
+          {
+            "id": "2-3",
+            "text": "Pesquisei os 5 reflexos profundos principais (bicipital, estilorradial, tricipital, patelar, aquileu) graduando 0–4+ (com Jendrassik se ausente)"
+          },
+          {
+            "id": "2-4",
+            "text": "Realizei reflexo cutâneo-plantar (Babinski) bilateral e pesquisei clônus aquileu quando indicado"
+          }
+        ]
+      },
+      {
+        "title": "4. Sensibilidade, Coordenação, Marcha & Meninges",
+        "items": [
+          {
+            "id": "3-0",
+            "text": "Testei sensibilidade superficial (tátil/álgica/térmica) de distal para proximal com olhos fechados comparando D vs E"
+          },
+          {
+            "id": "3-1",
+            "text": "Testei sensibilidade profunda: propriocepção segurando pelas bordas laterais do hálux + vibração 128 Hz"
+          },
+          {
+            "id": "3-2",
+            "text": "Avaliei coordenação apendicular (índex-nariz, diadococinesia, calcanhar-joelho)"
+          },
+          {
+            "id": "3-3",
+            "text": "Executei Teste de Romberg com segurança (olhos abertos e depois fechados) e marcha (normal, tandem, ponta dos pés, calcanhares)"
+          },
+          {
+            "id": "3-4",
+            "text": "Pesquisei sinais meníngeos (rigidez de nuca, Brudzinski e Kernig) após descartar trauma cervical"
+          },
+          {
+            "id": "3-5",
+            "text": "Na suspeita de AVC agudo: chequei HGT imediatamente, hora exata do UMVB e apliquei NIHSS completo"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 18,
+    "pitfalls": [
+      {
+        "title": "Pular o HGT diante de déficit focal agudo",
+        "detail": "Hipoglicemia mimetiza AVC extenso e contraindica erro de trombólise."
+      },
+      {
+        "title": "Segurar o hálux por cima e por baixo na propriocepção",
+        "detail": "A pressão dos dedos revela a direção do movimento — segure sempre pelas bordas laterais."
+      },
+      {
+        "title": "Diagnosticar paralisia facial central sem testar a testa",
+        "detail": "Na periférica (Bell) toda a hemiface paralisa; na central (AVC) a testa é poupada."
+      },
+      {
+        "title": "Chamar desequilíbrio de olhos abertos de Romberg positivo",
+        "detail": "Se já oscila/cai de olhos abertos é ataxia cerebelar — Romberg só é positivo quando piora ao fechar os olhos."
+      },
+      {
+        "title": "Fletir pescoço no trauma para testar rigidez de nuca",
+        "detail": "Risco de lesão medular catastrófica se houver fratura cervical não descartada."
+      },
+      {
+        "title": "Confiar só no NIHSS baixo em vertigem/tronco",
+        "detail": "AVCs de fossa posterior pontuam pouco no NIHSS (0–3) mesmo com risco de oclusão basilar."
+      }
+    ],
+    "pitfalls_raw": "- **Pular o HGT diante de déficit focal agudo:** Hipoglicemia mimetiza AVC extenso e contraindica erro de trombólise.\n- **Segurar o hálux por cima e por baixo na propriocepção:** A pressão dos dedos revela a direção do movimento — segure sempre pelas bordas laterais.\n- **Diagnosticar paralisia facial central sem testar a testa:** Na periférica (Bell) toda a hemiface paralisa; na central (AVC) a testa é poupada.\n- **Chamar desequilíbrio de olhos abertos de Romberg positivo:** Se já oscila/cai de olhos abertos é ataxia cerebelar — Romberg só é positivo quando piora ao fechar os olhos.\n- **Fletir pescoço no trauma para testar rigidez de nuca:** Risco de lesão medular catastrófica se houver fratura cervical não descartada.\n- **Confiar só no NIHSS baixo em vertigem/tronco:** AVCs de fossa posterior pontuam pouco no NIHSS (0–3) mesmo com risco de oclusão basilar.",
+    "path": "05_Habilidades_Clinicas/09_Cartao_EF_Neurologico.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-10",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Exame Físico Pediátrico (Ordem Anti-Choro & Marcos)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Semiologia Dirigida",
+    "hab_category": "Semiologia Dirigida",
+    "time_goal": "6–10 min",
+    "anchor": "PAT/FR 60s (Colo) → Ausculta → Abdome → Pulsos/Fontanela/Quadril → Oro/Otoscopia POR ÚLTIMO",
+    "pre_porta": "ESTRATÉGIA ANTI-CHORO: < 2 anos: examine NO COLO DA MÃE! | Pré-escolar: brinque/ausculte bichinho ou mão da mãe + dê escolhas controladas (\"ouvido D ou E?\") | Escolar: fale com a criança | Adolescente: privacidade + HEADSSS + chaperona p/ Tanner.\n0. PAT (30s sem tocar): Aparência (TICLS) + Trabalho Resp + Circulação Cutânea -> Classifique (Estável vs Desconforto/Falência/Choque).\n1. SSVV & ESFORÇO RESP: FR em 60s COMPLETOS antes de encostar! (Taquipneia OMS: <2m >=60 | 2-11m >=50 | 1-5a >=40 | >5a >=30; corrige febre ~2-4 irpm e 10 bpm/°C!) | Hierarquia: Taquipneia -> Tiragem Intercostal -> Subcostal -> Fúrcula -> BAN -> Balanço toracoabd -> Gemência (CRÍTICO!).\n2. AUSCULTA (ENQUANTO CALMO): Aquecer esteto! Dorso + Precórdio (4 focos + borda esternal E + interescapular p/ coarctação). Arritmia sinusal respiratória é normal!\n3. ABDOME (Colo ou joelhos fletidos): I-A-P-P (fígado até 1-2cm RCD normal no lactente; checar coto umbilical/onfalite no RN e hérnias).\n4. MEMBROS/HIDRATAÇÃO/CRÂNIO/QUADRIL:\n   - Pulsos BRAQUIAL + FEMORAL SIMULTÂNEOS (coarctação!) + TEC (<2s esterno) + Petéquias (copo de vidro).\n   - Hidratação OMS (4 sinais: Condição geral, Olhos, Sede, Prega vertical abdome [<2s vs >2s]) -> Plano A (<2), B (>=2 c/ sede/irritado), C (>=2 graves/letargia/incapaz beber/prega >2s).\n   - Fontanela (criança CALMA e SENTADA! Bregmática fecha 9-18m; Lambdoide <=2m) | Quadril RN/lactente: Barlow (provoca) + Ortolani (\"clunk\" redução) | Genitália/Testículos/Tanner | Reflexos RN (Moro 4-6m, Busca/Sucção/Preensão palmar 3-4m, RTCA 4-6m, Preensão plantar 9-12m, Paraquedas >=8-9m) | Antropometria (despido s/ fralda; comprimento <2a a 2 mãos) & DNPM.\n5. ORO & OTOSCOPIA POR ÚLTIMO (\"Abraço seguro\" no colo):\n   - Otoscopia: mastoide/trago -> maior espéculo -> PEGADA EM LÁPIS + dedo mínimo apoiado na bochecha! -> Tração: < 3 anos BAIXO/TRÁS | >= 3 anos CIMA/TRÁS -> Avaliar abaulamento/translucidez/triângulo MT.\n   - Oroscopia: abaixador no 1/3 MÉDIO da língua (nunca na base!).",
+    "checklist_sections": [
+      {
+        "title": "1. PAT, Sinais Vitais & Esforço Respiratório",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Avaliei o Triângulo de Avaliação Pediátrica (Aparência TICLS, Trabalho Respiratório e Circulação) nos primeiros 30s"
+          },
+          {
+            "id": "0-1",
+            "text": "Contei a Frequência Respiratória por 60 segundos completos à distância (com tórax exposto e criança calma)"
+          },
+          {
+            "id": "0-2",
+            "text": "Chequei sinais objetivos de esforço respiratório (tiragem intercostal, subcostal, fúrcula, BAN, balanço e gemência)"
+          },
+          {
+            "id": "0-3",
+            "text": "Interpretei FC/FR considerando febre (reavaliando após antitérmico se taquipneia/taquicardia febril)"
+          }
+        ]
+      },
+      {
+        "title": "2. Ordem Invertida (Colo da Mãe) & Sistêmico",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Mantive lactente/pré-escolar no colo e executei ausculta cardíaca/pulmonar com estetoscópio aquecido enquanto calmo"
+          },
+          {
+            "id": "1-1",
+            "text": "Examinei abdome (I-A-P-P) e coto umbilical/regiões inguinais antes de manobras desconfortáveis"
+          },
+          {
+            "id": "1-2",
+            "text": "Palpei pulsos braquiais e femorais SIMULTANEAMENTE e avaliei TEC (< 2s no esterno) e pele (petéquias)"
+          },
+          {
+            "id": "1-3",
+            "text": "Avaliei hidratação pelos 4 sinais cardinais da OMS (incluindo prega cutânea vertical no abdome) -> Plano A/B/C"
+          },
+          {
+            "id": "1-4",
+            "text": "Avaliei fontanelas com a criança calma e sentada (e em < 18m lembrei que irritabilidade paradoxal/abaulamento superam rigidez de nuca)"
+          },
+          {
+            "id": "1-5",
+            "text": "No RN/lactente: testei quadril (Barlow e Ortolani um lado por vez), genitália/testículos e reflexos primitivos pertinentes"
+          }
+        ]
+      },
+      {
+        "title": "3. Antropometria, DNPM & Exame ORL Final",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Garanti antropometria correta (peso sem fralda < 2a; comprimento com joelhos estendidos/2 pessoas < 2a; PC até 2a) e plotei nas curvas OMS"
+          },
+          {
+            "id": "2-1",
+            "text": "Chequei marcos do DNPM para a idade (usando idade corrigida se prematuro < 2a) e excluí Red Flags"
+          },
+          {
+            "id": "2-2",
+            "text": "Deixei oroscopia e otoscopia POR ÚLTIMO usando contenção segura no colo da mãe (\"abraço seguro\")"
+          },
+          {
+            "id": "2-3",
+            "text": "Executei otoscopia com pegada em lápis + apoio do dedo na face + tração correta (< 3 anos baixo/trás; ≥ 3 anos cima/trás)"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 14,
+    "pitfalls": [
+      {
+        "title": "Começar pela garganta ou ouvido",
+        "detail": "Causa choro prolongado e inviabiliza ausculta, FR real e palpação de fontanela."
+      },
+      {
+        "title": "Segurar o otoscópio como martelo sem apoiar na face",
+        "detail": "Movimento brusco da criança pode perfurar o conduto ou o tímpano."
+      },
+      {
+        "title": "Contar FR por 15s ou durante choro/febre alta",
+        "detail": "Gera falso diagnóstico de taquipneia — conte 60s completos calma/afebril."
+      },
+      {
+        "title": "Julgar fontanela \"abaulada\" com bebê berrando ou deitado",
+        "detail": "O choro eleva transitoriamente a pressão venosa; avalie sentado e calmo."
+      },
+      {
+        "title": "Pular pulsos femorais simultâneos aos braquiais",
+        "detail": "Faz perder Coarctação de Aorta em RNs e lactentes."
+      },
+      {
+        "title": "Ignorar Red Flags do DNPM (\"cada criança tem seu tempo\")",
+        "detail": "Não sustentar cabeça (4m), não sentar (9m), não andar/falar (18m) ou regressão exigem investigação imediata."
+      }
+    ],
+    "pitfalls_raw": "- **Começar pela garganta ou ouvido:** Causa choro prolongado e inviabiliza ausculta, FR real e palpação de fontanela.\n- **Segurar o otoscópio como martelo sem apoiar na face:** Movimento brusco da criança pode perfurar o conduto ou o tímpano.\n- **Contar FR por 15s ou durante choro/febre alta:** Gera falso diagnóstico de taquipneia — conte 60s completos calma/afebril.\n- **Julgar fontanela \"abaulada\" com bebê berrando ou deitado:** O choro eleva transitoriamente a pressão venosa; avalie sentado e calmo.\n- **Pular pulsos femorais simultâneos aos braquiais:** Faz perder Coarctação de Aorta em RNs e lactentes.\n- **Ignorar Red Flags do DNPM (\"cada criança tem seu tempo\"):** Não sustentar cabeça (4m), não sentar (9m), não andar/falar (18m) ou regressão exigem investigação imediata.",
+    "path": "05_Habilidades_Clinicas/10_Cartao_EF_Pediatrico.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-11",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Método de Diagnóstico Diferencial à Beira-Leito",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Raciocínio & Exames",
+    "hab_category": "Raciocínio & Exames",
+    "time_goal": "2–4 min",
+    "anchor": "Qualificadores → Enquadramento → Top 3 + Catástrofe / VINDICATE → Script & Limiar → Anti-Viés",
+    "pre_porta": "1. TRADUZIR DADOS (Qualificadores Semânticos):\n   Hiperagudo (seg/min = vascular/ruptura) vs Agudo (h/d = infecc/inflam) vs Subagudo/Crônico | Focal vs Difuso | Estável vs Grave (PAM < 65 | Índice Choque FC/PAS > 0,9 | qSOFA >= 2).\n\n2. ENQUADRAMENTO CLÍNICO (Problem Representation em 1 Frase):\n   [Quem + Terreno de Risco] + [Tempo + Curso] + [Síndrome Central + Qualificadores].\n\n3. MATRIZ DE DDx (Nunca sair com só 1 hipótese!):\n   - EIXO SINDRÔMICO: (1) Mais provável | (2) Alternativa plausível | (3) A CATÁSTROFE que mata hoje (Must-Not-Miss).\n   - EIXO ANATÔMICO (se dor focal): Varrer camadas de fora p/ dentro (Parede -> Víscera/Serosa -> Vaso -> Órgão adjacente).\n   - REDE VINDICATE (se caso obscuro): Vascular | Infeccioso/Inflam | Neoplásico | Degenerativo/Drogas | Iatrogênico | Congênito | Autoimune/Alérgico | Traumático/Tóxico | Endócrino/Metabólico.\n\n4. SCRIPT & LIMIAR DE TESTE (Não peça exame à toa!):\n   - Confrontar Illness Scripts: Terreno + Tempo + Achado Discriminador.\n   - Pergunta-Trava: \"Se vier (+) muda conduta? Se vier (-) muda?\" Se não mudar, NÃO peça!\n   - Emergência obvia (IAMCSST, pneumotórax hipertensivo, choque séptico, anafilaxia): TRATAR ANTES de esperar exame!\n\n5. PAUSA ANTI-VIÉS (20s):\n   \"Qual dado NÃO encaixa na minha hipótese nº 1?\" + \"Se eu errar hoje, o que mata?\" (Checar ancoragem / fechamento precoce).",
+    "checklist_sections": [
+      {
+        "title": "1. Enquadramento & Travas de Gravidade",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Traduzi a história em qualificadores semânticos (tempo, padrão e terreno de risco)"
+          },
+          {
+            "id": "0-1",
+            "text": "Formulei o Problem Representation mental ou oral em 1 frase cirúrgica"
+          },
+          {
+            "id": "0-2",
+            "text": "Chequei sinais objetivos de choque oculto ou sepse (PAM, Índice de Choque FC/PAS e qSOFA)"
+          },
+          {
+            "id": "0-3",
+            "text": "Respeitei a trava anti-alucinação (não assumi como negativa dado que não perguntei/examinei)"
+          }
+        ]
+      },
+      {
+        "title": "2. Geração de Diferenciais & Scripts",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Listei pelo menos 3 hipóteses (provável, alternativa e catástrofe tempo-dependente)"
+          },
+          {
+            "id": "1-1",
+            "text": "Usei abordagem anatômica (dor localizada) ou VINDICATE (caso atípico/obscuro)"
+          },
+          {
+            "id": "1-2",
+            "text": "Busquei achados discriminadores à beira-leito comparando os Illness Scripts"
+          }
+        ]
+      },
+      {
+        "title": "3. Limiar de Exames & Higiene Cognitiva",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Pedi apenas exames que mudam a conduta (sem \"pesca de arrastão\" nem atrasar emergência)"
+          },
+          {
+            "id": "2-1",
+            "text": "Fiz a Pausa Anti-Viés buscando ativamente um dado discrepante contra minha 1ª hipótese"
+          },
+          {
+            "id": "2-2",
+            "text": "Considerei SIFE e prevenção quaternária antes de fechar plano/alta"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 10,
+    "pitfalls": [
+      {
+        "title": "Fechamento precoce com 1 hipótese",
+        "detail": "Ignorar a catástrofe tempo-dependente (ex: rotular dor no flanco como cólica renal sem pensar em AAA roto ou ectópica)."
+      },
+      {
+        "title": "Ancoragem no rótulo da triagem",
+        "detail": "Aceitar diagnóstico prévio (\"gastrite\", \"DPOC\", \"ansiedade\") sem checar sinais vitais, HGT e achados que contradizem."
+      },
+      {
+        "title": "Pedir D-dímero com probabilidade clínica alta",
+        "detail": "D-dímero negativo não exclui TEP em risco alto — pule direto para angioTC."
+      },
+      {
+        "title": "Esperar resultado de exame para tratar emergência",
+        "detail": "Atrasar reperfusão, adrenalina, ATB na sepse ou descompressão de pneumotórax aguardando papel."
+      },
+      {
+        "title": "Registrar negativa não perguntada",
+        "detail": "Presumir exame normal ou ausência de red flag sem ter executado à beira-leito."
+      }
+    ],
+    "pitfalls_raw": "- **Fechamento precoce com 1 hipótese:** Ignorar a catástrofe tempo-dependente (ex: rotular dor no flanco como cólica renal sem pensar em AAA roto ou ectópica).\n- **Ancoragem no rótulo da triagem:** Aceitar diagnóstico prévio (\"gastrite\", \"DPOC\", \"ansiedade\") sem checar sinais vitais, HGT e achados que contradizem.\n- **Pedir D-dímero com probabilidade clínica alta:** D-dímero negativo não exclui TEP em risco alto — pule direto para angioTC.\n- **Esperar resultado de exame para tratar emergência:** Atrasar reperfusão, adrenalina, ATB na sepse ou descompressão de pneumotórax aguardando papel.\n- **Registrar negativa não perguntada:** Presumir exame normal ou ausência de red flag sem ter executado à beira-leito.",
+    "path": "05_Habilidades_Clinicas/11_Cartao_Metodo_DDx.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-12",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Leitura Sistemática do ECG (Os 10 Passos)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Raciocínio & Exames",
+    "hab_category": "Raciocínio & Exames",
+    "time_goal": "2–3 min",
+    "anchor": "Calibração → Ritmo/P → FC → Eixo → PR → QRS → ST/J → T/Ocultos → QTc → Prévio",
+    "pre_porta": "GRADE: 1q = 40ms / 0,1mV | 1Q = 200ms / 0,5mV | 5Q = 1s | 30Q = 6s.\n\n1. CALIBRAÇÃO & ELETRODOS: 25mm/s e 10mm/mV (retângulo 2Q altura). aVR negativo + DI positivo? (DI neg + aVR pos + R normal V1-V6 = TROCA DE BRAÇOS!).\n2. RITMO & ONDA P: Sinusal = P(+) DI/DII/aVF + P(-) aVR + P:QRS 1:1. (R-R irregular sem P = FA | FC ~150 regular = procurar Flutter 2:1!).\n3. FC EXATA: Regular = 300/Q (ou 1500/q). Irregular = QRS em 30Q (6s) x 10.\n4. EIXO (DI e aVF): Ambos (+) = Normal | DI(+) aVF(-) -> olhar DII: se DII(-) = Desvio E (BDAS/HVE) | DI(-) aVF(+) = Desvio D (TEP/VD).\n5. PR (120–200ms / 3–5q):\n   - Curto (<120ms) + onda delta = WPW (PROIBIDO bloqueador AV se FA!).\n   - Longo (>200ms): 1º grau fixo | Mobitz I (alonga até falhar) | Mobitz II (PR fixo e falha súbita -> MARCAPASSO!) | BAVT (P e QRS dissociados).\n6. QRS (<120ms / <3q): WiLLiaM MaRRoW (BRE = W em V1, M em V6; BRD = rSR' em V1, W em V6) | Q patológica (>=40ms ou >25% R) | HVE (Sokolow S_V1+R_V5/6 >= 35mm) | S1Q3T3 (TEP).\n7. ST / PONTO J (comparar PR): Supra >= 1mm (>=2mm H>=40a ou >=1,5mm M em V2-V3) em >= 2 contíguas.\n   - Inferior (DII/DIII/aVF) -> RODAR V3R/V4R (VD = PROIBIDO NITRATO!) e V7-V9.\n   - Infra V1-V3 -> RODAR V7-V9 (IAM posterior!).\n   - Pericardite = supra côncavo difuso + INFRA DE PR. HiperK+ = T em tenda -> P some -> QRS alarga -> sinusoidal!\n8. ONDA T & EQUIVALENTES OCULTOS: Wellens (T bifásica/invertida simétrica V2-V3 sem dor = PROIBIDO teste ergométrico!) | De Winter (infra ascendente J + T alta V1-V6) | Supra aVR + infra difuso (TCE) | Sgarbossa modificado (concord >=1mm ou discord |ST/S| >= 0,25).\n9. QTc BAZETT: QT(s) / raiz(RR s). Alerta crítico >= 500 ms (risco Torsades -> checar K/Mg/Ca e drogas!).\n10. COMPARAR COM PRÉVIO: Mudança dinâmica? Se dor persistir, seriar ECG a cada 15–30 min!",
+    "checklist_sections": [
+      {
+        "title": "1. Técnica & Ritmo Basal (Passos 1–5)",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Conferi padronização (25 mm/s e 10 mm/mV) e descartei troca de eletrodos (aVR/DI)"
+          },
+          {
+            "id": "0-1",
+            "text": "Verifiquei critério completo de ritmo sinusal (P+ em DI/DII/aVF, P- em aVR, P:QRS 1:1)"
+          },
+          {
+            "id": "0-2",
+            "text": "Calculei a FC exata pelo método adequado ao ritmo (300/Q vs regra dos 6 segundos)"
+          },
+          {
+            "id": "0-3",
+            "text": "Determinei eixo do QRS (DI/aVF e DII se desvio esquerdo)"
+          },
+          {
+            "id": "0-4",
+            "text": "Medi intervalo PR procurando pré-excitação (WPW) e diferenciando BAV Mobitz I, II e BAVT"
+          }
+        ]
+      },
+      {
+        "title": "2. QRS, Isquemia & Ocultos (Passos 6–8)",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Avaliei duração/morfologia do QRS (BRE/BRD, HVE, ondas Q patológicas, S1Q3T3)"
+          },
+          {
+            "id": "1-1",
+            "text": "Varri Ponto J/ST por paredes contíguas buscando imagem em espelho ou infra de PR (pericardite)"
+          },
+          {
+            "id": "1-2",
+            "text": "Se IAM inferior ou infra em V1–V3, solicitei imediatamente derivações V3R/V4R e V7–V9"
+          },
+          {
+            "id": "1-3",
+            "text": "Rastreiei sinais de hipercalemia (T apiculada, P achatada, QRS alargando)"
+          },
+          {
+            "id": "1-4",
+            "text": "Chequei padrões oclusivos sem supra clássico (Wellens, De Winter, supra aVR, Sgarbossa no BRE)"
+          }
+        ]
+      },
+      {
+        "title": "3. QT & Contexto Dinâmico (Passos 9–10)",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Calculei o QTc pela fórmula de Bazett (alerta crítico se ≥ 500 ms)"
+          },
+          {
+            "id": "2-1",
+            "text": "Comparei com ECG prévio e indiquei ECG seriado (15–30 min) se dor ativa/inconclusivo"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 12,
+    "pitfalls": [
+      {
+        "title": "Dar nitrato em IAM inferior sem checar V4R",
+        "detail": "Se houver infarto de VD, o nitrato derruba a pré-carga e causa choque refratário."
+      },
+      {
+        "title": "Achar infra de V1–V3 \"só IAMSSST\"",
+        "detail": "Sem rodar V7–V9 você deixa de reperfundir um IAM posterior agudo; jamais espere troponina no IAMCSST nem trombolise SCASSST."
+      },
+      {
+        "title": "Teste ergométrico na Síndrome de Wellens",
+        "detail": "T bifásica ou invertida simétrica em V2–V3 indica DA proximal crítica — esteira pode causar IAM maciço."
+      },
+      {
+        "title": "Bloqueador do nó AV em FA + WPW",
+        "detail": "Adenosina, verapamil, diltiazem ou betabloqueador em taquicardia irregular de QRS largo pode desencadear Fibrilação Ventricular."
+      },
+      {
+        "title": "Ignorar QTc ≥ 500 ms ou T em tenda",
+        "detail": "Perder risco iminente de Torsades de Pointes ou parada por hipercalemia grave."
+      }
+    ],
+    "pitfalls_raw": "- **Dar nitrato em IAM inferior sem checar V4R:** Se houver infarto de VD, o nitrato derruba a pré-carga e causa choque refratário.\n- **Achar infra de V1–V3 \"só IAMSSST\":** Sem rodar V7–V9 você deixa de reperfundir um IAM posterior agudo; jamais espere troponina no IAMCSST nem trombolise SCASSST.\n- **Teste ergométrico na Síndrome de Wellens:** T bifásica ou invertida simétrica em V2–V3 indica DA proximal crítica — esteira pode causar IAM maciço.\n- **Bloqueador do nó AV em FA + WPW:** Adenosina, verapamil, diltiazem ou betabloqueador em taquicardia irregular de QRS largo pode desencadear Fibrilação Ventricular.\n- **Ignorar QTc ≥ 500 ms ou T em tenda:** Perder risco iminente de Torsades de Pointes ou parada por hipercalemia grave.",
+    "path": "05_Habilidades_Clinicas/12_Cartao_Leitura_ECG.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-13",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Leitura Sistemática do RX de Tórax (RIPE + ABCDE-F)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Raciocínio & Exames",
+    "hab_category": "Raciocínio & Exames",
+    "time_goal": "2–3 min",
+    "anchor": "Identificação/PA vs AP → RIPE → ABCDE-F → 5 Áreas Cegas",
+    "pre_porta": "0. IDENTIFICAR: Nome + Data/Hora + PA vs AP (AP no leito = escápulas dentro e FALSA cardiomegalia!).\n1. QUALIDADE TÉCNICA (RIPE):\n   - R (Rotação): Clavículas equidistantes do processo espinhoso.\n   - I (Inspiração): 9–10 arcos posteriores (ou 5–7 anteriores) acima do diafragma D.\n   - P (Penetração): Vértebras torácicas apenas visíveis atrás do coração.\n   - E (Extensão): Dos ápices aos seios costofrênicos completos.\n\n2. VARREDURA CEGA (ABCDE-F):\n   - A (Airways): Traqueia centrada | Ângulo carina | Hilo E normalmente mais alto que D!\n   - B (Bones/Partes Moles): Clavículas -> Arcos costais 1 a 1 -> Escápulas -> Coluna | Enfisema subcutâneo / sombra mamária.\n   - C (Cardiac/Mediastino): ICT < 0,50 (só em PA!) | Contornos D/E | Mediastino > 8 cm = alerta Dissecção Aorta!\n   - D (Diaphragm): Cúpula D 1–3cm > E | Seios costofrênicos agudos (velamento = derrame) | AR SUBDIAFRAGMÁTICO = víscera perfurada!\n   - E (Effusions/Pulmões): 3 Zonas comparativas (Sup/Média/Inf D vs E). Consolidação (broncograma) vs Atelectasia (PUXA) vs Pneumotórax (sem trama periférica) | Silhueta Felson (apagou borda D = Lobo Médio; E = Língula; cúpula = Lobo Inferior).\n   - F (Foreign bodies/Dispositivos):\n     * TOT: 3–5 cm acima da carina (altura das clavículas).\n     * CVC: Junção cavoatrial (~2 cm abaixo da carina) + checar pneumotórax!\n     * SNG/SNE: Linha média atrás da traqueia até estômago/duodeno ANTES de liberar dieta!\n\n3. 5 ÁREAS CEGAS: Ápices | Retrocardíaco | Hilos | Seios posteriores (perfil) | Subdiafragma.",
+    "checklist_sections": [
+      {
+        "title": "1. Identificação & Técnica (RIPE)",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Conferi nome, data/hora e se a incidência é PA ou AP no leito"
+          },
+          {
+            "id": "0-1",
+            "text": "Avaliei RIPE (Rotação, Inspiração 9–10 arcos, Penetração atrás do coração e Extensão)"
+          }
+        ]
+      },
+      {
+        "title": "2. Varredura ABCDE-F Completa",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "A: Chequei centralização da traqueia, carina e altura/contorno dos hilos (E > D)"
+          },
+          {
+            "id": "1-1",
+            "text": "B: Varri clavículas, arcos costais um a um, coluna e partes moles (enfisema subcutâneo)"
+          },
+          {
+            "id": "1-2",
+            "text": "C: Avaliei ICT (< 0,50 apenas em PA), contornos cardíacos e largura do mediastino (< 8 cm)"
+          },
+          {
+            "id": "1-3",
+            "text": "D: Chequei cúpulas diafragmáticas, seios costofrênicos e pesquisei ar subdiafragmático"
+          },
+          {
+            "id": "1-4",
+            "text": "E: Comparei campos pulmonares em 3 zonas D vs E e apliquei o Sinal da Silhueta de Felson"
+          },
+          {
+            "id": "1-5",
+            "text": "F: Localizei a ponta exata de todo dispositivo (TOT, CVC, SNG/SNE, dreno) antes de liberar uso"
+          }
+        ]
+      },
+      {
+        "title": "3. Áreas Cegas",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Revisei as 5 áreas cegas (ápices, retrocardíaco, hilos, seios posteriores, subdiafragma)"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 9,
+    "pitfalls": [
+      {
+        "title": "Liberar dieta por SNE sem confirmar RX",
+        "detail": "Sonda no brônquio direito causa pneumonia/empiema grave se infundir dieta."
+      },
+      {
+        "title": "Pedir RX ou intubar antes de descomprimir pneumotórax hipertensivo",
+        "detail": "Ventilação positiva colapsa o retorno venoso imediatamente; no choque com E-FAST+ também é proibido levar para TC."
+      },
+      {
+        "title": "Laudar cardiomegalia e congestão em AP hipoinspirado",
+        "detail": "Técnica ruim cria falsa cardiomegalia e aglomeração vascular basal."
+      },
+      {
+        "title": "Focar só no pulmão e perder ar subdiafragmático",
+        "detail": "Sempre olhe abaixo da cúpula direita buscando pneumoperitônio."
+      },
+      {
+        "title": "Esquecer de checar TOT após intubação",
+        "detail": "Tubo seletivo no brônquio fonte direito causa atelectasia completa esquerda."
+      }
+    ],
+    "pitfalls_raw": "- **Liberar dieta por SNE sem confirmar RX:** Sonda no brônquio direito causa pneumonia/empiema grave se infundir dieta.\n- **Pedir RX ou intubar antes de descomprimir pneumotórax hipertensivo:** Ventilação positiva colapsa o retorno venoso imediatamente; no choque com E-FAST+ também é proibido levar para TC.\n- **Laudar cardiomegalia e congestão em AP hipoinspirado:** Técnica ruim cria falsa cardiomegalia e aglomeração vascular basal.\n- **Focar só no pulmão e perder ar subdiafragmático:** Sempre olhe abaixo da cúpula direita buscando pneumoperitônio.\n- **Esquecer de checar TOT após intubação:** Tubo seletivo no brônquio fonte direito causa atelectasia completa esquerda.",
+    "path": "05_Habilidades_Clinicas/13_Cartao_Leitura_RX_Torax.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-14",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Leitura Sistemática de Gasometria & Lab Básico",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Raciocínio & Exames",
+    "hab_category": "Raciocínio & Exames",
+    "time_goal": "2–3 min",
+    "anchor": "H-H → pH → Primário (ROME) → Winter/Compensação → AG Corrigido + Delta-Delta + P/F",
+    "pre_porta": "GASOMETRIA ARTERIAL (pH 7,35-7,45 | PaCO2 35-45 | HCO3 22-26 | Lactato < 2,0):\n1. VALIDADE H-H & TIPO: [H+] esp = 24 x (PaCO2 / HCO3) [pH 7,40=40; 7,30=50; 7,20=63; 7,50=32]. Venosa serve p/ pH/HCO3/lactato, NÃO serve p/ PaO2!\n2. pH: < 7,35 Acidemia | > 7,45 Alcalemia. (pH normal com pCO2/HCO3 alterados = DISTÚRBIO MISTO!).\n3. PRIMÁRIO (ROME): pH cai + pCO2 sobe = Acid Resp | pH cai + HCO3 cai = Acid Metab. (Oposto = Alc).\n4. COMPENSAÇÃO (Caçar Misto!):\n   - Acid Metab (Winter): PaCO2 esp = (1,5 x HCO3) + 8 +/- 2. (Real > esp = Acid Resp assoc/fadiga!).\n   - Alc Metab: PaCO2 esp ~ HCO3 + 15 (teto ~55).\n   - Acid Resp: Aguda +1 HCO3 p/ +10 PaCO2 | Crônica +3,5 a 4 HCO3 p/ +10 PaCO2.\n   - Alc Resp: Aguda -2 HCO3 p/ -10 PaCO2 | Crônica -4 a 5 HCO3 p/ -10 PaCO2.\n5. AG CORRIGIDO + DELTA-DELTA + P/F:\n   - AG = Na - (Cl + HCO3) [Normal 8–12]. AG_corr = AG + 2,5 x (4,0 - Albumina)!\n   - Se AG > 12: HCO3_corr = HCO3 + (AG_corr - 12). (<22 = Acid Hiperclorêmica assoc | >26 = Alc Metab assoc).\n   - PaO2/FiO2: <=300 Leve | <=200 Mod | <=100 Grave | Lactato >= 4 = choque tecidual.\n\nLAB BÁSICO RÁPIDO:\n- HEMOGRAMA: VCM/RDW/Retic | Olhar neutrófilos ABSOLUTOS (Neutropenia <500 + Tax >=38,3 = ATB < 1h!) | Citrato se pseudotrombocitopenia.\n- K+/Na+: HiperK+ (>5,5) -> ECG JÁ! (Gluconato Ca 10% se ECG alt/K>=6,5). HipoK+ -> repor Mg++ junto! Na+ -> corrigir glicemia (Katz) e subir <= 8 mEq/L em 24h!\n- RIM (KDIGO): E1 >= +0,3/48h ou 1,5-1,9x | E2 2-2,9x | E3 >=3x ou Cr>=4 ou diálise. Checar K+, gaso, obstrução e ajuste de dose.\n- FÍGADO: TGO/TGP (hepatocelular; >1000 isquemia/paracetamol/viral) vs FA+GGT+BD (colestase -> USG!). Síntese REAL = INR + Albumina!",
+    "checklist_sections": [
+      {
+        "title": "1. Os 5 Passos da Gasometria",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Conferi validade interna (Henderson-Hasselbalch) e se a amostra era arterial ou venosa"
+          },
+          {
+            "id": "0-1",
+            "text": "Classifiquei o pH (acidemia vs alcalemia) sem presumir normalidade em pH 7,35–7,45 alterado"
+          },
+          {
+            "id": "0-2",
+            "text": "Identifiquei o componente primário (PaCO2 vs HCO3) e apliquei a fórmula de compensação esperada"
+          },
+          {
+            "id": "0-3",
+            "text": "Calculei Ânion Gap corrigido pela albumina e apliquei Delta-Delta se AG > 12"
+          },
+          {
+            "id": "0-4",
+            "text": "Avaliei Lactato, Gradiente A-a e relação PaO2/FiO2 (índice de oxigenação)"
+          }
+        ]
+      },
+      {
+        "title": "2. Laboratório Básico Crítico",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Chequei Hemograma completo (VCM/RDW, contagem absoluta de neutrófilos e plaquetas)"
+          },
+          {
+            "id": "1-1",
+            "text": "Avaliei K+ (ECG imediato se hipercalemia; Mg++ se hipocalemia) e Na+ respeitando limite de 8 mEq/L/24h"
+          },
+          {
+            "id": "1-2",
+            "text": "Comparei Creatinina atual com a basal + diurese (estadiamento KDIGO) e ajustei medicações"
+          },
+          {
+            "id": "1-3",
+            "text": "Separei padrão hepatocelular vs colestático (FA + GGT) e chequei síntese real (INR e Albumina)"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 9,
+    "pitfalls": [
+      {
+        "title": "Usar gasometria de pH 7,38 como \"normal\"",
+        "detail": "Quando PaCO2 e HCO3 estão desviados juntos, há distúrbio misto grave oculto."
+      },
+      {
+        "title": "Esquecer de corrigir o Ânion Gap pela albumina",
+        "detail": "Cada 1 g/dL abaixo de 4,0 mascara 2,5 mEq/L de acidose láctica ou cetoacidose."
+      },
+      {
+        "title": "Erros letais na Cetoacidose Diabética",
+        "detail": "Nunca inicie insulina IV com K+ < 3,3 ou desconhecido, não dê bicarbonato se pH > 6,9 e não desligue insulina ao baixar glicemia < 250 sem fechar o AG."
+      },
+      {
+        "title": "Corrigir sódio crônico > 8 mEq/L/24h",
+        "detail": "Risco catastrófico de Síndrome de Desmielinização Osmótica (mielinólise pontina)."
+      },
+      {
+        "title": "Confiar na Hb na 1ª hora de hemorragia ou só em TGO/TGP no fígado",
+        "detail": "Hb demora a cair após sangramento agudo; insuficiência hepática aguda se mede por **INR e encefalopatia**."
+      }
+    ],
+    "pitfalls_raw": "- **Usar gasometria de pH 7,38 como \"normal\":** Quando PaCO2 e HCO3 estão desviados juntos, há distúrbio misto grave oculto.\n- **Esquecer de corrigir o Ânion Gap pela albumina:** Cada 1 g/dL abaixo de 4,0 mascara 2,5 mEq/L de acidose láctica ou cetoacidose.\n- **Erros letais na Cetoacidose Diabética:** Nunca inicie insulina IV com K+ < 3,3 ou desconhecido, não dê bicarbonato se pH > 6,9 e não desligue insulina ao baixar glicemia < 250 sem fechar o AG.\n- **Corrigir sódio crônico > 8 mEq/L/24h:** Risco catastrófico de Síndrome de Desmielinização Osmótica (mielinólise pontina).\n- **Confiar na Hb na 1ª hora de hemorragia ou só em TGO/TGP no fígado:** Hb demora a cair após sangramento agudo; insuficiência hepática aguda se mede por **INR e encefalopatia**.",
+    "path": "05_Habilidades_Clinicas/14_Cartao_Leitura_Gasometria.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-15",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Leitura Sistemática de CTG & Partograma (CO)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Raciocínio & Exames",
+    "hab_category": "Raciocínio & Exames",
+    "time_goal": "2–4 min",
+    "anchor": "Risco/IG → Contrações → Base → Variabilidade → Acel/DIPs | Cat I/II/III → DLE/Ocitocina/Volume/Toque",
+    "pre_porta": "PARTE 1 — CTG EM 5 PASSOS (Conferir velocidade 1 vs 3 cm/min + pulso materno!):\n1. RISCO & IG: < 32s aceleração 10x10; >= 32s aceleração 15x15. Checar MgSO4/opioide/corticoide/sono (20–40m).\n2. CONTRAÇÕES (10 min): Normal <= 5/10 min | Taquissistolia > 5/10 min | Hipertonia > 2 min (pensar DPP!).\n3. LINHA DE BASE (média em 10m): Normal 110–160 | >160 Taqui (corioamnionite/febre!) | <110 Bradi (hipóxia/pulso materno?).\n4. VARIABILIDADE (Ouro ácido-básico!): Moderada 6–25 bpm (tranquilizadora!) | Mínima <= 5 | Ausente | Sinusoidal >= 20m (anemia grave = EMERGÊNCIA!).\n5. ACELERAÇÕES & DESACELERAÇÕES:\n   - DIP I (Precoce): espelha contração = compressão cefálica (benigna).\n   - DIP II (Tardia): nadir APÓS pico da contração = insuficiência uteroplacentária (ALARME!).\n   - DIP III (Variável): queda abrupta (<30s) variável = compressão de cordão.\n   - Prolongada: >= 2 min e < 10 min (>= 10 min = nova linha de base!).\n\nCATEGORIAS & RESSUSCITAÇÃO INTRAUTERINA (< 2 min):\n- CAT I (110–160 + Mod 6–25 + sem DIP II/III): Rotina.\n- CAT II (Indeterminada): RESSUSCITAÇÃO + reavaliar em 20–30m.\n- CAT III (Var Ausente + DIP II/III rec ou Bradi OU Sinusoidal): RESSUSCITAÇÃO + PARTO IMEDIATO!\nCOMBO RESSUSCITAÇÃO: (1) DLE -> (2) Desligar Ocitocina (terbutalina 0,25mg SC se taquissistolia refratária) -> (3) RL/SF 500mL IV se hipotensão -> (4) TOQUE VAGINAL (prolapso cordão / expulsivo / DPP!) -> (5) O2 máscara SÓ se SpO2 materna < 95% ou Cat III.\n\nPARTE 2 — PARTOGRAMA (SÓ ABRIR NA FASE ATIVA >= 4–5 cm com dinâmica regular!):\n- Alerta (1 cm/h) vs Ação (4h à direita).\n- Fase ativa prolongada (< 1 cm/h + contração fraca) = Distócia Funcional -> deambular/amniotomia/ocitocina.\n- Parada 2ª dilatação (>= 2h mesma dilatação): Sem motor = Ocitocina | Motor forte + bossa = DCP -> CESÁREA!\n- Parada 2ª descida (10 cm sem descer >= 1h): De Lee <= 0 (DCP) = Cesárea | De Lee +2/+3 = Fórceps/Vácuo.",
+    "checklist_sections": [
+      {
+        "title": "1. Cardiotocografia (Os 5 Passos & Ressuscitação)",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Conferi velocidade do papel, tempo mínimo (20 min), IG e pulso materno simultâneo"
+          },
+          {
+            "id": "0-1",
+            "text": "Avaliei dinâmica uterina em 10 min descartando taquissistolia (> 5/10) e hipertonia"
+          },
+          {
+            "id": "0-2",
+            "text": "Determinei linha de base (110–160 bpm) e grau de variabilidade (moderada 6–25 vs ausente/sinusoidal)"
+          },
+          {
+            "id": "0-3",
+            "text": "Classifiquei acelerações e desacelerações (DIP I, II, III ou prolongada) e cravei Categoria I, II ou III"
+          },
+          {
+            "id": "0-4",
+            "text": "Em Categoria II/III: executei ressuscitação intrauterina completa (DLE, parar ocitocina, volume, toque vaginal)"
+          }
+        ]
+      },
+      {
+        "title": "2. Leitura & Conduta no Partograma",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Confirmei abertura do partograma apenas na Fase Ativa real (≥ 4–5 cm com contrações rítmicas)"
+          },
+          {
+            "id": "1-1",
+            "text": "Registrei dilatação, De Lee, variedade de posição, bolsa, dinâmica e BCF no gráfico"
+          },
+          {
+            "id": "1-2",
+            "text": "Ao cruzar Linha de Alerta/Ação, avaliei os 3 Ps diferenciando distócia funcional vs mecânica (DCP)"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 8,
+    "pitfalls": [
+      {
+        "title": "Indicar cesárea na primeira desaceleração sem ressuscitação intrauterina",
+        "detail": "Variabilidade moderada (6–25 bpm) exclui acidemia na hora; mude decúbito, desligue ocitocina e reavalie antes."
+      },
+      {
+        "title": "Confundir bradicardia fetal com pulso materno",
+        "detail": "Sempre confira pulso radial da mãe quando houver queda súbita de FCF no sonar/cardiotoco."
+      },
+      {
+        "title": "Esquecer o toque vaginal numa desaceleração prolongada",
+        "detail": "Pode ser prolapso de cordão umbilical ou período expulsivo iminente."
+      },
+      {
+        "title": "Abrir partograma na fase latente (2–3 cm)",
+        "detail": "Cria falso diagnóstico de parada secundária da dilatação e leva a cesárea desnecessária."
+      },
+      {
+        "title": "Dar ocitocina em parada secundária com motor forte e bossa (DCP)",
+        "detail": "Risco gravíssimo de rotura uterina."
+      }
+    ],
+    "pitfalls_raw": "- **Indicar cesárea na primeira desaceleração sem ressuscitação intrauterina:** Variabilidade moderada (6–25 bpm) exclui acidemia na hora; mude decúbito, desligue ocitocina e reavalie antes.\n- **Confundir bradicardia fetal com pulso materno:** Sempre confira pulso radial da mãe quando houver queda súbita de FCF no sonar/cardiotoco.\n- **Esquecer o toque vaginal numa desaceleração prolongada:** Pode ser prolapso de cordão umbilical ou período expulsivo iminente.\n- **Abrir partograma na fase latente (2–3 cm):** Cria falso diagnóstico de parada secundária da dilatação e leva a cesárea desnecessária.\n- **Dar ocitocina em parada secundária com motor forte e bossa (DCP):** Risco gravíssimo de rotura uterina.",
+    "path": "05_Habilidades_Clinicas/15_Cartao_Leitura_CTG_Partograma.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-16",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Comunicação Clínica, SPIKES & Teach-Back",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Comunicação & Relação Médico-Paciente",
+    "hab_category": "Comunicação & Relação Médico-Paciente",
+    "time_goal": "2–5 min (adesão) | 10–15 min (SPIKES)",
+    "anchor": "NURSE (15s) → Ask-Tell-Ask → Teach-Back | SPIKES → Disco Riscado / Alta Segura",
+    "pre_porta": "1. EMPATIA & NÃO VERBAL: Sentar na altura visual | Pessoa antes do PEP | Pausar 3-5s na emoção | Tomada de perspectiva (sem contágio ansioso).\n2. NURSE (15s na emoção): Nomear -> Compreender (legitimar) -> Respeitar esforço -> Apoiar (\"estamos juntos\") -> Explorar medo/SIFE.\n3. ASK-TELL-ASK + TEACH-BACK: O que já sabe? -> Fatia curta sem jargão (máx 3 ideias) -> \"Para eu ter certeza que expliquei bem: como vai tomar e quais os 3 sinais para voltar ao PS?\"\n4. SPIKES (MÁS NOTÍCIAS): S (sala privada, ler prontuário, lenços) -> P (o que já sabe?) -> I (quanto quer saber?) -> K (Tiro de alerta + frase direta sem jargão + SILÊNCIO 5-10s!) -> E (NURSE no choro/raiva/culpa) -> S (plano concreto, nunca dizer \"não há nada a fazer\").\n5. PACIENTE DIFÍCIL / ALTA A PEDIDO:\n   - Hostil: Saída livre para porta + baixar tom + validar frustração + limite de respeito (\"disco riscado\").\n   - Pedido sem indicação (exame/ATB/atestado): Descobrir medo oculto -> Explicar o DANO ao paciente -> Plano ativo + rede de segurança.\n   - Alta a pedido: Checar lucidez/delirium -> Resolver motivo oculto (dor/casa) -> Explicar risco de morte sem ameaçar -> Chamar PRECEPTOR + termo + 2 testemunhas + porta aberta!",
+    "checklist_sections": [
+      {
+        "title": "1. Não Verbal, Escuta Ativa & NURSE",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Sentei na mesma altura visual e mantive contato visual antes de focar no computador/PEP"
+          },
+          {
+            "id": "0-1",
+            "text": "Respeitei 3–5 segundos de silêncio terapêutico diante de pausa emocional ou choro"
+          },
+          {
+            "id": "0-2",
+            "text": "Apliquei validação emocional (`NURSE`) antes de dar explicações técnicas"
+          },
+          {
+            "id": "0-3",
+            "text": "Investiguei medos/expectativas ocultas (`SIFE`: Sentimentos, Ideias, Função, Expectativas)"
+          }
+        ]
+      },
+      {
+        "title": "2. Explicação & Adesão (`Ask–Tell–Ask` + `Teach-Back`)",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Traduzi o diagnóstico sem jargão médico usando analogia simples e no máximo 3 ideias"
+          },
+          {
+            "id": "1-1",
+            "text": "Ancorei horários da receita na rotina real do paciente (café, almoço, jantar, dormir)"
+          },
+          {
+            "id": "1-2",
+            "text": "Apliquei `Teach-Back` assumindo a responsabilidade (\"para eu saber se expliquei direito...\")"
+          },
+          {
+            "id": "1-3",
+            "text": "Confirmei se o paciente soube repetir a duração do tratamento e os sinais de alarme para retorno imediato"
+          }
+        ]
+      },
+      {
+        "title": "3. Más Notícias (`SPIKES`) & Manejo de Conflitos *(quando aplicável)*",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Garanti sala reservada, revisão prévia do caso e convidei acompanhante de escolha (`Setting`)"
+          },
+          {
+            "id": "2-1",
+            "text": "Dei o \"tiro de alerta\" e a notícia direta sem jargão, sustentando 5–10s de silêncio após falar"
+          },
+          {
+            "id": "2-2",
+            "text": "Em demanda sem indicação (ATB/exame), expliquei por que não fazer protege o paciente e ofereci plano ativo"
+          },
+          {
+            "id": "2-3",
+            "text": "Em hostilidade ou alta a pedido: garanti segurança física, chequei capacidade mental, envolvi o preceptor e registrei com testemunhas"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 12,
+    "pitfalls": [
+      {
+        "title": "Perguntar \"Entendeu tudo?\"",
+        "detail": "Paciente diz \"sim\" por vergonha e toma a prescrição errada em casa."
+      },
+      {
+        "title": "Atropelar o silêncio após má notícia",
+        "detail": "Falar de quimioterapia ou burocracia nos primeiros 10s impede a escuta."
+      },
+      {
+        "title": "Dizer \"Não tem mais nada a fazer\" ou \"Logo têm outro filho\"",
+        "detail": "Abandono terapêutico e trauma no luto."
+      },
+      {
+        "title": "Ceder a ATB/exame sem critério ou entrar em guerra de ego",
+        "detail": "Gera iatrogenia e destrói o vínculo."
+      },
+      {
+        "title": "Liberar Alta a Pedido sem checar delirium/risco iminente ou sem preceptor",
+        "detail": "Falha ética e médico-legal grave."
+      }
+    ],
+    "pitfalls_raw": "- **Perguntar \"Entendeu tudo?\":** Paciente diz \"sim\" por vergonha e toma a prescrição errada em casa.\n- **Atropelar o silêncio após má notícia:** Falar de quimioterapia ou burocracia nos primeiros 10s impede a escuta.\n- **Dizer \"Não tem mais nada a fazer\" ou \"Logo têm outro filho\":** Abandono terapêutico e trauma no luto.\n- **Ceder a ATB/exame sem critério ou entrar em guerra de ego:** Gera iatrogenia e destrói o vínculo.\n- **Liberar Alta a Pedido sem checar delirium/risco iminente ou sem preceptor:** Falha ética e médico-legal grave.",
+    "path": "05_Habilidades_Clinicas/16_Cartao_Comunicacao_SPIKES_TeachBack.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-17",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Checklist de Segurança na Prescrição (7 Travas)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Segurança do Paciente & Prescrição",
+    "hab_category": "Segurança do Paciente & Prescrição",
+    "time_goal": "60–90 segundos antes de assinar",
+    "anchor": "A-R-G-I-V-P-O (Alergia, Rim/Fígado, Gestação, Interação, Via/Diluição, Profilaxia, Orientação)",
+    "pre_porta": "PASSAR AS 7 TRAVAS ANTES DE CLICAR EM ASSINAR OU CARIMBAR RECEITA:\n1. A (Alergia): Confirmou tipo de reação (anafilaxia/DRESS vs náusea) e reação cruzada (beta-lactâmicos, AINEs/dipirona, látex)?\n2. R (Rim & Fígado): Olhou Cr/ClCr e TGO/TGP/RNI de HOJE? Ajustou Enoxaparina (ClCr<30), Vanco, Pip-Tazo, Cefepime, Meropenem, Metformina, Morfina (preferir Fentanil) e AINEs?\n3. G (Gestação/Idade): Mulher fértil -> checou DUM/hCG antes de IECA/BRA/estatina/valproato/warfarina? Idoso -> cortou BZD/anticolinérgico? Ped -> mg/kg <= teto adulto?\n4. I (Interações & Duplicidade): Soma QTc (ondansetrona+haloperidol+azitro/cipro)? K+ (IECA+espiro+KCl)? Vanco+PipTazo? Warfarina+ATB? 2 anticoagulantes ou 2 AINEs juntos?\n5. V (Via, Diluição & Velocidade — MAVs):\n   - KCl 19,1%: NUNCA bolus! Periférico máx 40 mEq/L e <= 10 mEq/h.\n   - Fenitoína: SÓ SF 0,9% (precipita em SG!), máx 50 mg/min (25 mg/min idoso) + monitor.\n   - Amiodarona IV: SÓ SG 5% + BIC. | Vancomicina: >= 60-90 min.\n   - Insulina: escrever \"unidades\" por extenso + corte mínimo de HGT + checar jejum!\n6. P (Profilaxias & FAST HUG-SB): Ordem canônica | TEV (enoxaparina/HNF ou mecânica) | Úlcera SÓ c/ critério | Cabeceira 30-45° | HGT alvo 140-180 | Sacar SVD/acesso!\n7. O (Orientações & Receita): Nome genérico (REMUME na APS), zero abreviação (U/mcg), duração exata, 2 vias se ATB, sinais de alarme + Teach-Back.",
+    "checklist_sections": [
+      {
+        "title": "1. Travas Clínicas (`A – R – G – I`)",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Verifiquei alergias reais e reatividade cruzada (beta-lactâmicos, AINEs/dipirona, sulfa, contraste/látex)"
+          },
+          {
+            "id": "0-1",
+            "text": "Conferi função renal (ClCr) e hepática atuais e ajustei fármacos de risco (enoxaparina, ATBs, metformina, morfina)"
+          },
+          {
+            "id": "0-2",
+            "text": "Em mulher em idade fértil, chequei DUM/gestação e evitei teratogênicos; em idoso/criança, chequei Beers / mg/kg"
+          },
+          {
+            "id": "0-3",
+            "text": "Eliminei duplicidades ocultas (2 AINEs, HNF+HBPM, 2 procinéticos) e interações críticas (QTc, K+, RNI)"
+          }
+        ]
+      },
+      {
+        "title": "2. Vias, Diluições & Drogas de Alta Vigilância (`V`)",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Chequei vias e diluições críticas (`KCl` diluído/lento, `Fenitoína` só SF 0,9%, `Amiodarona` só SG 5%, `Vanco` ≥ 60 min)"
+          },
+          {
+            "id": "1-1",
+            "text": "Prescrevi insulina com \"unidades\" por extenso, corte de HGT e compatível com jejum/dieta do dia"
+          },
+          {
+            "id": "1-2",
+            "text": "Conferi cronofarmacologia (8/8h preservando sono, IBP em jejum, corticoide/diurético manhã, estatina noite)"
+          }
+        ]
+      },
+      {
+        "title": "3. Profilaxias & Receita Segura (`P – O`)",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Avaliei indicação vs contraindicação de profilaxia de TEV (sangramento/plaquetas) em paciente internado"
+          },
+          {
+            "id": "2-1",
+            "text": "Prescrevi profilaxia de úlcera de estresse apenas se houver critério real (sem IBP automático para todos)"
+          },
+          {
+            "id": "2-2",
+            "text": "Garanti cabeceira 30°–45°, meta glicêmica segura e revisei retirada de SVD/acesso venoso desnecessário"
+          },
+          {
+            "id": "2-3",
+            "text": "Entreguei receita sem abreviações perigosas, com duração exata, sinais de alarme escritos e validada por Teach-Back"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 11,
+    "pitfalls": [
+      {
+        "title": "Copiar a prescrição de ontem no automático",
+        "detail": "Ignora queda do ClCr hoje, K+ alterado ou paciente colocado em jejum com insulina mantida."
+      },
+      {
+        "title": "Prescrever KCl em bolus ou Fenitoína em SG 5%",
+        "detail": "Causa PCR/flebite química ou precipitação imediata no cateter."
+      },
+      {
+        "title": "Escrever \"10U\" de insulina",
+        "detail": "Risco clássico de leitura como \"100 unidades\" e hipoglicemia fatal."
+      },
+      {
+        "title": "Prescrever IBP para 100% da enfermaria e esquecer TEV",
+        "detail": "Inverte prioridades e aumenta infecção nosocomial e TEP."
+      },
+      {
+        "title": "Não checar DUM nem alergia cruzada na alta ambulatorial",
+        "detail": "Exposição teratogênica ou anafilaxia evitável em casa."
+      }
+    ],
+    "pitfalls_raw": "- **Copiar a prescrição de ontem no automático:** Ignora queda do ClCr hoje, K+ alterado ou paciente colocado em jejum com insulina mantida.\n- **Prescrever KCl em bolus ou Fenitoína em SG 5%:** Causa PCR/flebite química ou precipitação imediata no cateter.\n- **Escrever \"10U\" de insulina:** Risco clássico de leitura como \"100 unidades\" e hipoglicemia fatal.\n- **Prescrever IBP para 100% da enfermaria e esquecer TEV:** Inverte prioridades e aumenta infecção nosocomial e TEP.\n- **Não checar DUM nem alergia cruzada na alta ambulatorial:** Exposição teratogênica ou anafilaxia evitável em casa.",
+    "path": "05_Habilidades_Clinicas/17_Cartao_Seguranca_Prescricao.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-18",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Avaliação do Paciente Grave (ABCDE em 5 Minutos)",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Emergência & Sala Vermelha",
+    "hab_category": "Emergência & Sala Vermelha",
+    "time_goal": "3–5 minutos (Ciclo Inicial)",
+    "anchor": "Segurança/MOVE → A → B → C → D (+HGT!) → E → Reavaliar A-B-C-D",
+    "pre_porta": "0. SEGURANÇA + 5s + MOVE: EPI | Respira/tem pulso (<=10s)? Se não = ACLS! | Chamar equipe + Monitor + O2 + 2 Veias + Carrinho.\nA. VIA AÉREA (+ CERVICAL se trauma): Fala claro? Olhar estridor/sangue/edema -> Jaw-thrust (se trauma) ou Chin-lift -> Aspirar Yankauer -> Guedel (só inconsciente!) -> IOT se Glasgow <= 8 / obstrução.\nB. RESPIRAÇÃO: Inspeção + FR real + SpO2 + Percussão + Ausculta bilateral! O2 MNR 10-15L (alvo 92-96%, DPOC 88-92%) ou VNI. PTX HIPERTENSIVO (MV abolido + hipertimpânico + choque) = DESCOMPRESSÃO 14G NO 4-5º EIC LAA/LAM ANTES DO RX!\nC. CIRCULAÇÃO: Pele fria/moteada + TEC (>2-3s) + Pulsos centrais/radiais + PA/PAM + Índice Choque (FC/PAS > 0,9) + Jugular! Estancar sangramento -> 2 acessos 14-18G + colhe labs/lactato/tipagem -> ECG 10 min -> Choque guiado (não afogar cardiogênico; Anafilaxia = Adrenalina IM coxa!).\nD. NEUROLÓGICO: HGT NA BEIRA DO LEITO SEMPRE! (Corrigir se <70!) + Glasgow (AO+RV+RM) + Pupilas (anisocoria?) + Déficit focal (protocolo AVC).\nE. EXPOSIÇÃO: Despir completo -> Petéquias, foco oculto (sacral/períneo/pé), adesivos, dorso (rolamento em bloco) -> Tax + COBRIR (evitar hipotermia!).\n>>> REAVALIAR A -> B -> C -> D APÓS CADA INTERVENÇÃO!",
+    "checklist_sections": [
+      {
+        "title": "0. Início Rápido & `A` (Via Aérea)",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Garanti segurança/EPI, avaliei pulso central em ≤ 10s e acionei ajuda + `MOVE` (Monitor, O2, Veias, Carrinho)"
+          },
+          {
+            "id": "0-1",
+            "text": "Avaliei patência de via aérea, aspirei secreções/sangue e apliquei proteção cervical + *Jaw-thrust* se trauma"
+          },
+          {
+            "id": "0-2",
+            "text": "Identifiquei precocemente indicação de via aérea definitiva (Glasgow ≤ 8, estridor, fadiga refratária)"
+          }
+        ]
+      },
+      {
+        "title": "1. `B` (Respiração & Ventilação)",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Contei FR real, chequei SpO2 e executei inspeção, percussão e ausculta pulmonar bilateral (incluindo axilas)"
+          },
+          {
+            "id": "1-1",
+            "text": "Ofertei O2 suplementar titulado ao alvo certo (92–96% geral ou 88–92% no DPOC retentor) ou VNI se indicada"
+          },
+          {
+            "id": "1-2",
+            "text": "Descartei/tratei imediatamente ameaças clínicas do `B` (pneumotórax hipertensivo/aberto, EAP, broncoespasmo)"
+          }
+        ]
+      },
+      {
+        "title": "2. `C` (Circulação & Hemorragia)",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "Avaliei perfusão antes de confiar só na PA (pele, TEC, pulsos centrais/periféricos, Índice de Choque e jugular)"
+          },
+          {
+            "id": "2-1",
+            "text": "Estanquei sangramento ativo, garanti 2 acessos calibrosos (14G–18G) e colhi labs + lactato + tipagem + ECG"
+          },
+          {
+            "id": "2-2",
+            "text": "Diferenciei o tipo de choque antes de fazer prova volêmica cega (e fiz adrenalina IM imediata se anafilaxia)"
+          }
+        ]
+      },
+      {
+        "title": "3. `D` (Neurológico), `E` (Exposição) & Reavaliação",
+        "items": [
+          {
+            "id": "3-0",
+            "text": "Fiz **HGT imediato na beira do leito** no `D` (e corrigi hipoglicemia antes de pensar em TC)"
+          },
+          {
+            "id": "3-1",
+            "text": "Calculei Glasgow detalhado (`AO+RV+RM`), chequei pupilas/anisocoria e rastreei déficit focal súbito"
+          },
+          {
+            "id": "3-2",
+            "text": "Exposição completa (pele, dorso em bloco se trauma, períneo/sítios ocultos), medi Tax e cobri contra hipotermia"
+          },
+          {
+            "id": "3-3",
+            "text": "Reavaliei `A → B → C → D` imediatamente após cada intervenção realizada"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 13,
+    "pitfalls": [
+      {
+        "title": "Colher anamnese longa antes do `ABC`",
+        "detail": "O paciente descompensa enquanto você pergunta história pregressa."
+      },
+      {
+        "title": "Esquecer HGT no `D`",
+        "detail": "Mandar paciente em coma hipoglicêmico para TC causa lesão cerebral evitável."
+      },
+      {
+        "title": "Pedir RX de tórax para \"confirmar\" pneumotórax hipertensivo",
+        "detail": "Diagnóstico é clínico e descompressão é imediata."
+      },
+      {
+        "title": "Infundir 2L de cristaloide sem checar pulmão/jugular",
+        "detail": "Afoga o paciente em choque cardiogênico/EAP."
+      },
+      {
+        "title": "Deixar paciente grave descoberto",
+        "detail": "Hipotermia agrava acidose e coagulopatia na sala de emergência."
+      }
+    ],
+    "pitfalls_raw": "- **Colher anamnese longa antes do `ABC`:** O paciente descompensa enquanto você pergunta história pregressa.\n- **Esquecer HGT no `D`:** Mandar paciente em coma hipoglicêmico para TC causa lesão cerebral evitável.\n- **Pedir RX de tórax para \"confirmar\" pneumotórax hipertensivo:** Diagnóstico é clínico e descompressão é imediata.\n- **Infundir 2L de cristaloide sem checar pulmão/jugular:** Afoga o paciente em choque cardiogênico/EAP.\n- **Deixar paciente grave descoberto:** Hipotermia agrava acidose e coagulopatia na sala de emergência.",
+    "path": "05_Habilidades_Clinicas/18_Cartao_ABCDE_Paciente_Grave.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  },
+  {
+    "id": "hab-19",
+    "mod_id": "hab",
+    "module_name": "Habilidades Clínicas",
+    "badge": "🧠 Habilidades",
+    "title": "Execução Motora de Procedimentos Essenciais",
+    "trigger": "",
+    "all_triggers": [],
+    "category": "Procedimentos & Técnica Estéril",
+    "hab_category": "Procedimentos & Técnica Estéril",
+    "time_goal": "5–20 min (conforme procedimento)",
+    "anchor": "Time Out & Bandeja → Paramentação & Anatomia/USG → Técnica Tátil → Conferência & Descarte",
+    "pre_porta": "PRÉ-AGULHA UNIVERSAL: Alergia/Coagulograma/Time-Out (lado/paciente certo) -> Bandeja 100% na mesa ANTES da luva -> Luz/Altura maca -> Antissepsia + SECAR -> Lidocaína <=4,5 mg/kg s/ vaso (7 c/ vaso), ASPIRAR antes!\n1. SUTURA: Testar tendão/nervo/pulso ANTES | Irrigar SF 0,9% sob pressão | Agulha a 90° no 1/3 proximal -> girar punho -> nó 2-1-1 lateral sem estrangular | Donati = longe-longe, perto-perto | Checar dT/raiva!\n2. SVD: Sistema fechado + ÁGUA DESTILADA 10 mL! Mão não dominante = SUJA | H: 10-20 mL lido gel 3-5 min + pênis 90° -> baixar p/ 45° sem forçar | REGRA: IR ATÉ O \"Y\" E VER URINA ANTES DE INSUFLAR! Reposicionar prepúcio; fixar hipogástrio (H) / coxa (M).\n3. GASOMETRIA: Allen <5-7s | Extensão 30° | Seringa s/ excesso heparina | Palpar entre 2º-3º dedos sem esmagar | 30-45° radial bisel cima | Comprimir >=5 min NO RELÓGIO (10-15 se anticoagulado)!\n4. CENTRAL (Seldinger/USG): Paramentação máx + lavar vias | USG (veia colaba) -> agulha -> FIO-GUIA (NUNCA soltar nem forçar!) -> dilatador só pele/SC -> SÓ passar cateter após guia sair na ponta distal! -> refluxo/flush -> RX antes de DVA!\n5. PARACENTESE: Esvaziar bexiga! QIE (1/3 lat EIAS-umbigo) ou USG | Técnica Z-track | Inocule frasco hemocultura | Se >5 L: Albumina 6-8 g/L total!\n6. TORACOCENTESE: Sentado inclinado | 1-2 EIC abaixo topo macicez (nunca <8-9º EIC) | SEMPRE BORDA SUPERIOR DA COSTELA INFERIOR! | Sistema fechado 3 vias | Máx 1.000-1.500 mL (parar se tosse!).\n7. PUNÇÃO LOMBAR: Descartar HIC (TC antes se foco/papiledema/convulsão/Glasgow<12) | Decúbito lateral alinhado | Linha Tuffier (L4) -> L3-L4/L4-L5 | Bisel paralelo coluna (teto), apontar umbigo | Gotejar passivo -> RECOLOCAR MANDRIL antes de tirar agulha!",
+    "checklist_sections": [
+      {
+        "title": "1. Preparo Universal, Anestesia & Descarte",
+        "items": [
+          {
+            "id": "0-0",
+            "text": "Fiz Time Out (paciente, procedimento, lado, coagulograma/plaquetas e alergia) e expliquei ao paciente"
+          },
+          {
+            "id": "0-1",
+            "text": "Separei 100% dos materiais da bandeja e ajustei altura da maca/iluminação antes de calçar luva estéril"
+          },
+          {
+            "id": "0-2",
+            "text": "Respeitei secagem da antissepsia, teto de lidocaína e sempre aspirei antes de injetar anestésico"
+          },
+          {
+            "id": "0-3",
+            "text": "Descartei todos os perfurocortantes no Descarpack sem reencapar agulha"
+          }
+        ]
+      },
+      {
+        "title": "2. Sutura, SVD & Gasometria *(execução específica)*",
+        "items": [
+          {
+            "id": "1-0",
+            "text": "Na sutura: testei neurovascular/tendão antes, irriguei com SF sob pressão, deixei bordas evertidas e chequei `dT`"
+          },
+          {
+            "id": "1-1",
+            "text": "Na SVD: usei água destilada no balonete, entrei até a bifurcação (`Y`) e confirmei urina ANTES de insuflar"
+          },
+          {
+            "id": "1-2",
+            "text": "Na SVD masculina: apliquei lidocaína gel com pausa 3–5 min, reposicionei o prepúcio e fixei no hipogástrio"
+          },
+          {
+            "id": "1-3",
+            "text": "Na gasometria arterial: retirei ar/excesso de heparina e comprimi diretamente por ≥ 5 min no relógio"
+          }
+        ]
+      },
+      {
+        "title": "3. Procedimentos Invasivos Maiores *(Acesso Central / Paracentese / Toracocentese / PL)*",
+        "items": [
+          {
+            "id": "2-0",
+            "text": "No Acesso Central: usei paramentação máxima/USG, nunca soltei nem forcei o fio-guia e confirmei RX antes de DVA"
+          },
+          {
+            "id": "2-1",
+            "text": "Na Paracentese: esvaziei bexiga, usei QIE/USG + `Z-track` e repus albumina (6–8 g/L) se drenagem > 5 L"
+          },
+          {
+            "id": "2-2",
+            "text": "Na Toracocentese: puncionei na borda superior da costela inferior em sistema fechado respeitando limite ≤ 1.500 mL"
+          },
+          {
+            "id": "2-3",
+            "text": "Na Punção Lombar: excluí risco de herniação/TC prévia, alinhei coluna, orientei bisel paralelo e recoloquei mandril ao retirar"
+          }
+        ]
+      }
+    ],
+    "checklist_total": 12,
+    "pitfalls": [
+      {
+        "title": "Insuflar balonete da SVD antes de ver urina / sem ir até o Y",
+        "detail": "Ruptura uretral iatrogênica grave."
+      },
+      {
+        "title": "Soltar ou forçar o fio-guia no Acesso Central",
+        "detail": "Embolia de fio-guia ou perfuração venosa/cardíaca."
+      },
+      {
+        "title": "Puncionar Toracocentese na borda inferior da costela",
+        "detail": "Lesão do feixe vasculonervoso intercostal (hemotórax)."
+      },
+      {
+        "title": "Fazer PL sem descartar efeito de massa ou tirar agulha sem mandril",
+        "detail": "Herniação cerebral ou encarceramento radicular."
+      },
+      {
+        "title": "Deixar paciente comprimindo própria punção arterial",
+        "detail": "Hematoma expansivo e síndrome compartimental/neuropatia."
+      }
+    ],
+    "pitfalls_raw": "- **Insuflar balonete da SVD antes de ver urina / sem ir até o Y:** Ruptura uretral iatrogênica grave.\n- **Soltar ou forçar o fio-guia no Acesso Central:** Embolia de fio-guia ou perfuração venosa/cardíaca.\n- **Puncionar Toracocentese na borda inferior da costela:** Lesão do feixe vasculonervoso intercostal (hemotórax).\n- **Fazer PL sem descartar efeito de massa ou tirar agulha sem mandril:** Herniação cerebral ou encarceramento radicular.\n- **Deixar paciente comprimindo própria punção arterial:** Hematoma expansivo e síndrome compartimental/neuropatia.",
+    "path": "05_Habilidades_Clinicas/19_Cartao_Procedimentos_Essenciais.md",
+    "pep_body": "",
+    "has_split": false,
+    "evolucao_body": "",
+    "conduta_body": "",
+    "has_receita": false,
+    "receita_body": "",
+    "has_guia": false,
+    "guia_body": ""
+  }
+]
