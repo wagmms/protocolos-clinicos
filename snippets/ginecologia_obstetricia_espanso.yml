@@ -1,0 +1,1213 @@
+# ==========================================================
+# CONFIGURAÇÃO ESPANSO - GINECOLOGIA E OBSTETRÍCIA
+# Para usar no Linux: copie para ~/.config/espanso/match/go.yml
+# Para usar no Windows: copie para %APPDATA%\espanso\match\go.yml
+# ==========================================================
+
+matches:
+  - trigger: ";puerp-adm"
+    replace: |
+      ###### ADMISSÃO EM ENFERMARIA DE PUERPÉRIO ######
+      # IDENTIFICAÇÃO: [Nome], [Idade] anos, TS Materno: [A/B/AB/O, Rh +/-], IMC: [ ] kg/m²
+      G[ ] P[ ] (PN [ ] / PC [ ]) A[ ]
+      
+      # RESUMO DO CASO:
+      - Tipo de Parto: [Parto Normal sem laceração / Parto Normal com laceração grau [1/2/3/4] / Cesariana por indicação de [indicação]]
+      - Idade Gestacional no Parto: [ ] semanas e [ ] dias (por [USG 1º tri / DUM confiável])
+      - Diagnósticos / Comorbidades: [Hígida / HAG / Pré-eclâmpsia / DMG sob dieta / DM2 prévio / Anemia pós-parto / Obesidade grau [ ]]
+      - Intercorrências Intraparto: [Sem intercorrências / HPP por atonia uterina revertida com ocitocina + metilergometrina + ácido tranexâmico]
+      - Medicamentos de Uso Contínuo: [Nega / Metildopa [ ] mg/dia / Insulina / Outros: [ ]]
+      - Cirurgias Prévias: [Nega / [ ]]
+      - Alergias Medicamentosas: [Nega alergias medicamentosas conhecidas / Relata alergia a [ ]]
+      - Hábitos: Nega tabagismo, etilismo e uso de drogas ilícitas [se fumante: [ ] cigarros/dia]
+      
+      # DADOS DO PARTO:
+      - Data e Hora do Nascimento: [DD/MM/AAAA às HH:MM]
+      - Bolsarréxis: [Espontânea / Artificial] no horário [HH:MM], líquido [claro com grumos / meconial fluido / meconial espesso]
+      - Episiotomia / Laceração: [Ausente / Episiotomia médio-lateral direita suturada / Laceração grau [ ] suturada por planos]
+      - Perda Sanguínea Estimada: [Adequada (< 500 mL PN / < 1000 mL PC) / Aumentada ([ ] mL)]
+      
+      # DADOS DO RECÉM-NASCIDO:
+      - Sexo: [Masculino / Feminino], Peso: [ ] g, Apgar: [ ] / [ ]
+      - Classificação: [AIG / PIG / GIG]
+      - Tipagem Sanguínea do RN: [ ] | Coombs Direto: [Negativo / Positivo]
+      - Conduta Isoimunização: [Mãe Rh+ ou RN Rh- -> Sem indicação de Anti-D / Mãe Rh- e RN Rh+ com Coombs negativo -> Prescrita Imunoglobulina Anti-D 300 mcg IM até 72h pós-parto]
+      - Alojamento Conjunto: [Sim, em aleitamento materno exclusivo sob livre demanda]
+      
+      # SOROLOGIAS DA INTERNAÇÃO:
+      - HIV: Não reagente | VDRL: Não reagente | HBsAg: Não reagente | HCV: Não reagente | Toxoplasmose: [IgG+ IgM- / Suscetível]
+      - Vacinação Materna: [Completa / Pendente dTpa / Pendente Hepatite B -> prescrita atualização na alta]
+      
+      # ESTRATIFICAÇÃO DE RISCO DE TEV (TROMBOEMBOLISMO VENOSO):
+      - Fatores Presentes: [Cesariana de urgência / Idade > 35 anos / IMC >= 30 / Pré-eclâmpsia / Paridade >= 3 / HPP / Tabagismo / Nenhum]
+      - Classificação: [Baixo Risco -> Deambulação precoce + hidratação oral / Médio ou Alto Risco -> Profilaxia farmacológica com Enoxaparina 40 mg SC 1x/dia por 7 a 10 dias]
+      
+      # PLANEJAMENTO DE CONTRACEPÇÃO PÓS-PARTO:
+      - Método Escolhido: [DIU de Cobre pós-placentário já inserido / Implanon solicitado para inserção antes da alta / Método ponte com Desogestrel 75 mcg/dia para posterior inserção de DIU na UBS / Laqueadura intraparto realizada]
+      
+      # EXAME FÍSICO ADMISSIONAL:
+      - Geral: Bom estado geral, consciente, orientada em tempo e espaço, [corada / hipocorada +/4+], hidratada, anictérica, acianótica, afebril, eupneica em ar ambiente.
+      - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% | Tax: [ ] °C
+      - Mamas: Flácidas/túrgidas fisiológicas, indolores, sem sinais flogísticos, papilas íntegras, colostro presente bilateralmente.
+      - Abdome: Flácido, indolor à palpação, ruídos hidroaéreos presentes, sem bexigoma palpável.
+      - Útero: Globoso, bem contraído (Globo de Pinard presente), na altura da cicatriz umbilical, indolor à palpação.
+      - Loquiação: Fisiológica, rubra, quantidade pequena/moderada, sem odor fétido e sem coágulos.
+      - Períneo / Ferida Operatória: [Períneo íntegro / Rafia perineal limpa, sem hematoma ou deiscência / Ferida cirúrgica de Pfannenstiel com curativo limpo e seco].
+      - Extremidades: Bem perfundidas, pulsos simétricos, sem edemas patológicos, panturrilhas livres e indolores (Homans negativo).
+      
+      # CONDUTA ADMISSIONAL:
+      1. Dieta geral branda, estímulo à deambulação precoce e ingesta hídrica.
+      2. Analgesia regular: Dipirona 1 g EV/VO 6/6h + Cetoprofeno 100 mg EV 12/12h (se não hipertensa) + Tramadol SOS.
+      3. Estimulado aleitamento materno exclusivo em livre demanda; orientada pega adequada.
+      4. Higiene perineal / cuidados de ferida operatória.
+      5. Se aplicável: Imunoglobulina Anti-D 300 mcg IM nas primeiras 72h / Enoxaparina 40 mg SC 1x/dia.
+      6. Acompanhamento diário em enfermaria.
+
+  - trigger: ";puerp-evo"
+    replace: |
+      ###### EVOLUÇÃO DIÁRIA DE PUERPÉRIO ######
+      # IDENTIFICAÇÃO & CONTEXTO:
+      Paciente [Nome], [Idade] anos, Leito [ ], em [1º / 2º / 3º] dia de puerpério de [Parto Normal sem laceração / Parto Normal com laceração de [ ] grau / Cesárea por [indicação]].
+      Comorbidades/Diagnósticos: [Hígida / HAG controlada / Pré-eclâmpsia / DMG sob dieta / Anemia ferropriva].
+      
+      # SUBJETIVO:
+      Encontro paciente em leito de enfermaria, acompanhada de RN em alojamento conjunto.
+      - Estado Geral Referido: Refere ter passado bem nas últimas 24h, sem intercorrências no período.
+      - Queixas Álgicas: Refere dor [ausente / leve e bem controlada com a medicação / leve em ferida operatória / discreta em região perineal / cólicas uterinas fisiológicas durante amamentação]. Nega dor perineal intensa, sensação de peso ou puxo retal.
+      - Deambulação & Ingesta: Deambulando precocemente sem dificuldades ou tontura; boa ingesta hídrica oral.
+      - Trânsito Gastrointestinal: Boa aceitação da dieta. Eliminação de flatos presente; evacuação [presente sem esforço / ausente até o momento]. Nega náuseas, vômitos ou distensão abdominal.
+      - Sistema Urinário: Diurese espontânea, clara e em bom volume. Nega disúria, polaciúria, hesitação ou sensação de esvaziamento incompleto.
+      - Loquiação Referida: Rubra, aspecto fisiológico, quantidade pequena a moderada, sem odor fétido e sem coágulos.
+      - Negativas Mandatórias de Risco:
+        * Nega sintomas hipertensivos: Nega cefaleia occipital, escotomas cintilantes, fotofobia, zumbido ou epigastralgia/dor em barra.
+        * Nega sintomas infecciosos: Nega picos febris, calafrios ou mal-estar sistêmico.
+        * Nega sintomas anêmicos: Nega tontura ortostática, lipotímia, palpitações, astenia intensa ou dispneia.
+        * Nega dor em panturrilhas ou edema assimétrico de MMII.
+      
+      # AVALIAÇÃO DA AMAMENTAÇÃO:
+      Aleitamento materno exclusivo em livre demanda, com boa adaptação mãe-bebê.
+      Nega dor mamilar persistente ou queixas mamárias.
+      À observação da mamada: Boa pega (boca bem aberta, lábio inferior evertido, aréola mais visível superiormente e queixo tocando a mama), bom posicionamento e deglutição audível.
+      
+      # OBJETIVO (EXAME FÍSICO):
+      - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% | Tax: [ ] °C
+      - Ectoscopia: Bom estado geral, corada, hidratada, anictérica, acianótica, afebril, eupneica em ar ambiente.
+      - Mamas: [Flácidas / túrgidas fisiológicas], indolores, sem sinais de ingurgitamento patológico, sem hiperemia ou calor local. Papilas íntegras, sem fissuras ou escoriações. Saída de colostro à expressão mamilar bilateralmente.
+      - Abdome: Flácido, ruídos hidroaéreos presentes, normotenso, indolor à palpação superficial e profunda, sem sinais de irritação peritoneal (DB negativo). Ausência de bexigoma palpável.
+      - Útero: Globoso, bem contraído (Globo de Pinard presente), centralizado, palpável a [ ] cm abaixo da cicatriz umbilical, indolor à mobilização.
+      - Loquiação: Rubra, quantidade fisiológica pequena/moderada, sem odor fétido e sem coágulos.
+      - [SE PARTO NORMAL - PERÍNEO]: Inspeção vulvoperineal com rafia de [laceração [ ] grau / episiotomia] com bordas coaptadas, pontos íntegros, sem hematomas, edema importante ou secreção purulenta. [Presença de mamilo hemorroidário pequeno indolor / sem hemorroidas].
+      - [SE CESÁREA - FERIDA OPERATÓRIA]: Curativo cirúrgico limpo e seco. Incisão de Pfannenstiel com bordas coaptadas, pontos íntegros, sem eritema, edema, calor local, hematoma ou saída de secreção.
+      - Extremidades: Bem perfundidas, pulsos pediosos e tibiais posteriores simétricos, sem edema de membros inferiores, panturrilhas livres e indolores à palpação (Sinal de Homans negativo).
+      
+      # CONTROLES & EXAMES:
+      - Curva Pressórica (se HAG/PE): [Medidas normotensas dentro do alvo / Pico isolado de [ ]x[ ] mmHg, conduta: [ ]].
+      - Perfil Glicêmico (se DMG/DM2): [Medidas pré e pós-prandiais dentro do alvo terapêutico / [ ] medidas alteradas].
+      - Laboratório de Controle (se indicado): Hb: [ ] g/dL | Ht: [ ]% | Plaquetas: [ ] /mm³.
+      
+      # AVALIAÇÃO:
+      1. [1º / 2º] dia de puerpério fisiológico de [Parto Normal / Cesárea] com evolução clínica favorável.
+      2. [Hígida / Controle pressórico satisfatório / DM gestacional compensado].
+      3. Baixo risco de TEV / em profilaxia farmacológica.
+      
+      # PLANO / CONDUTA:
+      1. Mantenho estímulo à deambulação precoce e hidratação oral vigorosa.
+      2. Mantenho aleitamento materno exclusivo em livre demanda.
+      3. Analgesia: Dipirona 1 g VO de 6/6h se dor; Cetoprofeno 100 mg VO 12/12h (se não hipertensa e se dor).
+      4. Medidas laxativas se necessário: Óleo mineral 15 mL VO à noite ou Lactulose 15 mL VO.
+      5. Cuidados locais: Higiene perineal com água morna e sabonete neutro após eliminações / manter ferida operatória limpa e seca.
+      6. Contracepção: [Mantenho orientação de método ponte com Desogestrel 75 mcg/dia / Inserção de Implanon programada para hoje / DIU já inserido pós-parto].
+      7. Planejamento: [Previsão de alta hospitalar em 24h pós-parto normal / Previsão de alta hospitalar em 48h pós-cesárea].
+
+  - trigger: ";puerp-alta-pn"
+    replace: |
+      ###### RELATÓRIO DE ALTA HOSPITALAR - PUERPÉRIO (PARTO NORMAL) ######
+      À Unidade Básica de Saúde (UBS / ESF)
+      
+      # RESUMO CLÍNICO:
+      Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], recebe alta hospitalar no [1º / 2º] dia de puerpério de Parto Normal [espontâneo sem lacerações / com laceração grau [1/2] suturada / com episiotomia médio-lateral direita], ocorrido em [DD/MM/AAAA às HH:MM] com Idade Gestacional de [ ] semanas e [ ] dias.
+      - Recém-Nascido: Sexo [ ], Peso: [ ] g, Apgar: [ ]/[ ], AIG, em aleitamento materno exclusivo.
+      - Intercorrências no Parto/Internação: [Ausentes / HPP revertida clinicamente sem transfusão / [ ]].
+      - Tipagem Sanguínea Materna: [A/B/AB/O, Rh +/-]
+      - Tipagem Sanguínea RN: [A/B/AB/O, Rh +/-] | Coombs Direto: [Negativo / Positivo]
+      - Profilaxia Isoimunização Rh: [Sem indicação de Anti-D / Aplicada Imunoglobulina Anti-D 300 mcg IM em [DD/MM/AAAA]].
+      - Sorologias do Parto: HIV Não Reagente | VDRL Não Reagente | HBsAg Não Reagente | HCV Não Reagente.
+      - Vacinação na Alta: [Atualizada dTpa e Hepatite B / Carteira vacinal completa].
+      
+      # EXAME FÍSICO DE ALTA:
+      Bom estado geral, corada, hidratada, afebril, eupneica. PA: [ ]x[ ] mmHg, FC: [ ] bpm.
+      Mamas túrgidas, indolores, sem sinais flogísticos, papilas íntegras, colostro presente.
+      Abdome indolor, útero bem contraído abaixo da cicatriz umbilical. Loquiação fisiológica rubra em pequena quantidade, sem odor fétido. Períneo com rafia íntegra, limpa, sem edema importante ou secreções. Extremidades sem edema, panturrilhas livres.
+      
+      # PRESCRIÇÃO MÉDICA DE ALTA:
+      1. Dipirona 500 mg a 1 g VO de 6/6 horas se dor.
+      2. Sulfato Ferroso 40 mg (Fe elementar) - Tomar 1 comprimido VO 1x/dia, em jejum com água ou suco cítrico, por 60 a 90 dias pós-parto [se anemia moderada: 1 cp VO 2x/dia].
+      3. [Se laceração perineal grau 2 / constipação]: Óleo Mineral 15 mL VO à noite por 5 dias se fezes ressecadas.
+      4. [Anticoncepção]: Desogestrel 75 mcg - Tomar 1 comprimido VO ao dia, sempre no mesmo horário, de forma contínua sem pausas (Método Ponte para futura inserção de DIU/Implanon na UBS).
+      
+      # ORIENTAÇÕES GERAIS À PACIENTE:
+      - Repouso físico relativo e abstinência sexual por 40 dias (resguardo puerperal).
+      - Estimulado aleitamento materno exclusivo em livre demanda até o 6º mês.
+      - Cuidados com o períneo: Higiene vulvoperineal rigorosa com água corrente e sabonete neutro após cada micção e evacuação; secar suavemente sem esfregar. Não há necessidade de retirar pontos (fios absorvíveis).
+      - Agendamento de Consulta de Puerpério na UBS: Realizar consulta de retorno entre o 7º e 10º dia pós-parto (para avaliação de cicatriz, amamentação e RN) e no 42º dia pós-parto (consulta puerperal tardia).
+      - Agendamento da Consulta do Recém-Nascido: Comparecer à UBS na primeira semana para Teste do Pezinho (ideal entre 3º e 5º dia), vacinação (BCG e Hepatite B) e avaliação ponderal.
+      
+      # SINAIS DE ALARME (RETORNO IMEDIATO AO PRONTO ATENDIMENTO OBSTÉTRICO):
+      Orientada a procurar atendimento médico urgente se apresentar:
+      1. Febre (temperatura axilar >= 37,8 °C) ou calafrios persistentes.
+      2. Sangramento vaginal excessivo (encher mais de 2 absorventes higiênicos em 1 hora ou eliminação de grandes coágulos) ou secreção com odor fétido.
+      3. Dor abdominal em cólica intensa refratária aos analgésicos.
+      4. Dor, calor, vermelhidão ou saída de pus na região perineal/rafia.
+      5. Dor mamária intensa com calor, vermelhidão local ou endurecimento (sinais de mastite).
+      6. Dor intensa em panturrilha com inchaço unilateral da perna.
+      7. Cefaleia intensa, alterações visuais (pontos brilhantes) ou dor no estômago.
+      
+      Grata,
+      Equipe de Ginecologia e Obstetrícia
+
+  - trigger: ";puerp-alta-pc"
+    replace: |
+      ###### RELATÓRIO DE ALTA HOSPITALAR - PUERPÉRIO (CESARIANA) ######
+      À Unidade Básica de Saúde (UBS / ESF)
+      
+      # RESUMO CLÍNICO:
+      Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], recebe alta hospitalar no [2º / 3º] dia de puerpério de Parto Cesárea por indicação de [Falha de indução / Desproporção Céfalo-Pélvica / Sofrimento Fetal Agudo / Apresentação Pélvica / Iterativa (duas ou mais cesáreas prévias) / Outra: [ ]], realizado em [DD/MM/AAAA às HH:MM] com Idade Gestacional de [ ] semanas e [ ] dias.
+      - Recém-Nascido: Sexo [ ], Peso: [ ] g, Apgar: [ ]/[ ], AIG, em aleitamento materno exclusivo.
+      - Intercorrências Cirúrgicas/Internação: [Ausentes / Hipotonia uterina revertida com ocitocina + uterotônicos / Sangramento intraoperatório habitual].
+      - Tipagem Sanguínea Materna: [A/B/AB/O, Rh +/-]
+      - Tipagem Sanguínea RN: [A/B/AB/O, Rh +/-] | Coombs Direto: [Negativo / Positivo]
+      - Profilaxia Isoimunização Rh: [Sem indicação de Anti-D / Aplicada Imunoglobulina Anti-D 300 mcg IM em [DD/MM/AAAA]].
+      - Sorologias do Parto: HIV Não Reagente | VDRL Não Reagente | HBsAg Não Reagente | HCV Não Reagente.
+      - Vacinação na Alta: [Atualizada dTpa e Hepatite B / Carteira vacinal completa].
+      
+      # EXAME FÍSICO DE ALTA:
+      Bom estado geral, corada, hidratada, afebril, eupneica. PA: [ ]x[ ] mmHg, FC: [ ] bpm.
+      Mamas túrgidas fisiológicas, indolores, sem sinais de mastite, colostro presente bilateralmente.
+      Abdome flácido, indolor à palpação profunda, ruídos hidroaéreos presentes, sem massas ou bexigoma.
+      Útero bem contraído, palpável a [ ] cm abaixo da cicatriz umbilical. Loquiação fisiológica rubra em pequena quantidade, sem odor fétido.
+      Ferida Operatória: Incisão de Pfannenstiel com bordas coaptadas, pontos íntegros, sem eritema, secreção purulenta ou hematoma.
+      Tipo de Síntese Dérmica: [Pontos intradérmicos absorvíveis (não necessita retirada) / Pontos simples separados com fio inabsorvível Nylon 4-0 (retirar pontos entre 10 e 14 dias)].
+      Membros Inferiores: Sem edemas assimétricos, panturrilhas livres e indolores à palpação.
+      
+      # PRESCRIÇÃO MÉDICA DE ALTA:
+      1. Dipirona 1 g VO de 6/6 horas se dor por 3 a 5 dias.
+      2. [Se dor moderada/refratária e sem hipertensão]: Cetoprofeno 100 mg VO de 12/12 horas após as refeições por até 3 dias.
+      3. Sulfato Ferroso 40 mg (Fe elementar) - Tomar 1 comprimido VO 1x/dia, em jejum com água ou suco cítrico, por 60 a 90 dias pós-parto [se anemia moderada: 1 cp VO 2x/dia].
+      4. [Tromboprofilaxia se Médio/Alto Risco de TEV]: Enoxaparina 40 mg SC 1x/dia até o 10º dia de puerpério (completar mais [ ] dias em domicílio).
+      5. [Contracepção]: Desogestrel 75 mcg - Tomar 1 comprimido VO ao dia, sempre no mesmo horário, sem pausas (Método Ponte para futura inserção de DIU/Implanon na UBS) [OU: Inserido DIU de Cobre intraoperatório / Inserido Implanon na internação].
+      6. [Se constipação pós-operatória]: Óleo Mineral 15 mL VO à noite por 5 dias se fezes endurecidas.
+      
+      # CUIDADOS COM A FERIDA CIRÚRGICA:
+      - Manter o curativo retirado após o banho inicial, lavando a cicatriz com água corrente e sabonete neutro.
+      - Secar muito bem o local com toalha limpa ou gaze, sem friccionar. Manter a incisão limpa e sempre seca e arejada.
+      - [Se pontos inabsorvíveis]: Comparecer à UBS para retirada de pontos entre 10 e 14 dias da cesariana.
+      - Não aplicar pomadas, álcool, pós ou soluções caseiras sobre a cicatriz.
+      
+      # ORIENTAÇÕES GERAIS À PACIENTE:
+      - Repouso físico relativo e abstinência sexual por 40 dias (resguardo puerperal). Evitar carregar peso acima do peso do bebê ou esforços físicos abdominais intensos.
+      - Estimulado aleitamento materno exclusivo em livre demanda até o 6º mês.
+      - Agendamento de Consulta de Puerpério na UBS: Realizar consulta de retorno entre o 7º e 10º dia pós-parto e no 42º dia pós-parto.
+      - Agendamento da Consulta do Recém-Nascido: Comparecer à UBS na primeira semana para Teste do Pezinho (ideal entre 3º e 5º dia), vacinação e triagens.
+      
+      # SINAIS DE ALARME CIRÚRGICOS E CLÍNICOS (RETORNO IMEDIATO AO PS OBSTÉTRICO):
+      Orientada a procurar atendimento médico urgente se apresentar:
+      1. Vermelhidão, inchaço, endurecimento, dor intensa ou calor ao redor da cicatriz cirúrgica.
+      2. Saída de pus, secreção amarelada/esverdeada ou sangue vivo pela ferida cirúrgica, ou abertura dos pontos (deiscência).
+      3. Febre (temperatura axilar >= 37,8 °C) ou calafrios persistentes.
+      4. Sangramento vaginal aumentado (encher 2 absorventes higiênicos por hora) ou com odor fétido.
+      5. Dor de cabeça forte, visão turva/embaçada, pontinhos brilhantes ou dor na boca do estômago.
+      6. Falta de ar repentina, dor torácica aguda ao respirar ou inchaço com dor em uma das pernas (panturrilha).
+      7. Mamas endurecidas, muito quentes, avermelhadas e dolorosas.
+      
+      Grata,
+      Equipe de Ginecologia e Obstetrícia
+
+  - trigger: ";round-puerp"
+    replace: |
+      ================================================================================
+      ROTEIRO DE PASSAGEM DE CASO - ENFERMARIA DE PUERPÉRIO (5 TEMPOS)
+      ================================================================================
+      
+      1. MANCHETE OBSTÉTRICA (Identificação + Parto + Comorbidades)
+      "Preceptor(a), Leito [Nº Leito], [Nome da Paciente], [Idade] anos, G[ ] P[ ] A[ ], está no [1º / 2º / 3º] dia de puerpério de [Parto Normal espontâneo / PN com laceração de [ ] grau / Cesárea por indicação de [indicação]], realizado com [ ] semanas e [ ] dias.
+      Como histórico e comorbidades: é [hígida / portadora de HAG / Pré-eclâmpsia / DMG compensado sob dieta / Obesidade IMC [ ] kg/m²].
+      No intraparto: [não apresentou intercorrências / apresentou HPP por atonia uterina revertida com ocitocina + ácido tranexâmico + metilergometrina]."
+      
+      2. SUBJETIVO MATERNO + AMAMENTAÇÃO (Evolução das últimas 24 horas)
+      "Passou bem na noite, manteve-se afebril, já está deambulando ativamente sem tontura ortostática e com boa ingesta hídrica.
+      Refere dor [ausente / bem controlada com a analgesia / leve restrita à incisão / leve em região perineal], sem sinais de alarme hipertensivos (nega cefaleia, escotomas cintilantes ou epigastralgia), sem sintomas anêmicos e sem queixas infecciosas.
+      Eliminação de flatos presente, evacuação [presente sem esforço / pendente], diurese espontânea clara em bom volume sem disúria, e loquiação fisiológica rubra em pequena quantidade.
+      Quanto à amamentação: RN em aleitamento materno exclusivo sob livre demanda, com boa pega visualizada, papilas íntegras e ausência de dor patológica ou fissuras."
+      
+      3. EXAME FÍSICO DIRIGIDO (Sinais vitais e achados positivos/negativos)
+      "Ao exame físico matinal:
+      - Encontra-se em bom estado geral, lúcida, corada, hidratada, eupneica e afebril.
+      - Sinais vitais: PA de [ ]x[ ] mmHg, FC de [ ] bpm, FR de [ ] irpm e saturação de [ ]% em ar ambiente.
+      - Mamas: [flácidas / túrgidas fisiológicas], indolores, sem sinais de ingurgitamento patológico ou mastite, com saída de colostro à expressão mamilar bilateral.
+      - Abdome: flácido, indolor à palpação, ruídos hidroaéreos presentes, sem bexigoma palpável, com útero bem contraído (Globo de Segurança de Pinard evidente), centrado e palpável a [ ] cm abaixo da cicatriz umbilical.
+      - [Se Parto Normal]: À inspeção vulvoperineal, a rafia de [laceração [ ] grau / episiotomia] apresenta bordas perfeitamente coaptadas, pontos íntegros, sem edema excessivo, sem hematoma e sem secreção.
+      - [Se Cesárea]: Ferida cirúrgica limpa e seca, bordas coaptadas, sem eritema perilesional, sem hematoma ou secreção patológica.
+      - Loquiação rubra fisiológica em pequena quantidade sem odor.
+      - Membros inferiores bem perfundidos, sem edema assimétrico e com panturrilhas livres e indolores (Homans negativo)."
+      
+      4. DADOS MANDATÓRIOS DE PRONTUÁRIO (O que a chefia sempre confere)
+      "Checando os dados de prontuário e controles:
+      - Tipagem sanguínea materna é [ ], tipagem do cordão do RN é [ ], com Coombs Direto [negativo / positivo] -> [sem indicação de profilaxia / já aplicada Imunoglobulina Anti-D 300 mcg IM].
+      - Sorologias de admissão todas não reagentes [Toxoplasmose: IgG+ IgM- / suscetível], vacinação materna [atualizada / pendente dTpa].
+      - [Se HAG/PE]: Curva pressórica nas últimas 24h manteve-se [estável dentro do alvo preconizado / apresentou pico de [ ]x[ ] mmHg às [ ]h tratado com [ ]].
+      - [Se DMG]: Perfil glicêmico pós-parto dentro do alvo de normoglicemia em dieta geral.
+      - [Se pós-HPP]: Hemograma de controle pós-parto com Hemoglobina de [ ] g/dL e Plaquetas de [ ] /mm³."
+      
+      5. ESTRATIFICAÇÃO E PROPOSTA DE CONDUTA (Fechamento e plano)
+      "Na nossa estratificação clínica:
+      - O risco de TEV é [baixo -> mantemos deambulação e hidratação oral / moderado ou alto por ter fatores somatórios de (citar: idade/IMC/cesárea) -> indicamos Enoxaparina 40 mg SC 1x/dia até o 10º dia de puerpério].
+      - Sobre planejamento reprodutivo e contracepção: paciente foi orientada e optou por [inserir Implanon hoje na enfermaria com TCLE assinado / DIU de cobre já inserido no parto / método ponte com Desogestrel 75 mcg/dia para inserção ambulatorial na UBS].
+      - Nossa proposta terapêutica para hoje é:
+        1. Manter estímulo à deambulação precoce e aleitamento exclusivo.
+        2. Analgesia regular com Dipirona 1 g VO 6/6h SOS [sem AINEs se hipertensa].
+        3. [Prescrever laxativo leve se cesárea ou laceração perineal / manter dieta rica em fibras].
+        4. Prescrever Sulfato Ferroso [profilático 1 cp/dia por 60 dias / dose terapêutica de reposição].
+        5. [Programar alta hospitalar com contrarreferência e orientações de alarme / manter internada em observação para completar 48h de cesárea/controle pressórico]."
+      ================================================================================
+
+  - trigger: ";pn-1cons"
+    replace: |
+      ###### CONSULTA DE PRÉ-NATAL - ADMISSÃO (1ª CONSULTA) ######
+      # IDENTIFICAÇÃO:
+      Paciente [Nome], [Idade] anos, Profissão: [ ], Escolaridade: [ ], Estado Civil: [ ], Raça/Cor: [ ].
+      G[ ] P[ ] (Parto Normal [ ] / Cesárea [ ]) A[ ] (Ectópica [ ] / Molar [ ] / Aborto espontâneo [ ]).
+      
+      # DADOS CRONOLÓGICOS DA GESTAÇÃO:
+      - DUM (Data da Última Menstruação): [DD/MM/AAAA] ([Certa e confiável / Incerta]).
+      - DPP (Data Provável do Parto pela Regra de Nägele): [DD/MM/AAAA]
+      - IG (Idade Gestacional Atual pela DUM): [ ] semanas e [ ] dias.
+      - USG Precoce de 1º Trimestre: [Realizado em DD/MM/AAAA, CCN de [ ] mm compatível com IG de [ ] semanas e [ ] dias | Solicitado nesta consulta].
+      - IG Definitiva Adotada: [ ] semanas e [ ] dias.
+      
+      # ANTECEDENTES OBSTÉTRICOS & GINECOLÓGICOS:
+      - Intervalo Interpartal: [ ] anos.
+      - Histórico Obstétrico Prévio: [Nega intercorrências em gestações anteriores / Antecedente de pré-eclâmpsia / DMG prévio / Prematuridade espontânea prévia com [ ] semanas / Macrossomia fetal / Óbito fetal ou neonatal prévio].
+      - Histórico Ginecológico: Menarca aos [ ] anos; ciclos habituais de [ ] dias. Método contraceptivo prévio: [Nenhum / ACO / DIU / Injetável].
+      - Preventivo de Colo Uterino (Citopatológico): Último em [AAAA], resultado [Normal / Negativo para malignidade].
+      
+      # ANTECEDENTES PESSOAIS & COMORBIDADES (HPP):
+      - Comorbidades: Nega HAS, DM prévio, tireoidopatias, nefropatias, cardiopatias ou doenças autoimunes [se portadora: [ ]].
+      - Medicações de Uso Contínuo: [Nega / [ ]].
+      - Cirurgias Prévias: [Nega / [ ]].
+      - Alergias Medicamentosas: [Nega alergias medicamentosas conhecidas / Alergia a: [ ]].
+      - Hábitos de Vida: Nega tabagismo, etilismo ou uso de drogas ilícitas [se fuma: [ ] cigarros/dia; orientada cessação].
+      
+      # HISTÓRIA DA MOLÉSTIA ATUAL (HMA):
+      Paciente comparece para abertura de pré-natal de gestação [planejada / não planejada].
+      Refere queixas de: [Nega queixas / Náuseas matinais leves sem vômitos / Sonolência / Mastalgia fisiológica].
+      - Negativas Mandatórias:
+        * Nega perdas vaginais sanguinolentas ou corrimento com prurido/odor fétido.
+        * Nega dor em baixo ventre ou cólicas pélvicas intensas.
+        * Nega disúria, polaciúria, hematúria ou dor lombar.
+        * Nega febre, sintomas gripais ou contato com doenças exantemáticas.
+      
+      # OBJETIVO (EXAME FÍSICO INICIAL):
+      - Antropometria: Peso Atual: [ ] kg | Estatura: [ ] m | IMC Atual: [ ] kg/m² ([Baixo peso / Eutrófica / Sobrepeso / Obesidade grau [ ]]).
+      - Sinais Vitais: PA: [ ]x[ ] mmHg (braço direito, sentada) | FC: [ ] bpm | FR: [ ] irpm | Afebril.
+      - Geral: Bom estado geral, corada, hidratada, anictérica, acianótica.
+      - Cabeça & Pescoço: Tireoide palpável de tamanho normal, consistência fibroelástica, sem nódulos ou dor.
+      - Mamas: Simétricas, mamilos [protrusos / planos / invertidos], sem nódulos palpáveis ou linfonodomegalias axilares, rede de Haller visível, tubérculos de Montgomery presentes.
+      - Cardiovascular: Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.
+      - Respiratório: Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.
+      - Abdome: Sem cicatrizes cirúrgicas prévias (ou Pfannenstiel), normotenso, indolor à palpação, sem visceromegalias.
+        * Fundo Uterino: [Intrapélvico / Altura Uterina (AU) = [ ] cm].
+        * Batimentos Cardiofetais (BCF): [Inaudível por Doppler sonar (IG < 10-12s) / [ ] bpm, rítmico, sem desacelerações].
+      - Exame Ginecológico (se indicado): Especular com colo uterino de aspecto gravídico violáceo (Sinal de Kluge), sem ectopias exuberantes ou sangramentos ativos, secreção vaginal fisiológica.
+      - Extremidades: Bem perfundidas, sem edemas patológicos, pulsos periféricos presentes e simétricos.
+      
+      # AVALIAÇÃO:
+      1. Gesta [ ] Para [ ] Aborto [ ] - Gestação tópica em evolução com IG de [ ] semanas e [ ] dias.
+      2. Estratificação de Risco Gestacional: [PRÉ-NATAL DE RISCO HABITUAL (PNBR) / PRÉ-NATAL DE ALTO RISCO (PNAR) por motivo de: [comorbidade/fator de risco]].
+      3. Estado Nutricional: [Eutrófica / Sobrepeso / Obesidade].
+      
+      # PLANO / CONDUTA DE 1º TRIMESTRE:
+      1. Suplementação Medicamentosa:
+         - Ácido Fólico 400 mcg (0,4 mg) VO 1x/dia até a 12ª-14ª semana (ou 5 mg/dia se antecedente de DNT, obesidade IMC > 35 ou em uso de anticonvulsivantes).
+         - [Se anemia prévia ou IG >= 20 semanas]: Sulfato Ferroso 40 mg de ferro elementar (200 mg de sulfato ferroso) VO 1x/dia em jejum.
+      2. Exames Laboratoriais Solicitados (Rotina de 1º Trimestre):
+         - Tipagem Sanguínea ABO e Fator Rh + Coombs Indireto (se Rh negativo).
+         - Hemograma completo.
+         - Glicemia de jejum.
+         - EAS (Urina tipo 1) e Urocultura com Antibiograma.
+         - Sorologias: HIV (teste rápido ou sorologia), Sífilis (VDRL / Teste Rápido), Hepatite B (HBsAg), Toxoplasmose (IgG e IgM).
+         - TSH.
+         - Exame Citopatológico de Colo Uterino (se não colhido no último ano).
+      3. Exame de Imagem Solicitado:
+         - Ultrassonografia Obstétrica Transvaginal / Morfológica de 1º Trimestre (com rastreio de cromossomopatias: Translucência Nucal entre 11 e 13s6d).
+      4. Orientações Gerais de Pré-Natal:
+         - Caderneta da Gestante entregue e devidamente preenchida.
+         - Orientações dietéticas: Dieta fracionada, hidratação oral (mínimo 2 litros/dia), lavagem rigorosa de frutas e verduras, evitar carne crua ou malpassada (prevenção de toxoplasmose).
+         - Prática de atividade física leve a moderada liberada (caminhadas, hidroginástica).
+         - Sinais de Alarme: Orientada a procurar emergência obstétrica em caso de sangramento vaginal, cólica intensa, dor lombar com febre ou vômitos incoercíveis.
+      5. Retorno: Agendado retorno em 4 semanas com os resultados dos exames.
+
+  - trigger: ";pn-ret"
+    replace: |
+      ###### CONSULTA DE PRÉ-NATAL - SEGUIMENTO ######
+      # IDENTIFICAÇÃO & DADOS CRONOLÓGICOS:
+      Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ].
+      - Idade Gestacional Atual: [ ] semanas e [ ] dias (confirmada por [DUM confiável / USG de 1º trimestre de DD/MM/AAAA]).
+      - DPP: [DD/MM/AAAA]
+      
+      # SUBJETIVO (HMA):
+      Gestante comparece para consulta de retorno pré-natal.
+      - Movimentação Fetal: [Presente, ativa e vigorosa / Feto mexendo bem nas últimas 24h / Não percebida ainda por IG < 18-20 semanas].
+      - Queixas Maternas: [Sem queixas no período / Refere lombalgia postural leve / Refere azia/pirose esporádica / Refere edema leve vespertino em tornozelos].
+      - Negativas Mandatórias de Alarme Obstétrico:
+        * Nega perdas vaginais: Nega perda de sangue genital, nega perda de líquido claro com cheiro de água sanitária (perda de LA).
+        * Nega leucorreia com prurido, ardor ou odor desagradável.
+        * Nega contrações uterinas dolorosas e rítmicas de trabalho de parto prematuro.
+        * Nega sintomas pré-monitórios de pré-eclâmpsia: Nega cefaleia holocraniana/occipital, escotomas visuais, fotofobia, zumbidos ou epigastralgia em barra.
+        * Nega disúria, polaciúria, febre ou calafrios.
+      - Adesão Medicamentosa: Em uso regular de Sulfato Ferroso 40 mg Fe elementar/dia [e Ácido Fólico / Anti-hipertensivo: [ ] / Insulina].
+      
+      # CONTROLES & CURVAS (SE INDICADO):
+      - [Se HAS / HAG / PE]: Curva de PA domiciliar trazida: [Média de PA dentro do alvo (< 135x85 mmHg) / Registrados [ ] picos pressóricos acima do alvo].
+      - [Se DMG / DM2]: Perfil glicêmico domiciliar (mapa de 4 a 6 pontos):
+        * Jejum (alvo < 95 mg/dL): [ ] mg/dL
+        * 1h pós-prandial (alvo < 140 mg/dL) ou 2h pós-prandial (alvo < 120 mg/dL): [ ] mg/dL
+        * Análise: [[ ]% das medidas normais / [ ] medidas de hiperglicemia registradas].
+      
+      # OBJETIVO (EXAME FÍSICO):
+      - Sinais Vitais: PA: [ ]x[ ] mmHg (braço direito) | FC: [ ] bpm | Afebril.
+      - Antropometria: Peso Atual: [ ] kg (Ganho de peso desde a última consulta: [+/- ] kg | Ganho ponderal total na gestação: [ ] kg).
+      - Estado Geral: Bom estado geral, corada, hidratada, anictérica, acianótica, eupneica.
+      - Abdome Obstétrico:
+        * Altura Uterina (AU): [ ] cm (compatível com a IG, situada entre os percentis 10 e 90 da curva de AU/IG).
+        * Manobras de Leopold: Situação [longitudinal], apresentação [cefálica / pélvica], dorso [à direita / à esquerda].
+        * Dinâmica Uterina (em 10 min): [Ausente / Contrações de treinamento de Braxton-Hicks isoladas, indolores e arrítmicas].
+        * Batimentos Cardiofetais (BCF): [ ] bpm, audíveis ao sonar Doppler, ritmo cardíaco fetal regular, ausência de desacelerações.
+      - Membros Inferiores: [Sem edemas / Edema maleolar fisiológico bilateral +/4+], sem assimetrias, panturrilhas livres e indolores.
+      
+      # CHECAGEM DE EXAMES COMPLEMENTARES:
+      - Ultrassonografia: [Morfológica de 2º tri realizada em DD/MM: sem malformações, placenta [fúndica/anterior/posterior], ILA normal / USG obstétrica com peso fetal estimado de [ ] g, percentil [ ]].
+      - Teste de Tolerância Oral à Glicose (TOTG-75g entre 24-28s): [Jejum: [ ], 1h: [ ], 2h: [ ] mg/dL -> Normal / Alterado compatível com DMG].
+      - Coombs Indireto (se mãe Rh negativo): [Negativo em 28 semanas -> Indicada profilaxia antenatal com Imunoglobulina Anti-D 300 mcg IM].
+      - Rastreio de Streptococcus do Grupo B (EGB entre 35-37s): [Coletado swab anal e vaginal / Resultado: Negativo / Positivo -> indicado profilaxia intraparto com Ampicilina].
+      - Sorologias de 3º Trimestre: HIV [NR], VDRL [NR], HBsAg [NR], Toxoplasmose [NR / Imune].
+      
+      # AVALIAÇÃO:
+      1. G[ ] P[ ] A[ ] - Gestação tópica com IG de [ ] semanas e [ ] dias.
+      2. [Gestação de Risco Habitual / Gestação de Alto Risco por [comorbidade]].
+      3. Vitalidade e crescimento fetais preservados no momento.
+      
+      # PLANO / CONDUTA:
+      1. Manter suplementação com Sulfato Ferroso 40 mg de ferro elementar/dia até o parto.
+      2. [Se aplicável]: Atualização vacinal com dTpa (a partir de 20 semanas) e Influenza.
+      3. [Se aplicável]: Imunoglobulina Anti-D 300 mcg IM com 28 semanas (se Rh negativa e Coombs indireto negativo).
+      4. Orientações sobre o Parto: Esclarecidas dúvidas sobre sinais de trabalho de parto ativo (2 a 3 contrações regulares em 10 minutos que duram 40-50 segundos acompanhadas de perda de tampão ou dilatação).
+      5. Reforçados sinais de alarme e busca por pronto atendimento imediato: Perda de líquido, sangramento vaginal, diminuição nítida da movimentação fetal (< 6 a 10 movimentos em 2 horas após refeições), cefaleia intensa, dor em barra no epigástrio.
+      6. Retorno Agendado: Em [4 semanas / 2 semanas se > 36 semanas / semanalmente se > 38-40 semanas].
+
+  - trigger: ";gin-amb"
+    replace: |
+      ###### CONSULTA AMBULATORIAL - GINECOLOGIA GERAL ######
+      # IDENTIFICAÇÃO:
+      Paciente [Nome], [Idade] anos, Estado Civil: [ ], Profissão: [ ].
+      G[ ] P[ ] (PN [ ] / PC [ ]) A[ ].
+      
+      # ANTECEDENTES GINECO-OBSTÉTRICOS & HISTÓRIA MENSTRUAL:
+      - Status Hormonal: [Menacme / Transição Menopáusica / Pós-Menopausa há [ ] anos].
+      - DUM (Data da Última Menstruação): [DD/MM/AAAA] [OU: Menopausa aos [ ] anos].
+      - Padrão Menstrual: Ciclos regulares de [ ]/[ ] dias, fluxo durante [ ] dias, volume [normal / aumentado com coágulos].
+      - Contracepção / Hormonioterapia Atual: [Nenhum método / DIU de [ ] / Implanon / ACO oral: [ ] / TRH: [ ]].
+      - Menarca aos [ ] anos | Sexarca aos [ ] anos | Parcerias sexuais: [Estável / Eventuais]. Uso de preservativo: [Sempre / Às vezes / Não].
+      
+      # RASTREAMENTOS PREVENTIVOS:
+      - Exame Citopatológico de Colo Uterino (Papanicolau): Último em [MM/AAAA], resultado [Normal / Negativo para malignidade / Alterado: [ ]].
+      - Mamografia Bilateral: Última em [MM/AAAA], classificação BI-RADS [1 / 2 / 3 / 4 / 0].
+      - Ultrassonografia Pélvica / Transvaginal: Última em [MM/AAAA], resultado: [Útero e anexos sem alterações / Miomatose / Espessamento endometrial de [ ] mm].
+      
+      # ANTECEDENTES PESSOAIS & FAMILIARES:
+      - Comorbidades: Nega HAS, DM, dislipidemia, trombofilias ou neoplasias [se positivo: [ ]].
+      - Histórico Familiar de Câncer: Nega histórico familiar de neoplasia de mama (< 50 anos) ou ovário em parentes de 1º grau [se positivo: [ ]].
+      - Cirurgias Prévias: Nega cirurgias pélvicas ou abdominais prévias [se realizadas: [ ]].
+      - Medicamentos em Uso: [Nega / [ ]].
+      - Alergias: Nega alergias medicamentosas conhecidas [se alérgica: [ ]].
+      - Hábitos: Nega tabagismo, etilismo ou substâncias ilícitas [se fuma: [ ] cigarros/dia].
+      
+      # SUBJETIVO (QUEIXA PRINCIPAL & HMA):
+      Paciente comparece em consulta ginecológica [para rotina anual / com queixa de: [queixa principal]].
+      - História da Queixa Atual: Relata [descrever início, frequência, fatores de piora/melhora, tratamentos prévios].
+      - Negativas Mandatórias Ginecológicas:
+        * Nega sinusorragia (sangramento durante ou logo após as relações sexuais).
+        * Nega sangramento vaginal na pós-menopausa.
+        * Nega corrimento vaginal com odor fétido, prurido vulvar intenso ou sensação de queimação.
+        * Nega dor pélvica aguda incapacitante ou dispareunia de profundidade.
+        * Nega sintomas vasomotores intensos (fogachos) ou ressecamento vaginal incapacitante.
+        * Nega queixas urinárias (disúria, incontinência aos esforços ou noctúria).
+      
+      # OBJETIVO (EXAME FÍSICO GINECOLÓGICO):
+      - Sinais Vitais & Antropometria: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Peso: [ ] kg | Altura: [ ] m | IMC: [ ] kg/m².
+      - Estado Geral: Bom estado geral, corada, hidratada, anictérica, acianótica, afebril.
+      - Mamas & Axilas:
+        * Inspeção Estática e Dinâmica: Mamas simétricas, pele íntegra, ausência de retração cutânea, abaulamentos, edema ou aspecto de "casca de laranja". Complexos aréolo-papilares sem desvios ou ulcerações.
+        * Palpação Sistemática dos Quatro Quadrantes: Parênquima mamário de consistência glandular habitual, sem nódulos palpáveis definidos, espessamentos suspeitos ou áreas endurecidas.
+        * Expressão Papilar: Ausência de descarga papilar espontânea ou provocada (ou presença de descarga fisiológica leitosa / aquosa / sanguinolenta unilateral).
+        * Cadeias Linfonodais: Fossas supraclaviculares e regiões axilares bilaterais livres, sem linfonodomegalias palpáveis.
+      - Abdome: Flácido, indolor à palpação superficial e profunda, sem massas ou visceromegalias palpáveis, descompressão brusca negativa.
+      - Genitália Externa: Pilificação ginecoide habitual, vulva sem lesões exofíticas (condilomas), úlceras, escoriações ou distrofias. Glândulas de Bartholin e Skene sem tumefações ou dor.
+      - Exame Especular:
+        * Mucosa vaginal [trófica e rugosa / atrófica e adelgaçada], sem ulcerações ou sinais inflamatórios exuberantes.
+        * Conteúdo vaginal [fisiológico claro sem odor / leitoso aderente / grumoso tipo nata / bolhoso amarelo-esverdeado].
+        * Colo uterino centrado, epitélio escamoso liso, orifício externo circular/em fenda [com zona de ectopia periorificial benigna / sem lesões vegetantes ou sangrantes].
+        * Coleta de Citopatológico: [Realizada nesta consulta sem intercorrências (raspado ectocervical com espátula de Ayre + escovado endocervical) / Não coletado por estar em dia].
+      - Toque Vaginal Bimanual:
+        * Colo uterino de consistência fibroelástica habitual, móvel e indolor à mobilização cervical (Sinal de Frenkel negativo).
+        * Corpo uterino em [anteversoflexão (AVF) / retroversoflexão (RVF)], de volume normal, consistência habitual, móvel e indolor.
+        * Regiões anexiais bilaterais livres, sem massas palpáveis ou dor à palpação dos fundos de saco vaginais.
+      
+      # AVALIAÇÃO DIAGNÓSTICA:
+      1. Consulta de rotina ginecológica preventiva / [Queixa diagnóstica: ex: Vulvovaginite / SUA / Dismenorreia / Climatério].
+      2. Rastreamento oncoginecológico atualizado.
+      
+      # PLANO / CONDUTA:
+      1. Conduta Terapêutica Medicamentosa: [Prescrição de tratamento específico com dose, via e tempo de tratamento / Mantenho orientações de higiene íntima].
+      2. Exames Complementares Solicitados:
+         - [ ] Citopatológico de Colo Uterino (se coletado hoje, aguardar laudo).
+         - [ ] Mamografia bilateral de rastreamento (se faixa etária indicada).
+         - [ ] Ultrassonografia Pélvica Transvaginal (se indicado para avaliação de espessura endometrial ou miomas).
+      3. Orientações de Saúde da Mulher:
+         - Uso de preservativo nas relações sexuais para prevenção de ISTs.
+         - Higiene íntima: Sabonete líquido suave com pH neutro/fisiológico, calcinhas de algodão, evitar protetores diários sintéticos contínuos e duchas vaginais internas.
+         - Estilo de vida saudável: Dieta balanceada rica em cálcio e atividade física regular.
+      4. Retorno: Agendado retorno em [30 dias para checar resultados de exames / 1 ano para nova rotina anual].
+
+  - trigger: ";pi-gin"
+    replace: |
+      ###### RESPOSTA DE INTERCONSULTA MÉDICA (PARECER GINECOLÓGICO) ######
+      # DADOS DA SOLICITAÇÃO:
+      - Clínica Solicitante: [Clínica Médica / Cirurgia Geral / UTI / Psiquiatria / Outra: [ ]]
+      - Clínica Atendente: Ginecologia e Obstetrícia
+      - Motivo da Interconsulta: Avaliação de [Sangramento uterino anormal / Suspeita de DIP / Dor pélvica aguda a esclarecer / Achado incidental de cisto ou massa ovariana / Corrimento ou úlcera genital].
+      
+      # IDENTIFICAÇÃO DA PACIENTE:
+      Paciente [Nome], [Idade] anos, Leito [ ], Registro: [ ].
+      G[ ] P[ ] A[ ], DUM: [DD/MM/AAAA] ([Menacme / Pós-Menopausa há [ ] anos]).
+      Método Contraceptivo / Terapia Hormonal: [Nenhum / DIU de [ ] / ACO / TRH: [ ]].
+      
+      # HISTÓRICO CLÍNICO & MOTIVO DA INTERNAÇÃO:
+      - Diagnóstico Principal da Internação: [Descrever o motivo pelo qual a paciente está internada].
+      - Comorbidades Relevantes: [HAS / DM / Cardiopatia / Insuficiência Renal / Hepatopatia / Neoplasia].
+      - Medicações em Uso Relevantes: [Uso de anticoagulantes (Enoxaparina / Varfarina / DOACs) / Antiagregantes (AAS / Clopidogrel) / Antibioticoterapia sistêmica].
+      - Cirurgias Ginecológicas Prévias: Nega [ou relata histerectomia prévia / ooforectomia / cesáreas].
+      - Alergias Conhecidas: [Nega / [ ]].
+      - Rastreios Prévios (SIC): Citopatológico em [AAAA] (normal); Mamografia em [AAAA] (normal).
+      
+      # HMA FOCADA NA QUEIXA GINECOLÓGICA:
+      Avaliamos paciente no leito a pedido da equipe assistente.
+      Refere que [descrever o início do sangramento/dor/sintoma, duração, intensidade, características da secreção].
+      - Negativas Mandatórias:
+        * Nega sangramentos genitais volumosos prévios ou episódios semelhantes no passado.
+        * Nega febre, calafrios ou instabilidade hemodinâmica referida.
+        * Nega corrimento de odor fétido prévio à internação.
+        * Nega trauma local ou manipulação ginecológica recente.
+      
+      # OBJETIVO (EXAME FÍSICO GINECOLÓGICO DIRIGIDO):
+      - Sinais Vitais Atuais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% | Tax: [ ] °C.
+      - Estado Geral: Consciente, orientada, [corada / hipocorada +/4+], hemodinamicamente estável, afebril.
+      - Abdome: Flácido, ruídos hidroaéreos presentes, [indolor / dor leve à palpação profunda em hipogástrio/fossa ilíaca], sem sinais de irritação peritoneal (Sinal de Blumberg negativo), sem massas abdominais palpáveis.
+      - Exame Especular:
+        * Mucosa vaginal [trófica / atrófica sem sangramento ativo / com sangramento vermelho vivo em pequena quantidade proveniente do canal endocervical].
+        * Conteúdo vaginal [fisiológico / sanguinolento sem restos ou coágulos organizados].
+        * Colo uterino de aspecto [eutrófico / com orifício externo puntiforme e fechado, sem lesões vegetantes, friáveis ou suspeitas de malignidade].
+      - Toque Vaginal Bimanual:
+        * Colo uterino de consistência fibroelástica habitual, orifício interno fechado, móvel e indolor à mobilização (Sinal de Frenkel negativo).
+        * Corpo uterino em [anteversoflexão], tamanho habitual, consistência fibroelástica, indolor à palpação.
+        * Regiões anexiais livres e indolores à palpação bimanual, sem massas ou espessamentos perceptíveis.
+      
+      # REVISÃO DE EXAMES DE IMAGEM / LABORATORIAIS:
+      - Hemograma Recente: Hb: [ ] g/dL | Ht: [ ]% | Leucócitos: [ ] /mm³ | Plaquetas: [ ] /mm³.
+      - Coagulograma: TP (INR): [ ] | TTPA: [ ] segundos.
+      - Exames de Imagem Pélvica (USG ou TC): [Não realizado no momento / Ultrassonografia transvaginal de DD/MM evidenciando endométrio fino de [ ] mm, miométrio homogêneo e anexos tópicos].
+      
+      # IMPRESSÃO DIAGNÓSTICA:
+      1. [Sangramento Uterino Anormal em paciente em uso de anticoagulante / Ectopia cervical / Atrofia urogenital / Afastada patologia ginecológica aguda ou cirúrgica no momento].
+      2. Paciente hemodinamicamente estável, com perda volêmica controlada no momento.
+      
+      # CONDUTA RECOMENDADA:
+      1. Conduta Imediata:
+         - [ ] Não há indicação de intervenção cirúrgica de urgência pela Ginecologia no momento.
+         - [ ] [Se sangramento por atrofia]: Indico Estrogênio tópico em creme vaginal (Estriol ou Promestrieno 1 aplicador à noite) após estabilização clínica.
+         - [ ] [Se SUA disfuncional moderado/grave]: Sugiro avaliar com a clínica assistente a possibilidade de ajuste ou pausa temporária da anticoagulação / ácido tranexâmico se ausência de contraindicação tromboembólica / progestagênio oral.
+      2. Exames Propedêuticos: Sugiro realização de Ultrassonografia Pélvica Transvaginal após alta ou estabilização clínica.
+      3. Alerta de Reavaliação: Caso apresente piora do volume de sangramento, instabilidade pressórica ou dor pélvica aguda com sinais de peritonismo, solicitamos novo acionamento imediato da equipe de Ginecologia.
+      4. Seguimento ambulatorial em Unidade Básica de Saúde ou Ambulatório Geral após desospitalização.
+      
+      Permanecemos à disposição para reavaliação conjunta.
+      
+      Atenciosamente,
+      Equipe de Ginecologia e Obstetrícia
+
+  - trigger: ";implanon-ins"
+    replace: |
+      ###### NOTA DE PROCEDIMENTO: INSERÇÃO DE IMPLANTE SUBDÉRMICO (IMPLANON) ######
+      # INDICAÇÃO & IDENTIFICAÇÃO:
+      Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ].
+      Indicação: Contracepção de longa duração reversível (LARC) [em puerpério imediato / em menacme com gravidez previamente excluída].
+      Termo de Consentimento Livre e Esclarecido (TCLE): Apresentado, lido, compreendido e assinado pela paciente antes do procedimento. Excluída gravidez ativa.
+      
+      # PASSOS TÉCNICOS DO PROCEDIMENTO:
+      1. Posicionamento da Paciente: Decúbito dorsal horizontal com o braço não dominante flexionado no cotovelo e a mão posicionada sob a cabeça.
+      2. Demarcação Anatômica: Identificado ponto de inserção na face interna do braço não dominante, cerca de 8 a 10 cm acima do epicôndilo medial do úmero e 3 a 5 cm posterior ao sulco entre os músculos bíceps e tríceps braquiais (zona de segurança para evitar o feixe vasculonervoso braquial).
+      3. Antissepsia: Rigorosa antissepsia da pele com Clorexidina Alcoólica 2% em movimentos circulares e aposição de campo estéril fenestrado.
+      4. Anestesia Local: Realizada infiltração anestésica com 1,5 a 2 mL de Lidocaína 2% sem vasoconstritor, estritamente no trajeto subdérmico planejado (cânula de inserção).
+      5. Inserção do Implante:
+         - Aplicador introduzido com bisel para cima em ângulo aproximado de 30 graus até transfixar a derme.
+         - Imediata horizontalização do aplicador paralelamente à superfície cutânea, elevando suavemente a pele ("tenteando") para garantir posicionamento estritamente subdérmico superficial.
+         - Progressão completa da cânula sob a derme até o limitador.
+         - Destravamento da trava de segurança do aplicador e retração completa da cânula através do botão deslizante, liberando o bastonete de Etonogestrel 68 mg na loja subcutânea.
+      6. Palpação Confirmatória Obrigatória:
+         - O implante foi facilmente palpado em toda a sua extensão (4 cm) pelo médico executor no plano subdérmico superficial.
+         - A paciente foi orientada e guiada para palpar e reconhecer a presença do implante em seu próprio braço.
+      7. Hemostasia e Curativo:
+         - Ausência de sangramento ativo no orifício de punção.
+         - Realizado curativo aproximativo com fita microporada / steri-strip no ponto de inserção.
+         - Confeccionado curativo compressivo oclusivo com atadura de crepe para prevenção de hematomas locais.
+      
+      # DESFECHO DO PROCEDIMENTO:
+      Procedimento realizado sob técnica asséptica rigorosa, sem intercorrências imediatas. Paciente tolerou bem a intervenção, saindo lúcida, corada e hemodinamicamente estável.
+      
+      # ORIENTAÇÕES PÓS-PROCEDIMENTO & SEGUIMENTO:
+      1. Manter curativo compressivo de crepe por 24 horas e a fita adesiva estéril por 3 a 5 dias, mantendo o local limpo e seco.
+      2. Evitar carregar peso excessivo ou praticar musculação intensa com o membro nas primeiras 48 horas.
+      3. Entregue à paciente o Cartão da Usuária contendo o número do lote, data de inserção ([DD/MM/AAAA]) e data limite para retirada ou troca ([DD/MM/AAAA + 3 anos]).
+      4. Esclarecido que o método tem validade de 3 anos e que alterações do padrão de sangramento menstrual (spotting, amenorreia ou sangramento irregular) são esperadas e benignas.
+      5. Orientada a procurar a UBS caso sinta dor local intensa com vermelhidão, calor ou caso deixe de palpar o implante sob a pele.
+
+  - trigger: ";implanon-troca"
+    replace: |
+      ###### NOTA DE PROCEDIMENTO: RETIRADA E TROCA DE IMPLANTE (IMPLANON) ######
+      # INDICAÇÃO & IDENTIFICAÇÃO:
+      Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ].
+      Indicação: [Fim da vigência de 3 anos do implante contraceptivo prévio / Desejo de gestação (apenas retirada) / Troca imediata por novo dispositivo].
+      Termo de Consentimento Livre e Esclarecido (TCLE): Lido e assinado pela paciente.
+      
+      # PASSOS TÉCNICOS DO PROCEDIMENTO:
+      1. Posicionamento da Paciente: Decúbito dorsal horizontal com o braço abduzido e flexionado no cotovelo, mão sob a cabeça.
+      2. Palpação Prévia Obrigatória:
+         - Implante prévio localizado por palpação bimanual na face anterointerna do braço.
+         - Constatado implante íntegro, de localização estritamente subdérmica superficial e móvel.
+      3. Antissepsia: Rigorosa antissepsia da pele com Clorexidina Alcoólica 2% e colocação de campo estéril fenestrado.
+      4. Anestesia Local:
+         - Infiltração com 1 a 2 mL de Lidocaína 2% sem vasoconstritor imediatamente abaixo da extremidade distal do implante (próxima à cicatriz prévia), provocando elevação da ponta do bastonete em direção à pele.
+      5. Incisão & Extração:
+         - Realizada incisão longitudinal de 2 a 3 mm na pele com lâmina de bisturi nº 11, exatamente sobre a extremidade distal do implante.
+         - Empurrada a extremidade proximal do implante com o dedo indicador da mão não dominante, projetando a extremidade distal pela incisão.
+         - Apreendida a extremidade do implante com pinça hemostática do tipo Mosquito curva.
+         - Dissecada a cápsula fibrosa perilesional com gaze estéril e tracionado o implante delicadamente até sua extração completa.
+         - Inspecionado o bastonete retirado: íntegro, medindo 4 cm.
+      6. [SE REALIZADA TROCA NO MESMO ATO]:
+         - Introduzido o novo aplicador carregado através da mesma incisão cutânea, progredindo a cânula no plano subdérmico paralelo ao trajeto anterior.
+         - Liberado o novo bastonete de Etonogestrel 68 mg no plano subdérmico.
+         - Confirmada a palpação do novo implante pelo médico e pela paciente.
+      7. Síntese e Curativo:
+         - Hemostasia rigorosa por compressão local.
+         - Fechamento da incisão com [fita estéril de aproximação Steri-Strip / 1 ponto simples com Mononylon 4-0].
+         - Curativo oclusivo com gaze estéril e enfaixamento compressivo com atadura de crepe.
+      
+      # DESFECHO DO PROCEDIMENTO:
+      Procedimento realizado sem intercorrências, com sangramento mínimo e boa tolerância pela paciente. Sai lúcida, corada e estável.
+      
+      # ORIENTAÇÕES PÓS-PROCEDIMENTO:
+      1. Manter enfaixamento compressivo por 24 horas para prevenção de hematoma. Manter curativo limpo e seco.
+      2. [Se realizado ponto simples com Mononylon]: Retirar o ponto na UBS em 5 a 7 dias.
+      3. Entregue novo Cartão da Usuária com data da troca ([DD/MM/AAAA]) e nova validade de 3 anos ([DD/MM/AAAA + 3 anos]).
+      4. Esclarecidos sinais de alerta (dor intensa, inchaço progressivo, calor ou secreção purulenta na incisão) para retorno imediato.
+
+  - trigger: ";diu-amb"
+    replace: |
+      ###### NOTA DE PROCEDIMENTO: INSERÇÃO DE DISPOSITIVO INTRAUTERINO (DIU) ######
+      # INDICAÇÃO & IDENTIFICAÇÃO:
+      Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ].
+      Dispositivo Inserido: [DIU de Cobre TCu 380A / DIU de Levonorgestrel 52 mg (Mirena) / DIU de Levonorgestrel 19,5 mg (Kyleena)].
+      Termo de Consentimento Livre e Esclarecido (TCLE): Apresentado, esclarecido e assinado previamente.
+      Critérios de Elegibilidade: Excluída gestação (DUM há [ ] dias / teste de gravidez negativo). Afastada infecção genital ativa ou cervicite mucopurulenta.
+      
+      # PASSOS TÉCNICOS DO PROCEDIMENTO:
+      1. Posicionamento da Paciente: Paciente em posição ginecológica / litotômica confortável.
+      2. Toque Bimanual Prévio: Identificado útero em [anteversoflexão (AVF) / retroversoflexão (RVF)], móvel, consistência habitual, indolor à palpação, regiões anexiais livres e indolores.
+      3. Exame Especular:
+         - Introduzido espéculo vaginal estéril de tamanho adequado.
+         - Visualizado colo uterino centrado, epitélio liso, sem lesões orgânicas suspeitas ou corrimento cervical purulento.
+      4. Antissepsia: Rigorosa antissepsia cervicovaginal e dos fundos de saco com [Clorexidina Aquosa 0,5% / PVPI tópico] com auxílio de pinça Cheron montada com gaze.
+      5. Pinçamento Cervical & Retificação:
+         - Pinçado o lábio anterior do colo uterino com Pinça de Pozzi na posição de 12 horas [ou lábio posterior se útero em RVF acentuada].
+         - Realizada tração suave e contínua do colo para retificação do ângulo cervicouterino.
+      6. Histerometria:
+         - Introduzido histerômetro metálico graduado maleável através do orifício cervical externo até o fundo da cavidade uterina com toque suave.
+         - Histerometria Aferida: [ ] cm (compatível com cavidade uterina adequada para o método: entre 6 e 9 cm).
+         - Retirado o histerômetro sem intercorrências.
+      7. Preparo e Introdução do Dispositivo:
+         - Dispositivo intrauterino carregado na camisa aplicadora sob rigorosa técnica asséptica dentro da embalagem estéril.
+         - Ajustado o anel medidor (cursor de profundidade) do tubo aplicador exatamente para a medida da histerometria ([ ] cm).
+         - Tubo aplicador introduzido através do canal cervical sob tração firme da pinça de Pozzi, até que o anel encostasse no orifício externo do colo.
+         - Liberados os braços horizontais do DIU no fundo da cavidade uterina mediante técnica de retração da cânula (técnica "no-touch").
+         - Retirado o mandril e em seguida retirada a cânula aplicadora com suavidade.
+      8. Corte dos Fios & Hemostasia:
+         - Fios do DIU visualizados exteriorizados pelo orifício externo do colo.
+         - Fios seccionados com tesoura longa de Mayo/Metzenbaum curva a cerca de 2,5 a 3 cm do orifício externo cervical.
+         - Retirada da pinça de Pozzi.
+         - Realizada compressão hemostática suave do ponto de pinçamento com gaze montada até cessar sangramento (hemostasia completa).
+         - Retirado o espéculo vaginal.
+      
+      # DESFECHO DO PROCEDIMENTO:
+      Procedimento realizado sob rigorosa técnica asséptica e sem intercorrências. Paciente referiu cólica uterina de intensidade leve a moderada durante a histerometria, tolerando bem o procedimento. Sem sangramento ativo ao final. Sai em bom estado geral, lúcida e hemodinamicamente estável.
+      
+      # PRESCRIÇÃO PÓS-PROCEDIMENTO & ORIENTAÇÕES:
+      1. Dipirona 1 g VO de 6/6h SOS ou Ibuprofeno 600 mg VO 8/8h por 24 a 48h se cólicas pélvicas.
+      2. Orientações Gerais: Cólicas leves e pequenos sangramentos escuros em borra de café são frequentes nos primeiros dias. Evitar relações sexuais nos primeiros 3 a 5 dias.
+      3. Alertas de Emergência: Procurar pronto-socorro ginecológico se apresentar febre (Tax >= 37,8 ºC), dor pélvica intensa que não cede aos analgésicos, sangramento volumoso com coágulos ou corrimento com odor fétido.
+      4. Entregue o Cartão do DIU preenchido com modelo, lote, data de inserção e validade ([5 anos para Mirena / Kyleena | 10 anos para DIU de Cobre TCu 380A]).
+      5. Retorno: Agendado retorno em 30 a 45 dias com Ultrassonografia Transvaginal de controle para checagem de posicionamento (RDIU).
+
+  - trigger: ";pc-cef"
+    replace: |
+      ###### DESCRIÇÃO CIRÚRGICA: CESARIANA (APRESENTAÇÃO CEFÁLICA) ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - Indicação Cirúrgica: [Falha de indução / Desproporção Céfalo-Pélvica / Sofrimento Fetal Agudo / Parada de progressão / Iterativa (2 ou mais cesáreas prévias)]
+      - Cirurgião(ã): [Nome do Médico] | Auxiliar(es): [ ] | Anestesista: [ ] | Pediatra: [ ]
+      - Tipo de Anestesia: Raquianestesia [ou Geral se emergência]
+      - Data e Hora do Procedimento: [DD/MM/AAAA] das [HH:MM] às [HH:MM]
+      
+      # ACHADOS CIRÚRGICOS:
+      - RN vivo, em apresentação cefálica, desprendido vigoroso e choroso ao nascer.
+      - Líquido amniótico: [Claro com grumos / Meconial fluido / Meconial espesso / Hemático], odor habitual.
+      - Placenta: Discoide, inserção fúndica/corporal [anterior / posterior], íntegra e macroscopicamente normal, cotilédones completos.
+      - Anexos e Cavidade: Útero puerperal, trompas e ovários macroscopicamente normais à inspeção bilateral. Ausência de aderências pélvicas exuberantes.
+      
+      # TEMPOS CIRÚRGICOS (ATO OPERATÓRIO):
+      1. Paciente posicionada em decúbito dorsal horizontal com leve lateralização do útero para a esquerda, sob raquianestesia com monitorização contínua.
+      2. Realizada sondagem vesical de demora com sonda de Folley nº 14, conectada a coletor em sistema fechado, com drenagem de urina clara.
+      3. Assepsia e antissepsia rigorosa da parede abdominal e coxas com Clorexidina Alcoólica 2%.
+      4. Colocação de campos cirúrgicos estéreis fenestrados e laterais.
+      5. Incisão transversa da pele suprapúbica do tipo Pfannenstiel (cerca de 2 cm acima da sínfise púbica), com bisturi de lâmina nº 23/20.
+      6. Abertura do tecido celular subcutâneo com eletrocautério monopolar com rigorosa hemostasia.
+      7. Incisão transversa da aponeurose dos músculos retos abdominais, estendida lateralmente com tesoura de Mayo curva.
+      8. Divulsão romba cranial e caudal da aponeurose em relação aos músculos retos abdominais.
+      9. Abertura mediana do plano muscular dos retos abdominais na linha alba por divulsão romba digital.
+      10. Abertura cuidadosa do peritônio parietal por divulsão romba e tesoura de Metzenbaum entre pinças hemostáticas, com proteção das alças intestinais e bexiga.
+      11. Colocação de afastador vesical do tipo Doyen para proteção da bexiga urinária.
+      12. Histerotomia transversa segmentar arciforme a Kerr com bisturi, ampliada digitalmente em sentido látero-cranial bidigital.
+      13. Amniotomia artificial com saída de líquido amniótico [claro com grumos].
+      14. Extração do feto pelo polo cefálico com elevação manual e tração suave no horário [HH:MM].
+      15. Clampagem e secção imediatas do cordão umbilical após ordenha / em tempo oportuno.
+      16. Recém-nascido entregue de imediato aos cuidados da equipe de Neonatologia/Pediatria em sala (Sexo: [ ], Peso: [ ] g, Apgar: [ ] / [ ]).
+      17. Ocitocina profilática: Administradas 5 UI de Ocitocina em bólus EV lento + infusão contínua de 20 UI de Ocitocina em 500 mL de Ringer Lactato / SF 0,9% a 125 mL/h.
+      18. Dequitação placentária ativa manual e curagem cuidadosa da cavidade uterina com gaze montada para retirada de coágulos e restos deciduais.
+      19. Exteriorização do útero para melhor visualização dos ângulos da histerotomia.
+      20. Histerorrafia em tempo único / dois planos com fio Vicryl nº 0 em sutura contínua ancorada, englobando toda a espessura do miométrio com excelente coaptação e hemostasia.
+      21. Revisão criteriosa dos ângulos uterinos e da linha de sutura da histerotomia: sem sangramentos ativos.
+      22. [ ] Se observada hipotonia uterina transitória: Realizada massagem uterina bimanual + Ácido Tranexâmico 1 g EV + Metilergometrina 0,2 mg IM + Misoprostol 800 mcg via retal, com resposta imediata e retorno da contração uterina fisiológica.
+      23. Limpeza cuidadosa e revisão da cavidade abdominal e das goteiras parietocólicas; verificação dos ovários e trompas normais; reposição do útero na cavidade.
+      24. Celiorrafia parietal do peritônio [fechamento contínuo simples com Vicryl 2-0 / não fechado conforme técnica de Misgav-Ladach].
+      25. Aproximação dos bordos dos músculos retos do abdome na linha média com pontos simples em "U" com Vicryl 2-0.
+      26. Síntese da aponeurose dos músculos retos abdominais com fio Vicryl nº 0 em sutura contínua simples e firme.
+      27. Aproximação do tecido celular subcutâneo com pontos invertidos simples com fio Vicryl 2-0 (redução do espaço morto).
+      28. Síntese da pele: [Sutura intradérmica contínua com fio Monocryl 4-0 / Sutura com pontos simples separados tipo Donati com fio Mononylon 4-0].
+      29. Todos os tempos foram realizados sob rigorosa assepsia, antissepsia e hemostasia.
+      30. Limpeza da pele, antissepsia de encerramento e curativo estéril oclusivo sobre a ferida cirúrgica.
+      31. Contagem cirúrgica de compressas, gazes, pinças e agulhas íntegra e correspondente entre o início e o término da cirurgia.
+      
+      # DESFECHO CIRÚRGICO:
+      Paciente finaliza o procedimento consciente, orientada, hemodinamicamente estável, afebril, eupnéica, com útero contraído e centrado, sangramento vaginal fisiológico discreto e diurese clara em sistema fechado de SVD. Encaminhada à Sala de Recuperação Pós-Anestésica (SRPA).
+
+  - trigger: ";pc-pelv"
+    replace: |
+      ###### DESCRIÇÃO CIRÚRGICA: CESARIANA (APRESENTAÇÃO PÉLVICA) ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - Indicação Cirúrgica: Apresentação Pélvica [em trabalho de parto / eletiva a termo / pélvica com bolsa rota / pélvica associada a outra indicação: [ ]]
+      - Cirurgião(ã): [Nome do Médico] | Auxiliar(es): [ ] | Anestesista: [ ] | Pediatra: [ ]
+      - Tipo de Anestesia: Raquianestesia
+      - Data e Hora do Procedimento: [DD/MM/AAAA] das [HH:MM] às [HH:MM]
+      
+      # ACHADOS CIRÚRGICOS:
+      - RN vivo em apresentação pélvica ([pélvica franca / pélvica completa]), extraído vigoroso e choroso.
+      - Líquido amniótico: [Claro com grumos / Meconial fluido].
+      - Placenta: Discoide, fúndica, cotilédones íntegros e completos, macroscopicamente normal.
+      - Anexos e Cavidade: Útero puerperal íntegro, trompas e ovários macroscopicamente normais bilateralmente.
+      
+      # TEMPOS CIRÚRGICOS & MANOBRAS DE EXTRAÇÃO:
+      1. Paciente em decúbito dorsal horizontal com leve inclinação do útero para a esquerda, sob raquianestesia com monitorização contínua.
+      2. Sondagem vesical de demora nº 14 com drenagem de urina clara em sistema fechado.
+      3. Antissepsia cirúrgica rigorosa com Clorexidina Alcoólica 2% e colocação de campos estéreis fenestrados.
+      4. Incisão cutânea suprapúbica transversa à Pfannenstiel com bisturi lâmina nº 23/20.
+      5. Abertura por planos da parede abdominal: tecido subcutâneo com eletrocautério, incisão transversa da aponeurose e divulsão lateral com tesoura de Mayo, separação romba dos retos abdominais na linha alba e abertura delicada do peritônio parietal com proteção das vísceras.
+      6. Posicionamento de afastador vesical de Doyen.
+      7. Histerotomia transversa segmentar arciforme à Kerr com ampliação látero-cranial bidigital cuidadosa.
+      8. Amniotomia artificial com saída de líquido amniótico.
+      9. MANOBRAS DE EXTRAÇÃO DO POLO PÉLVICO:
+         - Identificado polo pélvico fetal e exteriorização suave dos membros inferiores e nádegas fetais.
+         - Tracionamento delicado da cintura pélvica pelas cristas ilíacas e pelve fetal, com formação de alça de cordão umbilical (cordonilho) para descompressão e evitar avulsão funicular.
+         - Exteriorização do tronco e desprendimento das espáduas fetais [por rotação suave de 180 graus do tronco fetal / Manobra de Lovset com rotação alternada para desprendimento dos braços / Manobra de Pajot com descida digital dos membros superiores].
+         - DESPRENDIMENTO DA CABEÇA DERRADEIRA:
+           * [Manobra de Bracht: Elevação do dorso fetal e membros inferiores em direção ao hipogástrio materno, promovendo deflexão fisiológica e desprendimento espontâneo do polo cefálico].
+           * [OU: Manobra de Mauriceau-Smellie-Veit: Feto apoiado sobre o antebraço do cirurgião, com dedo indicador/médio introduzido na cavidade oral/região malar fetal mantendo a flexão cefálica enquanto a mão contralateral exerce tração suave sobre as espáduas no sentido do eixo da bacia materna, desprendendo a cabeça suavemente].
+      10. Extração de RN vivo às [HH:MM].
+      11. Clampagem e secção do cordão umbilical em tempo oportuno.
+      12. RN entregue de imediato à equipe de Pediatria/Neonatologia em sala (Sexo: [ ], Peso: [ ] g, Apgar: [ ] / [ ]).
+      13. Ocitocina profilática: 5 UI EV lento + infusão contínua de 20 UI em 500 mL de Ringer Lactato a 125 mL/h.
+      14. Dequitação placentária manual ativa e curagem uterina cuidadosa com retirada de restos deciduais.
+      15. Exteriorização do útero para ampla visualização dos bordos da histerotomia.
+      16. Histerorrafia em tempo único com fio Vicryl nº 0 em sutura contínua ancorada com excelente hemostasia e coaptação miometrial.
+      17. Revisão criteriosa de hemostasia dos ângulos uterinos: sem pontos de sangramento.
+      18. Limpeza de cavidade abdominal, inspeção de trompas e ovários e reposição do útero.
+      19. Celiorrafia parietal do peritônio com Vicryl 2-0.
+      20. Miorrafia dos retos abdominais na linha alba com pontos simples em "U" com Vicryl 2-0.
+      21. Síntese da aponeurose com sutura contínua simples com fio Vicryl nº 0.
+      22. Aproximação do tecido celular subcutâneo com pontos invertidos simples com Vicryl 2-0.
+      23. Síntese da pele: [Sutura intradérmica contínua com Monocryl 4-0 / Pontos simples com Mononylon 4-0].
+      24. Curativo cirúrgico oclusivo estéril.
+      25. Contagem de compressas, pinças e agulhas correspondente e correta.
+      
+      # DESFECHO CIRÚRGICO:
+      Paciente finaliza o ato cirúrgico em bom estado geral, lúcida, orientada, hemodinamicamente estável, útero bem contraído, sangramento genital discreto e diurese clara em SVD. Encaminhada à SRPA.
+
+  - trigger: ";pc-diu-lt"
+    replace: |
+      ###### DESCRIÇÃO CIRÚRGICA: CESARIANA COM CONTRACEPÇÃO INTRAPARTO ######
+      # IDENTIFICAÇÃO & DADOS LEGAIS:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - Indicação da Cesariana: [Indicação obstétrica]
+      - Procedimento Contraceptivo Associado: [Inserção de DIU de Cobre Intraoperatório / Laqueadura Tubárea Bilateral sob Técnica de Pomeroy Modificada]
+      - Critérios Legais da Laqueadura (Lei 14.443/2022): [Idade >= 21 anos / Pelo menos 2 filhos vivos / TCLE firmado com antecedência mínima de 60 dias / TCLE e documentação anexados em prontuário médico].
+      
+      # [TEMPO ESPECÍFICO A]: INSERÇÃO DE DIU DE COBRE TRANSCESÁREA
+      1. Concluída a dequitação placentária ativa e realizada curagem manual e com gaze montada da cavidade uterina, constatando cavidade limpa e hemostática.
+      2. O dispositivo intrauterino de Cobre (TCu 380A estéril) foi retirado da embalagem e posicionado manualmente ou apreendido suavemente com pinça longa atraumática (Foerster/Collins) sem tocar em superfícies externas.
+      3. O DIU foi introduzido através da histerotomia e fixado com precisão no ápice do fundo da cavidade uterina, com seus braços transversais dispostos no plano coronal.
+      4. Os fios do DIU foram direcionados delicadamente com pinça atraumática através do orifício cervical interno em direção ao canal endocervical e vagina, assegurando que os fios NÃO fossem incorporados ou transfixados pela sutura da histerorrafia.
+      5. Procedeu-se à histerorrafia habitual com fio Vicryl nº 0 em sutura contínua ancorada sob ampla visão direta, com especial atenção para preservação da mobilidade dos fios na cavidade.
+      
+      # [TEMPO ESPECÍFICO B]: LAQUEADURA TUBÁREA BILATERAL (TÉCNICA DE POMEROY MODIFICADA)
+      1. Concluída a histerorrafia e revisada a hemostasia dos ângulos uterinos, procedeu-se à exteriorização sistemática dos anexos uterinos.
+      2. TUBA UTERINA DIREITA:
+         - Identificada a tuba uterina direita em toda a sua extensão, confirmando visualmente a presença de fímbrias no pavilhão tubário (identificação inequívoca).
+         - Pinçada a porção ístmica/média da tuba em alça com pinça atraumática de Babcock, sem comprometer a vascularização mesossalpíngica.
+         - Realizada ligadura da base da alça tubária com dupla laçada firme de fio Vicryl 2-0 [ou Catgut simples/cromado 2-0].
+         - Ressecada a cúspide da alça tubária (segmento de cerca de 1,5 a 2,0 cm de tuba) com tesoura de Metzenbaum fina.
+         - Confirmada visualização da luz tubária em ambas as extremidades seccionadas.
+         - Revisão rigorosa de hemostasia do coto tubário e do mesossalpinge: sem sangramentos.
+         - Segmento tubário retirado identificado e encaminhado para exame anatomopatológico de rotina.
+      3. TUBA UTERINA ESQUERDA:
+         - Identificada a tuba uterina esquerda em toda a sua extensão anatômica com visualização direta das fímbrias tubárias.
+         - Pinçada a porção ístmica/média com pinça de Babcock, formando alça tubária.
+         - Realizada ligadura dupla da base da alça com fio Vicryl 2-0.
+         - Ressecção da porção superior da alça tubária (1,5 a 2,0 cm) com tesoura de Metzenbaum.
+         - Confirmada a presença de lúmen tubário em ambos os cotos.
+         - Coto revisado e hemostático.
+         - Peça cirúrgica identificada e encaminhada ao exame anatomopatológico.
+      4. Reposicionados os anexos e o útero na cavidade pélvica sob rigorosa hemostasia.
+      
+      # CONTINUAÇÃO DOS PLANOS CIRÚRGICOS:
+      - Seguiu-se o fechamento habitual da parede abdominal: peritônio com Vicryl 2-0, aproximação dos retos com Vicryl 2-0, aponeurose com Vicryl nº 0 contínuo, subcutâneo com Vicryl 2-0 e síntese de pele com [Monocryl 4-0 intradérmico / Nylon 4-0].
+      - Contagem cirúrgica de compressas, agulhas e pinças íntegra e correspondente.
+      
+      # DESFECHO CIRÚRGICO:
+      Procedimento cirúrgico concluído sem intercorrências hemorrágicas. Paciente hemodinamicamente estável, útero bem contraído, diurese clara em SVD, encaminhada à SRPA.
+
+  - trigger: ";pn-eutocico"
+    replace: |
+      ###### DESCRIÇÃO DE PARTO NORMAL VAGINAL EUTÓCICO ######
+      # IDENTIFICAÇÃO & DADOS DO PARTO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] A[ ] | Idade Gestacional: [ ] semanas e [ ] dias
+      - Assistente(s) do Parto: [Nome do Médico] | Enfermeiro(a) Obstetra: [ ] | Pediatra: [ ]
+      - Data e Hora do Nascimento: [DD/MM/AAAA] às [HH:MM]
+      
+      # ACHADOS DO PARTO & RECÉM-NASCIDO:
+      - Tipo de Apresentação: Cefálica fletida (vértice), variedade de posição [Occipitopúbica (OP) / OEA / ODA].
+      - Líquido Amniótico: [Claro com grumos / Meconial fluido], sem odor fétido.
+      - Recém-Nascido: Sexo [ ], Peso: [ ] g, Apgar: [ ] / [ ] (1º e 5º min).
+      - Conduta Imediata com RN: Contato pele a pele precoce estabelecido de imediato com a mãe sob vigilância clínica; RN vigoroso, chorando ao nascer, com tônus muscular preservado.
+      
+      # DESCRIÇÃO TÉCNICA DA ASSISTÊNCIA AO PARTO:
+      1. Posição da Parturiente: Posição de litotomia com cabeceira elevada a 45º / semissentada, conforme a preferência e o conforto da paciente.
+      2. Antissepsia & Paramentação: Assepsia e antissepsia rigorosa da região vulvoperineal e raiz das coxas com Clorexidina Aquosa 0,5% ou PVPI tópico. Colocação de campos cirúrgicos estéreis.
+      3. Condução do Período Expulsivo:
+         - Parturiente orientada a realizar esforços expulsivos (puxos) sincronizados com as contrações uterinas efetivas.
+         - Monitoramento contínuo dos BCF intraparto mantidos entre 120 e 160 bpm, sem desacelerações patológicas.
+      4. Desprendimento do Polo Cefálico:
+         - Desprendimento cefálico lento e gradual em occipitopúbica.
+         - Proteção perineal ativa: Manobra de Ritgen modificada (sustentação e amortecimento suave da distensão do polo inferior do períneo com a mão protegida por compressa cirúrgica, enquanto a mão superior controla e orienta a deflexão lenta da fronte fetal).
+         - Ausência de necessidade de episiotomia (períneo íntegro / laceração fisiológica espontânea superficial).
+      5. Checagem de Circular de Cordão Umbilical:
+         - Realizada palpação digital cervical imediata: [Ausência de circulares de cordão / Presença de circular cervical frouxa prontamente desfeita por sobre o polo cefálico / Circular apertada duplamente clampada e seccionada].
+      6. Desprendimento das Espáduas e Corpo Fetal:
+         - Aguardada rotação externa espontânea do polo cefálico.
+         - Apreendida a cabeça fetal biparietalmente com suavidade: tração delicada para baixo no sentido do eixo pélvico até o apoio e desprendimento do ombro anterior sob o púbis materno.
+         - Elevação suave e contínua do feto no sentido cranial até o completo desprendimento do ombro posterior pelo períneo.
+         - Desprendimento suave e deslizante do restante do tronco e membros inferiores sem resistência.
+      7. Cuidados com o Cordão & Contato Mãe-Bebê:
+         - RN colocado em decúbito ventral direto sobre o abdome/tórax materno, aquecido com campos estéreis secos.
+         - Realizada clampagem oportuna do cordão umbilical após cessação completa dos batimentos funiculares (após 1 a 3 minutos do nascimento), com dupla pinçagem e secção entre pinças.
+      8. MANEJO ATIVO DO 3º ESTÁGIO (PREVENÇÃO DE HPP - CONDUTA DIRETRIZ MS/OMS):
+         - Imediatamente após a saída do feto/ombro anterior: administradas 10 UI de Ocitocina intramuscular profunda no vasto lateral da coxa materna.
+         - Aguardado sinal de descolamento placentário espontâneo (reaparecimento de contração uterina, descida do cordão na pinça e sangramento fisiológico).
+         - Tração controlada contínua do cordão umbilical com a mão direita mantendo pinça firme, associada à manobra de contrapressão e elevação do fundo uterino com a mão esquerda posicionada no segmento suprapúbico (Manobra de Brandt-Andrews).
+         - Dequitação placentária completa às [HH:MM].
+         - Manobra de Jacob-Dublin: Torção suave da placenta sobre seu próprio eixo longitudinal no momento da saída vulvar, garantindo desprendimento e exteriorização íntegra de todas as membranas ovulares.
+      9. Exame Placentário:
+         - Placenta discoide examinada sistematicamente nas suas faces materna e fetal: íntegra, cotilédones completos sem lacunas de retenção, membranas completas e cordão com 3 vasos (2 artérias e 1 veia).
+      10. REVISÃO DO CANAL DE PARTO & PERÍNEO:
+         - Realizada antissepsia cuidadosa e exposição sistemática com válvulas vaginais.
+         - Revisão do colo uterino com pinças de anel de Foerster em 360 graus: colo sem lacerações hemostáticas ou traumáticas.
+         - Revisão minuciosa das paredes vaginais laterais, anterior e fúrcula vulvar.
+         - Achado perineal: [Períneo íntegro, sem lacerações / Laceração de 1º grau superficial restrita à mucosa sem necessidade de sutura / Laceração de 2º grau perineal suturada conforme nota em anexo].
+         - Toque retal sistemático: Confirmada integridade anatômica e tônus contrátil do esfíncter anal e da parede anorretal.
+      
+      # DESFECHO PÓS-PARTO:
+      Paciente evolui no 4º período do parto (Período de Greenberg) lúcida, orientada, corada, hidratada, hemodinamicamente estável (PA: [ ]x[ ] mmHg, FC: [ ] bpm). Útero globular, firme e perfeitamente contraído (Globo de Segurança de Pinard evidente). Sangramento genital fisiológico moderado a discreto. Encaminhada em conjunto com o recém-nascido ao leito de Alojamento Conjunto.
+
+  - trigger: ";pn-instrumentado"
+    replace: |
+      ###### DESCRIÇÃO CIRÚRGICA: PARTO VAGINAL OPERATÓRIO INSTRUMENTADO ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] A[ ] | Idade Gestacional: [ ] semanas e [ ] dias
+      - Indicação do Parto Instrumentado: [Exaustão materna com período expulsivo prolongado / Parada secundária de descida no plano +3 de De Lee / Sofrimento fetal agudo no período expulsivo exigindo abreviação imediata / Cardiopatia/Pneumopatia materna contraindicando esforços de Valsalva].
+      - Instrumento Utilizado: [VÁCUO EXTRATOR (VENTOSA OBSTÉTRICA) / FÓRCEPS DE ALÍVIO DE SIMPSON-BRAUN]
+      - Assistente(s): [Nome do Médico executor] | Auxiliar: [ ] | Pediatra: [ ] | Anestesista: [ ]
+      - Data e Hora do Parto: [DD/MM/AAAA] às [HH:MM]
+      
+      # VERIFICAÇÃO OBRIGATÓRIA DAS CONDIÇÕES DE APLICABILIDADE (CHECKLIST PRÉVIO):
+      [X] 1. Feto vivo em apresentação cefálica fletida (vértice).
+      [X] 2. Dilatação cervical completa (10 cm) com apagamento total do colo.
+      [X] 3. Amniotomia confirmada (bolsa rota).
+      [X] 4. Apresentação fetal insinuada e baixa: polo cefálico no plano [+2 / +3] de De Lee.
+      [X] 5. Variedade de posição fetal precisamente diagnosticada: [OP / OEA / ODA / OET / OEP].
+      [X] 6. Bacia óssea clinicamente proporcional (ausência de desproporção céfalo-pélvica clínica).
+      [X] 7. Bexiga materna esvaziada através de sondagem vesical de alívio.
+      [X] 8. Analgesia/anestesia adequada da paciente [raquianestesia / bloqueio de nervo pudendo bilateral com Lidocaína 2%].
+      [X] 9. Consentimento informado e equipe neonatal em sala de parto.
+      
+      # [MODALIDADE A]: TÉCNICA COM VÁCUO EXTRATOR (VENTOSA)
+      1. Paciente em posição ginecológica, esvaziamento vesical prévio por cateterismo de alívio.
+      2. Testado o funcionamento e vedação da campânula do vácuo extrator previamente.
+      3. Aplicação da campânula flexível diretamente sobre o ponto de flexão da calvária fetal (cerca de 3 cm anterior à fontanela posterior/lambdoide, centrado sobre a sutura sagital).
+      4. Revisão bidigital em 360 graus de toda a circunferência da campânula: confirmada a ausência de interposição de tecidos moles maternos (colo ou parede vaginal).
+      5. Criação de pressão negativa gradual com bomba de sucção até atingir o vácuo de trabalho (-0,8 kg/cm² ou 600 mmHg).
+      6. [ ] Realizada episiotomia médio-lateral direita sob infiltração anestésica prévia para facilitação da saída polo cefálico.
+      7. Tração intermitente suave e firme no sentido do eixo pélvico (curva de Carus), perfeitamente sincronizada com as contrações uterinas e puxos maternos.
+      8. Observada descida contínua do polo cefálico fetal a cada tração, ocorrendo rotação interna fisiológica espontânea para occipitopúbica.
+      9. Desprendimento cefálico progressivo concluído em [1 / 2] trações efetivas.
+      10. Despressurizado o sistema, aliviado o vácuo e retirada a campânula da calvária fetal.
+      
+      # [MODALIDADE B]: TÉCNICA COM FÓRCEPS DE SIMPSON-BRAUN
+      1. Paciente em posição ginecológica, bexiga esvaziada por cateterismo de alívio.
+      2. Orientação espacial e montagem prévia das colheres de Simpson no ar diante da vulva materna.
+      3. Introdução da colher esquerda (primeira a ser introduzida): guiada delicadamente pela mão direita do cirurgião protegendo a parede vaginal lateral esquerda, posicionando a colher entre a cabeça fetal e os dedos do operador, sem resistência mecânica.
+      4. Introdução da colher direita: guiada pela mão esquerda do cirurgião na parede lateral direita.
+      5. Articulação espontânea e passiva das colheres pelo encaixe central, sem necessidade de força ou pressão manual.
+      6. Verificação dos critérios de pega ideal do fórceps:
+         - Sutura sagital equidistante de ambas as colheres.
+         - Fontanela posterior posicionada a 1 polpa digital acima do plano dos cabos do fórceps.
+         - Fenestras simétricas e justapostas às bossas parietais fetais.
+      7. Prova de tração positiva (pega firme sem deslizamento das colheres).
+      8. [ ] Realizada episiotomia médio-lateral direita para prevenção de lacerações perineais complexas.
+      9. Tração cuidadosa e intermitente no sentido do eixo do canal de parto (para baixo até o desprendimento do occipital sob o púbis materno, seguido de elevação no sentido cranial).
+      10. Desprendimento completo da cabeça fetal; desarticulação passiva e retirada suave das colheres uma a uma.
+      
+      # DESPRENDIMENTO DAS ESPÁDUAS & MANEJO DO 3º ESTÁGIO:
+      - Rotação externa espontânea da cabeça; desprendimento dos ombros e corpo do feto.
+      - Nascimento de RN vivo às [HH:MM] (Peso: [ ] g, Apgar: [ ]/[ ]), entregue à Neonatologia.
+      - Administradas 10 UI de Ocitocina IM profunda imediatamente no vasto lateral da coxa materna.
+      - Dequitação ativa placentária completa sob manobra de Brandt-Andrews e Jacob-Dublin. Placenta e membranas íntegras.
+      
+      # REVISÃO EXAUSTIVA DO CANAL DE PARTO & SUTURA:
+      - Inspeção cuidadosa do colo uterino com pinças em anel em 360 graus: colo íntegro sem lacerações.
+      - Revisão das paredes vaginais anterior e laterais.
+      - Sutura da episiotomia / laceração perineal realizada por planos anatômicos: mucosa vaginal com pontos contínuos ancorados com fio absorvível Vicryl 2-0; feixe muscular bulbocavernoso e transverso do períneo com pontos simples invertidos; síntese de pele com pontos invertidos intradérmicos.
+      - Realizado toque retal sistemático obrigatório antes e após a sutura: mucosa retal íntegra e esfíncter anal externo com tônus perfeitamente preservado.
+      
+      # DESFECHO PÓS-PARTO:
+      Procedimento executado com êxito e hemostasia completa. Paciente hemodinamicamente estável, útero globular e bem contraído, diurese clara em cateter de alívio, sem queixas álgicas agudas descontroladas. Encaminhada ao Alojamento Conjunto sob vigilância.
+
+  - trigger: ";perineorrafia"
+    replace: |
+      ###### NOTA CIRÚRGICA: REVISÃO DE CANAL DE PARTO E PERINEORRAFIA ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - Indicação da Sutura: [Laceração perineal de 2º grau pós-parto normal / Episiotomia médio-lateral direita realizada por indicação de [ ] / Laceração de 1º grau sangrante].
+      - Cirurgião(ã): [Nome do Médico] | Auxiliar: [ ]
+      - Data e Hora: [DD/MM/AAAA] às [HH:MM]
+      
+      # CLASSIFICAÇÃO DA LESÃO PERINEAL:
+      - Tipo de Lesão: [Laceração espontânea de 2º grau / Episiotomia médio-lateral direita].
+      - Extensão Anatômica: Envolvimento de mucosa vaginal, fúrcula vulvar e musculatura do corpo perineal (músculos transverso superficial do períneo e bulbocavernoso), com integridade confirmada do complexo do esfíncter anal externo e da mucosa retal (ausência de laceração de 3º ou 4º graus).
+      
+      # TEMPOS TÉCNICOS DA PERINEORRAFIA:
+      1. Posicionamento da Paciente: Posição de litotomia com boa iluminação sob foco cirúrgico e campo estéril limpo.
+      2. Limpeza e Exposição: Antissepsia cuidadosa com Clorexidina Aquosa 0,5% e colocação de tampão de gaze estéril com fio-guia na cavidade vaginal alta para conter escorrimento de lóquios e assegurar campo operatório limpo durante a sutura.
+      3. Anestesia Local Infiltrativa:
+         - Infiltração em leque de 10 a 15 mL de Lidocaína a 2% sem vasoconstritor nas bordas da ferida, atingindo o plano mucoso, muscular e subcutâneo. Aguardada latência anestésica com abolição da dor.
+      4. Identificação do Ápice Vaginal:
+         - Identificado o ápice da lesão na mucosa vaginal com auxílio de pinça atraumática.
+         - Primeiro ponto ancorado posicionado cerca de 0,5 a 1,0 cm CRANIAL ao ápice mucoso para contenção hemostática de vasos sanguíneos eventualmente retraídos.
+      5. Sutura da Mucosa Vaginal:
+         - Síntese da mucosa vaginal e submucosa em sutura contínua ancorada com fio absorvível Vicryl 2-0 [ou Catgut cromado 2-0], com coaptação perfeita das bordas e hemostasia rigorosa.
+         - Progressão da sutura até a altura das carúnculas himenais, onde o anel himenal foi reconstituído anatomicamente.
+      6. Miorrafia do Corpo Perineal:
+         - Identificados e aproximados os feixes musculares do corpo perineal (músculo transverso superficial do períneo e músculo bulbocavernoso) com 2 a 3 pontos simples separados invertidos com fio Vicryl 2-0.
+         - Reconstruída a altura e espessura do corpo perineal, eliminando o espaço morto sem tensão tecidual isquêmica excessiva.
+      7. Síntese do Subcutâneo e Pele:
+         - Aproximação do tecido celular subcutâneo com pontos simples invertidos com Vicryl 2-0.
+         - Síntese da pele perineal: [Sutura contínua intradérmica com fio Vicryl 2-0 / Pontos simples separados invertidos com fio Vicryl 2-0], assegurando perfeita coaptação sem dobras cutâneas.
+      8. Retirada de Tampão & Toques Finais Obrigatórios:
+         - Tampão de gaze vaginal retirado completamente sob conferência estrita.
+         - Toque Vaginal: Confirmada ausência de hematomas parietais, lúmen vaginal pérvio e simétrico, e hemostasia completa da linha de sutura.
+         - Toque Retal Sistemático: Realizado toque retal bidigital com luva estéril limpa: confirmada integridade anatômica do canal anorretal, mucosa retal íntegra, ausência de pontos transfixantes acidentais para a luz retal e tônus esfincteriano anal preservado.
+      
+      # DESFECHO CIRÚRGICO:
+      Procedimento finalizado com excelente hemostasia local e alinhamento anatômico preservado. Paciente lúcida, afebril, hemodinamicamente estável, sem sangramento ativo.
+      
+      # PRESCRIÇÃO PÓS-SUTURA & ORIENTAÇÕES:
+      1. Dipirona 1 g VO de 6/6h SOS ou Paracetamol 750 mg VO se queixas álgicas locais.
+      2. Dieta laxativa rica em fibras e boa ingesta hídrica oral; prescrito Óleo Mineral 15 mL VO à noite por 3 a 5 dias para evitar esforço evacuatório com fezes ressecadas.
+      3. Orientações de Higiene: Lavagem perineal com água corrente morna e sabonete neutro após cada micção ou evacuação, secagem suave com toalha limpa sem fricção. Não necessita de retirada de pontos (fio totalmente absorvível).
+      4. Compressas frias locais nas primeiras 24 horas para alívio de edema.
+
+  - trigger: ";srpa-pc"
+    replace: |
+      ###### REAVALIAÇÃO PÓS-CESARIANA EM SRPA ######
+      # IDENTIFICAÇÃO & CRONOLOGIA:
+      Paciente [Nome], [Idade] anos, Registro: [ ].
+      Pós-operatório imediato de Cesariana realizada sob Raquianestesia, há cerca de [1 / 2] horas de término cirúrgico.
+      
+      # SUBJETIVO:
+      Paciente consciente, orientada em tempo e espaço, cooperativa.
+      - Queixas Álgicas: Refere dor cirúrgica [ausente / leve em hipogástrio (EVA 2/10), bem controlada com a analgesia de sala]. Nega dor intensa.
+      - Sintomas Sistêmicos: Nega náuseas, vômitos, prurido ou tremores de frio no momento.
+      - Mobilidade: Refere recuperação gradual da sensibilidade tátil e motora em membros inferiores.
+      
+      # OBJETIVO (EXAME FÍSICO DIRIGIDO):
+      - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em ar ambiente | Tax: [ ] °C.
+      - Nível de Consciência: Lúcida, orientada, responsiva aos comandos verbais.
+      - Avaliação Cardiorrespiratória: Murmúrio vesicular presente bilateralmente sem ruídos adventícios; bulhas cardíacas rítmicas e normofonéticas.
+      - Ferida Operatória (Pfannenstiel): Curativo cirúrgico limpo, seco e oclusivo. Ausência de sangramento ativo, hematomas ou abaulamentos patológicos na incisão.
+      - Útero Puerperal: Útero firme, globular e perfeitamente contraído (Globo de Segurança de Pinard presente e palpável na altura da cicatriz umbilical).
+      - Loquiação: Perda sanguínea vaginal em pequena quantidade, rubra, fisiológica, sem coágulos patológicos.
+      - Sistema Urinário: Sondagem vesical de demora nº 14 pérvia, drenando diurese clara em sistema fechado, com débito urinário adequado de [ ] mL no período (> 0,5 mL/kg/h).
+      - Membros Inferiores & Bloqueio Motor:
+        * Escala de Bromage: Grau [0 = movimentação livre completa de pés e pernas / 1 = flexão de joelhos e pés preservada].
+        * Extremidades bem aquecidas e perfundidas, pulsos simétricos, sem edema agudo.
+      
+      # ÍNDICE DE ALDRETE & KROULIK (CRITÉRIO DE ALTA DA SRPA):
+      - Atividade Motora: [2] Movimenta os 4 membros voluntariamente.
+      - Respiração: [2] Capaz de respirar profundamente e tossir.
+      - Circulação: [2] PA dentro de +/- 20% do nível pré-anestésico.
+      - Consciência: [2] Lúcida e completamente orientada.
+      - Saturação de Oxigênio: [2] SpO2 > 95% em ar ambiente.
+      - PONTUAÇÃO TOTAL: [10 / 10] pontos (Apto para alta quando >= 8-9 pontos).
+      
+      # AVALIAÇÃO:
+      1. Pós-operatório imediato de cesariana sem intercorrências hemorrágicas ou anestésicas.
+      2. Recuperação anestésica plena, hemodinamicamente estável, com útero contraído e sangramento genital fisiológico.
+      
+      # PLANO / CONDUTA:
+      1. Liberada alta da SRPA para Enfermaria de Puerpério / Alojamento Conjunto acompanhada pelo transporte hospitalar.
+      2. Liberada dieta líquida/branda fracionada conforme aceitação.
+      3. Estimulada movimentação ativa no leito e hidratação oral.
+      4. Prescrita retirada de sonda vesical de demora (SVD) [ao chegar na enfermaria / após completar 6 a 12 horas de pós-operatório].
+      5. Mantenho prescrição de analgesia fixa e de resgate: Dipirona 1 g EV de 6/6h + anti-inflamatório se não contraindicado + antiemético SOS.
+      6. Estimulado aleitamento materno em livre demanda em alojamento conjunto.
+
+  - trigger: ";amiu"
+    replace: |
+      ###### NOTA CIRÚRGICA: ASPIRAÇÃO MANUAL INTRAUTERINA (AMIU) ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] A[ ] | Idade Gestacional: [ ] semanas e [ ] dias
+      - Indicação Cirúrgica: Esvaziamento uterino por [Abortamento incompleto / Abortamento retido / Gestação anembrionada / Esvaziamento pós-molar].
+      - Cirurgião(ã): [Nome do Médico] | Auxiliar: [ ] | Anestesista: [ ]
+      - Tipo de Anestesia: [Sedação venosa com Propofol/Fentanil + Bloqueio paracervical com Lidocaína 1-2% / Raquianestesia].
+      - Data e Hora: [DD/MM/AAAA] das [HH:MM] às [HH:MM]
+      
+      # ACHADOS DO PROCEDIMENTO:
+      - Conteúdo Uterino: Saída de restos ovulares e deciduais caracterizados por material amorfo, esponjoso, avermelhado, em quantidade [pequena / moderada], sem odor fétido e sem vesículas macroscópicas suspeitas de degeneração molar.
+      - Peça Cirúrgica: Material aspirado fixado em formaldeído a 10% e encaminhado formalmente para exame anatomopatológico.
+      
+      # TEMPOS CIRÚRGICOS:
+      1. Paciente em posição de litotomia sob anestesia / sedação e monitorização hemodinâmica contínua.
+      2. Esvaziamento vesical prévio espontâneo ou por cateterismo de alívio.
+      3. Assepsia e antissepsia rigorosa da genitália externa, períneo e vagina com Clorexidina Aquosa 0,5% ou PVPI tópico. Colocação de campos estéreis.
+      4. Toque bimanual prévio confirmando volume uterino compatível com [ ] semanas em [anteversoflexão / retroversoflexão], sem massas anexiais.
+      5. Introduzido espéculo vaginal estéril de Collin sob boa visualização do colo uterino.
+      6. Realizada antissepsia do colo e dos fundos de saco vaginais.
+      7. Pinçamento do lábio anterior do colo uterino com pinça de Pozzi às 12 horas [ou lábio posterior às 6h se RVF].
+      8. Tração suave do colo para retificação do canal cervicouterino.
+      9. [ ] Realizado bloqueio paracervical com 10 mL de Lidocaína 1% sem vasoconstritor (5 mL às 4h e 5 mL às 8h na junção cervicovaginal).
+      10. Histerometria Inicial: Introduzido histerômetro metálico atraumático graduado, aferindo profundidade uterina inicial de [ ] cm.
+      11. Dilatação Cervical: [Colo já pérvio para cânula / Realizada dilatação cervical suave com velas de Hegar nº [ ] a [ ] sem resistência].
+      12. Aspiração Intrauterina (Técnica de AMIU):
+          - Conectada cânula semirrígida de Karman nº [ ] mm (calibre correspondente à IG em semanas) ao aspirador a vácuo manual de AMIU (seringa de duplo êmbolo previamente travada sob vácuo de 60 mmHg).
+          - Cânula introduzida delicadamente pelo canal cervical até tocar o fundo da cavidade uterina.
+          - Destravadas as válvulas de vácuo do aspirador manual.
+          - Realizados movimentos rotatórios lentos de 360 graus associados a movimentos suaves de vaivém anteroposteriores cobrindo todas as paredes da cavidade uterina.
+          - Sinais Clínicos de Esvaziamento Completo Constatados:
+            * Presença de espuma avermelhada na cânula.
+            * Sensação de aspereza nas paredes uterinas (sinal do "grito uterino" ao atrito da cânula).
+            * Preensão e contratilidade firme do miométrio abraçando a cânula.
+      13. Histerometria Final: Aferida histerometria final de [ ] cm (demonstrando regressão e redução do volume cavitário).
+      14. [ ] Inserção de Contracepção Imediata: [Realizada inserção de DIU de Cobre / DIU Mirena no mesmo ato cirúrgico sob técnica estéril / Sem indicação].
+      15. Retirada da pinça de Pozzi e revisão rigorosa da hemostasia no orifício cervical e nos pontos de pinçamento com compressão de gaze (ausência de sangramento ativo).
+      16. Retirado o espéculo vaginal.
+      
+      # DESFECHO CIRÚRGICO:
+      Procedimento cirúrgico concluído com sucesso e hemostasia completa, sem intercorrências como falsa via ou perfuração uterina. Paciente retorna em bom estado geral, consciente, hemodinamicamente estável, útero bem contraído abaixo do púbis e sangramento vaginal discreto.
+      
+      # CONDUTA PÓS-OPERATÓRIA & ORIENTAÇÕES DE ALTA:
+      1. Dieta oral liberada após plena recuperação anestésica.
+      2. Analgesia: Dipirona 1 g VO de 6/6h SOS ou Ibuprofeno 600 mg VO 8/8h por 2 dias.
+      3. [Profilaxia Isoimunização Rh]: Checada tipagem materna: [Mãe Rh negativo não sensibilizada -> Prescrita Imunoglobulina Anti-D 300 mcg IM (ou 150 mcg se IG < 12 semanas) até 72h / Mãe Rh positivo -> Sem indicação].
+      4. Antibioticoprofilaxia de rotina conforme protocolo institucional (Doxiciclina 200 mg VO dose única prévia).
+      5. Orientações Gerais: Abstinência sexual e banhos de imersão por 14 a 21 dias. Uso de absorventes externos (evitar tampões íntimos).
+      6. Sinais de Alarme para Pronto-Socorro: Febre (Tax >= 37,8 °C), dor pélvica intensa que não melhora com remédios, sangramento vaginal com grandes coágulos ou odor fétido.
+      7. Retorno ambulatorial em 30 dias para checar resultado do exame anatomopatológico.
+
+  - trigger: ";curetagem"
+    replace: |
+      ###### NOTA CIRÚRGICA: CURETAGEM UTERINA EVACUATÓRIA ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] A[ ] | Idade Gestacional: [ ] semanas e [ ] dias
+      - Indicação Cirúrgica: Esvaziamento uterino por [Abortamento incompleto com sangramento volumoso / Retenção de restos pós-parto / Ausência de material de AMIU na unidade].
+      - Cirurgião(ã): [Nome do Médico] | Auxiliar: [ ] | Anestesista: [ ]
+      - Tipo de Anestesia: [Raquianestesia / Sedação endovenosa sob assistência anestésica].
+      - Data e Hora: [DD/MM/AAAA] das [HH:MM] às [HH:MM]
+      
+      # ACHADOS DO PROCEDIMENTO:
+      - Conteúdo Uterino: Saída de material decidual e restos ovulares amorfos, de coloração vermelho-escura, sem vesículas translúcidas molares ou odor fétido/necrótico.
+      - Peça Cirúrgica: Material acondicionado em frasco com formol a 10% e encaminhado formalmente ao laboratório de Patologia para exame anatomopatológico.
+      
+      # TEMPOS CIRÚRGICOS:
+      1. Paciente posicionada em decúbito dorsal em posição de litotomia sob anestesia com monitorização contínua de sinais vitais.
+      2. Esvaziamento da bexiga urinária por cateterismo vesical de alívio com sonda uretral estéril.
+      3. Assepsia e antissepsia rigorosa da região perineal, vulva e vagina com Clorexidina Aquosa 0,5% ou solução de PVPI tópico.
+      4. Colocação de campos cirúrgicos estéreis.
+      5. Toque bimanual prévio confirmando útero aumentado em [anteversoflexão / retroversoflexão], amolecido e colo permeável.
+      6. Introduzido espéculo vaginal bivalve estéril com exposição ampla do colo do útero.
+      7. Realizada limpeza cuidadosa do colo uterino e dos fundos de saco vaginais.
+      8. Pinçamento do lábio anterior do colo uterino com pinça de Pozzi às 12 horas [ou lábio posterior se RVF fixa], sob tração suave para retificação do eixo uterino.
+      9. Histerometria Inicial: Introduzido histerômetro metálico graduado maleável com toque suave, constatando profundidade uterina inicial de [ ] cm.
+      10. Esvaziamento Inicial dos Restos Volumosos:
+          - Introduzida pinça em anel de Foerster ou pinça saca-bocado (pinça de Winter) na cavidade uterina com apreensão e retirada cuidadosa de coágulos e restos ovulares volumosos livres, sem forçar contra as paredes uterinas.
+      11. Curetagem Instrumental Sistemática:
+          - Introduzida cureta uterina romba/cortante fenestrada de calibre proporcional à dilatação cervical.
+          - Realizada raspagem sistemática e delicada de todas as paredes uterinas: parede anterior, parede posterior, bordas laterais e fundo da cavidade.
+          - Movimentos contínuos de descida da cureta do fundo em direção ao orifício interno, sem movimentos intempestivos ou força excessiva contra o miométrio amolecido.
+          - Constatada a sensação tátil e audível de aspereza miometrial (sinal do "grito uterino") e saída de pequena quantidade de espuma hemática, caracterizando cavidade uterina limpa e vazia.
+      12. Histerometria Final: Histerometria de controle aferida em [ ] cm (evidenciando involução e retração das paredes uterinas).
+      13. Retirada cuidadosa da pinça de Pozzi do colo.
+      14. Revisão rigorosa de hemostasia no orifício cervical externo e nos locais de pinçamento com gaze montada compressiva: ausência de sangramentos ativos.
+      15. Retirado o espéculo vaginal.
+      
+      # DESFECHO CIRÚRGICO:
+      Procedimento cirúrgico finalizado sem intercorrências hemorrágicas ou perfuração miometrial. Paciente finaliza a cirurgia consciente, afebril, hemodinamicamente estável, útero contraído e com sangramento genital fisiológico discreto. Encaminhada à SRPA.
+      
+      # CONDUTA PÓS-OPERATÓRIA & ORIENTAÇÕES DE ALTA:
+      1. Dieta oral liberada após estabilização e recuperação da sedação/anestesia.
+      2. Analgesia regular: Dipirona 1 g VO ou EV de 6/6h SOS dor.
+      3. [Profilaxia de Isoimunização Rh]: Checada tipagem materna: [Mãe Rh negativo com indicação de Imunoglobulina Anti-D 300 mcg IM / Mãe Rh positivo].
+      4. Antibioticoprofilaxia pós-procedimento conforme protocolo da instituição.
+      5. Orientações Gerais: Repouso relativo, higiene perineal habitual, evitar duchas vaginais e relações sexuais por 2 a 3 semanas.
+      6. Sinais de Alarme: Retorno imediato ao PS em caso de febre, dor abdominal intensa que não melhora com remédios ou sangramento vaginal intenso com odor forte.
+      7. Retorno agendado no ambulatório em 30 dias para checar laudo do exame anatomopatológico.
+
+  - trigger: ";hpp"
+    replace: |
+      ###### REGISTRO DE ATENDIMENTO DE EMERGÊNCIA: HEMORRAGIA PÓS-PARTO (HPP) ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] A[ ] | Tipo de Parto: [Parto Normal / Parto Cesárea] às [HH:MM]
+      - Acionamento do Código Vermelho Obstétrico às: [HH:MM]
+      
+      # RECONHECIMENTO & SINAIS VITAIS NA ADMISSÃO DA EMERGÊNCIA:
+      - Perda Sanguínea Estimada: [ ] mL ([> 500 mL pós-parto normal / > 1000 mL pós-cesariana / perda associada a choque clínico]).
+      - Parâmetros Clínicos: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.
+      - Índice de Choque Obstétrico (FC / PAS): [ ] (Normal < 0,9 | Choque iminente se >= 0,9 | Choque grave se >= 1,4).
+      - Nível de Consciência: [Lúcida / Ansiosa / Sonolenta / Rebaixada], mucosas hipocoradas [+/4+], extremidades frias, tempo de enchimento capilar [ ] segundos.
+      
+      # ETIOLOGIA DA HPP (INVESTIGAÇÃO SISTEMÁTICA DOS 4 "Ts"):
+      [X] 1. TÔNUS (Atonia Uterina - 70%): Útero amolecido, hipotônico, com fundo uterino acima da cicatriz umbilical.
+      [ ] 2. TRAUMA (20%): Revisão sob válvulas: [Sem lacerações de colo ou vagina / Identificada laceração de colo/trajeto suturada de imediato / Hematoma puerperal drenado / Afastada rotura ou inversão uterina].
+      [ ] 3. TECIDO (10%): Curagem uterina: [Cavidade limpa sem restos / Retirados cotilédones/restos placentários retidos / Suspeita de acretismo placentário].
+      [ ] 4. TROMBINA (1%): Coagulopatia: [Sem história de discrasia prévia / Coagulopatia por consumo em investigação].
+      
+      # MEDIDAS DE RESSUSCITAÇÃO & SUPORTE IMEDIATO:
+      1. Pessoal & Monitorização: Acionada equipe multidisciplinar (médico obstetra sênior, anestesista, enfermagem e banco de sangue). Oxigênio suplementar sob máscara com reservatório a 10 L/min.
+      2. Acessos Vasculares & Laboratório: Puncionados 2 acessos venosos periféricos calibrosos (Jelco 14 ou 16G). Coletado sangue imediato para: Hemograma, Tipagem/Rh com Prova Cruzada, Coagulograma (TP/INR, TTPA, Fibrinogênio), Gasometria arterial com Lactato e Eletrólitos.
+      3. Ressuscitação Volêmica: Infusão rápida de 1.000 mL de Ringer Lactato aquecido (evitando sobrecarga volêmica e hemodiluição).
+      4. Cateterismo Vesical: Passada Sonda Vesical de Demora nº 16 com coletor graduado para esvaziamento vesical imediato e monitorização rigorosa do débito urinário horário.
+      5. Manobra Mecânica Imediata: Iniciada Massagem Uterina Bimanual contínua (Manobra de Hamilton: punho cerrado na vagina no fundo de saco anterior comprimindo o útero contra a mão abdominal externa sobre o fundo uterino).
+      
+      # STEP-UP FARMACOLÓGICO ESCALONADO (MEDICAÇÕES ADMINISTRADAS):
+      1. Ácido Tranexâmico: Administrado 1 g EV diluído em 100 mL de SF 0,9% em infusão rápida de 10 a 15 minutos (feita na 1ª hora da HPP) [se sangramento persistente após 30 min: repetida 2ª dose de 1 g EV].
+      2. Ocitocina: Administradas 5 UI EV em bólus lento em 3 minutos + iniciada infusão contínua de 20 a 40 UI de Ocitocina em 500 mL de Ringer Lactato a 250 mL/h.
+      3. [ ] Metilergometrina (Methergin): Administrada 1 ampola (0,2 mg) intramuscular profunda [NÃO realizada se histórico de HAS ou Pré-eclâmpsia].
+      4. Misoprostol: Administrados 800 mcg (4 comprimidos de 200 mcg) via retal profunda.
+      
+      # INTERVENÇÕES AVANÇADAS / CIRÚRGICAS (SE HOUVE REFRATARIEDADE):
+      - [ ] Balão de Tamponamento Intrauterino (Bakri): Introduzido balão intrauterino sob técnica estéril e insuflado com [300 a 400] mL de SF 0,9% morno, com teste do tamponamento positivo e hemostasia obtida.
+      - [ ] Tratamento Cirúrgico: Indicada laparotomia de urgência com realização de: [Sutura hemostática compressiva de B-Lynch / Ligadura bilateral das artérias uterinas / Histerectomia subtotal puerperal hemostática].
+      - [ ] Hemotransfusão: [Ativado protocolo de transfusão maciça / Transfundidos [ ] concentrados de hemácias + [ ] PFC + [ ] crioprecipitado por fibrinogênio < 200 mg/dL].
+      
+      # DESFECHO DO ATENDIMENTO:
+      Após a instituição do protocolo, obtida resposta clínica com contração uterina satisfatória (útero globular e firme), cessação do sangramento genital ativo e estabilização hemodinâmica (PA: [ ]x[ ] mmHg, FC: [ ] bpm, diurese clara de [ ] mL/h). Paciente transferida para a Unidade de Terapia Intensiva (UTI) / Enfermaria de Alto Risco para vigilância contínua nas primeiras 24 horas.
+
+  - trigger: ";pre-eclampsia"
+    replace: |
+      ###### ATENDIMENTO DE EMERGÊNCIA: PRÉ-ECLÂMPSIA GRAVE / ECLÂMPSIA ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] A[ ] | Idade Gestacional: [ ] semanas e [ ] dias
+      - Classificação Clínica da Emergência: [Pré-Eclâmpsia Grave / Iminência de Eclâmpsia / Eclâmpsia Franca (Crise Convulsiva) / Síndrome HELLP].
+      
+      # CRITÉRIOS DE GRAVIDADE IDENTIFICADOS NA ADMISSÃO:
+      [ ] Níveis Pressóricos Críticos: PAS >= 160 mmHg ou PAD >= 110 mmHg (Aferida PA: [ ]x[ ] mmHg).
+      [ ] Sintomas Neurológicos / Iminência: Cefaleia holocraniana/occipital refratária, escotomas cintilantes, fotofobia, turvação visual ou diplopia.
+      [ ] Dor Visceral: Epigastralgia intensa ou dor em hipocôndrio direito em barra (tensão na cápsula de Glisson).
+      [ ] Exame Físico Neurológico: Hiperreflexia patológica (reflexo patelar exaltado 4+/4+), clônus esgotável/inesgotável.
+      [ ] Crise Convulsiva (Eclâmpsia): [Episódio de convulsão tônico-clônica generalizada presenciado às [HH:MM], com duração de [ ] segundos, seguido de período pós-ictal / Ausente].
+      [ ] Complicações Sistêmicas: [Dispneia aguda com estertores crepitantes bilaterais (Edema Agudo de Pulmão) / Oligúria < 25 mL/h].
+      
+      # MEDIDAS IMEDIATAS & SUPORTE DE VIA AÉREA:
+      1. Posição da Paciente: Decúbito lateral esquerdo (alívio da compressão da veia cava inferior e otimização do fluxo uteroplacentário).
+      2. Oxigenação e Proteção de Vias Aéreas: Oxigênio suplementar sob cateter nasal (3 L/min) ou máscara de Venturi. Proteção contra traumas durante convulsão; aspiração de vias aéreas superiores SOS.
+      3. Monitorização Contínua: Monitor cardíaco multiparâmetro, oximetria de pulso, aferição de PA a cada 10-15 minutos.
+      4. Acesso Venoso & Cateterismo Vesical: Puncionado acesso venoso calibroso (Jelco 16G ou 18G). Passada Sonda Vesical de Demora nº 14/16 com coletor graduado para monitorização rigorosa da diurese horária.
+      5. Coleta Laboratorial Urgente: Hemograma com contagem de plaquetas e esfregaço periférico (esquizócitos), DHL, Bilirrubinas totais e frações, TGO/AST, TGP/ALT, Creatinina sérica, Ácido úrico, EAS e proteinúria de fita.
+      
+      # PROTOCOLO DE SULFATO DE MAGNÉSIO (NEUROPROTEÇÃO / PREVENÇÃO DE CONVULSÃO):
+      - Esquema Adotado: [ESQUEMA DE ZUSPAN (VIA ENDOVENOSA EXCLUSIVA) / ESQUEMA DE PRITCHARD (COMBINADO EV + IM)]
+      - DOSE DE ATAQUE:
+        * Administrados 4 g de Sulfato de Magnésio a 50% (8 mL) diluídos em 100 mL de SG 5% ou SF 0,9% em infusão endovenosa em bomba de infusão em 20 minutos (início às [HH:MM]).
+      - DOSE DE MANUTENÇÃO:
+        * Iniciada infusão contínua de 1 a 2 g/hora de Sulfato de Magnésio EV em bomba de infusão contínua (Solução: 10 g de MgSO4 [20 mL a 50%] em 480 mL de SG 5%, correndo a 50 mL/h = 1 g/h).
+        * [Se Esquema de Pritchard]: Administrados 4 g EV lento + 10 g IM profundo (5 g em cada glúteo com 1 mL de lidocaína 2%); manutenção com 5 g IM a cada 4 horas no glúteo contralateral.
+      
+      # PROTOCOLO ANTI-HIPERTENSIVO DE URGÊNCIA (SE PAS >= 160 OU PAD >= 110 MMHG):
+      - Objetivo Terapêutico: Reduzir a PA para a faixa de segurança (PAS entre 140-150 mmHg e PAD entre 90-100 mmHg), evitando quedas abruptas que causem hipóxia fetal.
+      - Fármaco Administrado:
+        * [ ] Hidralazina: Administrados 5 mg (1 mL) EV lento diluídos em 9 mL de SF 0,9% em 2 minutos. [Aferida PA após 20 minutos: se PA mantida >= 160/110 mmHg, administrada 2ª dose de 5 a 10 mg EV (máximo 20 a 30 mg acumulados)].
+        * [ ] OU Nifedipino de Ação Rápida: Administrados 10 a 20 mg VO (comprimido deglutido inteiro, não sublingual). Pode repetir após 30 minutos se necessário.
+      
+      # CONTROLE DE SEGURANÇA & TOXICIDADE POR MAGNÉSIO (AFERIDO A CADA HORA):
+      1. Frequência Respiratória: [ ] irpm (Seguro se >= 16 irpm).
+      2. Reflexo Patelar: [ ] (Seguro se presente; arreflexia é o primeiro sinal de toxicidade).
+      3. Débito Urinário Horário: [ ] mL/h (Seguro se >= 25 mL/h ou >= 100 mL em 4h).
+      - Antídoto à Beira do Leito Conferido: 1 ampola de Gluconato de Cálcio a 10% (1 g em 10 mL) disponível de imediato caso ocorra depressão respiratória ou arreflexia (Dose: 10 mL EV lento em 3 a 5 minutos).
+      
+      # CONDUTA OBSTÉTRICA & DEFINIÇÃO DE PARTO:
+      - Avaliação da Vitalidade Fetal: BCF: [ ] bpm; [Sem desacelerações patológicas / Padrão desacelerativo indicando sofrimento fetal].
+      - Resolução da Gestação: Paciente com indicação de interrupção da gravidez após estabilização hemodinâmica e materna.
+      - Via de Parto: [Indicação de Cesariana de urgência após estabilização clínica / Condução de parto vaginal com colo favorável sob analgesia].
+      - Manutenção do Sulfato de Magnésio: Manter a infusão contínua do sulfato por 24 horas completas pós-parto.
+
