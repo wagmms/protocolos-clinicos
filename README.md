@@ -1,5 +1,10 @@
 # 🩺 Sistema Protocolar de Atendimento Médico & Snippets para PEP
 
+[![Deploy Cockpit to GitHub Pages](https://github.com/wagmms/protocolos-clinicos/actions/workflows/deploy.yml/badge.svg)](https://github.com/wagmms/protocolos-clinicos/actions/workflows/deploy.yml)
+[![Cockpit Online](https://img.shields.io/badge/Cockpit_Online-Acessar_Agora-0284c7?style=flat&logo=safari&logoColor=white)](https://wagmms.github.io/protocolos-clinicos/)
+
+🌐 **Acesse o Cockpit Online de Qualquer Lugar:** **[https://wagmms.github.io/protocolos-clinicos/](https://wagmms.github.io/protocolos-clinicos/)**
+
 Biblioteca médica estruturada, defensiva e padronizada para atendimento clínico, registros em Prontuário Eletrônico do Paciente (PEP: MV, Tasy, Vivver, e-SUS) e discussão de casos em rounds.
 
 **Total de Modelos Prontos:** 81 protocolos de alta performance com negativas médico-legais, receitas estruturadas com doses ponderais (mg/kg e gotas/kg), bundles de segurança (FAST HUG BID) e condutas de bolso.
