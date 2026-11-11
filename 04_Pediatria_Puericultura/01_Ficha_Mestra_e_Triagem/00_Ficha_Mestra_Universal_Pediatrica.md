@@ -6,14 +6,14 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO PEDIÁTRICO - FICHA MESTRA UNIVERSAL
 
 DADOS DE IDENTIFICAÇÃO & DADOS ANTROPOMÉTRICOS:
-- Paciente: [ ... ] | Sexo: [ Masculino / Feminino ] | Idade: [ ... ] anos e [ ... ] meses (DN: [ ... ]/[ ... ]/[ ... ])
-- Acompanhante / Informante: [ Mãe / Pai / Responsável legal: ... ]
-- PESO ATUAL AFERIDO: [ ... ] kg
-- Estatura/Comprimento: [ ... ] cm | Perímetro Cefálico (< 2 anos): [ ... ] cm
+- Paciente: [ ] | Sexo: [ Masculino / Feminino ] | Idade: [ ] anos e [ ] meses (DN: [ ]/[ ]/[ ])
+- Acompanhante / Informante: [Mãe / Pai / Responsável legal: ]
+- PESO ATUAL AFERIDO: [ ] kg
+- Estatura/Comprimento: [ ] cm | Perímetro Cefálico (< 2 anos): [ ] cm
 
 TRIÂNGULO DE AVALIAÇÃO PEDIÁTRICA (TEP) - IMPRESSÃO INICIAL:
 1. Aparência: [ Tônus normal, interativo com o examinador, choro forte e consolável, olhar focado / Hipoativo, sonolento, irritabilidade ou choro inconsolável ].
@@ -22,9 +22,9 @@ TRIÂNGULO DE AVALIAÇÃO PEDIÁTRICA (TEP) - IMPRESSÃO INICIAL:
 - Classificação TEP: [ Estável / Desconforto Respiratório / Choque Compensado / Choque Descompensado / Falência Cardiorrespiratória ].
 
 HISTÓRIA CLÍNICA:
-- Queixa Principal (QP) & Duração: [ ... ] há [ ... ] dias/horas.
-- História da Moléstia Atual (HMA): Relatado pelo acompanhante que a criança iniciou quadro de [ ... ], com evolução caracterizada por [ ... ].
-- Medicações administradas no domicílio: [ Dipirona / Paracetamol / Ibuprofeno / Nenhuma ] com última dose há [ ... ] horas.
+- Queixa Principal (QP) & Duração: [ ] há [ ] dias/horas.
+- História da Moléstia Atual (HMA): Relatado pelo acompanhante que a criança iniciou quadro de [ ], com evolução caracterizada por [ ].
+- Medicações administradas no domicílio: [ Dipirona / Paracetamol / Ibuprofeno / Nenhuma ] com última dose há [ ] horas.
 - Estado Geral & Sintomas Fisiológicos:
   * Ingesta hídrica e alimentar: [ Aceitando bem o seio materno ou líquidos / Redução parcial do apetite / Recusa alimentar completa ].
   * Diurese: [ Preservada com fraldas pesadas habituais (> 4-6 fraldas/dia) / Reduzida, urina concentrada / Ausência de urina há mais de 8 horas ].
@@ -41,19 +41,19 @@ Nega no momento:
 - Prostração persistente na ausência de febre (a criança deve reanimar após o antitérmico).
 
 ANTECEDENTES PEDIÁTRICOS:
-- História Gestacional & Parto: Pré-natal com [ ... ] consultas; Parto [ Normal / Cesárea ] com [ ... ] semanas; Peso ao nascer: [ ... ] g; Intercorrências neonatais: [ Nega / Icterícia fototerapia / UTI neonatal: ... ].
+- História Gestacional & Parto: Pré-natal com [ ] consultas; Parto [ Normal / Cesárea ] com [ ] semanas; Peso ao nascer: [ ] g; Intercorrências neonatais: [Nega / Icterícia fototerapia / UTI neonatal: ].
 - Alimentação: [ Aleitamento Materno Exclusivo / Fórmula infantil: ... / Dieta da família ].
-- Vacinação: [ Em dia conforme a Caderneta de Vacinação / Atrasada: ... ].
-- Comorbidades conhecidas: [ Nega comorbidades / Asma / Prematuridade / Alergia à Proteína do Leite de Vaca - APLV / Outra: ... ].
+- Vacinação: [Em dia conforme a Caderneta de Vacinação / Atrasada: ].
+- Comorbidades conhecidas: [Nega comorbidades / Asma / Prematuridade / Alergia à Proteína do Leite de Vaca - APLV / Outra: ].
 - Alergias medicamentosas: [ Nega alergias conhecidas / SIM: ... (Alerta visual ativado) ].
 
 EXAME FÍSICO OBJETIVO:
 - Sinais Vitais:
-  * FC: [ ... ] bpm (Faixa por idade: RN 120-160 | Lactente 100-140 | Pré-escolar 80-120 | Escolar 70-110)
-  * FR: [ ... ] irpm (Faixa: < 2 meses < 60 | 2-11 meses < 50 | 1-5 anos < 40 | > 5 anos < 30)
-  * SpO2: [ ... ]% em ar ambiente
-  * Temperatura axilar (Tax): [ ... ] °C
-  * Tempo de Enchimento Capilar (TEC): [ ... ] segundos (Normal < 2 segundos).
+  * FC: [ ] bpm (Faixa por idade: RN 120-160 | Lactente 100-140 | Pré-escolar 80-120 | Escolar 70-110)
+  * FR: [ ] irpm (Faixa: < 2 meses < 60 | 2-11 meses < 50 | 1-5 anos < 40 | > 5 anos < 30)
+  * SpO2: [ ]% em ar ambiente
+  * Temperatura axilar (Tax): [ ] °C
+  * Tempo de Enchimento Capilar (TEC): [ ] segundos (Normal < 2 segundos).
 - Ectoscopia: Estado geral [ BEG / REG / MEG ], [ ativo e reativo / prostrado ], [ corado / descorado +/4+ ], [ hidratado / sinais de desidratação +/4+ ], [ anictérico / acianótico ]. Sem lesões purpúricas ou petequiais em pele. Fontanela anterior [ plana e normotensa / deprimida / abaulada ].
 - Oroscopia & Otoscopia:
   * Oroscopia: [ Mucosa jugal e gengival úmidas, orofaringe sem hiperemia ou exsudatos amigdalianos / Presença de vesículas / Hiperemia amigdaliana com exsudato purulento ].

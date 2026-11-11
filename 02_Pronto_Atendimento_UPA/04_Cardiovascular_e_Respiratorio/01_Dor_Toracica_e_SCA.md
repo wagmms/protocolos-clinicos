@@ -62,25 +62,32 @@
    - Oxigenoterapia: APENAS SE SpO2 < 90% (evitar hiperóxia e vasoconstrição coronariana paradoxal).
 
 2. DUPLA ANTIAGREGAÇÃO PLAQUETÁRIA (DAPT) DE IMEDIATO:
-   - Ácido Acetilsalicílico (AAS) 200 a 300 mg (2 a 3 comprimidos de 100 mg) VO mastigados de imediato.
-   - + Inibidor de P2Y12:
-     * Ticagrelor 90 mg: 2 comprimidos (180 mg) VO dose de ataque [OPÇÃO PREFERENCIAL].
-     * [OU]: Clopidogrel 75 mg: 4 comprimidos (300 mg) VO de ataque [ou 600 mg se angioplastia primária planejada].
+   - Ácido Acetilsalicílico (AAS) 200 a 300 mg (2 a 3 comprimidos de 100 mg) VO mastigados agora.
+   - + Inibidor de P2Y12 conforme a estratégia de reperfusão:
+     * SE ANGIOPLASTIA PRIMÁRIA / CATETERISMO PLANEJADO (OU SEM SUPRA DE ST):
+       - Ticagrelor 90 mg: 2 comprimidos (180 mg) VO de ataque [PREFERENCIAL].
+       - [OU Clopidogrel 75 mg: 4 a 8 comprimidos (300 a 600 mg) VO de ataque se contraindicação ao Ticagrelor].
+     * SE TROMBÓLISE QUÍMICA NA UPA (TENECTEPLASE / ALTEPLASE):
+       - [ATENÇÃO: TICAGRELOR É PROIBIDO COM FIBRINOLÍTICO. USAR EXCLUSIVAMENTE CLOPIDOGREL]:
+       - Clopidogrel 75 mg se idade <= 75 anos: 4 comprimidos (300 mg) VO de ataque imediato.
+       - Clopidogrel 75 mg se idade > 75 anos: 1 comprimido (75 mg) VO de manutenção SEM dose de ataque.
 
 3. VASODILATADOR CORONARIANO / CONTROLE DA DOR:
    - Dinitrato de Isossorbida 5 mg sublingual agora (pode repetir a cada 5 min, até 3 doses, se PAS > 100 mmHg).
    - [OU]: Nitroglicerina EV contínua em bomba de infusão se dor refratária ou congestão pulmonar.
    - [CONTRAINDICADO SE PAS < 90 MMHG OU INFARTO DE VENTRÍCULO DIREITO].
 
-4. ANTICOAGULAÇÃO PARENTERAL PLENA:
-   - Enoxaparina 1 mg/kg SC de 12/12 horas (com bólus de 30 mg EV prévio se IAM com supra e idade < 75 anos) [OU Heparina Não Fracionada].
+4. ANTICOAGULAÇÃO PARENTERAL PLENA (ENOXAPARINA):
+   - Se idade < 75 anos: Bólus de 30 mg EV + 1 mg/kg SC de 12/12 horas (iniciar dose SC 15 min após o bólus).
+   - Se idade >= 75 anos: SEM bólus EV. Dose reduzida para 0,75 mg/kg SC de 12/12 horas.
+   - Se disfunção renal grave (ClCr < 30 mL/min): 1 mg/kg SC 1x ao dia (sem bólus EV se idoso).
 
 5. ESTATINA DE ALTA POTÊNCIA:
    - Atorvastatina 80 mg VO de imediato.
 
 6. [SE IAM COM SUPRADESNIVELAMENTO DE ST]:
    - ATIVAÇÃO IMEDIATA DA LINHA DE CUIDADO DE IAM / REGULAÇÃO URGENTE PARA CATETERISMO CARDÍACO (ANGIOPLASTIA PRIMÁRIA) COM TEMPO PORTA-BALÃO < 90-120 MINUTOS.
-   - [Se tempo até angioplastia > 120 minutos]: Avaliar terapia fibrinolítica imediata com Tenecteplase (TNK) ou Alteplase (rt-PA) na UPA com tempo porta-agulha < 30 minutos.
+   - [Se tempo até angioplastia > 120 minutos]: Avaliar terapia fibrinolítica imediata com Tenecteplase (TNK) ou Alteplase (rt-PA) na UPA com tempo porta-agulha < 30 minutos associada a Clopidogrel (sem Ticagrelor) e Enoxaparina ajustada.
 ```
 
 ---

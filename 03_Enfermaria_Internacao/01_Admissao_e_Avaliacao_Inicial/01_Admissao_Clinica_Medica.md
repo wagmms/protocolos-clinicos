@@ -6,24 +6,24 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ADMISSÃO EM ENFERMARIA DE CLÍNICA MÉDICA
 
 IDENTIFICAÇÃO & ORIGEM:
-- Paciente: [ ... ] | Idade: [ ... ] anos | Sexo: [ ... ] | Leito: [ ... ]
+- Paciente: [ ] | Idade: [ ] anos | Sexo: [ ] | Leito: [ ]
 - Origem da Admissão: [ Pronto Atendimento / UPA / Transferência Hospitalar / Ambulatório ]
-- Data e Hora da Admissão: [ ... ]/[ ... ]/[ ... ] às [ ... ]h[ ... ]min
-- Diagnóstico Sindrômico / Motivo da Internação: [ ... ]
+- Data e Hora da Admissão: [ ]/[ ]/[ ] às [ ]h[ ]min
+- Diagnóstico Sindrômico / Motivo da Internação: [ ]
 
 HISTÓRIA DA ADMISSÃO:
-- HMA: Paciente admitido nesta enfermaria proveniente de [ ... ] com quadro de [ ... ], com início há [ ... ] dias, caracterizado por [ ... ]. No serviço de origem recebeu [ medidas/medicações prévias: ... ]. Nega piora aguda no momento da admissão no leito.
+- HMA: Paciente admitido nesta enfermaria proveniente de [ ] com quadro de [ ], com início há [ ] dias, caracterizado por [ ]. No serviço de origem recebeu [medidas/medicações prévias: ]. Nega piora aguda no momento da admissão no leito.
 - Negativas de Gravidade Mandatórias: Nega no momento precordialgia típica, dispneia em repouso, febre aguda referida, síncope, déficits motores focais ou hemorragias visíveis ativas.
 
 ANTECEDENTES PESSOAIS & COMORBIDADES:
-- Comorbidades ativas: [ HAS / DM tipo 2 / DLP / Insuficiência Cardíaca / DPOC / Asma / DRC estágio [ ... ] / Doença Hepática / Neoplasia: [ ... ] / Nega comorbidades ].
-- Cirurgias prévias: [ ... ]
+- Comorbidades ativas: [ HAS / DM tipo 2 / DLP / Insuficiência Cardíaca / DPOC / Asma / DRC estágio [ ] / Doença Hepática / Neoplasia: [ ] / Nega comorbidades ].
+- Cirurgias prévias: [ ]
 - Alergias medicamentosas: [ NÃO RELATA / SIM: ... (Alerta visual acionado) ]
-- Hábitos de vida: Tabagismo [ Nega / Ex-tabagista há [ ... ] anos / Ativo: [ ... ] maços-ano ] | Etilismo [ Nega / Social / Crônico: [ ... ] ] | Drogas ilícitas: [ Nega / Sim: [ ... ] ].
+- Hábitos de vida: Tabagismo [ Nega / Ex-tabagista há [ ] anos / Ativo: [ ] maços-ano ] | Etilismo [ Nega / Social / Crônico: [ ] ] | Drogas ilícitas: [ Nega / Sim: [ ] ].
 
 RECONCILIAÇÃO MEDICAMENTOSA DE ADMISSÃO (USO PRÉVIO):
 - Medicações de uso domiciliar contínuo:
@@ -32,20 +32,20 @@ RECONCILIAÇÃO MEDICAMENTOSA DE ADMISSÃO (USO PRÉVIO):
   3. [ Medicamento, dose e posologia ] -> [ MANTER / SUSPENDER TEMPORARIAMENTE / SUBSTITUIR ]
 
 EXAME FÍSICO ADMISSIONAL:
-- Sinais Vitais: PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% (em ar ambiente / sob cateter O2 [ ... ] L/min) | Tax: [ ... ] °C | Glicemia capilar: [ ... ] mg/dL.
+- Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% (em ar ambiente / sob cateter O2 [ ] L/min) | Tax: [ ] °C | Glicemia capilar: [ ] mg/dL.
 - Ectoscopia Geral: Estado geral [ BEG / REG / MEG ], consciente e orientado no tempo e espaço (Glasgow 15). Mucosas [ coradas / descoradas +/4+ ], [ hidratadas / desidratadas +/4+ ], [ anictéricas / ictéricas +/4+ ], [ acianóticas ]. Perfusão periférica preservada (tempo de enchimento capilar < 2s).
 - Aparelho Cardiovascular: Ictus cordis não visível, palpável no 5º EIC na linha hemiclavicular esquerda. Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas (B1 e B2), sem sopros patológicos audíveis ou atritos pericárdicos. Pulsos periféricos amplos e simétricos. Sem turgência jugular patológica a 45°.
-- Aparelho Respiratório: Tórax simétrico, expansibilidade preservada bilateralmente. Murmúrio vesicular universalmente audível, [ sem ruídos adventícios / presença de crepitações em base [ ... ] / sibilos esparsos ]. Sem tiragem intercostal ou esforço respiratório.
+- Aparelho Respiratório: Tórax simétrico, expansibilidade preservada bilateralmente. Murmúrio vesicular universalmente audível, [ sem ruídos adventícios / presença de crepitações em base [ ] / sibilos esparsos ]. Sem tiragem intercostal ou esforço respiratório.
 - Abdome: Plano/Globoso, simétrico, flácido, indolor à palpação superficial e profunda. Ausência de visceromegalias palpáveis (fígado e baço não palpáveis). Ruídos hidroaéreos presentes e normoativos em todos os 4 quadrantes. Sem massas palpáveis. Sinais peritoneais ausentes (Blumberg, Murphy e Giordano negativos).
 - Extremidades: Pulsos periféricos (radiais, tibiais posteriores e pediosos) palpáveis e simétricos. [ Ausência de edema / Edema de MMII +/4+ simétrico, frio, indolor ]. Panturrilhas livres, empastamento muscular negativo bilateralmente (Homans negativo).
 - Pele & Avaliação de Dispositivos na Admissão:
-  * Pele íntegra, sem lesões por pressão ativas (Escala de Braden: [ ... ] pontos - Risco [ Baixo / Moderado / Alto ]).
-  * Acesso venoso periférico: [ MSD / MSE ], jelco nº [ ... ], inserido em [ ... ]/[ ... ], pérvio, sítio limpo e sem sinais flogísticos (dor, rubor, edema ou saída de secreção).
+  * Pele íntegra, sem lesões por pressão ativas (Escala de Braden: [ ] pontos - Risco [ Baixo / Moderado / Alto ]).
+  * Acesso venoso periférico: [ MSD / MSE ], jelco nº [ ], inserido em [ ]/[ ], pérvio, sítio limpo e sem sinais flogísticos (dor, rubor, edema ou saída de secreção).
   * Outros dispositivos: [ SVD / SNE / Oxigenoterapia / Sem outros dispositivos ].
 
 ESTRATIFICAÇÃO DE RISCO CLÍNICO NA ADMISSÃO:
 - Risco de Quedas (Escala de Morse): [ Baixo risco (0-24) / Médio risco (25-50) / Alto risco (≥51) ] -> [ Adotadas pulseira de identificação e grades do leito elevadas ].
-- Risco de Tromboembolismo Venoso (Escore de Pádua): [ ... ] pontos (Baixo risco < 4 pontos / Alto risco ≥ 4 pontos).
+- Risco de Tromboembolismo Venoso (Escore de Pádua): [ ] pontos (Baixo risco < 4 pontos / Alto risco ≥ 4 pontos).
   * Conduta TEV: [ Profilaxia farmacológica com Enoxaparina 40mg SC 1x/dia indicada / Apenas deambulação precoce / Profilaxia mecânica por alto risco de sangramento ].
 
 HIPÓTESES DIAGNÓSTICAS (HD):

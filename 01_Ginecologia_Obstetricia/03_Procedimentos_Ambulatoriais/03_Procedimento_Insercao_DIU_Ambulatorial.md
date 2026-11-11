@@ -49,7 +49,7 @@ Procedimento realizado sob rigorosa técnica asséptica e sem intercorrências. 
 1. Dipirona 1 g VO de 6/6h SOS ou Ibuprofeno 600 mg VO 8/8h por 24 a 48h se cólicas pélvicas.
 2. Orientações Gerais: Cólicas leves e pequenos sangramentos escuros em borra de café são frequentes nos primeiros dias. Evitar relações sexuais nos primeiros 3 a 5 dias.
 3. Alertas de Emergência: Procurar pronto-socorro ginecológico se apresentar febre (Tax >= 37,8 ºC), dor pélvica intensa que não cede aos analgésicos, sangramento volumoso com coágulos ou corrimento com odor fétido.
-4. Entregue o Cartão do DIU preenchido com modelo, lote, data de inserção e validade ([5 anos para Mirena / Kyleena | 10 anos para DIU de Cobre TCu 380A]).
+4. Entregue o Cartão do DIU preenchido com modelo, lote, data de inserção e validade ([8 anos para Mirena na indicação contraceptiva - ou 5 anos se indicação exclusiva para sangramento uterino anormal / proteção endometrial | 5 anos para Kyleena | 10 anos para DIU de Cobre TCu 380A]).
 5. Retorno: Agendado retorno em 30 a 45 dias com Ultrassonografia Transvaginal de controle para checagem de posicionamento (RDIU).
 ```
 

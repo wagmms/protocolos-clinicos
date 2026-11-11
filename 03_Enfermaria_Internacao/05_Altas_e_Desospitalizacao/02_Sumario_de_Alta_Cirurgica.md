@@ -6,21 +6,21 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 RELATÓRIO / SUMÁRIO DE ALTA HOSPITALAR - CIRURGIA
 
 DADOS DA INTERNAÇÃO & ATO CIRÚRGICO:
-- Paciente: [ ... ] | Idade: [ ... ] anos | Sexo: [ ... ] | Prontuário: [ ... ]
-- Data de Admissão: [ ... ]/[ ... ]/[ ... ] | Data da Cirurgia: [ ... ]/[ ... ]/[ ... ] | Data da Alta: [ ... ]/[ ... ]/[ ... ]
-- Cirurgia Realizada: [ ... ]
+- Paciente: [ ] | Idade: [ ] anos | Sexo: [ ] | Prontuário: [ ]
+- Data de Admissão: [ ]/[ ]/[ ] | Data da Cirurgia: [ ]/[ ]/[ ] | Data da Alta: [ ]/[ ]/[ ]
+- Cirurgia Realizada: [ ]
 - Técnica Cirúrgica: [ Videolaparoscópica / Aberta Convencional / Artroscópica / Outra ]
 - Anestesia: [ Geral / Raquianestesia / Peridural / Sedação + Local ]
-- Equipe Cirúrgica Responsável: Dr(a). [ ... ] | CRM [ ... ]
-- Achados Intraoperatórios Relevantes: [ ... ]
-- Diagnóstico Cirúrgico / Histopatológico Pré-Alta: [ ... ] (CID-10: [ ... ])
+- Equipe Cirúrgica Responsável: Dr(a). [ ] | CRM [ ]
+- Achados Intraoperatórios Relevantes: [ ]
+- Diagnóstico Cirúrgico / Histopatológico Pré-Alta: [ ] (CID-10: [ ])
 
 RESUMO DA EVOLUÇÃO PÓS-OPERATÓRIA:
-- Paciente evoluiu no [ ... ]º DPO com excelente recuperação clínica no leito da enfermaria.
+- Paciente evoluiu no [ ]º DPO com excelente recuperação clínica no leito da enfermaria.
 - Tolerância à dieta: Dieta geral aceita sem queixas de náuseas ou vômitos.
 - Trânsito intestinal: Eliminação de flatos e fezes presente, sem distensão ou dor abdominal em cólica.
 - Deambulação: Deambulando de forma autônoma e segura pelo setor.
@@ -29,7 +29,7 @@ RESUMO DA EVOLUÇÃO PÓS-OPERATÓRIA:
 - Drenos: [ Ausência de drenos / Dreno retirado no leito em D... com débito seroso mínimo / Mantido dreno ... com orientações de manejo domiciliar ].
 
 SINAIS VITAIS NA ALTA:
-- PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C (Afebril há > 48h).
+- PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C (Afebril há > 48h).
 
 ---
 
@@ -39,7 +39,7 @@ PRESCRIÇÃO MÉDICA DE ALTA CIRÚRGICA (DOMICILIAR):
 3. [ Analgésico de resgate se dor intensa: Tramadol 50mg ] --- Tomar 1 cápsula VO até de 8/8h se dor moderada a intensa refratária.
 4. [ Antiemético de resgate: Ondansetrona 8mg ] -- Tomar 1 comprimido VO até de 8/8h se náuseas ou vômitos.
 5. [ Laxativo se constipação pós-operatória: Lactulose 667mg/ml ] --- Tomar 15 a 30 ml VO 1x ao dia se ausência de fezes por mais de 2 dias.
-6. [ Medicamentos de uso contínuo habitual mantidos: ... ].
+6. [Medicamentos de uso contínuo habitual mantidos: ].
 
 ---
 
@@ -67,7 +67,7 @@ SINAIS DE ALARME CIRÚRGICO (RETORNO IMEDIATO AO PRONTO ATENDIMENTO):
 - Falta de ar aguda ou dor torácica ao respirar.
 
 AGENDAMENTO DE RETORNO CIRÚRGICO:
-- Retorno ambulatorial com a equipe cirúrgica agendado para o dia [ ... ]/[ ... ]/[ ... ] às [ ... ]h no Ambulatório de Cirurgia para reavaliação da ferida e retirada de pontos.
+- Retorno ambulatorial com a equipe cirúrgica agendado para o dia [ ]/[ ]/[ ] às [ ]h no Ambulatório de Cirurgia para reavaliação da ferida e retirada de pontos.
 - Paciente e acompanhante orientados quanto a todas as condutas, recebendo receitas e sumário de alta em mãos.
 ```
 

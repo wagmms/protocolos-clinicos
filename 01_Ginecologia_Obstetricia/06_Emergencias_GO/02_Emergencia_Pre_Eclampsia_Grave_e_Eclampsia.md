@@ -34,7 +34,9 @@
 - DOSE DE ATAQUE:
   * Administrados 4 g de Sulfato de Magnésio a 50% (8 mL) diluídos em 100 mL de SG 5% ou SF 0,9% em infusão endovenosa em bomba de infusão em 20 minutos (início às [HH:MM]).
 - DOSE DE MANUTENÇÃO:
-  * Iniciada infusão contínua de 1 a 2 g/hora de Sulfato de Magnésio EV em bomba de infusão contínua (Solução: 10 g de MgSO4 [20 mL a 50%] em 480 mL de SG 5%, correndo a 50 mL/h = 1 g/h).
+  * Iniciada infusão contínua de 1 a 2 g/hora de Sulfato de Magnésio EV em bomba de infusão contínua:
+    - [Solução Padrão]: 10 g de MgSO4 50% (20 mL) em 480 mL de SG 5% ou SF 0,9%, correndo a 50 mL/h (= 1 g/h) ou 100 mL/h (= 2 g/h).
+    - [Solução Concentrada em BIC - Restrição Hídrica Rigorosa]: 4 g de MgSO4 50% (8 mL) + 42 mL de AD ou SF 0,9% (volume total 50 mL), correndo a 12,5 mL/h (= 1 g/h) ou 25 mL/h (= 2 g/h) em bomba de seringa/BIC.
   * [Se Esquema de Pritchard]: Administrados 4 g EV lento + 10 g IM profundo (5 g em cada glúteo com 1 mL de lidocaína 2%); manutenção com 5 g IM a cada 4 horas no glúteo contralateral.
 
 # PROTOCOLO ANTI-HIPERTENSIVO DE URGÊNCIA (SE PAS >= 160 OU PAD >= 110 MMHG):

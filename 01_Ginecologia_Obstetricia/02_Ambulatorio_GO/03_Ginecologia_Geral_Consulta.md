@@ -22,6 +22,7 @@ G[ ] P[ ] (PN [ ] / PC [ ]) A[ ].
 
 # RASTREAMENTOS PREVENTIVOS:
 - Exame Citopatológico de Colo Uterino (Papanicolau): Último em [MM/AAAA], resultado [Normal / Negativo para malignidade / Alterado: [ ]].
+- Teste Molecular de DNA-HPV oncogênico (quando disponível): Último em [MM/AAAA], resultado [Negativo / Positivo para HPV 16/18 / Positivo para outros tipos oncogênicos / Não realizado].
 - Mamografia Bilateral: Última em [MM/AAAA], classificação BI-RADS [1 / 2 / 3 / 4 / 0].
 - Ultrassonografia Pélvica / Transvaginal: Última em [MM/AAAA], resultado: [Útero e anexos sem alterações / Miomatose / Espessamento endometrial de [ ] mm].
 
@@ -84,7 +85,9 @@ Paciente comparece em consulta ginecológica [para rotina anual / com queixa de:
 ---
 
 ### [DIRETRIZES DE RASTREAMENTO ONCOLÓGICO]
-- **Câncer de Colo Uterino (Ministério da Saúde):** Início aos 25 anos em mulheres com atividade sexual iniciada, até os 64 anos. Periodicidade: anual nos dois primeiros exames; após dois exames anuais consecutivos negativos, realizar a cada **3 anos**.
+- **Câncer de Colo Uterino (Ministério da Saúde):**
+  * Citopatológico convencional: Início aos 25 anos em mulheres com atividade sexual iniciada, até os 64 anos. Periodicidade: anual nos dois primeiros exames; após dois exames anuais consecutivos negativos, realizar a cada **3 anos**.
+  * Teste Molecular de DNA-HPV oncogênico (transição oficial MS/INCA/SUS): Mulheres de **25 a 64 anos**, realizado a cada **5 anos** quando negativo. Se positivo para HPV 16/18: encaminhar para colposcopia imediata. Se positivo para outros subtipos oncogênicos: realizar citologia reflexa.
 - **Câncer de Mama:**
   * Ministério da Saúde / INCA: Mamografia bianual entre **50 e 69 anos**.
   * FEBRASGO / Colégio Brasileiro de Radiologia (CBR): Mamografia anual a partir dos **40 anos**.

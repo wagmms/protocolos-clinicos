@@ -53,13 +53,13 @@
 
 >> [MODALIDADE 1]: CONDUTA AMBULATORIAL (CURB-65 = 0 OU 1):
 1. Antibioticoterapia Oral (Duração de 5 a 7 dias):
-   - [PACIENTE HÍGIDO SEM COMORBIDADES]:
-     Amoxicilina 500 mg a 1 g VO de 8/8 horas por 7 dias.
-     + Azitromicina 500 mg VO 1x/dia por 5 dias consecutivos (cobertura para atípicos: Mycoplasma/Chlamydia).
-   - [PACIENTE COM COMORBIDADES (HAS/DM/DPOC/IDOSO)]:
-     Amoxicilina + Clavulanato de Potássio 875/125 mg VO de 12/12h por 7 a 10 dias + Azitromicina 500 mg 1x/dia por 5 dias.
-     [OU]: Levofloxacino 750 mg VO 1x/dia por 5 dias (ou 500 mg VO 1x/dia por 7 dias).
-2. Analgesia & Antitérmico: Dipirona 1 g VO de 6/6h SOS febre ou dor pleurítica.
+   - [PACIENTE HÍGIDO SEM COMORBIDADES (DIRETRIZ SBPT - MONOTERAPIA)]:
+     [Opção A - Beta-lactâmico]: Amoxicilina 500 mg VO de 8/8 horas (ou 1 g VO de 8/8 horas) por 5 a 7 dias.
+     [OU Opção B - Macrolídeo isolado]: Azitromicina 500 mg VO 1x/dia por 5 dias (ou Claritromicina 500 mg VO de 12/12h por 5 a 7 dias).
+   - [PACIENTE COM COMORBIDADES (HAS/DM/DPOC/IDOSO OU USO RECENTE DE ATB - TERAPIA COMBINADA)]:
+     Amoxicilina + Clavulanato 875/125 mg VO de 12/12h por 7 dias + Azitromicina 500 mg VO 1x/dia por 5 dias.
+     [OU]: Levofloxacino 750 mg VO 1x/dia por 5 dias (ou Moxifloxacino 400 mg VO 1x/dia por 5 a 7 dias).
+2. Analgesia & Antitérmico: Dipirona 1 g VO de 6/6h SOS se febre ou dor pleurítica.
 3. Hidratação oral vigorosa (mínimo 2 a 3 L/dia) e repouso.
 4. Reavaliação clínica obrigatória em 48 a 72 horas na UBS ou UPA se não houver melhora da febre.
 

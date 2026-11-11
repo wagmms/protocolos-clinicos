@@ -6,16 +6,16 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO PEDIÁTRICO - OTITE MÉDIA AGUDA (OMA)
 
 IDENTIFICAÇÃO:
-- Paciente: [ ... ] | Idade: [ ... ] anos/meses | Sexo: [ ... ] | PESO ATUAL: [ ... ] kg
-- Informante: [ Mãe / Pai / Responsável: ... ]
+- Paciente: [ ] | Idade: [ ] anos/meses | Sexo: [ ] | PESO ATUAL: [ ] kg
+- Informante: [Mãe / Pai / Responsável: ]
 
 HISTÓRIA CLÍNICA:
-- QP: Dor de ouvido (otalgia), febre e choro há [ ... ] dias.
-- HMA: Quadro iniciado há [ ... ] dias com pródromo de resfriado (coriza e congestão nasal). Evoluiu com dor de ouvido aguda [ em orelha direita / esquerda / bilateral ] de moderada a forte intensidade, irritabilidade acentuada, [ choro inconsolável e ato de puxar/esfregar a orelha ].
+- QP: Dor de ouvido (otalgia), febre e choro há [ ] dias.
+- HMA: Quadro iniciado há [ ] dias com pródromo de resfriado (coriza e congestão nasal). Evoluiu com dor de ouvido aguda [ em orelha direita / esquerda / bilateral ] de moderada a forte intensidade, irritabilidade acentuada, [ choro inconsolável e ato de puxar/esfregar a orelha ].
 - Febre: [ Tax aferida no domicílio: ... °C / Afebril ].
 - Otorreia: [ Ausência de saída de secreção / Presença de secreção purulenta recente em canal auditivo por perfuração timpânica espontânea de alívio ].
 - Fatores de Risco de Resistência Bacteriana:
@@ -28,7 +28,7 @@ NEGATIVAS MANDATÓRIAS PEDIÁTRICAS:
 - Nega sonolência excessiva, convulsões, rigidez de nuca ou paralisia facial periférica.
 
 EXAME FÍSICO OBJETIVO:
-- Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C.
+- Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C.
 - Ectoscopia: Regular estado geral, irritável ao exame, corado, hidratado, acianótico.
 - Inspeção da Região Retroauricular: Ausência de sinais flogísticos (sem edema, hiperemia ou dor à palpação da mastoide bilateralmente). Pavilhões auriculares tópicos e simétricos.
 - Otoscopia Criteriosa (Critérios SBP / AAP):
@@ -72,8 +72,8 @@ CONDUTA TERAPÊUTICA & ANTIMICROBIANA:
 
 PRESCRIÇÃO AMBULATORIAL:
 1. Amoxicilina suspensão oral (250 mg/5 mL ou 400 mg/5 mL):
-   - Dar [ ... ] mL por via oral a cada [ 8 ou 12 ] horas por [ 7 a 10 ] dias.
-2. Dipirona gotas 500 mg/mL (se dor): Dar [ ... ] gotas VO até de 6/6h.
+   - Dar [ ] mL por via oral a cada [ 8 ou 12 ] horas por [ 7 a 10 ] dias.
+2. Dipirona gotas 500 mg/mL (se dor): Dar [ ] gotas VO até de 6/6h.
 3. Lavagem nasal com Soro Fisiológico 0,9% frequente para desobstrução da tuba auditiva.
 
 SINAIS DE ALARME DE MASTOIDITE (RETORNO IMEDIATO):

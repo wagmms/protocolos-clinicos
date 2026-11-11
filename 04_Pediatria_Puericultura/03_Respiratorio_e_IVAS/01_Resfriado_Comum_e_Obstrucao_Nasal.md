@@ -6,16 +6,16 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO PEDIÁTRICO - RESFRIADO COMUM / RINOFARINGITE AGUDA
 
 IDENTIFICAÇÃO:
-- Paciente: [ ... ] | Idade: [ ... ] anos/meses | Sexo: [ ... ] | PESO ATUAL: [ ... ] kg
-- Informante: [ Mãe / Pai / Responsável: ... ]
+- Paciente: [ ] | Idade: [ ] anos/meses | Sexo: [ ] | PESO ATUAL: [ ] kg
+- Informante: [Mãe / Pai / Responsável: ]
 
 HISTÓRIA CLÍNICA:
-- QP: Obstrução nasal, coriza e tosse há [ ... ] dias.
-- HMA: Quadro iniciado há [ ... ] dias com coriza [ hialina / discretamente amarelada fisiológica ], congestão nasal que dificulta a amamentação/sono, espirros e tosse seca [ pior à noite ao deitar por gotejamento pós-nasal ].
+- QP: Obstrução nasal, coriza e tosse há [ ] dias.
+- HMA: Quadro iniciado há [ ] dias com coriza [ hialina / discretamente amarelada fisiológica ], congestão nasal que dificulta a amamentação/sono, espirros e tosse seca [ pior à noite ao deitar por gotejamento pós-nasal ].
 - Febre: [ Nega febre / Picos febris baixos (< 38,5°C) nas primeiras 48h, responsivos a antitérmicos comuns ].
 - Estado Geral & Ingesta: [ Criança ativa, brincando quando afebril; aceitando alimentação e líquidos / Inapetência leve devido ao nariz entupido ]. Diurese preservada.
 
@@ -27,7 +27,7 @@ NEGATIVAS MANDATÓRIAS PEDIÁTRICAS (RED FLAGS):
 - Nega prostração contínua na ausência de febre, recusa total de líquidos ou vômitos incoercíveis.
 
 EXAME FÍSICO OBJETIVO:
-- Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm (Normal para a idade) | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C.
+- Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm (Normal para a idade) | SpO2: [ ]% ar ambiente | Tax: [ ] °C.
 - Ectoscopia: Bom estado geral (BEG), ativo, reativo, corado, hidratado, acianótico, anictérico. Sem esforço respiratório.
 - Rinoscopia / Nariz: Mucosa nasal edemaciada e hiperemiada com secreção serosa/mucosa bilateral. Sem corpos estranhos visíveis.
 - Oroscopia: Faringe com discreta hiperemia difusa, amígdalas sem exsudato purulento ou ulcerações. Presença de gotejamento pós-nasal seroso.
@@ -44,7 +44,7 @@ AVALIAÇÃO & HIPÓTESE DIAGNÓSTICA:
 
 PRESCRIÇÃO MÉDICA AMBULATORIAL:
 1. Soro Fisiológico 0,9% para Lavagem Nasal de Alto Volume / Baixa Pressão:
-   - Lavar ambas as narinas com [ ... ] mL de SF 0,9% morno (temperatura ambiente/corporal) com seringa com ponta de silicone ou bico anatômico, de 4 a 6 vezes ao dia, OBRIGATORIAMENTE antes das mamadas/refeições e antes de dormir.
+   - Lavar ambas as narinas com [ ] mL de SF 0,9% morno (temperatura ambiente/corporal) com seringa com ponta de silicone ou bico anatômico, de 4 a 6 vezes ao dia, OBRIGATORIAMENTE antes das mamadas/refeições e antes de dormir.
 2. Dipirona solução oral gotas (500 mg/mL) [ se dor ou desconforto febril ]:
    - Administrar [ 1 gota por kg de peso corporal = ... gotas ] VO a cada 6 horas se febre (Tax ≥ 37,8°C) ou irritabilidade/dor (Dose máx: 35-40 gotas por tomada).
    - *OU Paracetamol solução gotas (200 mg/mL):* Administrar [ 1 gota por kg = ... gotas ] VO a cada 6 horas se dor ou febre (Dose máx: 35 gotas por tomada).

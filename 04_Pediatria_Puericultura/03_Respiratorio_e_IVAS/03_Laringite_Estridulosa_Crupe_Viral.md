@@ -6,15 +6,15 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA - CRUPE VIRAL / LARINGITE AGUDA
 
 IDENTIFICAÇÃO:
-- Paciente: [ ... ] | Idade: [ ... ] meses/anos (Faixa típica: 6 meses a 3 anos) | PESO ATUAL: [ ... ] kg
-- Informante: [ Mãe / Pai / Responsável: ... ]
+- Paciente: [ ] | Idade: [ ] meses/anos (Faixa típica: 6 meses a 3 anos) | PESO ATUAL: [ ] kg
+- Informante: [Mãe / Pai / Responsável: ]
 
 HISTÓRIA CLÍNICA:
-- QP: Tosse rouca e barulho para respirar iniciado subitamente à noite há [ ... ] horas.
+- QP: Tosse rouca e barulho para respirar iniciado subitamente à noite há [ ] horas.
 - HMA: Criança vinha apresentando pródromo de resfriado leve há 1 a 2 dias (coriza e febre baixa de ... °C). Evoluiu durante a noite com início súbito de tosse ladrante ("tosse de foca/cachorro"), rouquidão e ruído agudo na respiração (estridor laríngeo).
 - Febre: [ Afebril / Febre baixa < 38,5°C / Febre alta > 39°C com toxemia (suspeitar de epiglotite/traqueíte) ].
 - Deglutição & Sialorreia: [ Deglutindo saliva normalmente, sem engasgos / Sialorreia importante com dificuldade para engolir saliva ].
@@ -26,14 +26,14 @@ NEGATIVAS MANDATÓRIAS (EXCLUSÃO DE EPIGLOTITE & CORPO ESTRANHO):
 - Nega cianose ou episódios de apneia.
 
 EXAME FÍSICO OBJETIVO:
-- Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C.
+- Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C.
 - Ectoscopia: Estado geral [ BEG / REG ], choro rouco característico. Sem cianose perioral.
 - Aparelho Respiratório & Laringe:
   * Voz e Choro: [ Rouquidão e tosse ladrante presentes ].
   * Estridor Laríngeo: [ Ausente em repouso, presente apenas ao choro/agitação (Crupe Leve) / Presente em repouso, audível sem estetoscópio (Crupe Moderado a Grave) ].
   * Sinais de Esforço: [ Ausentes / Tiragem supraesternal leve / Tiragem intercostal e subcostal moderada / Batimento de asa de nariz ].
   * Ausculta Pulmonar: Murmúrio vesicular presente bilateralmente, sem sibilos ou estertores creptantes associados.
-- Escore de Westley: [ ... ] pontos (Classificação: [ LEVE (≤ 2 pontos) / MODERADO (3 a 5 pontos) / GRAVE (6 a 11 pontos) ]).
+- Escore de Westley: [ ] pontos (Classificação: [ LEVE (≤ 2 pontos) / MODERADO (3 a 5 pontos) / GRAVE (6 a 11 pontos) ]).
 - Oroscopia: Evitada manipulação com espátula se estridor importante para não desencadear espasmo laringo subglótico.
 
 AVALIAÇÃO & HIPÓTESE DIAGNÓSTICA:
@@ -46,7 +46,7 @@ CONDUTA TERAPÊUTICA E MEDICAMENTOSA:
 
 [ ] CONDUTA NO CRUPE LEVE (Escore ≤ 2 - Sem estridor em repouso):
 1. Dexametasona dose única:
-   - Dexametasona elixir (0,1 mg/mL) ou comprimido/injetável: **0,15 mg/kg a 0,6 mg/kg por via oral dose única** (Dose administrada: [ ... ] mg). Reduz a inflamação subglótica e previne progressão para crupe grave.
+   - Dexametasona elixir (0,1 mg/mL) ou comprimido/injetável: **0,15 mg/kg a 0,6 mg/kg por via oral dose única** (Dose administrada: [ ] mg). Reduz a inflamação subglótica e previne progressão para crupe grave.
 2. Orientações de Alta Segura:
    - Manter a criança calma (o choro e a agitação aumentam o fluxo turbulento e pioram o estridor).
    - Inalação de ar fresco/úmido ou banho morno com vapor.

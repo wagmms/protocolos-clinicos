@@ -62,9 +62,13 @@ Refere queixas de: [Nega queixas / Náuseas matinais leves sem vômitos / Sonol�
 3. Estado Nutricional: [Eutrófica / Sobrepeso / Obesidade].
 
 # PLANO / CONDUTA DE 1º TRIMESTRE:
-1. Suplementação Medicamentosa:
+1. Suplementação Medicamentosa & Profilaxias:
    - Ácido Fólico 400 mcg (0,4 mg) VO 1x/dia até a 12ª-14ª semana (ou 5 mg/dia se antecedente de DNT, obesidade IMC > 35 ou em uso de anticonvulsivantes).
    - [Se anemia prévia ou IG >= 20 semanas]: Sulfato Ferroso 40 mg de ferro elementar (200 mg de sulfato ferroso) VO 1x/dia em jejum.
+   - Profilaxia de Pré-Eclâmpsia (se alto/moderado risco - HAS crônica, DM, PE prévia, DRC, autoimune, nulípara, IMC > 30):
+     * Ácido Acetilsalicílico (AAS) 100 a 150 mg VO 1x/dia à noite, iniciado entre 12 e 16 semanas até a 36ª semana.
+   - Suplementação de Cálcio (prevenção de pré-eclâmpsia em baixa ingesta de cálcio):
+     * Carbonato de Cálcio (1.000 a 1.500 mg de cálcio elementar/dia) VO fracionado com as refeições a partir da 12ª semana.
 2. Exames Laboratoriais Solicitados (Rotina de 1º Trimestre):
    - Tipagem Sanguínea ABO e Fator Rh + Coombs Indireto (se Rh negativo).
    - Hemograma completo.
@@ -93,4 +97,4 @@ Refere queixas de: [Nega queixas / Náuseas matinais leves sem vômitos / Sonol�
 - **Toxoplasmose:**
   * `IgG reagente e IgM não reagente`: Imune prévia (baixo risco).
   * `IgG e IgM não reagentes`: Suscetível. Orientar medidas preventivas e repetir sorologia a cada trimestre.
-  * `IgG e IgM reagentes`: Suspeita de infecção recente. Se IG < 16 semanas, solicitar Teste de Avidez de IgG imediatamente e iniciar Espiramicina 1g 8/8h até resultado.
+  * `IgG e IgM reagentes`: Suspeita de infecção recente. Se IG < 16 semanas, solicitar Teste de Avidez de IgG imediatamente e iniciar Espiramicina 1g VO 8/8h. Se infecção fetal confirmada por PCR no líquido amniótico ou infecção materna aguda documentada após 16 semanas: substituir Espiramicina pelo **Esquema Tríplice** (Sulfadiazina 3g/dia + Pirimetamina 50mg/dia + Ácido Folínico 15mg/dia) até o parto, com controle hematológico.

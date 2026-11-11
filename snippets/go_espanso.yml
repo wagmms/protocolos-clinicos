@@ -59,6 +59,16 @@ matches:
       5. Se aplicável: Imunoglobulina Anti-D 300 mcg IM nas primeiras 72h / Enoxaparina 40 mg SC 1x/dia.
       6. Acompanhamento diário em enfermaria.
 
+  - trigger: ";puerp-adm-cnd"
+    replace: |
+      # CONDUTA ADMISSIONAL:
+      1. Dieta geral branda, estímulo à deambulação precoce e ingesta hídrica.
+      2. Analgesia regular: Dipirona 1 g EV/VO 6/6h + Cetoprofeno 100 mg EV 12/12h (se não hipertensa) + Tramadol SOS.
+      3. Estimulado aleitamento materno exclusivo em livre demanda; orientada pega adequada.
+      4. Higiene perineal / cuidados de ferida operatória.
+      5. Se aplicável: Imunoglobulina Anti-D 300 mcg IM nas primeiras 72h / Enoxaparina 40 mg SC 1x/dia.
+      6. Acompanhamento diário em enfermaria.
+
   - trigger: ";puerp-evo"
     replace: |
       ###### EVOLUÇÃO DIÁRIA DE PUERPÉRIO ######
@@ -115,6 +125,17 @@ matches:
       6. Contracepção: [Mantenho orientação de método ponte com Desogestrel 75 mcg/dia / Inserção de Implanon programada para hoje / DIU já inserido pós-parto].
       7. Planejamento: [Previsão de alta hospitalar em 24h pós-parto normal / Previsão de alta hospitalar em 48h pós-cesárea].
 
+  - trigger: ";puerp-evo-cnd"
+    replace: |
+      # PLANO / CONDUTA:
+      1. Mantenho estímulo à deambulação precoce e hidratação oral vigorosa.
+      2. Mantenho aleitamento materno exclusivo em livre demanda.
+      3. Analgesia: Dipirona 1 g VO de 6/6h se dor; Cetoprofeno 100 mg VO 12/12h (se não hipertensa e se dor).
+      4. Medidas laxativas se necessário: Óleo mineral 15 mL VO à noite ou Lactulose 15 mL VO.
+      5. Cuidados locais: Higiene perineal com água morna e sabonete neutro após eliminações / manter ferida operatória limpa e seca.
+      6. Contracepção: [Mantenho orientação de método ponte com Desogestrel 75 mcg/dia / Inserção de Implanon programada para hoje / DIU já inserido pós-parto].
+      7. Planejamento: [Previsão de alta hospitalar em 24h pós-parto normal / Previsão de alta hospitalar em 48h pós-cesárea].
+
   - trigger: ";puerp-alta-pn"
     replace: |
       ###### RELATÓRIO DE ALTA HOSPITALAR - PUERPÉRIO (PARTO NORMAL) ######
@@ -135,6 +156,34 @@ matches:
       Mamas túrgidas, indolores, sem sinais flogísticos, papilas íntegras, colostro presente.
       Abdome indolor, útero bem contraído abaixo da cicatriz umbilical. Loquiação fisiológica rubra em pequena quantidade, sem odor fétido. Períneo com rafia íntegra, limpa, sem edema importante ou secreções. Extremidades sem edema, panturrilhas livres.
       
+      # PRESCRIÇÃO MÉDICA DE ALTA:
+      1. Dipirona 500 mg a 1 g VO de 6/6 horas se dor.
+      2. Sulfato Ferroso 40 mg (Fe elementar) - Tomar 1 comprimido VO 1x/dia, em jejum com água ou suco cítrico, por 60 a 90 dias pós-parto [se anemia moderada: 1 cp VO 2x/dia].
+      3. [Se laceração perineal grau 2 / constipação]: Óleo Mineral 15 mL VO à noite por 5 dias se fezes ressecadas.
+      4. [Anticoncepção]: Desogestrel 75 mcg - Tomar 1 comprimido VO ao dia, sempre no mesmo horário, de forma contínua sem pausas (Método Ponte para futura inserção de DIU/Implanon na UBS).
+      
+      # ORIENTAÇÕES GERAIS À PACIENTE:
+      - Repouso físico relativo e abstinência sexual por 40 dias (resguardo puerperal).
+      - Estimulado aleitamento materno exclusivo em livre demanda até o 6º mês.
+      - Cuidados com o períneo: Higiene vulvoperineal rigorosa com água corrente e sabonete neutro após cada micção e evacuação; secar suavemente sem esfregar. Não há necessidade de retirar pontos (fios absorvíveis).
+      - Agendamento de Consulta de Puerpério na UBS: Realizar consulta de retorno entre o 7º e 10º dia pós-parto (para avaliação de cicatriz, amamentação e RN) e no 42º dia pós-parto (consulta puerperal tardia).
+      - Agendamento da Consulta do Recém-Nascido: Comparecer à UBS na primeira semana para Teste do Pezinho (ideal entre 3º e 5º dia), vacinação (BCG e Hepatite B) e avaliação ponderal.
+      
+      # SINAIS DE ALARME (RETORNO IMEDIATO AO PRONTO ATENDIMENTO OBSTÉTRICO):
+      Orientada a procurar atendimento médico urgente se apresentar:
+      1. Febre (temperatura axilar >= 37,8 °C) ou calafrios persistentes.
+      2. Sangramento vaginal excessivo (encher mais de 2 absorventes higiênicos em 1 hora ou eliminação de grandes coágulos) ou secreção com odor fétido.
+      3. Dor abdominal em cólica intensa refratária aos analgésicos.
+      4. Dor, calor, vermelhidão ou saída de pus na região perineal/rafia.
+      5. Dor mamária intensa com calor, vermelhidão local ou endurecimento (sinais de mastite).
+      6. Dor intensa em panturrilha com inchaço unilateral da perna.
+      7. Cefaleia intensa, alterações visuais (pontos brilhantes) ou dor no estômago.
+      
+      Grata,
+      Equipe de Ginecologia e Obstetrícia
+
+  - trigger: ";puerp-alta-pn-cnd"
+    replace: |
       # PRESCRIÇÃO MÉDICA DE ALTA:
       1. Dipirona 500 mg a 1 g VO de 6/6 horas se dor.
       2. Sulfato Ferroso 40 mg (Fe elementar) - Tomar 1 comprimido VO 1x/dia, em jejum com água ou suco cítrico, por 60 a 90 dias pós-parto [se anemia moderada: 1 cp VO 2x/dia].
@@ -185,6 +234,41 @@ matches:
       Tipo de Síntese Dérmica: [Pontos intradérmicos absorvíveis (não necessita retirada) / Pontos simples separados com fio inabsorvível Nylon 4-0 (retirar pontos entre 10 e 14 dias)].
       Membros Inferiores: Sem edemas assimétricos, panturrilhas livres e indolores à palpação.
       
+      # PRESCRIÇÃO MÉDICA DE ALTA:
+      1. Dipirona 1 g VO de 6/6 horas se dor por 3 a 5 dias.
+      2. [Se dor moderada/refratária e sem hipertensão]: Cetoprofeno 100 mg VO de 12/12 horas após as refeições por até 3 dias.
+      3. Sulfato Ferroso 40 mg (Fe elementar) - Tomar 1 comprimido VO 1x/dia, em jejum com água ou suco cítrico, por 60 a 90 dias pós-parto [se anemia moderada: 1 cp VO 2x/dia].
+      4. [Tromboprofilaxia se Médio/Alto Risco de TEV]: Enoxaparina 40 mg SC 1x/dia até o 10º dia de puerpério (completar mais [ ] dias em domicílio).
+      5. [Contracepção]: Desogestrel 75 mcg - Tomar 1 comprimido VO ao dia, sempre no mesmo horário, sem pausas (Método Ponte para futura inserção de DIU/Implanon na UBS) [OU: Inserido DIU de Cobre intraoperatório / Inserido Implanon na internação].
+      6. [Se constipação pós-operatória]: Óleo Mineral 15 mL VO à noite por 5 dias se fezes endurecidas.
+      
+      # CUIDADOS COM A FERIDA CIRÚRGICA:
+      - Manter o curativo retirado após o banho inicial, lavando a cicatriz com água corrente e sabonete neutro.
+      - Secar muito bem o local com toalha limpa ou gaze, sem friccionar. Manter a incisão limpa e sempre seca e arejada.
+      - [Se pontos inabsorvíveis]: Comparecer à UBS para retirada de pontos entre 10 e 14 dias da cesariana.
+      - Não aplicar pomadas, álcool, pós ou soluções caseiras sobre a cicatriz.
+      
+      # ORIENTAÇÕES GERAIS À PACIENTE:
+      - Repouso físico relativo e abstinência sexual por 40 dias (resguardo puerperal). Evitar carregar peso acima do peso do bebê ou esforços físicos abdominais intensos.
+      - Estimulado aleitamento materno exclusivo em livre demanda até o 6º mês.
+      - Agendamento de Consulta de Puerpério na UBS: Realizar consulta de retorno entre o 7º e 10º dia pós-parto e no 42º dia pós-parto.
+      - Agendamento da Consulta do Recém-Nascido: Comparecer à UBS na primeira semana para Teste do Pezinho (ideal entre 3º e 5º dia), vacinação e triagens.
+      
+      # SINAIS DE ALARME CIRÚRGICOS E CLÍNICOS (RETORNO IMEDIATO AO PS OBSTÉTRICO):
+      Orientada a procurar atendimento médico urgente se apresentar:
+      1. Vermelhidão, inchaço, endurecimento, dor intensa ou calor ao redor da cicatriz cirúrgica.
+      2. Saída de pus, secreção amarelada/esverdeada ou sangue vivo pela ferida cirúrgica, ou abertura dos pontos (deiscência).
+      3. Febre (temperatura axilar >= 37,8 °C) ou calafrios persistentes.
+      4. Sangramento vaginal aumentado (encher 2 absorventes higiênicos por hora) ou com odor fétido.
+      5. Dor de cabeça forte, visão turva/embaçada, pontinhos brilhantes ou dor na boca do estômago.
+      6. Falta de ar repentina, dor torácica aguda ao respirar ou inchaço com dor em uma das pernas (panturrilha).
+      7. Mamas endurecidas, muito quentes, avermelhadas e dolorosas.
+      
+      Grata,
+      Equipe de Ginecologia e Obstetrícia
+
+  - trigger: ";puerp-alta-pc-cnd"
+    replace: |
       # PRESCRIÇÃO MÉDICA DE ALTA:
       1. Dipirona 1 g VO de 6/6 horas se dor por 3 a 5 dias.
       2. [Se dor moderada/refratária e sem hipertensão]: Cetoprofeno 100 mg VO de 12/12 horas após as refeições por até 3 dias.
@@ -322,9 +406,40 @@ matches:
       3. Estado Nutricional: [Eutrófica / Sobrepeso / Obesidade].
       
       # PLANO / CONDUTA DE 1º TRIMESTRE:
-      1. Suplementação Medicamentosa:
+      1. Suplementação Medicamentosa & Profilaxias:
          - Ácido Fólico 400 mcg (0,4 mg) VO 1x/dia até a 12ª-14ª semana (ou 5 mg/dia se antecedente de DNT, obesidade IMC > 35 ou em uso de anticonvulsivantes).
          - [Se anemia prévia ou IG >= 20 semanas]: Sulfato Ferroso 40 mg de ferro elementar (200 mg de sulfato ferroso) VO 1x/dia em jejum.
+         - Profilaxia de Pré-Eclâmpsia (se alto/moderado risco - HAS crônica, DM, PE prévia, DRC, autoimune, nulípara, IMC > 30):
+           * Ácido Acetilsalicílico (AAS) 100 a 150 mg VO 1x/dia à noite, iniciado entre 12 e 16 semanas até a 36ª semana.
+         - Suplementação de Cálcio (prevenção de pré-eclâmpsia em baixa ingesta de cálcio):
+           * Carbonato de Cálcio (1.000 a 1.500 mg de cálcio elementar/dia) VO fracionado com as refeições a partir da 12ª semana.
+      2. Exames Laboratoriais Solicitados (Rotina de 1º Trimestre):
+         - Tipagem Sanguínea ABO e Fator Rh + Coombs Indireto (se Rh negativo).
+         - Hemograma completo.
+         - Glicemia de jejum.
+         - EAS (Urina tipo 1) e Urocultura com Antibiograma.
+         - Sorologias: HIV (teste rápido ou sorologia), Sífilis (VDRL / Teste Rápido), Hepatite B (HBsAg), Toxoplasmose (IgG e IgM).
+         - TSH.
+         - Exame Citopatológico de Colo Uterino (se não colhido no último ano).
+      3. Exame de Imagem Solicitado:
+         - Ultrassonografia Obstétrica Transvaginal / Morfológica de 1º Trimestre (com rastreio de cromossomopatias: Translucência Nucal entre 11 e 13s6d).
+      4. Orientações Gerais de Pré-Natal:
+         - Caderneta da Gestante entregue e devidamente preenchida.
+         - Orientações dietéticas: Dieta fracionada, hidratação oral (mínimo 2 litros/dia), lavagem rigorosa de frutas e verduras, evitar carne crua ou malpassada (prevenção de toxoplasmose).
+         - Prática de atividade física leve a moderada liberada (caminhadas, hidroginástica).
+         - Sinais de Alarme: Orientada a procurar emergência obstétrica em caso de sangramento vaginal, cólica intensa, dor lombar com febre ou vômitos incoercíveis.
+      5. Retorno: Agendado retorno em 4 semanas com os resultados dos exames.
+
+  - trigger: ";pn-1cons-cnd"
+    replace: |
+      # PLANO / CONDUTA DE 1º TRIMESTRE:
+      1. Suplementação Medicamentosa & Profilaxias:
+         - Ácido Fólico 400 mcg (0,4 mg) VO 1x/dia até a 12ª-14ª semana (ou 5 mg/dia se antecedente de DNT, obesidade IMC > 35 ou em uso de anticonvulsivantes).
+         - [Se anemia prévia ou IG >= 20 semanas]: Sulfato Ferroso 40 mg de ferro elementar (200 mg de sulfato ferroso) VO 1x/dia em jejum.
+         - Profilaxia de Pré-Eclâmpsia (se alto/moderado risco - HAS crônica, DM, PE prévia, DRC, autoimune, nulípara, IMC > 30):
+           * Ácido Acetilsalicílico (AAS) 100 a 150 mg VO 1x/dia à noite, iniciado entre 12 e 16 semanas até a 36ª semana.
+         - Suplementação de Cálcio (prevenção de pré-eclâmpsia em baixa ingesta de cálcio):
+           * Carbonato de Cálcio (1.000 a 1.500 mg de cálcio elementar/dia) VO fracionado com as refeições a partir da 12ª semana.
       2. Exames Laboratoriais Solicitados (Rotina de 1º Trimestre):
          - Tipagem Sanguínea ABO e Fator Rh + Coombs Indireto (se Rh negativo).
          - Hemograma completo.
@@ -384,7 +499,7 @@ matches:
       - Ultrassonografia: [Morfológica de 2º tri realizada em DD/MM: sem malformações, placenta [fúndica/anterior/posterior], ILA normal / USG obstétrica com peso fetal estimado de [ ] g, percentil [ ]].
       - Teste de Tolerância Oral à Glicose (TOTG-75g entre 24-28s): [Jejum: [ ], 1h: [ ], 2h: [ ] mg/dL -> Normal / Alterado compatível com DMG].
       - Coombs Indireto (se mãe Rh negativo): [Negativo em 28 semanas -> Indicada profilaxia antenatal com Imunoglobulina Anti-D 300 mcg IM].
-      - Rastreio de Streptococcus do Grupo B (EGB entre 35-37s): [Coletado swab anal e vaginal / Resultado: Negativo / Positivo -> indicado profilaxia intraparto com Ampicilina].
+      - Rastreio de Streptococcus do Grupo B (EGB entre 36 0/7 e 37 6/7 semanas): [Coletado swab vaginal e retal / Resultado: Negativo / Positivo -> indicada profilaxia intraparto com Penicilina G Cristalina ou Ampicilina].
       - Sorologias de 3º Trimestre: HIV [NR], VDRL [NR], HBsAg [NR], Toxoplasmose [NR / Imune].
       
       # AVALIAÇÃO:
@@ -392,6 +507,16 @@ matches:
       2. [Gestação de Risco Habitual / Gestação de Alto Risco por [comorbidade]].
       3. Vitalidade e crescimento fetais preservados no momento.
       
+      # PLANO / CONDUTA:
+      1. Manter suplementação com Sulfato Ferroso 40 mg de ferro elementar/dia até o parto.
+      2. [Se aplicável]: Atualização vacinal com dTpa (a partir de 20 semanas) e Influenza.
+      3. [Se aplicável]: Imunoglobulina Anti-D 300 mcg IM com 28 semanas (se Rh negativa e Coombs indireto negativo).
+      4. Orientações sobre o Parto: Esclarecidas dúvidas sobre sinais de trabalho de parto ativo (2 a 3 contrações regulares em 10 minutos que duram 40-50 segundos acompanhadas de perda de tampão ou dilatação).
+      5. Reforçados sinais de alarme e busca por pronto atendimento imediato: Perda de líquido, sangramento vaginal, diminuição nítida da movimentação fetal (< 6 a 10 movimentos em 2 horas após refeições), cefaleia intensa, dor em barra no epigástrio.
+      6. Retorno Agendado: Em [4 semanas / 2 semanas se > 36 semanas / semanalmente se > 38-40 semanas].
+
+  - trigger: ";pn-ret-cnd"
+    replace: |
       # PLANO / CONDUTA:
       1. Manter suplementação com Sulfato Ferroso 40 mg de ferro elementar/dia até o parto.
       2. [Se aplicável]: Atualização vacinal com dTpa (a partir de 20 semanas) e Influenza.
@@ -416,6 +541,7 @@ matches:
       
       # RASTREAMENTOS PREVENTIVOS:
       - Exame Citopatológico de Colo Uterino (Papanicolau): Último em [MM/AAAA], resultado [Normal / Negativo para malignidade / Alterado: [ ]].
+      - Teste Molecular de DNA-HPV oncogênico (quando disponível): Último em [MM/AAAA], resultado [Negativo / Positivo para HPV 16/18 / Positivo para outros tipos oncogênicos / Não realizado].
       - Mamografia Bilateral: Última em [MM/AAAA], classificação BI-RADS [1 / 2 / 3 / 4 / 0].
       - Ultrassonografia Pélvica / Transvaginal: Última em [MM/AAAA], resultado: [Útero e anexos sem alterações / Miomatose / Espessamento endometrial de [ ] mm].
       
@@ -462,6 +588,20 @@ matches:
       1. Consulta de rotina ginecológica preventiva / [Queixa diagnóstica: ex: Vulvovaginite / SUA / Dismenorreia / Climatério].
       2. Rastreamento oncoginecológico atualizado.
       
+      # PLANO / CONDUTA:
+      1. Conduta Terapêutica Medicamentosa: [Prescrição de tratamento específico com dose, via e tempo de tratamento / Mantenho orientações de higiene íntima].
+      2. Exames Complementares Solicitados:
+         - [ ] Citopatológico de Colo Uterino (se coletado hoje, aguardar laudo).
+         - [ ] Mamografia bilateral de rastreamento (se faixa etária indicada).
+         - [ ] Ultrassonografia Pélvica Transvaginal (se indicado para avaliação de espessura endometrial ou miomas).
+      3. Orientações de Saúde da Mulher:
+         - Uso de preservativo nas relações sexuais para prevenção de ISTs.
+         - Higiene íntima: Sabonete líquido suave com pH neutro/fisiológico, calcinhas de algodão, evitar protetores diários sintéticos contínuos e duchas vaginais internas.
+         - Estilo de vida saudável: Dieta balanceada rica em cálcio e atividade física regular.
+      4. Retorno: Agendado retorno em [30 dias para checar resultados de exames / 1 ano para nova rotina anual].
+
+  - trigger: ";gin-amb-cnd"
+    replace: |
       # PLANO / CONDUTA:
       1. Conduta Terapêutica Medicamentosa: [Prescrição de tratamento específico com dose, via e tempo de tratamento / Mantenho orientações de higiene íntima].
       2. Exames Complementares Solicitados:
@@ -526,6 +666,22 @@ matches:
       1. [Sangramento Uterino Anormal em paciente em uso de anticoagulante / Ectopia cervical / Atrofia urogenital / Afastada patologia ginecológica aguda ou cirúrgica no momento].
       2. Paciente hemodinamicamente estável, com perda volêmica controlada no momento.
       
+      # CONDUTA RECOMENDADA:
+      1. Conduta Imediata:
+         - [ ] Não há indicação de intervenção cirúrgica de urgência pela Ginecologia no momento.
+         - [ ] [Se sangramento por atrofia]: Indico Estrogênio tópico em creme vaginal (Estriol ou Promestrieno 1 aplicador à noite) após estabilização clínica.
+         - [ ] [Se SUA disfuncional moderado/grave]: Sugiro avaliar com a clínica assistente a possibilidade de ajuste ou pausa temporária da anticoagulação / ácido tranexâmico se ausência de contraindicação tromboembólica / progestagênio oral.
+      2. Exames Propedêuticos: Sugiro realização de Ultrassonografia Pélvica Transvaginal após alta ou estabilização clínica.
+      3. Alerta de Reavaliação: Caso apresente piora do volume de sangramento, instabilidade pressórica ou dor pélvica aguda com sinais de peritonismo, solicitamos novo acionamento imediato da equipe de Ginecologia.
+      4. Seguimento ambulatorial em Unidade Básica de Saúde ou Ambulatório Geral após desospitalização.
+      
+      Permanecemos à disposição para reavaliação conjunta.
+      
+      Atenciosamente,
+      Equipe de Ginecologia e Obstetrícia
+
+  - trigger: ";pi-gin-cnd"
+    replace: |
       # CONDUTA RECOMENDADA:
       1. Conduta Imediata:
          - [ ] Não há indicação de intervenção cirúrgica de urgência pela Ginecologia no momento.
@@ -659,7 +815,16 @@ matches:
       1. Dipirona 1 g VO de 6/6h SOS ou Ibuprofeno 600 mg VO 8/8h por 24 a 48h se cólicas pélvicas.
       2. Orientações Gerais: Cólicas leves e pequenos sangramentos escuros em borra de café são frequentes nos primeiros dias. Evitar relações sexuais nos primeiros 3 a 5 dias.
       3. Alertas de Emergência: Procurar pronto-socorro ginecológico se apresentar febre (Tax >= 37,8 ºC), dor pélvica intensa que não cede aos analgésicos, sangramento volumoso com coágulos ou corrimento com odor fétido.
-      4. Entregue o Cartão do DIU preenchido com modelo, lote, data de inserção e validade ([5 anos para Mirena / Kyleena | 10 anos para DIU de Cobre TCu 380A]).
+      4. Entregue o Cartão do DIU preenchido com modelo, lote, data de inserção e validade ([8 anos para Mirena na indicação contraceptiva - ou 5 anos se indicação exclusiva para sangramento uterino anormal / proteção endometrial | 5 anos para Kyleena | 10 anos para DIU de Cobre TCu 380A]).
+      5. Retorno: Agendado retorno em 30 a 45 dias com Ultrassonografia Transvaginal de controle para checagem de posicionamento (RDIU).
+
+  - trigger: ";diu-amb-cnd"
+    replace: |
+      # PRESCRIÇÃO PÓS-PROCEDIMENTO & ORIENTAÇÕES:
+      1. Dipirona 1 g VO de 6/6h SOS ou Ibuprofeno 600 mg VO 8/8h por 24 a 48h se cólicas pélvicas.
+      2. Orientações Gerais: Cólicas leves e pequenos sangramentos escuros em borra de café são frequentes nos primeiros dias. Evitar relações sexuais nos primeiros 3 a 5 dias.
+      3. Alertas de Emergência: Procurar pronto-socorro ginecológico se apresentar febre (Tax >= 37,8 ºC), dor pélvica intensa que não cede aos analgésicos, sangramento volumoso com coágulos ou corrimento com odor fétido.
+      4. Entregue o Cartão do DIU preenchido com modelo, lote, data de inserção e validade ([8 anos para Mirena na indicação contraceptiva - ou 5 anos se indicação exclusiva para sangramento uterino anormal / proteção endometrial | 5 anos para Kyleena | 10 anos para DIU de Cobre TCu 380A]).
       5. Retorno: Agendado retorno em 30 a 45 dias com Ultrassonografia Transvaginal de controle para checagem de posicionamento (RDIU).
 
   - trigger: ";pc-cef"
@@ -874,15 +1039,15 @@ matches:
       - Data e Hora do Parto: [DD/MM/AAAA] às [HH:MM]
       
       # VERIFICAÇÃO OBRIGATÓRIA DAS CONDIÇÕES DE APLICABILIDADE (CHECKLIST PRÉVIO):
-      [X] 1. Feto vivo em apresentação cefálica fletida (vértice).
-      [X] 2. Dilatação cervical completa (10 cm) com apagamento total do colo.
-      [X] 3. Amniotomia confirmada (bolsa rota).
-      [X] 4. Apresentação fetal insinuada e baixa: polo cefálico no plano [+2 / +3] de De Lee.
-      [X] 5. Variedade de posição fetal precisamente diagnosticada: [OP / OEA / ODA / OET / OEP].
-      [X] 6. Bacia óssea clinicamente proporcional (ausência de desproporção céfalo-pélvica clínica).
-      [X] 7. Bexiga materna esvaziada através de sondagem vesical de alívio.
-      [X] 8. Analgesia/anestesia adequada da paciente [raquianestesia / bloqueio de nervo pudendo bilateral com Lidocaína 2%].
-      [X] 9. Consentimento informado e equipe neonatal em sala de parto.
+      [ ] 1. Feto vivo em apresentação cefálica fletida (vértice).
+      [ ] 2. Dilatação cervical completa (10 cm) com apagamento total do colo.
+      [ ] 3. Amniotomia confirmada (bolsa rota).
+      [ ] 4. Apresentação fetal insinuada e baixa: polo cefálico no plano [+2 / +3] de De Lee.
+      [ ] 5. Variedade de posição fetal precisamente diagnosticada: [OP / OEA / ODA / OET / OEP].
+      [ ] 6. Bacia óssea clinicamente proporcional (ausência de desproporção céfalo-pélvica clínica).
+      [ ] 7. Bexiga materna esvaziada através de sondagem vesical de alívio.
+      [ ] 8. Analgesia/anestesia adequada da paciente [raquianestesia / bloqueio de nervo pudendo bilateral com Lidocaína 2%].
+      [ ] 9. Consentimento informado e equipe neonatal em sala de parto.
       
       # [MODALIDADE A]: TÉCNICA COM VÁCUO EXTRATOR (VENTOSA)
       1. Paciente em posição ginecológica, esvaziamento vesical prévio por cateterismo de alívio.
@@ -970,6 +1135,14 @@ matches:
       3. Orientações de Higiene: Lavagem perineal com água corrente morna e sabonete neutro após cada micção ou evacuação, secagem suave com toalha limpa sem fricção. Não necessita de retirada de pontos (fio totalmente absorvível).
       4. Compressas frias locais nas primeiras 24 horas para alívio de edema.
 
+  - trigger: ";perineorrafia-cnd"
+    replace: |
+      # PRESCRIÇÃO PÓS-SUTURA & ORIENTAÇÕES:
+      1. Dipirona 1 g VO de 6/6h SOS ou Paracetamol 750 mg VO se queixas álgicas locais.
+      2. Dieta laxativa rica em fibras e boa ingesta hídrica oral; prescrito Óleo Mineral 15 mL VO à noite por 3 a 5 dias para evitar esforço evacuatório com fezes ressecadas.
+      3. Orientações de Higiene: Lavagem perineal com água corrente morna e sabonete neutro após cada micção ou evacuação, secagem suave com toalha limpa sem fricção. Não necessita de retirada de pontos (fio totalmente absorvível).
+      4. Compressas frias locais nas primeiras 24 horas para alívio de edema.
+
   - trigger: ";srpa-pc"
     replace: |
       ###### REAVALIAÇÃO PÓS-CESARIANA EM SRPA ######
@@ -1007,6 +1180,16 @@ matches:
       1. Pós-operatório imediato de cesariana sem intercorrências hemorrágicas ou anestésicas.
       2. Recuperação anestésica plena, hemodinamicamente estável, com útero contraído e sangramento genital fisiológico.
       
+      # PLANO / CONDUTA:
+      1. Liberada alta da SRPA para Enfermaria de Puerpério / Alojamento Conjunto acompanhada pelo transporte hospitalar.
+      2. Liberada dieta líquida/branda fracionada conforme aceitação.
+      3. Estimulada movimentação ativa no leito e hidratação oral.
+      4. Prescrita retirada de sonda vesical de demora (SVD) [ao chegar na enfermaria / após completar 6 a 12 horas de pós-operatório].
+      5. Mantenho prescrição de analgesia fixa e de resgate: Dipirona 1 g EV de 6/6h + anti-inflamatório se não contraindicado + antiemético SOS.
+      6. Estimulado aleitamento materno em livre demanda em alojamento conjunto.
+
+  - trigger: ";srpa-pc-cnd"
+    replace: |
       # PLANO / CONDUTA:
       1. Liberada alta da SRPA para Enfermaria de Puerpério / Alojamento Conjunto acompanhada pelo transporte hospitalar.
       2. Liberada dieta líquida/branda fracionada conforme aceitação.
@@ -1068,6 +1251,17 @@ matches:
       6. Sinais de Alarme para Pronto-Socorro: Febre (Tax >= 37,8 °C), dor pélvica intensa que não melhora com remédios, sangramento vaginal com grandes coágulos ou odor fétido.
       7. Retorno ambulatorial em 30 dias para checar resultado do exame anatomopatológico.
 
+  - trigger: ";amiu-cnd"
+    replace: |
+      # CONDUTA PÓS-OPERATÓRIA & ORIENTAÇÕES DE ALTA:
+      1. Dieta oral liberada após plena recuperação anestésica.
+      2. Analgesia: Dipirona 1 g VO de 6/6h SOS ou Ibuprofeno 600 mg VO 8/8h por 2 dias.
+      3. [Profilaxia Isoimunização Rh]: Checada tipagem materna: [Mãe Rh negativo não sensibilizada -> Prescrita Imunoglobulina Anti-D 300 mcg IM (ou 150 mcg se IG < 12 semanas) até 72h / Mãe Rh positivo -> Sem indicação].
+      4. Antibioticoprofilaxia de rotina conforme protocolo institucional (Doxiciclina 200 mg VO dose única prévia).
+      5. Orientações Gerais: Abstinência sexual e banhos de imersão por 14 a 21 dias. Uso de absorventes externos (evitar tampões íntimos).
+      6. Sinais de Alarme para Pronto-Socorro: Febre (Tax >= 37,8 °C), dor pélvica intensa que não melhora com remédios, sangramento vaginal com grandes coágulos ou odor fétido.
+      7. Retorno ambulatorial em 30 dias para checar resultado do exame anatomopatológico.
+
   - trigger: ";curetagem"
     replace: |
       ###### NOTA CIRÚRGICA: CURETAGEM UTERINA EVACUATÓRIA ######
@@ -1117,6 +1311,17 @@ matches:
       6. Sinais de Alarme: Retorno imediato ao PS em caso de febre, dor abdominal intensa que não melhora com remédios ou sangramento vaginal intenso com odor forte.
       7. Retorno agendado no ambulatório em 30 dias para checar laudo do exame anatomopatológico.
 
+  - trigger: ";curetagem-cnd"
+    replace: |
+      # CONDUTA PÓS-OPERATÓRIA & ORIENTAÇÕES DE ALTA:
+      1. Dieta oral liberada após estabilização e recuperação da sedação/anestesia.
+      2. Analgesia regular: Dipirona 1 g VO ou EV de 6/6h SOS dor.
+      3. [Profilaxia de Isoimunização Rh]: Checada tipagem materna: [Mãe Rh negativo com indicação de Imunoglobulina Anti-D 300 mcg IM / Mãe Rh positivo].
+      4. Antibioticoprofilaxia pós-procedimento conforme protocolo da instituição.
+      5. Orientações Gerais: Repouso relativo, higiene perineal habitual, evitar duchas vaginais e relações sexuais por 2 a 3 semanas.
+      6. Sinais de Alarme: Retorno imediato ao PS em caso de febre, dor abdominal intensa que não melhora com remédios ou sangramento vaginal intenso com odor forte.
+      7. Retorno agendado no ambulatório em 30 dias para checar laudo do exame anatomopatológico.
+
   - trigger: ";hpp"
     replace: |
       ###### REGISTRO DE ATENDIMENTO DE EMERGÊNCIA: HEMORRAGIA PÓS-PARTO (HPP) ######
@@ -1132,7 +1337,7 @@ matches:
       - Nível de Consciência: [Lúcida / Ansiosa / Sonolenta / Rebaixada], mucosas hipocoradas [+/4+], extremidades frias, tempo de enchimento capilar [ ] segundos.
       
       # ETIOLOGIA DA HPP (INVESTIGAÇÃO SISTEMÁTICA DOS 4 "Ts"):
-      [X] 1. TÔNUS (Atonia Uterina - 70%): Útero amolecido, hipotônico, com fundo uterino acima da cicatriz umbilical.
+      [ ] 1. TÔNUS (Atonia Uterina - 70%): Útero amolecido, hipotônico, com fundo uterino acima da cicatriz umbilical.
       [ ] 2. TRAUMA (20%): Revisão sob válvulas: [Sem lacerações de colo ou vagina / Identificada laceração de colo/trajeto suturada de imediato / Hematoma puerperal drenado / Afastada rotura ou inversão uterina].
       [ ] 3. TECIDO (10%): Curagem uterina: [Cavidade limpa sem restos / Retirados cotilédones/restos placentários retidos / Suspeita de acretismo placentário].
       [ ] 4. TROMBINA (1%): Coagulopatia: [Sem história de discrasia prévia / Coagulopatia por consumo em investigação].
@@ -1186,7 +1391,9 @@ matches:
       - DOSE DE ATAQUE:
         * Administrados 4 g de Sulfato de Magnésio a 50% (8 mL) diluídos em 100 mL de SG 5% ou SF 0,9% em infusão endovenosa em bomba de infusão em 20 minutos (início às [HH:MM]).
       - DOSE DE MANUTENÇÃO:
-        * Iniciada infusão contínua de 1 a 2 g/hora de Sulfato de Magnésio EV em bomba de infusão contínua (Solução: 10 g de MgSO4 [20 mL a 50%] em 480 mL de SG 5%, correndo a 50 mL/h = 1 g/h).
+        * Iniciada infusão contínua de 1 a 2 g/hora de Sulfato de Magnésio EV em bomba de infusão contínua:
+          - [Solução Padrão]: 10 g de MgSO4 50% (20 mL) em 480 mL de SG 5% ou SF 0,9%, correndo a 50 mL/h (= 1 g/h) ou 100 mL/h (= 2 g/h).
+          - [Solução Concentrada em BIC - Restrição Hídrica Rigorosa]: 4 g de MgSO4 50% (8 mL) + 42 mL de AD ou SF 0,9% (volume total 50 mL), correndo a 12,5 mL/h (= 1 g/h) ou 25 mL/h (= 2 g/h) em bomba de seringa/BIC.
         * [Se Esquema de Pritchard]: Administrados 4 g EV lento + 10 g IM profundo (5 g em cada glúteo com 1 mL de lidocaína 2%); manutenção com 5 g IM a cada 4 horas no glúteo contralateral.
       
       # PROTOCOLO ANTI-HIPERTENSIVO DE URGÊNCIA (SE PAS >= 160 OU PAD >= 110 MMHG):
@@ -1206,4 +1413,436 @@ matches:
       - Resolução da Gestação: Paciente com indicação de interrupção da gravidez após estabilização hemodinâmica e materna.
       - Via de Parto: [Indicação de Cesariana de urgência após estabilização clínica / Condução de parto vaginal com colo favorável sob analgesia].
       - Manutenção do Sulfato de Magnésio: Manter a infusão contínua do sulfato por 24 horas completas pós-parto.
+
+  - trigger: ";pre-eclampsia-cnd"
+    replace: |
+      # CONDUTA OBSTÉTRICA & DEFINIÇÃO DE PARTO:
+      - Avaliação da Vitalidade Fetal: BCF: [ ] bpm; [Sem desacelerações patológicas / Padrão desacelerativo indicando sofrimento fetal].
+      - Resolução da Gestação: Paciente com indicação de interrupção da gravidez após estabilização hemodinâmica e materna.
+      - Via de Parto: [Indicação de Cesariana de urgência após estabilização clínica / Condução de parto vaginal com colo favorável sob analgesia].
+      - Manutenção do Sulfato de Magnésio: Manter a infusão contínua do sulfato por 24 horas completas pós-parto.
+
+  - trigger: ";tpp"
+    replace: |
+      ###### ATENDIMENTO DE EMERGÊNCIA OBSTÉTRICA: TRABALHO DE PARTO PREMATURO (TPP) ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] (PN [ ] / PC [ ]) A[ ] | DUM: [DD/MM/AAAA] | IG confirmada por USG de 1º tri: [ ] semanas e [ ] dias.
+      - Fatores de Risco para Prematuridade: [Parto prematuro prévio / Gestação múltipla / Colo curto em USG < 25 mm / Infecção urinária ativa / Sangramento genital / Tabagismo / Nega fatores de risco conhecidos].
+      
+      # SUBJETIVO & HISTÓRIA CLÍNICA:
+      - Queixa Principal: Contrações uterinas dolorosas e cólicas em baixo ventre há [ ] horas.
+      - HMA: Gestante refere início de contrações uterinas rítmicas e progressivas há cerca de [ ] horas, acompanhadas de dor lombar e sensação de pressão pélvica.
+      - Negativas Mandatórias de Complicações:
+        * Nega perda de líquido amniótico em grande quantidade (afastada RPMO franca).
+        * Nega sangramento vaginal vermelho-vivo abundante ou escuro com hipertonia (afastados DPP e placenta prévia sangrante).
+        * Nega febre, calafrios, lóquios com odor fétido ou taquicardia inexplicada (afastada corioamnionite clínica).
+        * Nega disúria, polaciúria, febre ou dor lombar em punho-percussão (sinal de Giordano negativo).
+        * Movimentação fetal referida: [Presente e habitual / Reduzida].
+      
+      # OBJETIVO (EXAME FÍSICO OBSTÉTRICO & GERAL):
+      - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em ar ambiente | Tax: [ ] °C.
+      - Dinâmica Uterina (DU): [ ] contrações fracas/médias de [ ] segundos em 10 minutos de palpação contínua (critério positivo se >= 4 contrações em 20 min ou >= 8 em 60 min).
+      - Tônus Uterino: [Normal com relaxamento uterino completo entre as contrações / Hipertonia ausente].
+      - Altura Uterina (AU): [ ] cm | Manobras de Leopold: Feto em situação longitudinal, apresentação [cefálica / pélvica].
+      - Batimentos Cardiofetais (BCF): [ ] bpm, rítmicos, sem desacelerações audíveis à ausculta intermitente.
+      - Exame Especular Estéril (antes do toque):
+        * Colo uterino centrado, orifício externo com [presença de tampão mucoso espesso / ausência de sangramento ativo].
+        * Manobra de Valsalva / Teste de mobilização do polo fetal: [Negativa para escorrimento de líquido amniótico / Sem líquido em fundo de saco].
+      - Toque Vaginal:
+        * Colo uterino [em posição média / anteriorizado], [consistência amolecida / intermediária], apagado em [ ]% (>= 50-80%), dilatação cervical de [ ] cm (>= 2-3 cm). Bolsa das águas íntegra, tensa durante as contrações. Polo fetal em plano [ ] de De Lee.
+      
+      # AVALIAÇÃO DIAGNÓSTICA:
+      1. Trabalho de Parto Prematuro ativo (CID-10: O60.1) em gestação de [ ] semanas e [ ] dias.
+      2. Membranas ovulares íntegras, ausência de sinais clínicos de infecção intraovular ou sofrimento fetal agudo.
+      
+      # PLANO / CONDUTA IMEDIATA:
+      
+      >> 1. REPOUSO & MONITORIZAÇÃO:
+      - Repouso em decúbito lateral esquerdo, venóclise periférica com Jelco 18G, hidratação de manutenção com SF 0,9% ou Ringer Lactato a 80-100 mL/h (evitar hiper-hidratação se uso de tocolíticos).
+      - Monitorização de sinais vitais maternos e ausculta de BCF a cada 30 minutos.
+      - Coleta de exames: Hemograma completo, PCR, Urocultura com EAS, Swab anovaginal para Streptococcus agalactiae (EGB).
+      
+      >> 2. CORTICOTERAPIA PARA MATURAÇÃO PULMONAR FETAL (ENTRE 24 E 34 SEMANAS):
+      - Betametasona 12 mg via intramuscular profunda, 1x/dia, por 2 doses com intervalo de 24 horas (total de 2 doses) [Opção preferencial].
+      - [OU]: Dexametasona 6 mg via intramuscular profunda, de 12/12 horas, por 4 doses consecutivas.
+      
+      >> 3. NEUROPROTEÇÃO FETAL COM SULFATO DE MAGNÉSIO (SE IG < 32 SEMANAS E PARTO IMINENTE):
+      - Dose de Ataque: Sulfato de Magnésio 50% 4 g (8 mL) diluídos em 100 mL de SG 5% ou SF 0,9% EV em 20 a 30 minutos em bomba de infusão.
+      - Dose de Manutenção: Sulfato de Magnésio 1 g/hora em infusão contínua em BIC por até 24 horas ou até a ocorrência do nascimento.
+      - Controle rigoroso de reflexos patelares, FR >= 16 irpm e diurese horária >= 25 mL/h.
+      
+      >> 4. TOCÓLISE FARMACOLÓGICA (DURAÇÃO MÁXIMA DE 48 HORAS PARA COMPLETAR CORTICOIDE / TRANSFERÊNCIA):
+      [Opção 1 - Bloqueador dos Canais de Cálcio - Nifedipino]:
+      - Dose de Ataque: Nifedipino 20 mg VO dose inicial; se contrações mantidas após 20 minutos, administrar nova dose de 10 mg VO a cada 20 minutos (dose máxima de ataque: 40 mg na 1ª hora).
+      - Dose de Manutenção: Nifedipino 10 a 20 mg VO de 6/6h ou 8/8h por 48 horas completas.
+      - Monitorização: PA a cada 15 min na 1ª hora (risco de hipotensão materna e taquicardia reflexa).
+      [Opção 2 - Antagonista do Receptor de Ocitocina - Atosiban]:
+      - Bólus inicial de 6,75 mg EV em 1 minuto, seguido de infusão contínua de 300 mcg/min por 3 horas e manutenção de 100 mcg/min por até 45 horas.
+      
+      >> 5. PROFILAXIA INTRAPARTO DE INFECÇÃO NEONATAL POR STREPTOCOCCUS AGALACTIAE (EGB):
+      - Indicada profilaxia intraparto pelo risco de nascimento iminente pré-termo:
+        * Penicilina G Cristalina 5.000.000 UI EV em bólus de ataque, seguida de 2.500.000 UI EV de 4/4 horas até o clampeamento do cordão umbilical.
+        * [OU Alternativa]: Ampicilina 2 g EV dose de ataque, seguida de 1 g EV de 4/4 horas até o parto.
+      
+      >> 6. CRITÉRIOS DE TRANSFERÊNCIA / VAGA DE UTI NEONATAL:
+      - Solicitada regulação de leito de UTI Neonatal / transferência em transporte inter-hospitalar avançado se serviço atual sem suporte para prematuro extremo.
+
+  - trigger: ";tpp-cnd"
+    replace: |
+      # PLANO / CONDUTA IMEDIATA:
+      
+      >> 1. REPOUSO & MONITORIZAÇÃO:
+      - Repouso em decúbito lateral esquerdo, venóclise periférica com Jelco 18G, hidratação de manutenção com SF 0,9% ou Ringer Lactato a 80-100 mL/h (evitar hiper-hidratação se uso de tocolíticos).
+      - Monitorização de sinais vitais maternos e ausculta de BCF a cada 30 minutos.
+      - Coleta de exames: Hemograma completo, PCR, Urocultura com EAS, Swab anovaginal para Streptococcus agalactiae (EGB).
+      
+      >> 2. CORTICOTERAPIA PARA MATURAÇÃO PULMONAR FETAL (ENTRE 24 E 34 SEMANAS):
+      - Betametasona 12 mg via intramuscular profunda, 1x/dia, por 2 doses com intervalo de 24 horas (total de 2 doses) [Opção preferencial].
+      - [OU]: Dexametasona 6 mg via intramuscular profunda, de 12/12 horas, por 4 doses consecutivas.
+      
+      >> 3. NEUROPROTEÇÃO FETAL COM SULFATO DE MAGNÉSIO (SE IG < 32 SEMANAS E PARTO IMINENTE):
+      - Dose de Ataque: Sulfato de Magnésio 50% 4 g (8 mL) diluídos em 100 mL de SG 5% ou SF 0,9% EV em 20 a 30 minutos em bomba de infusão.
+      - Dose de Manutenção: Sulfato de Magnésio 1 g/hora em infusão contínua em BIC por até 24 horas ou até a ocorrência do nascimento.
+      - Controle rigoroso de reflexos patelares, FR >= 16 irpm e diurese horária >= 25 mL/h.
+      
+      >> 4. TOCÓLISE FARMACOLÓGICA (DURAÇÃO MÁXIMA DE 48 HORAS PARA COMPLETAR CORTICOIDE / TRANSFERÊNCIA):
+      [Opção 1 - Bloqueador dos Canais de Cálcio - Nifedipino]:
+      - Dose de Ataque: Nifedipino 20 mg VO dose inicial; se contrações mantidas após 20 minutos, administrar nova dose de 10 mg VO a cada 20 minutos (dose máxima de ataque: 40 mg na 1ª hora).
+      - Dose de Manutenção: Nifedipino 10 a 20 mg VO de 6/6h ou 8/8h por 48 horas completas.
+      - Monitorização: PA a cada 15 min na 1ª hora (risco de hipotensão materna e taquicardia reflexa).
+      [Opção 2 - Antagonista do Receptor de Ocitocina - Atosiban]:
+      - Bólus inicial de 6,75 mg EV em 1 minuto, seguido de infusão contínua de 300 mcg/min por 3 horas e manutenção de 100 mcg/min por até 45 horas.
+      
+      >> 5. PROFILAXIA INTRAPARTO DE INFECÇÃO NEONATAL POR STREPTOCOCCUS AGALACTIAE (EGB):
+      - Indicada profilaxia intraparto pelo risco de nascimento iminente pré-termo:
+        * Penicilina G Cristalina 5.000.000 UI EV em bólus de ataque, seguida de 2.500.000 UI EV de 4/4 horas até o clampeamento do cordão umbilical.
+        * [OU Alternativa]: Ampicilina 2 g EV dose de ataque, seguida de 1 g EV de 4/4 horas até o parto.
+      
+      >> 6. CRITÉRIOS DE TRANSFERÊNCIA / VAGA DE UTI NEONATAL:
+      - Solicitada regulação de leito de UTI Neonatal / transferência em transporte inter-hospitalar avançado se serviço atual sem suporte para prematuro extremo.
+
+  - trigger: ";rpmo"
+    replace: |
+      ###### ATENDIMENTO DE EMERGÊNCIA OBSTÉTRICA: ROTURA PREMATURA DE MEMBRANAS (RPMO) ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] (PN [ ] / PC [ ]) A[ ] | DUM: [DD/MM/AAAA] | IG confirmada por USG de 1º tri: [ ] semanas e [ ] dias.
+      - Tempo Estimado de Bolsa Rota: [ ] horas (Início referido às [HH:MM] do dia [DD/MM/AAAA]).
+      
+      # SUBJETIVO & HISTÓRIA CLÍNICA:
+      - Queixa Principal: Perda súbita de líquido transparente em grande volume pela vagina há [ ] horas.
+      - HMA: Gestante relata perda involuntária e súbita de líquido claro com odor característico de água sanitária / cândida, escorrendo pelas pernas, sem controle voluntário pelo esfíncter uretral.
+      - INVESTIGAÇÃO ATIVA DE CORIOAMNIONITE (CRITÉRIOS DE GIBBS):
+        [ ] Febre materna (Tax >= 37,8 °C confirmada).
+        [ ] Taquicardia materna inexplicada (FC > 100 bpm mantida).
+        [ ] Taquicardia fetal persistente (BCF basal > 160 bpm).
+        [ ] Hipersensibilidade / dor à palpação do corpo e fundo uterino fora da contração.
+        [ ] Líquido amniótico com odor fétido, purulento ou turvo.
+        [ ] Leucocitose materna > 15.000/mm³ com desvio à esquerda (> 10% de bastões) e PCR elevada.
+        * STATUS DE INFECÇÃO INTRAOVULAR: [AUSÊNCIA DE SINAIS DE CORIOAMNIONITE / CORIOAMNIONITE CLÍNICA CONFIRMADA].
+      - Negativas Mandatórias:
+        * Nega sangramento vaginal vivo abundante (afastados DPP e placenta prévia).
+        * Nega queixas de disúria intensa, hematúria ou perdas urinárias aos esforços (afastada perda esfincteriana isolada).
+        * Movimentação fetal: [Ativa e perceptível / Reduzida].
+      
+      # OBJETIVO (EXAME FÍSICO OBSTÉTRICO & GERAL):
+      - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em ar ambiente | Tax: [ ] °C.
+      - Abdome Obstétrico: Altura Uterina: [ ] cm. Tônus uterino normal, indolor à palpação profunda. Dinâmica Uterina: [Ausente / [ ] contrações em 10 min].
+      - Batimentos Cardiofetais (BCF): [ ] bpm, rítmicos, sem desacelerações à ausculta intermitente.
+      - EXAME ESPECULAR ESTÉRIL (CONDUTA MANDATÓRIA - TOQUE VAGINAL PROSCRITO SE FORA DE TRABALHO DE PARTO ATIVO):
+        * Introduzido espéculo de Collins estéril sem lubrificante prévio.
+        * Inspeção: Visualização direta de saída ativa de líquido límpido com grumos pelo orifício externo do colo uterino, acumulando em fundo de saco posterior.
+        * Manobra de Tarnier / Valsalva: [Positiva, com saída franca de líquido amniótico à tosse/esforço / Ausente no momento].
+        * Teste do papel de Nitrazina (se realizado): Viragem da fita para cor azul/violeta (pH alcalino entre 7,0 e 7,5 - positivo para líquido amniótico).
+        * Teste de Cristalização em Lâmina (se realizado): Presença de padrão arboriforme clássico em folha de samambaia à microscopia óptica.
+      - TOQUE VAGINAL: [NÃO REALIZADO para prevenção de infecção ascendente / Realizado apenas por paciente apresentar contrações regulares em trabalho de parto ativo: colo [ ] cm, apagado [ ]%, polo cefálico [ ] de De Lee].
+      
+      # EXAMES COMPLEMENTARES:
+      - Ultrassonografia Obstétrica: Feto único, apresentação [cefálica / pélvica]. Índice de Líquido Amniótico (ILA): [ ] cm / Maior bolsão vertical: [ ] cm (evidenciando oligoidramnia com ILA < 5 cm).
+      - Cardiotocografia Basal: Traçado [Categoria I - reativo com variabilidade normal e acelerações transitórias / Categoria II / Categoria III].
+      - Laboratório: Hemograma completo com contagem de plaquetas e leucócitos, PCR quantitativa, EAS e Urocultura, Swab anovaginal para EGB.
+      
+      # AVALIAÇÃO DIAGNÓSTICA:
+      1. Rotura Prematura de Membranas Ovulares pré-termo (CID-10: O42.0) com IG de [ ] semanas e [ ] dias.
+      2. [Sem corioamnionite clínica / Corioamnionite confirmada].
+      
+      # PLANO / CONDUTA POR FAIXA DE IDADE GESTACIONAL:
+      
+      >> [MODALIDADE A]: CONDUTA ATIVA / RESOLUÇÃO IMEDIATA (SE IG >= 37 SEMANAS OU SE CORIOAMNIONITE EM QUALQUER IG):
+      1. Internação em Centro Obstétrico para resolução imediata do parto.
+      2. Se corioamnionite clínica confirmada: antibioticoterapia terapêutica endovenosa imediata:
+         - Ampicilina 2 g EV de 6/6h + Gentamicina 5 mg/kg EV 1x/dia (+ Clindamicina 900 mg EV de 8/8h se parto cesariano).
+      3. Via de Parto: Indicação obstétrica [Indução do parto com Ocitocina se feto cefálico e condições favoráveis / Cesariana se indicação obstétrica ou sofrimento fetal agudo].
+      4. Profilaxia intraparto para EGB se bolsa rota >= 18 horas ou swab desconhecido/positivo.
+      
+      >> [MODALIDADE B]: CONDUTA CONSERVADORA (SE IG ENTRE 24 E 33 SEMANAS E 6 DIAS SEM SINAIS DE INFECÇÃO OU SOFRIMENTO FETAL):
+      1. Internação em enfermaria de alto risco obstétrico, repouso relativo no leito.
+      2. Vigilância Materno-Fetal Rigorosa:
+         - Aferição de sinais vitais maternos e Tax a cada 4 a 6 horas.
+         - Ausculta de BCF de 6/6 horas e Cardiotocografia diária.
+         - Hemograma e PCR a cada 48 a 72 horas para monitorização de leucocitose/desvio.
+      3. Corticoterapia para Maturação Pulmonar Fetal:
+         - Betametasona 12 mg IM profunda 1x/dia por 2 doses (intervalo de 24 horas).
+      4. Antibioticoterapia de Latência (Protocolo de Kenyon / Consenso Nacional):
+         - Fase Endovenosa (primeiras 48 horas): Ampicilina 2 g EV de 6/6h + Azitromicina 1 g VO em dose única na admissão.
+         - Fase Oral (subsequente por 5 dias): Amoxicilina 500 mg VO de 8/8h (totalizando 7 dias de antibioticoterapia de latência).
+      5. Neuroproteção com Sulfato de Magnésio: Reservado para se surgirem sinais de parto iminente com IG < 32 semanas (Dose: 4 g EV ataque + 1 g/h manutenção).
+      6. Toque vaginal de rotina terminantemente proscrito durante a conduta conservadora.
+
+  - trigger: ";rpmo-cnd"
+    replace: |
+      # PLANO / CONDUTA POR FAIXA DE IDADE GESTACIONAL:
+      
+      >> [MODALIDADE A]: CONDUTA ATIVA / RESOLUÇÃO IMEDIATA (SE IG >= 37 SEMANAS OU SE CORIOAMNIONITE EM QUALQUER IG):
+      1. Internação em Centro Obstétrico para resolução imediata do parto.
+      2. Se corioamnionite clínica confirmada: antibioticoterapia terapêutica endovenosa imediata:
+         - Ampicilina 2 g EV de 6/6h + Gentamicina 5 mg/kg EV 1x/dia (+ Clindamicina 900 mg EV de 8/8h se parto cesariano).
+      3. Via de Parto: Indicação obstétrica [Indução do parto com Ocitocina se feto cefálico e condições favoráveis / Cesariana se indicação obstétrica ou sofrimento fetal agudo].
+      4. Profilaxia intraparto para EGB se bolsa rota >= 18 horas ou swab desconhecido/positivo.
+      
+      >> [MODALIDADE B]: CONDUTA CONSERVADORA (SE IG ENTRE 24 E 33 SEMANAS E 6 DIAS SEM SINAIS DE INFECÇÃO OU SOFRIMENTO FETAL):
+      1. Internação em enfermaria de alto risco obstétrico, repouso relativo no leito.
+      2. Vigilância Materno-Fetal Rigorosa:
+         - Aferição de sinais vitais maternos e Tax a cada 4 a 6 horas.
+         - Ausculta de BCF de 6/6 horas e Cardiotocografia diária.
+         - Hemograma e PCR a cada 48 a 72 horas para monitorização de leucocitose/desvio.
+      3. Corticoterapia para Maturação Pulmonar Fetal:
+         - Betametasona 12 mg IM profunda 1x/dia por 2 doses (intervalo de 24 horas).
+      4. Antibioticoterapia de Latência (Protocolo de Kenyon / Consenso Nacional):
+         - Fase Endovenosa (primeiras 48 horas): Ampicilina 2 g EV de 6/6h + Azitromicina 1 g VO em dose única na admissão.
+         - Fase Oral (subsequente por 5 dias): Amoxicilina 500 mg VO de 8/8h (totalizando 7 dias de antibioticoterapia de latência).
+      5. Neuroproteção com Sulfato de Magnésio: Reservado para se surgirem sinais de parto iminente com IG < 32 semanas (Dose: 4 g EV ataque + 1 g/h manutenção).
+      6. Toque vaginal de rotina terminantemente proscrito durante a conduta conservadora.
+
+  - trigger: ";dip"
+    replace: |
+      ###### ATENDIMENTO DE EMERGÊNCIA: DOENÇA INFLAMATÓRIA PÉLVICA (DIP) ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] A[ ] | DUM: [DD/MM/AAAA] (relação com menstruação recente: [ ] dias).
+      - Fatores de Risco: [Múltiplas parcerias sexuais / Inserção recente de DIU há < 3 semanas / Histórico prévio de IST ou DIP / Relações sexuais desprotegidas].
+      
+      # SUBJETIVO & HISTÓRIA CLÍNICA:
+      - Queixa Principal: Dor intensa em baixo ventre / hipogástrio associada a corrimento e febre há [ ] dias.
+      - HMA: Paciente relata dor pélvica contínua e progressiva, de caráter em peso ou cólica em hipogástrio e fossas ilíacas, com piora importante durante relações sexuais (dispareunia de profundidade) e à deambulação, com início após término do ciclo menstrual recente. Refere corrimento vaginal amarelado com odor fétido e sensação de febre.
+      - CRITÉRIOS DIAGNÓSTICOS DO CDC / MINISTÉRIO DA SAÚDE:
+        * CRITÉRIOS MAIORES (TODOS OS 3 OBRIGATÓRIOS NO EXAME FÍSICO):
+          [ ] Dor à palpação do abdome inferior / hipogástrio.
+          [ ] Dor à palpação dos anexos bilateralmente.
+          [ ] Dor intensa à mobilização do colo uterino (Sinal de Frenkel positivo).
+        * CRITÉRIOS MENORES (PELO MENOS 1 PRESENTE):
+          [ ] Temperatura axilar > 38,3 °C.
+          [ ] Corrimento endocervical anormal mucopurulento ou friabilidade do colo uterino.
+          [ ] Leucocitose no hemograma (> 10.500/mm³ com desvio).
+          [ ] Proteína C-Reativa (PCR) ou VHS significativamente elevadas.
+          [ ] Comprovação laboratorial de infecção por Neisseria gonorrhoeae ou Chlamydia trachomatis.
+        * CRITÉRIOS ELABORADOS / ESPECÍFICOS (SE HOUVER):
+          [ ] Evidência histopatológica de endometrite / USG pélvica demonstrando espessamento tubário ou abscesso tubo-ovariano.
+      - Negativas Mandatórias:
+        * Nega atraso menstrual, teste de gravidez (Beta-hCG) quantitativo negativo (afastada gestação ectópica).
+        * Nega dor súbita paroxística em fossa ilíaca acompanhada de vômitos incoercíveis (afastada torção anexial).
+        * Nega dor migratória para fossa ilíaca direita com descompressão dolorosa clássica isolada (afastada apendicite aguda).
+      
+      # OBJETIVO (EXAME FÍSICO GINECOLÓGICO & GERAL):
+      - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.
+      - Exame Abdominal: Abdome plano, dor significativa à palpação de hipogástrio e fossas ilíacas, sem massas palpáveis evidentes. Descompressão brusca [negativa / discretamente positiva localizada em hipogástrio].
+      - Exame Especular:
+        * Conteúdo vaginal abundante, amarelado, purulento, saindo pelo orifício externo do colo uterino (cervicite purulenta franca).
+        * Ectocéfalo friável, com sangramento fácil ao toque da espátula/gaze.
+      - Toque Vaginal Bimanual:
+        * Mobilização do colo uterino extremamente dolorosa (grito de Douglas / Sinal de Frenkel francamente positivo).
+        * Útero discretamente doloroso à palpação, anexos espessados e muito dolorosos bilateralmente.
+        * Fundos de saco vaginais: [Livres sem massas flutuantes palpáveis / Abaulamento doloroso em fundo de saco posterior].
+      
+      # EXAMES COMPLEMENTARES:
+      - Teste Imunológico de Gravidez (TIG / Beta-hCG): NEGATIVO.
+      - Laboratório: Hemograma completo (Leucócitos: [ ] /mm³, Bastões: [ ]%), PCR: [ ] mg/L, EAS com fita reagente.
+      - Ultrassonografia Pélvica / Transvaginal: [Ausência de coleções anexiais, útero e ovários de aspecto habitual / Visualizada coleção anecoica/heterogênea com septos em anexo [direito / esquerdo] compatível com abscesso tubo-ovariano medindo [ ] cm].
+      
+      # AVALIAÇÃO DIAGNÓSTICA & CLASSIFICAÇÃO DE MONIF:
+      1. Doença Inflamatória Pélvica aguda (CID-10: N73.9).
+      2. Classificação de Gravidade (Monif):
+         - [ ] MONIF I: Endometrite e salpingite aguda sem peritonite (Tratamento Ambulatorial).
+         - [ ] MONIF II: Salpingite com peritonite pélvica localizada (Tratamento Hospitalar).
+         - [ ] MONIF III: Salpingite com abscesso tubo-ovariano íntegro (Tratamento Hospitalar).
+         - [ ] MONIF IV: Abscesso tubo-ovariano roto ou choque séptico (Cirúrgico Imediato).
+      
+      # PLANO / CONDUTA POR MODALIDADE:
+      
+      >> [MODALIDADE 1]: CONDUTA AMBULATORIAL (EXCLUSIVO PARA MONIF I):
+      1. Prescrição Terapêutica Ambulatorial:
+         - Ceftriaxona 500 mg IM em dose única na UPA (para Neisseria gonorrhoeae).
+         + Doxiciclina 100 mg VO de 12/12 horas por 14 dias consecutivos (para Chlamydia trachomatis).
+         + Metronidazol 500 mg VO de 12/12 horas por 14 dias consecutivos (para anaeróbios e vaginose bacteriana associada).
+      2. Analgesia: Dipirona 1 g VO de 6/6h SOS ou Ibuprofeno 600 mg VO de 8/8h por 3 a 5 dias.
+      3. Tratamento de Parceiros(as) Sexuais: Convocação obrigatória dos contatos sexuais dos últimos 60 dias para tratamento empírico (Ceftriaxona 500 mg IM + Azitromicina 1 g VO dose única).
+      4. Abstinência sexual estrita durante todo o período de tratamento.
+      5. Retorno Obrigatório em 72 horas para reavaliação clínica. Se não houver melhora expressiva da dor e da febre: internação hospitalar mandatória para antibioticoterapia endovenosa.
+      
+      >> [MODALIDADE 2]: CONDUTA HOSPITALAR / INTERNAÇÃO (MONIF II A IV, GESTANTE OU FALHA AMBULATORIAL):
+      1. Internação imediata em leito de enfermaria cirúrgica/ginecológica.
+      2. Jejum ou dieta branda, hidratação venosa e analgesia endovenosa.
+      3. Esquema Antimicrobiano Hospitalar de 1ª Escolha:
+         - Ceftriaxona 1 g a 2 g EV 1x/dia
+         + Doxiciclina 100 mg VO ou EV de 12/12 horas por 14 dias
+         + Metronidazol 500 mg EV de 8/8 horas
+         [OU Esquema Hospitalar Alternativo]:
+         - Clindamicina 900 mg EV de 8/8 horas + Gentamicina 5 mg/kg EV 1x/dia (ou 2 mg/kg ataque + 1,5 mg/kg 8/8h).
+      4. Avaliação Cirúrgica da Ginecologia / Laparoscopia se Monif IV ou abscesso > 8-10 cm refratário a tratamento clínico.
+
+  - trigger: ";dip-cnd"
+    replace: |
+      # PLANO / CONDUTA POR MODALIDADE:
+      
+      >> [MODALIDADE 1]: CONDUTA AMBULATORIAL (EXCLUSIVO PARA MONIF I):
+      1. Prescrição Terapêutica Ambulatorial:
+         - Ceftriaxona 500 mg IM em dose única na UPA (para Neisseria gonorrhoeae).
+         + Doxiciclina 100 mg VO de 12/12 horas por 14 dias consecutivos (para Chlamydia trachomatis).
+         + Metronidazol 500 mg VO de 12/12 horas por 14 dias consecutivos (para anaeróbios e vaginose bacteriana associada).
+      2. Analgesia: Dipirona 1 g VO de 6/6h SOS ou Ibuprofeno 600 mg VO de 8/8h por 3 a 5 dias.
+      3. Tratamento de Parceiros(as) Sexuais: Convocação obrigatória dos contatos sexuais dos últimos 60 dias para tratamento empírico (Ceftriaxona 500 mg IM + Azitromicina 1 g VO dose única).
+      4. Abstinência sexual estrita durante todo o período de tratamento.
+      5. Retorno Obrigatório em 72 horas para reavaliação clínica. Se não houver melhora expressiva da dor e da febre: internação hospitalar mandatória para antibioticoterapia endovenosa.
+      
+      >> [MODALIDADE 2]: CONDUTA HOSPITALAR / INTERNAÇÃO (MONIF II A IV, GESTANTE OU FALHA AMBULATORIAL):
+      1. Internação imediata em leito de enfermaria cirúrgica/ginecológica.
+      2. Jejum ou dieta branda, hidratação venosa e analgesia endovenosa.
+      3. Esquema Antimicrobiano Hospitalar de 1ª Escolha:
+         - Ceftriaxona 1 g a 2 g EV 1x/dia
+         + Doxiciclina 100 mg VO ou EV de 12/12 horas por 14 dias
+         + Metronidazol 500 mg EV de 8/8 horas
+         [OU Esquema Hospitalar Alternativo]:
+         - Clindamicina 900 mg EV de 8/8 horas + Gentamicina 5 mg/kg EV 1x/dia (ou 2 mg/kg ataque + 1,5 mg/kg 8/8h).
+      4. Avaliação Cirúrgica da Ginecologia / Laparoscopia se Monif IV ou abscesso > 8-10 cm refratário a tratamento clínico.
+
+  - trigger: ";06-infeccoes-puerperais-mastite-e-endometrite"
+    replace: |
+      ###### ATENDIMENTO DE EMERGÊNCIA OBSTÉTRICA: INFECÇÃO PUERPERAL ######
+      # IDENTIFICAÇÃO:
+      - Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
+      - G[ ] P[ ] (PN [ ] / PC [ ]) A[ ] | Puerpério: [ ]º dia pós-parto [vaginal / cesariana].
+      - Diagnóstico Clínico do Atendimento: [MODALIDADE A: MASTITE LACTACIONAL AGUDA / MODALIDADE B: ENDOMETRITE PUERPERAL].
+      
+      =============================================================================
+      >> [MODALIDADE A]: PROTOCOLO DE MASTITE PUERPERAL AGUDA (;mastite)
+      =============================================================================
+      
+      # SUBJETIVO:
+      - Queixa Principal: Dor intensa, vermelhidão e inchaço em mama [direita / esquerda] com febre há [ ] dias.
+      - HMA: Puérpera no [ ]º dia de aleitamento materno exclusivo, relata início agudo de dor mamária latejante, acompanhada de calor local, calafrios e febre (Tax referida de [ ] °C). Refere histórico de ingurgitamento mamário prévio e fissura mamilar recente.
+      - Negativas Mandatórias:
+        * Nega dor abdominal em cólica, subinvolução uterina ou alteração no odor dos lóquios (afastada infecção pélvica).
+        * Nega drenagem espontânea de pus pelo mamilo ou ponto de flutuação evidente à palpação.
+      
+      # OBJETIVO (EXAME FÍSICO MAMÁRIO):
+      - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Tax: [ ] °C | FR: [ ] irpm.
+      - Exame das Mamas:
+        * Inspeção: Presença de área de eritema em cunha bem delimitada, acometendo o quadrante [superior lateral / inferior lateral / medial] da mama [direita / esquerda]. Edema cutâneo localizado. Presença de fissura mamilar em cicatrização no complexo aréolo-papilar.
+        * Palpação: Parênquima mamário endurecido e doloroso na área do eritema, aumento evidente da temperatura local. Ausência de ponto de flutuação cística ou coleção circunscrita profunda palpável (afastado abscesso mamário franco clinicamente).
+        * Expressão Papilar: Saída de leite materno habitual, sem grumos purulentos macroscópicos.
+        * Cadeias Linfonodais: Linfonodo axilar satélite palpável, móvel e doloroso homolateral.
+      
+      # AVALIAÇÃO DIAGNÓSTICA:
+      1. Mastite Lactacional Aguda não complicada em mama [direita / esquerda] (CID-10: O91.2).
+      
+      # PLANO / CONDUTA AMBULATORIAL:
+      1. NÃO SUSPENDER O ALEITAMENTO MATERNO: Orientado manter a amamentação na mama afetada. O esvaziamento mecânico frequente da mama é o pilar terapêutico curativo primário (iniciar a mamada pela mama sadia para acionar o reflexo de ejeção e drenar a mama doente em seguida; ordenha manual ou com bomba após as mamadas se esvaziamento incompleto).
+      2. Antibioticoterapia Oral de 1ª Escolha (Duração de 10 a 14 dias - Cobertura para S. aureus):
+         - Cefalexina 500 mg VO de 6/6 horas por 10 a 14 dias consecutivos.
+         - [OU Opção 2 se risco de resistência]: Amoxicilina + Clavulanato de Potássio 875/125 mg VO de 12/12h por 10 dias.
+         - [OU Opção se alergia grave a betalactâmicos]: Clindamicina 300 mg VO de 6/6h por 10 dias.
+      3. Analgesia & Anti-inflamatório:
+         - Ibuprofeno 400 a 600 mg VO de 8/8h por 3 a 5 dias (alívio do edema tecidual).
+         - Dipirona 1 g VO de 6/6h SOS dor intensa ou febre.
+      4. Medidas Físicas: Compressas mornas imediatamente antes da amamentação para dilatar ductos e compressas frias após a mamada para alívio do ingurgitamento e dor. Correção da pega e do posicionamento do RN.
+      5. Reavaliação: Retorno obrigatório em 48 a 72 horas para checar resolução da febre e descartar formação de abscesso mamário (se surgir ponto de flutuação: solicitar USG mamária urgente e programar drenagem com agulha ou cirúrgica).
+      
+      =============================================================================
+      >> [MODALIDADE B]: PROTOCOLO DE ENDOMETRITE PUERPERAL (;endometrite)
+      =============================================================================
+      
+      # SUBJETIVO:
+      - Queixa Principal: Febre alta, calafrios e cólicas no baixo ventre após o parto há [ ] dias.
+      - HMA: Puérpera no [ ]º dia pós-parto [cesariana / vaginal], relata início de febre alta (Tax >= 38 °C), mal-estar geral, adinamia e dor em baixo ventre que vem piorando progressivamente. Refere saída de corrimento vaginal com cheiro fétido intenso e coloração escura/achocolatada.
+      - Fatores de Risco: Parto cesáreo, tempo prolongado de trabalho de parto (> 12h), bolsa rota prolongada, toques vaginais repetidos.
+      - Negativas Mandatórias: Nega dispneia súbita, tosse ou dor pleurítica (afastado TEP), nega dor mamária localizada (afastada mastite puerperal).
+      
+      # OBJETIVO (EXAME FÍSICO GINECOLÓGICO):
+      - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm (taquicardia proporcional à febre) | FR: [ ] irpm | Tax: [ ] °C.
+      - Exame Abdominal: Abdome flácido, com dor significativa à palpação de hipogástrio. Ferida operatória de cesárea com bordas coaptadas, [sem sinais de infecção de sítio cirúrgico superficial / com eritema perilesional]. Descompressão brusca negativa.
+      - Exame Obstétrico / Tríade de Bumm:
+        * 1. Febre Puerperal comprovada (Tax >= 38 °C).
+        * 2. Subinvolução e Amolecimento Uterino: Fundo uterino palpável acima da cicatriz umbilical, útero amolecido, atônico e hipersensível ao toque bimanual.
+        * 3. Lóquios Patológicos: Exame especular evidencia lóquios escuros/achocolatados, purulentos, com odor fétido pronunciado fluindo pelo orifício cervical externo. Colo pérvio para [ ] dedo(s).
+      
+      # EXAMES COMPLEMENTARES:
+      - Laboratório: Hemograma completo com leucocitose expressiva e neutrofilia (Leucócitos: [ ] /mm³, com [ ]% de bastões), PCR elevada, EAS com urocultura, Coagulograma.
+      - Ultrassonografia Pélvica / Transvaginal: Avaliação de cavidade uterina: [Presença de eco endometrial heterogêneo espessado compatível com restos ovulares retidos / Ausência de restos, com coleção líquida/gás intracavitário / Anexos livres sem coleções pélvicas].
+      
+      # AVALIAÇÃO DIAGNÓSTICA:
+      1. Endometrite Puerperal Aguda pós-[cesárea / parto normal] (CID-10: O85).
+      
+      # PLANO / CONDUTA HOSPITALAR:
+      1. Internação imediata em leito de enfermaria de obstetrícia de alto risco.
+      2. Jejum temporário, hidratação endovenosa com Ringer Lactato ou SF 0,9%.
+      3. Antibioticoterapia Endovenosa de Amplo Espectro (Esquema Padrão Ouro):
+         - Clindamicina 900 mg EV de 8/8 horas
+         + Gentamicina 5 mg/kg EV em dose única diária (ou 1,5 mg/kg EV de 8/8h).
+      4. Conduta se Febre Persistir após 48 a 72 horas de antibioticoterapia:
+         - Associar Ampicilina 2 g EV de 6/6 horas (cobertura para Enterococcus faecalis).
+         - Solicitar Tomografia Computadorizada de Pelve com contraste para investigar Tromboflebite Pélvica Séptica ou Abscesso Pélvico profundo.
+      5. Curagem Uterina / AMIU: Indicada revisão uterina se USG comprovar restos ovulares ou placentários retidos na cavidade (realizar após impregnação antibiótica prévia).
+      6. Critério de Cura e Alta: Manter esquema endovenoso até a paciente permanecer afebril por **48 horas completas** e assintomática. Não é necessário manter antibioticoterapia oral domiciliar após esse período.
+
+  - trigger: ";06-infeccoes-puerperais-mastite-e-endometrite-cnd"
+    replace: |
+      # PLANO / CONDUTA AMBULATORIAL:
+      1. NÃO SUSPENDER O ALEITAMENTO MATERNO: Orientado manter a amamentação na mama afetada. O esvaziamento mecânico frequente da mama é o pilar terapêutico curativo primário (iniciar a mamada pela mama sadia para acionar o reflexo de ejeção e drenar a mama doente em seguida; ordenha manual ou com bomba após as mamadas se esvaziamento incompleto).
+      2. Antibioticoterapia Oral de 1ª Escolha (Duração de 10 a 14 dias - Cobertura para S. aureus):
+         - Cefalexina 500 mg VO de 6/6 horas por 10 a 14 dias consecutivos.
+         - [OU Opção 2 se risco de resistência]: Amoxicilina + Clavulanato de Potássio 875/125 mg VO de 12/12h por 10 dias.
+         - [OU Opção se alergia grave a betalactâmicos]: Clindamicina 300 mg VO de 6/6h por 10 dias.
+      3. Analgesia & Anti-inflamatório:
+         - Ibuprofeno 400 a 600 mg VO de 8/8h por 3 a 5 dias (alívio do edema tecidual).
+         - Dipirona 1 g VO de 6/6h SOS dor intensa ou febre.
+      4. Medidas Físicas: Compressas mornas imediatamente antes da amamentação para dilatar ductos e compressas frias após a mamada para alívio do ingurgitamento e dor. Correção da pega e do posicionamento do RN.
+      5. Reavaliação: Retorno obrigatório em 48 a 72 horas para checar resolução da febre e descartar formação de abscesso mamário (se surgir ponto de flutuação: solicitar USG mamária urgente e programar drenagem com agulha ou cirúrgica).
+      
+      =============================================================================
+      >> [MODALIDADE B]: PROTOCOLO DE ENDOMETRITE PUERPERAL (;endometrite)
+      =============================================================================
+      
+      # SUBJETIVO:
+      - Queixa Principal: Febre alta, calafrios e cólicas no baixo ventre após o parto há [ ] dias.
+      - HMA: Puérpera no [ ]º dia pós-parto [cesariana / vaginal], relata início de febre alta (Tax >= 38 °C), mal-estar geral, adinamia e dor em baixo ventre que vem piorando progressivamente. Refere saída de corrimento vaginal com cheiro fétido intenso e coloração escura/achocolatada.
+      - Fatores de Risco: Parto cesáreo, tempo prolongado de trabalho de parto (> 12h), bolsa rota prolongada, toques vaginais repetidos.
+      - Negativas Mandatórias: Nega dispneia súbita, tosse ou dor pleurítica (afastado TEP), nega dor mamária localizada (afastada mastite puerperal).
+      
+      # OBJETIVO (EXAME FÍSICO GINECOLÓGICO):
+      - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm (taquicardia proporcional à febre) | FR: [ ] irpm | Tax: [ ] °C.
+      - Exame Abdominal: Abdome flácido, com dor significativa à palpação de hipogástrio. Ferida operatória de cesárea com bordas coaptadas, [sem sinais de infecção de sítio cirúrgico superficial / com eritema perilesional]. Descompressão brusca negativa.
+      - Exame Obstétrico / Tríade de Bumm:
+        * 1. Febre Puerperal comprovada (Tax >= 38 °C).
+        * 2. Subinvolução e Amolecimento Uterino: Fundo uterino palpável acima da cicatriz umbilical, útero amolecido, atônico e hipersensível ao toque bimanual.
+        * 3. Lóquios Patológicos: Exame especular evidencia lóquios escuros/achocolatados, purulentos, com odor fétido pronunciado fluindo pelo orifício cervical externo. Colo pérvio para [ ] dedo(s).
+      
+      # EXAMES COMPLEMENTARES:
+      - Laboratório: Hemograma completo com leucocitose expressiva e neutrofilia (Leucócitos: [ ] /mm³, com [ ]% de bastões), PCR elevada, EAS com urocultura, Coagulograma.
+      - Ultrassonografia Pélvica / Transvaginal: Avaliação de cavidade uterina: [Presença de eco endometrial heterogêneo espessado compatível com restos ovulares retidos / Ausência de restos, com coleção líquida/gás intracavitário / Anexos livres sem coleções pélvicas].
+      
+      # AVALIAÇÃO DIAGNÓSTICA:
+      1. Endometrite Puerperal Aguda pós-[cesárea / parto normal] (CID-10: O85).
+      
+      # PLANO / CONDUTA HOSPITALAR:
+      1. Internação imediata em leito de enfermaria de obstetrícia de alto risco.
+      2. Jejum temporário, hidratação endovenosa com Ringer Lactato ou SF 0,9%.
+      3. Antibioticoterapia Endovenosa de Amplo Espectro (Esquema Padrão Ouro):
+         - Clindamicina 900 mg EV de 8/8 horas
+         + Gentamicina 5 mg/kg EV em dose única diária (ou 1,5 mg/kg EV de 8/8h).
+      4. Conduta se Febre Persistir após 48 a 72 horas de antibioticoterapia:
+         - Associar Ampicilina 2 g EV de 6/6 horas (cobertura para Enterococcus faecalis).
+         - Solicitar Tomografia Computadorizada de Pelve com contraste para investigar Tromboflebite Pélvica Séptica ou Abscesso Pélvico profundo.
+      5. Curagem Uterina / AMIU: Indicada revisão uterina se USG comprovar restos ovulares ou placentários retidos na cavidade (realizar após impregnação antibiótica prévia).
+      6. Critério de Cura e Alta: Manter esquema endovenoso até a paciente permanecer afebril por **48 horas completas** e assintomática. Não é necessário manter antibioticoterapia oral domiciliar após esse período.
 

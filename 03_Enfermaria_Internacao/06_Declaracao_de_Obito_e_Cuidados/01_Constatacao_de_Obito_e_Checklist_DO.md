@@ -6,13 +6,13 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 CONSTATAÇÃO DE ÓBITO HOSPITALAR & REGISTRO MÉDICO-LEGAL
 
 IDENTIFICAÇÃO DO PACIENTE:
-- Nome completo: [ ... ] | Prontuário: [ ... ] | Leito/Setor: [ ... ]
-- Sexo: [ ... ] | Idade: [ ... ] anos | Data de Nascimento: [ ... ]/[ ... ]/[ ... ]
-- Data e Horário Exato da Constatação do Óbito: [ ... ]/[ ... ]/[ ... ] às [ ... ]h[ ... ]min
+- Nome completo: [ ] | Prontuário: [ ] | Leito/Setor: [ ]
+- Sexo: [ ] | Idade: [ ] anos | Data de Nascimento: [ ]/[ ]/[ ]
+- Data e Horário Exato da Constatação do Óbito: [ ]/[ ]/[ ] às [ ]h[ ]min
 
 EXAME FÍSICO CONFIRMATÓRIO DE PARADA CARDIORRESPIRATÓRIA E MORTE CLÍNICA:
 Constatada ausência irreversível dos sinais vitais à beira do leito pelos seguintes critérios obrigatórios:
@@ -40,7 +40,7 @@ Parte I: Doença ou estado mórbido que causou diretamente a morte (Cadeia Causa
   devido a ou como consequência de:
 - b) Causa Intermediária: [ ex: Pneumonia comunitária grave / Úlcera péptica perfurada / Ruptura miocárdica ]
   devido a ou como consequência de:
-- c) Causa Intermediária: [ ex: ... ]
+- c) Causa Intermediária: [ex: ]
   devido a ou como consequência de:
 - d) Causa Básica (A DOENÇA DE BASE QUE INICIOU A CADEIA): [ ex: Doença Pulmonar Obstrutiva Crônica grave / Hipertensão Arterial e Aterosclerose Sistêmica / Neoplasia maligna de cólon ]
 
@@ -49,7 +49,7 @@ Parte II: Outras condições significativas que contribuíram para a morte, mas 
 
 COMUNICAÇÃO DE MÁS NOTÍCIAS & ACOLHIMENTO À FAMÍLIA:
 - Notícia comunicada presencialmente em ambiente privativo, com respeito, clareza e acolhimento emocional (Protocolo SPIKES).
-- Familiar presente: [ Nome completo e grau de parentesco: ... ].
+- Familiar presente: [Nome completo e grau de parentesco: ].
 - Informadas a causa básica da morte, as medidas de suporte prestadas e fornecidas as instruções burocráticas pertinentes com apoio do Serviço Social da instituição.
 - Pertences pessoais do paciente conferidos e entregues ao responsável legal mediante protocolo.
 ```

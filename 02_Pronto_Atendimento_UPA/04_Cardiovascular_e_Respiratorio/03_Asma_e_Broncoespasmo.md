@@ -57,11 +57,15 @@
    - Ausculta: [Melhora acentuada com diminuição dos sibilos, prolongamento expiratório resolvido e paciente conversando confortavelmente -> CRITÉRIO DE ALTA].
 
 >> PRESCRIÇÃO DE ALTA DA UPA (SE RECUPERADO APÓS OBSERVAÇÃO DE 2 A 4 HORAS):
-1. Corticoide Oral (para prevenção de recaída):
-   - Prednisona 40 mg a 50 mg - Tomar 1 comprimido VO pela manhã por 5 a 7 dias (NÃO necessita de desmame se usado por até 7 dias).
-2. Broncodilatador de Resgate:
-   - Salbutamol spray 100 mcg (Sulfato de Salbutamol) - Inalar 2 a 4 jatos com espaçador de 4/4h ou 6/6h SOS tosse ou falta de ar.
-3. Encaminhamento para UBS / Pneumologia para introdução de Corticoide Inalatório de manutenção contínua (ex: Budesonida ou Formoterol + Budesonida).
+1. Corticoide Oral (prevenção precoce de recaída):
+   - Prednisona 40 mg a 50 mg - Tomar 1 comprimido VO pela manhã por 5 a 7 dias (não necessita de desmame se <= 7 dias).
+2. Terapia de Manutenção & Alívio com Corticoide Inalatório (Diretriz GINA - contraindicado uso de broncodilatador isolado sem corticoide inalatório):
+   - [OPÇÃO PREFERENCIAL GINA - LABA + CORTICOIDE INALATÓRIO]:
+     * Fumarato de Formoterol + Budesonida (200/6 mcg ou 400/12 mcg): Inalar 1 cápsula/jato de 12 em 12 horas de uso contínuo + 1 inalação de resgate se falta de ar.
+   - [OPÇÃO ALTERNATIVA DA REDE BÁSICA]:
+     * Budesonida spray 200 mcg: Inalar 1 a 2 jatos de 12/12h de uso contínuo.
+     * Salbutamol spray 100 mcg: Inalar 2 a 4 jatos com espaçador apenas de resgate se sintomas agudos, associado à Budesonida.
+3. Encaminhamento para UBS / Programa de Asma para seguimento ambulatorial e plano de ação por escrito.
 ```
 
 ---

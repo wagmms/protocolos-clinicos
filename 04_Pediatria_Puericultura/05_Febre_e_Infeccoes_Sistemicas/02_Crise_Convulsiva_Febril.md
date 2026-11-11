@@ -6,20 +6,20 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA - CRISE CONVULSIVA FEBRIL
 
 IDENTIFICAÇÃO:
-- Paciente: [ ... ] | Idade: [ ... ] meses/anos (Faixa típica: 6 meses a 5 anos; pico aos 18 meses) | PESO ATUAL: [ ... ] kg
-- Informante: [ Mãe / Pai / Responsável: ... ]
+- Paciente: [ ] | Idade: [ ] meses/anos (Faixa típica: 6 meses a 5 anos; pico aos 18 meses) | PESO ATUAL: [ ] kg
+- Informante: [Mãe / Pai / Responsável: ]
 
 CARACTERÍSTICAS DA CRISE CONVULSIVA:
-- Horário da crise: [ ... ]h[ ... ]min | Duração estimada do evento: [ ... ] minutos (A imensa maioria dura < 3 a 5 min).
+- Horário da crise: [ ]h[ ]min | Duração estimada do evento: [ ] minutos (A imensa maioria dura < 3 a 5 min).
 - Semiologia do Movimento:
   [ ] Crise Generalizada: Tônico-clônica bilateral simétrica, perda súbita de consciência, reviramento ocular para cima, sialorreia, liberação esfincteriana.
   [ ] Crise Focal: Abalos restritos a um hemicorpo ou membro, desvio conjugado do olhar para um lado.
 - Número de episódios nas últimas 24 horas: [ Episódio único / Recorrente: ... episódios no mesmo período febril ].
-- Temperatura aferida durante ou imediatamente após a crise: Tax = [ ... ] °C.
+- Temperatura aferida durante ou imediatamente após a crise: Tax = [ ] °C.
 - Foco Febril Identificado: [ IVAS / Otite Média Aguda / Exantema Súbito / Faringite viral / GECA / Sem foco evidente no momento ].
 - Antecedentes Pessoais & Familiares:
   * Histórico de convulsão febril prévia: [ Sim: ... episódios / Não - primeiro episódio ].
@@ -40,7 +40,7 @@ NEGATIVAS MANDATÓRIAS (EXCLUSÃO DE MENINGITE / ENCEFALITE):
 - Nega letargia persistente ou incapacidade de interagir com os pais após 30 a 60 minutos do término da crise.
 
 EXAME FÍSICO OBJETIVO:
-- Sinais Vitais pós-crise: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C | Glicemia capilar no leito: [ ... ] mg/dL (Glicemia normal comprovada).
+- Sinais Vitais pós-crise: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C | Glicemia capilar no leito: [ ] mg/dL (Glicemia normal comprovada).
 - Ectoscopia: Regular a bom estado geral, corado, hidratado, acianótico. Pele limpa, sem petéquias ou exantema purpúrico.
 - Avaliação Neurológica Pós-Ictal:
   * Nível de Consciência: [ Criança acordando progressivamente, reativa, reconhecendo os pais, chorando e interagindo normalmente / Período de sonolência pós-ictal fisiológico em resolução / Não reativa ].

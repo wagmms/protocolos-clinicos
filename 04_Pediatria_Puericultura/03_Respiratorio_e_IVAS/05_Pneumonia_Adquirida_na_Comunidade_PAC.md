@@ -6,16 +6,16 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO PEDIÁTRICO - PNEUMONIA ADQUIRIDA NA COMUNIDADE (PAC)
 
 IDENTIFICAÇÃO:
-- Paciente: [ ... ] | Idade: [ ... ] anos/meses | Sexo: [ ... ] | PESO ATUAL: [ ... ] kg
-- Informante: [ Mãe / Pai / Responsável: ... ]
+- Paciente: [ ] | Idade: [ ] anos/meses | Sexo: [ ] | PESO ATUAL: [ ] kg
+- Informante: [Mãe / Pai / Responsável: ]
 
 HISTÓRIA CLÍNICA:
-- QP: Febre persistente, tosse e cansaço para respirar há [ ... ] dias.
-- HMA: Quadro iniciado há [ ... ] dias com febre moderada a alta (Tax: [ ... ] °C), tosse produtiva/carregada e prostração associada. Nas últimas 24-48 horas, o responsável notou respiração rápida e ofegante ("peito acelerado").
+- QP: Febre persistente, tosse e cansaço para respirar há [ ] dias.
+- HMA: Quadro iniciado há [ ] dias com febre moderada a alta (Tax: [ ] °C), tosse produtiva/carregada e prostração associada. Nas últimas 24-48 horas, o responsável notou respiração rápida e ofegante ("peito acelerado").
 - Alimentação & Ingesta: [ Criança aceitando líquidos e alimentação pastosa / Dificuldade para mamar por taquipneia / Recusa total de líquidos / Vômitos frequentes ].
 - Histórico Vacinal: [ Vacinação antipneumocócica 10-valente em dia / Atrasada ].
 
@@ -27,14 +27,14 @@ NEGATIVAS MANDATÓRIAS PEDIÁTRICAS:
 
 EXAME FÍSICO OBJETIVO:
 - Sinais Vitais & Critérios da OMS:
-  * FR AFERIDA EM 1 MINUTO INTEIRO (CRIANÇA CALMA/SEM FEBRE): [ ... ] irpm
+  * FR AFERIDA EM 1 MINUTO INTEIRO (CRIANÇA CALMA/SEM FEBRE): [ ] irpm
   * [ ] TAQUIPNEIA CONFIRMADA PELO CRITÉRIO DA OMS:
     - Se < 2 meses: FR ≥ 60 irpm
     - Se 2 a 11 meses: FR ≥ 50 irpm
     - Se 1 a 5 anos: FR ≥ 40 irpm
     - Se > 5 anos: FR ≥ 30 irpm
-  * SpO2: [ ... ]% em ar ambiente (Alvo de segurança ambulatorial ≥ 92-94%)
-  * FC: [ ... ] bpm | Tax: [ ... ] °C | TEC: [ ... ] segundos (< 2s).
+  * SpO2: [ ]% em ar ambiente (Alvo de segurança ambulatorial ≥ 92-94%)
+  * FC: [ ] bpm | Tax: [ ] °C | TEC: [ ] segundos (< 2s).
 - Ectoscopia: Regular estado geral, [ prostrado apenas durante a febre / reanimando após antitérmico ], corado, hidratado, anictérico, acianótico.
 - Aparelho Respiratório:
   * Padrão respiratório: [ Taquipneico sem tiragens / Tiragem subcostal presente / Tiragem intercostal leve / Batimento de asa de nariz ausente ].
@@ -58,7 +58,7 @@ CONDUTA TERAPÊUTICA:
 1. Antibioticoterapia de 1ª Escolha:
    - **Amoxicilina suspensão oral (250 mg/5 mL ou 400 mg/5 mL):**
    - Dose de **50 mg/kg/dia a 90 mg/kg/dia** dividida de 8/8h (ou 12/12h se 400mg/5mL).
-   - Dose calculada para o peso de [ ... ] kg: Dar [ ... ] mL por via oral a cada [ 8 ou 12 ] horas por **7 a 10 dias**.
+   - Dose calculada para o peso de [ ] kg: Dar [ ] mL por via oral a cada [ 8 ou 12 ] horas por **7 a 10 dias**.
 2. Antitérmico / Analgésico:
    - Dipirona gotas (500 mg/mL): [ 1 gota/kg = ... gotas ] VO a cada 6 horas se dor ou febre (Tax ≥ 37,8°C).
 3. Hidratação abundante e lavagem nasal com Soro Fisiológico 0,9%.
@@ -68,8 +68,8 @@ CONDUTA TERAPÊUTICA:
 
 PRESCRIÇÃO AMBULATORIAL:
 1. Amoxicilina suspensão oral [ 250 mg/5 mL ou 400 mg/5 mL ]:
-   - Administrar [ ... ] mL por via oral a cada [ 8 ou 12 ] horas durante [ 7 a 10 ] dias ininterruptos.
-2. Dipirona gotas 500 mg/mL (se febre ou dor): Administrar [ ... ] gotas VO de 6/6h.
+   - Administrar [ ] mL por via oral a cada [ 8 ou 12 ] horas durante [ 7 a 10 ] dias ininterruptos.
+2. Dipirona gotas 500 mg/mL (se febre ou dor): Administrar [ ] gotas VO de 6/6h.
 
 SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO SOCORRO:
 - Piora do cansaço ou surgimento de afundamento das costelas ao respirar.

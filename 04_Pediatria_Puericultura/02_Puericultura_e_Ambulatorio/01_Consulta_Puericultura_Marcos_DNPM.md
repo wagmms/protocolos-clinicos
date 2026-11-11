@@ -6,22 +6,22 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 CONSULTA DE PUERICULTURA - ROTINA DA ATENÇÃO BÁSICA
 
 IDENTIFICAÇÃO:
-- Criança: [ ... ] | Sexo: [ Masculino / Feminino ] | DN: [ ... ]/[ ... ]/[ ... ]
-- Idade Cronológica: [ ... ] meses [ se prematuro: Idade Corrigida = ... semanas/meses ]
-- Informante: [ Mãe / Pai / Cuidador principal: ... ]
+- Criança: [ ] | Sexo: [ Masculino / Feminino ] | DN: [ ]/[ ]/[ ]
+- Idade Cronológica: [ ] meses [ se prematuro: Idade Corrigida = ... semanas/meses ]
+- Informante: [Mãe / Pai / Cuidador principal: ]
 
 ANTROPOMETRIA & CURVAS DE CRESCIMENTO (PADRÃO OMS):
-- Peso atual: [ ... ] g | Ganho ponderal recente: [ ... ] g/dia (Esperado: 1º trim: 25-30g/dia; 2º trim: 20g/dia; 3º trim: 15g/dia; 4º trim: 10-12g/dia).
+- Peso atual: [ ] g | Ganho ponderal recente: [ ] g/dia (Esperado: 1º trim: 25-30g/dia; 2º trim: 20g/dia; 3º trim: 15g/dia; 4º trim: 10-12g/dia).
   * Z-Escore Peso/Idade: [ Eutrofia (Z -2 a +2) / Baixo peso (Z < -2) / Peso elevado (Z > +2) ].
-- Comprimento/Estatura atual: [ ... ] cm
+- Comprimento/Estatura atual: [ ] cm
   * Z-Escore Estatura/Idade: [ Estatura adequada (Z ≥ -2) / Baixa estatura (Z < -2) ].
-- Perímetro Cefálico atual (< 2 anos): [ ... ] cm
+- Perímetro Cefálico atual (< 2 anos): [ ] cm
   * Z-Escore PC/Idade: [ Normocefalia (Z -2 a +2) / Microcefalia (Z < -2) / Macrocefalia (Z > +2) ].
-- Índice de Massa Corporal (IMC para Idade): [ ... ] kg/m²
+- Índice de Massa Corporal (IMC para Idade): [ ] kg/m²
   * Classificação IMC/I: [ Eutrofia / Risco de sobrepeso / Sobrepeso / Obesidade ].
 
 ALIMENTAÇÃO & NUTRIÇÃO:
@@ -36,7 +36,7 @@ ALIMENTAÇÃO & NUTRIÇÃO:
   * Proscrição absoluta: Açúcar, achocolatados, gelatinas, sucos (mesmo naturais) e ultraprocessados até os 2 anos. Mel proibido antes de 1 ano (risco de botulismo).
 
 AVALIAÇÃO DO DESENVOLVIMENTO NEUROPSICOMOTOR (MARCOS DO DNPM - MS/OMS):
-Marcos esperados para a faixa etária atual ([ ... ] meses):
+Marcos esperados para a faixa etária atual ([ ] meses):
 - [ ] Postura e Motricidade Grossa: [ Eleva cabeça em prona (2m) / Sustenta cabeça (4m) / Senta com apoio (6m) / Senta sem apoio (9m) / Anda com apoio (12m) / Anda sozinho (15m) / Corre bem e sobe degraus (24m) ].
 - [ ] Motricidade Fina / Adaptação: [ Segura objetos (4m) / Transfere de uma mão para a outra (6m) / Pinça imperfeita (9m) / Pinça fina polegar-indicador (12m) / Constrói torre de 3 blocos (18m) ].
 - [ ] Linguagem & Audição: [ Reage a sons (1m) / Vocaliza sons/gorgolejos (2-4m) / Balbucia sílabas 'da-da' (6-9m) / Fala 1-2 palavras com significado (12m) / Vocabulário de 10-20 palavras (18m) / Frases de 2 palavras (24m) ].
@@ -50,7 +50,7 @@ HÁBITOS DE VIDA, SONO & ELIMINAÇÕES:
 - Saúde bucal: Higiene oral com escova de cerdas macias e pasta com flúor (≥ 1.000 ppm de flúor em quantidade de grão de arroz cru) a partir do primeiro dente de leite.
 
 VACINAÇÃO & EXAMES DE TRIAGEM NEONATAL:
-- Caderneta de Vacinação: [ Em dia conforme o calendário PNI / Pendente vacina: ... ].
+- Caderneta de Vacinação: [Em dia conforme o calendário PNI / Pendente vacina: ].
 - Triagens Neonatais checadas:
   * Teste do Pezinho (PKU, TSH, Hb, FC, 17-OHP, Biot): [ Normal / Realizado em D... ].
   * Teste do Olhinho (Reflexo Vermelho): [ Presente e simétrico bilateralmente ].
@@ -70,13 +70,13 @@ SUPLEMENTAÇÃO PROFILÁTICA (SBP / MINISTÉRIO DA SAÚDE):
 PRESCRIÇÃO DE PUERICULTURA:
 1. Colecalciferol (Vitamina D) solução gotas (ex: 200 UI/gota) ------ Administrar 2 gotas VO 1x ao dia pela manhã.
 2. Sulfato Ferroso / Ferro Quelato gotas (se ≥ 6 meses):
-   - Administrar [ ... ] gotas VO 1x ao dia, 30 a 60 minutos antes do almoço (ou com fruta cítrica rica em vitamina C).
+   - Administrar [ ] gotas VO 1x ao dia, 30 a 60 minutos antes do almoço (ou com fruta cítrica rica em vitamina C).
 
 ORIENTAÇÕES DE SEGURANÇA & PREVENÇÃO DE ACIDENTES:
 1. Transporte veicular: Uso obrigatório de bebê conforto virado para trás no banco traseiro até pelo menos 1 ano de idade (ou 13 kg).
 2. Quedas: NUNCA deixar o bebê sozinho em trocadores, camas, sofás ou mesas, nem por um segundo. Proibido o uso de andador infantil (risco de traumatismo craniano grave e atraso motor).
 3. Queimaduras e afogamentos: Testar temperatura da água do banho com o dorso da mão/antebraço; nunca deixar a criança sozinha na banheira ou perto de baldes de água.
-4. Próxima Consulta de Puericultura agendada para: [ ... ]/[ ... ]/[ ... ] (Calendário preconizado: 1ª semana, 1m, 2m, 4m, 6m, 9m, 12m, 18m, 24m).
+4. Próxima Consulta de Puericultura agendada para: [ ]/[ ]/[ ] (Calendário preconizado: 1ª semana, 1m, 2m, 4m, 6m, 9m, 12m, 18m, 24m).
 ```
 
 ---

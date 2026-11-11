@@ -6,20 +6,20 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO PEDIÁTRICO - FEBRE SEM FOCO NO LACTENTE
 
 IDENTIFICAÇÃO & FAIXA ETÁRIA CRÍTICA:
-- Lactente: [ ... ] | Idade: [ ... ] dias / meses | PESO ATUAL: [ ... ] kg
+- Lactente: [ ] | Idade: [ ] dias / meses | PESO ATUAL: [ ] kg
 - FAIXA ETÁRIA CLÍNICA:
   [ ] REPARTO NEONATAL: Recém-nascido (< 28 dias de vida) - ALERTA MÁXIMO DE SEPSE NEONATAL.
   [ ] LACTENTE JOVEM: 29 a 90 dias de vida (1 a 3 meses).
   [ ] LACTENTE MAIOR: 3 a 36 meses.
-- Informante: [ Mãe / Pai / Responsável: ... ]
+- Informante: [Mãe / Pai / Responsável: ]
 
 HISTÓRIA DA FEBRE:
-- Início do quadro há [ ... ] dias/horas.
-- Temperatura máxima axilar aferida com termômetro: [ ... ] °C.
+- Início do quadro há [ ] dias/horas.
+- Temperatura máxima axilar aferida com termômetro: [ ] °C.
 - Frequência dos picos febris e resposta a antitérmicos: [ Febre cede com antitérmico e a criança reanima / Febre de difícil controle ].
 - Sintomas associados ativamente interrogados:
   * Sintomas respiratórios (tosse, coriza, espirros): [ Ausentes ].
@@ -36,10 +36,10 @@ NEGATIVAS MANDATÓRIAS PEDIÁTRICAS (SINAIS DE SEPSE & MENINGOCOCEMIA):
 - Nega abaulamento da fontanela anterior.
 
 EXAME FÍSICO OBJETIVO:
-- Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax no momento: [ ... ] °C | TEC: [ ... ] segundos (< 2s).
+- Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax no momento: [ ] °C | TEC: [ ] segundos (< 2s).
 - Triângulo de Avaliação Pediátrica (TEP): Aparência [ normal / alterada ], Trabalho respiratório [ normal / aumentado ], Circulação cutânea [ normal / alterada ].
 - Ectoscopia Minuciosa: Estado geral [ BEG / REG / MEG ], corado, hidratado, anictérico, acianótico.
-  * Inspeção de Pele Completa (criança despida): [ Pele limpa, sem lesões elementares, sem petéquias ou exantemas purpúricos / Lesões presentes: ... ].
+  * Inspeção de Pele Completa (criança despida): [Pele limpa, sem lesões elementares, sem petéquias ou exantemas purpúricos / Lesões presentes: ].
   * Fontanela Anterior: [ Plana, normotensa, pulsátil fisiológica / Abaulada e tensa / Deprimida ].
 - Oroscopia & Otoscopia: Faringe e amígdalas sem alterações, membranas timpânicas translúcidas sem abaulamento.
 - Ausculta Pulmonar & Cardíaca: Murmúrio vesicular presente bilateralmente sem estertores; bulhas normofonéticas sem sopros.

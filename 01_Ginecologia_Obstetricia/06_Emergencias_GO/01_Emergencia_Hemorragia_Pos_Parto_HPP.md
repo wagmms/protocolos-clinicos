@@ -21,7 +21,7 @@
 - Nível de Consciência: [Lúcida / Ansiosa / Sonolenta / Rebaixada], mucosas hipocoradas [+/4+], extremidades frias, tempo de enchimento capilar [ ] segundos.
 
 # ETIOLOGIA DA HPP (INVESTIGAÇÃO SISTEMÁTICA DOS 4 "Ts"):
-[X] 1. TÔNUS (Atonia Uterina - 70%): Útero amolecido, hipotônico, com fundo uterino acima da cicatriz umbilical.
+[ ] 1. TÔNUS (Atonia Uterina - 70%): Útero amolecido, hipotônico, com fundo uterino acima da cicatriz umbilical.
 [ ] 2. TRAUMA (20%): Revisão sob válvulas: [Sem lacerações de colo ou vagina / Identificada laceração de colo/trajeto suturada de imediato / Hematoma puerperal drenado / Afastada rotura ou inversão uterina].
 [ ] 3. TECIDO (10%): Curagem uterina: [Cavidade limpa sem restos / Retirados cotilédones/restos placentários retidos / Suspeita de acretismo placentário].
 [ ] 4. TROMBINA (1%): Coagulopatia: [Sem história de discrasia prévia / Coagulopatia por consumo em investigação].

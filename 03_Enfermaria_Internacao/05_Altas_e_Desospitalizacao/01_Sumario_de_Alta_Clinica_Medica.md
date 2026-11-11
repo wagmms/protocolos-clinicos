@@ -6,24 +6,24 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 RELATÓRIO / SUMÁRIO DE ALTA HOSPITALAR - CLÍNICA MÉDICA
 
 DADOS DE INTERNAÇÃO:
-- Paciente: [ ... ] | Idade: [ ... ] anos | Sexo: [ ... ] | CNS/Prontuário: [ ... ]
-- Data de Admissão: [ ... ]/[ ... ]/[ ... ] | Data de Alta: [ ... ]/[ ... ]/[ ... ]
-- Tempo Total de Permanência Hospitalar: [ ... ] dias
-- Enfermaria / Leito de Origem da Alta: [ ... ]
-- Médico Assistente Responsável: Dr(a). [ ... ] | CRM [ ... ]
+- Paciente: [ ] | Idade: [ ] anos | Sexo: [ ] | CNS/Prontuário: [ ]
+- Data de Admissão: [ ]/[ ]/[ ] | Data de Alta: [ ]/[ ]/[ ]
+- Tempo Total de Permanência Hospitalar: [ ] dias
+- Enfermaria / Leito de Origem da Alta: [ ]
+- Médico Assistente Responsável: Dr(a). [ ] | CRM [ ]
 
 DIAGNÓSTICOS DE ALTA:
-1. Diagnóstico Principal (Causa Primária da Internação): [ ... ] (CID-10: [ ... ])
+1. Diagnóstico Principal (Causa Primária da Internação): [ ] (CID-10: [ ])
 2. Diagnósticos Secundários / Comorbidades:
-   - [ ... ] (CID-10: [ ... ])
-   - [ ... ] (CID-10: [ ... ])
+   - [ ] (CID-10: [ ])
+   - [ ] (CID-10: [ ])
 
 RESUMO DA EVOLUÇÃO CLÍNICA NA INTERNAÇÃO:
-- Motivo da Admissão: Paciente admitido nesta instituição apresentando quadro de [ ... ], com início há [ ... ] dias, associado a [ ... ].
+- Motivo da Admissão: Paciente admitido nesta instituição apresentando quadro de [ ], com início há [ ] dias, associado a [ ].
 - Intervenções e Tratamentos Realizados:
   * Recebeu terapia medicamentosa com [ esquema antimicrobiano: droga, dose, tempo total de uso: ... dias; término em ... / compensação volêmica / otimização medicamentosa ].
   * Evoluiu durante a internação com [ melhora clínica progressiva, remissão da febre há mais de 48h, estabilização hemodinâmica e tolerância plena à dieta oral por via oral ].
@@ -32,15 +32,15 @@ RESUMO DA EVOLUÇÃO CLÍNICA NA INTERNAÇÃO:
 
 EXAMES COMPLEMENTARES RELEVANTES NA ALTA:
 - Laboratório de Controle na Alta:
-  * Hb: [ ... ] g/dL | Leucócitos: [ ... ] /mm³ (Bastonetes: [ ... ]%) | Plaquetas: [ ... ] /mm³
-  * Creatinina: [ ... ] mg/dL | Ureia: [ ... ] mg/dL | Na: [ ... ] | K: [ ... ] mEq/L
-  * PCR: [ ... ] mg/L (Curva em acentuada queda) | Glicemia: [ ... ] mg/dL.
+  * Hb: [ ] g/dL | Leucócitos: [ ] /mm³ (Bastonetes: [ ]%) | Plaquetas: [ ] /mm³
+  * Creatinina: [ ] mg/dL | Ureia: [ ] mg/dL | Na: [ ] | K: [ ] mEq/L
+  * PCR: [ ] mg/L (Curva em acentuada queda) | Glicemia: [ ] mg/dL.
 - Culturas microbiológicas: [ Negativas / Urocultura ou Hemocultura com isolamento de ... sensível a ... ].
-- Imagens / Métodos Gráficos: [ RX de tórax: ... / ECG: ... / Ecocardiograma: ... / USG: ... ].
+- Imagens / Métodos Gráficos: [RX de tórax: ... / ECG: ... / Ecocardiograma: ... / USG: ].
 
 CONDIÇÕES CLÍNICAS NO MOMENTO DA DESOSPITALIZAÇÃO:
 - Paciente em bom estado geral (BEG), eupnéico em ar ambiente, consciente, orientado, comunicativo e deambulando sem apoio.
-- Sinais Vitais de Alta: PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C (Afebril há > 48h).
+- Sinais Vitais de Alta: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C (Afebril há > 48h).
 - Diurese e trânsito intestinal fisiológicos preservados.
 - Aceitando plenamente a dieta por via oral.
 
@@ -58,7 +58,7 @@ RECONCILIAÇÃO MEDICAMENTOSA DE ALTA:
 PRESCRIÇÃO MÉDICA DE ALTA HOSPITALAR (DOMICILIAR):
 1. [ Medicamento contínuo / novo ] ---------------- [ Posologia clara: Tomar 1 comprimido VO às ... ]
 2. [ Medicamento contínuo / novo ] ---------------- [ Posologia clara: Tomar 1 comprimido VO às ... ]
-3. [ Antimicrobiano se término VO ] --------------- [ Posologia clara por mais [ ... ] dias ]
+3. [ Antimicrobiano se término VO ] --------------- [ Posologia clara por mais [ ] dias ]
 4. Dipirona 500mg ou 1g --------------------------- Tomar 1 comprimido VO de 6/6h se dor ou febre (sintomático)
 
 ---

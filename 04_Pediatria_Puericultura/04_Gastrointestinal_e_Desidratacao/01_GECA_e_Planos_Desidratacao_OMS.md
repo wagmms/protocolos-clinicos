@@ -6,16 +6,16 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO PEDIÁTRICO - GASTROENTERITE AGUDA (GECA) & DESIDRATAÇÃO
 
 IDENTIFICAÇÃO:
-- Paciente: [ ... ] | Idade: [ ... ] anos/meses | Sexo: [ ... ] | PESO ATUAL: [ ... ] kg
-- Informante: [ Mãe / Pai / Responsável: ... ]
+- Paciente: [ ] | Idade: [ ] anos/meses | Sexo: [ ] | PESO ATUAL: [ ] kg
+- Informante: [Mãe / Pai / Responsável: ]
 
 HISTÓRIA CLÍNICA:
-- QP: Diarreia líquida e vômitos há [ ... ] dias.
-- HMA: Quadro iniciado há [ ... ] dias com evacuações líquidas [ frequência: ... episódios nas últimas 24h, aspecto aquoso amarelado/esverdeado sem sangue ] e episódios de vômitos [ frequência: ... vezes/dia ].
+- QP: Diarreia líquida e vômitos há [ ] dias.
+- HMA: Quadro iniciado há [ ] dias com evacuações líquidas [ frequência: ... episódios nas últimas 24h, aspecto aquoso amarelado/esverdeado sem sangue ] e episódios de vômitos [ frequência: ... vezes/dia ].
 - Febre: [ Tax aferida no domicílio: ... °C / Afebril ].
 - Presença de Sangue / Muco nas Fezes: [ AUSENTE (Diarreia aquosa viral típica) / PRESENTE (Disenteria bacteriana - alerta para Shigella/Salmonella/Campylobacter) ].
 - Ingesta de Líquidos e Diurese: [ Bebendo líquidos normalmente / Sede aumentada, bebendo avidamente / Recusa total de líquidos / Incapaz de beber por vômitos ]. Diurese presente nas últimas 6h com fralda úmida.
@@ -27,7 +27,7 @@ NEGATIVAS MANDATÓRIAS PEDIÁTRICAS:
 - Nega anúria por mais de 8 a 12 horas.
 
 EXAME FÍSICO & AVALIAÇÃO DO ESTADO DE HIDRATAÇÃO (OMS / MINISTÉRIO DA SAÚDE):
-- Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C | TEC: [ ... ] segundos.
+- Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C | TEC: [ ] segundos.
 - Tabela dos 4 Sinais Cardinais de Desidratação:
   1. Condição Geral / Sensório: [ Alerta e ativo (0) / Irritado, intranquilo (1) / Letárgico, sonolento ou comatoso (2) ].
   2. Olhos: [ Normais (0) / Fundos (1) / Muito fundos e secos (2) ].

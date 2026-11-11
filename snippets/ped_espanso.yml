@@ -6,10 +6,10 @@ matches:
       ATENDIMENTO PEDIÁTRICO - FICHA MESTRA UNIVERSAL
       
       DADOS DE IDENTIFICAÇÃO & DADOS ANTROPOMÉTRICOS:
-      - Paciente: [ ... ] | Sexo: [ Masculino / Feminino ] | Idade: [ ... ] anos e [ ... ] meses (DN: [ ... ]/[ ... ]/[ ... ])
-      - Acompanhante / Informante: [ Mãe / Pai / Responsável legal: ... ]
-      - PESO ATUAL AFERIDO: [ ... ] kg
-      - Estatura/Comprimento: [ ... ] cm | Perímetro Cefálico (< 2 anos): [ ... ] cm
+      - Paciente: [ ] | Sexo: [ Masculino / Feminino ] | Idade: [ ] anos e [ ] meses (DN: [ ]/[ ]/[ ])
+      - Acompanhante / Informante: [Mãe / Pai / Responsável legal: ]
+      - PESO ATUAL AFERIDO: [ ] kg
+      - Estatura/Comprimento: [ ] cm | Perímetro Cefálico (< 2 anos): [ ] cm
       
       TRIÂNGULO DE AVALIAÇÃO PEDIÁTRICA (TEP) - IMPRESSÃO INICIAL:
       1. Aparência: [ Tônus normal, interativo com o examinador, choro forte e consolável, olhar focado / Hipoativo, sonolento, irritabilidade ou choro inconsolável ].
@@ -18,9 +18,9 @@ matches:
       - Classificação TEP: [ Estável / Desconforto Respiratório / Choque Compensado / Choque Descompensado / Falência Cardiorrespiratória ].
       
       HISTÓRIA CLÍNICA:
-      - Queixa Principal (QP) & Duração: [ ... ] há [ ... ] dias/horas.
-      - História da Moléstia Atual (HMA): Relatado pelo acompanhante que a criança iniciou quadro de [ ... ], com evolução caracterizada por [ ... ].
-      - Medicações administradas no domicílio: [ Dipirona / Paracetamol / Ibuprofeno / Nenhuma ] com última dose há [ ... ] horas.
+      - Queixa Principal (QP) & Duração: [ ] há [ ] dias/horas.
+      - História da Moléstia Atual (HMA): Relatado pelo acompanhante que a criança iniciou quadro de [ ], com evolução caracterizada por [ ].
+      - Medicações administradas no domicílio: [ Dipirona / Paracetamol / Ibuprofeno / Nenhuma ] com última dose há [ ] horas.
       - Estado Geral & Sintomas Fisiológicos:
         * Ingesta hídrica e alimentar: [ Aceitando bem o seio materno ou líquidos / Redução parcial do apetite / Recusa alimentar completa ].
         * Diurese: [ Preservada com fraldas pesadas habituais (> 4-6 fraldas/dia) / Reduzida, urina concentrada / Ausência de urina há mais de 8 horas ].
@@ -37,19 +37,19 @@ matches:
       - Prostração persistente na ausência de febre (a criança deve reanimar após o antitérmico).
       
       ANTECEDENTES PEDIÁTRICOS:
-      - História Gestacional & Parto: Pré-natal com [ ... ] consultas; Parto [ Normal / Cesárea ] com [ ... ] semanas; Peso ao nascer: [ ... ] g; Intercorrências neonatais: [ Nega / Icterícia fototerapia / UTI neonatal: ... ].
+      - História Gestacional & Parto: Pré-natal com [ ] consultas; Parto [ Normal / Cesárea ] com [ ] semanas; Peso ao nascer: [ ] g; Intercorrências neonatais: [Nega / Icterícia fototerapia / UTI neonatal: ].
       - Alimentação: [ Aleitamento Materno Exclusivo / Fórmula infantil: ... / Dieta da família ].
-      - Vacinação: [ Em dia conforme a Caderneta de Vacinação / Atrasada: ... ].
-      - Comorbidades conhecidas: [ Nega comorbidades / Asma / Prematuridade / Alergia à Proteína do Leite de Vaca - APLV / Outra: ... ].
+      - Vacinação: [Em dia conforme a Caderneta de Vacinação / Atrasada: ].
+      - Comorbidades conhecidas: [Nega comorbidades / Asma / Prematuridade / Alergia à Proteína do Leite de Vaca - APLV / Outra: ].
       - Alergias medicamentosas: [ Nega alergias conhecidas / SIM: ... (Alerta visual ativado) ].
       
       EXAME FÍSICO OBJETIVO:
       - Sinais Vitais:
-        * FC: [ ... ] bpm (Faixa por idade: RN 120-160 | Lactente 100-140 | Pré-escolar 80-120 | Escolar 70-110)
-        * FR: [ ... ] irpm (Faixa: < 2 meses < 60 | 2-11 meses < 50 | 1-5 anos < 40 | > 5 anos < 30)
-        * SpO2: [ ... ]% em ar ambiente
-        * Temperatura axilar (Tax): [ ... ] °C
-        * Tempo de Enchimento Capilar (TEC): [ ... ] segundos (Normal < 2 segundos).
+        * FC: [ ] bpm (Faixa por idade: RN 120-160 | Lactente 100-140 | Pré-escolar 80-120 | Escolar 70-110)
+        * FR: [ ] irpm (Faixa: < 2 meses < 60 | 2-11 meses < 50 | 1-5 anos < 40 | > 5 anos < 30)
+        * SpO2: [ ]% em ar ambiente
+        * Temperatura axilar (Tax): [ ] °C
+        * Tempo de Enchimento Capilar (TEC): [ ] segundos (Normal < 2 segundos).
       - Ectoscopia: Estado geral [ BEG / REG / MEG ], [ ativo e reativo / prostrado ], [ corado / descorado +/4+ ], [ hidratado / sinais de desidratação +/4+ ], [ anictérico / acianótico ]. Sem lesões purpúricas ou petequiais em pele. Fontanela anterior [ plana e normotensa / deprimida / abaulada ].
       - Oroscopia & Otoscopia:
         * Oroscopia: [ Mucosa jugal e gengival úmidas, orofaringe sem hiperemia ou exsudatos amigdalianos / Presença de vesículas / Hiperemia amigdaliana com exsudato purulento ].
@@ -77,18 +77,18 @@ matches:
       CONSULTA DE PUERICULTURA - ROTINA DA ATENÇÃO BÁSICA
       
       IDENTIFICAÇÃO:
-      - Criança: [ ... ] | Sexo: [ Masculino / Feminino ] | DN: [ ... ]/[ ... ]/[ ... ]
-      - Idade Cronológica: [ ... ] meses [ se prematuro: Idade Corrigida = ... semanas/meses ]
-      - Informante: [ Mãe / Pai / Cuidador principal: ... ]
+      - Criança: [ ] | Sexo: [ Masculino / Feminino ] | DN: [ ]/[ ]/[ ]
+      - Idade Cronológica: [ ] meses [ se prematuro: Idade Corrigida = ... semanas/meses ]
+      - Informante: [Mãe / Pai / Cuidador principal: ]
       
       ANTROPOMETRIA & CURVAS DE CRESCIMENTO (PADRÃO OMS):
-      - Peso atual: [ ... ] g | Ganho ponderal recente: [ ... ] g/dia (Esperado: 1º trim: 25-30g/dia; 2º trim: 20g/dia; 3º trim: 15g/dia; 4º trim: 10-12g/dia).
+      - Peso atual: [ ] g | Ganho ponderal recente: [ ] g/dia (Esperado: 1º trim: 25-30g/dia; 2º trim: 20g/dia; 3º trim: 15g/dia; 4º trim: 10-12g/dia).
         * Z-Escore Peso/Idade: [ Eutrofia (Z -2 a +2) / Baixo peso (Z < -2) / Peso elevado (Z > +2) ].
-      - Comprimento/Estatura atual: [ ... ] cm
+      - Comprimento/Estatura atual: [ ] cm
         * Z-Escore Estatura/Idade: [ Estatura adequada (Z ≥ -2) / Baixa estatura (Z < -2) ].
-      - Perímetro Cefálico atual (< 2 anos): [ ... ] cm
+      - Perímetro Cefálico atual (< 2 anos): [ ] cm
         * Z-Escore PC/Idade: [ Normocefalia (Z -2 a +2) / Microcefalia (Z < -2) / Macrocefalia (Z > +2) ].
-      - Índice de Massa Corporal (IMC para Idade): [ ... ] kg/m²
+      - Índice de Massa Corporal (IMC para Idade): [ ] kg/m²
         * Classificação IMC/I: [ Eutrofia / Risco de sobrepeso / Sobrepeso / Obesidade ].
       
       ALIMENTAÇÃO & NUTRIÇÃO:
@@ -103,7 +103,7 @@ matches:
         * Proscrição absoluta: Açúcar, achocolatados, gelatinas, sucos (mesmo naturais) e ultraprocessados até os 2 anos. Mel proibido antes de 1 ano (risco de botulismo).
       
       AVALIAÇÃO DO DESENVOLVIMENTO NEUROPSICOMOTOR (MARCOS DO DNPM - MS/OMS):
-      Marcos esperados para a faixa etária atual ([ ... ] meses):
+      Marcos esperados para a faixa etária atual ([ ] meses):
       - [ ] Postura e Motricidade Grossa: [ Eleva cabeça em prona (2m) / Sustenta cabeça (4m) / Senta com apoio (6m) / Senta sem apoio (9m) / Anda com apoio (12m) / Anda sozinho (15m) / Corre bem e sobe degraus (24m) ].
       - [ ] Motricidade Fina / Adaptação: [ Segura objetos (4m) / Transfere de uma mão para a outra (6m) / Pinça imperfeita (9m) / Pinça fina polegar-indicador (12m) / Constrói torre de 3 blocos (18m) ].
       - [ ] Linguagem & Audição: [ Reage a sons (1m) / Vocaliza sons/gorgolejos (2-4m) / Balbucia sílabas 'da-da' (6-9m) / Fala 1-2 palavras com significado (12m) / Vocabulário de 10-20 palavras (18m) / Frases de 2 palavras (24m) ].
@@ -117,7 +117,7 @@ matches:
       - Saúde bucal: Higiene oral com escova de cerdas macias e pasta com flúor (≥ 1.000 ppm de flúor em quantidade de grão de arroz cru) a partir do primeiro dente de leite.
       
       VACINAÇÃO & EXAMES DE TRIAGEM NEONATAL:
-      - Caderneta de Vacinação: [ Em dia conforme o calendário PNI / Pendente vacina: ... ].
+      - Caderneta de Vacinação: [Em dia conforme o calendário PNI / Pendente vacina: ].
       - Triagens Neonatais checadas:
         * Teste do Pezinho (PKU, TSH, Hb, FC, 17-OHP, Biot): [ Normal / Realizado em D... ].
         * Teste do Olhinho (Reflexo Vermelho): [ Presente e simétrico bilateralmente ].
@@ -137,25 +137,25 @@ matches:
       PRESCRIÇÃO DE PUERICULTURA:
       1. Colecalciferol (Vitamina D) solução gotas (ex: 200 UI/gota) ------ Administrar 2 gotas VO 1x ao dia pela manhã.
       2. Sulfato Ferroso / Ferro Quelato gotas (se ≥ 6 meses):
-         - Administrar [ ... ] gotas VO 1x ao dia, 30 a 60 minutos antes do almoço (ou com fruta cítrica rica em vitamina C).
+         - Administrar [ ] gotas VO 1x ao dia, 30 a 60 minutos antes do almoço (ou com fruta cítrica rica em vitamina C).
       
       ORIENTAÇÕES DE SEGURANÇA & PREVENÇÃO DE ACIDENTES:
       1. Transporte veicular: Uso obrigatório de bebê conforto virado para trás no banco traseiro até pelo menos 1 ano de idade (ou 13 kg).
       2. Quedas: NUNCA deixar o bebê sozinho em trocadores, camas, sofás ou mesas, nem por um segundo. Proibido o uso de andador infantil (risco de traumatismo craniano grave e atraso motor).
       3. Queimaduras e afogamentos: Testar temperatura da água do banho com o dorso da mão/antebraço; nunca deixar a criança sozinha na banheira ou perto de baldes de água.
-      4. Próxima Consulta de Puericultura agendada para: [ ... ]/[ ... ]/[ ... ] (Calendário preconizado: 1ª semana, 1m, 2m, 4m, 6m, 9m, 12m, 18m, 24m).
+      4. Próxima Consulta de Puericultura agendada para: [ ]/[ ]/[ ] (Calendário preconizado: 1ª semana, 1m, 2m, 4m, 6m, 9m, 12m, 18m, 24m).
 
   - trigger: ";ped-resfriado"
     replace: |
       ATENDIMENTO PEDIÁTRICO - RESFRIADO COMUM / RINOFARINGITE AGUDA
       
       IDENTIFICAÇÃO:
-      - Paciente: [ ... ] | Idade: [ ... ] anos/meses | Sexo: [ ... ] | PESO ATUAL: [ ... ] kg
-      - Informante: [ Mãe / Pai / Responsável: ... ]
+      - Paciente: [ ] | Idade: [ ] anos/meses | Sexo: [ ] | PESO ATUAL: [ ] kg
+      - Informante: [Mãe / Pai / Responsável: ]
       
       HISTÓRIA CLÍNICA:
-      - QP: Obstrução nasal, coriza e tosse há [ ... ] dias.
-      - HMA: Quadro iniciado há [ ... ] dias com coriza [ hialina / discretamente amarelada fisiológica ], congestão nasal que dificulta a amamentação/sono, espirros e tosse seca [ pior à noite ao deitar por gotejamento pós-nasal ].
+      - QP: Obstrução nasal, coriza e tosse há [ ] dias.
+      - HMA: Quadro iniciado há [ ] dias com coriza [ hialina / discretamente amarelada fisiológica ], congestão nasal que dificulta a amamentação/sono, espirros e tosse seca [ pior à noite ao deitar por gotejamento pós-nasal ].
       - Febre: [ Nega febre / Picos febris baixos (< 38,5°C) nas primeiras 48h, responsivos a antitérmicos comuns ].
       - Estado Geral & Ingesta: [ Criança ativa, brincando quando afebril; aceitando alimentação e líquidos / Inapetência leve devido ao nariz entupido ]. Diurese preservada.
       
@@ -167,7 +167,7 @@ matches:
       - Nega prostração contínua na ausência de febre, recusa total de líquidos ou vômitos incoercíveis.
       
       EXAME FÍSICO OBJETIVO:
-      - Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm (Normal para a idade) | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C.
+      - Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm (Normal para a idade) | SpO2: [ ]% ar ambiente | Tax: [ ] °C.
       - Ectoscopia: Bom estado geral (BEG), ativo, reativo, corado, hidratado, acianótico, anictérico. Sem esforço respiratório.
       - Rinoscopia / Nariz: Mucosa nasal edemaciada e hiperemiada com secreção serosa/mucosa bilateral. Sem corpos estranhos visíveis.
       - Oroscopia: Faringe com discreta hiperemia difusa, amígdalas sem exsudato purulento ou ulcerações. Presença de gotejamento pós-nasal seroso.
@@ -184,7 +184,7 @@ matches:
       
       PRESCRIÇÃO MÉDICA AMBULATORIAL:
       1. Soro Fisiológico 0,9% para Lavagem Nasal de Alto Volume / Baixa Pressão:
-         - Lavar ambas as narinas com [ ... ] mL de SF 0,9% morno (temperatura ambiente/corporal) com seringa com ponta de silicone ou bico anatômico, de 4 a 6 vezes ao dia, OBRIGATORIAMENTE antes das mamadas/refeições e antes de dormir.
+         - Lavar ambas as narinas com [ ] mL de SF 0,9% morno (temperatura ambiente/corporal) com seringa com ponta de silicone ou bico anatômico, de 4 a 6 vezes ao dia, OBRIGATORIAMENTE antes das mamadas/refeições e antes de dormir.
       2. Dipirona solução oral gotas (500 mg/mL) [ se dor ou desconforto febril ]:
          - Administrar [ 1 gota por kg de peso corporal = ... gotas ] VO a cada 6 horas se febre (Tax ≥ 37,8°C) ou irritabilidade/dor (Dose máx: 35-40 gotas por tomada).
          - *OU Paracetamol solução gotas (200 mg/mL):* Administrar [ 1 gota por kg = ... gotas ] VO a cada 6 horas se dor ou febre (Dose máx: 35 gotas por tomada).
@@ -208,12 +208,12 @@ matches:
       ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA - BRONQUIOLITE VIRAL AGUDA (BVA)
       
       IDENTIFICAÇÃO:
-      - Lactente: [ ... ] | Idade: [ ... ] meses (< 2 anos; pico 2 a 6 meses) | PESO ATUAL: [ ... ] kg
-      - Informante: [ Mãe / Pai / Responsável: ... ]
+      - Lactente: [ ] | Idade: [ ] meses (< 2 anos; pico 2 a 6 meses) | PESO ATUAL: [ ] kg
+      - Informante: [Mãe / Pai / Responsável: ]
       
       HISTÓRIA CLÍNICA:
-      - QP: Cansaço para respirar, tosse e chiado no peito há [ ... ] dias.
-      - HMA: Lactente com história de pródromo de infecção de vias aéreas superiores há 2 a 4 dias (coriza hialina, espirros e febre baixa de [ ... ] °C), que evoluiu nas últimas 24-48 horas com tosse persistente, taquipneia progressiva e sibilância audível.
+      - QP: Cansaço para respirar, tosse e chiado no peito há [ ] dias.
+      - HMA: Lactente com história de pródromo de infecção de vias aéreas superiores há 2 a 4 dias (coriza hialina, espirros e febre baixa de [ ] °C), que evoluiu nas últimas 24-48 horas com tosse persistente, taquipneia progressiva e sibilância audível.
       - Primeiro Episódio: [ SIM - Primeiro episódio de sibilância na vida (BVA típica) / Não - história de sibilância prévia recorrente ].
       - Fatores de Risco de Gravidade: [ Prematuridade (< 37 semanas) / Idade < 12 semanas (3 meses) / Cardiopatia congênita / Doença pulmonar crônica da prematuridade / Nega fatores de risco ].
       - Ingesta Alimentar & Hidratação: [ Aceitando seio/mamadeira com pausas frequentes para respirar / Recusa alimentar parcial (> 50% de redução da ingesta) / Recusa alimentar importante ]. Diurese presente nas últimas 6h.
@@ -226,15 +226,15 @@ matches:
       
       EXAME FÍSICO OBJETIVO:
       - Sinais Vitais:
-        * FR: [ ... ] irpm (Atenção se FR ≥ 60 irpm no lactente jovem)
-        * SpO2: [ ... ]% em ar ambiente (Alvo ≥ 90-92%)
-        * FC: [ ... ] bpm | Tax: [ ... ] °C | TEC: [ ... ] segundos (< 2s).
+        * FR: [ ] irpm (Atenção se FR ≥ 60 irpm no lactente jovem)
+        * SpO2: [ ]% em ar ambiente (Alvo ≥ 90-92%)
+        * FC: [ ] bpm | Tax: [ ] °C | TEC: [ ] segundos (< 2s).
       - Ectoscopia: Estado geral [ REG / MEG ], [ irritável / hipoativo ], corado, [ hidratado / desidratação leve ], sem cianose central.
       - Aparelho Respiratório & Avaliação do Desconforto:
         * Murmúrio vesicular presente bilateralmente, tempo expiratório prolongado.
         * Ruídos adventícios: Presença de [ sibilos expiratórios difusos e estertores subcrepitantes/crepitantes esparsos ].
         * Sinais de esforço respiratório: [ Ausentes / Tiragem intercostal leve / Tiragem subcostal evidente / Batimento de asa de nariz / Balanço tóraco-abdominal / Gemência respiratória ].
-      - Escore de Wood-Downes Modificado: [ ... ] pontos (Classificação: [ Leve (1-3) / Moderada (4-7) / Grave (8-14) ]).
+      - Escore de Wood-Downes Modificado: [ ] pontos (Classificação: [ Leve (1-3) / Moderada (4-7) / Grave (8-14) ]).
       - Aparelho Cardiovascular: Ritmo cardíaco regular em 2T, bulhas normofonéticas, sem sopros. Pulsos simétricos.
       - Abdome: Flácido, [ fígado palpável a 1-2 cm do RCD por rebaixamento diafragmático fisiológico da hiperinsuflação / sem visceromegalias verdadeiras ].
       
@@ -271,11 +271,11 @@ matches:
       ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA - CRUPE VIRAL / LARINGITE AGUDA
       
       IDENTIFICAÇÃO:
-      - Paciente: [ ... ] | Idade: [ ... ] meses/anos (Faixa típica: 6 meses a 3 anos) | PESO ATUAL: [ ... ] kg
-      - Informante: [ Mãe / Pai / Responsável: ... ]
+      - Paciente: [ ] | Idade: [ ] meses/anos (Faixa típica: 6 meses a 3 anos) | PESO ATUAL: [ ] kg
+      - Informante: [Mãe / Pai / Responsável: ]
       
       HISTÓRIA CLÍNICA:
-      - QP: Tosse rouca e barulho para respirar iniciado subitamente à noite há [ ... ] horas.
+      - QP: Tosse rouca e barulho para respirar iniciado subitamente à noite há [ ] horas.
       - HMA: Criança vinha apresentando pródromo de resfriado leve há 1 a 2 dias (coriza e febre baixa de ... °C). Evoluiu durante a noite com início súbito de tosse ladrante ("tosse de foca/cachorro"), rouquidão e ruído agudo na respiração (estridor laríngeo).
       - Febre: [ Afebril / Febre baixa < 38,5°C / Febre alta > 39°C com toxemia (suspeitar de epiglotite/traqueíte) ].
       - Deglutição & Sialorreia: [ Deglutindo saliva normalmente, sem engasgos / Sialorreia importante com dificuldade para engolir saliva ].
@@ -287,14 +287,14 @@ matches:
       - Nega cianose ou episódios de apneia.
       
       EXAME FÍSICO OBJETIVO:
-      - Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C.
+      - Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C.
       - Ectoscopia: Estado geral [ BEG / REG ], choro rouco característico. Sem cianose perioral.
       - Aparelho Respiratório & Laringe:
         * Voz e Choro: [ Rouquidão e tosse ladrante presentes ].
         * Estridor Laríngeo: [ Ausente em repouso, presente apenas ao choro/agitação (Crupe Leve) / Presente em repouso, audível sem estetoscópio (Crupe Moderado a Grave) ].
         * Sinais de Esforço: [ Ausentes / Tiragem supraesternal leve / Tiragem intercostal e subcostal moderada / Batimento de asa de nariz ].
         * Ausculta Pulmonar: Murmúrio vesicular presente bilateralmente, sem sibilos ou estertores creptantes associados.
-      - Escore de Westley: [ ... ] pontos (Classificação: [ LEVE (≤ 2 pontos) / MODERADO (3 a 5 pontos) / GRAVE (6 a 11 pontos) ]).
+      - Escore de Westley: [ ] pontos (Classificação: [ LEVE (≤ 2 pontos) / MODERADO (3 a 5 pontos) / GRAVE (6 a 11 pontos) ]).
       - Oroscopia: Evitada manipulação com espátula se estridor importante para não desencadear espasmo laringo subglótico.
       
       AVALIAÇÃO & HIPÓTESE DIAGNÓSTICA:
@@ -307,7 +307,7 @@ matches:
       
       [ ] CONDUTA NO CRUPE LEVE (Escore ≤ 2 - Sem estridor em repouso):
       1. Dexametasona dose única:
-         - Dexametasona elixir (0,1 mg/mL) ou comprimido/injetável: **0,15 mg/kg a 0,6 mg/kg por via oral dose única** (Dose administrada: [ ... ] mg). Reduz a inflamação subglótica e previne progressão para crupe grave.
+         - Dexametasona elixir (0,1 mg/mL) ou comprimido/injetável: **0,15 mg/kg a 0,6 mg/kg por via oral dose única** (Dose administrada: [ ] mg). Reduz a inflamação subglótica e previne progressão para crupe grave.
       2. Orientações de Alta Segura:
          - Manter a criança calma (o choro e a agitação aumentam o fluxo turbulento e pioram o estridor).
          - Inalação de ar fresco/úmido ou banho morno com vapor.
@@ -330,12 +330,12 @@ matches:
       ATENDIMENTO PEDIÁTRICO - OTITE MÉDIA AGUDA (OMA)
       
       IDENTIFICAÇÃO:
-      - Paciente: [ ... ] | Idade: [ ... ] anos/meses | Sexo: [ ... ] | PESO ATUAL: [ ... ] kg
-      - Informante: [ Mãe / Pai / Responsável: ... ]
+      - Paciente: [ ] | Idade: [ ] anos/meses | Sexo: [ ] | PESO ATUAL: [ ] kg
+      - Informante: [Mãe / Pai / Responsável: ]
       
       HISTÓRIA CLÍNICA:
-      - QP: Dor de ouvido (otalgia), febre e choro há [ ... ] dias.
-      - HMA: Quadro iniciado há [ ... ] dias com pródromo de resfriado (coriza e congestão nasal). Evoluiu com dor de ouvido aguda [ em orelha direita / esquerda / bilateral ] de moderada a forte intensidade, irritabilidade acentuada, [ choro inconsolável e ato de puxar/esfregar a orelha ].
+      - QP: Dor de ouvido (otalgia), febre e choro há [ ] dias.
+      - HMA: Quadro iniciado há [ ] dias com pródromo de resfriado (coriza e congestão nasal). Evoluiu com dor de ouvido aguda [ em orelha direita / esquerda / bilateral ] de moderada a forte intensidade, irritabilidade acentuada, [ choro inconsolável e ato de puxar/esfregar a orelha ].
       - Febre: [ Tax aferida no domicílio: ... °C / Afebril ].
       - Otorreia: [ Ausência de saída de secreção / Presença de secreção purulenta recente em canal auditivo por perfuração timpânica espontânea de alívio ].
       - Fatores de Risco de Resistência Bacteriana:
@@ -348,7 +348,7 @@ matches:
       - Nega sonolência excessiva, convulsões, rigidez de nuca ou paralisia facial periférica.
       
       EXAME FÍSICO OBJETIVO:
-      - Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C.
+      - Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C.
       - Ectoscopia: Regular estado geral, irritável ao exame, corado, hidratado, acianótico.
       - Inspeção da Região Retroauricular: Ausência de sinais flogísticos (sem edema, hiperemia ou dor à palpação da mastoide bilateralmente). Pavilhões auriculares tópicos e simétricos.
       - Otoscopia Criteriosa (Critérios SBP / AAP):
@@ -392,8 +392,8 @@ matches:
       
       PRESCRIÇÃO AMBULATORIAL:
       1. Amoxicilina suspensão oral (250 mg/5 mL ou 400 mg/5 mL):
-         - Dar [ ... ] mL por via oral a cada [ 8 ou 12 ] horas por [ 7 a 10 ] dias.
-      2. Dipirona gotas 500 mg/mL (se dor): Dar [ ... ] gotas VO até de 6/6h.
+         - Dar [ ] mL por via oral a cada [ 8 ou 12 ] horas por [ 7 a 10 ] dias.
+      2. Dipirona gotas 500 mg/mL (se dor): Dar [ ] gotas VO até de 6/6h.
       3. Lavagem nasal com Soro Fisiológico 0,9% frequente para desobstrução da tuba auditiva.
       
       SINAIS DE ALARME DE MASTOIDITE (RETORNO IMEDIATO):
@@ -407,12 +407,12 @@ matches:
       ATENDIMENTO PEDIÁTRICO - PNEUMONIA ADQUIRIDA NA COMUNIDADE (PAC)
       
       IDENTIFICAÇÃO:
-      - Paciente: [ ... ] | Idade: [ ... ] anos/meses | Sexo: [ ... ] | PESO ATUAL: [ ... ] kg
-      - Informante: [ Mãe / Pai / Responsável: ... ]
+      - Paciente: [ ] | Idade: [ ] anos/meses | Sexo: [ ] | PESO ATUAL: [ ] kg
+      - Informante: [Mãe / Pai / Responsável: ]
       
       HISTÓRIA CLÍNICA:
-      - QP: Febre persistente, tosse e cansaço para respirar há [ ... ] dias.
-      - HMA: Quadro iniciado há [ ... ] dias com febre moderada a alta (Tax: [ ... ] °C), tosse produtiva/carregada e prostração associada. Nas últimas 24-48 horas, o responsável notou respiração rápida e ofegante ("peito acelerado").
+      - QP: Febre persistente, tosse e cansaço para respirar há [ ] dias.
+      - HMA: Quadro iniciado há [ ] dias com febre moderada a alta (Tax: [ ] °C), tosse produtiva/carregada e prostração associada. Nas últimas 24-48 horas, o responsável notou respiração rápida e ofegante ("peito acelerado").
       - Alimentação & Ingesta: [ Criança aceitando líquidos e alimentação pastosa / Dificuldade para mamar por taquipneia / Recusa total de líquidos / Vômitos frequentes ].
       - Histórico Vacinal: [ Vacinação antipneumocócica 10-valente em dia / Atrasada ].
       
@@ -424,14 +424,14 @@ matches:
       
       EXAME FÍSICO OBJETIVO:
       - Sinais Vitais & Critérios da OMS:
-        * FR AFERIDA EM 1 MINUTO INTEIRO (CRIANÇA CALMA/SEM FEBRE): [ ... ] irpm
+        * FR AFERIDA EM 1 MINUTO INTEIRO (CRIANÇA CALMA/SEM FEBRE): [ ] irpm
         * [ ] TAQUIPNEIA CONFIRMADA PELO CRITÉRIO DA OMS:
           - Se < 2 meses: FR ≥ 60 irpm
           - Se 2 a 11 meses: FR ≥ 50 irpm
           - Se 1 a 5 anos: FR ≥ 40 irpm
           - Se > 5 anos: FR ≥ 30 irpm
-        * SpO2: [ ... ]% em ar ambiente (Alvo de segurança ambulatorial ≥ 92-94%)
-        * FC: [ ... ] bpm | Tax: [ ... ] °C | TEC: [ ... ] segundos (< 2s).
+        * SpO2: [ ]% em ar ambiente (Alvo de segurança ambulatorial ≥ 92-94%)
+        * FC: [ ] bpm | Tax: [ ] °C | TEC: [ ] segundos (< 2s).
       - Ectoscopia: Regular estado geral, [ prostrado apenas durante a febre / reanimando após antitérmico ], corado, hidratado, anictérico, acianótico.
       - Aparelho Respiratório:
         * Padrão respiratório: [ Taquipneico sem tiragens / Tiragem subcostal presente / Tiragem intercostal leve / Batimento de asa de nariz ausente ].
@@ -455,7 +455,7 @@ matches:
       1. Antibioticoterapia de 1ª Escolha:
          - **Amoxicilina suspensão oral (250 mg/5 mL ou 400 mg/5 mL):**
          - Dose de **50 mg/kg/dia a 90 mg/kg/dia** dividida de 8/8h (ou 12/12h se 400mg/5mL).
-         - Dose calculada para o peso de [ ... ] kg: Dar [ ... ] mL por via oral a cada [ 8 ou 12 ] horas por **7 a 10 dias**.
+         - Dose calculada para o peso de [ ] kg: Dar [ ] mL por via oral a cada [ 8 ou 12 ] horas por **7 a 10 dias**.
       2. Antitérmico / Analgésico:
          - Dipirona gotas (500 mg/mL): [ 1 gota/kg = ... gotas ] VO a cada 6 horas se dor ou febre (Tax ≥ 37,8°C).
       3. Hidratação abundante e lavagem nasal com Soro Fisiológico 0,9%.
@@ -465,8 +465,8 @@ matches:
       
       PRESCRIÇÃO AMBULATORIAL:
       1. Amoxicilina suspensão oral [ 250 mg/5 mL ou 400 mg/5 mL ]:
-         - Administrar [ ... ] mL por via oral a cada [ 8 ou 12 ] horas durante [ 7 a 10 ] dias ininterruptos.
-      2. Dipirona gotas 500 mg/mL (se febre ou dor): Administrar [ ... ] gotas VO de 6/6h.
+         - Administrar [ ] mL por via oral a cada [ 8 ou 12 ] horas durante [ 7 a 10 ] dias ininterruptos.
+      2. Dipirona gotas 500 mg/mL (se febre ou dor): Administrar [ ] gotas VO de 6/6h.
       
       SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO SOCORRO:
       - Piora do cansaço ou surgimento de afundamento das costelas ao respirar.
@@ -480,12 +480,12 @@ matches:
       ATENDIMENTO PEDIÁTRICO - GASTROENTERITE AGUDA (GECA) & DESIDRATAÇÃO
       
       IDENTIFICAÇÃO:
-      - Paciente: [ ... ] | Idade: [ ... ] anos/meses | Sexo: [ ... ] | PESO ATUAL: [ ... ] kg
-      - Informante: [ Mãe / Pai / Responsável: ... ]
+      - Paciente: [ ] | Idade: [ ] anos/meses | Sexo: [ ] | PESO ATUAL: [ ] kg
+      - Informante: [Mãe / Pai / Responsável: ]
       
       HISTÓRIA CLÍNICA:
-      - QP: Diarreia líquida e vômitos há [ ... ] dias.
-      - HMA: Quadro iniciado há [ ... ] dias com evacuações líquidas [ frequência: ... episódios nas últimas 24h, aspecto aquoso amarelado/esverdeado sem sangue ] e episódios de vômitos [ frequência: ... vezes/dia ].
+      - QP: Diarreia líquida e vômitos há [ ] dias.
+      - HMA: Quadro iniciado há [ ] dias com evacuações líquidas [ frequência: ... episódios nas últimas 24h, aspecto aquoso amarelado/esverdeado sem sangue ] e episódios de vômitos [ frequência: ... vezes/dia ].
       - Febre: [ Tax aferida no domicílio: ... °C / Afebril ].
       - Presença de Sangue / Muco nas Fezes: [ AUSENTE (Diarreia aquosa viral típica) / PRESENTE (Disenteria bacteriana - alerta para Shigella/Salmonella/Campylobacter) ].
       - Ingesta de Líquidos e Diurese: [ Bebendo líquidos normalmente / Sede aumentada, bebendo avidamente / Recusa total de líquidos / Incapaz de beber por vômitos ]. Diurese presente nas últimas 6h com fralda úmida.
@@ -497,7 +497,7 @@ matches:
       - Nega anúria por mais de 8 a 12 horas.
       
       EXAME FÍSICO & AVALIAÇÃO DO ESTADO DE HIDRATAÇÃO (OMS / MINISTÉRIO DA SAÚDE):
-      - Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C | TEC: [ ... ] segundos.
+      - Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C | TEC: [ ] segundos.
       - Tabela dos 4 Sinais Cardinais de Desidratação:
         1. Condição Geral / Sensório: [ Alerta e ativo (0) / Irritado, intranquilo (1) / Letárgico, sonolento ou comatoso (2) ].
         2. Olhos: [ Normais (0) / Fundos (1) / Muito fundos e secos (2) ].
@@ -570,16 +570,16 @@ matches:
       ATENDIMENTO PEDIÁTRICO - FEBRE SEM FOCO NO LACTENTE
       
       IDENTIFICAÇÃO & FAIXA ETÁRIA CRÍTICA:
-      - Lactente: [ ... ] | Idade: [ ... ] dias / meses | PESO ATUAL: [ ... ] kg
+      - Lactente: [ ] | Idade: [ ] dias / meses | PESO ATUAL: [ ] kg
       - FAIXA ETÁRIA CLÍNICA:
         [ ] REPARTO NEONATAL: Recém-nascido (< 28 dias de vida) - ALERTA MÁXIMO DE SEPSE NEONATAL.
         [ ] LACTENTE JOVEM: 29 a 90 dias de vida (1 a 3 meses).
         [ ] LACTENTE MAIOR: 3 a 36 meses.
-      - Informante: [ Mãe / Pai / Responsável: ... ]
+      - Informante: [Mãe / Pai / Responsável: ]
       
       HISTÓRIA DA FEBRE:
-      - Início do quadro há [ ... ] dias/horas.
-      - Temperatura máxima axilar aferida com termômetro: [ ... ] °C.
+      - Início do quadro há [ ] dias/horas.
+      - Temperatura máxima axilar aferida com termômetro: [ ] °C.
       - Frequência dos picos febris e resposta a antitérmicos: [ Febre cede com antitérmico e a criança reanima / Febre de difícil controle ].
       - Sintomas associados ativamente interrogados:
         * Sintomas respiratórios (tosse, coriza, espirros): [ Ausentes ].
@@ -596,10 +596,10 @@ matches:
       - Nega abaulamento da fontanela anterior.
       
       EXAME FÍSICO OBJETIVO:
-      - Sinais Vitais: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax no momento: [ ... ] °C | TEC: [ ... ] segundos (< 2s).
+      - Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax no momento: [ ] °C | TEC: [ ] segundos (< 2s).
       - Triângulo de Avaliação Pediátrica (TEP): Aparência [ normal / alterada ], Trabalho respiratório [ normal / aumentado ], Circulação cutânea [ normal / alterada ].
       - Ectoscopia Minuciosa: Estado geral [ BEG / REG / MEG ], corado, hidratado, anictérico, acianótico.
-        * Inspeção de Pele Completa (criança despida): [ Pele limpa, sem lesões elementares, sem petéquias ou exantemas purpúricos / Lesões presentes: ... ].
+        * Inspeção de Pele Completa (criança despida): [Pele limpa, sem lesões elementares, sem petéquias ou exantemas purpúricos / Lesões presentes: ].
         * Fontanela Anterior: [ Plana, normotensa, pulsátil fisiológica / Abaulada e tensa / Deprimida ].
       - Oroscopia & Otoscopia: Faringe e amígdalas sem alterações, membranas timpânicas translúcidas sem abaulamento.
       - Ausculta Pulmonar & Cardíaca: Murmúrio vesicular presente bilateralmente sem estertores; bulhas normofonéticas sem sopros.
@@ -647,16 +647,16 @@ matches:
       ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA - CRISE CONVULSIVA FEBRIL
       
       IDENTIFICAÇÃO:
-      - Paciente: [ ... ] | Idade: [ ... ] meses/anos (Faixa típica: 6 meses a 5 anos; pico aos 18 meses) | PESO ATUAL: [ ... ] kg
-      - Informante: [ Mãe / Pai / Responsável: ... ]
+      - Paciente: [ ] | Idade: [ ] meses/anos (Faixa típica: 6 meses a 5 anos; pico aos 18 meses) | PESO ATUAL: [ ] kg
+      - Informante: [Mãe / Pai / Responsável: ]
       
       CARACTERÍSTICAS DA CRISE CONVULSIVA:
-      - Horário da crise: [ ... ]h[ ... ]min | Duração estimada do evento: [ ... ] minutos (A imensa maioria dura < 3 a 5 min).
+      - Horário da crise: [ ]h[ ]min | Duração estimada do evento: [ ] minutos (A imensa maioria dura < 3 a 5 min).
       - Semiologia do Movimento:
         [ ] Crise Generalizada: Tônico-clônica bilateral simétrica, perda súbita de consciência, reviramento ocular para cima, sialorreia, liberação esfincteriana.
         [ ] Crise Focal: Abalos restritos a um hemicorpo ou membro, desvio conjugado do olhar para um lado.
       - Número de episódios nas últimas 24 horas: [ Episódio único / Recorrente: ... episódios no mesmo período febril ].
-      - Temperatura aferida durante ou imediatamente após a crise: Tax = [ ... ] °C.
+      - Temperatura aferida durante ou imediatamente após a crise: Tax = [ ] °C.
       - Foco Febril Identificado: [ IVAS / Otite Média Aguda / Exantema Súbito / Faringite viral / GECA / Sem foco evidente no momento ].
       - Antecedentes Pessoais & Familiares:
         * Histórico de convulsão febril prévia: [ Sim: ... episódios / Não - primeiro episódio ].
@@ -677,7 +677,7 @@ matches:
       - Nega letargia persistente ou incapacidade de interagir com os pais após 30 a 60 minutos do término da crise.
       
       EXAME FÍSICO OBJETIVO:
-      - Sinais Vitais pós-crise: FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C | Glicemia capilar no leito: [ ... ] mg/dL (Glicemia normal comprovada).
+      - Sinais Vitais pós-crise: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C | Glicemia capilar no leito: [ ] mg/dL (Glicemia normal comprovada).
       - Ectoscopia: Regular a bom estado geral, corado, hidratado, acianótico. Pele limpa, sem petéquias ou exantema purpúrico.
       - Avaliação Neurológica Pós-Ictal:
         * Nível de Consciência: [ Criança acordando progressivamente, reativa, reconhecendo os pais, chorando e interagindo normalmente / Período de sonolência pós-ictal fisiológico em resolução / Não reativa ].
@@ -725,34 +725,34 @@ matches:
 
   - trigger: ";ped-doses"
     replace: |
-      GUIA RÁPIDO DE PRESCRIÇÃO PEDIÁTRICA PONDERAL (PESO: [ ... ] kg)
+      GUIA RÁPIDO DE PRESCRIÇÃO PEDIÁTRICA PONDERAL (PESO: [ ] kg)
       
       1. ANTITÉRMICOS & ANALGÉSICOS (Doses por tomada):
       - Dipirona gotas (500 mg/mL = 25 mg/gota):
         * Dose: 10 a 15 mg/kg/dose a cada 6 horas se dor ou febre (Tax ≥ 37,8°C).
         * Regra prática rápida: **1 gota por kg de peso** (Dose máxima: 35 a 40 gotas = 1.000 mg por tomada).
-        * Prescrição para [ ... ] kg: Dar [ ... ] gotas VO até de 6/6h.
+        * Prescrição para [ ] kg: Dar [ ] gotas VO até de 6/6h.
       
       - Paracetamol gotas (200 mg/mL = 10 mg/gota):
         * Dose: 10 a 15 mg/kg/dose a cada 6 horas se dor ou febre.
         * Regra prática rápida: **1 gota por kg de peso** (Dose máxima: 35 gotas = 750 mg por tomada; máx 5 tomadas/dia).
-        * Prescrição para [ ... ] kg: Dar [ ... ] gotas VO até de 6/6h.
+        * Prescrição para [ ] kg: Dar [ ] gotas VO até de 6/6h.
       
       - Ibuprofeno gotas (100 mg/mL = 5 mg/gota - APENAS SE > 6 MESES):
         * Dose: 5 a 10 mg/kg/dose a cada 8 horas.
         * Regra prática: **1 a 2 gotas por kg** (Dose máxima: 40 gotas = 200 mg por tomada).
-        * Prescrição para [ ... ] kg: Dar [ ... ] gotas VO até de 8/8h.
+        * Prescrição para [ ] kg: Dar [ ] gotas VO até de 8/8h.
       
       2. CORTICOIDES SISTÊMICOS (Dose por dia):
       - Prednisolona solução oral (3 mg/mL):
         * Dose: 1 a 2 mg/kg/dia por 3 a 5 dias pela manhã (Dose máx: 40 a 60 mg/dia).
         * Cálculo em mL: **Peso x 0,33 a 0,66 mL ao dia**.
-        * Prescrição para [ ... ] kg: Tomar [ ... ] mL VO 1x ao dia pela manhã por [ 3 a 5 ] dias.
+        * Prescrição para [ ] kg: Tomar [ ] mL VO 1x ao dia pela manhã por [ 3 a 5 ] dias.
       
       - Dexametasona elixir (0,1 mg/mL - Crupe Viral / Laringite):
         * Dose: 0,15 a 0,6 mg/kg dose única VO (Dose máx: 10 a 16 mg).
         * Cálculo em mL: **Peso x 1,5 a 6 mL dose única**.
-        * Prescrição para [ ... ] kg: Tomar [ ... ] mL VO em dose única.
+        * Prescrição para [ ] kg: Tomar [ ] mL VO em dose única.
       
       3. BRONCODILATADORES (Crise de Asma / Sibilância):
       - Salbutamol spray aerossol dosimetrado (100 mcg/jato):
@@ -763,12 +763,12 @@ matches:
       - Amoxicilina suspensão (250 mg/5 mL = 50 mg/mL):
         * Dose padrão (50 mg/kg/dia dividida de 8/8h):
           - Fórmula rápida em mL: **Peso ÷ 3 mL por tomada de 8/8h** por 7 a 10 dias.
-          - Prescrição para [ ... ] kg: Tomar [ ... ] mL VO de 8 em 8 horas.
+          - Prescrição para [ ] kg: Tomar [ ] mL VO de 8 em 8 horas.
       
       - Amoxicilina suspensão (400 mg/5 mL = 80 mg/mL):
         * Dose alta dobrada (90 mg/kg/dia dividida de 12/12h para OMA grave/creche):
           - Fórmula rápida em mL: **Peso x 0,56 mL por tomada de 12/12h** por 10 dias.
-          - Prescrição para [ ... ] kg: Tomar [ ... ] mL VO de 12 em 12 horas.
+          - Prescrição para [ ] kg: Tomar [ ] mL VO de 12 em 12 horas.
       
       - Amoxicilina + Clavulanato suspensão (400 mg + 57 mg / 5 mL):
         * Dose de 50 mg/kg/dia de amoxicilina de 12/12h: **Peso x 0,31 mL de 12/12h**.
@@ -777,12 +777,12 @@ matches:
       - Cefalexina suspensão (250 mg/5 mL = 50 mg/mL - Pele/Urina):
         * Dose: 50 mg/kg/dia dividida de 6/6h por 7 a 10 dias.
         * Fórmula rápida em mL: **Peso ÷ 4 mL por tomada de 6/6h**.
-        * Prescrição para [ ... ] kg: Tomar [ ... ] mL VO de 6 em 6 horas.
+        * Prescrição para [ ] kg: Tomar [ ] mL VO de 6 em 6 horas.
       
       - Azitromicina suspensão (200 mg/5 mL = 40 mg/mL):
         * Dose: 10 mg/kg/dia 1x ao dia durante 3 a 5 dias (Dose máx: 500 mg = 12,5 mL).
         * Fórmula rápida em mL: **Peso ÷ 4 mL 1x ao dia**.
-        * Prescrição para [ ... ] kg: Tomar [ ... ] mL VO 1x ao dia por [ ... ] dias.
+        * Prescrição para [ ] kg: Tomar [ ] mL VO 1x ao dia por [ ] dias.
       
       5. ANTIEMÉTICOS (Ondansetrona oral):
       - Ondansetrona solução oral (2 mg/mL) ou comp. orodispersível: Dose: 0,15 mg/kg/dose:

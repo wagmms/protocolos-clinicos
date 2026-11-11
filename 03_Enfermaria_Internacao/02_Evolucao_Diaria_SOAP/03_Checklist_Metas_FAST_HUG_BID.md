@@ -6,11 +6,11 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 CHECKLIST DE METAS DIÁRIAS & SEGURANÇA DO PACIENTE INTERNADO (FAST HUG BID)
 
 IDENTIFICAÇÃO:
-- Leito: [ ... ] | Paciente: [ ... ] | Idade: [ ... ] anos | D_[ ... ] de internação
+- Leito: [ ] | Paciente: [ ] | Idade: [ ] anos | D_[ ] de internação
 
 AVALIAÇÃO DO BUNDLE DIÁRIO (10 PONTOS):
 
@@ -20,14 +20,14 @@ F - FEEDING (Nutrição e Dieta):
 - Meta calórico-proteica: [ Atingida / Em ajuste / Meta: 25-30 kcal/kg/dia ].
 
 A - ANALGESIA (Controle da Dor):
-- Escala de Dor (EVA 0 a 10): [ 0 - Sem dor / [ ... ] pontos em região [ ... ] ].
+- Escala de Dor (EVA 0 a 10): [ 0 - Sem dor / [ ] pontos em região [ ] ].
 - Esquema de analgesia: [ Multimodal com analgésicos simples / Adicionado AINE se sem contraindicações / Opioide fraco de resgate ].
 - Eficácia: [ Dor controlada sem sedação excessiva ou retenção urinária / Ajustado esquema ].
 
 S - SEDATION / SENSORIUM (Avaliação Neurológica & Delirium):
 - Nível de consciência e sensório: [ Alerta, lúcido, orientado (Glasgow 15) / Torporoso / Sonolento ].
 - Rastreio de Delirium (CAM-ICU): [ NEGATIVO - sem delirium / POSITIVO - iniciado protocolo não-farmacológico de manejo do delirium ].
-- Sedação contínua (se aplicável): [ Escala RASS = [ ... ] / Em desmame / Não em uso de sedação ].
+- Sedação contínua (se aplicável): [ Escala RASS = [ ] / Em desmame / Não em uso de sedação ].
 
 T - THROMBOPROPHYLAXIS (Profilaxia de TEV):
 - Estratificação de risco: [ Alto risco (Pádua ≥ 4 ou Caprini ≥ 3) / Baixo risco ].
@@ -43,23 +43,23 @@ U - ULCER PROPHYLAXIS (Profilaxia de Úlcera de Estresse):
 
 G - GLYCEMIC CONTROL (Controle Glicêmico):
 - Alvo glicêmico para paciente internado: **140 a 180 mg/dL**.
-- Variação glicêmica nas últimas 24h: Mínima [ ... ] mg/dL | Máxima [ ... ] mg/dL.
+- Variação glicêmica nas últimas 24h: Mínima [ ] mg/dL | Máxima [ ] mg/dL.
 - Conduta: [ Sem episódios de hipoglicemia (< 70 mg/dL) / Esquema basal-bólus ajustado / Glicemias capilares dentro da meta ].
 
 B - BOWEL MOVEMENT (Hábito Intestinal):
-- Última evacuação: [ Hoje / Ontem / Há [ ... ] dias ].
+- Última evacuação: [ Hoje / Ontem / Há [ ] dias ].
 - Aspecto das fezes: [ Normais (Escala de Bristol 3-4) / Ressecadas Bristol 1-2 / Diarreicas Bristol 6-7 ].
 - Conduta: [ Trânsito intestinal fisiológico preservado / Prescrito laxativo osmótico (Lactulose ou PEG 4000) por constipação / Avaliada suspensão de drogas constipantes ].
 
 I - INDWELLING CATHETERS (Auditoria Diária de Dispositivos Invasivos):
-- Acesso Venoso: [ Periférico em MSD D[ ... ] sem sinais flogísticos / Central (CVC) D[ ... ] sítio limpo / Programada retirada ].
+- Acesso Venoso: [ Periférico em MSD D[ ] sem sinais flogísticos / Central (CVC) D[ ] sítio limpo / Programada retirada ].
 - Sonda Vesical de Demora (SVD): [ Retirada hoje para prevenir ITU-AC / Mantida estritamente por monitorização hemodinâmica horária ].
 - Drenos e Cateteres: [ Checados, pérvios e com indicação mantida / Sacados no leito hoje ].
 
 D - DE-ESCALATION (Descalonamento & Desospitalização):
-- Antibioticoterapia: [ Culturas negativas / Mantido esquema / Descalonado para espectro estreito / Programado switch para VO / Término hoje em D[ ... ] ].
+- Antibioticoterapia: [ Culturas negativas / Mantido esquema / Descalonado para espectro estreito / Programado switch para VO / Término hoje em D[ ] ].
 - Desmame de Oxigênio: [ Já em ar ambiente com SpO2 estável / Em redução progressiva de fluxo ].
-- Metas de Desospitalização: [ Critérios de alta estabelecidos com equipe multidisciplinar; previsão de alta hospitalar em [ ... ] horas ].
+- Metas de Desospitalização: [ Critérios de alta estabelecidos com equipe multidisciplinar; previsão de alta hospitalar em [ ] horas ].
 ```
 
 ---

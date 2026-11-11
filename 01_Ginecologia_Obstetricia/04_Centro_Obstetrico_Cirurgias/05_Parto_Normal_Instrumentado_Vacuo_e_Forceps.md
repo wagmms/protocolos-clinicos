@@ -18,15 +18,15 @@
 - Data e Hora do Parto: [DD/MM/AAAA] às [HH:MM]
 
 # VERIFICAÇÃO OBRIGATÓRIA DAS CONDIÇÕES DE APLICABILIDADE (CHECKLIST PRÉVIO):
-[X] 1. Feto vivo em apresentação cefálica fletida (vértice).
-[X] 2. Dilatação cervical completa (10 cm) com apagamento total do colo.
-[X] 3. Amniotomia confirmada (bolsa rota).
-[X] 4. Apresentação fetal insinuada e baixa: polo cefálico no plano [+2 / +3] de De Lee.
-[X] 5. Variedade de posição fetal precisamente diagnosticada: [OP / OEA / ODA / OET / OEP].
-[X] 6. Bacia óssea clinicamente proporcional (ausência de desproporção céfalo-pélvica clínica).
-[X] 7. Bexiga materna esvaziada através de sondagem vesical de alívio.
-[X] 8. Analgesia/anestesia adequada da paciente [raquianestesia / bloqueio de nervo pudendo bilateral com Lidocaína 2%].
-[X] 9. Consentimento informado e equipe neonatal em sala de parto.
+[ ] 1. Feto vivo em apresentação cefálica fletida (vértice).
+[ ] 2. Dilatação cervical completa (10 cm) com apagamento total do colo.
+[ ] 3. Amniotomia confirmada (bolsa rota).
+[ ] 4. Apresentação fetal insinuada e baixa: polo cefálico no plano [+2 / +3] de De Lee.
+[ ] 5. Variedade de posição fetal precisamente diagnosticada: [OP / OEA / ODA / OET / OEP].
+[ ] 6. Bacia óssea clinicamente proporcional (ausência de desproporção céfalo-pélvica clínica).
+[ ] 7. Bexiga materna esvaziada através de sondagem vesical de alívio.
+[ ] 8. Analgesia/anestesia adequada da paciente [raquianestesia / bloqueio de nervo pudendo bilateral com Lidocaína 2%].
+[ ] 9. Consentimento informado e equipe neonatal em sala de parto.
 
 # [MODALIDADE A]: TÉCNICA COM VÁCUO EXTRATOR (VENTOSA)
 1. Paciente em posição ginecológica, esvaziamento vesical prévio por cateterismo de alívio.

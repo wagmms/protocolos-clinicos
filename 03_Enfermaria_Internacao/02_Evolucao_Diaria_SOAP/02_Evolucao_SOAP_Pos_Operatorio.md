@@ -6,29 +6,29 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 EVOLUÇÃO MÉDICA DIÁRIA - PÓS-OPERATÓRIO (SOAP)
 
 MANCHETE DA VISITA:
-- Paciente: [ ... ] | Idade: [ ... ] anos | Leito: [ ... ]
-- Procedimento Realizado: [ ... ] (Técnica: [ Laparoscópica / Aberta / Ortopédica ])
-- Tempo Pós-Operatório: [ ... ]º dia pós-operatório (DPO)
+- Paciente: [ ] | Idade: [ ] anos | Leito: [ ]
+- Procedimento Realizado: [ ] (Técnica: [ Laparoscópica / Aberta / Ortopédica ])
+- Tempo Pós-Operatório: [ ]º dia pós-operatório (DPO)
 - Especialidade: [ Cirurgia Geral / Ortopedia / Urologia / Vascular / Plástica ]
 
 S - SUBJETIVO:
 - Estado Geral Referido: Passou a noite [ bem, com boa adaptação / com queixa de ... ].
-- Dor Pós-Operatória (Escala EVA 0 a 10): [ ... ] em [ sítio cirúrgico / dor referida ], [ bem controlada com analgesia em curso / com necessidade de resgate opioide ocasional ].
+- Dor Pós-Operatória (Escala EVA 0 a 10): [ ] em [ sítio cirúrgico / dor referida ], [ bem controlada com analgesia em curso / com necessidade de resgate opioide ocasional ].
 - Tolerância Alimentar & Trânsito Digestivo:
   * Dieta atual: [ Líquida restrita / Líquida completa / Pastosa / Branda / Geral ].
   * Aceitação da dieta: [ Boa aceitação, nega náuseas ou plenitude gástrica precoce / Nega vômitos / Episódio isolado de náusea responsivo a ondansetrona ].
   * Eliminações: Flatos [ presentes e frequentes / ausentes ]; Evacuação [ presente, fezes habituais / ausente desde a cirurgia, sem distensão ou dor em cólica ].
 - Mobilidade e Deambulação: [ Já deambulando no corredor com auxílio / Deambulação independente / Restrito ao leito por orientação cirúrgica ].
-- Diurese: [ Espontânea, clara, bom débito sem disúria / SVD mantida com débito claro [ ... ] ml/24h ].
+- Diurese: [ Espontânea, clara, bom débito sem disúria / SVD mantida com débito claro [ ] ml/24h ].
 
 O - OBJETIVO:
 - Sinais Vitais & Curvas das Últimas 24h:
-  * PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente
-  * Curva Térmica: Tax máx 24h: [ ... ] °C (Afebril nas últimas 24h)
+  * PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente
+  * Curva Térmica: Tax máx 24h: [ ] °C (Afebril nas últimas 24h)
   * Balanço Hídrico das 24h: [ Positivo em ... ml / Negativo em ... ml / Diurese total: ... ml ].
 - Ectoscopia: Consciente, orientado, eupnéico em ar ambiente, mucosas coradas e hidratadas, anictérico, perfusão capilar periférica < 2 segundos.
 - Exame Respiratório: Expansibilidade torácica preservada bilateralmente. Murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Sem esforço ventilatório.
@@ -44,12 +44,12 @@ O - OBJETIVO:
   * Secreção: [ Ausência de secreção / Discreta secreção serosa fisiológica contida / Sem secreção purulenta ou fétida ].
 - Avaliação de Drenos Cirúrgicos:
   * Dreno [ Tipo: Portovac / Blake / Tubular Penrose / Sem drenos ]:
-  * Débito nas últimas 24h: [ ... ] mL.
+  * Débito nas últimas 24h: [ ] mL.
   * Aspecto do líquido drenado: [ Sero-hemático límpido / Seroso claro / Bilioso / Sem grumos ou secreção purulenta ].
 - Extremidades: Pulsos periféricos amplos e simétricos. Sem edema de membros inferiores, panturrilhas livres e indolores à palpação/dorsiflexão (Homans negativo).
 
 A - AVALIAÇÃO:
-1. Pós-operatório de [ Procedimento ] em [ ... ]º DPO evoluindo de forma [ favorável e dentro do esperado / com intercorrência: ... ].
+1. Pós-operatório de [ Procedimento ] em [ ]º DPO evoluindo de forma [favorável e dentro do esperado / com intercorrência: ].
 2. Retorno do trânsito gastrointestinal: [ Confirmado com presença de RHA e flatos / Aguardando evacuação ].
 3. Débito de drenos: [ Em curva descendente favorável / Dentro dos critérios para retirada de dreno ].
 4. Controle álgico: [ Eficaz com esquema multimodal via oral / Necessitando de ajustes ].
@@ -63,7 +63,7 @@ P - PLANO (CONDUTA DO DPO):
 4. Profilaxia de TEV: Enoxaparina 40mg SC 1x/dia mantida + estímulo vigoroso à deambulação ativa.
 5. Manejo de Ferida & Drenos:
    - Manter curativo diário com soro fisiológico e clorexidina degermante se troca.
-   - [ Programada retirada de dreno hoje se débito < [ ... ] ml/24h / Manter dreno em observação ].
+   - [ Programada retirada de dreno hoje se débito < [ ] ml/24h / Manter dreno em observação ].
    - [ Programada retirada de sonda vesical de demora ].
 6. Previsão de Alta Hospitalar: [ Programada alta hospitalar para amanhã com receitas e orientações domiciliares / Alta hoje com encaminhamento ambulatorial ].
 ```

@@ -6,16 +6,16 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA - BRONQUIOLITE VIRAL AGUDA (BVA)
 
 IDENTIFICAÇÃO:
-- Lactente: [ ... ] | Idade: [ ... ] meses (< 2 anos; pico 2 a 6 meses) | PESO ATUAL: [ ... ] kg
-- Informante: [ Mãe / Pai / Responsável: ... ]
+- Lactente: [ ] | Idade: [ ] meses (< 2 anos; pico 2 a 6 meses) | PESO ATUAL: [ ] kg
+- Informante: [Mãe / Pai / Responsável: ]
 
 HISTÓRIA CLÍNICA:
-- QP: Cansaço para respirar, tosse e chiado no peito há [ ... ] dias.
-- HMA: Lactente com história de pródromo de infecção de vias aéreas superiores há 2 a 4 dias (coriza hialina, espirros e febre baixa de [ ... ] °C), que evoluiu nas últimas 24-48 horas com tosse persistente, taquipneia progressiva e sibilância audível.
+- QP: Cansaço para respirar, tosse e chiado no peito há [ ] dias.
+- HMA: Lactente com história de pródromo de infecção de vias aéreas superiores há 2 a 4 dias (coriza hialina, espirros e febre baixa de [ ] °C), que evoluiu nas últimas 24-48 horas com tosse persistente, taquipneia progressiva e sibilância audível.
 - Primeiro Episódio: [ SIM - Primeiro episódio de sibilância na vida (BVA típica) / Não - história de sibilância prévia recorrente ].
 - Fatores de Risco de Gravidade: [ Prematuridade (< 37 semanas) / Idade < 12 semanas (3 meses) / Cardiopatia congênita / Doença pulmonar crônica da prematuridade / Nega fatores de risco ].
 - Ingesta Alimentar & Hidratação: [ Aceitando seio/mamadeira com pausas frequentes para respirar / Recusa alimentar parcial (> 50% de redução da ingesta) / Recusa alimentar importante ]. Diurese presente nas últimas 6h.
@@ -28,15 +28,15 @@ NEGATIVAS MANDATÓRIAS PEDIÁTRICAS:
 
 EXAME FÍSICO OBJETIVO:
 - Sinais Vitais:
-  * FR: [ ... ] irpm (Atenção se FR ≥ 60 irpm no lactente jovem)
-  * SpO2: [ ... ]% em ar ambiente (Alvo ≥ 90-92%)
-  * FC: [ ... ] bpm | Tax: [ ... ] °C | TEC: [ ... ] segundos (< 2s).
+  * FR: [ ] irpm (Atenção se FR ≥ 60 irpm no lactente jovem)
+  * SpO2: [ ]% em ar ambiente (Alvo ≥ 90-92%)
+  * FC: [ ] bpm | Tax: [ ] °C | TEC: [ ] segundos (< 2s).
 - Ectoscopia: Estado geral [ REG / MEG ], [ irritável / hipoativo ], corado, [ hidratado / desidratação leve ], sem cianose central.
 - Aparelho Respiratório & Avaliação do Desconforto:
   * Murmúrio vesicular presente bilateralmente, tempo expiratório prolongado.
   * Ruídos adventícios: Presença de [ sibilos expiratórios difusos e estertores subcrepitantes/crepitantes esparsos ].
   * Sinais de esforço respiratório: [ Ausentes / Tiragem intercostal leve / Tiragem subcostal evidente / Batimento de asa de nariz / Balanço tóraco-abdominal / Gemência respiratória ].
-- Escore de Wood-Downes Modificado: [ ... ] pontos (Classificação: [ Leve (1-3) / Moderada (4-7) / Grave (8-14) ]).
+- Escore de Wood-Downes Modificado: [ ] pontos (Classificação: [ Leve (1-3) / Moderada (4-7) / Grave (8-14) ]).
 - Aparelho Cardiovascular: Ritmo cardíaco regular em 2T, bulhas normofonéticas, sem sopros. Pulsos simétricos.
 - Abdome: Flácido, [ fígado palpável a 1-2 cm do RCD por rebaixamento diafragmático fisiológico da hiperinsuflação / sem visceromegalias verdadeiras ].
 

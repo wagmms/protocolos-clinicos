@@ -6,20 +6,20 @@ matches:
       ADMISSÃO EM ENFERMARIA DE CLÍNICA MÉDICA
       
       IDENTIFICAÇÃO & ORIGEM:
-      - Paciente: [ ... ] | Idade: [ ... ] anos | Sexo: [ ... ] | Leito: [ ... ]
+      - Paciente: [ ] | Idade: [ ] anos | Sexo: [ ] | Leito: [ ]
       - Origem da Admissão: [ Pronto Atendimento / UPA / Transferência Hospitalar / Ambulatório ]
-      - Data e Hora da Admissão: [ ... ]/[ ... ]/[ ... ] às [ ... ]h[ ... ]min
-      - Diagnóstico Sindrômico / Motivo da Internação: [ ... ]
+      - Data e Hora da Admissão: [ ]/[ ]/[ ] às [ ]h[ ]min
+      - Diagnóstico Sindrômico / Motivo da Internação: [ ]
       
       HISTÓRIA DA ADMISSÃO:
-      - HMA: Paciente admitido nesta enfermaria proveniente de [ ... ] com quadro de [ ... ], com início há [ ... ] dias, caracterizado por [ ... ]. No serviço de origem recebeu [ medidas/medicações prévias: ... ]. Nega piora aguda no momento da admissão no leito.
+      - HMA: Paciente admitido nesta enfermaria proveniente de [ ] com quadro de [ ], com início há [ ] dias, caracterizado por [ ]. No serviço de origem recebeu [medidas/medicações prévias: ]. Nega piora aguda no momento da admissão no leito.
       - Negativas de Gravidade Mandatórias: Nega no momento precordialgia típica, dispneia em repouso, febre aguda referida, síncope, déficits motores focais ou hemorragias visíveis ativas.
       
       ANTECEDENTES PESSOAIS & COMORBIDADES:
-      - Comorbidades ativas: [ HAS / DM tipo 2 / DLP / Insuficiência Cardíaca / DPOC / Asma / DRC estágio [ ... ] / Doença Hepática / Neoplasia: [ ... ] / Nega comorbidades ].
-      - Cirurgias prévias: [ ... ]
+      - Comorbidades ativas: [ HAS / DM tipo 2 / DLP / Insuficiência Cardíaca / DPOC / Asma / DRC estágio [ ] / Doença Hepática / Neoplasia: [ ] / Nega comorbidades ].
+      - Cirurgias prévias: [ ]
       - Alergias medicamentosas: [ NÃO RELATA / SIM: ... (Alerta visual acionado) ]
-      - Hábitos de vida: Tabagismo [ Nega / Ex-tabagista há [ ... ] anos / Ativo: [ ... ] maços-ano ] | Etilismo [ Nega / Social / Crônico: [ ... ] ] | Drogas ilícitas: [ Nega / Sim: [ ... ] ].
+      - Hábitos de vida: Tabagismo [ Nega / Ex-tabagista há [ ] anos / Ativo: [ ] maços-ano ] | Etilismo [ Nega / Social / Crônico: [ ] ] | Drogas ilícitas: [ Nega / Sim: [ ] ].
       
       RECONCILIAÇÃO MEDICAMENTOSA DE ADMISSÃO (USO PRÉVIO):
       - Medicações de uso domiciliar contínuo:
@@ -28,20 +28,20 @@ matches:
         3. [ Medicamento, dose e posologia ] -> [ MANTER / SUSPENDER TEMPORARIAMENTE / SUBSTITUIR ]
       
       EXAME FÍSICO ADMISSIONAL:
-      - Sinais Vitais: PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% (em ar ambiente / sob cateter O2 [ ... ] L/min) | Tax: [ ... ] °C | Glicemia capilar: [ ... ] mg/dL.
+      - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% (em ar ambiente / sob cateter O2 [ ] L/min) | Tax: [ ] °C | Glicemia capilar: [ ] mg/dL.
       - Ectoscopia Geral: Estado geral [ BEG / REG / MEG ], consciente e orientado no tempo e espaço (Glasgow 15). Mucosas [ coradas / descoradas +/4+ ], [ hidratadas / desidratadas +/4+ ], [ anictéricas / ictéricas +/4+ ], [ acianóticas ]. Perfusão periférica preservada (tempo de enchimento capilar < 2s).
       - Aparelho Cardiovascular: Ictus cordis não visível, palpável no 5º EIC na linha hemiclavicular esquerda. Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas (B1 e B2), sem sopros patológicos audíveis ou atritos pericárdicos. Pulsos periféricos amplos e simétricos. Sem turgência jugular patológica a 45°.
-      - Aparelho Respiratório: Tórax simétrico, expansibilidade preservada bilateralmente. Murmúrio vesicular universalmente audível, [ sem ruídos adventícios / presença de crepitações em base [ ... ] / sibilos esparsos ]. Sem tiragem intercostal ou esforço respiratório.
+      - Aparelho Respiratório: Tórax simétrico, expansibilidade preservada bilateralmente. Murmúrio vesicular universalmente audível, [ sem ruídos adventícios / presença de crepitações em base [ ] / sibilos esparsos ]. Sem tiragem intercostal ou esforço respiratório.
       - Abdome: Plano/Globoso, simétrico, flácido, indolor à palpação superficial e profunda. Ausência de visceromegalias palpáveis (fígado e baço não palpáveis). Ruídos hidroaéreos presentes e normoativos em todos os 4 quadrantes. Sem massas palpáveis. Sinais peritoneais ausentes (Blumberg, Murphy e Giordano negativos).
       - Extremidades: Pulsos periféricos (radiais, tibiais posteriores e pediosos) palpáveis e simétricos. [ Ausência de edema / Edema de MMII +/4+ simétrico, frio, indolor ]. Panturrilhas livres, empastamento muscular negativo bilateralmente (Homans negativo).
       - Pele & Avaliação de Dispositivos na Admissão:
-        * Pele íntegra, sem lesões por pressão ativas (Escala de Braden: [ ... ] pontos - Risco [ Baixo / Moderado / Alto ]).
-        * Acesso venoso periférico: [ MSD / MSE ], jelco nº [ ... ], inserido em [ ... ]/[ ... ], pérvio, sítio limpo e sem sinais flogísticos (dor, rubor, edema ou saída de secreção).
+        * Pele íntegra, sem lesões por pressão ativas (Escala de Braden: [ ] pontos - Risco [ Baixo / Moderado / Alto ]).
+        * Acesso venoso periférico: [ MSD / MSE ], jelco nº [ ], inserido em [ ]/[ ], pérvio, sítio limpo e sem sinais flogísticos (dor, rubor, edema ou saída de secreção).
         * Outros dispositivos: [ SVD / SNE / Oxigenoterapia / Sem outros dispositivos ].
       
       ESTRATIFICAÇÃO DE RISCO CLÍNICO NA ADMISSÃO:
       - Risco de Quedas (Escala de Morse): [ Baixo risco (0-24) / Médio risco (25-50) / Alto risco (≥51) ] -> [ Adotadas pulseira de identificação e grades do leito elevadas ].
-      - Risco de Tromboembolismo Venoso (Escore de Pádua): [ ... ] pontos (Baixo risco < 4 pontos / Alto risco ≥ 4 pontos).
+      - Risco de Tromboembolismo Venoso (Escore de Pádua): [ ] pontos (Baixo risco < 4 pontos / Alto risco ≥ 4 pontos).
         * Conduta TEV: [ Profilaxia farmacológica com Enoxaparina 40mg SC 1x/dia indicada / Apenas deambulação precoce / Profilaxia mecânica por alto risco de sangramento ].
       
       HIPÓTESES DIAGNÓSTICAS (HD):
@@ -63,32 +63,32 @@ matches:
       ADMISSÃO EM ENFERMARIA CIRÚRGICA
       
       IDENTIFICAÇÃO & CENÁRIO:
-      - Paciente: [ ... ] | Idade: [ ... ] anos | Sexo: [ ... ] | Leito: [ ... ]
+      - Paciente: [ ] | Idade: [ ] anos | Sexo: [ ] | Leito: [ ]
       - Especialidade Responsável: [ Cirurgia Geral / Ortopedia / Urologia / Vascular / Plástica / Torácica ]
       - Modalidade: [ PRÉ-OPERATÓRIO (Eletivo / Urgência) / PÓS-OPERATÓRIO IMEDIATO (Recepcionado do Bloco / SRPA) ]
-      - Data e Hora da Admissão no Leito: [ ... ]/[ ... ]/[ ... ] às [ ... ]h[ ... ]min
+      - Data e Hora da Admissão no Leito: [ ]/[ ]/[ ] às [ ]h[ ]min
       
       [ ] CENÁRIO A: ADMISSÃO PRÉ-OPERATÓRIA:
-      - Procedimento cirúrgico programado: [ ... ]
-      - HMA / Indicação cirúrgica: [ ... ]
-      - Tempo de jejum atual: Líquidos claros [ ... ] horas | Alimentos sólidos [ ... ] horas (Mínimo preconizado: 2h líquidos claros / 6-8h sólidos).
-      - Antecedentes e Comorbidades: [ HAS / DM / DAC / Nega ] | Cirurgias prévias: [ ... ]
-      - Alergias medicamentosas/látex: [ NEGA / SIM: ... ]
+      - Procedimento cirúrgico programado: [ ]
+      - HMA / Indicação cirúrgica: [ ]
+      - Tempo de jejum atual: Líquidos claros [ ] horas | Alimentos sólidos [ ] horas (Mínimo preconizado: 2h líquidos claros / 6-8h sólidos).
+      - Antecedentes e Comorbidades: [ HAS / DM / DAC / Nega ] | Cirurgias prévias: [ ]
+      - Alergias medicamentosas/látex: [NEGA / SIM: ]
       - Avaliação Pré-Anestésica (APA): Classificação ASA [ I / II / III / IV ] | Mallampati [ I / II / III / IV ].
       - Termo de Consentimento Livre e Esclarecido (TCLE): Assinado e anexado ao prontuário.
       - Reserva de hemoderivados / UTI: [ Solicitada e confirmada / Não necessária ].
-      - Exames pré-operatórios checados: Hb/Ht: [ ... ] | Plaquetas: [ ... ] | TAP/INR: [ ... ] | Creatinina: [ ... ] | ECG: [ ... ] | RX Tórax: [ ... ].
+      - Exames pré-operatórios checados: Hb/Ht: [ ] | Plaquetas: [ ] | TAP/INR: [ ] | Creatinina: [ ] | ECG: [ ] | RX Tórax: [ ].
       - Preparo cirúrgico no leito: Acesso venoso pérvio MSD/MSE; banho pré-operatório realizado; próteses dentárias/adornos retirados; tricotomia realizada apenas com tricotomizador imediatamente antes da cirurgia (se estritamente necessária).
       
       [ ] CENÁRIO B: ADMISSÃO PÓS-OPERATÓRIA IMEDIATA (VINDO DA SRPA):
-      - Procedimento cirúrgico realizado: [ ... ] (Técnica: [ Aberta / Laparoscópica / Artroscópica / Endoscópica ])
-      - Horário de término da cirurgia: [ ... ]h[ ... ] | Horário de saída da SRPA: [ ... ]h[ ... ]
+      - Procedimento cirúrgico realizado: [ ] (Técnica: [ Aberta / Laparoscópica / Artroscópica / Endoscópica ])
+      - Horário de término da cirurgia: [ ]h[ ] | Horário de saída da SRPA: [ ]h[ ]
       - Tipo de anestesia: [ Geral balanceada / Raquianestesia / Peridural / Sedação + Bloqueio periférico / Local ].
-      - Intercorrências no intraoperatório: [ Nega intercorrências / Sangramento estimado: [ ... ] ml / Hipotensão responsiva a volume ].
+      - Intercorrências no intraoperatório: [ Nega intercorrências / Sangramento estimado: [ ] ml / Hipotensão responsiva a volume ].
       - Condição de alta da SRPA: Escala de Aldrete e Kroulik = [ 9 ou 10 ] | Escala de Bromage (bloqueio motor) = [ 0 - sem bloqueio motor ].
       
       EXAME FÍSICO NA ADMISSÃO NO LEITO:
-      - Sinais Vitais: PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C | Dor (EVA 0-10): [ ... ].
+      - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C | Dor (EVA 0-10): [ ].
       - Ectoscopia: Consciente, orientado, lúcido, comunicativo (Glasgow 15). Mucosas coradas, hidratadas, anictéricas, perfusão periférica < 2s.
       - Respiratório: Murmúrio vesicular presente bilateralmente, sem ruídos adventícios, sem desconforto respiratório.
       - Cardiovascular: Ritmo cardíaco regular em 2T, bulhas normofonéticas, sem sopros. Pulsos simétricos.
@@ -97,19 +97,19 @@ matches:
         * Curativo oclusivo [ limpo e seco / com discreto exsudato sero-hemático contido ], sem sangramento ativo, sem hematoma ou hiperemia perilesional.
       - Drenos Cirúrgicos:
         * Tipo de dreno: [ Ausente / Portovac / Blake / Tubular de Penrose / Dreno de Tórax em selo d'água ].
-        * Local de saída: [ ... ] | Débito aferido no leito: [ ... ] ml de aspecto [ sero-hemático / seroso / bilioso / purulento ].
+        * Local de saída: [ ] | Débito aferido no leito: [ ] ml de aspecto [ sero-hemático / seroso / bilioso / purulento ].
       - Diurese e Dispositivos:
-        * [ Micção espontânea presente / Sonda Vesical de Demora (SVD) em sistema fechado, débito claro [ ... ] ml ].
+        * [ Micção espontânea presente / Sonda Vesical de Demora (SVD) em sistema fechado, débito claro [ ] ml ].
         * Acesso Venoso Periférico: Calibroso, sem sinais de infiltração ou flebite.
       
       ESTRATIFICAÇÃO DE RISCO CIRÚRGICO DE TEV (ESCORE DE CAPRINI):
-      - Pontuação total do Escore de Caprini: [ ... ] pontos.
+      - Pontuação total do Escore de Caprini: [ ] pontos.
       - Categoria de risco: [ Muito baixo (0) / Baixo (1-2) / Moderado (3-4) / Alto risco (≥ 5) ].
       - Conduta TEV adotada: [ Deambulação precoce / Meia de compressão / Enoxaparina 40mg SC 1x/dia iniciada 12h pós-operatório conforme protocolo cirúrgico ].
       
       PLANO & PRESCRIÇÃO PÓS-OPERATÓRIA IMEDIATA:
       1. Dieta: [ Jejum até avaliação do cirurgião / Dieta líquida restrita nas primeiras horas / Dieta branda se tolerância ].
-      2. Hidratação venosa: [ SF 0,9% ou SG 5% + KCL 10% a [ ... ] ml/h para manutenção volumétrica ].
+      2. Hidratação venosa: [ SF 0,9% ou SG 5% + KCL 10% a [ ] ml/h para manutenção volumétrica ].
       3. Analgesia Multimodal Pós-Operatória:
          - Dipirona 1g EV a cada 6 horas (base analgésica).
          - Cetoprofeno 100mg EV a cada 12 horas (se função renal normal e sem contraindicações hemorrágicas).
@@ -122,10 +122,10 @@ matches:
       EVOLUÇÃO MÉDICA DIÁRIA - CLÍNICA MÉDICA (SOAP)
       
       MANCHETE DA VISITA:
-      - Paciente: [ ... ] | Idade: [ ... ] anos | Leito: [ ... ]
-      - Tempo de Internação: [ ... ]º dia de internação (DI)
-      - Diagnóstico Principal: [ ... ]
-      - Terapia Antimicrobiana Ativa: [ Droga: ... - D[ ... ] de [ ... ] dias / Sem antibioticoterapia no momento ].
+      - Paciente: [ ] | Idade: [ ] anos | Leito: [ ]
+      - Tempo de Internação: [ ]º dia de internação (DI)
+      - Diagnóstico Principal: [ ]
+      - Terapia Antimicrobiana Ativa: [ Droga: ... - D[ ] de [ ] dias / Sem antibioticoterapia no momento ].
       
       S - SUBJETIVO:
       - Passou o período [ bem, sem queixas ativas agudas / com relato de ... ].
@@ -134,15 +134,15 @@ matches:
       - Sintomas Cardinais / Alarme: Nega dor torácica, palpitações, dispneia em repouso, febre aferida ou calafrios, tontura ao sentar/levantar ou queixas álgicas agudas.
       - Eliminações Fisiológicas:
         * Diurese: [ Espontânea, clara, sem disúria / Por SVD com débito satisfatório nas 24h ].
-        * Hábito intestinal: [ Evacuação presente, fezes de aspecto habitual / Ausente há [ ... ] dias (sem desconforto ou distensão) ].
-      - Escala Visual Analógica de Dor (EVA 0 a 10): [ 0 - Sem dor / [ ... ] em região [ ... ], controlada com analgesia de rotina ].
+        * Hábito intestinal: [ Evacuação presente, fezes de aspecto habitual / Ausente há [ ] dias (sem desconforto ou distensão) ].
+      - Escala Visual Analógica de Dor (EVA 0 a 10): [ 0 - Sem dor / [ ] em região [ ], controlada com analgesia de rotina ].
       
       O - OBJETIVO:
       - Sinais Vitais & Curvas das Últimas 24h:
-        * PA: [ ... ]x[ ... ] mmHg (Variação 24h: [ ... ] a [ ... ] mmHg)
-        * FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% (ar ambiente / O2 sob cateter [ ... ] L/min)
-        * Curva Térmica: Tax máx 24h: [ ... ] °C (Afebril nas últimas 24h)
-        * Balanço Hídrico das 24 horas (BH): [ Positivo em [ ... ] ml / Negativo em [ ... ] ml / Neutro / Diurese total: [ ... ] ml ].
+        * PA: [ ]x[ ] mmHg (Variação 24h: [ ] a [ ] mmHg)
+        * FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% (ar ambiente / O2 sob cateter [ ] L/min)
+        * Curva Térmica: Tax máx 24h: [ ] °C (Afebril nas últimas 24h)
+        * Balanço Hídrico das 24 horas (BH): [ Positivo em [ ] ml / Negativo em [ ] ml / Neutro / Diurese total: [ ] ml ].
         * Controle Glicêmico Capilar (HGT): [ Jejum: ... | Almoço: ... | Jantar: ... mg/dL ].
       - Ectoscopia Geral: Estado geral [ BEG / REG ], lúcido, orientado no tempo e espaço (Glasgow 15). Mucosas [ coradas / hipocoradas +/4+ ], hidratadas, anictéricas, acianóticas. Perfusão capilar periférica < 2s.
       - Aparelho Respiratório: Tórax simétrico, expansibilidade preservada. Murmúrio vesicular presente bilateralmente, [ sem ruídos adventícios / crepitações discretas em base ... / sibilos esparsos ]. Ausência de esforço ventilatório ou uso de musculatura acessória.
@@ -150,19 +150,19 @@ matches:
       - Abdome: Plano/Globoso, flácido, indolor à palpação superficial e profunda. Ausência de visceromegalias ou massas palpáveis. Ruídos hidroaéreos presentes e normoativos nos 4 quadrantes. Sinais de irritação peritoneal negativos (Blumberg e Murphy negativos).
       - Extremidades: [ Sem edemas / Edema de MMII +/4+ simétrico, cacifo presente, indolor ]. Panturrilhas livres e compressíveis, sem sinais empastamento ou dor à dorsiflexão (Homans negativo).
       - Pele & Dispositivos Invasivos:
-        * Pele íntegra, sem sinais de lesões por pressão (Braden [ ... ]).
-        * Acesso venoso periférico em [ MSD / MSE ], inserido em [ ... ]/[ ... ] (D[ ... ]), sítio pérvio, sem hiperemia, calor ou sinais de flebite.
+        * Pele íntegra, sem sinais de lesões por pressão (Braden [ ]).
+        * Acesso venoso periférico em [ MSD / MSE ], inserido em [ ]/[ ] (D[ ]), sítio pérvio, sem hiperemia, calor ou sinais de flebite.
         * [ SVD / SNE / Oxigenoterapia / Sem outros dispositivos invasivos ].
       
       EXAMES COMPLEMENTARES RECENTES:
-      - Laboratório do dia / D-1: Hb: [ ... ] | Leucócitos: [ ... ] (bastonetes: [ ... ]%) | Plaquetas: [ ... ] | PCR: [ ... ] | Creatinina: [ ... ] | Ureia: [ ... ] | Na: [ ... ] | K: [ ... ] | Glicemia: [ ... ].
+      - Laboratório do dia / D-1: Hb: [ ] | Leucócitos: [ ] (bastonetes: [ ]%) | Plaquetas: [ ] | PCR: [ ] | Creatinina: [ ] | Ureia: [ ] | Na: [ ] | K: [ ] | Glicemia: [ ].
       - Culturas em andamento: [ Urocultura / Hemoculturas: aguardando resultado preliminar / Negativas ].
-      - Imagens / Outros: [ RX tórax de controle: ... / ECG: ... ].
+      - Imagens / Outros: [RX tórax de controle: ... / ECG: ].
       
       A - AVALIAÇÃO:
       1. [ Problema Principal 1 ]: [ Em melhora clínica e laboratorial evidente / Estável, mantida conduta / Piora clínica, ajustada terapêutica ].
       2. [ Problema / Comorbidade 2 ]: [ Compensado / Em controle ].
-      3. Terapia antimicrobiana: [ Mantida droga [ ... ] em D[ ... ] de [ ... ] dias / Programado descalonamento / Programada troca para via oral ].
+      3. Terapia antimicrobiana: [ Mantida droga [ ] em D[ ] de [ ] dias / Programado descalonamento / Programada troca para via oral ].
       
       P - PLANO (METAS DO DIA):
       1. Dieta: [ Geral / Diabética / Hipossódica / Hiperproteica ] por via oral.
@@ -173,32 +173,32 @@ matches:
       4. Profilaxia de TEV: Enoxaparina 40mg SC 1x/dia [ Mantida / Reavaliada ].
       5. Dispositivos invasivos: [ Programada retirada de AVP/SVD nas próximas 24h / Mantido com indicação estrita ].
       6. Cuidados e Metas de Enfermagem: Estímulo à deambulação ativa e fisioterapia motora; controle rigoroso de diurese e balanço hídrico; prevenção de quedas.
-      7. Previsão de Desospitalização: [ Prevista alta em [ ... ] dias após término de ATB venoso ou compensação clínica / Alta hospitalar programada para amanhã ].
+      7. Previsão de Desospitalização: [ Prevista alta em [ ] dias após término de ATB venoso ou compensação clínica / Alta hospitalar programada para amanhã ].
 
   - trigger: ";enf-evo-po"
     replace: |
       EVOLUÇÃO MÉDICA DIÁRIA - PÓS-OPERATÓRIO (SOAP)
       
       MANCHETE DA VISITA:
-      - Paciente: [ ... ] | Idade: [ ... ] anos | Leito: [ ... ]
-      - Procedimento Realizado: [ ... ] (Técnica: [ Laparoscópica / Aberta / Ortopédica ])
-      - Tempo Pós-Operatório: [ ... ]º dia pós-operatório (DPO)
+      - Paciente: [ ] | Idade: [ ] anos | Leito: [ ]
+      - Procedimento Realizado: [ ] (Técnica: [ Laparoscópica / Aberta / Ortopédica ])
+      - Tempo Pós-Operatório: [ ]º dia pós-operatório (DPO)
       - Especialidade: [ Cirurgia Geral / Ortopedia / Urologia / Vascular / Plástica ]
       
       S - SUBJETIVO:
       - Estado Geral Referido: Passou a noite [ bem, com boa adaptação / com queixa de ... ].
-      - Dor Pós-Operatória (Escala EVA 0 a 10): [ ... ] em [ sítio cirúrgico / dor referida ], [ bem controlada com analgesia em curso / com necessidade de resgate opioide ocasional ].
+      - Dor Pós-Operatória (Escala EVA 0 a 10): [ ] em [ sítio cirúrgico / dor referida ], [ bem controlada com analgesia em curso / com necessidade de resgate opioide ocasional ].
       - Tolerância Alimentar & Trânsito Digestivo:
         * Dieta atual: [ Líquida restrita / Líquida completa / Pastosa / Branda / Geral ].
         * Aceitação da dieta: [ Boa aceitação, nega náuseas ou plenitude gástrica precoce / Nega vômitos / Episódio isolado de náusea responsivo a ondansetrona ].
         * Eliminações: Flatos [ presentes e frequentes / ausentes ]; Evacuação [ presente, fezes habituais / ausente desde a cirurgia, sem distensão ou dor em cólica ].
       - Mobilidade e Deambulação: [ Já deambulando no corredor com auxílio / Deambulação independente / Restrito ao leito por orientação cirúrgica ].
-      - Diurese: [ Espontânea, clara, bom débito sem disúria / SVD mantida com débito claro [ ... ] ml/24h ].
+      - Diurese: [ Espontânea, clara, bom débito sem disúria / SVD mantida com débito claro [ ] ml/24h ].
       
       O - OBJETIVO:
       - Sinais Vitais & Curvas das Últimas 24h:
-        * PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente
-        * Curva Térmica: Tax máx 24h: [ ... ] °C (Afebril nas últimas 24h)
+        * PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente
+        * Curva Térmica: Tax máx 24h: [ ] °C (Afebril nas últimas 24h)
         * Balanço Hídrico das 24h: [ Positivo em ... ml / Negativo em ... ml / Diurese total: ... ml ].
       - Ectoscopia: Consciente, orientado, eupnéico em ar ambiente, mucosas coradas e hidratadas, anictérico, perfusão capilar periférica < 2 segundos.
       - Exame Respiratório: Expansibilidade torácica preservada bilateralmente. Murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Sem esforço ventilatório.
@@ -214,12 +214,12 @@ matches:
         * Secreção: [ Ausência de secreção / Discreta secreção serosa fisiológica contida / Sem secreção purulenta ou fétida ].
       - Avaliação de Drenos Cirúrgicos:
         * Dreno [ Tipo: Portovac / Blake / Tubular Penrose / Sem drenos ]:
-        * Débito nas últimas 24h: [ ... ] mL.
+        * Débito nas últimas 24h: [ ] mL.
         * Aspecto do líquido drenado: [ Sero-hemático límpido / Seroso claro / Bilioso / Sem grumos ou secreção purulenta ].
       - Extremidades: Pulsos periféricos amplos e simétricos. Sem edema de membros inferiores, panturrilhas livres e indolores à palpação/dorsiflexão (Homans negativo).
       
       A - AVALIAÇÃO:
-      1. Pós-operatório de [ Procedimento ] em [ ... ]º DPO evoluindo de forma [ favorável e dentro do esperado / com intercorrência: ... ].
+      1. Pós-operatório de [ Procedimento ] em [ ]º DPO evoluindo de forma [favorável e dentro do esperado / com intercorrência: ].
       2. Retorno do trânsito gastrointestinal: [ Confirmado com presença de RHA e flatos / Aguardando evacuação ].
       3. Débito de drenos: [ Em curva descendente favorável / Dentro dos critérios para retirada de dreno ].
       4. Controle álgico: [ Eficaz com esquema multimodal via oral / Necessitando de ajustes ].
@@ -233,7 +233,7 @@ matches:
       4. Profilaxia de TEV: Enoxaparina 40mg SC 1x/dia mantida + estímulo vigoroso à deambulação ativa.
       5. Manejo de Ferida & Drenos:
          - Manter curativo diário com soro fisiológico e clorexidina degermante se troca.
-         - [ Programada retirada de dreno hoje se débito < [ ... ] ml/24h / Manter dreno em observação ].
+         - [ Programada retirada de dreno hoje se débito < [ ] ml/24h / Manter dreno em observação ].
          - [ Programada retirada de sonda vesical de demora ].
       6. Previsão de Alta Hospitalar: [ Programada alta hospitalar para amanhã com receitas e orientações domiciliares / Alta hoje com encaminhamento ambulatorial ].
 
@@ -242,7 +242,7 @@ matches:
       CHECKLIST DE METAS DIÁRIAS & SEGURANÇA DO PACIENTE INTERNADO (FAST HUG BID)
       
       IDENTIFICAÇÃO:
-      - Leito: [ ... ] | Paciente: [ ... ] | Idade: [ ... ] anos | D_[ ... ] de internação
+      - Leito: [ ] | Paciente: [ ] | Idade: [ ] anos | D_[ ] de internação
       
       AVALIAÇÃO DO BUNDLE DIÁRIO (10 PONTOS):
       
@@ -252,14 +252,14 @@ matches:
       - Meta calórico-proteica: [ Atingida / Em ajuste / Meta: 25-30 kcal/kg/dia ].
       
       A - ANALGESIA (Controle da Dor):
-      - Escala de Dor (EVA 0 a 10): [ 0 - Sem dor / [ ... ] pontos em região [ ... ] ].
+      - Escala de Dor (EVA 0 a 10): [ 0 - Sem dor / [ ] pontos em região [ ] ].
       - Esquema de analgesia: [ Multimodal com analgésicos simples / Adicionado AINE se sem contraindicações / Opioide fraco de resgate ].
       - Eficácia: [ Dor controlada sem sedação excessiva ou retenção urinária / Ajustado esquema ].
       
       S - SEDATION / SENSORIUM (Avaliação Neurológica & Delirium):
       - Nível de consciência e sensório: [ Alerta, lúcido, orientado (Glasgow 15) / Torporoso / Sonolento ].
       - Rastreio de Delirium (CAM-ICU): [ NEGATIVO - sem delirium / POSITIVO - iniciado protocolo não-farmacológico de manejo do delirium ].
-      - Sedação contínua (se aplicável): [ Escala RASS = [ ... ] / Em desmame / Não em uso de sedação ].
+      - Sedação contínua (se aplicável): [ Escala RASS = [ ] / Em desmame / Não em uso de sedação ].
       
       T - THROMBOPROPHYLAXIS (Profilaxia de TEV):
       - Estratificação de risco: [ Alto risco (Pádua ≥ 4 ou Caprini ≥ 3) / Baixo risco ].
@@ -275,59 +275,59 @@ matches:
       
       G - GLYCEMIC CONTROL (Controle Glicêmico):
       - Alvo glicêmico para paciente internado: **140 a 180 mg/dL**.
-      - Variação glicêmica nas últimas 24h: Mínima [ ... ] mg/dL | Máxima [ ... ] mg/dL.
+      - Variação glicêmica nas últimas 24h: Mínima [ ] mg/dL | Máxima [ ] mg/dL.
       - Conduta: [ Sem episódios de hipoglicemia (< 70 mg/dL) / Esquema basal-bólus ajustado / Glicemias capilares dentro da meta ].
       
       B - BOWEL MOVEMENT (Hábito Intestinal):
-      - Última evacuação: [ Hoje / Ontem / Há [ ... ] dias ].
+      - Última evacuação: [ Hoje / Ontem / Há [ ] dias ].
       - Aspecto das fezes: [ Normais (Escala de Bristol 3-4) / Ressecadas Bristol 1-2 / Diarreicas Bristol 6-7 ].
       - Conduta: [ Trânsito intestinal fisiológico preservado / Prescrito laxativo osmótico (Lactulose ou PEG 4000) por constipação / Avaliada suspensão de drogas constipantes ].
       
       I - INDWELLING CATHETERS (Auditoria Diária de Dispositivos Invasivos):
-      - Acesso Venoso: [ Periférico em MSD D[ ... ] sem sinais flogísticos / Central (CVC) D[ ... ] sítio limpo / Programada retirada ].
+      - Acesso Venoso: [ Periférico em MSD D[ ] sem sinais flogísticos / Central (CVC) D[ ] sítio limpo / Programada retirada ].
       - Sonda Vesical de Demora (SVD): [ Retirada hoje para prevenir ITU-AC / Mantida estritamente por monitorização hemodinâmica horária ].
       - Drenos e Cateteres: [ Checados, pérvios e com indicação mantida / Sacados no leito hoje ].
       
       D - DE-ESCALATION (Descalonamento & Desospitalização):
-      - Antibioticoterapia: [ Culturas negativas / Mantido esquema / Descalonado para espectro estreito / Programado switch para VO / Término hoje em D[ ... ] ].
+      - Antibioticoterapia: [ Culturas negativas / Mantido esquema / Descalonado para espectro estreito / Programado switch para VO / Término hoje em D[ ] ].
       - Desmame de Oxigênio: [ Já em ar ambiente com SpO2 estável / Em redução progressiva de fluxo ].
-      - Metas de Desospitalização: [ Critérios de alta estabelecidos com equipe multidisciplinar; previsão de alta hospitalar em [ ... ] horas ].
+      - Metas de Desospitalização: [ Critérios de alta estabelecidos com equipe multidisciplinar; previsão de alta hospitalar em [ ] horas ].
 
   - trigger: ";sbar-round"
     replace: |
       PASSAGEM DE CASO & ROUND CLÍNICO MULTIDISCIPLINAR (SBAR)
       
       1. S - SITUATION (Manchete Executiva de Identificação):
-      - "Leito [ ... ], [ Nome completo / Iniciais ], [ ... ] anos, internado sob os cuidados da [ Clínica Médica / Cirurgia Geral ]."
-      - "Está no [ ... ]º dia de internação (DI) [ se cirúrgico: [ ... ]º dia pós-operatório (DPO) de ... ]."
-      - "Diagnóstico principal ativo: [ ... ]."
-      - "Antimicrobiano em curso: [ Droga: ... em D[ ... ] de [ ... ] dias / Sem antibiótico ]."
+      - "Leito [ ], [ Nome completo / Iniciais ], [ ] anos, internado sob os cuidados da [ Clínica Médica / Cirurgia Geral ]."
+      - "Está no [ ]º dia de internação (DI) [ se cirúrgico: [ ]º dia pós-operatório (DPO) de ... ]."
+      - "Diagnóstico principal ativo: [ ]."
+      - "Antimicrobiano em curso: [ Droga: ... em D[ ] de [ ] dias / Sem antibiótico ]."
       
       2. B - BACKGROUND (Contexto Clínico & Histórico Relevante):
       - Comorbidades de base: [ HAS / DM / DAC / DRC / DPOC / Neoplasia prévia / Hígido ].
-      - Motivo da internação: Admitido em [ ... ]/[ ... ] por quadro de [ ... ].
+      - Motivo da internação: Admitido em [ ]/[ ] por quadro de [ ].
       - Procedimentos ou intervenções realizadas na internação: [ Cirurgia realizada / CVC puncionado / Drenagem / Endoscopia / Broncospia / Hemodiálise ].
       - Alergias medicamentosas conhecidas: [ NEGA / SIM: ... (Alerta visual acionado) ].
       
       3. A - ASSESSMENT (Avaliação das Últimas 24 Horas & Status Atual):
       - Intercorrências do plantão anterior/noite: [ Estável, sem intercorrências / Apresentou pico febril de ... °C / Episódio de descompensação álgica / Piora ventilatória ].
-      - Sinais Vitais & Estabilidade: PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% [ em ar ambiente / sob cateter a ... L/min ] | Afebril nas últimas 24h (Tax máx: [ ... ] °C).
+      - Sinais Vitais & Estabilidade: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% [ em ar ambiente / sob cateter a ... L/min ] | Afebril nas últimas 24h (Tax máx: [ ] °C).
       - Balanço Hídrico das 24h: [ Positivo em ... ml / Negativo em ... ml / Diurese de ... ml/24h ].
       - Exame Físico Relevante do Dia: [ Lúcido e orientado / Abdome flácido e indolor / Sem sinais flogísticos em ferida operatória / Panturrilhas livres sem edema / Ausculta pulmonar com ... ].
-      - Dispositivos Ativos: [ Acesso venoso periférico em MSE D[ ... ] / CVC em subclávia D[ ... ] / SVD com urina clara / Dreno [ ... ] com débito de [ ... ] ml seroso ].
-      - Resultados de Exames Relevantes Recentes: Hb [ ... ] | Leuco [ ... ] (bast [ ... ]%) | Plaq [ ... ] | PCR [ ... ] | Cr [ ... ] | Ureia [ ... ] | Na [ ... ] | K [ ... ] | Gasometria: [ ... ].
+      - Dispositivos Ativos: [ Acesso venoso periférico em MSE D[ ] / CVC em subclávia D[ ] / SVD com urina clara / Dreno [ ] com débito de [ ] ml seroso ].
+      - Resultados de Exames Relevantes Recentes: Hb [ ] | Leuco [ ] (bast [ ]%) | Plaq [ ] | PCR [ ] | Cr [ ] | Ureia [ ] | Na [ ] | K [ ] | Gasometria: [ ].
       
       4. R - RECOMMENDATION & PENDÊNCIAS (Metas do Dia & Ações do Plantão):
       - Metas Terapêuticas do Dia:
         1. Dieta: [ Progredir para dieta geral / Iniciar dieta enteral com meta de ... ml/h ].
-        2. Antibiótico: [ Manter D[ ... ] / Programar suspensão ou troca para VO amanhã ].
+        2. Antibiótico: [ Manter D[ ] / Programar suspensão ou troca para VO amanhã ].
         3. Desmame / Dispositivos: [ Retirar sonda vesical de demora hoje / Sacar dreno cirúrgico / Sacar acesso venoso periférico ].
         4. Mobilidade: [ Estímulo à deambulação assistida no corredor e fisioterapia motora ].
       - Pendências Imediatas para o Plantão / Diarista:
-        - [ ] Checar resultado da cultura de urina/sangue colhida em [ ... ].
+        - [ ] Checar resultado da cultura de urina/sangue colhida em [ ].
         - [ ] Acompanhar realização do exame de imagem: [ TC / USG / RX de controle ].
         - [ ] Cobrar resposta de parecer solicitado para [ Cardiologia / Nefrologia / Cirurgia ].
-        - [ ] Ajustar dose da medicação [ ... ] conforme função renal do dia.
+        - [ ] Ajustar dose da medicação [ ] conforme função renal do dia.
       - Critérios e Previsão de Desospitalização:
         - [ Paciente em fase final de tratamento; previsão de alta hospitalar em 24 a 48h se mantida estabilidade clínica e tolerância oral ].
 
@@ -336,22 +336,22 @@ matches:
       PARECER DE INTERCONSULTA MÉDICA HOSPITALAR (PI)
       
       DADOS DA SOLICITAÇÃO:
-      - Paciente: [ ... ] | Idade: [ ... ] anos | Sexo: [ ... ] | Leito: [ ... ]
+      - Paciente: [ ] | Idade: [ ] anos | Sexo: [ ] | Leito: [ ]
       - Especialidade Solicitante: [ Cirurgia Geral / Ortopedia / Ginecologia / Terapia Intensiva / Outra ]
       - Especialidade Parecerista: [ Clínica Médica / Cardiologia / Infectologia / Nefrologia / Pneumologia ]
-      - Data e Hora da Avaliação: [ ... ]/[ ... ]/[ ... ] às [ ... ]h[ ... ]min
-      - Motivo da Solicitação / Pergunta Clínica: [ Avaliação de descompensação clínica / Risco cirúrgico / Ajuste de antimicrobiano / Manejo de lesão renal aguda / Outro: ... ].
+      - Data e Hora da Avaliação: [ ]/[ ]/[ ] às [ ]h[ ]min
+      - Motivo da Solicitação / Pergunta Clínica: [Avaliação de descompensação clínica / Risco cirúrgico / Ajuste de antimicrobiano / Manejo de lesão renal aguda / Outro: ].
       
       HISTÓRICO DIRIGIDO AO MOTIVO DA CONSULTORIA:
-      - Paciente internado na enfermaria de [ ... ] no [ ... ]º dia de internação por [ motivo da internação principal: ... ].
-      - Fomos solicitados para avaliação de [ descrever a alteração clínica que motivou o pedido: ... ], com início há [ ... ] dias/horas.
+      - Paciente internado na enfermaria de [ ] no [ ]º dia de internação por [motivo da internação principal: ].
+      - Fomos solicitados para avaliação de [descrever a alteração clínica que motivou o pedido: ], com início há [ ] dias/horas.
       - No momento da avaliação pelo parecerista: [ Paciente refere melhora parcial / Paciente assintomático / Queixa de ... ]. Nega dor torácica, dispneia súbita, febre referida ou queixas álgicas adicionais.
       - Antecedentes Patológicos Relevantes: [ HAS / DM / DAC / DRC estágio ... / Asma / Nega antecedentes conhecidos ].
-      - Medicações em uso na enfermaria: [ ... ].
-      - Alergias medicamentosas: [ Nega / Relata alergia a: ... ].
+      - Medicações em uso na enfermaria: [ ].
+      - Alergias medicamentosas: [Nega / Relata alergia a: ].
       
       EXAME FÍSICO DIRIGIDO DO PARECERISTA:
-      - Sinais Vitais no momento do parecer: PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C | Glicemia: [ ... ] mg/dL.
+      - Sinais Vitais no momento do parecer: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C | Glicemia: [ ] mg/dL.
       - Ectoscopia: Estado geral [ BEG / REG ], consciente, orientado, lúcido (Glasgow 15). Mucosas [ coradas / hipocoradas +/4+ ], hidratadas, anictéricas, acianóticas. Perfusão periférica < 2s.
       - Exame Cardiovascular: Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, [ sem sopros patológicos / presença de sopro sistólico foco ... +/6+ ]. Pulsos periféricos simétricos.
       - Exame Respiratório: Murmúrio vesicular presente bilateralmente, [ sem ruídos adventícios / crepitações discretas em ... ]. Sem sinais de desconforto respiratório.
@@ -359,7 +359,7 @@ matches:
       - Extremidades: Pulsos presentes. [ Ausência de edema / Edema de MMII +/4+ simétrico, indolor ]. Panturrilhas livres e compressíveis bilateralmente.
       
       EXAMES COMPLEMENTARES ANALISADOS PELO PARECERISTA:
-      - Laboratório Relevante: Hb: [ ... ] | Leuco: [ ... ] | Plaq: [ ... ] | Creatinina: [ ... ] (Basal prévia: [ ... ]) | Ureia: [ ... ] | Na: [ ... ] | K: [ ... ] | PCR: [ ... ] | Troponina: [ ... ].
+      - Laboratório Relevante: Hb: [ ] | Leuco: [ ] | Plaq: [ ] | Creatinina: [ ] (Basal prévia: [ ]) | Ureia: [ ] | Na: [ ] | K: [ ] | PCR: [ ] | Troponina: [ ].
       - Eletrocardiograma (ECG): [ Ritmo sinusal, sem alterações agudas do segmento ST ou onda T / FA com resposta ventricular controlada / ... ].
       - Imagem: [ RX de tórax / USG / TC demonstrando ... ].
       
@@ -371,12 +371,12 @@ matches:
       1. Recomendações Farmacológicas:
          - [ ] [ Iniciar / Ajustar / Suspender medicação: dose, via e posologia exata ].
          - [ ] [ Suspender temporariamente fármacos nefrotóxicos (ex: AINEs, IECAs) se lesão renal ].
-         - [ ] [ Prescrever reposição volêmica com SF 0,9% [ ... ] ml EV em [ ... ] horas ].
+         - [ ] [ Prescrever reposição volêmica com SF 0,9% [ ] ml EV em [ ] horas ].
       2. Propedêutica Complementar Sugerida:
          - [ ] [ Solicitar dosagem de escórias nitrogenadas de controle em 24-48 horas ].
          - [ ] [ Solicitar Ecocardiograma transtorácico / USG de rins e vias urinárias ].
       3. Metas Clínicas & Parâmetros de Alarme:
-         - Manter PA alvo entre [ ... ] e [ ... ] mmHg.
+         - Manter PA alvo entre [ ] e [ ] mmHg.
          - Monitorar débito urinário com alvo > 0,5 mL/kg/hora.
          - Notificar a equipe do parecer se instabilidade hemodinâmica, arritmia sintomática ou piora ventilatória.
       
@@ -389,20 +389,20 @@ matches:
       RELATÓRIO / SUMÁRIO DE ALTA HOSPITALAR - CLÍNICA MÉDICA
       
       DADOS DE INTERNAÇÃO:
-      - Paciente: [ ... ] | Idade: [ ... ] anos | Sexo: [ ... ] | CNS/Prontuário: [ ... ]
-      - Data de Admissão: [ ... ]/[ ... ]/[ ... ] | Data de Alta: [ ... ]/[ ... ]/[ ... ]
-      - Tempo Total de Permanência Hospitalar: [ ... ] dias
-      - Enfermaria / Leito de Origem da Alta: [ ... ]
-      - Médico Assistente Responsável: Dr(a). [ ... ] | CRM [ ... ]
+      - Paciente: [ ] | Idade: [ ] anos | Sexo: [ ] | CNS/Prontuário: [ ]
+      - Data de Admissão: [ ]/[ ]/[ ] | Data de Alta: [ ]/[ ]/[ ]
+      - Tempo Total de Permanência Hospitalar: [ ] dias
+      - Enfermaria / Leito de Origem da Alta: [ ]
+      - Médico Assistente Responsável: Dr(a). [ ] | CRM [ ]
       
       DIAGNÓSTICOS DE ALTA:
-      1. Diagnóstico Principal (Causa Primária da Internação): [ ... ] (CID-10: [ ... ])
+      1. Diagnóstico Principal (Causa Primária da Internação): [ ] (CID-10: [ ])
       2. Diagnósticos Secundários / Comorbidades:
-         - [ ... ] (CID-10: [ ... ])
-         - [ ... ] (CID-10: [ ... ])
+         - [ ] (CID-10: [ ])
+         - [ ] (CID-10: [ ])
       
       RESUMO DA EVOLUÇÃO CLÍNICA NA INTERNAÇÃO:
-      - Motivo da Admissão: Paciente admitido nesta instituição apresentando quadro de [ ... ], com início há [ ... ] dias, associado a [ ... ].
+      - Motivo da Admissão: Paciente admitido nesta instituição apresentando quadro de [ ], com início há [ ] dias, associado a [ ].
       - Intervenções e Tratamentos Realizados:
         * Recebeu terapia medicamentosa com [ esquema antimicrobiano: droga, dose, tempo total de uso: ... dias; término em ... / compensação volêmica / otimização medicamentosa ].
         * Evoluiu durante a internação com [ melhora clínica progressiva, remissão da febre há mais de 48h, estabilização hemodinâmica e tolerância plena à dieta oral por via oral ].
@@ -411,15 +411,15 @@ matches:
       
       EXAMES COMPLEMENTARES RELEVANTES NA ALTA:
       - Laboratório de Controle na Alta:
-        * Hb: [ ... ] g/dL | Leucócitos: [ ... ] /mm³ (Bastonetes: [ ... ]%) | Plaquetas: [ ... ] /mm³
-        * Creatinina: [ ... ] mg/dL | Ureia: [ ... ] mg/dL | Na: [ ... ] | K: [ ... ] mEq/L
-        * PCR: [ ... ] mg/L (Curva em acentuada queda) | Glicemia: [ ... ] mg/dL.
+        * Hb: [ ] g/dL | Leucócitos: [ ] /mm³ (Bastonetes: [ ]%) | Plaquetas: [ ] /mm³
+        * Creatinina: [ ] mg/dL | Ureia: [ ] mg/dL | Na: [ ] | K: [ ] mEq/L
+        * PCR: [ ] mg/L (Curva em acentuada queda) | Glicemia: [ ] mg/dL.
       - Culturas microbiológicas: [ Negativas / Urocultura ou Hemocultura com isolamento de ... sensível a ... ].
-      - Imagens / Métodos Gráficos: [ RX de tórax: ... / ECG: ... / Ecocardiograma: ... / USG: ... ].
+      - Imagens / Métodos Gráficos: [RX de tórax: ... / ECG: ... / Ecocardiograma: ... / USG: ].
       
       CONDIÇÕES CLÍNICAS NO MOMENTO DA DESOSPITALIZAÇÃO:
       - Paciente em bom estado geral (BEG), eupnéico em ar ambiente, consciente, orientado, comunicativo e deambulando sem apoio.
-      - Sinais Vitais de Alta: PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C (Afebril há > 48h).
+      - Sinais Vitais de Alta: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C (Afebril há > 48h).
       - Diurese e trânsito intestinal fisiológicos preservados.
       - Aceitando plenamente a dieta por via oral.
       
@@ -437,7 +437,7 @@ matches:
       PRESCRIÇÃO MÉDICA DE ALTA HOSPITALAR (DOMICILIAR):
       1. [ Medicamento contínuo / novo ] ---------------- [ Posologia clara: Tomar 1 comprimido VO às ... ]
       2. [ Medicamento contínuo / novo ] ---------------- [ Posologia clara: Tomar 1 comprimido VO às ... ]
-      3. [ Antimicrobiano se término VO ] --------------- [ Posologia clara por mais [ ... ] dias ]
+      3. [ Antimicrobiano se término VO ] --------------- [ Posologia clara por mais [ ] dias ]
       4. Dipirona 500mg ou 1g --------------------------- Tomar 1 comprimido VO de 6/6h se dor ou febre (sintomático)
       
       ---
@@ -465,17 +465,17 @@ matches:
       RELATÓRIO / SUMÁRIO DE ALTA HOSPITALAR - CIRURGIA
       
       DADOS DA INTERNAÇÃO & ATO CIRÚRGICO:
-      - Paciente: [ ... ] | Idade: [ ... ] anos | Sexo: [ ... ] | Prontuário: [ ... ]
-      - Data de Admissão: [ ... ]/[ ... ]/[ ... ] | Data da Cirurgia: [ ... ]/[ ... ]/[ ... ] | Data da Alta: [ ... ]/[ ... ]/[ ... ]
-      - Cirurgia Realizada: [ ... ]
+      - Paciente: [ ] | Idade: [ ] anos | Sexo: [ ] | Prontuário: [ ]
+      - Data de Admissão: [ ]/[ ]/[ ] | Data da Cirurgia: [ ]/[ ]/[ ] | Data da Alta: [ ]/[ ]/[ ]
+      - Cirurgia Realizada: [ ]
       - Técnica Cirúrgica: [ Videolaparoscópica / Aberta Convencional / Artroscópica / Outra ]
       - Anestesia: [ Geral / Raquianestesia / Peridural / Sedação + Local ]
-      - Equipe Cirúrgica Responsável: Dr(a). [ ... ] | CRM [ ... ]
-      - Achados Intraoperatórios Relevantes: [ ... ]
-      - Diagnóstico Cirúrgico / Histopatológico Pré-Alta: [ ... ] (CID-10: [ ... ])
+      - Equipe Cirúrgica Responsável: Dr(a). [ ] | CRM [ ]
+      - Achados Intraoperatórios Relevantes: [ ]
+      - Diagnóstico Cirúrgico / Histopatológico Pré-Alta: [ ] (CID-10: [ ])
       
       RESUMO DA EVOLUÇÃO PÓS-OPERATÓRIA:
-      - Paciente evoluiu no [ ... ]º DPO com excelente recuperação clínica no leito da enfermaria.
+      - Paciente evoluiu no [ ]º DPO com excelente recuperação clínica no leito da enfermaria.
       - Tolerância à dieta: Dieta geral aceita sem queixas de náuseas ou vômitos.
       - Trânsito intestinal: Eliminação de flatos e fezes presente, sem distensão ou dor abdominal em cólica.
       - Deambulação: Deambulando de forma autônoma e segura pelo setor.
@@ -484,7 +484,7 @@ matches:
       - Drenos: [ Ausência de drenos / Dreno retirado no leito em D... com débito seroso mínimo / Mantido dreno ... com orientações de manejo domiciliar ].
       
       SINAIS VITAIS NA ALTA:
-      - PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C (Afebril há > 48h).
+      - PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C (Afebril há > 48h).
       
       ---
       
@@ -494,7 +494,7 @@ matches:
       3. [ Analgésico de resgate se dor intensa: Tramadol 50mg ] --- Tomar 1 cápsula VO até de 8/8h se dor moderada a intensa refratária.
       4. [ Antiemético de resgate: Ondansetrona 8mg ] -- Tomar 1 comprimido VO até de 8/8h se náuseas ou vômitos.
       5. [ Laxativo se constipação pós-operatória: Lactulose 667mg/ml ] --- Tomar 15 a 30 ml VO 1x ao dia se ausência de fezes por mais de 2 dias.
-      6. [ Medicamentos de uso contínuo habitual mantidos: ... ].
+      6. [Medicamentos de uso contínuo habitual mantidos: ].
       
       ---
       
@@ -522,7 +522,7 @@ matches:
       - Falta de ar aguda ou dor torácica ao respirar.
       
       AGENDAMENTO DE RETORNO CIRÚRGICO:
-      - Retorno ambulatorial com a equipe cirúrgica agendado para o dia [ ... ]/[ ... ]/[ ... ] às [ ... ]h no Ambulatório de Cirurgia para reavaliação da ferida e retirada de pontos.
+      - Retorno ambulatorial com a equipe cirúrgica agendado para o dia [ ]/[ ]/[ ] às [ ]h no Ambulatório de Cirurgia para reavaliação da ferida e retirada de pontos.
       - Paciente e acompanhante orientados quanto a todas as condutas, recebendo receitas e sumário de alta em mãos.
 
   - trigger: ";obito-do"
@@ -530,9 +530,9 @@ matches:
       CONSTATAÇÃO DE ÓBITO HOSPITALAR & REGISTRO MÉDICO-LEGAL
       
       IDENTIFICAÇÃO DO PACIENTE:
-      - Nome completo: [ ... ] | Prontuário: [ ... ] | Leito/Setor: [ ... ]
-      - Sexo: [ ... ] | Idade: [ ... ] anos | Data de Nascimento: [ ... ]/[ ... ]/[ ... ]
-      - Data e Horário Exato da Constatação do Óbito: [ ... ]/[ ... ]/[ ... ] às [ ... ]h[ ... ]min
+      - Nome completo: [ ] | Prontuário: [ ] | Leito/Setor: [ ]
+      - Sexo: [ ] | Idade: [ ] anos | Data de Nascimento: [ ]/[ ]/[ ]
+      - Data e Horário Exato da Constatação do Óbito: [ ]/[ ]/[ ] às [ ]h[ ]min
       
       EXAME FÍSICO CONFIRMATÓRIO DE PARADA CARDIORRESPIRATÓRIA E MORTE CLÍNICA:
       Constatada ausência irreversível dos sinais vitais à beira do leito pelos seguintes critérios obrigatórios:
@@ -560,7 +560,7 @@ matches:
         devido a ou como consequência de:
       - b) Causa Intermediária: [ ex: Pneumonia comunitária grave / Úlcera péptica perfurada / Ruptura miocárdica ]
         devido a ou como consequência de:
-      - c) Causa Intermediária: [ ex: ... ]
+      - c) Causa Intermediária: [ex: ]
         devido a ou como consequência de:
       - d) Causa Básica (A DOENÇA DE BASE QUE INICIOU A CADEIA): [ ex: Doença Pulmonar Obstrutiva Crônica grave / Hipertensão Arterial e Aterosclerose Sistêmica / Neoplasia maligna de cólon ]
       
@@ -569,7 +569,7 @@ matches:
       
       COMUNICAÇÃO DE MÁS NOTÍCIAS & ACOLHIMENTO À FAMÍLIA:
       - Notícia comunicada presencialmente em ambiente privativo, com respeito, clareza e acolhimento emocional (Protocolo SPIKES).
-      - Familiar presente: [ Nome completo e grau de parentesco: ... ].
+      - Familiar presente: [Nome completo e grau de parentesco: ].
       - Informadas a causa básica da morte, as medidas de suporte prestadas e fornecidas as instruções burocráticas pertinentes com apoio do Serviço Social da instituição.
       - Pertences pessoais do paciente conferidos e entregues ao responsável legal mediante protocolo.
 

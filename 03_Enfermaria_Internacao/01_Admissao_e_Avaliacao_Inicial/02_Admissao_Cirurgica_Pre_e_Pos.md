@@ -6,36 +6,36 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ADMISSÃO EM ENFERMARIA CIRÚRGICA
 
 IDENTIFICAÇÃO & CENÁRIO:
-- Paciente: [ ... ] | Idade: [ ... ] anos | Sexo: [ ... ] | Leito: [ ... ]
+- Paciente: [ ] | Idade: [ ] anos | Sexo: [ ] | Leito: [ ]
 - Especialidade Responsável: [ Cirurgia Geral / Ortopedia / Urologia / Vascular / Plástica / Torácica ]
 - Modalidade: [ PRÉ-OPERATÓRIO (Eletivo / Urgência) / PÓS-OPERATÓRIO IMEDIATO (Recepcionado do Bloco / SRPA) ]
-- Data e Hora da Admissão no Leito: [ ... ]/[ ... ]/[ ... ] às [ ... ]h[ ... ]min
+- Data e Hora da Admissão no Leito: [ ]/[ ]/[ ] às [ ]h[ ]min
 
 [ ] CENÁRIO A: ADMISSÃO PRÉ-OPERATÓRIA:
-- Procedimento cirúrgico programado: [ ... ]
-- HMA / Indicação cirúrgica: [ ... ]
-- Tempo de jejum atual: Líquidos claros [ ... ] horas | Alimentos sólidos [ ... ] horas (Mínimo preconizado: 2h líquidos claros / 6-8h sólidos).
-- Antecedentes e Comorbidades: [ HAS / DM / DAC / Nega ] | Cirurgias prévias: [ ... ]
-- Alergias medicamentosas/látex: [ NEGA / SIM: ... ]
+- Procedimento cirúrgico programado: [ ]
+- HMA / Indicação cirúrgica: [ ]
+- Tempo de jejum atual: Líquidos claros [ ] horas | Alimentos sólidos [ ] horas (Mínimo preconizado: 2h líquidos claros / 6-8h sólidos).
+- Antecedentes e Comorbidades: [ HAS / DM / DAC / Nega ] | Cirurgias prévias: [ ]
+- Alergias medicamentosas/látex: [NEGA / SIM: ]
 - Avaliação Pré-Anestésica (APA): Classificação ASA [ I / II / III / IV ] | Mallampati [ I / II / III / IV ].
 - Termo de Consentimento Livre e Esclarecido (TCLE): Assinado e anexado ao prontuário.
 - Reserva de hemoderivados / UTI: [ Solicitada e confirmada / Não necessária ].
-- Exames pré-operatórios checados: Hb/Ht: [ ... ] | Plaquetas: [ ... ] | TAP/INR: [ ... ] | Creatinina: [ ... ] | ECG: [ ... ] | RX Tórax: [ ... ].
+- Exames pré-operatórios checados: Hb/Ht: [ ] | Plaquetas: [ ] | TAP/INR: [ ] | Creatinina: [ ] | ECG: [ ] | RX Tórax: [ ].
 - Preparo cirúrgico no leito: Acesso venoso pérvio MSD/MSE; banho pré-operatório realizado; próteses dentárias/adornos retirados; tricotomia realizada apenas com tricotomizador imediatamente antes da cirurgia (se estritamente necessária).
 
 [ ] CENÁRIO B: ADMISSÃO PÓS-OPERATÓRIA IMEDIATA (VINDO DA SRPA):
-- Procedimento cirúrgico realizado: [ ... ] (Técnica: [ Aberta / Laparoscópica / Artroscópica / Endoscópica ])
-- Horário de término da cirurgia: [ ... ]h[ ... ] | Horário de saída da SRPA: [ ... ]h[ ... ]
+- Procedimento cirúrgico realizado: [ ] (Técnica: [ Aberta / Laparoscópica / Artroscópica / Endoscópica ])
+- Horário de término da cirurgia: [ ]h[ ] | Horário de saída da SRPA: [ ]h[ ]
 - Tipo de anestesia: [ Geral balanceada / Raquianestesia / Peridural / Sedação + Bloqueio periférico / Local ].
-- Intercorrências no intraoperatório: [ Nega intercorrências / Sangramento estimado: [ ... ] ml / Hipotensão responsiva a volume ].
+- Intercorrências no intraoperatório: [ Nega intercorrências / Sangramento estimado: [ ] ml / Hipotensão responsiva a volume ].
 - Condição de alta da SRPA: Escala de Aldrete e Kroulik = [ 9 ou 10 ] | Escala de Bromage (bloqueio motor) = [ 0 - sem bloqueio motor ].
 
 EXAME FÍSICO NA ADMISSÃO NO LEITO:
-- Sinais Vitais: PA: [ ... ]x[ ... ] mmHg | FC: [ ... ] bpm | FR: [ ... ] irpm | SpO2: [ ... ]% ar ambiente | Tax: [ ... ] °C | Dor (EVA 0-10): [ ... ].
+- Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C | Dor (EVA 0-10): [ ].
 - Ectoscopia: Consciente, orientado, lúcido, comunicativo (Glasgow 15). Mucosas coradas, hidratadas, anictéricas, perfusão periférica < 2s.
 - Respiratório: Murmúrio vesicular presente bilateralmente, sem ruídos adventícios, sem desconforto respiratório.
 - Cardiovascular: Ritmo cardíaco regular em 2T, bulhas normofonéticas, sem sopros. Pulsos simétricos.
@@ -44,19 +44,19 @@ EXAME FÍSICO NA ADMISSÃO NO LEITO:
   * Curativo oclusivo [ limpo e seco / com discreto exsudato sero-hemático contido ], sem sangramento ativo, sem hematoma ou hiperemia perilesional.
 - Drenos Cirúrgicos:
   * Tipo de dreno: [ Ausente / Portovac / Blake / Tubular de Penrose / Dreno de Tórax em selo d'água ].
-  * Local de saída: [ ... ] | Débito aferido no leito: [ ... ] ml de aspecto [ sero-hemático / seroso / bilioso / purulento ].
+  * Local de saída: [ ] | Débito aferido no leito: [ ] ml de aspecto [ sero-hemático / seroso / bilioso / purulento ].
 - Diurese e Dispositivos:
-  * [ Micção espontânea presente / Sonda Vesical de Demora (SVD) em sistema fechado, débito claro [ ... ] ml ].
+  * [ Micção espontânea presente / Sonda Vesical de Demora (SVD) em sistema fechado, débito claro [ ] ml ].
   * Acesso Venoso Periférico: Calibroso, sem sinais de infiltração ou flebite.
 
 ESTRATIFICAÇÃO DE RISCO CIRÚRGICO DE TEV (ESCORE DE CAPRINI):
-- Pontuação total do Escore de Caprini: [ ... ] pontos.
+- Pontuação total do Escore de Caprini: [ ] pontos.
 - Categoria de risco: [ Muito baixo (0) / Baixo (1-2) / Moderado (3-4) / Alto risco (≥ 5) ].
 - Conduta TEV adotada: [ Deambulação precoce / Meia de compressão / Enoxaparina 40mg SC 1x/dia iniciada 12h pós-operatório conforme protocolo cirúrgico ].
 
 PLANO & PRESCRIÇÃO PÓS-OPERATÓRIA IMEDIATA:
 1. Dieta: [ Jejum até avaliação do cirurgião / Dieta líquida restrita nas primeiras horas / Dieta branda se tolerância ].
-2. Hidratação venosa: [ SF 0,9% ou SG 5% + KCL 10% a [ ... ] ml/h para manutenção volumétrica ].
+2. Hidratação venosa: [ SF 0,9% ou SG 5% + KCL 10% a [ ] ml/h para manutenção volumétrica ].
 3. Analgesia Multimodal Pós-Operatória:
    - Dipirona 1g EV a cada 6 horas (base analgésica).
    - Cetoprofeno 100mg EV a cada 12 horas (se função renal normal e sem contraindicações hemorrágicas).

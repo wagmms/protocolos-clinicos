@@ -6,10 +6,10 @@
 
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
-```markdown
+```text
 ATENDIMENTO DE EMERGÊNCIA - PARADA CARDIORRESPIRATÓRIA (PCR) ADULTO
 
-HORÁRIO DE INÍCIO DA RCP: [ ... ]h[ ... ]min
+HORÁRIO DE INÍCIO DA RCP: [ ]h[ ]min
 LOCAL DO EVENTO: [ Sala Vermelha / Leito da Enfermaria / Box de Emergência / Pré-hospitalar ]
 TEMPO ESTIMADO DE PARADA ATÉ INÍCIO DA RCP: [ Imediato / < 3 minutos / Desconhecido ]
 
@@ -25,24 +25,24 @@ CICLOS DE RESSUSCITAÇÃO CARDIOPULMONAR (ACLS):
 - RITMO INICIAL: [ FV / TV sem pulso / Assistolia / AESP ]
 
 EVOLUÇÃO DOS CICLOS E INTERVENÇÕES:
-* Ciclo 1 ([ ... ]h[ ... ]): Ritmo [ ... ] | [ Choque de 200J Bifásico / Não chocável ] | RCP 2 min.
-* Ciclo 2 ([ ... ]h[ ... ]): Ritmo [ ... ] | Droga: Adrenalina 1mg EV/IO + flush 20ml SF 0,9%.
-* Ciclo 3 ([ ... ]h[ ... ]): Ritmo [ ... ] | [ Choque 200J ] | Droga: [ Amiodarona 300mg EV / Não indicado ].
-* Ciclo 4 ([ ... ]h[ ... ]): Ritmo [ ... ] | Droga: Adrenalina 1mg EV/IO + flush.
-* Ciclo 5 ([ ... ]h[ ... ]): Ritmo [ ... ] | [ Choque 200J ] | Droga: [ Amiodarona 150mg EV / Não indicado ].
-* Ciclos adicionais: [ ... ]
+* Ciclo 1 ([ ]h[ ]): Ritmo [ ] | [ Choque de 200J Bifásico / Não chocável ] | RCP 2 min.
+* Ciclo 2 ([ ]h[ ]): Ritmo [ ] | Droga: Adrenalina 1mg EV/IO + flush 20ml SF 0,9%.
+* Ciclo 3 ([ ]h[ ]): Ritmo [ ] | [ Choque 200J ] | Droga: [ Amiodarona 300mg EV / Não indicado ].
+* Ciclo 4 ([ ]h[ ]): Ritmo [ ] | Droga: Adrenalina 1mg EV/IO + flush.
+* Ciclo 5 ([ ]h[ ]): Ritmo [ ] | [ Choque 200J ] | Droga: [ Amiodarona 150mg EV / Não indicado ].
+* Ciclos adicionais: [ ]
 
 MANEJO DA VIA AÉREA E ACESSO:
 - Acesso vascular obtido: [ Venoso periférico calibroso MSD / MSE / Intraósseo tibial ].
-- Via aérea avançada: [ IOT tubo nº [ ... ] fixado em [ ... ] cm rima labial / Capnografia com ETCO2 = [ ... ] mmHg / Bolsa-Válvula-Máscara com reservatório a 15 L/min ]. Ventilações 1 a cada 6 segundos após IOT (sem interromper compressões).
+- Via aérea avançada: [ IOT tubo nº [ ] fixado em [ ] cm rima labial / Capnografia com ETCO2 = [ ] mmHg / Bolsa-Válvula-Máscara com reservatório a 15 L/min ]. Ventilações 1 a cada 6 segundos após IOT (sem interromper compressões).
 
 INVESTIGAÇÃO ATIVA DE CAUSAS REVERSÍVEIS (5 Hs e 5 Ts):
 - Hipovolemia: [ Descartada / Infundido 1000ml SF 0,9% ]
 - Hipóxia: [ Via aérea pérvia, FiO2 100% ]
 - Hidrogênio (acidose): [ Corrigida ventilação / Bicarbonato de sódio se acidose grave/hipercalemia ]
-- Hipo/Hipercalemia: [ Glicemia capilar: [ ... ] mg/dL / Gluconato de cálcio 10% administrado se suspeita de hiperK ]
-- Hipotermia: [ Temperatura axilar [ ... ] °C ]
-- Tensão no tórax (Pneumotórax hipertensivo): [ Ausculta simétrica / Descompressão por toracocentese [ ... ] ]
+- Hipo/Hipercalemia: [ Glicemia capilar: [ ] mg/dL / Gluconato de cálcio 10% administrado se suspeita de hiperK ]
+- Hipotermia: [ Temperatura axilar [ ] °C ]
+- Tensão no tórax (Pneumotórax hipertensivo): [ Ausculta simétrica / Descompressão por toracocentese [ ] ]
 - Tamponamento cardíaco: [ FAST negativo / Sem turgência jugular ]
 - Toxinas: [ Investigado histórico de intoxicação exógena ]
 - Trombose coronária (IAM): [ Suspeita clínica de SCA prévia ]
@@ -50,14 +50,14 @@ INVESTIGAÇÃO ATIVA DE CAUSAS REVERSÍVEIS (5 Hs e 5 Ts):
 
 DESFECHO DO ATENDIMENTO:
 [ ] RETORNO À CIRCULAÇÃO ESPONTÂNEA (RCE):
-- Horário da RCE: [ ... ]h[ ... ]min (Duração total da PCR: [ ... ] minutos).
+- Horário da RCE: [ ]h[ ]min (Duração total da PCR: [ ] minutos).
 - Constatado retorno de pulso carotídeo central amplo, sincronizado com monitor.
-- Sinais vitais pós-RCE: PA [ ... ]x[ ... ] mmHg (PAM [ ... ] mmHg) | FC [ ... ] bpm | SpO2 [ ... ]% sob VM | Glicemia: [ ... ] mg/dL.
+- Sinais vitais pós-RCE: PA [ ]x[ ] mmHg (PAM [ ] mmHg) | FC [ ] bpm | SpO2 [ ]% sob VM | Glicemia: [ ] mg/dL.
 - Conduta pós-RCE: Encaminhado para leito de UTI / Sala Vermelha; iniciado protocolo pós-parada (PAM ≥ 65, sedação em bomba, ECG 12 derivações solicitado com prioridade, RX tórax pós-IOT, controle glicêmico e metas térmicas).
 
 [ ] ÓBITO:
-- Horário da constatação do óbito: [ ... ]h[ ... ]min.
-- Após [ ... ] minutos de manobras ininterruptas de RCP avançada e correção de causas potencialmente reversíveis, paciente evoluiu em assistolia refratária confirmada no protocolo da linha reta (ganho aumentado, cabos checados, derivações alternadas). Ausência de reflexos de tronco, pupilas midriáticas fixas arreativas, ausência de pulsos e bulhas cardíacas. Comunicado o óbito à família presente com acolhimento.
+- Horário da constatação do óbito: [ ]h[ ]min.
+- Após [ ] minutos de manobras ininterruptas de RCP avançada e correção de causas potencialmente reversíveis, paciente evoluiu em assistolia refratária confirmada no protocolo da linha reta (ganho aumentado, cabos checados, derivações alternadas). Ausência de reflexos de tronco, pupilas midriáticas fixas arreativas, ausência de pulsos e bulhas cardíacas. Comunicado o óbito à família presente com acolhimento.
 ```
 
 ---

@@ -48,7 +48,7 @@ Gestante comparece para consulta de retorno pré-natal.
 - Ultrassonografia: [Morfológica de 2º tri realizada em DD/MM: sem malformações, placenta [fúndica/anterior/posterior], ILA normal / USG obstétrica com peso fetal estimado de [ ] g, percentil [ ]].
 - Teste de Tolerância Oral à Glicose (TOTG-75g entre 24-28s): [Jejum: [ ], 1h: [ ], 2h: [ ] mg/dL -> Normal / Alterado compatível com DMG].
 - Coombs Indireto (se mãe Rh negativo): [Negativo em 28 semanas -> Indicada profilaxia antenatal com Imunoglobulina Anti-D 300 mcg IM].
-- Rastreio de Streptococcus do Grupo B (EGB entre 35-37s): [Coletado swab anal e vaginal / Resultado: Negativo / Positivo -> indicado profilaxia intraparto com Ampicilina].
+- Rastreio de Streptococcus do Grupo B (EGB entre 36 0/7 e 37 6/7 semanas): [Coletado swab vaginal e retal / Resultado: Negativo / Positivo -> indicada profilaxia intraparto com Penicilina G Cristalina ou Ampicilina].
 - Sorologias de 3º Trimestre: HIV [NR], VDRL [NR], HBsAg [NR], Toxoplasmose [NR / Imune].
 
 # AVALIAÇÃO:
@@ -72,4 +72,6 @@ Gestante comparece para consulta de retorno pré-natal.
 - **20 semanas em diante:** Aplicação de 1 dose de **dTpa** (independente do histórico vacinal prévio, a cada nova gestação).
 - **24 a 28 semanas:** Realização obrigatória do **TOTG-75g** para todas as gestantes sem diagnóstico prévio de diabetes. Critérios de DMG (basta 1 valor alterado): Jejum ≥ 92 mg/dL | 1h ≥ 180 mg/dL | 2h ≥ 153 mg/dL.
 - **28 semanas:** Aplicação profilática antenatal de **Imunoglobulina Anti-D (300 mcg)** para gestantes Rh negativo não sensibilizadas (Coombs indireto negativo).
-- **35 a 37 semanas:** Coleta de **Swab Vaginal e Retal para EGB** (Streptococcus agalactiae). Se positivo, indicar antibioticoprofilaxia no trabalho de parto ativo ou rotura prematura de membranas com Ampicilina (dose de ataque 2 g EV + 1 g EV 4/4h até o nascimento).
+- **36 0/7 a 37 6/7 semanas:** Coleta de **Swab Vaginal e Retal para EGB** (Streptococcus agalactiae) sem espéculo (janela atualizada FEBRASGO/ACOG com validade de 5 semanas, até 41s). Se positivo (ou bacteriúria por EGB nesta gestação ou filho prévio com sepse por EGB), indicar quimioprofilaxia no trabalho de parto ativo ou RPMO:
+  * **1ª Escolha (Espectro Estreito):** Penicilina G Cristalina 5 milhões UI EV ataque + 2,5 milhões UI EV de 4/4h até o nascimento.
+  * **2ª Escolha (Alternativa):** Ampicilina 2 g EV ataque + 1 g EV de 4/4h até o nascimento.
