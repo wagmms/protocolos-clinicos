@@ -1,6 +1,6 @@
 [
   {
-    "id": "ped-80",
+    "id": "ped-65",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -21,7 +21,7 @@
     "guia_body": ": Parâmetros Vitais Fisiológicos em Pediatria\n\n| Faixa Etária | Frequência Cardíaca (bpm) | Frequência Respiratória (irpm) | Pressão Arterial Sistólica Mínima |\n| :--- | :---: | :---: | :---: |\n| **Recém-nascido (< 28 dias)** | 100 a 160 | 40 a 60 | > 60 mmHg |\n| **Lactente (1 a 12 meses)** | 100 a 140 | 30 a 50 (limite: 50 se < 1 ano) | > 70 mmHg |\n| **Pré-escolar (1 a 3 anos)** | 80 a 120 | 24 a 40 (limite: 40 se 1-5 anos) | > 70 + (2 x idade em anos) |\n| **Escolar (4 a 10 anos)** | 70 a 110 | 18 a 30 | > 70 + (2 x idade em anos) |\n| **Adolescente (> 10 anos)** | 60 a 100 | 12 a 20 | > 90 mmHg |\n\n> [!IMPORTANT]\n> **A Regra de Ouro do Exame Pediátrico:**\n> Toda criança com febre alta fica taquicárdica e taquipneica (a cada 1°C de febre, a FC sobe ~10 bpm e a FR sobe ~2 a 4 irpm).\n> **O momento da verdade é após a defervescência:** Se a criança medicada ficar afebril, reanimar, brincar e a frequência respiratória voltar ao normal, a probabilidade de sepse ou insuficiência respiratória cai drasticamente. Se a criança permanecer letárgica, taquipneica ou gemente **sem febre**, o sinal de alerta é máximo!"
   },
   {
-    "id": "ped-81",
+    "id": "ped-66",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -42,7 +42,7 @@
     "guia_body": ": Suplementação Profilática de Ferro e Vitamina D (SBP)\n\n### 1. Vitamina D Profilática\n- **Idade:** Desde a primeira semana de vida até 12 meses: **400 UI/dia** por via oral.\n- **Dos 12 aos 24 meses:** **600 UI/dia** por via oral.\n- *Indicação:* Universal, para todas as crianças, em aleitamento materno ou fórmula infantil (a menos que a criança ingira comprovadamente > 1.000 mL/dia de fórmula infantil enriquecida).\n\n### 2. Ferro Elementar Profilático (SBP / MS Atualizado)\n\n| Condição Neonatal | Idade de Início | Dose de Ferro Elementar | Duração |\n| :--- | :---: | :---: | :---: |\n| **Recém-nascido a termo, peso ≥ 2.500g** (em AME ou misto) | **Aos 6 meses** | **1 mg/kg/dia** | Até os 24 meses |\n| **Prematuro ou Baixo Peso (< 2.500g até 1.500g)** | **Aos 30 dias de vida** | **2 mg/kg/dia** | Por 1 ano (depois 1 mg/kg até 2 anos) |\n| **Muito Baixo Peso (< 1.500g até 1.000g)** | **Aos 30 dias de vida** | **3 mg/kg/dia** | Por 1 ano (depois 1 mg/kg até 2 anos) |\n| **Extremo Baixo Peso (< 1.000g)** | **Aos 30 dias de vida** | **4 mg/kg/dia** | Por 1 ano (depois 1 mg/kg até 2 anos) |\n\n*Apresentação prática:* Sulfato ferroso gotas (cada 1 mL costuma ter 25 mg de ferro elementar; 1 gota ≈ 1 a 1,25 mg de ferro elementar)."
   },
   {
-    "id": "ped-82",
+    "id": "ped-67",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -63,7 +63,7 @@
     "guia_body": ": Volume de Lavagem Nasal por Faixa Etária\n\nA lavagem nasal com Soro Fisiológico 0,9% em seringa (com ponta macia de silicone) é a intervenção de maior eficácia e segurança na pediatria:\n\n| Faixa Etária Pediátrica | Volume por Narina (em cada aplicação) | Posição da Criança |\n| :--- | :---: | :--- |\n| **Lactente jovem (< 6 meses)** | **1 a 3 mL** | Sentada no colo ou levemente inclinada para frente (NUNCA deitada de barriga para cima de cabeça para trás). |\n| **Lactente (6 a 12 meses)** | **3 a 5 mL** | Criança sentada no colo do responsável, cabeça levemente inclinada para frente com boca aberta. |\n| **Pré-escolar (1 a 3 anos)** | **5 a 10 mL** | Sentada ereta ou de pé, orientando a soprar pelo nariz ou deixar escorrer livremente. |\n| **Escolar e Adolescente (> 4 anos)** | **10 a 20 mL** (ou dispositivos de alto volume 120-240 mL) | De pé sobre a pia, cabeça inclinada para a frente a 45°. |\n\n> [!TIP]\n> **Dica Prática:** Aquecer ligeiramente o soro fisiológico nas mãos ou em banho-maria até temperatura corporal (~36°C) melhora a complacência e o conforto da criança, fluidificando as secreções com muito mais facilidade sem provocar vasoespasmo reflexo."
   },
   {
-    "id": "ped-83",
+    "id": "ped-68",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -84,7 +84,7 @@
     "guia_body": ": O que NUNCA Fazer na Bronquiolite Viral Aguda\n\nA Bronquiolite Viral Aguda é uma doença inflamatória e necrótica dos bronquíolos terminais, com edema de mucosa e acúmulo de debris celulares, **NÃO sendo uma crise de broncoespasmo clássico**:\n\n| Intervenção | Recomendação das Diretrizes (SBP / AAP) | Justificativa Científica |\n| :--- | :---: | :--- |\n| **Corticoides Sistêmicos (Prednisolona)** | ❌ **PROIBIDO / NÃO RECOMENDADO** | Diversos ensaios clínicos randomizados provaram que NÃO reduzem tempo de internação, NÃO melhoram a mecânica pulmonar e causam efeitos adversos. |\n| **Antibióticos (Amoxicilina, etc.)** | ❌ **PROIBIDO** | Etiologia viral em > 98% dos casos (VSR, Rinovírus). Menos de 1% dos lactentes com BVA desenvolvem infecção bacteriana secundária. |\n| **Xaropes, Mucolíticos e Antitussígenos** | ❌ **PROIBIDO** | Totalmente ineficazes e tóxicos em lactentes; aumentam secreção e pioram a obstrução. |\n| **Fisioterapia Respiratória Motora Vigosa** | ❌ **NÃO RECOMENDADA** | Manobras de percussão/vibração descompensam o lactente e aumentam o trabalho respiratório; apenas aspiração nasal suave é indicada. |\n| **Beta-2 Agonista (Salbutamol)** | ⚠️ **NÃO RECOMENDADO DE ROTINA** | Os receptores beta-2 bronquiolares ainda são imaturos no lactente jovem. Apenas um teste único pode ser feito; se não houver resposta evidente, **suspender**. |\n\n> [!IMPORTANT]\n> **Os 3 Pilares que Realmente Salvam Vidas na BVA:**\n> 1. **Oxigênio umidificado** (se SpO2 < 90-92%).\n> 2. **Hidratação e nutrição adequadas** (evitando broncoaspiração se taquipneia > 60).\n> 3. **Lavagem nasal frequente com soro fisiológico**."
   },
   {
-    "id": "ped-84",
+    "id": "ped-69",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -105,7 +105,7 @@
     "guia_body": ": Diagnóstico Diferencial de Risco - Epiglotite vs Crupe\n\nO Crupe Viral é benigno e frequente; a **Epiglotite Aguda** é uma emergência catastrófica com risco de óbito por asfixia súbita:\n\n| Característica Clínica | Crupe Viral (Laringite) | Epiglotite Aguda (Grave Emergência) |\n| :--- | :--- | :--- |\n| **Idade Típica** | 6 meses a 3 anos | 2 a 7 anos (ou qualquer idade se não vacinado) |\n| **Início** | Gradual (1-2 dias de resfriado prévio) | **Hiperagudo** e fulminante (horas) |\n| **Febre** | Baixa a moderada (< 38,5°C) | **Alta (> 39°C)** com toxemia e prostração |\n| **Tosse** | **Ladrante (\"tosse de foca\") exuberante** | Ausente ou fraca/suprimida por dor de garganta |\n| **Deglutição & Saliva** | Normal, deglute saliva sem problemas | **Sialorreia (baba contínua)** por odinofagia extrema |\n| **Postura Corporal** | Variada, confortável | **Posição em Tripé** (sentado inclinado para frente, queixo estendido, boca aberta) |\n| **Agente Causal** | Parainfluenza, Rinovírus, VSR | *Haemophilus influenzae* tipo B, *Strepto pyogenes* |\n\n> [!CAUTION]\n> **Conduta Crítica na Suspeita de Epiglotite Aguda:**\n> 1. **NUNCA** use abaixador de língua para examinar a orofaringe (pode desencadear espasmo laringóclise reflexo total e parada respiratória imediata).\n> 2. **NUNCA** deite a criança de costas; mantenha-a sentada no colo do acompanhante.\n> 3. Acione imediatamente o Médico Cirurgião Pediátrico / ORL e prepare material de via aérea difícil para intubação em centro cirúrgico."
   },
   {
-    "id": "ped-85",
+    "id": "ped-70",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -126,7 +126,7 @@
     "guia_body": ": Cálculo Prático de Amoxicilina 50 mg/kg e 90 mg/kg\n\n### A. Formulação 250 mg / 5 mL (Concentração = 50 mg/mL)\n- Na dose de **50 mg/kg/dia** dividida de 8/8h:\n  * Dose por tomada = (Peso x 50) ÷ 3 ÷ 50 = **Peso ÷ 3 mL por tomada de 8/8h**.\n  * *Exemplo prático:* Criança de 12 kg -> 12 ÷ 3 = **4 mL de 8 em 8 horas**.\n\n### B. Formulação 400 mg / 5 mL (Concentração = 80 mg/mL)\n- Na dose de **90 mg/kg/dia** dividida de 12/12h:\n  * Dose diária = Peso x 90 mg.\n  * Dose por tomada (12/12h) = (Peso x 45 mg) ÷ 80 mg/mL ≈ **Peso x 0,56 mL por tomada de 12/12h**.\n  * *Exemplo prático:* Criança de 10 kg -> 10 x 0,56 ≈ **5,6 mL de 12 em 12 horas**."
   },
   {
-    "id": "ped-86",
+    "id": "ped-71",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -147,7 +147,7 @@
     "guia_body": ": Taquipneia como Marcador Diagnóstico na PAC Pediátrica\n\nSegundo a Organização Mundial da Saúde (OMS), a **Taquipneia** (frequência respiratória aumentada aferida em 1 minuto completo com a criança em repouso e sem febre) é o sinal clínico de maior sensibilidade para pneumonia na infância:\n\n| Idade da Criança | Limite da FR (Taquipneia se ≥) |\n| :--- | :---: |\n| **Menores de 2 meses** | **≥ 60 irpm** (Atenção: nesta faixa etária, qualquer pneumonia interna obrigatoriamente!) |\n| **De 2 a 11 meses** | **≥ 50 irpm** |\n| **De 1 a 5 anos** | **≥ 40 irpm** |\n| **Maiores de 5 anos** | **≥ 30 irpm** |\n\n### Precisa de Raio-X de Tórax em Todo Paciente?\n- **NÃO!** Em crianças com quadro típico de pneumonia não grave em ambiente ambulatorial, o diagnóstico é **estritamente clínico**. O Raio-X de tórax **não deve atrasar o início do antibiótico**.\n- *Quando solicitar o RX de tórax:* Dúvida diagnóstica, suspeita de complicações (derrame pleural parapneumônico, atelectasia, pneumotórax), necessidade de internação hospitalar ou ausência de melhora após 48-72h de amoxicilina."
   },
   {
-    "id": "ped-87",
+    "id": "ped-72",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -168,7 +168,7 @@
     "guia_body": ": Manejo da Desidratação Pediátrica em 3 Passos\n\n```mermaid\nflowchart TD\n    Diarreia[\"Criança com Diarreia / Vômitos\"] --> Avaliacao{\"Avaliação dos Sinais Cardinais (Sensório, Olhos, Sede, Prega)\"}\n    \n    Avaliacao -- \"< 2 sinais de desidratação\" --> PlanoA[\"PLANO A (Domiciliar)<br>1. SRO após cada perda<br>2. Zinco 10-14 dias<br>3. Manter dieta e seio\"]\n    \n    Avaliacao -- \"≥ 2 sinais (Irritado, Sede ávida, Olhos fundos)\" --> PlanoB[\"PLANO B (Na Unidade - TRO)<br>50 a 100 mL/kg de SRO em 4-6h<br>Ondansetrona se vômitos persistentes\"]\n    \n    Avaliacao -- \"Letárgico, choque, incapaz de beber, prega > 2s\" --> PlanoC[\"PLANO C (Expansão Venosa)<br>SF 0,9% ou RL 100 mL/kg<br>30 mL/kg em 30 min + 70 mL/kg\"]\n```\n\n> [!TIP]\n> **Por que o Zinco é Obrigatório pelo Ministério da Saúde e OMS?**\n> A suplementação de zinco (10 mg/dia se < 6 meses; 20 mg/dia se ≥ 6 meses por 10 a 14 dias) acelera a regeneração das microvilosidades do epitélio intestinal, reduz a duração do episódio de diarreia em 25% e protege contra novos episódios de diarreia nos 2 a 3 meses subsequentes."
   },
   {
-    "id": "ped-88",
+    "id": "ped-73",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -189,7 +189,7 @@
     "guia_body": ": Algoritmo de Decisão na Febre sem Foco\n\n```mermaid\nflowchart TD\n    Febre[\"Febre sem Foco no Lactente\"] --> Idade{\"Qual a idade da criança?\"}\n    \n    Idade -- \"< 28 dias (Neonato)\" --> Neonato[\"INTERNAÇÃO OBRIGATÓRIA<br>Triagem séptica completa (Sangue, Urina por sonda, LCR)<br>Ampicilina + Gentamicina EV\"]\n    \n    Idade -- \"29 a 90 dias (1-3 meses)\" --> Rochester{\"Critérios de Baixo Risco de Rochester?<br>TEP normal? Urina normal? Leuco 5-15k?\"}\n    Rochester -- \"NÃO (Alto risco ou alterado)\" --> InternaLactente[\"Internação + Exames + ATB venoso (Ceftriaxona)\"]\n    Rochester -- \"SIM (Baixo risco)\" --> AmbUrina[\"Urina 1 + Urocultura por sonda<br>Seguimento rigoroso em 24h\"]\n    \n    Idade -- \"> 3 meses\" --> Maior{\"TEP normal? Vacinas em dia?<br>Reanima após o antitérmico?\"}\n    Maior -- \"SIM\" --> AmbLactente[\"Manejo ambulatorial sintomático<br>Investigar ITU se febre > 48-72h\"]\n    Maior -- \"NÃO (Prostrado sem febre)\" --> Emergencia[\"Investigação laboratorial no PS\"]\n```"
   },
   {
-    "id": "ped-89",
+    "id": "ped-74",
     "mod_id": "ped",
     "module_name": "Pediatria & Puericultura",
     "badge": "👶 Pediatria",
@@ -208,26 +208,5 @@
     "receita_body": "",
     "has_guia": true,
     "guia_body": ": Convulsão Febril Simples vs Complexa\n\n| Parâmetro Clínico | Convulsão Febril Simples (Benigna) | Convulsão Febril Complexa |\n| :--- | :--- | :--- |\n| **Tipo de Movimento** | **Generalizada bilateral** (tônico-clônica) | **Focal** (abalo em um único braço/perna ou desvio ocular) |\n| **Duração** | **Curta (< 15 minutos)**, média 1 a 3 min | **Prolongada (> 15 minutos)** |\n| **Frequência em 24h** | **Episódio único** no mesmo evento febril | **Múltipla / Recorrente** (> 1 crise em 24 horas) |\n| **Exame Neurológico Pós-Crise** | **Normal** após recuperação do pós-ictal | **Anormal** (Paralisia de Todd, déficit focal motor persistente) |\n| **Conduta Ambulatorial** | Observação de 2-4h e alta segura com orientações | Investigação laboratorial e neurológica no hospital |"
-  },
-  {
-    "id": "ped-90",
-    "mod_id": "ped",
-    "module_name": "Pediatria & Puericultura",
-    "badge": "👶 Pediatria",
-    "title": "Guia Mestre de Doses Ponderais & Conversões em Pediatria",
-    "trigger": ";ped-doses",
-    "all_triggers": [
-      ";ped-doses"
-    ],
-    "category": "Guia Doses Ponderais Calculadora",
-    "path": "04_Pediatria_Puericultura/06_Guia_Doses_Ponderais_Calculadora/01_Guia_Mestre_Doses_Ponderais_Pediatricas.md",
-    "pep_body": "GUIA RÁPIDO DE PRESCRIÇÃO PEDIÁTRICA PONDERAL (PESO: [ ] kg)\n\n1. ANTITÉRMICOS & ANALGÉSICOS (Doses por tomada):\n- Dipirona gotas (500 mg/mL = 25 mg/gota):\n  * Dose: 10 a 15 mg/kg/dose a cada 6 horas se dor ou febre (Tax ≥ 37,8°C).\n  * Regra prática rápida: **1 gota por kg de peso** (Dose máxima: 35 a 40 gotas = 1.000 mg por tomada).\n  * Prescrição para [ ] kg: Dar [ ] gotas VO até de 6/6h.\n\n- Paracetamol gotas (200 mg/mL = 10 mg/gota):\n  * Dose: 10 a 15 mg/kg/dose a cada 6 horas se dor ou febre.\n  * Regra prática rápida: **1 gota por kg de peso** (Dose máxima: 35 gotas = 750 mg por tomada; máx 5 tomadas/dia).\n  * Prescrição para [ ] kg: Dar [ ] gotas VO até de 6/6h.\n\n- Ibuprofeno gotas (100 mg/mL = 5 mg/gota - APENAS SE > 6 MESES):\n  * Dose: 5 a 10 mg/kg/dose a cada 8 horas.\n  * Regra prática: **1 a 2 gotas por kg** (Dose máxima: 40 gotas = 200 mg por tomada).\n  * Prescrição para [ ] kg: Dar [ ] gotas VO até de 8/8h.\n\n2. CORTICOIDES SISTÊMICOS (Dose por dia):\n- Prednisolona solução oral (3 mg/mL):\n  * Dose: 1 a 2 mg/kg/dia por 3 a 5 dias pela manhã (Dose máx: 40 a 60 mg/dia).\n  * Cálculo em mL: **Peso x 0,33 a 0,66 mL ao dia**.\n  * Prescrição para [ ] kg: Tomar [ ] mL VO 1x ao dia pela manhã por [ 3 a 5 ] dias.\n\n- Dexametasona elixir (0,1 mg/mL - Crupe Viral / Laringite):\n  * Dose: 0,15 a 0,6 mg/kg dose única VO (Dose máx: 10 a 16 mg).\n  * Cálculo em mL: **Peso x 1,5 a 6 mL dose única**.\n  * Prescrição para [ ] kg: Tomar [ ] mL VO em dose única.\n\n3. BRONCODILATADORES (Crise de Asma / Sibilância):\n- Salbutamol spray aerossol dosimetrado (100 mcg/jato):\n  * Uso OBRIGATÓRIO com espaçador valvulado com máscara facial (se < 4 anos) ou bocal (se ≥ 4 anos).\n  * Dose na crise: **2 a 4 jatos** a cada 20 minutos na primeira hora (agitar o frasco, 1 jato por vez, aguardar 6 a 8 respirações da criança no espaçador).\n\n4. ANTIMICROBIANOS DE PRIMEIRA LINHA:\n- Amoxicilina suspensão (250 mg/5 mL = 50 mg/mL):\n  * Dose padrão (50 mg/kg/dia dividida de 8/8h):\n    - Fórmula rápida em mL: **Peso ÷ 3 mL por tomada de 8/8h** por 7 a 10 dias.\n    - Prescrição para [ ] kg: Tomar [ ] mL VO de 8 em 8 horas.\n\n- Amoxicilina suspensão (400 mg/5 mL = 80 mg/mL):\n  * Dose alta dobrada (90 mg/kg/dia dividida de 12/12h para OMA grave/creche):\n    - Fórmula rápida em mL: **Peso x 0,56 mL por tomada de 12/12h** por 10 dias.\n    - Prescrição para [ ] kg: Tomar [ ] mL VO de 12 em 12 horas.\n\n- Amoxicilina + Clavulanato suspensão (400 mg + 57 mg / 5 mL):\n  * Dose de 50 mg/kg/dia de amoxicilina de 12/12h: **Peso x 0,31 mL de 12/12h**.\n  * Dose alta de 90 mg/kg/dia de amoxicilina de 12/12h: **Peso x 0,56 mL de 12/12h**.\n\n- Cefalexina suspensão (250 mg/5 mL = 50 mg/mL - Pele/Urina):\n  * Dose: 50 mg/kg/dia dividida de 6/6h por 7 a 10 dias.\n  * Fórmula rápida em mL: **Peso ÷ 4 mL por tomada de 6/6h**.\n  * Prescrição para [ ] kg: Tomar [ ] mL VO de 6 em 6 horas.\n\n- Azitromicina suspensão (200 mg/5 mL = 40 mg/mL):\n  * Dose: 10 mg/kg/dia 1x ao dia durante 3 a 5 dias (Dose máx: 500 mg = 12,5 mL).\n  * Fórmula rápida em mL: **Peso ÷ 4 mL 1x ao dia**.\n  * Prescrição para [ ] kg: Tomar [ ] mL VO 1x ao dia por [ ] dias.\n\n5. ANTIEMÉTICOS (Ondansetrona oral):\n- Ondansetrona solução oral (2 mg/mL) ou comp. orodispersível: Dose: 0,15 mg/kg/dose:\n  * 8 a 15 kg: **2 mg** (1 mL ou 1/2 comprimido de 4 mg).\n  * 15 a 30 kg: **4 mg** (2 mL ou 1 comprimido de 4 mg).\n  * > 30 kg: **8 mg** (4 mL ou 1 comprimido de 8 mg).",
-    "has_split": false,
-    "evolucao_body": "GUIA RÁPIDO DE PRESCRIÇÃO PEDIÁTRICA PONDERAL (PESO: [ ] kg)\n\n1. ANTITÉRMICOS & ANALGÉSICOS (Doses por tomada):\n- Dipirona gotas (500 mg/mL = 25 mg/gota):\n  * Dose: 10 a 15 mg/kg/dose a cada 6 horas se dor ou febre (Tax ≥ 37,8°C).\n  * Regra prática rápida: **1 gota por kg de peso** (Dose máxima: 35 a 40 gotas = 1.000 mg por tomada).\n  * Prescrição para [ ] kg: Dar [ ] gotas VO até de 6/6h.\n\n- Paracetamol gotas (200 mg/mL = 10 mg/gota):\n  * Dose: 10 a 15 mg/kg/dose a cada 6 horas se dor ou febre.\n  * Regra prática rápida: **1 gota por kg de peso** (Dose máxima: 35 gotas = 750 mg por tomada; máx 5 tomadas/dia).\n  * Prescrição para [ ] kg: Dar [ ] gotas VO até de 6/6h.\n\n- Ibuprofeno gotas (100 mg/mL = 5 mg/gota - APENAS SE > 6 MESES):\n  * Dose: 5 a 10 mg/kg/dose a cada 8 horas.\n  * Regra prática: **1 a 2 gotas por kg** (Dose máxima: 40 gotas = 200 mg por tomada).\n  * Prescrição para [ ] kg: Dar [ ] gotas VO até de 8/8h.\n\n2. CORTICOIDES SISTÊMICOS (Dose por dia):\n- Prednisolona solução oral (3 mg/mL):\n  * Dose: 1 a 2 mg/kg/dia por 3 a 5 dias pela manhã (Dose máx: 40 a 60 mg/dia).\n  * Cálculo em mL: **Peso x 0,33 a 0,66 mL ao dia**.\n  * Prescrição para [ ] kg: Tomar [ ] mL VO 1x ao dia pela manhã por [ 3 a 5 ] dias.\n\n- Dexametasona elixir (0,1 mg/mL - Crupe Viral / Laringite):\n  * Dose: 0,15 a 0,6 mg/kg dose única VO (Dose máx: 10 a 16 mg).\n  * Cálculo em mL: **Peso x 1,5 a 6 mL dose única**.\n  * Prescrição para [ ] kg: Tomar [ ] mL VO em dose única.\n\n3. BRONCODILATADORES (Crise de Asma / Sibilância):\n- Salbutamol spray aerossol dosimetrado (100 mcg/jato):\n  * Uso OBRIGATÓRIO com espaçador valvulado com máscara facial (se < 4 anos) ou bocal (se ≥ 4 anos).\n  * Dose na crise: **2 a 4 jatos** a cada 20 minutos na primeira hora (agitar o frasco, 1 jato por vez, aguardar 6 a 8 respirações da criança no espaçador).\n\n4. ANTIMICROBIANOS DE PRIMEIRA LINHA:\n- Amoxicilina suspensão (250 mg/5 mL = 50 mg/mL):\n  * Dose padrão (50 mg/kg/dia dividida de 8/8h):\n    - Fórmula rápida em mL: **Peso ÷ 3 mL por tomada de 8/8h** por 7 a 10 dias.\n    - Prescrição para [ ] kg: Tomar [ ] mL VO de 8 em 8 horas.\n\n- Amoxicilina suspensão (400 mg/5 mL = 80 mg/mL):\n  * Dose alta dobrada (90 mg/kg/dia dividida de 12/12h para OMA grave/creche):\n    - Fórmula rápida em mL: **Peso x 0,56 mL por tomada de 12/12h** por 10 dias.\n    - Prescrição para [ ] kg: Tomar [ ] mL VO de 12 em 12 horas.\n\n- Amoxicilina + Clavulanato suspensão (400 mg + 57 mg / 5 mL):\n  * Dose de 50 mg/kg/dia de amoxicilina de 12/12h: **Peso x 0,31 mL de 12/12h**.\n  * Dose alta de 90 mg/kg/dia de amoxicilina de 12/12h: **Peso x 0,56 mL de 12/12h**.\n\n- Cefalexina suspensão (250 mg/5 mL = 50 mg/mL - Pele/Urina):\n  * Dose: 50 mg/kg/dia dividida de 6/6h por 7 a 10 dias.\n  * Fórmula rápida em mL: **Peso ÷ 4 mL por tomada de 6/6h**.\n  * Prescrição para [ ] kg: Tomar [ ] mL VO de 6 em 6 horas.\n\n- Azitromicina suspensão (200 mg/5 mL = 40 mg/mL):\n  * Dose: 10 mg/kg/dia 1x ao dia durante 3 a 5 dias (Dose máx: 500 mg = 12,5 mL).\n  * Fórmula rápida em mL: **Peso ÷ 4 mL 1x ao dia**.\n  * Prescrição para [ ] kg: Tomar [ ] mL VO 1x ao dia por [ ] dias.\n\n5. ANTIEMÉTICOS (Ondansetrona oral):\n- Ondansetrona solução oral (2 mg/mL) ou comp. orodispersível: Dose: 0,15 mg/kg/dose:\n  * 8 a 15 kg: **2 mg** (1 mL ou 1/2 comprimido de 4 mg).\n  * 15 a 30 kg: **4 mg** (2 mL ou 1 comprimido de 4 mg).\n  * > 30 kg: **8 mg** (4 mL ou 1 comprimido de 8 mg).",
-    "conduta_body": "",
-    "has_receita": false,
-    "receita_body": "",
-    "has_guia": true,
-    "guia_body": ": Tabela Mestra de Conversão Ponderal Rápida (1 a 20 kg)\n\n| Peso da Criança | Dipirona 500mg/ml (1 gota/kg) | Paracetamol 200mg/ml (1 gota/kg) | Prednisolona 3mg/ml (1 mg/kg/dia) | Amox 250mg/5ml (50 mg/kg/dia 8/8h) | Amox 400mg/5ml (90 mg/kg/dia 12/12h) |\n| :---: | :---: | :---: | :---: | :---: | :---: |\n| **5 kg** | 5 gotas | 5 gotas | 1,6 mL 1x/dia | 1,7 mL 8/8h | 2,8 mL 12/12h |\n| **8 kg** | 8 gotas | 8 gotas | 2,6 mL 1x/dia | 2,7 mL 8/8h | 4,5 mL 12/12h |\n| **10 kg** | 10 gotas | 10 gotas | 3,3 mL 1x/dia | 3,3 mL 8/8h | 5,6 mL 12/12h |\n| **12 kg** | 12 gotas | 12 gotas | 4,0 mL 1x/dia | 4,0 mL 8/8h | 6,7 mL 12/12h |\n| **15 kg** | 15 gotas | 15 gotas | 5,0 mL 1x/dia | 5,0 mL 8/8h | 8,4 mL 12/12h |\n| **18 kg** | 18 gotas | 18 gotas | 6,0 mL 1x/dia | 6,0 mL 8/8h | 10,0 mL 12/12h |\n| **20 kg** | 20 gotas | 20 gotas | 6,6 mL 1x/dia | 6,7 mL 8/8h | 11,2 mL 12/12h |\n| **25 kg** | 25 gotas | 25 gotas | 8,3 mL 1x/dia | 8,3 mL 8/8h | 14,0 mL 12/12h |\n| **30 kg** | 30 gotas | 30 gotas | 10,0 mL 1x/dia | 10,0 mL 8/8h | 16,8 mL 12/12h |\n\n> [!WARNING]\n> **Doses Máximas que NUNCA Devem Ser Ultrapassadas em Pediatria:**\n> - **Dipirona:** Máximo de 1.000 mg por tomada (40 gotas) ou 4.000 mg/dia.\n> - **Paracetamol:** Máximo de 750 mg por tomada (35-37 gotas) ou 60 mg/kg/dia (risco de hepatotoxicidade fulminante).\n> - **Ibuprofeno:** Máximo de 400 mg por tomada ou 1.200 mg/dia.\n> - **Prednisolona:** Máximo de 40 a 60 mg/dia em pulsos curtos.\n> - **Azitromicina:** Máximo de 500 mg/dia (dose de adulto)."
   }
 ]

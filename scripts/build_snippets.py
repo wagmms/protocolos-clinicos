@@ -165,7 +165,10 @@ def parse_hab_card(file_path, seq_num):
 pep_snippets = []
 
 for mod in modules:
-    mod_files = sorted(glob.glob(f"{mod['dir']}/**/*.md", recursive=True))
+    mod_files = [
+        f for f in sorted(glob.glob(f"{mod['dir']}/**/*.md", recursive=True))
+        if '_arquivados' not in f and not os.path.basename(f).startswith('.') and not os.path.basename(f).startswith('_')
+    ]
     print(f"Processando {mod['name']}: {len(mod_files)} arquivos.")
 
     for f in mod_files:
@@ -177,7 +180,7 @@ for mod in modules:
         title = title_match.group(1).replace('Protocolo de Atendimento:', '').replace('Protocolo:', '').strip() if title_match else os.path.basename(f)
 
         # Atalho
-        trigger_match = re.search(r'\*\*Atalho (?:Recomendado|sugerido|sugeridos):\*\*\s*`?([^`\n\r]+)`?', content, re.IGNORECASE)
+        trigger_match = re.search(r'\*\*Atalhos? (?:Recomendados?|sugeridos?):\*\*\s*`?([^`\n\r]+)`?', content, re.IGNORECASE)
         if trigger_match:
             raw_triggers = trigger_match.group(1).strip()
             first_trigger = [t.strip().strip('`') for t in re.split(r'\||,', raw_triggers) if t.strip()][0]
@@ -319,6 +322,13 @@ with open(all_yaml_path, 'w', encoding='utf-8') as fh:
 cockpit_items = pep_snippets + hab_snippets
 html_path = os.path.join(BASE_PROJECT, 'painel_rapido_snippets.html')
 
+# Ícones SVG reutilizáveis nos cards (Minimalista)
+SVG_COPY = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>'
+SVG_CLOCK = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>'
+SVG_CHECK = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>'
+SVG_ZAP = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>'
+SVG_ALERT = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>'
+
 cards_html = []
 for idx, s in enumerate(cockpit_items):
     if s['mod_id'] == 'hab':
@@ -334,47 +344,45 @@ for idx, s in enumerate(cockpit_items):
             f"{s['title']} {s['category']} {s['module_name']} {s['anchor']} "
             f"{s['time_goal']} {s['pre_porta']} {checklist_items_text} {pitfalls_text} {s['path']}"
         ).lower()
-        preview_source = s['pre_porta'] or s['anchor']
-        preview_text = html.escape(preview_source[:220]) + ("..." if len(preview_source) > 220 else "")
         anchor_html = (
-            f'<div class="hab-card-anchor" title="Âncora mnemônica">⚓ {html.escape(s["anchor"])}</div>'
+            f'<p class="hab-card-anchor" title="Sequência-chave">{html.escape(s["anchor"])}</p>'
             if s['anchor'] else ''
         )
         time_chip_html = (
-            f'<span class="time-pill" title="Meta de tempo">⏱️ {html.escape(s["time_goal"])}</span>'
+            f'<span class="meta-time" title="Meta de tempo">{SVG_CLOCK}<span>{html.escape(s["time_goal"])}</span></span>'
             if s['time_goal'] else ''
         )
+        pit_count = len(s['pitfalls'])
+        pit_label = f'Erros ({pit_count})' if pit_count else 'Erros'
         cards_html.append(f"""
     <article class="card card-hab" data-mod="hab" data-idx="{idx}" data-cat="{html.escape(s['category'])}" data-search="{html.escape(search_keywords)}" style="display:none;" onclick="openInspector({idx})">
-      <div class="card-top">
-        <div class="tags-cluster">
-          <span class="mod-pill mod-pill-hab">{s['badge']}</span>
-          <span class="cat-pill">{html.escape(s['category'])}</span>
+      <div class="card-head">
+        <div class="card-meta">
+          <span class="mod-dot mod-dot-hab"></span>
+          <span class="meta-label">{html.escape(s['category'])}</span>
         </div>
-        <div class="triggers-wrap">
-          {time_chip_html}
-        </div>
+        {time_chip_html}
       </div>
 
       <div class="card-body-block">
         <h3 class="card-title">{html.escape(s['title'])}</h3>
         {anchor_html}
-        <div class="card-preview card-preview-hab">
-          <pre><code>{preview_text}</code></pre>
-        </div>
       </div>
 
       <div class="card-footer">
         <div class="btn-group">
           <button class="btn btn-hab-pre" onclick="event.stopPropagation(); openInspector({idx}, 'preporta')" title="Abrir roteiro Pré-Porta 30s">
-            ⚡ Pré-Porta
+            {SVG_ZAP}
+            <span>Pré-Porta</span>
           </button>
           <button class="btn btn-hab-chk" data-hab-chk-btn="{idx}" onclick="event.stopPropagation(); openInspector({idx}, 'checklist')" title="Abrir Checklist Pós-Atendimento">
-            ✅ Checklist ({s['checklist_total']})
+            {SVG_CHECK}
+            <span class="chk-btn-label">Checklist · {s['checklist_total']}</span>
           </button>
         </div>
-        <button class="btn btn-detail" onclick="event.stopPropagation(); openInspector({idx}, 'armadilhas')" title="Ver Armadilhas &amp; Erros Fatais">
-          🚫 Erros
+        <button class="btn btn-detail btn-hab-err" onclick="event.stopPropagation(); openInspector({idx}, 'armadilhas')" title="Ver Armadilhas &amp; Erros Fatais">
+          {SVG_ALERT}
+          <span>{pit_label}</span>
         </button>
       </div>
     </article>
@@ -382,59 +390,66 @@ for idx, s in enumerate(cockpit_items):
         continue
 
     # Botões segmentados (PEP)
-    segment_buttons = []
-    segment_buttons.append(f"""
+    segment_buttons = [f"""
       <button class="btn btn-primary" onclick='event.stopPropagation(); copySnippet({idx})' title="Copiar evolução e conduta completas">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-        Copiar Tudo
+        {SVG_COPY}
+        <span>Copiar Tudo</span>
       </button>
-    """)
+    """]
 
     if s['has_split'] and s['conduta_body']:
         segment_buttons.append(f"""
-          <button class="btn btn-cnd" onclick='event.stopPropagation(); copyConduta({idx})' title="Copiar apenas a conduta / prescrição imediata">
-            💉 Conduta
+          <button class="btn btn-subtle" onclick='event.stopPropagation(); copyConduta({idx})' title="Copiar apenas a conduta / prescrição imediata">
+            Conduta
           </button>
         """)
 
     if s['has_receita']:
         segment_buttons.append(f"""
-          <button class="btn btn-rec" onclick='event.stopPropagation(); copyReceita({idx})' title="Copiar apenas a receita estruturada">
-            💊 Receita
+          <button class="btn btn-subtle" onclick='event.stopPropagation(); copyReceita({idx})' title="Copiar apenas a receita estruturada">
+            Receita
           </button>
         """)
 
-    has_guia_badge = '<span class="pill pill-guia" title="Contém diretrizes e conduta clínica">🎯 Conduta</span>' if s['has_guia'] else ''
-    has_split_badge = '<span class="pill pill-split" title="Permite cópia separada de Anamnese e Conduta">⚡ Bipartido</span>' if s['has_split'] else ''
+    mod_label_clean = re.sub(r'^[^\wÀ-ÿ]+\s*', '', s['badge']).strip() or s['module_name']
+    meta_badges = []
+    if s['has_split']:
+        meta_badges.append('<span class="meta-flag" title="Permite cópia separada de Anamnese e Conduta">Bipartido</span>')
+    if s['has_guia']:
+        meta_badges.append('<span class="meta-flag" title="Contém diretrizes e conduta clínica">Diretriz</span>')
+    meta_flags_html = ('<span class="meta-sep">·</span>' + '<span class="meta-sep">·</span>'.join(meta_badges)) if meta_badges else ''
 
     search_keywords = f"{s['title'].lower()} {' '.join(s['all_triggers']).lower()} {s['category'].lower()} {s['module_name'].lower()} {s['path'].lower()}"
-    preview_text = html.escape(s['pep_body'][:220]) + ("..." if len(s['pep_body']) > 220 else "")
-
-    trigger_chips_html = " ".join([
-        f"""<button class="trigger-chip" onclick='event.stopPropagation(); copyTrigger("{html.escape(t)}")' title="Copiar atalho"><code>{html.escape(t)}</code><svg class="copy-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></button>"""
-        for t in s['all_triggers']
-    ])
+    preview_lines = []
+    for raw_ln in s['pep_body'].splitlines():
+        ln = raw_ln.strip()
+        if not ln or re.match(r'^[=\-#_*]{3,}$', ln):
+            continue
+        ln = re.sub(r'^#+\s*', '', ln).rstrip('#').strip()
+        if ln and ln.upper() == s['title'].upper():
+            continue
+        if ln:
+            preview_lines.append(ln)
+        if len(preview_lines) >= 3:
+            break
+    clean_preview = '\n'.join(preview_lines) if preview_lines else re.sub(r'\n{2,}', '\n', s['pep_body']).strip()
+    preview_text = html.escape(clean_preview[:240]) + ("..." if len(clean_preview) > 240 else "")
 
     cards_html.append(f"""
     <article class="card card-{s['mod_id']}" data-mod="{s['mod_id']}" data-idx="{idx}" data-cat="{html.escape(s['category'])}" data-search="{html.escape(search_keywords)}" onclick="openInspector({idx})">
-      <div class="card-top">
-        <div class="tags-cluster">
-          <span class="mod-pill mod-pill-{s['mod_id']}">{s['badge']}</span>
-          <span class="cat-pill">{html.escape(s['category'])}</span>
-          {has_split_badge}
-          {has_guia_badge}
-        </div>
-        <div class="triggers-wrap">
-          {trigger_chips_html}
+      <div class="card-head">
+        <div class="card-meta">
+          <span class="mod-dot mod-dot-{s['mod_id']}"></span>
+          <span class="meta-mod">{html.escape(mod_label_clean)}</span>
+          <span class="meta-sep">·</span>
+          <span class="meta-label">{html.escape(s['category'])}</span>
+          {meta_flags_html}
         </div>
       </div>
 
       <div class="card-body-block">
         <h3 class="card-title">{html.escape(s['title'])}</h3>
-        <p class="card-sub">{html.escape(s['path'])}</p>
-        <div class="card-preview">
-          <pre><code>{preview_text}</code></pre>
-        </div>
+        <p class="card-preview-text">{preview_text}</p>
       </div>
 
       <div class="card-footer">
@@ -442,7 +457,7 @@ for idx, s in enumerate(cockpit_items):
           {''.join(segment_buttons)}
         </div>
         <button class="btn btn-detail" onclick="event.stopPropagation(); openInspector({idx})" title="Visualizar e personalizar">
-          Abrir ↗
+          Abrir
         </button>
       </div>
     </article>
@@ -463,59 +478,71 @@ html_template = r"""<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cockpit de Protocolos Clínicos & PEP</title>
+  <title>Cockpit Clínico — PEP & Habilidades</title>
   <style>
     :root {
-      --bg: #090d16;
-      --surface: #0f172a;
-      --card-bg: #131b2e;
-      --card-hover: #18233c;
-      --border: rgba(255, 255, 255, 0.08);
-      --border-focus: rgba(56, 189, 248, 0.4);
-      --text: #f8fafc;
-      --text-muted: #94a3b8;
-      --text-dim: #64748b;
-      --primary: #0284c7;
+      --bg: #0b0d11;
+      --surface: #12151c;
+      --surface-hover: #171b24;
+      --surface-inset: #0e1117;
+      --border: rgba(255, 255, 255, 0.075);
+      --border-strong: rgba(255, 255, 255, 0.15);
+      --text: #eceff4;
+      --text-secondary: #9aa4b2;
+      --text-dim: #636d7e;
+
+      --primary: #38bdf8;
+      --primary-solid: #0284c7;
       --primary-hover: #0369a1;
-      --success: #10b981;
-      --accent: #f59e0b;
+      --success: #34d399;
+      --warning: #fbbf24;
+      --danger: #f87171;
 
-      --mod-go: #ec4899;
+      --mod-go: #f472b6;
       --mod-upa: #38bdf8;
-      --mod-enf: #10b981;
-      --mod-ped: #f59e0b;
-      --mod-hab: #8b5cf6;
-      --hab-light: #a78bfa;
+      --mod-enf: #34d399;
+      --mod-ped: #fbbf24;
+      --mod-hab: #a78bfa;
+      --hab-solid: #7c3aed;
 
-      --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
       --font-mono: "JetBrains Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 12px;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { color-scheme: dark; }
     body {
       background: var(--bg);
       color: var(--text);
       font-family: var(--font-sans);
+      font-size: 14px;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
       line-height: 1.5;
     }
+    button, input {
+      font-family: inherit;
+    }
 
-    /* Topbar */
+    /* Topbar Minimalista */
     .topbar {
       position: sticky;
       top: 0;
       z-index: 40;
-      background: rgba(9, 13, 22, 0.92);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
+      background: rgba(11, 13, 17, 0.86);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--border);
-      padding: 10px 24px;
+      padding: 12px 24px;
     }
     .topbar-content {
-      max-width: 1540px;
+      max-width: 1480px;
       margin: 0 auto;
       display: flex;
       align-items: center;
@@ -529,141 +556,156 @@ html_template = r"""<!DOCTYPE html>
       gap: 12px;
     }
     .brand-icon {
-      width: 34px;
-      height: 34px;
-      border-radius: 9px;
-      background: linear-gradient(135deg, #0284c7, #0ea5e9);
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      color: var(--text);
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+      flex-shrink: 0;
     }
     .brand-text h1 {
-      font-size: 1.08rem;
-      font-weight: 700;
+      font-size: 0.98rem;
+      font-weight: 600;
       letter-spacing: -0.02em;
-      color: #fff;
+      color: var(--text);
+      line-height: 1.25;
     }
     .brand-text p {
-      font-size: 0.74rem;
-      color: var(--text-muted);
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      line-height: 1.3;
     }
 
-    /* Top Actions & Calculadora de Peso */
+    /* Ferramentas do Topo */
     .top-tools {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
       flex-wrap: wrap;
     }
-
     .weight-widget {
-      display: flex;
+      display: inline-flex;
       align-items: center;
-      gap: 8px;
-      background: rgba(255, 255, 255, 0.04);
+      gap: 6px;
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 4px 10px;
+      padding: 3px 4px 3px 10px;
+      height: 34px;
     }
     .weight-label {
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      display: flex;
-      align-items: center;
-      gap: 5px;
+      font-size: 0.76rem;
+      font-weight: 500;
+      color: var(--text-secondary);
     }
     .weight-input {
-      width: 58px;
-      background: #090d16;
-      border: 1px solid #334155;
-      color: #38bdf8;
+      width: 46px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border-strong);
+      color: var(--text);
       font-family: var(--font-mono);
-      font-size: 0.88rem;
-      font-weight: 700;
-      padding: 3px 6px;
-      border-radius: 5px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      padding: 1px 2px;
       text-align: center;
       outline: none;
+      font-variant-numeric: tabular-nums;
+      -moz-appearance: textfield;
+    }
+    .weight-input::-webkit-outer-spin-button,
+    .weight-input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
     }
     .weight-input:focus {
-      border-color: #38bdf8;
-      box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+      border-bottom-color: var(--primary);
     }
     .weight-unit {
-      font-size: 0.78rem;
+      font-size: 0.74rem;
       color: var(--text-dim);
-      font-weight: 600;
+      padding-right: 4px;
     }
     .btn-doses {
-      background: rgba(56, 189, 248, 0.12);
-      border: 1px solid rgba(56, 189, 248, 0.3);
-      color: #38bdf8;
+      -webkit-appearance: none;
+      appearance: none;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid transparent;
+      color: var(--text-secondary);
       font-size: 0.74rem;
-      font-weight: 700;
+      font-weight: 500;
       padding: 4px 9px;
-      border-radius: 5px;
+      border-radius: 6px;
       cursor: pointer;
-      transition: all 0.15s;
+      transition: background 0.15s ease, color 0.15s ease;
     }
     .btn-doses:hover {
-      background: rgba(56, 189, 248, 0.22);
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text);
     }
 
     .btn-palette-trigger {
-      background: rgba(255, 255, 255, 0.05);
+      -webkit-appearance: none;
+      appearance: none;
+      height: 34px;
+      background: var(--surface);
       border: 1px solid var(--border);
-      color: #e2e8f0;
-      font-size: 0.78rem;
-      font-weight: 600;
-      padding: 5px 12px;
+      color: var(--text-secondary);
+      font-size: 0.76rem;
+      font-weight: 500;
+      padding: 0 10px;
       border-radius: 8px;
       cursor: pointer;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       gap: 7px;
-      transition: all 0.15s;
+      transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
     }
     .btn-palette-trigger:hover {
-      background: rgba(255, 255, 255, 0.1);
-      border-color: rgba(255, 255, 255, 0.2);
+      background: var(--surface-hover);
+      border-color: var(--border-strong);
+      color: var(--text);
     }
     .kbd-shortcut {
-      background: rgba(0, 0, 0, 0.4);
-      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
       padding: 1px 5px;
       border-radius: 4px;
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       font-family: var(--font-mono);
-      color: #94a3b8;
+      color: var(--text-dim);
     }
 
     .counter-pill {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--border);
-      padding: 5px 12px;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: #e2e8f0;
+      gap: 7px;
+      padding: 0 6px;
+      font-size: 0.76rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      font-variant-numeric: tabular-nums;
     }
     .counter-pill .dot {
-      width: 7px;
-      height: 7px;
+      width: 6px;
+      height: 6px;
       border-radius: 50%;
       background: var(--success);
-      box-shadow: 0 0 8px var(--success);
+      flex-shrink: 0;
+    }
+    .counter-pill.is-hab .dot {
+      background: var(--mod-hab);
     }
 
     /* Container Principal */
     .app-container {
-      max-width: 1540px;
+      max-width: 1480px;
       margin: 0 auto;
-      padding: 20px 24px;
+      padding: 20px 24px 48px;
       width: 100%;
       flex: 1;
     }
@@ -673,82 +715,85 @@ html_template = r"""<!DOCTYPE html>
       display: flex;
       flex-direction: column;
       gap: 14px;
-      margin-bottom: 22px;
+      margin-bottom: 24px;
     }
 
     .nav-tabs {
       display: flex;
-      gap: 6px;
+      gap: 4px;
       overflow-x: auto;
-      padding-bottom: 4px;
       border-bottom: 1px solid var(--border);
       scrollbar-width: none;
     }
     .nav-tabs::-webkit-scrollbar { display: none; }
 
     .tab-btn {
-      background: transparent;
-      border: 1px solid transparent;
-      color: var(--text-muted);
-      padding: 8px 16px;
-      border-radius: 8px;
+      -webkit-appearance: none;
+      appearance: none;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--text-secondary);
+      padding: 10px 14px;
+      margin-bottom: -1px;
       cursor: pointer;
-      font-size: 0.88rem;
-      font-weight: 600;
+      font-size: 0.84rem;
+      font-weight: 500;
       letter-spacing: -0.01em;
-      transition: all 0.18s ease;
+      transition: color 0.15s ease, border-color 0.15s ease;
       white-space: nowrap;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       gap: 8px;
+      box-shadow: none;
+      outline: none;
     }
     .tab-btn:hover {
-      background: rgba(255, 255, 255, 0.04);
-      color: #fff;
+      color: var(--text);
+    }
+    .tab-btn:focus-visible {
+      outline: 2px solid rgba(255, 255, 255, 0.25);
+      outline-offset: -2px;
+      border-radius: 6px 6px 0 0;
     }
     .tab-btn.active {
-      background: rgba(2, 132, 199, 0.12);
-      border-color: rgba(56, 189, 248, 0.35);
-      color: #38bdf8;
+      color: var(--text);
+      font-weight: 600;
+      border-bottom-color: var(--text);
     }
+    .tab-btn.active.tab-go { border-bottom-color: var(--mod-go); }
+    .tab-btn.active.tab-upa { border-bottom-color: var(--mod-upa); }
+    .tab-btn.active.tab-enf { border-bottom-color: var(--mod-enf); }
+    .tab-btn.active.tab-ped { border-bottom-color: var(--mod-ped); }
+    .tab-btn.active.tab-hab { border-bottom-color: var(--mod-hab); }
+
+    .tab-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      opacity: 0.75;
+    }
+    .tab-btn.active .tab-dot { opacity: 1; }
+    .dot-all { background: var(--text-secondary); }
+    .dot-go { background: var(--mod-go); }
+    .dot-upa { background: var(--mod-upa); }
+    .dot-enf { background: var(--mod-enf); }
+    .dot-ped { background: var(--mod-ped); }
+    .dot-hab { background: var(--mod-hab); }
+
     .tab-count {
-      background: rgba(255, 255, 255, 0.08);
       font-size: 0.72rem;
-      padding: 2px 7px;
-      border-radius: 12px;
-      font-weight: 700;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+      font-variant-numeric: tabular-nums;
+      font-weight: 500;
+    }
+    .tab-btn.active .tab-count {
+      color: var(--text-secondary);
     }
 
-    .tab-btn.active.tab-go {
-      background: rgba(236, 72, 153, 0.12);
-      border-color: rgba(236, 72, 153, 0.35);
-      color: #f472b6;
-    }
-    .tab-btn.active.tab-upa {
-      background: rgba(56, 189, 248, 0.12);
-      border-color: rgba(56, 189, 248, 0.35);
-      color: #38bdf8;
-    }
-    .tab-btn.active.tab-enf {
-      background: rgba(16, 185, 129, 0.12);
-      border-color: rgba(16, 185, 129, 0.35);
-      color: #34d399;
-    }
-    .tab-btn.active.tab-ped {
-      background: rgba(245, 158, 11, 0.12);
-      border-color: rgba(245, 158, 11, 0.35);
-      color: #fbbf24;
-    }
-    .tab-btn.tab-hab:hover {
-      color: #c4b5fd;
-    }
-    .tab-btn.active.tab-hab {
-      background: rgba(139, 92, 246, 0.15);
-      border-color: rgba(139, 92, 246, 0.45);
-      color: #a78bfa;
-    }
-
-    /* Search & Subcategorias */
+    /* Busca & Subcategorias */
     .search-row {
       display: flex;
       gap: 12px;
@@ -769,30 +814,34 @@ html_template = r"""<!DOCTYPE html>
     }
     .search-input {
       width: 100%;
-      padding: 12px 14px 12px 42px;
-      border-radius: 9px;
+      height: 42px;
+      padding: 0 72px 0 40px;
+      border-radius: var(--radius-md);
       border: 1px solid var(--border);
       background: var(--surface);
-      color: white;
-      font-size: 0.94rem;
+      color: var(--text);
+      font-size: 0.88rem;
       outline: none;
-      transition: all 0.2s;
+      transition: border-color 0.15s ease, background 0.15s ease;
+    }
+    .search-input::placeholder {
+      color: var(--text-dim);
     }
     .search-input:focus {
-      border-color: #38bdf8;
-      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
-      background: #111a30;
+      border-color: var(--border-strong);
+      background: var(--surface-hover);
     }
     .search-shortcut-hint {
       position: absolute;
       right: 12px;
       top: 50%;
       transform: translateY(-50%);
-      background: rgba(255, 255, 255, 0.08);
       color: var(--text-dim);
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       padding: 2px 6px;
       border-radius: 4px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.03);
       font-family: var(--font-mono);
       pointer-events: none;
     }
@@ -801,279 +850,274 @@ html_template = r"""<!DOCTYPE html>
       display: flex;
       gap: 6px;
       flex-wrap: wrap;
-      max-height: 78px;
-      overflow-y: auto;
-      scrollbar-width: thin;
     }
     .subcat-chip {
-      background: var(--surface);
+      -webkit-appearance: none;
+      appearance: none;
+      background: transparent;
       border: 1px solid var(--border);
-      color: var(--text-muted);
-      padding: 4px 10px;
-      border-radius: 6px;
+      color: var(--text-secondary);
+      padding: 3px 10px;
+      border-radius: 999px;
       cursor: pointer;
-      font-size: 0.76rem;
+      font-size: 0.73rem;
       font-weight: 500;
-      transition: all 0.15s;
+      line-height: 1.45;
+      transition: all 0.15s ease;
     }
-    .subcat-chip:hover, .subcat-chip.active {
-      background: #1e293b;
-      color: #fff;
-      border-color: rgba(255, 255, 255, 0.2);
+    .subcat-chip:hover {
+      border-color: var(--border-strong);
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.03);
     }
     .subcat-chip.active {
-      background: var(--primary);
-      border-color: var(--primary);
-      color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.22);
+      color: #ffffff;
     }
 
     /* Grid de Cards */
     .grid-cards {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 14px;
     }
 
     .card {
-      background: var(--card-bg);
+      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 11px;
-      padding: 16px;
+      border-radius: var(--radius-lg);
+      padding: 18px 20px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      gap: 12px;
-      transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+      gap: 14px;
+      transition: border-color 0.15s ease, background 0.15s ease;
       cursor: pointer;
     }
     .card:hover {
-      transform: translateY(-2px);
-      border-color: rgba(56, 189, 248, 0.35);
-      background: var(--card-hover);
-    }
-    .card-hab:hover {
-      border-color: rgba(167, 139, 250, 0.45);
+      border-color: var(--border-strong);
+      background: var(--surface-hover);
     }
 
-    .card-top {
+    .card-head {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      gap: 8px;
+      gap: 12px;
     }
-    .tags-cluster {
+    .card-meta {
       display: flex;
       align-items: center;
       gap: 6px;
       flex-wrap: wrap;
+      font-size: 0.74rem;
+      color: var(--text-secondary);
+      line-height: 1.35;
+      min-width: 0;
     }
-    .mod-pill {
-      font-size: 0.68rem;
-      font-weight: 700;
-      padding: 2px 7px;
-      border-radius: 4px;
-      letter-spacing: 0.02em;
+    .mod-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      flex-shrink: 0;
     }
-    .mod-pill-go { background: rgba(236, 72, 153, 0.12); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.25); }
-    .mod-pill-upa { background: rgba(56, 189, 248, 0.12); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.25); }
-    .mod-pill-enf { background: rgba(16, 185, 129, 0.12); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.25); }
-    .mod-pill-ped { background: rgba(245, 158, 11, 0.12); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.25); }
-    .mod-pill-hab { background: rgba(139, 92, 246, 0.16); color: #a78bfa; border: 1px solid rgba(139, 92, 246, 0.35); }
+    .mod-dot-go { background: var(--mod-go); }
+    .mod-dot-upa { background: var(--mod-upa); }
+    .mod-dot-enf { background: var(--mod-enf); }
+    .mod-dot-ped { background: var(--mod-ped); }
+    .mod-dot-hab { background: var(--mod-hab); }
 
-    .cat-pill {
-      background: rgba(255, 255, 255, 0.04);
-      color: var(--text-muted);
-      font-size: 0.7rem;
-      padding: 2px 6px;
-      border-radius: 4px;
-      border: 1px solid rgba(255, 255, 255, 0.04);
-    }
-    .pill-guia {
-      background: rgba(245, 158, 11, 0.1);
-      color: #fbbf24;
-      font-size: 0.68rem;
+    .meta-mod {
       font-weight: 600;
-      padding: 2px 6px;
-      border-radius: 4px;
-      border: 1px solid rgba(245, 158, 11, 0.25);
+      color: var(--text-secondary);
     }
-    .pill-split {
-      background: rgba(56, 189, 248, 0.1);
-      color: #38bdf8;
-      font-size: 0.68rem;
-      font-weight: 600;
-      padding: 2px 6px;
-      border-radius: 4px;
-      border: 1px solid rgba(56, 189, 248, 0.25);
+    .meta-label {
+      color: var(--text-secondary);
     }
-    .time-pill {
-      background: rgba(139, 92, 246, 0.1);
-      color: #c4b5fd;
-      border: 1px solid rgba(139, 92, 246, 0.25);
-      padding: 2px 8px;
-      border-radius: 5px;
+    .meta-sep {
+      color: var(--text-dim);
+    }
+    .meta-flag {
+      color: var(--text-dim);
+      font-size: 0.71rem;
+    }
+
+    .meta-time {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
       font-size: 0.72rem;
-      font-weight: 600;
-      white-space: nowrap;
+      color: var(--text-dim);
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+      line-height: 1.3;
+      flex-shrink: 0;
+      max-width: 170px;
+    }
+    .meta-time svg {
+      flex-shrink: 0;
+      opacity: 0.75;
     }
 
     .triggers-wrap {
       display: flex;
       gap: 4px;
-      flex-wrap: wrap;
       justify-content: flex-end;
+      flex-shrink: 0;
     }
     .trigger-chip {
-      background: #090d16;
-      border: 1px solid #334155;
-      color: #fbbf24;
+      -webkit-appearance: none;
+      appearance: none;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
       padding: 2px 7px;
       border-radius: 5px;
-      font-size: 0.78rem;
+      font-size: 0.72rem;
       font-family: var(--font-mono);
-      font-weight: 600;
+      font-weight: 500;
       display: inline-flex;
       align-items: center;
-      gap: 4px;
+      gap: 5px;
       cursor: pointer;
-      transition: all 0.15s;
+      transition: border-color 0.15s ease, color 0.15s ease;
     }
     .trigger-chip:hover {
-      border-color: #fbbf24;
-      background: rgba(251, 191, 36, 0.08);
+      border-color: var(--border-strong);
+      color: var(--text);
+    }
+    .trig-more {
+      color: var(--text-dim);
+      font-size: 0.66rem;
     }
 
     .card-body-block {
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 8px;
     }
     .card-title {
-      font-size: 1.02rem;
+      font-size: 0.98rem;
       font-weight: 600;
       letter-spacing: -0.015em;
-      color: #f1f5f9;
-      line-height: 1.35;
-    }
-    .card-sub {
-      font-size: 0.7rem;
-      color: var(--text-dim);
-      font-family: var(--font-mono);
+      color: var(--text);
+      line-height: 1.38;
     }
     .hab-card-anchor {
-      margin-top: 3px;
-      font-size: 0.76rem;
-      font-weight: 600;
-      color: #c4b5fd;
-      background: rgba(139, 92, 246, 0.1);
-      border: 1px solid rgba(139, 92, 246, 0.22);
-      border-radius: 6px;
-      padding: 5px 9px;
-      line-height: 1.35;
+      padding-left: 10px;
+      border-left: 2px solid rgba(167, 139, 250, 0.48);
+      font-size: 0.81rem;
+      color: var(--text-secondary);
+      line-height: 1.48;
     }
-    .card-preview {
-      background: #090d16;
-      border: 1px solid rgba(255, 255, 255, 0.04);
-      border-radius: 6px;
-      padding: 8px 10px;
-      font-size: 0.74rem;
-      color: var(--text-muted);
+    .card-preview-text {
+      font-size: 0.79rem;
+      color: var(--text-dim);
+      line-height: 1.48;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
       overflow: hidden;
-      max-height: 80px;
-      margin-top: 6px;
-    }
-    .card-preview pre {
-      white-space: pre-wrap;
-      word-break: break-word;
-      font-family: var(--font-mono);
+      white-space: pre-line;
     }
 
     .card-footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 8px;
+      padding-top: 12px;
       border-top: 1px solid rgba(255, 255, 255, 0.05);
-      gap: 6px;
+      gap: 8px;
     }
     .btn-group {
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 6px;
       flex-wrap: wrap;
     }
 
-    /* Botões */
+    /* Botões Minimalistas */
     .btn {
+      -webkit-appearance: none;
+      appearance: none;
       display: inline-flex;
       align-items: center;
       gap: 5px;
-      border: none;
-      padding: 6px 11px;
-      border-radius: 6px;
+      border: 1px solid transparent;
+      padding: 5px 10px;
+      border-radius: 7px;
       cursor: pointer;
-      font-size: 0.78rem;
-      font-weight: 600;
-      transition: all 0.18s ease;
-      font-family: var(--font-sans);
+      font-size: 0.76rem;
+      font-weight: 500;
+      line-height: 1.3;
+      transition: all 0.15s ease;
     }
     .btn-primary {
-      background: var(--primary);
-      color: white;
+      background: rgba(56, 189, 248, 0.12);
+      color: #7dd3fc;
+      border-color: rgba(56, 189, 248, 0.24);
     }
     .btn-primary:hover {
-      background: var(--primary-hover);
+      background: rgba(56, 189, 248, 0.2);
+      color: #e0f2fe;
     }
-    .btn-cnd {
-      background: rgba(56, 189, 248, 0.14);
-      color: #38bdf8;
-      border: 1px solid rgba(56, 189, 248, 0.3);
+    .btn-subtle {
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-secondary);
+      border-color: var(--border);
     }
-    .btn-cnd:hover {
-      background: rgba(56, 189, 248, 0.25);
+    .btn-subtle:hover {
+      background: rgba(255, 255, 255, 0.07);
+      border-color: var(--border-strong);
+      color: var(--text);
     }
-    .btn-rec {
-      background: rgba(13, 148, 136, 0.14);
-      color: #2dd4bf;
-      border: 1px solid rgba(13, 148, 136, 0.3);
-    }
-    .btn-rec:hover {
-      background: rgba(13, 148, 136, 0.25);
-    }
+
     .btn-hab-pre {
-      background: #7c3aed;
-      color: #fff;
+      background: rgba(167, 139, 250, 0.14);
+      color: #ddd6fe;
+      border-color: rgba(167, 139, 250, 0.26);
     }
     .btn-hab-pre:hover {
-      background: #6d28d9;
+      background: rgba(167, 139, 250, 0.24);
+      color: #ffffff;
     }
     .btn-hab-chk {
-      background: rgba(139, 92, 246, 0.15);
-      color: #c4b5fd;
-      border: 1px solid rgba(139, 92, 246, 0.35);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-secondary);
+      border-color: var(--border);
+      font-variant-numeric: tabular-nums;
     }
     .btn-hab-chk:hover {
-      background: rgba(139, 92, 246, 0.26);
+      background: rgba(255, 255, 255, 0.07);
+      border-color: var(--border-strong);
+      color: var(--text);
     }
     .btn-hab-chk.complete {
-      background: rgba(16, 185, 129, 0.16);
-      color: #34d399;
-      border-color: rgba(16, 185, 129, 0.38);
+      background: rgba(52, 211, 153, 0.12);
+      color: #6ee7b7;
+      border-color: rgba(52, 211, 153, 0.28);
     }
+
     .btn-detail {
       background: transparent;
       color: var(--text-dim);
-      padding: 6px 8px;
+      padding: 5px 8px;
     }
     .btn-detail:hover {
-      color: #fff;
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .btn-hab-err:hover {
+      color: #fca5a5;
+      background: rgba(248, 113, 113, 0.08);
     }
 
     /* Drawer / Modal Inspector */
     .drawer-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, 0.72);
+      background: rgba(0, 0, 0, 0.65);
       backdrop-filter: blur(4px);
       z-index: 90;
       opacity: 0;
@@ -1090,104 +1134,114 @@ html_template = r"""<!DOCTYPE html>
       top: 0;
       right: 0;
       bottom: 0;
-      width: min(840px, 95vw);
-      background: #0d1424;
+      width: min(820px, 95vw);
+      background: #10131a;
       border-left: 1px solid var(--border);
       z-index: 100;
       transform: translateX(100%);
       transition: transform 0.24s cubic-bezier(0.16, 1, 0.3, 1);
       display: flex;
       flex-direction: column;
-      box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+      box-shadow: -12px 0 36px rgba(0, 0, 0, 0.55);
     }
     .drawer-overlay.open .drawer {
       transform: translateX(0);
     }
 
     .drawer-header {
-      padding: 16px 20px;
+      padding: 18px 24px;
       border-bottom: 1px solid var(--border);
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
-      gap: 12px;
-      background: #090d16;
+      gap: 14px;
+      background: var(--bg);
     }
     .drawer-header h2 {
-      font-size: 1.15rem;
+      font-size: 1.08rem;
+      font-weight: 600;
       letter-spacing: -0.02em;
-      color: #fff;
-      line-height: 1.3;
+      color: var(--text);
+      line-height: 1.35;
     }
     .drawer-header p {
-      font-size: 0.76rem;
-      color: var(--text-muted);
-      margin-top: 2px;
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      margin-top: 3px;
       font-family: var(--font-mono);
     }
     .close-btn {
-      background: rgba(255, 255, 255, 0.06);
-      border: none;
-      color: var(--text-muted);
-      width: 34px;
-      height: 34px;
+      -webkit-appearance: none;
+      appearance: none;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      width: 32px;
+      height: 32px;
       border-radius: 8px;
       display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
-      transition: all 0.15s;
+      transition: all 0.15s ease;
       flex-shrink: 0;
     }
     .close-btn:hover {
-      background: rgba(255, 255, 255, 0.12);
-      color: #fff;
+      background: rgba(255, 255, 255, 0.09);
+      color: var(--text);
     }
 
     .drawer-tabs {
       display: flex;
       border-bottom: 1px solid var(--border);
-      background: #0b1120;
-      padding: 0 16px;
+      background: var(--bg);
+      padding: 0 24px;
+      gap: 6px;
       overflow-x: auto;
       scrollbar-width: none;
     }
     .drawer-tabs::-webkit-scrollbar { display: none; }
     .drawer-tab {
-      padding: 10px 14px;
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: var(--text-muted);
+      -webkit-appearance: none;
+      appearance: none;
+      padding: 10px 10px;
+      margin-bottom: -1px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      border: none;
       border-bottom: 2px solid transparent;
       cursor: pointer;
-      background: none;
-      border-top: none;
-      border-left: none;
-      border-right: none;
+      background: transparent;
       white-space: nowrap;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+    .drawer-tab:hover {
+      color: var(--text);
     }
     .drawer-tab.active {
-      color: #38bdf8;
-      border-bottom-color: #38bdf8;
+      color: var(--primary);
+      font-weight: 600;
+      border-bottom-color: var(--primary);
     }
     .drawer.drawer-hab .drawer-tab.active {
-      color: #a78bfa;
-      border-bottom-color: #8b5cf6;
+      color: var(--mod-hab);
+      border-bottom-color: var(--mod-hab);
     }
 
     .drawer-body {
       flex: 1;
       overflow-y: auto;
-      padding: 20px;
+      padding: 22px 24px;
     }
     .drawer-code-block {
-      background: #070a12;
+      background: var(--surface-inset);
       border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 14px;
+      border-radius: var(--radius-md);
+      padding: 16px;
       font-family: var(--font-mono);
-      font-size: 0.82rem;
-      line-height: 1.55;
+      font-size: 0.81rem;
+      line-height: 1.6;
       color: #cbd5e1;
       white-space: pre-wrap;
       word-break: break-word;
@@ -1198,60 +1252,55 @@ html_template = r"""<!DOCTYPE html>
     .hab-panel {
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 18px;
     }
     .hab-meta-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
     }
     .hab-meta-chip {
-      background: #090d16;
-      border: 1px solid var(--border);
-      border-radius: 9px;
-      padding: 10px 14px;
       display: flex;
       flex-direction: column;
       gap: 2px;
     }
-    .hab-meta-time {
-      border-color: rgba(139, 92, 246, 0.32);
-      background: rgba(139, 92, 246, 0.08);
-    }
     .hab-meta-label {
-      font-size: 0.72rem;
-      color: var(--text-muted);
+      font-size: 0.69rem;
+      color: var(--text-dim);
       font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.05em;
     }
     .hab-meta-val {
-      font-size: 0.98rem;
-      color: #f8fafc;
-      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--text);
+      font-weight: 600;
     }
     .hab-meta-time .hab-meta-val {
-      color: #c4b5fd;
+      color: #ddd6fe;
     }
 
     .hab-anchor-box {
-      background: linear-gradient(135deg, rgba(139, 92, 246, 0.16), rgba(56, 189, 248, 0.08));
-      border: 1px solid rgba(139, 92, 246, 0.4);
-      border-radius: 10px;
-      padding: 12px 15px;
+      background: rgba(167, 139, 250, 0.06);
+      border-left: 3px solid var(--mod-hab);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 12px 16px;
     }
     .hab-anchor-label {
-      font-size: 0.72rem;
-      font-weight: 800;
+      font-size: 0.69rem;
+      font-weight: 600;
+      text-transform: uppercase;
       letter-spacing: 0.06em;
-      color: #c4b5fd;
+      color: var(--mod-hab);
       margin-bottom: 4px;
     }
     .hab-anchor-text {
-      font-size: 0.98rem;
-      font-weight: 700;
-      color: #fff;
-      line-height: 1.45;
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.5;
     }
 
     .hab-steps-list {
@@ -1260,57 +1309,54 @@ html_template = r"""<!DOCTYPE html>
       gap: 8px;
     }
     .hab-pre-group-title {
-      margin-top: 8px;
-      padding: 6px 10px;
-      font-size: 0.8rem;
-      font-weight: 800;
-      letter-spacing: 0.04em;
-      color: #a78bfa;
-      background: rgba(139, 92, 246, 0.1);
-      border-left: 3px solid #8b5cf6;
-      border-radius: 4px;
+      margin-top: 10px;
+      padding: 4px 0 4px 10px;
+      font-size: 0.74rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--mod-hab);
+      border-left: 2px solid var(--mod-hab);
     }
     .hab-pre-step {
-      background: #090d16;
+      background: var(--surface);
       border: 1px solid var(--border);
-      border-left: 3px solid #8b5cf6;
       border-radius: 8px;
       padding: 11px 14px;
-      font-size: 0.92rem;
+      font-size: 0.88rem;
       line-height: 1.55;
-      color: #e2e8f0;
+      color: var(--text);
     }
     .hab-pre-substep {
-      background: rgba(15, 23, 42, 0.75);
-      border: 1px solid rgba(139, 92, 246, 0.2);
-      border-left: 2px solid rgba(167, 139, 250, 0.55);
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
       border-radius: 7px;
-      padding: 8px 12px;
-      margin-left: 14px;
-      font-size: 0.87rem;
+      padding: 9px 12px;
+      margin-left: 16px;
+      font-size: 0.84rem;
       line-height: 1.5;
-      color: #cbd5e1;
+      color: var(--text-secondary);
     }
     .hab-step-lead {
-      color: #c4b5fd;
-      font-weight: 700;
+      color: #ddd6fe;
+      font-weight: 600;
       margin-right: 4px;
     }
     .hab-pre-line {
-      background: #090d16;
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 10px 14px;
-      font-size: 0.9rem;
+      font-size: 0.87rem;
       line-height: 1.55;
-      color: #cbd5e1;
+      color: var(--text-secondary);
     }
 
     /* Checklist Pós-Atendimento */
     .hab-progress-card {
-      background: #090d16;
-      border: 1px solid rgba(139, 92, 246, 0.3);
-      border-radius: 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
       padding: 14px 16px;
       display: flex;
       flex-direction: column;
@@ -1323,42 +1369,44 @@ html_template = r"""<!DOCTYPE html>
       gap: 12px;
     }
     .hab-progress-title {
-      font-size: 0.74rem;
+      font-size: 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      color: var(--text-muted);
-      font-weight: 700;
+      color: var(--text-dim);
+      font-weight: 600;
     }
     .hab-progress-count {
-      font-size: 1.05rem;
-      font-weight: 700;
-      color: #fff;
+      font-size: 0.96rem;
+      font-weight: 600;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
     }
     .hab-progress-pct {
       font-family: var(--font-mono);
-      font-size: 1.15rem;
-      font-weight: 800;
-      color: #a78bfa;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--mod-hab);
+      font-variant-numeric: tabular-nums;
     }
     .hab-progress-pct.done {
-      color: #34d399;
+      color: var(--success);
     }
     .hab-progress-track {
       width: 100%;
-      height: 10px;
-      background: rgba(255, 255, 255, 0.07);
+      height: 6px;
+      background: rgba(255, 255, 255, 0.06);
       border-radius: 999px;
       overflow: hidden;
     }
     .hab-progress-fill {
       height: 100%;
       width: 0%;
-      background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+      background: var(--mod-hab);
       border-radius: 999px;
       transition: width 0.22s ease, background 0.22s ease;
     }
     .hab-progress-fill.done {
-      background: linear-gradient(90deg, #10b981, #34d399);
+      background: var(--success);
     }
 
     .hab-checklist-actions {
@@ -1367,70 +1415,74 @@ html_template = r"""<!DOCTYPE html>
       flex-wrap: wrap;
     }
     .btn-hab-debrief {
-      background: #7c3aed;
-      color: #fff;
-      padding: 9px 14px;
-      font-size: 0.84rem;
+      background: rgba(167, 139, 250, 0.16);
+      color: #ede9fe;
+      border-color: rgba(167, 139, 250, 0.3);
+      padding: 8px 14px;
+      font-size: 0.81rem;
     }
     .btn-hab-debrief:hover {
-      background: #6d28d9;
+      background: rgba(167, 139, 250, 0.26);
+      color: #ffffff;
     }
     .btn-hab-reset {
-      background: rgba(255, 255, 255, 0.06);
-      color: #e2e8f0;
+      background: transparent;
+      color: var(--text-secondary);
       border: 1px solid var(--border);
-      padding: 9px 14px;
-      font-size: 0.84rem;
+      padding: 8px 14px;
+      font-size: 0.81rem;
     }
     .btn-hab-reset:hover {
-      background: rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--border-strong);
+      color: var(--text);
     }
 
     .hab-blindspots-panel {
-      border-radius: 10px;
+      border-radius: var(--radius-md);
       padding: 13px 15px;
-      border: 1px solid rgba(245, 158, 11, 0.35);
-      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(251, 191, 36, 0.22);
+      background: rgba(251, 191, 36, 0.05);
       display: flex;
       flex-direction: column;
       gap: 8px;
     }
     .hab-blindspots-panel.all-done {
-      border-color: rgba(16, 185, 129, 0.4);
-      background: rgba(16, 185, 129, 0.1);
+      border-color: rgba(52, 211, 153, 0.28);
+      background: rgba(52, 211, 153, 0.07);
     }
     .hab-blindspots-header {
-      font-size: 0.86rem;
-      font-weight: 700;
-      color: #fbbf24;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #fcd34d;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 8px;
     }
     .hab-blindspots-panel.all-done .hab-blindspots-header {
-      color: #34d399;
+      color: #6ee7b7;
     }
     .hab-blindspots-list {
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 5px;
-      max-height: 190px;
+      gap: 4px;
+      max-height: 180px;
       overflow-y: auto;
     }
     .hab-blindspot-item {
-      font-size: 0.82rem;
-      color: #fde68a;
-      line-height: 1.4;
+      font-size: 0.8rem;
+      color: #fef3c7;
+      line-height: 1.45;
       padding: 4px 8px;
       border-radius: 5px;
-      background: rgba(0, 0, 0, 0.25);
+      background: rgba(0, 0, 0, 0.18);
     }
     .hab-blindspot-sec {
-      font-size: 0.72rem;
-      color: #f59e0b;
-      font-weight: 700;
+      font-size: 0.71rem;
+      color: var(--warning);
+      font-weight: 600;
       margin-right: 4px;
     }
 
@@ -1440,62 +1492,63 @@ html_template = r"""<!DOCTYPE html>
       gap: 14px;
     }
     .hab-sec-card {
-      background: #090d16;
+      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 10px;
+      border-radius: var(--radius-md);
       padding: 12px 14px;
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 6px;
     }
     .hab-sec-title {
-      font-size: 0.86rem;
-      font-weight: 700;
-      color: #c4b5fd;
-      padding-bottom: 6px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #ddd6fe;
+      padding-bottom: 8px;
+      margin-bottom: 2px;
+      border-bottom: 1px solid var(--border);
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .hab-sec-progress {
       font-family: var(--font-mono);
-      font-size: 0.74rem;
-      color: var(--text-muted);
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      font-variant-numeric: tabular-nums;
     }
     .hab-check-item {
       display: flex;
       align-items: flex-start;
       gap: 11px;
-      padding: 10px 11px;
-      border-radius: 8px;
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      background: rgba(255, 255, 255, 0.02);
+      padding: 9px 10px;
+      border-radius: 7px;
+      border: 1px solid transparent;
+      background: transparent;
       cursor: pointer;
-      transition: all 0.14s ease;
+      transition: background 0.14s ease, border-color 0.14s ease;
       user-select: none;
-      min-height: 44px;
+      min-height: 40px;
     }
     .hab-check-item:hover {
-      background: rgba(139, 92, 246, 0.08);
-      border-color: rgba(139, 92, 246, 0.28);
+      background: rgba(255, 255, 255, 0.03);
     }
     .hab-check-item.checked {
-      background: rgba(16, 185, 129, 0.09);
-      border-color: rgba(16, 185, 129, 0.3);
+      background: rgba(52, 211, 153, 0.07);
+      border-color: rgba(52, 211, 153, 0.18);
     }
     .hab-check-item input[type="checkbox"] {
-      width: 19px;
-      height: 19px;
+      width: 17px;
+      height: 17px;
       margin-top: 2px;
       accent-color: #10b981;
       cursor: pointer;
       flex-shrink: 0;
     }
     .hab-check-text {
-      font-size: 0.88rem;
-      line-height: 1.45;
-      color: #f1f5f9;
+      font-size: 0.85rem;
+      line-height: 1.48;
+      color: var(--text);
     }
     .hab-check-item.checked .hab-check-text {
       color: #a7f3d0;
@@ -1503,12 +1556,12 @@ html_template = r"""<!DOCTYPE html>
 
     /* Armadilhas & Erros Fatais */
     .hab-pitfalls-lead {
-      font-size: 0.84rem;
+      font-size: 0.82rem;
       color: #fecaca;
-      background: rgba(239, 68, 68, 0.09);
-      border: 1px solid rgba(239, 68, 68, 0.28);
+      background: rgba(248, 113, 113, 0.07);
+      border: 1px solid rgba(248, 113, 113, 0.2);
       border-radius: 8px;
-      padding: 10px 13px;
+      padding: 10px 14px;
     }
     .hab-pitfalls-list {
       display: flex;
@@ -1516,24 +1569,24 @@ html_template = r"""<!DOCTYPE html>
       gap: 10px;
     }
     .hab-pitfall-card {
-      background: #090d16;
-      border: 1px solid rgba(239, 68, 68, 0.26);
-      border-left: 4px solid #ef4444;
-      border-radius: 9px;
-      padding: 12px 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--danger);
+      border-radius: 8px;
+      padding: 12px 15px;
       display: flex;
       flex-direction: column;
       gap: 4px;
     }
     .hab-pitfall-title {
-      font-size: 0.92rem;
-      font-weight: 700;
+      font-size: 0.88rem;
+      font-weight: 600;
       color: #fca5a5;
     }
     .hab-pitfall-detail {
-      font-size: 0.86rem;
-      color: #e2e8f0;
-      line-height: 1.5;
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+      line-height: 1.52;
     }
 
     /* Personalizador Interativo */
@@ -1543,71 +1596,129 @@ html_template = r"""<!DOCTYPE html>
       gap: 12px;
     }
     .interactive-lead {
-      font-size: 0.82rem;
-      color: #94a3b8;
-      background: rgba(56, 189, 248, 0.08);
-      border: 1px solid rgba(56, 189, 248, 0.2);
-      padding: 8px 12px;
-      border-radius: 6px;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      background: rgba(56, 189, 248, 0.06);
+      border: 1px solid rgba(56, 189, 248, 0.16);
+      padding: 9px 12px;
+      border-radius: 7px;
     }
     .interactive-rendered {
-      background: #070a12;
+      background: var(--surface-inset);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: var(--radius-md);
       padding: 16px;
       font-family: var(--font-mono);
-      font-size: 0.82rem;
+      font-size: 0.81rem;
       line-height: 1.6;
-      color: #e2e8f0;
+      color: var(--text);
       white-space: pre-wrap;
       word-break: break-word;
     }
     .choice-group {
       display: inline-flex;
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.15);
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 100%;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
       border-radius: 6px;
-      padding: 2px;
-      margin: 0 3px;
+      padding: 2px 4px;
+      margin: 2px 3px;
       vertical-align: baseline;
+      gap: 3px;
+    }
+    .choice-group.is-multi {
+      border-color: rgba(14, 165, 233, 0.4);
+      background: rgba(14, 165, 233, 0.05);
     }
     .choice-pill {
+      -webkit-appearance: none;
+      appearance: none;
       background: transparent;
-      border: none;
-      color: #94a3b8;
+      border: 1px solid transparent;
+      color: var(--text-secondary);
       font-family: var(--font-sans);
-      font-size: 0.74rem;
-      font-weight: 600;
-      padding: 1px 7px;
+      font-size: 0.73rem;
+      font-weight: 500;
+      padding: 2px 7px;
       border-radius: 4px;
       cursor: pointer;
-      transition: all 0.12s;
+      text-align: left;
+      transition: all 0.12s ease;
+      user-select: none;
     }
     .choice-pill:hover {
-      color: #fff;
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.06);
     }
     .choice-pill.active {
+      background: var(--primary-solid);
+      border-color: var(--primary-solid);
+      color: #ffffff;
+      font-weight: 600;
+    }
+    .choice-group.is-multi .choice-pill.active {
       background: #0284c7;
-      color: #fff;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+      border-color: #38bdf8;
+    }
+    .choice-group.is-multi .choice-pill.active::before {
+      content: "✓ ";
+      font-size: 0.70rem;
+      font-weight: 700;
+      opacity: 0.95;
+    }
+    .choice-mode-btn {
+      -webkit-appearance: none;
+      appearance: none;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px dashed var(--border);
+      color: var(--text-dim);
+      font-family: var(--font-sans);
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 1px 5px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 2px;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+    .choice-mode-btn:hover {
+      border-color: var(--border-strong);
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .choice-group.is-multi .choice-mode-btn {
+      border-color: #0284c7;
+      color: #38bdf8;
+      background: rgba(14, 165, 233, 0.12);
+      font-weight: 700;
     }
 
     .drawer-footer {
-      padding: 14px 20px;
+      padding: 14px 24px;
       border-top: 1px solid var(--border);
-      background: #090d16;
+      background: var(--bg);
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
       gap: 10px;
     }
+    .drawer-hab-meta-footer {
+      font-size: 0.76rem;
+      color: var(--text-secondary);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
 
     /* Modal Command Palette (Ctrl+K) */
     .cmd-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, 0.75);
+      background: rgba(0, 0, 0, 0.72);
       backdrop-filter: blur(6px);
       z-index: 150;
       display: none;
@@ -1619,18 +1730,18 @@ html_template = r"""<!DOCTYPE html>
       display: flex;
     }
     .cmd-modal {
-      width: min(680px, 92vw);
-      background: #0f172a;
-      border: 1px solid rgba(56, 189, 248, 0.3);
-      border-radius: 12px;
-      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+      width: min(640px, 92vw);
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.65);
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      animation: cmdPop 0.15s ease-out;
+      animation: cmdPop 0.14s ease-out;
     }
     @keyframes cmdPop {
-      from { transform: scale(0.96); opacity: 0; }
+      from { transform: scale(0.97); opacity: 0; }
       to { transform: scale(1); opacity: 1; }
     }
     .cmd-search-box {
@@ -1639,18 +1750,18 @@ html_template = r"""<!DOCTYPE html>
       gap: 10px;
       padding: 14px 18px;
       border-bottom: 1px solid var(--border);
-      background: #090d16;
+      background: var(--bg);
     }
     .cmd-search-input {
       flex: 1;
       background: transparent;
       border: none;
-      color: #fff;
-      font-size: 1.05rem;
+      color: var(--text);
+      font-size: 0.96rem;
       outline: none;
     }
     .cmd-results {
-      max-height: 400px;
+      max-height: 380px;
       overflow-y: auto;
       padding: 8px;
     }
@@ -1658,14 +1769,14 @@ html_template = r"""<!DOCTYPE html>
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
-      padding: 10px 14px;
+      gap: 12px;
+      padding: 9px 12px;
       border-radius: 8px;
       cursor: pointer;
-      transition: background 0.12s;
+      transition: background 0.12s ease;
     }
     .cmd-item:hover, .cmd-item.active {
-      background: rgba(56, 189, 248, 0.15);
+      background: rgba(255, 255, 255, 0.06);
     }
     .cmd-item-left {
       display: flex;
@@ -1674,40 +1785,40 @@ html_template = r"""<!DOCTYPE html>
       min-width: 0;
     }
     .cmd-item-title {
-      font-size: 0.92rem;
-      font-weight: 600;
-      color: #fff;
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text);
     }
     .cmd-item-cat {
-      font-size: 0.74rem;
+      font-size: 0.72rem;
       color: var(--text-dim);
     }
     .cmd-item-trig {
       font-family: var(--font-mono);
-      font-size: 0.78rem;
-      color: #fbbf24;
-      background: rgba(0, 0, 0, 0.3);
+      font-size: 0.73rem;
+      color: var(--text-secondary);
+      background: rgba(255, 255, 255, 0.04);
       padding: 2px 7px;
-      border-radius: 4px;
-      border: 1px solid #334155;
+      border-radius: 5px;
+      border: 1px solid var(--border);
       white-space: nowrap;
       flex-shrink: 0;
     }
     .cmd-item-hab-trig {
       font-family: var(--font-sans);
-      color: #c4b5fd;
-      background: rgba(139, 92, 246, 0.16);
-      border-color: rgba(139, 92, 246, 0.4);
-      font-weight: 700;
+      color: #ddd6fe;
+      background: rgba(167, 139, 250, 0.14);
+      border-color: rgba(167, 139, 250, 0.28);
+      font-weight: 500;
     }
     .cmd-footer {
-      padding: 8px 16px;
-      background: #090d16;
+      padding: 9px 16px;
+      background: var(--bg);
       border-top: 1px solid var(--border);
       display: flex;
       justify-content: space-between;
       gap: 10px;
-      font-size: 0.72rem;
+      font-size: 0.71rem;
       color: var(--text-dim);
     }
 
@@ -1715,7 +1826,7 @@ html_template = r"""<!DOCTYPE html>
     .doses-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.72);
       backdrop-filter: blur(4px);
       z-index: 140;
       display: none;
@@ -1727,33 +1838,33 @@ html_template = r"""<!DOCTYPE html>
       display: flex;
     }
     .doses-modal {
-      width: min(720px, 94vw);
-      max-height: 85vh;
-      background: #0f172a;
-      border: 1px solid var(--border);
-      border-radius: 12px;
+      width: min(680px, 94vw);
+      max-height: 84vh;
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
       display: flex;
       flex-direction: column;
-      box-shadow: 0 16px 40px rgba(0,0,0,0.6);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.65);
       overflow: hidden;
     }
     .doses-header {
-      padding: 14px 20px;
-      background: #090d16;
+      padding: 16px 20px;
+      background: var(--bg);
       border-bottom: 1px solid var(--border);
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
     .doses-body {
-      padding: 20px;
+      padding: 18px 20px;
       overflow-y: auto;
       display: flex;
       flex-direction: column;
-      gap: 14px;
+      gap: 10px;
     }
     .dose-card {
-      background: #090d16;
+      background: var(--surface-inset);
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 12px 14px;
@@ -1763,32 +1874,36 @@ html_template = r"""<!DOCTYPE html>
       gap: 12px;
     }
     .dose-name {
-      font-size: 0.86rem;
-      font-weight: 700;
-      color: #fff;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: var(--text);
     }
     .dose-rule {
-      font-size: 0.74rem;
+      font-size: 0.73rem;
       color: var(--text-dim);
+      margin-top: 2px;
     }
     .dose-calc {
       font-family: var(--font-mono);
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: #38bdf8;
+      font-size: 0.86rem;
+      font-weight: 600;
+      color: var(--primary);
       text-align: right;
     }
     .dose-copy-btn {
-      background: rgba(56, 189, 248, 0.1);
-      border: 1px solid rgba(56, 189, 248, 0.25);
-      color: #38bdf8;
+      -webkit-appearance: none;
+      appearance: none;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
       font-size: 0.72rem;
-      padding: 4px 8px;
-      border-radius: 5px;
+      padding: 4px 9px;
+      border-radius: 6px;
       cursor: pointer;
     }
     .dose-copy-btn:hover {
-      background: rgba(56, 189, 248, 0.2);
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text);
     }
 
     /* Toast Notification */
@@ -1797,16 +1912,17 @@ html_template = r"""<!DOCTYPE html>
       bottom: 24px;
       right: 24px;
       z-index: 200;
-      background: #0284c7;
-      color: white;
-      padding: 10px 18px;
-      border-radius: 8px;
-      font-size: 0.86rem;
-      font-weight: 600;
+      background: #1e293b;
+      border: 1px solid var(--border-strong);
+      color: #f8fafc;
+      padding: 10px 16px;
+      border-radius: 9px;
+      font-size: 0.82rem;
+      font-weight: 500;
       display: flex;
       align-items: center;
       gap: 8px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
       transform: translateY(80px);
       opacity: 0;
       transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
@@ -1817,15 +1933,26 @@ html_template = r"""<!DOCTYPE html>
       opacity: 1;
     }
 
-    /* Responsivo para celular */
+    /* Responsivo Mobile */
     @media (max-width: 640px) {
-      .topbar { padding: 10px 14px; }
-      .app-container { padding: 14px; }
-      .grid-cards { grid-template-columns: 1fr; }
+      .topbar { padding: 10px 16px; }
+      .topbar-content { gap: 10px; }
+      .brand-text p, .counter-pill, .btn-palette-trigger .kbd-shortcut { display: none; }
+      .app-container { padding: 14px 16px 40px; }
+      .controls-panel { gap: 10px; margin-bottom: 18px; }
+      .subcat-chips {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 2px;
+      }
+      .subcat-chips::-webkit-scrollbar { display: none; }
+      .subcat-chip { flex-shrink: 0; }
+      .grid-cards { grid-template-columns: 1fr; gap: 12px; }
+      .card { padding: 16px; }
       .drawer { width: 100vw; }
-      .drawer-body { padding: 14px; }
-      .drawer-header { padding: 12px 14px; }
-      .drawer-footer { padding: 12px 14px; }
+      .drawer-header, .drawer-tabs, .drawer-body, .drawer-footer { padding-left: 16px; padding-right: 16px; }
       .search-shortcut-hint { display: none; }
       .hab-checklist-actions { flex-direction: column; }
       .hab-checklist-actions .btn { width: 100%; justify-content: center; }
@@ -1838,34 +1965,32 @@ html_template = r"""<!DOCTYPE html>
   <header class="topbar">
     <div class="topbar-content">
       <div class="brand">
-        <div class="brand-icon">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+        <div class="brand-icon" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
         </div>
         <div class="brand-text">
-          <h1>Cockpit de Atendimento & Protocolos</h1>
-          <p>Prontuário Eletrônico (PEP) &amp; Habilidades • 100% Offline</p>
+          <h1>Cockpit Clínico</h1>
+          <p>PEP &amp; Habilidades • 100% Offline</p>
         </div>
       </div>
 
       <div class="top-tools">
-        <!-- Calculadora de Peso -->
         <div class="weight-widget" title="Ajuste o peso do paciente para calcular doses em tempo real">
-          <span class="weight-label">⚖️ Peso:</span>
-          <input type="number" id="quickWeightInput" class="weight-input" value="70" min="1" max="250">
+          <span class="weight-label">Peso</span>
+          <input type="number" id="quickWeightInput" class="weight-input" value="70" min="1" max="250" aria-label="Peso do paciente em kg">
           <span class="weight-unit">kg</span>
-          <button class="btn-doses" onclick="openDosesModal()">Doses Ponderais ▾</button>
+          <button class="btn-doses" onclick="openDosesModal()">Doses ▾</button>
         </div>
 
-        <!-- Botão Command Palette -->
-        <button class="btn-palette-trigger" onclick="openCmdPalette()">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <button class="btn-palette-trigger" onclick="openCmdPalette()" title="Atalho Ctrl+K">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
           <span>Buscar</span>
           <span class="kbd-shortcut">Ctrl+K</span>
         </button>
 
         <div class="counter-pill" id="counterPill">
           <span class="dot"></span>
-          <span id="counterText">__TOTAL_PEP__ Protocolos Prontos</span>
+          <span id="counterText">__TOTAL_PEP__ Protocolos</span>
         </div>
       </div>
     </div>
@@ -1876,29 +2001,35 @@ html_template = r"""<!DOCTYPE html>
 
     <div class="controls-panel">
       <!-- Abas de Especialidades -->
-      <nav class="nav-tabs" id="moduleTabs">
+      <nav class="nav-tabs" id="moduleTabs" aria-label="Especialidades">
         <button class="tab-btn active" data-mod="all">
-          <span>🌐 Geral</span>
+          <span class="tab-dot dot-all"></span>
+          <span>Geral</span>
           <span class="tab-count">__TOTAL_PEP__</span>
         </button>
         <button class="tab-btn tab-go" data-mod="go">
-          <span>🌸 GO</span>
+          <span class="tab-dot dot-go"></span>
+          <span>GO</span>
           <span class="tab-count">__COUNT_GO__</span>
         </button>
         <button class="tab-btn tab-upa" data-mod="upa">
-          <span>🚑 UPA Adulto</span>
+          <span class="tab-dot dot-upa"></span>
+          <span>UPA Adulto</span>
           <span class="tab-count">__COUNT_UPA__</span>
         </button>
         <button class="tab-btn tab-enf" data-mod="enf">
-          <span>🏥 Enfermaria</span>
+          <span class="tab-dot dot-enf"></span>
+          <span>Enfermaria</span>
           <span class="tab-count">__COUNT_ENF__</span>
         </button>
         <button class="tab-btn tab-ped" data-mod="ped">
-          <span>👶 Pediatria</span>
+          <span class="tab-dot dot-ped"></span>
+          <span>Pediatria</span>
           <span class="tab-count">__COUNT_PED__</span>
         </button>
         <button class="tab-btn tab-hab" data-mod="hab">
-          <span>🧠 Habilidades</span>
+          <span class="tab-dot dot-hab"></span>
+          <span>Habilidades</span>
           <span class="tab-count">__COUNT_HAB__</span>
         </button>
       </nav>
@@ -1906,9 +2037,9 @@ html_template = r"""<!DOCTYPE html>
       <!-- Busca e Filtros -->
       <div class="search-row">
         <div class="search-wrapper">
-          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          <input type="text" id="searchInput" class="search-input" placeholder="Buscar por queixa, diagnóstico, atalho (ex: ;sepse, ;tpp, ;sca, ;fasthug) ou droga..." autofocus>
-          <span class="search-shortcut-hint">/ para buscar</span>
+          <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="searchInput" class="search-input" placeholder="Buscar por queixa, diagnóstico, atalho (ex: ;sepse, ;tpp, ;sca) ou droga..." autofocus>
+          <span class="search-shortcut-hint">/</span>
         </div>
       </div>
 
@@ -1932,21 +2063,23 @@ html_template = r"""<!DOCTYPE html>
           <h2 id="drawerTitle">Título do Protocolo</h2>
           <p id="drawerPath">caminho/do/arquivo.md</p>
         </div>
-        <button class="close-btn" onclick="closeInspector()" title="Fechar (Esc)">✕</button>
+        <button class="close-btn" onclick="closeInspector()" title="Fechar (Esc)" aria-label="Fechar">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
       </div>
 
       <div class="drawer-tabs">
         <!-- Abas PEP -->
-        <button class="drawer-tab active" id="tabPepBtn" onclick="switchDrawerTab('pep')">📋 Snippet Completo</button>
-        <button class="drawer-tab" id="tabInteractiveBtn" onclick="switchDrawerTab('interactive')">⚡ Personalizar & Chips</button>
-        <button class="drawer-tab" id="tabCondutaBtn" onclick="switchDrawerTab('conduta')">💉 Apenas Conduta</button>
-        <button class="drawer-tab" id="tabRecBtn" onclick="switchDrawerTab('receita')">💊 Receita de Alta</button>
-        <button class="drawer-tab" id="tabGuiaBtn" onclick="switchDrawerTab('guia')">🎯 Diretrizes</button>
+        <button class="drawer-tab active" id="tabPepBtn" onclick="switchDrawerTab('pep')">Snippet Completo</button>
+        <button class="drawer-tab" id="tabInteractiveBtn" onclick="switchDrawerTab('interactive')">Personalizar</button>
+        <button class="drawer-tab" id="tabCondutaBtn" onclick="switchDrawerTab('conduta')">Conduta</button>
+        <button class="drawer-tab" id="tabRecBtn" onclick="switchDrawerTab('receita')">Receita</button>
+        <button class="drawer-tab" id="tabGuiaBtn" onclick="switchDrawerTab('guia')">Diretrizes</button>
 
         <!-- Abas Dedicadas: Habilidades Clínicas -->
-        <button class="drawer-tab" id="tabHabPreBtn" style="display:none;" onclick="switchDrawerTab('preporta')">⚡ Pré-Porta 30s</button>
-        <button class="drawer-tab" id="tabHabChecklistBtn" style="display:none;" onclick="switchDrawerTab('checklist')">✅ Checklist Pós-Atendimento</button>
-        <button class="drawer-tab" id="tabHabPitfallsBtn" style="display:none;" onclick="switchDrawerTab('armadilhas')">🚫 Armadilhas &amp; Erros</button>
+        <button class="drawer-tab" id="tabHabPreBtn" style="display:none;" onclick="switchDrawerTab('preporta')">Pré-Porta 30s</button>
+        <button class="drawer-tab" id="tabHabChecklistBtn" style="display:none;" onclick="switchDrawerTab('checklist')">Checklist</button>
+        <button class="drawer-tab" id="tabHabPitfallsBtn" style="display:none;" onclick="switchDrawerTab('armadilhas')">Armadilhas &amp; Erros</button>
       </div>
 
       <div class="drawer-body">
@@ -1954,7 +2087,7 @@ html_template = r"""<!DOCTYPE html>
         <div class="drawer-code-block" id="drawerContent"></div>
         <div class="interactive-panel" id="drawerInteractivePanel" style="display:none;">
           <div class="interactive-lead">
-            ⚡ <strong>Personalização Rápida:</strong> Clique nas opções nos chips abaixo para selecionar a conduta desejada antes de copiar para o prontuário.
+            Clique nas opções para personalizar. No modo <strong>☑️ Várias</strong> (comorbidades, sintomas, exames ou condutas combinadas), você pode selecionar mais de uma opção. Clique em <strong>🔘 1</strong> / <strong>☑️ Várias</strong> no chip para alternar o modo ou clique em uma opção ativa para desmarcá-la.
           </div>
           <div class="interactive-rendered" id="interactiveRendered"></div>
         </div>
@@ -1963,16 +2096,16 @@ html_template = r"""<!DOCTYPE html>
         <div class="hab-panel" id="habPrePanel" style="display:none;">
           <div class="hab-meta-grid">
             <div class="hab-meta-chip hab-meta-time">
-              <span class="hab-meta-label">⏱️ Meta de Tempo</span>
+              <span class="hab-meta-label">Meta de Tempo</span>
               <strong class="hab-meta-val" id="habTimeGoal"></strong>
             </div>
             <div class="hab-meta-chip">
-              <span class="hab-meta-label">🏷️ Categoria</span>
+              <span class="hab-meta-label">Área</span>
               <strong class="hab-meta-val" id="habCategoryBadge"></strong>
             </div>
           </div>
           <div class="hab-anchor-box" id="habAnchorBox">
-            <div class="hab-anchor-label">⚓ ÂNCORA MENTAL (SEQUÊNCIA-CHAVE)</div>
+            <div class="hab-anchor-label">Âncora Mental</div>
             <div class="hab-anchor-text" id="habAnchorText"></div>
           </div>
           <div class="hab-steps-list" id="habPreSteps"></div>
@@ -1983,7 +2116,7 @@ html_template = r"""<!DOCTYPE html>
           <div class="hab-progress-card">
             <div class="hab-progress-top">
               <div>
-                <div class="hab-progress-title">Execução Real no Atendimento</div>
+                <div class="hab-progress-title">Execução no Atendimento</div>
                 <div class="hab-progress-count" id="habProgressCount">0/0 executados</div>
               </div>
               <div class="hab-progress-pct" id="habProgressPct">0%</div>
@@ -1997,10 +2130,10 @@ html_template = r"""<!DOCTYPE html>
 
           <div class="hab-checklist-actions">
             <button class="btn btn-hab-debrief" onclick="copyHabDebriefing()">
-              📋 Copiar Debriefing
+              Copiar Debriefing
             </button>
             <button class="btn btn-hab-reset" onclick="resetHabChecklist()">
-              🔄 Resetar p/ Próximo Paciente
+              Resetar p/ Próximo Paciente
             </button>
           </div>
 
@@ -2010,22 +2143,22 @@ html_template = r"""<!DOCTYPE html>
         <!-- Conteúdo Habilidades Clínicas: Aba 3 (Armadilhas & Erros Fatais) -->
         <div class="hab-panel" id="habPitfallsPanel" style="display:none;">
           <div class="hab-pitfalls-lead">
-            🚫 <strong>Armadilhas &amp; Erros Fatais:</strong> Erros de execução que falseiam o exame, atrasam diagnóstico grave ou quebram segurança do paciente.
+            Erros de execução que falseiam o exame, atrasam diagnóstico grave ou quebram segurança do paciente.
           </div>
           <div class="hab-pitfalls-list" id="habPitfallsList"></div>
         </div>
       </div>
 
       <div class="drawer-footer">
-        <div style="display:flex; align-items:center; gap:6px;">
+        <div style="display:flex; align-items:center; gap:8px;">
           <span class="trigger-chip" id="drawerTriggerChip" onclick="copyDrawerTrigger()">
             <code id="drawerTrigger">;atalho</code>
           </span>
-          <span class="time-pill" id="drawerHabMetaFooter" style="display:none;"></span>
+          <span class="drawer-hab-meta-footer" id="drawerHabMetaFooter" style="display:none;"></span>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <button class="btn btn-primary" id="drawerCopyBtn" onclick="copyCurrentDrawerTab()">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
             <span id="drawerCopyBtnText">Copiar Texto Aberto</span>
           </button>
         </div>
@@ -2037,14 +2170,14 @@ html_template = r"""<!DOCTYPE html>
   <div class="cmd-overlay" id="cmdOverlay" onclick="closeCmdPalette()">
     <div class="cmd-modal" onclick="event.stopPropagation()">
       <div class="cmd-search-box">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <input type="text" id="cmdSearchInput" class="cmd-search-input" placeholder="Buscar protocolo PEP, habilidade ou atalho... (Enter para agir, Esc para fechar)" autocomplete="off">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--text-secondary)" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="cmdSearchInput" class="cmd-search-input" placeholder="Buscar protocolo PEP, habilidade ou atalho..." autocomplete="off">
         <span class="kbd-shortcut">ESC</span>
       </div>
       <div class="cmd-results" id="cmdResults"></div>
       <div class="cmd-footer">
-        <span>↑↓ navegar • Enter copia PEP ou abre 🧠 Habilidade • Shift+Enter abre painel</span>
-        <span id="cmdCount">__TOTAL_ALL__ disponíveis</span>
+        <span>↑↓ navegar • Enter copia PEP ou abre Habilidade • Shift+Enter abre painel</span>
+        <span id="cmdCount">__TOTAL_ALL__ itens</span>
       </div>
     </div>
   </div>
@@ -2053,14 +2186,13 @@ html_template = r"""<!DOCTYPE html>
   <div class="doses-overlay" id="dosesOverlay" onclick="closeDosesModal()">
     <div class="doses-modal" onclick="event.stopPropagation()">
       <div class="doses-header">
-        <div style="display:flex; align-items:center; gap:10px;">
-          <span style="font-size:1.3rem;">⚖️</span>
-          <div>
-            <h2 style="font-size:1.05rem; font-weight:700; color:#fff;">Calculadora de Doses Críticas por Peso</h2>
-            <p style="font-size:0.76rem; color:var(--text-muted);">Cálculo automático baseado no peso atual: <strong id="modalWeightDisplay" style="color:#38bdf8;">70 kg</strong></p>
-          </div>
+        <div>
+          <h2 style="font-size:1rem; font-weight:600; color:var(--text);">Doses Críticas por Peso</h2>
+          <p style="font-size:0.75rem; color:var(--text-secondary); margin-top:2px;">Cálculo automático para <strong id="modalWeightDisplay" style="color:var(--primary);">70 kg</strong></p>
         </div>
-        <button class="close-btn" onclick="closeDosesModal()">✕</button>
+        <button class="close-btn" onclick="closeDosesModal()" aria-label="Fechar">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
       </div>
 
       <div class="doses-body" id="dosesContainer">
@@ -2071,7 +2203,7 @@ html_template = r"""<!DOCTYPE html>
 
   <!-- Toast -->
   <div class="toast" id="toast">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2.2"><polyline points="20 6 9 17 4 12"></polyline></svg>
     <span id="toastMsg">Texto copiado!</span>
   </div>
 
@@ -2091,6 +2223,7 @@ html_template = r"""<!DOCTYPE html>
     const cards = document.querySelectorAll('.card');
     const moduleTabs = document.getElementById('moduleTabs');
     const subcatContainer = document.getElementById('subcatContainer');
+    const counterPill = document.getElementById('counterPill');
     const counterText = document.getElementById('counterText');
     const toast = document.getElementById('toast');
     const toastMsg = document.getElementById('toastMsg');
@@ -2300,11 +2433,12 @@ html_template = r"""<!DOCTYPE html>
         if (!btn) return;
         const state = loadHabChecklistState(item);
         const stats = computeHabStats(item, state);
+        const labelEl = btn.querySelector('.chk-btn-label') || btn;
         if (stats.checked > 0) {
-          btn.textContent = `✅ Checklist (${stats.checked}/${stats.total})`;
+          labelEl.textContent = `Checklist · ${stats.checked}/${stats.total}`;
           btn.classList.toggle('complete', stats.checked === stats.total && stats.total > 0);
         } else {
-          btn.textContent = `✅ Checklist (${stats.total})`;
+          labelEl.textContent = `Checklist · ${stats.total}`;
           btn.classList.remove('complete');
         }
       });
@@ -2335,15 +2469,15 @@ html_template = r"""<!DOCTYPE html>
       if (isHab) {
         drawerTriggerChip.style.display = 'none';
         drawerHabMetaFooter.style.display = 'inline-flex';
-        drawerHabMetaFooter.textContent = `⏱️ ${item.time_goal || '5–10 min'} • ${item.category}`;
+        drawerHabMetaFooter.textContent = `${item.time_goal || '5–10 min'} • ${item.category}`;
         const stats = computeHabStats(item, loadHabChecklistState(item));
-        tabHabChecklistBtn.textContent = `✅ Checklist (${stats.checked}/${stats.total})`;
+        tabHabChecklistBtn.textContent = `Checklist (${stats.checked}/${stats.total})`;
         const targetTab = (initialTab === 'checklist' || initialTab === 'armadilhas') ? initialTab : 'preporta';
         switchDrawerTab(targetTab);
       } else {
-        drawerTriggerChip.style.display = 'inline-flex';
-        drawerTrigger.textContent = item.trigger;
-        drawerHabMetaFooter.style.display = 'none';
+        drawerTriggerChip.style.display = 'none';
+        drawerHabMetaFooter.style.display = 'inline-flex';
+        drawerHabMetaFooter.textContent = `${item.module_name} • ${item.category}`;
         switchDrawerTab(initialTab || 'pep');
       }
 
@@ -2469,7 +2603,7 @@ html_template = r"""<!DOCTYPE html>
         if (trimmed.startsWith('>>>')) {
           const h = document.createElement('div');
           h.className = 'hab-pre-group-title';
-          h.textContent = trimmed.replace(/^>+\s*/, '⚡ ');
+          h.textContent = trimmed.replace(/^>+\s*/, '');
           habPreSteps.appendChild(h);
           return;
         }
@@ -2514,17 +2648,17 @@ html_template = r"""<!DOCTYPE html>
       habProgressFill.style.width = `${stats.pct}%`;
       habProgressFill.classList.toggle('done', isComplete);
 
-      tabHabChecklistBtn.textContent = `✅ Checklist (${stats.checked}/${stats.total})`;
+      tabHabChecklistBtn.textContent = `Checklist (${stats.checked}/${stats.total})`;
 
       // Painel ao vivo de Pontos Cegos / Itens Esquecidos
       if (stats.total === 0) {
         habBlindspotsPanel.classList.remove('all-done');
-        habBlindspotsPanel.innerHTML = '<div class="hab-blindspots-header">⚠️ Nenhum item de checklist encontrado neste cartão.</div>';
+        habBlindspotsPanel.innerHTML = '<div class="hab-blindspots-header">Nenhum item de checklist encontrado neste cartão.</div>';
       } else if (stats.missed.length === 0) {
         habBlindspotsPanel.classList.add('all-done');
         habBlindspotsPanel.innerHTML = `
           <div class="hab-blindspots-header">
-            <span>🏆 Nenhum Ponto Cego! Todos os ${stats.total} itens foram executados.</span>
+            <span>Nenhum ponto cego — todos os ${stats.total} itens executados.</span>
           </div>
         `;
       } else {
@@ -2534,8 +2668,8 @@ html_template = r"""<!DOCTYPE html>
         )).join('');
         habBlindspotsPanel.innerHTML = `
           <div class="hab-blindspots-header">
-            <span>🔍 Pontos Cegos / Itens Esquecidos (${stats.missed.length})</span>
-            <span style="font-size:0.74rem; font-weight:600;">Atualizado ao vivo</span>
+            <span>Pontos Cegos / Itens Esquecidos (${stats.missed.length})</span>
+            <span style="font-size:0.72rem; font-weight:500; opacity:0.85;">Ao vivo</span>
           </div>
           <ul class="hab-blindspots-list">${listItems}</ul>
         `;
@@ -2638,11 +2772,56 @@ html_template = r"""<!DOCTYPE html>
         const card = document.createElement('div');
         card.className = 'hab-pitfall-card';
         card.innerHTML = `
-          <div class="hab-pitfall-title">⚠️ ${escapeHtml(p.title)}</div>
+          <div class="hab-pitfall-title">${escapeHtml(p.title)}</div>
           ${p.detail ? `<div class="hab-pitfall-detail">${escapeHtml(p.detail)}</div>` : ''}
         `;
         habPitfallsList.appendChild(card);
       });
+    }
+
+    function isLikelyMultiGroup(lineText, options) {
+      if (!options || options.length <= 1) return false;
+
+      const lowerOpts = options.map(o => o.toLowerCase().trim());
+      const allJoined = lowerOpts.join(' | ');
+
+      // Pares ou trios estritamente mutuamente exclusivos
+      const strictSingles = [
+        /^(sim\s*\|\s*não|não\s*\|\s*sim)$/i,
+        /^(m\s*\|\s*f|f\s*\|\s*m)$/i,
+        /^(masculino\s*\|\s*feminino|feminino\s*\|\s*masculino)$/i,
+        /^(beg\s*\|\s*reg\s*\|\s*meg|beg\s*\|\s*reg)$/i,
+        /^(normal\s*\|\s*alterada?)$/i,
+        /^(não reagente\s*\|\s*reagente|reagente\s*\|\s*não reagente)$/i,
+        /^(direito\s*\|\s*esquerdo|msd\s*\|\s*mse|mid\s*\|\s*mie)$/i,
+        /^(cefálica\s*\|\s*pélvica)$/i,
+        /^manter\s*\|\s*suspender/i
+      ];
+
+      for (const rx of strictSingles) {
+        if (rx.test(allJoined)) return false;
+      }
+
+      // Contexto da linha: comorbidades, sintomas, exames, condutas, etc.
+      const lineLower = (lineText || '').toLowerCase();
+      const multiKeywords = [
+        'comorbidade', 'antecedente', 'sintoma', 'queixa', 'alergia',
+        'exame', 'conduta', 'prescri', 'procedimento', 'solicitar',
+        'retirar', 'orienta', 'risco', 'achado', 'droga', 'medicamento',
+        'dispositivo', 'diagnóstico secundário'
+      ];
+      if (multiKeywords.some(k => lineLower.includes(k))) return true;
+
+      // Siglas ou termos clínicos comuns em listas combináveis
+      const multiTerms = ['has', 'dm', 'dac', 'drc', 'dpoc', 'cardiopatia', 'neoplasia', 'tc', 'usg', 'rx', 'ecg', 'dipirona', 'tosse', 'febre', 'dispneia'];
+      if (lowerOpts.some(o => multiTerms.includes(o) || multiTerms.some(t => o.startsWith(t + ' ') || o.endsWith(' ' + t)))) {
+        return true;
+      }
+
+      // Se tiver 4 ou mais opções e não for escala estrita, tende a ser lista de opções
+      if (options.length >= 4) return true;
+
+      return false;
     }
 
     // Renderização do Personalizador Interativo (PEP)
@@ -2659,21 +2838,100 @@ html_template = r"""<!DOCTYPE html>
         parts.forEach(part => {
           if (part.startsWith('[') && part.endsWith(']') && part.includes('/')) {
             const inner = part.slice(1, -1);
-            const options = inner.split('/').map(o => o.trim());
+            const options = inner.split('/').map(o => o.trim()).filter(Boolean);
+
+            if (options.length === 0) {
+              lineDiv.appendChild(document.createTextNode(part));
+              return;
+            }
 
             const groupSpan = document.createElement('span');
             groupSpan.className = 'choice-group';
 
+            const defaultMulti = isLikelyMultiGroup(line, options);
+            if (defaultMulti) {
+              groupSpan.classList.add('is-multi');
+            }
+
+            // Botão para alternar modo (🔘 1 / ☑️ Várias)
+            const modeBtn = document.createElement('button');
+            modeBtn.type = 'button';
+            modeBtn.className = 'choice-mode-btn';
+            modeBtn.title = 'Alternar entre seleção única ou múltipla neste campo';
+
+            function syncModeBtn() {
+              const isM = groupSpan.classList.contains('is-multi');
+              modeBtn.textContent = isM ? '☑️ Várias' : '🔘 1';
+            }
+            syncModeBtn();
+
+            modeBtn.onclick = (e) => {
+              e.stopPropagation();
+              const wasMulti = groupSpan.classList.contains('is-multi');
+              if (wasMulti) {
+                groupSpan.classList.remove('is-multi');
+                // Se mudou para 1 opção e tinha várias selecionadas, preserva apenas a primeira
+                const actives = Array.from(groupSpan.querySelectorAll('.choice-pill.active'));
+                if (actives.length > 1) {
+                  actives.slice(1).forEach(b => b.classList.remove('active'));
+                }
+              } else {
+                groupSpan.classList.add('is-multi');
+              }
+              syncModeBtn();
+            };
+
+            // Criar pílulas de opção
             options.forEach((opt, oIdx) => {
               const btn = document.createElement('button');
+              btn.type = 'button';
               btn.className = 'choice-pill' + (oIdx === 0 ? ' active' : '');
               btn.textContent = opt;
-              btn.onclick = () => {
-                groupSpan.querySelectorAll('.choice-pill').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
+
+              btn.onclick = (e) => {
+                e.stopPropagation();
+                const isMultiMode = groupSpan.classList.contains('is-multi');
+                const isActive = btn.classList.contains('active');
+                const optLower = opt.toLowerCase();
+                const isNegation = optLower.startsWith('nega') || optLower === 'hígido' || optLower === 'nenhum' || optLower === 'sem queixas';
+
+                if (isMultiMode) {
+                  // MODO MÚLTIPLO: toggle direto
+                  if (isActive) {
+                    btn.classList.remove('active');
+                  } else {
+                    btn.classList.add('active');
+                    // Se clicou em Nega/Hígido, desmarca itens positivos
+                    if (isNegation) {
+                      groupSpan.querySelectorAll('.choice-pill').forEach(b => {
+                        if (b !== btn) b.classList.remove('active');
+                      });
+                    } else {
+                      // Se clicou em item positivo, desmarca Nega/Hígido
+                      groupSpan.querySelectorAll('.choice-pill').forEach(b => {
+                        const bLow = b.textContent.toLowerCase();
+                        if (bLow.startsWith('nega') || bLow === 'hígido' || bLow === 'nenhum' || bLow === 'sem queixas') {
+                          b.classList.remove('active');
+                        }
+                      });
+                    }
+                  }
+                } else {
+                  // MODO ÚNICO:
+                  if (isActive) {
+                    // Clicar no selecionado desmarca (permite deixar vazio)
+                    btn.classList.remove('active');
+                  } else {
+                    groupSpan.querySelectorAll('.choice-pill').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                  }
+                }
               };
+
               groupSpan.appendChild(btn);
             });
+
+            groupSpan.appendChild(modeBtn);
             lineDiv.appendChild(groupSpan);
           } else {
             lineDiv.appendChild(document.createTextNode(part));
@@ -2709,8 +2967,12 @@ html_template = r"""<!DOCTYPE html>
           let lineText = "";
           lineNode.childNodes.forEach(child => {
             if (child.classList && child.classList.contains('choice-group')) {
-              const active = child.querySelector('.choice-pill.active');
-              lineText += active ? active.textContent : "";
+              const actives = Array.from(child.querySelectorAll('.choice-pill.active'));
+              if (actives.length > 0) {
+                lineText += actives.map(a => a.textContent.trim()).join(', ');
+              } else {
+                lineText += "";
+              }
             } else {
               lineText += child.textContent;
             }
@@ -2764,12 +3026,13 @@ html_template = r"""<!DOCTYPE html>
         }
       });
 
+      counterPill.classList.toggle('is-hab', activeModule === 'hab');
       if (activeModule === 'hab') {
         counterText.textContent = `${visible} ${visible === 1 ? 'Habilidade' : 'Habilidades'}`;
       } else if (activeModule === 'all' && !q && activeSubcat === 'all') {
-        counterText.textContent = `${visible} Protocolos Prontos`;
+        counterText.textContent = `${visible} Protocolos`;
       } else {
-        counterText.textContent = `${visible} Protocolos Filtrados`;
+        counterText.textContent = `${visible} Filtrados`;
       }
     }
 
@@ -2780,6 +3043,9 @@ html_template = r"""<!DOCTYPE html>
       if (!btn) return;
       moduleTabs.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      if (btn.scrollIntoView) {
+        btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
       activeModule = btn.dataset.mod;
       searchInput.placeholder = activeModule === 'hab'
         ? 'Buscar habilidade, manobra, ECG, RX, SPIKES, Leopold, protocolo...'
@@ -2843,17 +3109,17 @@ html_template = r"""<!DOCTYPE html>
         const div = document.createElement('div');
         div.className = 'cmd-item' + (idx === 0 ? ' active' : '');
         const isHab = item.mod_id === 'hab';
-        const icon = isHab ? '🧠' : item.badge.split(' ')[0];
+        const dotEl = `<span class="mod-dot mod-dot-${escapeHtml(item.mod_id)}"></span>`;
         const subtitle = isHab
-          ? `${item.module_name} • ${item.category}${item.time_goal ? ' • ⏱️ ' + item.time_goal : ''}`
+          ? `${item.module_name} • ${item.category}${item.time_goal ? ' • ' + item.time_goal : ''}`
           : `${item.module_name} • ${item.category}`;
         const rightTag = isHab
-          ? '<span class="cmd-item-trig cmd-item-hab-trig">🧠 Habilidade</span>'
-          : `<span class="cmd-item-trig">${escapeHtml(item.trigger)}</span>`;
+          ? '<span class="cmd-item-trig cmd-item-hab-trig">Habilidade</span>'
+          : `<span class="cmd-item-trig">${escapeHtml(item.category)}</span>`;
 
         div.innerHTML = `
           <div class="cmd-item-left">
-            <span>${icon}</span>
+            ${dotEl}
             <div>
               <div class="cmd-item-title">${escapeHtml(item.title)}</div>
               <div class="cmd-item-cat">${escapeHtml(subtitle)}</div>

@@ -3374,7 +3374,7 @@ matches:
       4. Normoglicemia (manter glicemia entre 140 e 180 mg/dL), normotermia (tratar qualquer febre > 37,5 °C com dipirona) e cabeceira a 0-30 graus.
       5. Vaga de enfermaria neurológica / UTI regulada via CROSS/SISREG.
 
-  - trigger: ";07-taquiarritmias-e-fibrilacao-atrial"
+  - trigger: ";taqui"
     replace: |
       ###### ATENDIMENTO DE SALA VERMELHA: PROTOCOLO TAQUIARRITMIAS & FA ######
       # IDENTIFICAÇÃO:
@@ -3449,7 +3449,7 @@ matches:
          * TOTAL CHA2DS2-VASc: [ ] PONTOS
          * Conduta de Anticoagulação: Indicada anticoagulação oral plena se pontuação >= 2 em homens ou >= 3 em mulheres (DOAC: Apixabana 5 mg VO 12/12h / Rivaroxabana 20 mg VO 1x/dia com almoço).
 
-  - trigger: ";07-taquiarritmias-e-fibrilacao-atrial-cnd"
+  - trigger: ";taqui-cnd"
     replace: |
       # PLANO / CONDUTA POR MODALIDADE CLÍNICA:
       
@@ -3498,7 +3498,7 @@ matches:
          * TOTAL CHA2DS2-VASc: [ ] PONTOS
          * Conduta de Anticoagulação: Indicada anticoagulação oral plena se pontuação >= 2 em homens ou >= 3 em mulheres (DOAC: Apixabana 5 mg VO 12/12h / Rivaroxabana 20 mg VO 1x/dia com almoço).
 
-  - trigger: ";08-disturbios-eletroliticos-hipercalemia-e-hiponatremia"
+  - trigger: ";hiperk"
     replace: |
       ###### ATENDIMENTO DE SALA VERMELHA: DISTÚRBIOS ELETROLÍTICOS GRAVES ######
       # IDENTIFICAÇÃO:
@@ -3574,7 +3574,7 @@ matches:
          - Aumento MÁXIMO de **18 mEq/L em 48 horas**.
          - Se ocorrer supercorreção inadvertida (> 10 mEq/L em 24h): suspender reposição salina imediatamente e administrar Água Livre por via oral ou Soro Glicosado a 5% (associado a Desmopressina/DDAVP 1 a 2 mcg SC/EV).
 
-  - trigger: ";08-disturbios-eletroliticos-hipercalemia-e-hiponatremia-cnd"
+  - trigger: ";hiperk-cnd"
     replace: |
       # CONDUTA TERAPÊUTICA ESCALONADA NA HIPERCALEMIA:
       

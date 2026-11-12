@@ -1,33 +1,25 @@
 # Sistema Protocolar de Atendimento Médico & Snippets para PEP
 
-> Acervo de 81 protocolos clínicos estruturados para atendimento médico, registros em PEP e prescrições de alta.
+> Acervo de 74 protocolos clínicos estruturados para atendimento médico, registros em PEP e prescrições de alta.
 
 ## Módulos Clínicos Disponíveis
 
-### Ginecologia e Obstetrícia (23 protocolos)
-- [Admissão em Enfermaria de Puerpério](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/01_Enfermaria_Puerperio/01_Puerperio_Admissao.md): Atalho `;puerp-adm`
+### Ginecologia e Obstetrícia (15 protocolos)
 - [Evolução Diária em Enfermaria de Puerpério](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/01_Enfermaria_Puerperio/02_Puerperio_Evolucao_Diaria.md): Atalho `;puerp-evo`
-- [Relatório de Alta de Puerpério - Parto Normal](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/01_Enfermaria_Puerperio/03_Puerperio_Alta_Parto_Normal.md): Atalho `;puerp-alta-pn`
-- [Relatório de Alta de Puerpério - Cesariana](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/01_Enfermaria_Puerperio/04_Puerperio_Alta_Cesarea.md): Atalho `;puerp-alta-pc`
 - [Script de Passagem de Caso / Round de Puerpério](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/01_Enfermaria_Puerperio/05_Puerperio_Round_Passagem_de_Caso.md): Atalho `;round-puerp`
 - [Ambulatório de Pré-Natal - Primeira Consulta](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/02_Ambulatorio_GO/01_Pre_Natal_Primeira_Consulta.md): Atalho `;pn-1cons`
 - [Ambulatório de Pré-Natal - Consulta Subsequente (Retorno)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/02_Ambulatorio_GO/02_Pre_Natal_Consulta_Subsequente.md): Atalho `;pn-ret`
 - [Ambulatório de Ginecologia Geral - Consulta de Rotina e Queixas](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/02_Ambulatorio_GO/03_Ginecologia_Geral_Consulta.md): Atalho `;gin-amb`
-- [Parecer de Interconsulta - Ginecologia (PI)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/02_Ambulatorio_GO/04_Ginecologia_Interconsulta_PI.md): Atalho `;pi-gin`
 - [Procedimento Ambulatorial - Inserção de Implanon (Etonogestrel 68 mg)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/03_Procedimentos_Ambulatoriais/01_Procedimento_Insercao_Implanon.md): Atalho `;implanon-ins`
 - [Procedimento Ambulatorial - Retirada e Troca de Implanon](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/03_Procedimentos_Ambulatoriais/02_Procedimento_Troca_Implanon.md): Atalho `;implanon-troca`
-- [Procedimento Ambulatorial - Inserção de DIU (Cobre ou Hormonal)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/03_Procedimentos_Ambulatoriais/03_Procedimento_Insercao_DIU_Ambulatorial.md): Atalho `;diu-amb`
-- [Descrição Cirúrgica - Cesariana (Polo Cefálico)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/04_Centro_Obstetrico_Cirurgias/01_Cirurgia_Cesarea_Cefalica.md): Atalho `;pc-cef`
-- [Descrição Cirúrgica - Cesariana (Apresentação Pélvica)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/04_Centro_Obstetrico_Cirurgias/02_Cirurgia_Cesarea_Pelvico.md): Atalho `;pc-pelv`
-- [Descrição Cirúrgica - Cesariana com DIU Transcesárea ou Laqueadura Tubárea (Pomeroy)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/04_Centro_Obstetrico_Cirurgias/03_Cirurgia_Cesarea_com_DIU_ou_Laqueadura.md): Atalho `;pc-diu-lt`
 - [Descrição de Parto Normal Eutócico (Espontâneo)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/04_Centro_Obstetrico_Cirurgias/04_Parto_Normal_Eutocico.md): Atalho `;pn-eutocico`
-- [Descrição de Parto Normal Instrumentado - Vácuo Extrator e Fórceps (Simpson)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/04_Centro_Obstetrico_Cirurgias/05_Parto_Normal_Instrumentado_Vacuo_e_Forceps.md): Atalho `;pn-instrumentado`
 - [Revisão de Canal de Parto e Perineorrafia (Lacerações e Episiotomia)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/04_Centro_Obstetrico_Cirurgias/06_Revisao_Canal_e_Sutura_Laceracao_Episiotomia.md): Atalho `;perineorrafia`
-- [Reavaliação Pós-Cesariana em SRPA (Sala de Recuperação Pós-Anestésica)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/04_Centro_Obstetrico_Cirurgias/07_Reavaliacao_Pos_Cesarea_SRPA.md): Atalho `;srpa-pc`
-- [Procedimento Cirúrgico - AMIU (Aspiração Manual Intrauterina)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/05_Esvaziamento_Uterino/01_Procedimento_AMIU.md): Atalho `;amiu`
-- [Procedimento Cirúrgico - Curetagem Uterina Evacuatória](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/05_Esvaziamento_Uterino/02_Procedimento_Curetagem_Uterina.md): Atalho `;curetagem`
 - [Manejo de Emergência - Hemorragia Pós-Parto (HPP) / Protocolo Código Vermelho](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/06_Emergencias_GO/01_Emergencia_Hemorragia_Pos_Parto_HPP.md): Atalho `;hpp`
 - [Manejo de Emergência - Pré-Eclâmpsia Grave e Eclâmpsia](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/06_Emergencias_GO/02_Emergencia_Pre_Eclampsia_Grave_e_Eclampsia.md): Atalho `;pre-eclampsia`
+- [Manejo de Emergência - Trabalho de Parto Prematuro (TPP)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/06_Emergencias_GO/03_Trabalho_de_Parto_Prematuro_TPP.md): Atalho `;tpp`
+- [Manejo de Emergência - Rotura Prematura de Membranas (RPMO)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/06_Emergencias_GO/04_Rotura_Prematura_de_Membranas_RPMO.md): Atalho `;rpmo`
+- [Manejo de Emergência - Doença Inflamatória Pélvica (DIP)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/06_Emergencias_GO/05_Doenca_Inflamatoria_Pelvica_DIP.md): Atalho `;dip`
+- [Infecções Puerperais: Mastite Lactacional & Endometrite](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/01_Ginecologia_Obstetricia/06_Emergencias_GO/06_Infeccoes_Puerperais_Mastite_e_Endometrite.md): Atalho `;mastite` / `;endometrite`
 
 ### Pronto Atendimento / UPA Adulto (37 protocolos)
 - [Ficha Mestra Universal de Pronto Atendimento (UPA / Pronto-Socorro)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/02_Pronto_Atendimento_UPA/01_Triagem_e_Ficha_Mestra/00_Ficha_Mestra_Universal_UPA.md): Atalho `;upa-ficha`
@@ -68,19 +60,16 @@
 - [Atendimento de Pronto Atendimento - Sequência Rápida de Intubação (SRI / IOT)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/02_Pronto_Atendimento_UPA/07_Emergencias_Graves_e_Procedimentos/03_Sequencia_Rapida_de_Intubacao_SRI.md): Atalho `;sri`
 - [Parada Cardiorrespiratória (PCR) Adulto & Cuidados Pós-RCE](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/02_Pronto_Atendimento_UPA/07_Emergencias_Graves_e_Procedimentos/04_Parada_Cardiorrespiratoria_PCR.md): Atalho `;pcr`
 
-### Enfermaria e Internação Hospitalar (10 protocolos)
+### Enfermaria e Internação Hospitalar (7 protocolos)
 - [Admissão em Enfermaria de Clínica Médica](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/01_Admissao_e_Avaliacao_Inicial/01_Admissao_Clinica_Medica.md): Atalho `;enf-adm-clin`
-- [Admissão Cirúrgica (Pré e Pós-Operatório em Leito)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/01_Admissao_e_Avaliacao_Inicial/02_Admissao_Cirurgica_Pre_e_Pos.md): Atalho `;enf-adm-cir`
 - [Evolução Diária SOAP - Clínica Médica](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/02_Evolucao_Diaria_SOAP/01_Evolucao_SOAP_Clinica_Medica.md): Atalho `;enf-evo-clin`
 - [Evolução Diária SOAP - Pós-Operatório Cirúrgico](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/02_Evolucao_Diaria_SOAP/02_Evolucao_SOAP_Pos_Operatorio.md): Atalho `;enf-evo-po`
 - [Checklist de Metas Diárias - Bundle FAST HUG BID](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/02_Evolucao_Diaria_SOAP/03_Checklist_Metas_FAST_HUG_BID.md): Atalho `;fasthug`
 - [Round Matinal e Passagem de Plantão (Formato SBAR)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/03_Passagem_de_Plantao_e_Rounds/01_Round_Matinal_e_Passagem_SBAR.md): Atalho `;sbar-round`
-- [Parecer de Interconsulta Médica Hospitalar (PI)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/04_Interconsultas_e_Pareceres/01_Parecer_Interconsulta_PI_Hospitalar.md): Atalho `;pi-hosp`
 - [Sumário de Alta Hospitalar - Clínica Médica](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/05_Altas_e_Desospitalizacao/01_Sumario_de_Alta_Clinica_Medica.md): Atalho `;alta-clin`
-- [Sumário de Alta Hospitalar - Cirurgia Geral & Especialidades](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/05_Altas_e_Desospitalizacao/02_Sumario_de_Alta_Cirurgica.md): Atalho `;alta-cir`
 - [Constatação de Óbito Hospitalar & Preenchimento da Declaração de Óbito (DO)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/03_Enfermaria_Internacao/06_Declaracao_de_Obito_e_Cuidados/01_Constatacao_de_Obito_e_Checklist_DO.md): Atalho `;obito-do`
 
-### Pediatria e Puericultura (11 protocolos)
+### Pediatria e Puericultura (10 protocolos)
 - [Ficha Mestra Universal de Pediatria (Pronto Atendimento & Ambulatório)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/04_Pediatria_Puericultura/01_Ficha_Mestra_e_Triagem/00_Ficha_Mestra_Universal_Pediatrica.md): Atalho `;ped-ficha`
 - [Consulta de Puericultura & Marcos do DNPM (0 a 24 Meses)](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/04_Pediatria_Puericultura/02_Puericultura_e_Ambulatorio/01_Consulta_Puericultura_Marcos_DNPM.md): Atalho `;puericultura`
 - [Resfriado Comum & Rinofaringite Aguda Pediátrica](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/04_Pediatria_Puericultura/03_Respiratorio_e_IVAS/01_Resfriado_Comum_e_Obstrucao_Nasal.md): Atalho `;ped-resfriado`
@@ -91,4 +80,3 @@
 - [Gastroenterite Aguda (GECA) & Planos de Desidratação da OMS](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/04_Pediatria_Puericultura/04_Gastrointestinal_e_Desidratacao/01_GECA_e_Planos_Desidratacao_OMS.md): Atalho `;ped-desidratacao`
 - [Febre sem Foco & Manejo do Lactente Febril](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/04_Pediatria_Puericultura/05_Febre_e_Infeccoes_Sistemicas/01_Febre_sem_Foco_e_Lactente_Febril.md): Atalho `;ped-febre`
 - [Crise Convulsiva Febril na Infância](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/04_Pediatria_Puericultura/05_Febre_e_Infeccoes_Sistemicas/02_Crise_Convulsiva_Febril.md): Atalho `;convulsao-febril`
-- [Guia Mestre de Doses Ponderais & Conversões em Pediatria](https://raw.githubusercontent.com/wagmms/protocolos-clinicos/main/04_Pediatria_Puericultura/06_Guia_Doses_Ponderais_Calculadora/01_Guia_Mestre_Doses_Ponderais_Pediatricas.md): Atalho `;ped-doses`
