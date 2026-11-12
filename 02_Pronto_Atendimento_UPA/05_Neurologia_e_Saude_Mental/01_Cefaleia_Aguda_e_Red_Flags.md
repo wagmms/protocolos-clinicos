@@ -77,7 +77,7 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 [OPÇÃO A — CRISE DE ENXAQUECA / MIGRÂNEA (DOR PULSÁTIL COM NÁUSEA/FOTOFOBIA)]:
 1. Succinato de Sumatriptana 50 mg (Sumax / Imigran) (ou Naratriptana 2,5 mg) --- 1 caixa
-   Tomar 1 comprimido por via oral **logo no início da crise de enxaqueca** (pode repetir mais 1 comprimido após 2 horas se a dor retornar; máximo de 2 comprimidos em 24h).
+   Tomar 1 comprimido por via oral logo no início da crise de enxaqueca (pode repetir mais 1 comprimido após 2 horas se a dor retornar; máximo de 2 comprimidos em 24h).
    *(Atenção: Contraindicado em hipertensão não controlada, doença coronariana ou AVC prévio).*
 
 2. Naproxeno Sódico 500 mg (ou Ibuprofeno 600 mg / Cetoprofeno 100 mg) ---------- 1 caixa
@@ -108,7 +108,7 @@ ORIENTAÇÕES E SINAIS DE ALARME NEUROLÓGICOS (MNEMÔNICO SNOOP):
 
 ### 💊 2. Por Que Não Usamos Opioides (Morfina/Tramadol) na Enxaqueca e Por Que Associamos Dexametasona 10 mg EV? (Racional Farmacológico)
 - **Por que o "Coquetel Antimigranoso" na UPA é `AINE EV (Cetoprofeno 100 mg) + Dipirona 1 g EV + Antagonista Dopaminérgico (Metoclopramida 10 mg EV lento) + Dexametasona 10 mg EV`:**
-  1. **Por que a Metoclopramida (Plasil) não serve só para o vômito, mas é um analgésico específico da enxaqueca:** Durante a crise de migrânea, ocorre ativação dopaminérgica central e **gastroparesia aguda** (o estômago paralisa). A Metoclopramida bloqueia os receptores dopaminérgicos $D_2$ no tronco encefálico (abortando a cascata trigêmino-vascular da enxaqueca) e destrava o esvaziamento gástrico! *(Dica de ouro: infundir a Metoclopramida diluída lentamente em 15 minutos — e nunca em bólus rápido — evita 90% dos casos de **acatisia / inquietação motora aguda**!).*
+  1. **Por que a Metoclopramida (Plasil) não serve só para o vômito, mas é um analgésico específico da enxaqueca:** Durante a crise de migrânea, ocorre ativação dopaminérgica central e **gastroparesia aguda** (o estômago paralisa). A Metoclopramida bloqueia os receptores dopaminérgicos D₂ no tronco encefálico (abortando a cascata trigêmino-vascular da enxaqueca) e destrava o esvaziamento gástrico! *(Dica de ouro: infundir a Metoclopramida diluída lentamente em 15 minutos — e nunca em bólus rápido — evita 90% dos casos de **acatisia / inquietação motora aguda**!).*
   2. **Por que adicionamos Dexametasona `10 mg EV` em dose única na crise de enxaqueca moderada a grave:** A Dexametasona não tira a dor nos primeiros 30 minutos, mas suprime a inflamação neurogênica meníngea estéril, **reduzindo em mais de 30% a recorrência da enxaqueca nas 24 a 72 horas após a alta da UPA**!
   3. **Por que Opioides (Tramadol / Morfina) são proscritos na Enxaqueca (Diretrizes AAN / ABN):** Os opioides têm menor eficácia que Cetoprofeno+Metoclopramida/Triptanos na migrânea, pioram as náuseas, sensibilizam o núcleo trigeminal (causando hiperalgesia e retorno precoce do paciente à UPA no dia seguinte) e induzem cronificação da cefaleia!
 

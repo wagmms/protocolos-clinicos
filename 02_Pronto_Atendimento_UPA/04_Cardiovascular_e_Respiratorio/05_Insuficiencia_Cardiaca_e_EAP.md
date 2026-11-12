@@ -11,7 +11,7 @@
 # IDENTIFICAÇÃO: Paciente: [Nome], [Idade] anos.
 # CLASSIFICAÇÃO HEMODINÂMICA DE STEVENSON:
 - PERFIL B: "QUENTE E ÚMIDO" (Boa perfusão periférica, porém com congestão pulmonar grave e hipertensão arterial) -> > 80% DOS CASOS DE EAP NA UPA.
-- [Se Perfil C ("Frio e Úmido"): Choque cardiogênico com hipoperfusão -> avaliar Dobutamina (1 ampola 250 mg/20 mL + 230 mL SF 0,9%/SG 5% = 1.000 mcg/mL a 10-15 mL/h = 2,5-5 mcg/kg/min) + Noradrenalina (4 ampolas de 4 mg/4 mL = 16 mL + 234 mL SG 5% = 64 mcg/mL)].
+- [Se Perfil C ("Frio e Úmido"): Choque cardiogênico com hipoperfusão -> avaliar Dobutamina + Noradrenalina].
 
 # SUBJETIVO:
 - Queixa Principal: Falta de ar intensa e súbita, sensação de afogamento e tosse com catarro espumoso há [ ] horas.
@@ -54,7 +54,7 @@
    - Nitroglicerina (Tridil 50 mg/10 mL): Diluir 1 ampola (10 mL) em 240 mL de SG 5% (concentração 200 mcg/mL).
    - Iniciar infusão contínua em BIC a 10 a 20 mcg/min (3 a 6 mL/h) e titular a cada 3 a 5 minutos conforme tolerância da PA, objetivando redução da PAS para 140-150 mmHg.
    - [Enquanto prepara a BIC]: Dinitrato de Isossorbida 5 mg sublingual agora.
-   - [Se PAS > 180-200 mmHg refratária]: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em equipo fotossensível (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min) sob vigilância estrita.
+   - [Se PAS > 180-200 mmHg refratária]: Nitroprussiato de Sódio EV em BIC sob vigilância estrita.
 
 4. DIURÉTICO DE ALÇA ENDOVENOSO:
    - Furosemida 40 mg a 80 mg (2 a 4 ampolas) EV direto em bólus lento agora (dose equivalente a 1 a 2x a dose oral diária habitual do paciente).

@@ -56,7 +56,7 @@
 2. Sintomáticos:
    - Dipirona 500 mg a 1 g VO de 6/6 horas se dor ou febre (ou Paracetamol 750 mg VO de 6/6h).
    - [Se náuseas]: Metoclopramida 10 mg VO 8/8h ou Ondansetrona 4 a 8 mg VO 8/8h.
-3. CONTRAINDICAÇÃO FORMAL E ABSOLUTA: PROIBIDO USO DE AAS (ÁCIDO ACETILSALICÍLICO) E QUALQUER ANTI-INFLAMATÓRIO (IBUPROFENO, CETOPROFENO, DICLOFENACO, NIMESULIDA, MELOXICAM, CORTICOIDES) PELO RISCO GRAVE DE HEMORRAGIA E AGRAVAMENTO DO QUADRO.
+3. CONTRAINDICAÇÃO FORMAL E ABSOLUTA: PROIBIDO USO DE AAS (ÁCIDO ACETILSALICÍLICO) E QUALQUER ANTI-INFLAMATÓRIO (IBUPROFENO, CETOPROFENO, DICLOFENACO, NIXILIDA, MELOXICAM, CORTICOIDES) PELO RISCO GRAVE DE HEMORRAGIA E AGRAVAMENTO DO QUADRO.
 4. Cartão de Acompanhamento da Dengue entregue com agendamento de retorno obrigatório na UBS/UPA no dia da queda da febre (dias 3 a 5).
 
 >> [SE GRUPO B]: OBSERVAÇÃO CLÍNICA NA UPA:
@@ -66,24 +66,8 @@
 >> [SE GRUPO C]: INTERNAÇÃO HOSPITALAR / CONDUTA IMEDIATA:
 1. Hidratação Venosa Imediata com Cristaloide (SF 0,9% ou Ringer Lactato):
    - Fase de Expansão: Infundir 10 mL/kg em 1 hora EV (Volume = [ ] mL em 1h).
-   - Reavaliação clínica a cada 1 hora e hematócrito em 2 horas. Repetir fase de expansão até 3 vezes se ausência de melhora.
-   - Fase de Manutenção após melhora clínica/estabilização do Ht:
-     * 1ª Fase de Manutenção: 25 mL/kg em 6 horas (~4,1 mL/kg/h) EV (Volume = [ ] mL em 6h).
-     * 2ª Fase de Manutenção: 25 mL/kg em 8 horas (~3,1 mL/kg/h) EV (sendo 1/3 SF 0,9% + 2/3 SG 5%).
-2. Cateterismo vesical se oligúria; monitorização contínua de sinais vitais e débito urinário (alvo >= 1 mL/kg/h).
-
->> [SE GRUPO D]: DENGUE GRAVE / CHOQUE CIRCULATÓRIO (SALA VERMELHA):
-1. Acesso venoso periférico duplo e calibroso imediato ou acesso venoso central.
-2. Fase de Expansão Rápida com Cristaloide (SF 0,9% ou Ringer Lactato):
-   - Infundir 20 mL/kg EV em até 20 minutos (Volume = [ ] mL em 20 min).
-   - Reavaliação clínica hemodinâmica a cada 15 a 30 minutos e controle de hematócrito a cada 2 horas.
-   - Se choque persistente: repetir a expansão rápida de 20 mL/kg em 20 minutos até 3 vezes.
-3. Se Choque Refratário a Volume após 3 expansões (Ht elevado = extravasamento persistente):
-   - Avaliar expansor plasmático coloide (Albumina humana a 5% 0,5 a 1 g/kg ou 10 a 20 mL/kg ou substitutos sintéticos).
-   - Iniciar suporte vasopressor precoce com Noradrenalina em BIC (iniciar a 0,1 a 0,5 mcg/kg/min) se hipotensão refratária com PAM < 65 mmHg.
-4. Se Hematócrito em Queda Abrupta com Choque Mantido:
-   - Investigar hemorragia grave oculta (digestiva/retroperitoneal). Solicitar concentrado de hemácias de urgência (10 a 15 mL/kg).
-5. Vaga imediata de UTI via regulação (CROSS/SISREG). Monitorização estrita de sinais vitais e débito urinário horário por SVD.
+   - Reavaliação clínica e hematócrito em 2 horas. Se melhora: 8 mL/kg/h por 2h; depois 5 mL/kg/h por 2h.
+2. Cateterismo vesical se oligúria; monitorização contínua de sinais vitais.
 
 >> SINAIS DE ALARME EXPLICADOS À FAMÍLIA (RETORNO IMEDIATO):
 - Atenção extrema nos dias em que a febre começar a ceder (período de maior risco de choque). Retornar correndo se tiver vômitos que não param, dor de barriga muito forte, sangramentos no nariz ou gengiva, tontura ao sentar ou sonolência extrema.
@@ -92,9 +76,9 @@ RECEITUÁRIO MÉDICO & PLANO DE HIDRATAÇÃO — DENGUE (GRUPOS A E B — MINIST
 Paciente: [Nome] | Peso Atual: [ ] kg | Dia de Doença: [ ]º dia | Data: [DD/MM/AAAA]
 
 1. PRESCRIÇÃO DE HIDRATAÇÃO ORAL VIGOROSA (O REMÉDIO QUE SALVA VIDAS NA DENGUE):
-   - Meta diária calculada pelo seu peso (60 mL/kg/dia): Beber **[ ] Litros de líquidos por dia** (divididos ao longo do dia).
-   - **1/3 deste volume ([ ] mL/dia)** DEVE ser de **Sais de Reidratação Oral (SRO)** (diluir 1 envelope em 1 litro de água filtrada) ou soro caseiro / água de coco.
-   - **2/3 deste volume ([ ] mL/dia)** em água pura, sucos naturais de frutas, chás claros ou sopas.
+   - Meta diária calculada pelo seu peso (60 mL/kg/dia): Beber [ ] Litros de líquidos por dia (divididos ao longo do dia).
+   - 1/3 deste volume ([ ] mL/dia) DEVE ser de Sais de Reidratação Oral (SRO) (diluir 1 envelope em 1 litro de água filtrada) ou soro caseiro / água de coco.
+   - 2/3 deste volume ([ ] mL/dia) em água pura, sucos naturais de frutas, chás claros ou sopas.
    - Manter essa hidratação durante todo o período de febre e por até 24 a 48 horas após a febre desaparecer!
 
 2. MEDICAÇÃO PARA FEBRE E DOR:
@@ -132,9 +116,9 @@ RECEITUÁRIO MÉDICO & PLANO DE HIDRATAÇÃO — DENGUE (GRUPOS A E B — MINIST
 Paciente: [Nome] | Peso Atual: [ ] kg | Dia de Doença: [ ]º dia | Data: [DD/MM/AAAA]
 
 1. PRESCRIÇÃO DE HIDRATAÇÃO ORAL VIGOROSA (O REMÉDIO QUE SALVA VIDAS NA DENGUE):
-   - Meta diária calculada pelo seu peso (60 mL/kg/dia): Beber **[ ] Litros de líquidos por dia** (divididos ao longo do dia).
-   - **1/3 deste volume ([ ] mL/dia)** DEVE ser de **Sais de Reidratação Oral (SRO)** (diluir 1 envelope em 1 litro de água filtrada) ou soro caseiro / água de coco.
-   - **2/3 deste volume ([ ] mL/dia)** em água pura, sucos naturais de frutas, chás claros ou sopas.
+   - Meta diária calculada pelo seu peso (60 mL/kg/dia): Beber [ ] Litros de líquidos por dia (divididos ao longo do dia).
+   - 1/3 deste volume ([ ] mL/dia) DEVE ser de Sais de Reidratação Oral (SRO) (diluir 1 envelope em 1 litro de água filtrada) ou soro caseiro / água de coco.
+   - 2/3 deste volume ([ ] mL/dia) em água pura, sucos naturais de frutas, chás claros ou sopas.
    - Manter essa hidratação durante todo o período de febre e por até 24 a 48 horas após a febre desaparecer!
 
 2. MEDICAÇÃO PARA FEBRE E DOR:

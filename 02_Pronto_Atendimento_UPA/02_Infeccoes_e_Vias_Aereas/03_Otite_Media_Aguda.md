@@ -71,7 +71,7 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 USO ORAL E NASAL:
 1. [Primeira Linha]: Amoxicilina 500 mg -------------------------------------- 21 ou 30 cápsulas
-   Tomar 1 cápsula por via oral de 8 em 8 horas (ou Amoxicilina 875 mg de 12 em 12 horas) durante **7 a 10 dias**.
+   Tomar 1 cápsula por via oral de 8 em 8 horas (ou Amoxicilina 875 mg de 12 em 12 horas) durante 7 a 10 dias.
    *[OU Se uso recente de antibiótico nos últimos 30 dias, falha terapêutica ou OMA grave]*:
    Amoxicilina + Clavulanato 875/125 mg — Tomar 1 comprimido por via oral de 12 em 12 horas, após as refeições, durante 7 a 10 dias.
 

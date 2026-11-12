@@ -76,7 +76,7 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 USO ORAL:
 1. Omeprazol 20 mg (ou Pantoprazol 40 mg / Esomeprazol 40 mg) ---------------- 1 caixa (28 a 30 cápsulas)
-   Tomar 1 cápsula por via oral **EM JEJUM**, com meio copo de água, exatamente **30 minutos antes do café da manhã**, todos os dias, durante 4 a 8 semanas.
+   Tomar 1 cápsula por via oral EM JEJUM, com meio copo de água, exatamente 30 minutos antes do café da manhã, todos os dias, durante 4 a 8 semanas.
    *(Nota: Tomar em jejum 30 minutos antes da primeira refeição é indispensável para ativar o medicamento nas bombas de ácido do estômago).*
 
 2. Hidróxido de Alumínio + Hidróxido de Magnésio + Simeticona Suspensão Oral -- 1 frasco
@@ -86,10 +86,10 @@ USO ORAL:
    Tomar 1 comprimido por via oral 20 minutos antes do almoço e do jantar por 5 a 7 dias se houver sensação de estufamento (empachamento) ou náuseas.
 
 MEDIDAS COMPORTAMENTAIS E ALIMENTARES INDISPENSÁVEIS:
-- Não se deitar logo após comer: aguardar no mínimo **2 a 3 horas após o jantar** antes de se deitar na cama.
+- Não se deitar logo após comer: aguardar no mínimo 2 a 3 horas após o jantar antes de se deitar na cama.
 - Elevar a cabeceira da cama em 15 cm (colocar calços embaixo dos pés da cabeceira da cama; apenas usar mais travesseiros dobra o pescoço e aumenta a pressão no estômago).
 - SUSPENDER imediatamente o uso de qualquer anti-inflamatório (Ibuprofeno, Diclofenaco, Nimesulida, Cetoprofeno, AAS), além de evitar café em excesso, refrigerantes, bebidas alcoólicas, frituras, molho de tomate ácido, chocolate, menta e tabagismo.
-- Encaminhado(a) à UBS / Gastroenterologia para realização de **Endoscopia Digestiva Alta (EDA)** e pesquisa de *Helicobacter pylori* (Lembrar de suspender o Omeprazol 14 dias antes da endoscopia se orientado pelo endoscopista para não dar falso-negativo no teste da bactéria).
+- Encaminhado(a) à UBS / Gastroenterologia para realização de Endoscopia Digestiva Alta (EDA) e pesquisa de *Helicobacter pylori* (Lembrar de suspender o Omeprazol 14 dias antes da endoscopia se orientado pelo endoscopista para não dar falso-negativo no teste da bactéria).
 
 SINAIS DE ALARME (RETORNO IMEDIATO À UPA):
 - Dor na boca do estômago que aperta, sobe para o peito, costas, pescoço ou braço esquerdo, acompanhada de suor frio ou falta de ar.

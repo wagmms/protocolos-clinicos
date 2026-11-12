@@ -48,7 +48,7 @@
    *(Manter EV até 24–48h após melhora clínica e defervescência; em seguida, transicionar para Doxiciclina 100 mg VO 12/12h + Metronidazol 400–500 mg VO 12/12h até completar 14 dias totais)*.
 3. *[OU Esquema Hospitalar Alternativo (Preferencial no Abscesso Tubo-Ovariano — Monif III)]*:
    - Clindamicina 900 mg EV de 8/8 horas + Gentamicina 5 mg/kg EV 1x/dia (ou 2 mg/kg ataque + 1,5 mg/kg 8/8h) + transição oral após 24–48h de melhora até completar 14 dias.
-4. Abordagem Cirúrgica (Laparoscopia / Laparotomia / Drenagem): Imediata se Monif IV (abscesso roto / choque séptico) ou se abscesso tubo-ovariano $> 8\text{ cm}$ sem resposta após 48–72h de ATB EV.
+4. Abordagem Cirúrgica (Laparoscopia / Laparotomia / Drenagem): Imediata se Monif IV (abscesso roto / choque séptico) ou se abscesso tubo-ovariano > 8 cm sem resposta após 48–72h de ATB EV.
 
 >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 USO INTRAMUSCULAR (REALIZAR NA UNIDADE DE SAÚDE / UPA HOJE):

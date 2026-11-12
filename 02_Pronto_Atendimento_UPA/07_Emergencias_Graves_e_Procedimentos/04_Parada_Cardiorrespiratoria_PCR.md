@@ -19,7 +19,7 @@ CONSTATAÇÃO DO EVENTO:
 - Ausência de incursões respiratórias eficazes (em apneia ou gasping agônico).
 - Acionada equipe de emergência, solicitado carrinho de parada e desfibrilador/monitor imediatamente.
 
-# PLANO / CONDUTA (CICLOS DE RESSUSCITAÇÃO CARDIOPULMONAR - ACLS):
+CICLOS DE RESSUSCITAÇÃO CARDIOPULMONAR (ACLS):
 - Compressões torácicas de alta qualidade iniciadas imediatamente (frequência 100-120/min, profundidade 5-6 cm, retorno completo do tórax, rotação do compressor a cada 2 minutos).
 - Monitorização conectada / Pás posicionadas.
 - RITMO INICIAL: [ FV / TV sem pulso / Assistolia / AESP ]
@@ -41,7 +41,7 @@ INVESTIGAÇÃO ATIVA DE CAUSAS REVERSÍVEIS (5 Hs e 5 Ts):
 - Hipóxia: [ Via aérea pérvia, FiO2 100% ]
 - Hidrogênio (acidose): [ Corrigida ventilação / Bicarbonato de sódio se acidose grave/hipercalemia ]
 - Hipo/Hipercalemia: [ Glicemia capilar: mg/dL / Gluconato de cálcio 10% administrado se suspeita de hiperK ]
-- Hipotermia: [ Temperatura axilar ( ) °C ]
+- Hipotermia: [Ausente / Temperatura axilar: [ ] °C]
 - Tensão no tórax (Pneumotórax hipertensivo): [ Ausculta simétrica / Descompressão por toracocentese ]
 - Tamponamento cardíaco: [ FAST negativo / Sem turgência jugular ]
 - Toxinas: [ Investigado histórico de intoxicação exógena ]
@@ -71,8 +71,8 @@ Apenas duas intervenções têm nível de evidência A incontestável de aumento
 
 ### 💊 2. Como Caçar e Tratar Ativamente os 5Hs e 5Ts Durante os 2 Minutos de RCP
 Uma AESP raramente reverte apenas com adrenalina se a causa mecânica ou metabólica subjacente não for corrigida durante o atendimento:
-- **5 Hs**: **H**ipovolemia (bolus de cristaloide/hemotransfusão), **H**ipóxia (IOT sem hiperventilar — 1 ventilação a cada 6s), **H**idrogênio/Acidose ($HCO_3^- 1$ mEq/kg IV se acidose prévia grave ou tricíclico), **H**ipo/Hipercalemia (**Gluconato de Cálcio 10% 30 mL IV + $HCO_3^-$** na suspeita de hiper-K em renal crônico) e **H**ipotermia.
+- **5 Hs**: **H**ipovolemia (bolus de cristaloide/hemotransfusão), **H**ipóxia (IOT sem hiperventilar — 1 ventilação a cada 6s), **H**idrogênio/Acidose (HCO₃⁻ 1 mEq/kg IV se acidose prévia grave ou tricíclico), **H**ipo/Hipercalemia (**Gluconato de Cálcio 10% 30 mL IV + HCO₃⁻** na suspeita de hiper-K em renal crônico) e **H**ipotermia.
 - **5 Ts**: **T**ensão no tórax/Pneumotórax hipertensivo (toracocentese de alívio), **T**amponamento cardíaco (pericardiocentese), **T**oxinas, **T**rombose coronariana (IAM) e **T**rombose pulmonar (TEP maciço — considerar trombólise com Alteplase 50 mg IV em bolus na PCR).
 
 ### 🧭 3. Capnografia na PCR e o Pacote de Cuidados Pós-Retorno da Circulação Espontânea (RCE)
-Com via aérea avançada instalada, a **Capnografia quantitativa ($EtCO_2$)** é o termômetro em tempo real do débito cardíaco gerado pela massagem: **$EtCO_2 < 10$ mmHg** exige melhorar imediatamente a qualidade da compressão, enquanto um **salto abrupto do $EtCO_2$ para > 35–40 mmHg** é o primeiro sinal de **Retorno da Circulação Espontânea (RCE)**. Após o RCE, aplica-se a regra dos 5 passos: titular $FiO_2$ para **$SpO_2$ 92–98%** (evitar hiperóxia), manter $PaCO_2$ 35–45 mmHg, garantir **PAM ≥ 65 mmHg** com Noradrenalina, rodar **ECG de 12 derivações** (para CATE se Supra de ST) e prevenir febre ($Tax < 37,5^\circ C$) nos comatosos.
+Com via aérea avançada instalada, a **Capnografia quantitativa (EtCO₂)** é o termômetro em tempo real do débito cardíaco gerado pela massagem: **EtCO₂ < 10 mmHg** exige melhorar imediatamente a qualidade da compressão, enquanto um **salto abrupto do EtCO₂ para > 35–40 mmHg** é o primeiro sinal de **Retorno da Circulação Espontânea (RCE)**. Após o RCE, aplica-se a regra dos 5 passos: titular FiO₂ para **SpO₂ 92–98%** (evitar hiperóxia), manter PaCO₂ 35–45 mmHg, garantir **PAM ≥ 65 mmHg** com Noradrenalina, rodar **ECG de 12 derivações** (para CATE se Supra de ST) e prevenir febre (Tax < 37,5 °C) nos comatosos.

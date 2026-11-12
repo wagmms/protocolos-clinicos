@@ -9,52 +9,52 @@
 ```text
 ###### ATENDIMENTO PEDIÁTRICO — BRONQUIOLITE VIRAL AGUDA (BVA NO LACTENTE < 2 ANOS) ######
 # IDENTIFICAÇÃO & FATORES DE RISCO DE GRAVIDADE:
-- Lactente: [Nome] | Idade: [ ] meses (Faixa clássica < 24 meses; pico 2 a 6 meses) | **PESO ATUAL: [ ] kg**
+- Lactente: [Nome] | Idade: [ ] meses (Faixa clássica < 24 meses; pico 2 a 6 meses) | PESO ATUAL: [ ] kg
 - Acompanhante: [Mãe / Pai / Responsável: [ ]]
 - Fatores de Risco para BVA Grave: [Nenhum — lactente a termo hígido > 3 meses / Idade < 12 semanas (< 3 meses) / Prematuridade (< 37 semanas) / Cardiopatia congênita hemodinamicamente significativa / Broncodisplasia pulmonar / Imunodeficiência].
 
 # SUBJETIVO (HISTÓRIA CLÍNICA & FASE EVOLUTIVA DA DOENÇA):
 - Queixa Principal (QP): Tosse, chiado no peito e cansaço para respirar há [ ] dias.
-- História da Moléstia Atual (HMA): Lactente apresentou pródromo catarral de vias aéreas superiores há [2 a 4] dias (obstrução nasal, coriza hialina e febre baixa de [ ] °C), evoluindo nas últimas [24 a 48] horas para fase bronquiolar com tosse mais intensa, respiração rápida e sibilância (**[ ]º dia total de doença** — pico fisiológico de gravidade entre o 3º e 5º dia).
+- História da Moléstia Atual (HMA): Lactente apresentou pródromo catarral de vias aéreas superiores há [2 a 4] dias (obstrução nasal, coriza hialina e febre baixa de [ ] °C), evoluindo nas últimas [24 a 48] horas para fase bronquiolar com tosse mais intensa, respiração rápida e sibilância ([ ]º dia total de doença — pico fisiológico de gravidade entre o 3º e 5º dia).
 - Episódio de Sibilância: [1º episódio de sibilância na vida (definição clássica de BVA) / 2º episódio viral em lactente].
 - Ingesta Alimentar e Diurese: [Mamando bem com pausas curtas para respirar (> 75% do habitual) / Redução moderada das mamadas (50 a 75% do habitual) / Recusa alimentar grave (< 50% do habitual) por fadiga respiratória]. Diurese [presente nas últimas 6h / reduzida].
 - Negativas Mandatórias de Gravidade: Nega episódios de apneia ou pausas respiratórias (crucial em < 2 meses), cianose central, gemência contínua ou letargia.
 
 # OBJETIVO (EXAME FÍSICO PÓS-ASPIRAÇÃO/LAVAGEM NASAL & ESCORE CLÍNICO):
 - Sinais Vitais (Aferidos após desobstrução nasal e com lactente calmo):
-  * Frequência Respiratória (1 min): **[ ] irpm** ([< 50 irpm / 50 a 59 irpm / 60 a 69 irpm / ≥ 70 irpm])
-  * Oximetria de Pulso (SpO2 em AA): **[ ]%** ([≥ 92% em ar ambiente / 90 a 91% / < 90% — hipoxemia])
-  * FC: [ ] bpm | Tax: [ ] °C | TEC: [< 2 segundos / segundos].
+  * Frequência Respiratória (1 min): [ ] irpm ([< 50 irpm / 50 a 59 irpm / 60 a 69 irpm / ≥ 70 irpm])
+  * Oximetria de Pulso (SpO2 em AA): [ ]% ([≥ 92% em ar ambiente / 90 a 91% / < 90% — hipoxemia])
+  * FC: [ ] bpm | Tax: [ ] °C | TEC: [< 2 segundos / [ ] segundos].
 - Ectoscopia: [Bom / Regular / Mau] estado geral, [alerta e reativo / irritado / hipoativo], corado, [hidratado / desidratação leve], acianótico.
 - Exame Respiratório Detalhado:
   * Inspeção Torácica: [Sem tiragens ou tiragem subcostal muito leve / Tiragem subcostal e intercostal moderada / Tiragem subcostal, intercostal, supraclavicular, batimento de asa nasal e balanço toracoabdominal].
   * Ausculta Pulmonar: Murmúrio vesicular presente bilateralmente com tempo expiratório prolongado, presença de [sibilos expiratórios difusos e estertores subcrepitantes finos bilaterais / redução difusa do murmúrio vesicular].
 - Classificação de Gravidade (Wood-Downes Modificado / Diretriz SBP):
-  * **[BVA LEVE]** (`SpO2 ≥ 92%` em AA, `FR < 50–60 irpm`, tiragem ausente ou leve, mamando `> 75%`, sem fatores de risco) -> Manejo domiciliar com reavaliação em 24–48h.
-  * **[BVA MODERADA]** (`SpO2 90–92%`, `FR 60–69 irpm`, tiragem subcostal evidente ou ingesta `50–75%`) -> Observação hospitalar / Internação em enfermaria.
-  * **[BVA GRAVE]** (`SpO2 < 90%` persistente, `FR ≥ 70 irpm`, gemência, apneia, letargia ou recusa `< 50%`) -> Internação hospitalar imediata / Suporte ventilatório (CNAF/VNI).
+  * [BVA LEVE] (SpO2 ≥ 92% em AA, FR < 50–60 irpm, tiragem ausente ou leve, mamando > 75%, sem fatores de risco) -> Manejo domiciliar com reavaliação em 24–48h.
+  * [BVA MODERADA] (SpO2 90–92%, FR 60–69 irpm, tiragem subcostal evidente ou ingesta 50–75%) -> Observação hospitalar / Internação em enfermaria.
+  * [BVA GRAVE] (SpO2 < 90% persistente, FR ≥ 70 irpm, gemência, apneia, letargia ou recusa < 50%) -> Internação hospitalar imediata / Suporte ventilatório (CNAF/VNI).
 
 # AVALIAÇÃO DIAGNÓSTICA:
 1. Bronquiolite Viral Aguda — BVA no [ ]º dia de evolução (CID-10: J21.0 — provável Vírus Sincicial Respiratório / Rinovírus).
-2. Estratificação de Gravidade: **[Leve — elegível para alta segura / Moderada a Grave — indicada internação hospitalar]**.
+2. Estratificação de Gravidade: [Leve — elegível para alta segura / Moderada a Grave — indicada internação hospitalar].
 
 # PLANO / CONDUTA:
 
 >> [MODALIDADE A] CONDUTA NA BVA LEVE (ALTA SEGURA COM REAVALIAÇÃO EM 24–48H):
 1. Realizar lavagem nasal com Soro Fisiológico 0,9% na unidade e confirmar que a tiragem e a FR melhoram após desobstrução das narinas.
 2. Prescrever lavagem nasal domiciliar antes de cada mamada, fracionamento das mamadas (volumes menores mais vezes ao dia) e cabeceira elevada a 30°.
-3. **Stewardship (O que NÃO prescrever conforme SBP/AAP):** Não prescritos corticoides sistêmicos/inalatórios, broncodilatadores orais, antibióticos ou xaropes mucolíticos.
+3. Stewardship (O que NÃO prescrever conforme SBP/AAP): Não prescritos corticoides sistêmicos/inalatórios, broncodilatadores orais, antibióticos ou xaropes mucolíticos.
 4. Retorno médico programado em 24 a 48 horas (especialmente se estiver entre o 2º e 4º dia de doença) ou imediato se sinais de alarme.
 
 >> [MODALIDADE B] CONDUTA NA BVA MODERADA A GRAVE (OBSERVAÇÃO / INTERNAÇÃO HOSPITALAR):
 1. Oxigenoterapia Suplementar (se SpO2 persistentemente < 90–92%):
-   - Iniciar O2 umidificado via cateter nasal (1 a 2 L/min) ou **Cânula Nasal de Alto Fluxo (CNAF)** a `2 L/kg/min` para manter `SpO2 entre 90% e 94%`.
+   - Iniciar O2 umidificado via cateter nasal (1 a 2 L/min) ou Cânula Nasal de Alto Fluxo (CNAF) a 2 L/kg/min para manter SpO2 entre 90% e 94%.
 2. Suporte Hídrico e Nutricional Seguro (Prevenção de Broncoaspiração):
-   - Se `FR < 60 irpm`: Manter via oral fracionada após lavagem nasal.
-   - Se `FR entre 60 e 70 irpm`: Passar **Sonda Nasogástrica (SNG)** para dieta enteral fracionada (leite materno ordenhado/fórmula).
-   - Se `FR > 70 irpm`, desconforto grave ou vômitos: **Dieta zero (Jejum)** + Hidratação Venosa de Manutenção **Isotônica** (`SG 5% 500 mL + NaCl 20% 10 a 11 mL + KCl 19,1% 4 a 5 mL` = `[Na+] ~140 mEq/L`, restrita a **70–80% da cota de Holliday-Segar** pelo risco de SIADH e hiponatremia).
+   - Se FR < 60 irpm: Manter via oral fracionada após lavagem nasal.
+   - Se FR entre 60 e 70 irpm: Passar Sonda Nasogástrica (SNG) para dieta enteral fracionada (leite materno ordenhado/fórmula).
+   - Se FR > 70 irpm, desconforto grave ou vômitos: Dieta zero (Jejum) + Hidratação Venosa de Manutenção Isotônica (SG 5% 500 mL + NaCl 20% 10 a 11 mL + KCl 19,1% 4 a 5 mL = [Na+] ~140 mEq/L, restrita a 70–80% da cota de Holliday-Segar pelo risco de SIADH e hiponatremia).
 3. Higiene de Vias Aéreas: Lavagem nasal com SF 0,9% e aspiração nasal superficial suave antes das dietas e se desconforto (Evitar fisioterapia respiratória convencional de tapotagem).
-4. Nebulização com Salina Hipertônica 3% (apenas para pacientes internados): `4 mL de NaCl 3%` por nebulização de 8/8h se hipersecreção importante.
+4. Nebulização com Salina Hipertônica 3% (apenas para pacientes internados): 4 mL de NaCl 3% por nebulização de 8/8h se hipersecreção importante.
 5. Monitorização contínua (oximetria, FC, FR) e precaução de contato e gotículas no leito.
 >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO — BRONQUIOLITE VIRAL AGUDA LEVE (MANEJO DOMICILIAR)
@@ -114,7 +114,7 @@ SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
 ## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
 
 ### 🧠 1. Por Que a Bronquiolite NÃO Responde a Corticoide nem a Salbutamol como a Asma? (Fisiopatologia & Raciocínio)
-- **A diferença fisiopatológica radical entre Bronquiolite (BVA) e Crise de Asma:** Na asma (crianças maiores), o sibilo decorre de **broncoespasmo da musculatura lisa brônquica** e inflamação eosinofílica responsiva a beta-2 agonista e corticoide. Já na **Bronquiolite Viral Aguda** (1º episódio de sibilância em lactente `< 2 anos`, causado em 70% pelo **Vírus Sincicial Respiratório — VSR**), o vírus infecta e necrosa o epitélio ciliado dos bronquíolos terminais. A luz bronquiolar fica ocluída por **rolhas de fibrina, restos celulares epiteliais necrosados, muco espesso e edema submucoso** — e **NÃO** por contração muscular lisa (inclusive porque os receptores $\beta_2$ bronquiolares são imaturos no lactente jovem!).
+- **A diferença fisiopatológica radical entre Bronquiolite (BVA) e Crise de Asma:** Na asma (crianças maiores), o sibilo decorre de **broncoespasmo da musculatura lisa brônquica** e inflamação eosinofílica responsiva a beta-2 agonista e corticoide. Já na **Bronquiolite Viral Aguda** (1º episódio de sibilância em lactente `< 2 anos`, causado em 70% pelo **Vírus Sincicial Respiratório — VSR**), o vírus infecta e necrosa o epitélio ciliado dos bronquíolos terminais. A luz bronquiolar fica ocluída por **rolhas de fibrina, restos celulares epiteliais necrosados, muco espesso e edema submucoso** — e **NÃO** por contração muscular lisa (inclusive porque os receptores \beta_2 bronquiolares são imaturos no lactente jovem!).
 - **Por que o 3º ao 5º dia é o momento crítico ("Curva da BVA"):** Um lactente avaliado no 2º dia de doença com quadro leve pode piorar fisiologicamente no 4º dia quando o descamamento epitelial atinge o pico no bronquíolo. Orientar os pais sobre essa curva evita surpresa e garante reavaliação oportuna.
 
 ### 💊 2. Por Que Passamos Sonda se FR > 60 irpm e Damos Solução Isotônica a 70–80% se FR > 70 irpm?

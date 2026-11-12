@@ -9,7 +9,7 @@
 ```text
 ###### ATENDIMENTO PEDIÁTRICO — RESFRIADO COMUM / RINOFARINGITE AGUDA ######
 # IDENTIFICAÇÃO & PESO:
-- Paciente: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | **PESO ATUAL: [ ] kg**
+- Paciente: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | PESO ATUAL: [ ] kg
 - Acompanhante: [Mãe / Pai / Responsável: [ ]]
 
 # SUBJETIVO (ANAMNESE DIRIGIDA & EXCLUSÃO DE GRAVIDADE):
@@ -38,7 +38,7 @@
 # PLANO / CONDUTA:
 
 >> CONDUTA AMBULATORIAL BASEADA EM EVIDÊNCIAS (SBP):
-1. Desobstrução mecânica das vias aéreas superiores com **Lavagem Nasal de Soro Fisiológico 0,9%** morno em seringa (pilar terapêutico principal).
+1. Desobstrução mecânica das vias aéreas superiores com Lavagem Nasal de Soro Fisiológico 0,9% morno em seringa (pilar terapêutico principal).
 2. Analgesia e controle térmico sintomático (Dipirona ou Paracetamol gotas ajustados pelo peso) apenas se febre associada a desconforto ou dor.
 3. Hidratação oral abundante e fracionamento das mamadas/refeições.
 4. Proscrição formal e explicação aos pais sobre a proibição de antibióticos, xaropes antitussígenos/mucolíticos e descongestionantes nasais tópicos ou sistêmicos.

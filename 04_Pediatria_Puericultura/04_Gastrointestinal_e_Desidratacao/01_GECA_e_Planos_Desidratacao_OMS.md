@@ -9,7 +9,7 @@
 ```text
 ###### ATENDIMENTO PEDIÁTRICO — GASTROENTERITE AGUDA (GECA) & PLANOS A, B E C (OMS/MS) ######
 # IDENTIFICAÇÃO & PESO DE ENTRADA:
-- Criança: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | **PESO DE ENTRADA AFERIDO: [ ] kg**
+- Criança: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | PESO DE ENTRADA AFERIDO: [ ] kg
 - Peso Prévio Conhecido (se disponível para cálculo de perda aguda): [Não informado / [ ] kg -> Perda de [ ]%]
 - Acompanhante: [Mãe / Pai / Responsável: [ ]]
 
@@ -20,42 +20,42 @@
 - Negativas Mandatórias de Abdome Agudo Cirúrgico (Intussuscepção / Apendicite): Nega vômitos biliosos (verde-escuros), fezes em "geleia de morango/framboesa" com choro paroxístico e flexão das pernas, distensão abdominal tensa ou defesa peritoneal localizada.
 
 # OBJETIVO (OS 4 SINAIS CARDINAIS DE DESIDRATAÇÃO DA OMS / MINISTÉRIO DA SAÚDE):
-- Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C | **Tempo de Enchimento Capilar (TEC): [< 2 segundos / 2 a 3 segundos / > 3 segundos]** | Pulso radial: [Cheio e amplo / Rápido e fino / Muito fraco ou ausente].
+- Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C | Tempo de Enchimento Capilar (TEC): [< 2 segundos / 2 a 3 segundos / > 3 segundos] | Pulso radial: [Cheio e amplo / Rápido e fino / Muito fraco ou ausente].
 - Avaliação Sistemática do Estado de Hidratação (4 Parâmetros OMS):
-  1. Estado Geral / Nível de Consciência: **[Alerta, ativo e bem (Plano A) / Irritado, intranquilo e choroso (Plano B) / Letárgico, hipotônico ou inconsciente (Plano C)]**.
-  2. Olhos e Lágrimas: **[Olhos normais com lágrimas presentes (Plano A) / Olhos fundos, lágrimas diminuídas (Plano B) / Olhos muito fundos e secos, sem lágrimas (Plano C)]**.
-  3. Sede / Prova do Copo d'Água: **[Bebe normalmente, sem sede excessiva (Plano A) / Sedento, bebe rápida e avidamente, chora quando retira o copo (Plano B) / Bebe muito mal ou não é capaz de beber (Plano C)]**.
-  4. Sinal da Prega Abdominal (Pinçamento longitudinal da pele lateral do abdome): **[Desaparece imediatamente (Plano A) / Desaparece lentamente em < 2 segundos (Plano B) / Desaparece muito lentamente em > 2 segundos (Plano C)]**.
+  1. Estado Geral / Nível de Consciência: [Alerta, ativo e bem (Plano A) / Irritado, intranquilo e choroso (Plano B) / Letárgico, hipotônico ou inconsciente (Plano C)].
+  2. Olhos e Lágrimas: [Olhos normais com lágrimas presentes (Plano A) / Olhos fundos, lágrimas diminuídas (Plano B) / Olhos muito fundos e secos, sem lágrimas (Plano C)].
+  3. Sede / Prova do Copo d'Água: [Bebe normalmente, sem sede excessiva (Plano A) / Sedento, bebe rápida e avidamente, chora quando retira o copo (Plano B) / Bebe muito mal ou não é capaz de beber (Plano C)].
+  4. Sinal da Prega Abdominal (Pinçamento longitudinal da pele lateral do abdome): [Desaparece imediatamente (Plano A) / Desaparece lentamente em < 2 segundos (Plano B) / Desaparece muito lentamente em > 2 segundos (Plano C)].
   * Mucosa Oral & Fontanela: Mucosa [úmida / seca / muito seca ("língua de papagaio")] | Fontanela anterior (< 18m): [Plana / Deprimida].
 - Exame Abdominal: Abdome flácido, indolor à palpação profunda, ruídos hidroaéreos hiperativos, sem massas palpáveis ("chouriço" de invaginação ausente) e sem irritação peritoneal (Blumberg negativo).
 
 # AVALIAÇÃO DIAGNÓSTICA & CLASSIFICAÇÃO OMS:
 1. Gastroenterite Aguda — GECA [Viral Aquosa / Disenteria Bacteriana Aguda] (CID-10: A09).
-2. Classificação do Estado de Hidratação: **[SEM DESIDRATAÇÃO — PLANO A / COM DESIDRATAÇÃO (MODERADA) — PLANO B / DESIDRATAÇÃO GRAVE OU CHOQUE — PLANO C]**.
+2. Classificação do Estado de Hidratação: [SEM DESIDRATAÇÃO — PLANO A / COM DESIDRATAÇÃO (MODERADA) — PLANO B / DESIDRATAÇÃO GRAVE OU CHOQUE — PLANO C].
 
 # PLANO / CONDUTA:
 
 >> [PLANO A — SEM DESIDRATAÇÃO]: TRATAMENTO DOMICILIAR (OS 4 PILARES DO MS):
-1. Oferecer mais líquidos que o habitual e **Solução de Reidratação Oral (SRO 75 mEq/L)** após cada evacuação líquida ou vômito (`50–100 mL` se `< 1 ano`; `100–200 mL` se `1–10 anos`; livre demanda se `> 10 anos`).
+1. Oferecer mais líquidos que o habitual e Solução de Reidratação Oral (SRO 75 mEq/L) após cada evacuação líquida ou vômito (50–100 mL se < 1 ano; 100–200 mL se 1–10 anos; livre demanda se > 10 anos).
 2. Manter alimentação habitual e aleitamento materno (nunca suspender comida nem diluir fórmula).
-3. **Suplementação de Zinco por 10 a 14 dias** (`10 mg/dia` se `< 6 meses`; `20 mg/dia` se `≥ 6 meses`).
+3. Suplementação de Zinco por 10 a 14 dias (10 mg/dia se < 6 meses; 20 mg/dia se ≥ 6 meses).
 4. Orientar sinais de perigo para retorno imediato (se disenteria com sangue vivo e febre/comprometimento geral, associar antibiótico dirigido: Ciprofloxacino, Ceftriaxona ou Azitromicina conforme protocolo MS).
 
 >> [PLANO B — COM DESIDRATAÇÃO MODERADA]: TERAPIA DE REIDRATAÇÃO ORAL (TRO) NA SALA DE OBSERVAÇÃO:
-1. Administrar **SRO sob supervisão na unidade**: volume estimado de **`50 a 100 mL/kg` ao longo de 4 a 6 horas** (Peso: [ ] kg -> Volume alvo de **[ ] a [ ] mL** ofertado em pequenas colheres/seringa a cada 2–3 minutos). Manter aleitamento materno durante a TRO.
-2. Se vômitos persistentes dificultando a TRO: Administrar dose única de **Ondansetrona `0,15 mg/kg` VO** (`2 mg` se 8–15 kg; `4 mg` se 15–30 kg; `8 mg` se > 30 kg), aguardar 20 minutos e reiniciar SRO lentamente.
+1. Administrar SRO sob supervisão na unidade: volume estimado de 50 a 100 mL/kg ao longo de 4 a 6 horas (Peso: [ ] kg -> Volume alvo de [ ] a [ ] mL ofertado em pequenas colheres/seringa a cada 2–3 minutos). Manter aleitamento materno durante a TRO.
+2. Se vômitos persistentes dificultando a TRO: Administrar dose única de Ondansetrona 0,15 mg/kg VO (2 mg se 8–15 kg; 4 mg se 15–30 kg; 8 mg se > 30 kg), aguardar 20 minutos e reiniciar SRO lentamente.
 3. Reavaliar e repesar a criança a cada 1 a 2 horas:
-   - [Reavaliação após [ ]h: Criança calma, olhos normais, mucosa úmida, diurese presente e ganho ponderal para [ ] kg -> Reclassificada como **PLANO A**; alta com SRO e Zinco].
-   - [Se falha da TRO por vômitos incoercíveis/distensão]: Passar SNG para gastróclise (`20 a 30 mL/kg/h` de SRO) ou converter para **PLANO C** venoso.
+   - [Reavaliação após [ ]h: Criança calma, olhos normais, mucosa úmida, diurese presente e ganho ponderal para [ ] kg -> Reclassificada como PLANO A; alta com SRO e Zinco].
+   - [Se falha da TRO por vômitos incoercíveis/distensão]: Passar SNG para gastróclise (20 a 30 mL/kg/h de SRO) ou converter para PLANO C venoso.
 
 >> [PLANO C — DESIDRATAÇÃO GRAVE / CHOQUE]: EXPANSÃO VENOSA IMEDIATA EM SALA VERMELHA:
-1. Garantir 1 ou 2 acessos venosos periféricos calibrosos (ou punção intraóssea tibial se falha em 90 segundos). Coletar glicemia capilar imediata (tratar se `< 60 mg/dL`).
-2. **Fase de Expansão Rápida com Cristaloide Isotônico (`SF 0,9%` ou `Ringer Lactato` — NUNCA usar SG 5% na expansão):**
-   - Diretriz Ministério da Saúde / OMS (`100 mL/kg` divididos em 2 etapas):
-     * **Menores de 1 ano (Total em 6 horas):** `30 mL/kg` em **1 hora** (ou 30 min se choque) + `70 mL/kg` em **5 horas**.
-     * **Maiores de 1 ano (Total em 3 horas):** `30 mL/kg` em **30 minutos** + `70 mL/kg` em **2 horas e 30 minutos**.
-   - *(No Choque Hipovolêmico PALS: Bólus de `20 mL/kg` de SF 0,9% ou RL em 5 a 20 minutos, repetindo até restauração da perfusão e nível de consciência).*
-3. Assim que a criança estiver consciente e capaz de deglutir, iniciar SRO concomitante (`5 mL/kg/h`) e reavaliar de hora em hora até transição para Plano B e Plano A.
+1. Garantir 1 ou 2 acessos venosos periféricos calibrosos (ou punção intraóssea tibial se falha em 90 segundos). Coletar glicemia capilar imediata (tratar se < 60 mg/dL).
+2. Fase de Expansão Rápida com Cristaloide Isotônico (SF 0,9% ou Ringer Lactato — NUNCA usar SG 5% na expansão):
+   - Diretriz Ministério da Saúde / OMS (100 mL/kg divididos em 2 etapas):
+     * Menores de 1 ano (Total em 6 horas): 30 mL/kg em 1 hora (ou 30 min se choque) + 70 mL/kg em 5 horas.
+     * Maiores de 1 ano (Total em 3 horas): 30 mL/kg em 30 minutos + 70 mL/kg em 2 horas e 30 minutos.
+   - *(No Choque Hipovolêmico PALS: Bólus de 20 mL/kg de SF 0,9% ou RL em 5 a 20 minutos, repetindo até restauração da perfusão e nível de consciência).*
+3. Assim que a criança estiver consciente e capaz de deglutir, iniciar SRO concomitante (5 mL/kg/h) e reavaliar de hora em hora até transição para Plano B e Plano A.
 >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO — GASTROENTERITE AGUDA (PLANO A — OMS / MINISTÉRIO DA SAÚDE)
 Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
@@ -63,16 +63,16 @@ Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 USO ORAL:
 1. Sais para Reidratação Oral (SRO — Envelope Padrão OMS/MS) ------------------- [4 a 6] envelopes
    Dissolver 1 envelope inteiro em exatamente 1 litro de água filtrada ou fervida fria (não adicionar açúcar nem sal; desprezar a sobra após 24 horas).
-   Oferecer **[50 a 100 mL (meio copo — menores de 1 ano) / 100 a 200 mL (1 copo — maiores de 1 ano)]** em pequenos goles ou colheradas APÓS CADA evacuação líquida ou episódio de vômito.
+   Oferecer [50 a 100 mL (meio copo — menores de 1 ano) / 100 a 200 mL (1 copo — maiores de 1 ano)] em pequenos goles ou colheradas APÓS CADA evacuação líquida ou episódio de vômito.
 
 2. Sulfato de Zinco Solução Oral (4 mg/mL) ou Gotas ---------------------------- 1 frasco
-   Dar **[10 mg (= 2,5 mL se < 6 meses) / 20 mg (= 5 mL se ≥ 6 meses)]** por via oral, 1 vez ao dia, durante **10 a 14 dias consecutivos** (mesmo após a diarreia parar, pois o Zinco regenera a parede do intestino e evita nova diarreia nos próximos 3 meses).
+   Dar [10 mg (= 2,5 mL se < 6 meses) / 20 mg (= 5 mL se ≥ 6 meses)] por via oral, 1 vez ao dia, durante 10 a 14 dias consecutivos (mesmo após a diarreia parar, pois o Zinco regenera a parede do intestino e evita nova diarreia nos próximos 3 meses).
 
 3. Ondansetrona 4 mg (Comprimido Orodispersível — derrete na língua) ----------- 1 caixa
-   Dar **[meio comprimido (2 mg para 8 a 15 kg) / 1 comprimido (4 mg para > 15 kg)]** na boca até de 8 em 8 horas APENAS se houver vômitos repetidos que impeçam a hidratação. Aguardar 20 minutos após o comprimido antes de oferecer o soro em colheradas.
+   Dar [meio comprimido (2 mg para 8 a 15 kg) / 1 comprimido (4 mg para > 15 kg)] na boca até de 8 em 8 horas APENAS se houver vômitos repetidos que impeçam a hidratação. Aguardar 20 minutos após o comprimido antes de oferecer o soro em colheradas.
 
 4. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
-   Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor abdominal.
+   Dar [ ] gotas por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor abdominal.
 
 REGRAS DE OURO DA ALIMENTAÇÃO E MEDICAMENTOS PROIBIDOS:
 - NUNCA deixar a criança de jejum e NUNCA diluir o leite/fórmula com mais água: mantenha o leite materno em livre demanda e a alimentação habitual saudável (arroz, caldo de feijão, frango/carne magra cozida, batata, banana, maçã, cenoura). Evitar apenas refrigerantes, sucos industrializados muito doces e frituras (o excesso de açúcar puxa mais água para o intestino e piora a diarreia).
@@ -97,16 +97,16 @@ Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 USO ORAL:
 1. Sais para Reidratação Oral (SRO — Envelope Padrão OMS/MS) ------------------- [4 a 6] envelopes
    Dissolver 1 envelope inteiro em exatamente 1 litro de água filtrada ou fervida fria (não adicionar açúcar nem sal; desprezar a sobra após 24 horas).
-   Oferecer **[50 a 100 mL (meio copo — menores de 1 ano) / 100 a 200 mL (1 copo — maiores de 1 ano)]** em pequenos goles ou colheradas APÓS CADA evacuação líquida ou episódio de vômito.
+   Oferecer [50 a 100 mL (meio copo — menores de 1 ano) / 100 a 200 mL (1 copo — maiores de 1 ano)] em pequenos goles ou colheradas APÓS CADA evacuação líquida ou episódio de vômito.
 
 2. Sulfato de Zinco Solução Oral (4 mg/mL) ou Gotas ---------------------------- 1 frasco
-   Dar **[10 mg (= 2,5 mL se < 6 meses) / 20 mg (= 5 mL se ≥ 6 meses)]** por via oral, 1 vez ao dia, durante **10 a 14 dias consecutivos** (mesmo após a diarreia parar, pois o Zinco regenera a parede do intestino e evita nova diarreia nos próximos 3 meses).
+   Dar [10 mg (= 2,5 mL se < 6 meses) / 20 mg (= 5 mL se ≥ 6 meses)] por via oral, 1 vez ao dia, durante 10 a 14 dias consecutivos (mesmo após a diarreia parar, pois o Zinco regenera a parede do intestino e evita nova diarreia nos próximos 3 meses).
 
 3. Ondansetrona 4 mg (Comprimido Orodispersível — derrete na língua) ----------- 1 caixa
-   Dar **[meio comprimido (2 mg para 8 a 15 kg) / 1 comprimido (4 mg para > 15 kg)]** na boca até de 8 em 8 horas APENAS se houver vômitos repetidos que impeçam a hidratação. Aguardar 20 minutos após o comprimido antes de oferecer o soro em colheradas.
+   Dar [meio comprimido (2 mg para 8 a 15 kg) / 1 comprimido (4 mg para > 15 kg)] na boca até de 8 em 8 horas APENAS se houver vômitos repetidos que impeçam a hidratação. Aguardar 20 minutos após o comprimido antes de oferecer o soro em colheradas.
 
 4. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
-   Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor abdominal.
+   Dar [ ] gotas por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor abdominal.
 
 REGRAS DE OURO DA ALIMENTAÇÃO E MEDICAMENTOS PROIBIDOS:
 - NUNCA deixar a criança de jejum e NUNCA diluir o leite/fórmula com mais água: mantenha o leite materno em livre demanda e a alimentação habitual saudável (arroz, caldo de feijão, frango/carne magra cozida, batata, banana, maçã, cenoura). Evitar apenas refrigerantes, sucos industrializados muito doces e frituras (o excesso de açúcar puxa mais água para o intestino e piora a diarreia).
@@ -129,7 +129,7 @@ SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
 
 ### 💊 2. Por Que Prescrevemos Zinco por 10–14 Dias, Ondansetrona Dose Única no Plano B e Proibimos a Loperamida? (Racional Farmacológico)
 - **Por que o Sulfato de Zinco (`10 mg` se `< 6m`; `20 mg` se `≥ 6m`) é mandatório pela OMS/MS:** O zinco é cofator de mais de 300 metaloenzimas envolvidas na síntese de DNA dos enterócitos da cripta intestinal, além de bloquear canais basolaterais de potássio ligados à secreção de AMPc/cloreto. Seu uso por 10–14 dias acelera a regeneração das microvilosidades, reduz em 25% a duração da diarreia aguda e **previne novos episódios diarreicos pelos próximos 2 a 3 meses**.
-- **Por que a Loperamida (Imosec) é formalmente contraindicada na infância:** A loperamida é um agonista opioide dos receptores $\mu$ do plexo mioentérico que paralisa o peristaltismo propulsivo. Na criança, paralisar o intestino **não impede o sequestro de líquido para o terceiro espaço intraluminal** (mascarando a desidratação porque a água fica represada dentro das alças dilatadas) e, nas enterocolites bacterianas, retém a bactéria e suas enterotoxinas em contato com a mucosa, precipitando **megacólon tóxico, íleo paralítico, translocação bacteriana séptica e perfuração intestinal**.
+- **Por que a Loperamida (Imosec) é formalmente contraindicada na infância:** A loperamida é um agonista opioide dos receptores μ do plexo mioentérico que paralisa o peristaltismo propulsivo. Na criança, paralisar o intestino **não impede o sequestro de líquido para o terceiro espaço intraluminal** (mascarando a desidratação porque a água fica represada dentro das alças dilatadas) e, nas enterocolites bacterianas, retém a bactéria e suas enterotoxinas em contato com a mucosa, precipitando **megacólon tóxico, íleo paralítico, translocação bacteriana séptica e perfuração intestinal**.
 
 ### 🧭 3. Quadro Sinóptico dos Planos A, B e C de Hidratação Pediátrica (OMS / Ministério da Saúde)
 | Parâmetro Clínico | PLANO A (Sem Desidratação) | PLANO B (Desidratação Moderada — ≥ 2 sinais) | PLANO C (Desidratação Grave / Choque) |

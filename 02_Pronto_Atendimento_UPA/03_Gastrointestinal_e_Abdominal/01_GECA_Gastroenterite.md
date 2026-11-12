@@ -110,7 +110,7 @@ ORIENTAÇÕES ALIMENTARES E SINAIS DE ALARME:
 - **A grande armadilha cirúrgica ("Toda apendicite retrocecal ou pélvica pode dar 2–3 episódios de diarreia!"):** Um apêndice inflamado em posição pélvica encostado na parede do reto/sigmoide irrita a serosa colônica por contiguidade, provocando evacuações pastosas/líquidas e tenesmo que simulam "GECA". Por isso, **nunca dê alta como GECA sem palpar profundamente a fossa ilíaca direita (ponto de McBurney e sinal de Blumberg)**!
 
 ### 💊 2. Por Que a Racecadotrila É Mais Segura que a Loperamida (Imosec) e Quando Prescrever Antibiótico? (Racional Farmacológico)
-- **Racecadotrila (Inibidor da Encefalinase) vs Loperamida (Agonista Opioide $\mu$):**
+- **Racecadotrila (Inibidor da Encefalinase) vs Loperamida (Agonista Opioide μ):**
   - A **Loperamida (Imosec)** paralisa o peristaltismo intestinal. Se o paciente tiver uma enterocolite bacteriana invasiva (*Shigella*, *Salmonella*, *C. difficile*), paralisar o trânsito intestinal impede a eliminação da bactéria e de suas toxinas, precipitando **bacteremia, megacólon tóxico e perfuração colônica**! Por isso, a Loperamida é **estritamente contraindicada** se houver febre (`> 38 °C`) ou sangue/muco nas fezes.
   - A **Racecadotrila (`100 mg VO 8/8h`)** inibe a enzima encefalinase na mucosa intestinal, preservando as encefalinas endógenas que **reduzem seletivamente a hipersecreção de água e eletrólitos** para a luz intestinal **sem alterar o tempo de trânsito ou a motilidade intestinal**, não causando constipação rebote nem retenção de toxinas!
 

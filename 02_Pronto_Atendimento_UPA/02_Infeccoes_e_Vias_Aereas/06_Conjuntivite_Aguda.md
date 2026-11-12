@@ -69,7 +69,7 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 [ADICIONAR APENAS SE CONJUNTIVITE BACTERIANA — SECREÇÃO PURULENTA AMARELO-ESVERDEADA]:
 3. Tobramicina 0,3% Colírio (Tobrex) (ou Moxifloxacino 0,5% / Ofloxacino 0,3% Colírio) --- 1 frasco
-   Pingar 1 gota no(s) olho(s) afetado(s) de 4 em 4 horas (durante o dia) por **7 dias** (sem encostar a ponta do frasco nos cílios).
+   Pingar 1 gota no(s) olho(s) afetado(s) de 4 em 4 horas (durante o dia) por 7 dias (sem encostar a ponta do frasco nos cílios).
 
 ORIENTAÇÕES DE HIGIENE, CONTÁGIO E SINAIS DE ALARME OCULAR:
 - NUNCA usar água boricada (irrita a córnea) e NUNCA usar colírios com corticoide (como Maxidex, Dexacol ou Tobradex) ou colírios clareadores vasoconstritores sem prescrição de oftalmologista.
@@ -95,7 +95,7 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 [ADICIONAR APENAS SE CONJUNTIVITE BACTERIANA — SECREÇÃO PURULENTA AMARELO-ESVERDEADA]:
 3. Tobramicina 0,3% Colírio (Tobrex) (ou Moxifloxacino 0,5% / Ofloxacino 0,3% Colírio) --- 1 frasco
-   Pingar 1 gota no(s) olho(s) afetado(s) de 4 em 4 horas (durante o dia) por **7 dias** (sem encostar a ponta do frasco nos cílios).
+   Pingar 1 gota no(s) olho(s) afetado(s) de 4 em 4 horas (durante o dia) por 7 dias (sem encostar a ponta do frasco nos cílios).
 
 ORIENTAÇÕES DE HIGIENE, CONTÁGIO E SINAIS DE ALARME OCULAR:
 - NUNCA usar água boricada (irrita a córnea) e NUNCA usar colírios com corticoide (como Maxidex, Dexacol ou Tobradex) ou colírios clareadores vasoconstritores sem prescrição de oftalmologista.

@@ -9,15 +9,15 @@
 ```text
 ###### ATENDIMENTO PEDIÁTRICO — FEBRE SEM SINAIS LOCALIZATÓRIOS (FSSL) NO LACTENTE ######
 # IDENTIFICAÇÃO, PESO & FAIXA ETÁRIA DE RISCO:
-- Lactente: [Nome] | Sexo: [Masculino / Feminino] | **PESO ATUAL: [ ] kg**
-- Idade Exata: **[ ] [dias / meses]** (DN: [DD/MM/AAAA])
-- **ESTRATIFICAÇÃO ETÁRIA CRÍTICA:**
-  * **[GRUPO 1 — RECÉM-NASCIDO (0 A 28 DIAS DE VIDA)]** -> Alto risco de Infecção Bacteriana Grave (10–15%): Internação hospitalar, triagem séptica completa com líquor e ATB venoso obrigatórios.
-  * **[GRUPO 2 — LACTENTE JOVEM (29 A 90 DIAS / 1 A 3 MESES)]** -> Estratificação por Critérios de Rochester / Step-by-Step + EAS/Urocultura por sonda e marcadores inflamatórios obrigatórios.
-  * **[GRUPO 3 — LACTENTE E CRIANÇA DE 3 A 36 MESES]** -> Manejo guiado pelo estado geral (TEP pós-defervescência), status vacinal (Pneumo-10/Meningo/Hib) e rastreio de ITU oculta.
+- Lactente: [Nome] | Sexo: [Masculino / Feminino] | PESO ATUAL: [ ] kg
+- Idade Exata: [ ] [dias / meses] (DN: [DD/MM/AAAA])
+- ESTRATIFICAÇÃO ETÁRIA CRÍTICA:
+  * [GRUPO 1 — RECÉM-NASCIDO (0 A 28 DIAS DE VIDA)] -> Alto risco de Infecção Bacteriana Grave (10–15%): Internação hospitalar, triagem séptica completa com líquor e ATB venoso obrigatórios.
+  * [GRUPO 2 — LACTENTE JOVEM (29 A 90 DIAS / 1 A 3 MESES)] -> Estratificação por Critérios de Rochester / Step-by-Step + EAS/Urocultura por sonda e marcadores inflamatórios obrigatórios.
+  * [GRUPO 3 — LACTENTE E CRIANÇA DE 3 A 36 MESES] -> Manejo guiado pelo estado geral (TEP pós-defervescência), status vacinal (Pneumo-10/Meningo/Hib) e rastreio de ITU oculta.
 
 # SUBJETIVO (CARACTERIZAÇÃO DA FEBRE & INTERROGATÓRIO DE FOCOS OCULTOS):
-- Queixa Principal (QP): Febre aferida de até **[ ] °C** há **[ ] [horas / dias]**, sem sintomas localizatórios aparentes.
+- Queixa Principal (QP): Febre aferida de até [ ] °C há [ ] [horas / dias], sem sintomas localizatórios aparentes.
 - História da Moléstia Atual (HMA): Responsável refere picos febris de até [ ] °C (aferidos com termômetro axilar) iniciados há [ ] horas/dias, a cada [ ] horas.
 - Comportamento no Intervalo Afebril (Pós-Antitérmico): [Criança reanima completamente, sorri, interage, mantém sucção vigorosa e brinca quando a febre cede / Permanece hipoativa, irritada ou gemente mesmo afebril].
 - Interrogatório Sistemático Negativo de Focos: Nega tosse, coriza, obstrução nasal, estridor, vômitos, diarreia, choro à micção ou urina fétida, lesões cutâneas ou recusa em movimentar algum membro (pseudoparalisia por artrite séptica/osteomielite).
@@ -25,7 +25,7 @@
 
 # OBJETIVO (TRIÂNGULO PEDIÁTRICO, EXAME DA CRIANÇA DESPIDA & PROPEDÊUTICA):
 - Sinais Vitais (Após antitérmico): FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax atual: [ ] °C | TEC < 2s.
-- Triângulo de Avaliação Pediátrica (TEP): **[Normal nos 3 lados — Aparência, Respiração e Circulação normais / Alterado — aspecto toxêmico ou letárgico]**.
+- Triângulo de Avaliação Pediátrica (TEP): [Normal nos 3 lados — Aparência, Respiração e Circulação normais / Alterado — aspecto toxêmico ou letárgico].
 - Exame Físico Minucioso da Criança Totalmente Despida (Busca de Foco Oculto):
   * Pele (Vitroscopia/Digitopressão): Ausência absoluta de petéquias, equimoses ou púrpuras que não desaparecem à digitopressão (afastado rash meningocócico).
   * Fontanela Anterior & Sinais Meníngeos: Fontanela plana e normotensa; ausência de rigidez de nuca, irritabilidade paradoxal no colo (sinal de irritação meníngea do lactente) ou sinais de Kernig/Brudzinski.
@@ -33,7 +33,7 @@
   * Cardiopulmonar & Abdome: MV presente sem crepitações e sem taquipneia; RCR 2T BNF sem sopros; abdome flácido e indolor.
   * Osteoarticular: Mobilização passiva e ativa indolor de todas as articulações (quadris, joelhos, tornozelos, ombros).
 - Exames Complementares Realizados na Emergência:
-  * **Urina Tipo 1 (EAS) + Urocultura colhida por Cateterismo Vesical / Punção Suprapúbica** (NUNCA usar saco coletor para urocultura!): [Não indicada (< 24–48h de febre em > 3m bem e vacinado) / EAS normal (Leucócitos < 10.000/mL, Esterase e Nitrito negativos) / EAS alterado compatível com ITU].
+  * Urina Tipo 1 (EAS) + Urocultura colhida por Cateterismo Vesical / Punção Suprapúbica (NUNCA usar saco coletor para urocultura!): [Não indicada (< 24–48h de febre em > 3m bem e vacinado) / EAS normal (Leucócitos < 10.000/mL, Esterase e Nitrito negativos) / EAS alterado compatível com ITU].
   * Hemograma, PCR e Hemocultura: [Não solicitados / Leuco: [ ] /mm³ (Neutrófilos absolutos: [ ]) | PCR: [ ] mg/L | Procalcitonina: [ ] ng/mL].
   * Líquor (Punção Lombar): [Não indicada / Realizada (< 28 dias ou sinais de alto risco): [ ]].
 
@@ -44,32 +44,32 @@
 
 >> [CENÁRIO 1 — RECÉM-NASCIDO < 28 DIAS]: INTERNAÇÃO & TRIAGEM SÉPTICA COMPLETA OBRIGATÓRIA:
 1. Internação hospitalar imediata (mesmo que o RN pareça em ótimo estado geral e com exames iniciais normais).
-2. Coletar Hemograma, PCR, 2 Hemoculturas, Urina 1 + Urocultura por sondagem vesical, Radiografia de Tórax (se sintomas respiratórios) e **Punção Lombar obrigatória (LCR)**.
-3. Iniciar antibioticoterapia venosa empírica imediata: **Ampicilina `50 mg/kg/dose` EV de 6/6h ou 8/8h (cobertura para *Streptococcus agalactiae* e *Listeria*) + Gentamicina `4 a 5 mg/kg/dia` EV 1x/dia (ou Cefotaxima `50 mg/kg/dose` EV de 8/8h ou 6/6h se suspeita de meningite)** para Gram-negativos entéricos (*E. coli*). *(Atenção: Ceftriaxona é estritamente CONTRAINDICADA em recém-nascidos `< 28 dias` pelo risco de kernicterus por deslocamento da bilirrubina da albumina e precipitação fatal com cálcio).*
+2. Coletar Hemograma, PCR, 2 Hemoculturas, Urina 1 + Urocultura por sondagem vesical, Radiografia de Tórax (se sintomas respiratórios) e Punção Lombar obrigatória (LCR).
+3. Iniciar antibioticoterapia venosa empírica imediata: **Ampicilina 50 mg/kg/dose EV de 6/6h ou 8/8h (cobertura para *Streptococcus agalactiae* e *Listeria*) + Gentamicina 4 a 5 mg/kg/dia EV 1x/dia (ou Cefotaxima 50 mg/kg/dose EV de 8/8h ou 6/6h se suspeita de meningite)** para Gram-negativos entéricos (*E. coli*). *(Atenção: Ceftriaxona é estritamente CONTRAINDICADA em recém-nascidos < 28 dias pelo risco de kernicterus por deslocamento da bilirrubina da albumina e precipitação fatal com cálcio).*
 
 >> [CENÁRIO 2 — LACTENTE DE 29 A 90 DIAS]: CONDUTA GUIADA POR CRITÉRIOS DE RISCO (ROCHESTER / STEP-BY-STEP):
-1. Coletar obrigatoriamente **EAS + Urocultura por sonda vesical** + Hemograma + PCR + Hemocultura.
-2. **Se Alto Risco** (TEP alterado, prematuro, leucócitos `< 5.000` ou `> 15.000/mm³`, bastonetes `> 1.500/mm³`, PCR `> 20 mg/L` ou piúria no EAS): Internar, realizar Punção Lombar e iniciar **Ceftriaxona `50 a 100 mg/kg/dia` EV**.
-3. **Se Baixo Risco Completo** (Termo hígido, TEP normal, EAS normal, Leuco `5.000–15.000/mm³` e PCR normal): Alta vigiada com **reavaliação médica presencial obrigatória em 24 horas** e checagem da urocultura/hemocultura.
+1. Coletar obrigatoriamente EAS + Urocultura por sonda vesical + Hemograma + PCR + Hemocultura.
+2. Se Alto Risco (TEP alterado, prematuro, leucócitos < 5.000 ou > 15.000/mm³, bastonetes > 1.500/mm³, PCR > 20 mg/L ou piúria no EAS): Internar, realizar Punção Lombar e iniciar Ceftriaxona 50 a 100 mg/kg/dia EV.
+3. Se Baixo Risco Completo (Termo hígido, TEP normal, EAS normal, Leuco 5.000–15.000/mm³ e PCR normal): Alta vigiada com reavaliação médica presencial obrigatória em 24 horas e checagem da urocultura/hemocultura.
 
 >> [CENÁRIO 3 — CRIANÇA DE 3 A 36 MESES VACINADA E EM BOM ESTADO GERAL (TEP NORMAL)]:
-1. Se febre `≥ 39 °C` ou duração `> 24–48h` em menina `< 24 meses` ou menino `< 6–12 meses` (ou `< 24m` não circuncidado): Coletar **EAS + Urocultura por cateterismo vesical** (ITU responde por `> 80%` das infecções bacterianas ocultas nesta faixa!).
-2. Com EAS normal (ou febre `< 24h` em criança ativa e bem vacinada): Alta segura com antitérmico sintomático e **reavaliação médica programada em 24 a 48 horas** (frequentemente surge o exantema do Exantema Súbito / Roséola após 72h quando a febre cede!).
+1. Se febre ≥ 39 °C ou duração > 24–48h em menina < 24 meses ou menino < 6–12 meses (ou < 24m não circuncidado): Coletar EAS + Urocultura por cateterismo vesical (ITU responde por > 80% das infecções bacterianas ocultas nesta faixa!).
+2. Com EAS normal (ou febre < 24h em criança ativa e bem vacinada): Alta segura com antitérmico sintomático e reavaliação médica programada em 24 a 48 horas (frequentemente surge o exantema do Exantema Súbito / Roséola após 72h quando a febre cede!).
 >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO — FEBRE SEM FOCO (CRITÉRIOS DE BAIXO RISCO COM REAVALIAÇÃO EM 24–48H)
 Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 
 USO ORAL:
 1. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
-   Dar **[ ] gotas** (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) associada a desconforto ou irritabilidade.
+   Dar [ ] gotas (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) associada a desconforto ou irritabilidade.
 
 2. [OU Alternativa] Paracetamol Solução Oral Gotas (200 mg/mL) ---------------- 1 frasco
-   Dar **[ ] gotas** (1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre ou dor.
+   Dar [ ] gotas (1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre ou dor.
 
 ORIENTAÇÕES DE OBSERVAÇÃO EM CASA & REAVALIAÇÃO PROGRAMADA:
 - Hidratação: Oferecer seio materno em livre demanda, água ou soro de reidratação oral com frequência (a febre aumenta a perda de água pela pele e respiração). Vestir a criança com roupas leves e frescas (não agasalhar em excesso).
 - O que Observar após o Antitérmico: O sinal mais tranquilizador na pediatria é ver que, 40 a 60 minutos após o remédio da febre, a criança volta a ficar ativa, olha nos olhos, sorri e aceita líquidos.
-- RETORNO PROGRAMADO: Retornar para reavaliação médica em **[24 / 48] horas** (se a febre persistir por mais de 48 horas sem aparecer gripe, será necessário colher exame de urina para descartar infecção urinária oculta).
+- RETORNO PROGRAMADO: Retornar para reavaliação médica em [24 / 48] horas (se a febre persistir por mais de 48 horas sem aparecer gripe, será necessário colher exame de urina para descartar infecção urinária oculta).
 
 SINAIS DE ALARME DE EMERGÊNCIA (VOLTAR IMEDIATAMENTE AO PRONTO-SOCORRO):
 1. Teste do Copo na Pele: Surgimento de pintinhas vermelhas ou manchas roxas na pele que NÃO desaparecem quando você pressiona um copo de vidro transparente contra a mancha (sinal de alerta máximo para infecção grave).
@@ -89,15 +89,15 @@ Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 
 USO ORAL:
 1. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
-   Dar **[ ] gotas** (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) associada a desconforto ou irritabilidade.
+   Dar [ ] gotas (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) associada a desconforto ou irritabilidade.
 
 2. [OU Alternativa] Paracetamol Solução Oral Gotas (200 mg/mL) ---------------- 1 frasco
-   Dar **[ ] gotas** (1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre ou dor.
+   Dar [ ] gotas (1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre ou dor.
 
 ORIENTAÇÕES DE OBSERVAÇÃO EM CASA & REAVALIAÇÃO PROGRAMADA:
 - Hidratação: Oferecer seio materno em livre demanda, água ou soro de reidratação oral com frequência (a febre aumenta a perda de água pela pele e respiração). Vestir a criança com roupas leves e frescas (não agasalhar em excesso).
 - O que Observar após o Antitérmico: O sinal mais tranquilizador na pediatria é ver que, 40 a 60 minutos após o remédio da febre, a criança volta a ficar ativa, olha nos olhos, sorri e aceita líquidos.
-- RETORNO PROGRAMADO: Retornar para reavaliação médica em **[24 / 48] horas** (se a febre persistir por mais de 48 horas sem aparecer gripe, será necessário colher exame de urina para descartar infecção urinária oculta).
+- RETORNO PROGRAMADO: Retornar para reavaliação médica em [24 / 48] horas (se a febre persistir por mais de 48 horas sem aparecer gripe, será necessário colher exame de urina para descartar infecção urinária oculta).
 
 SINAIS DE ALARME DE EMERGÊNCIA (VOLTAR IMEDIATAMENTE AO PRONTO-SOCORRO):
 1. Teste do Copo na Pele: Surgimento de pintinhas vermelhas ou manchas roxas na pele que NÃO desaparecem quando você pressiona um copo de vidro transparente contra a mancha (sinal de alerta máximo para infecção grave).

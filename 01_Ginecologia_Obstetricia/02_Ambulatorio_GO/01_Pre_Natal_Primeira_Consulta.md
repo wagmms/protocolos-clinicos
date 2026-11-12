@@ -71,11 +71,11 @@ ORIENTAÇÕES DE SINAIS DE ALARME:
 ### 💊 2. Por Que Prescrevemos Cada Suplemento Assim? (Farmacologia Explicada)
 - **Ácido Fólico 400 mcg (0,4 mg) vs. 5 mg:** O tubo neural fetal se fecha completamente até o **28º dia pós-concepção** (6ª semana de IG). A dose de `400 mcg/dia` (iniciada idealmente 30 dias antes da concepção até a 12ª–14ª semana) previne defeitos de fechamento do tubo neural (anencefalia/espinha bífida) sem excesso de folato não-metabolizado. Reservamos a dose alta de **`5 mg/dia`** apenas para pacientes com **epilepsia em uso de anticonvulsivantes, filho anterior com defeito de tubo neural, cirurgia bariátrica ou IMC > 35**.
 - **Por que o Sulfato Ferroso é tomado 30 min antes do almoço com suco cítrico, e LONGE do Cálcio?**
-  - O ferro não-heme precisa de **meio ácido e Vitamina C (ácido ascórbico)** para manter-se na forma reduzida ferroso ($Fe^{2+}$), que é absorvida no duodeno.
+  - O ferro não-heme precisa de **meio ácido e Vitamina C (ácido ascórbico)** para manter-se na forma reduzida ferroso (Fe²⁺), que é absorvida no duodeno.
   - O **Carbonato de Cálcio** alcaliniza o estômago e compete diretamente com o ferro pelo mesmo transportador intestinal (`DMT-1`). Tomar ferro e cálcio juntos reduz em até **50–60% a absorção de ambos**!
 - **Por que fazemos AAS (100–150 mg à noite) + Cálcio (1,5–2 g/dia) entre 12–16s até 36s no risco de Pré-Eclâmpsia?**
   - A Pré-Eclâmpsia nasce da falha na **2ª onda de invasão trofoblástica** das artérias espiraladas miometriais (que ocorre entre `12 e 16 semanas`).
-  - O **AAS em baixa dose (100 a 150 mg tomado à noite)** inibe irreversivelmente a COX-1 plaquetária, bloqueando o **Tromboxano A2** (vasoconstritor e pró-agregante) sem inibir a **Prostaciclina ($PGI_2$)** endotelial (vasodilatadora). Iniciar antes de 16 semanas reduz em **> 60% a Pré-Eclâmpsia precoce (< 34s)** (Estudo ASPRE). Suspende-se com **36 semanas** para renovar o pool plaquetário antes do parto.
+  - O **AAS em baixa dose (100 a 150 mg tomado à noite)** inibe irreversivelmente a COX-1 plaquetária, bloqueando o **Tromboxano A2** (vasoconstritor e pró-agregante) sem inibir a **Prostaciclina (PGI₂)** endotelial (vasodilatadora). Iniciar antes de 16 semanas reduz em **> 60% a Pré-Eclâmpsia precoce (< 34s)** (Estudo ASPRE). Suspende-se com **36 semanas** para renovar o pool plaquetário antes do parto.
 
 ### 🧭 3. Interpretação Rápida da Rotina de 1º Trimestre
 | Exame do 1º Trimestre | Resultado / Ponto de Corte | Conduta & O Porquê Clínico |

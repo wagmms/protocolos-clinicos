@@ -81,4 +81,4 @@ Paciente [Nome], [Idade] anos, G[ ] P[ ] (PN [ ] / PC [ ]) A[ ], Status: [Menacm
 ### 🩺 3. Por Que Usamos o Sistema PALM-COEIN no Sangramento Uterino Anormal (SUA)?
 - A FIGO dividiu o SUA em dois blocos mnemônicos que guiam exatamente qual exame pedir:
   - **Causas Estruturais (`P-A-L-M`: Pólipo, Adenomiose, Leiomioma, Malignidade/Hiperplasia):** Diagnosticadas por **USG Transvaginal / Histeroscopia**. Atenção: toda paciente **> 45 anos com SUA** ou com **sangramento pós-menopausa + espessura endometrial > 4 mm (sem TRH)** exige **biópsia endometrial / histeroscopia** para excluir hiperplasia atípica e adenocarcinoma de endométrio!
-  - **Causas Não-Estruturais (`C-O-E-I-N`: Coagulopatia, Ovulatória/SOP, Endometrial, Iatrogênica, Não classificada):** Diagnosticadas pela história clínica, TSH, Prolactina, Coagulograma e exclusão de gravidez ($\beta$-hCG).
+  - **Causas Não-Estruturais (`C-O-E-I-N`: Coagulopatia, Ovulatória/SOP, Endometrial, Iatrogênica, Não classificada):** Diagnosticadas pela história clínica, TSH, Prolactina, Coagulograma e exclusão de gravidez (β-hCG).

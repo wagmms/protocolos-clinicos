@@ -59,9 +59,9 @@
 
 >> [SE EMERGÊNCIA HIPERTENSIVA - COM LESÃO DE ÓRGÃO-ALVO]:
 1. Transferência IMEDIATA para a Sala Vermelha; puncionar acesso venoso e monitorização contínua.
-2. Iniciar vasodilatador endovenoso contínuo em Bomba de Infusão (BIC):
-   - [Se EAP ou SCA]: Nitroglicerina (Tridil 50 mg/10 mL): 1 ampola (10 mL) + 240 mL SG 5% (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 6 mL/h (10 a 20 mcg/min) e titular a cada 3 a 5 min.
-   - [Se Encefalopatia Hipertensiva, Dissecção Aórtica ou Emergência Hipertensiva Geral]: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em frasco e equipo fotossensíveis (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min para 70 kg) e titular a cada 3 a 5 min sob vigilância invasiva/PANI de 3/3 min.
+2. Iniciar vasodilatador endovenoso contínuo em Bomba de Infusão:
+   - [Se EAP ou SCA]: Nitroglicerina EV contínua (iniciar 5 mcg/min e titular a cada 5 min).
+   - [Se Encefalopatia Hipertensiva]: Nitroprussiato de Sódio EV (iniciar 0,25 a 0,5 mcg/kg/min).
    - Meta: Reduzir a PAM em no máximo 20% a 25% na primeira hora (evitando AVC isquêmico).
 3. Vaga imediata de UTI via Central de Regulação.
 >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
@@ -136,6 +136,6 @@ ORIENTAÇÕES DE SEGURANÇA E MAPA DE PRESSÃO ARTERIAL:
 | Emergência Hipertensiva (Com LOA Aguda) | Meta Exata de Redução da PA na 1ª Hora | Droga Endovenosa de 1ª Escolha (e O Que Evitar) |
 | :--- | :--- | :--- |
 | **Regra Geral** *(Encefalopatia Hipertensiva, Hipertensão Maligna com Papiledema/IRA)* | **Reduzir a PAM em no máximo `20% a 25%` na 1ª hora**; depois para `160/100–110 mmHg` em 2–6h. | **Nitroprussiato de Sódio (Nipride)** `0,25 a 10 mcg/kg/min` em BIC protegido da luz. |
-| **1. Dissecção Aguda de Aorta** *(A ÚNICA exceção que exige queda imediata!)* | **Meta Imediata (em 5–10 min): `FC < 60 bpm` e `PAS entre 100 e 120 mmHg`!** | **1º Betabloqueador EV (Metoprolol / Esmolol)** para baixar a FC e a força de cisalhamento ($dP/dt$) → **2º associar Nitroprussiato (Nipride)**. *(Nunca dar Nipride sem bloquear a FC antes!).* |
+| **1. Dissecção Aguda de Aorta** *(A ÚNICA exceção que exige queda imediata!)* | **Meta Imediata (em 5–10 min): `FC < 60 bpm` e `PAS entre 100 e 120 mmHg`!** | **1º Betabloqueador EV (Metoprolol / Esmolol)** para baixar a FC e a força de cisalhamento (dP/dt) → **2º associar Nitroprussiato (Nipride)**. *(Nunca dar Nipride sem bloquear a FC antes!).* |
 | **2. Edema Agudo de Pulmão (EAP) Hipertensivo / SCA** | Reduzir a pós-carga e a pré-carga imediatamente (`PAS < 140 mmHg`). | **Nitroglicerina (Tridil)** `5 a 200 mcg/min` EV em BIC + **Furosemida EV** + **VNI (CPAP/BiPAP)**. *(Evitar Nipride isolado na SCA pelo risco de "roubo coronariano").* |
 | **3. AVC Isquêmico Agudo** | • **Se candidato a Trombólise (rt-PA):** Baixar para **`< 185 x 110 mmHg`**.<br>• **Se NÃO candidato a rt-PA:** Hipertensão permissiva! Só baixar (em 15%) se **`PA ≥ 220 x 120 mmHg`**. | Labetalol EV, Nicardipina EV ou Nitroprussiato em dose baixa titulada. |

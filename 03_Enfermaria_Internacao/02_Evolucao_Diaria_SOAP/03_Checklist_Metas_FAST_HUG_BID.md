@@ -31,7 +31,7 @@
 - [G] GLYCEMIC CONTROL (Controle Glicêmico Hospitalar — Alvo 140 a 180 mg/dL):
   * Variação HGT 24h: Mínima de [ ] mg/dL | Máxima de [ ] mg/dL ([Sem episódios de hipoglicemia (< 70 mg/dL) / Esquema basal-bólus ajustado hoje]).
 - [B] BOWEL MOVEMENT (Função Intestinal):
-  * Última evacuação: [Hoje / Ontem / Ausente há dias] | Aspecto: [Fisiológico (Bristol 3–4) / Ressecado (Bristol 1–2) / Diarreico (Bristol 6–7)].
+  * Última evacuação: [Hoje / Ontem / Ausente há [ ] dias] | Aspecto: [Fisiológico (Bristol 3–4) / Ressecado (Bristol 1–2) / Diarreico (Bristol 6–7)].
 - [I] INDWELLING CATHETERS (Auditoria de Dispositivos Invasivos):
   * Acesso Venoso: [Periférico em [MSD / MSE] D[ ] sem sinais de flebite / CVC em [ ] D[ ] com curativo limpo / Indicada retirada hoje].
   * Sonda Vesical (SVD): [Ausente / Retirada hoje para prevenção de ITU-AC / Mantida por controle estrito de diurese horária ou obstrução urinária].
@@ -41,10 +41,10 @@
 # PLANO / CONDUTA:
 
 >> AÇÕES IMEDIATAS RESULTANTES DO BUNDLE FAST HUG BID:
-1. Ajuste Nutricional & Hidratação: [Manter dieta atual / Progredir dieta oral / Ajustar vazão de dieta enteral para mL/h].
+1. Ajuste Nutricional & Hidratação: [Manter dieta atual / Progredir dieta oral / Ajustar vazão de dieta enteral para [ ] mL/h].
 2. Desprescrição Segura (Stewardship): [Suspenso Omeprazol/IBP sem indicação formal / Suspensas medicações sedativas ou anticolinérgicas desnecessárias].
 3. Retirada de Dispositivos Invasivos: [Retirar Sonda Vesical de Demora hoje / Sacar acesso venoso periférico ocioso / Sacar dreno cirúrgico].
-4. Regulação Intestinal & Glicêmica: [Prescrito laxativo osmótico (Lactulose 15 mL VO 12/12h ou PEG 4000) / Ajustada dose de Insulina NPH basal para UI].
+4. Regulação Intestinal & Glicêmica: [Prescrito laxativo osmótico (Lactulose 15 mL VO 12/12h ou PEG 4000) / Ajustada dose de Insulina NPH basal para [ ] UI].
 5. Meta de Desospitalização: [Reabilitação motora ativa com fisioterapia; alta hospitalar prevista em (24 / 48) horas].
 ```
 

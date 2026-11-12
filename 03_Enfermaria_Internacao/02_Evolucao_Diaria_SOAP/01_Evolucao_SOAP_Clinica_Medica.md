@@ -21,11 +21,11 @@
 - Sintomas Cardinais de Alarme: Nega dor torácica, palpitações, dispneia em repouso ou ortopneia, calafrios, tontura postural ou sangramentos.
 - Eliminações Fisiológicas:
   * Diurese: [Presente, espontânea, límpida e sem disúria / Por SVD com débito claro e satisfatório].
-  * Hábito Intestinal: [Evacuação presente nas últimas 24h, aspecto habitual (Bristol 3–4) / Ausente há dias, sem distensão ou dor abdominal].
+  * Hábito Intestinal: [Evacuação presente nas últimas 24h, aspecto habitual (Bristol 3–4) / Ausente há [ ] dias, sem distensão ou dor abdominal].
 
 # OBJETIVO (O — SINAIS VITAIS, BALANÇO, EXAME FÍSICO & LABORATÓRIO):
 - Sinais Vitais & Curvas das 24h:
-  * PA: [ ]x[ ] mmHg (Variação 24h: [ ] a [ ] mmHg) | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ([em ar ambiente / sob O2 a L/min]).
+  * PA: [ ]x[ ] mmHg (Variação 24h: [ ] a [ ] mmHg) | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ([em ar ambiente / sob O2 a [ ] L/min]).
   * Curva Térmica (24h): Tax máxima de [ ] °C ([Afebril há > 24–48h / Apresentou pico febril de [ ] °C às [HH:MM]]).
   * Balanço Hídrico (24h): Diurese total: [ ] mL ([ ] mL/kg/h) | BH fechado: [Neutro / Positivo em +[ ] mL / Negativo em -[ ] mL].
   * Curva Glicêmica Capilar (HGT 24h): Jejum: [ ] mg/dL | Pré-almoço: [ ] mg/dL | Pré-jantar: [ ] mg/dL | 22h: [ ] mg/dL.
@@ -41,14 +41,14 @@
 
 # AVALIAÇÃO (A — IMPRESSÃO CLÍNICA POR PROBLEMAS):
 1. [Problema Principal 1]: [Evoluindo com franca melhora clínica e queda de marcadores inflamatórios / Estável clinicamente, mantida conduta / Descompensação aguda exigindo ajuste terapêutico].
-2. [Comorbidades / Equilíbrio Hidroeletrolítico]: [Função renal e eletrólitos estáveis, glicemias dentro da meta hospitalar (140–180 mg/dL) / Em correção de].
+2. [Comorbidades / Equilíbrio Hidroeletrolítico]: [Função renal e eletrólitos estáveis, glicemias dentro da meta hospitalar (140–180 mg/dL) / Em correção de: [ ]].
 3. Auditoria de Antimicrobiano & Dispositivos: [Mantido esquema atual em D / Preenchidos critérios de Switch Therapy para via oral / Indicada retirada de SVD/AVP hoje].
 
 # PLANO / CONDUTA:
 
 >> CONDUTA & METAS DO DIA (ENFERMARIA):
 1. Dieta: Manter dieta [geral / para diabetes / hipossódica / branda] por via oral; estimular ingesta hídrica oral.
-2. Hidratação Venosa: [Suspensa soroterapia de manutenção; manter acesso salinizado / Manter SF 0,9% mL EV em 24h].
+2. Hidratação Venosa: [Suspensa soroterapia de manutenção; manter acesso salinizado / Manter SF 0,9% [ ] mL EV em 24h].
 3. Terapêutica Antimicrobiana & Específica:
    - [Manter [ ] em D[ ] de [ ] dias / Realizar transição (Switch Therapy) para via oral com [ ] / Suspender antibiótico por término de tratamento].
    - [Ajuste de medicações de uso contínuo / controle pressórico e glicêmico: [ ]].

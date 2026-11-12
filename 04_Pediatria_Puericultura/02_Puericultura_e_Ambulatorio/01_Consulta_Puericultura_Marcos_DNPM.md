@@ -14,9 +14,9 @@
 - Acompanhante: [Mãe / Pai / Ambos os pais / Cuidador(a): [ ]]
 
 # SUBJETIVO (ANAMNESE DE PUERICULTURA, NUTRIÇÃO & ROTINA):
-- Intercorrências desde a última consulta: [Assintomático(a), em excelente evolução / Apresentou quadro leve de].
+- Intercorrências desde a última consulta: [Assintomático(a), em excelente evolução / Apresentou quadro leve de [ ]].
 - Alimentação e Prática Nutricional:
-  * Lactente < 6 meses: [Aleitamento Materno Exclusivo (AME) em livre demanda, boa pega e sucção efetiva / Aleitamento misto / Fórmula infantil de partida () na diluição correta de 1 medida rasa para cada 30 mL de água].
+  * Lactente < 6 meses: [Aleitamento Materno Exclusivo (AME) em livre demanda, boa pega e sucção efetiva / Aleitamento misto / Fórmula infantil de partida ([ ]) na diluição correta de 1 medida rasa para cada 30 mL de água].
   * Criança ≥ 6 meses: [Aleitamento materno complementado + Introdução alimentar oportuna / Dieta da família consistente (5 grupos alimentares no almoço e jantar + frutas in natura), sem açúcar, mel ou ultraprocessados]. Oferta de água potável: [Adequada / Baixa].
 - Sono Seguro & Hábitos: Dorme em [berço próprio em decúbito dorsal (barriga para cima), colchão firme e sem objetos soltos / cama compartilhada — orientado risco de sufocamento e SMSL].
 - Eliminações Fisiológicas: Diurese [ampla, > 5–6 fraldas molhadas/dia] | Evacuações [aspecto e frequência habituais para a idade, sem esforço doloroso ou sangue].
@@ -24,11 +24,11 @@
 
 # OBJETIVO (ANTROPOMETRIA OMS, TRIAGENS, EXAME FÍSICO & MARCOS DO DNPM):
 - Dados Antropométricos e Curvas da OMS (Caderneta da Criança):
-  * Peso Atual: **[ ] g ([ ] kg)** | Ganho Ponderal Médio: **[ ] g/dia** (Alvo: 1º tri 25–30 g/d | 2º tri 20 g/d | 3º tri 15 g/d | 4º tri 10–12 g/d).
+  * Peso Atual: [ ] g ([ ] kg) | Ganho Ponderal Médio: [ ] g/dia (Alvo: 1º tri 25–30 g/d | 2º tri 20 g/d | 3º tri 15 g/d | 4º tri 10–12 g/d).
     - Escore-Z Peso/Idade: [Peso adequado para a idade (Z entre -2 e +2) / Baixo peso (Z < -2) / Peso elevado (Z > +2)].
-  * Comprimento / Estatura: **[ ] cm** -> Escore-Z Estatura/Idade: [Adequada (Z ≥ -2) / Baixa estatura (Z < -2)].
-  * Perímetro Cefálico (< 2 anos): **[ ] cm** -> Escore-Z PC/Idade: [Normocefalia (Z entre -2 e +2) / Alerta (< -2 ou > +2)].
-  * IMC para a Idade: **[ ] kg/m²** -> Classificação: [Eutrofia (Z entre -2 e +1) / Risco de sobrepeso (Z > +1) / Sobrepeso (Z > +2)].
+  * Comprimento / Estatura: [ ] cm -> Escore-Z Estatura/Idade: [Adequada (Z ≥ -2) / Baixa estatura (Z < -2)].
+  * Perímetro Cefálico (< 2 anos): [ ] cm -> Escore-Z PC/Idade: [Normocefalia (Z entre -2 e +2) / Alerta (< -2 ou > +2)].
+  * IMC para a Idade: [ ] kg/m² -> Classificação: [Eutrofia (Z entre -2 e +1) / Risco de sobrepeso (Z > +1) / Sobrepeso (Z > +2)].
 - Triagens Neonatais & Caderneta de Vacinação (PNI):
   * Triagens: Pezinho: [Normal] | Olhinho (Reflexo Vermelho): [Presente e simétrico] | Orelhinha (EOA): [Passou bilateralmente] | Coraçãozinho: [Normal] | Linguinha: [Normal].
   * Situação Vacinal: [Completa e rigorosamente em dia para a idade / Vacinas pendentes encaminhadas hoje: [ ]].

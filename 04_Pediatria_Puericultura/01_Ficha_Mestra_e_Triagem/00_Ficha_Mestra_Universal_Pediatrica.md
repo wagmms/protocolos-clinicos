@@ -11,13 +11,13 @@
 # IDENTIFICAÇÃO & ANTROPOMETRIA OBRIGATÓRIA:
 - Criança: [Nome] | Sexo: [Masculino / Feminino] | Idade: [ ] anos e [ ] meses (DN: [DD/MM/AAAA])
 - Acompanhante / Informante: [Mãe / Pai / Avó / Responsável legal: [ ]]
-- **PESO ATUAL AFERIDO NA BALANÇA: [ ] kg** | Estatura: [ ] cm | PC (< 2 anos): [ ] cm
+- PESO ATUAL AFERIDO NA BALANÇA: [ ] kg | Estatura: [ ] cm | PC (< 2 anos): [ ] cm
 
 # TRIÂNGULO DE AVALIAÇÃO PEDIÁTRICA (TEP — IMPRESSÃO VISUAL NOS PRIMEIROS 15 SEGUNDOS):
 1. Aparência (Tônus, Interatividade, Consolabilidade, Olhar, Choro/Fala): [Normal — ativo, reativo, olhar focado e choro consolável no colo / Alterada — irritabilidade inconsolável / Alterada — hipoativo, prostrado ou letárgico].
 2. Trabalho Respiratório (Ruídos audíveis, Posição, Tiragens, Batimento de asa nasal): [Normal — respiração silenciosa sem tiragens / Aumentado — taquipneia e tiragem subcostal/intercostal / Grave — gemência, estridor ou balanço toracoabdominal].
 3. Circulação Cutânea (Palidez, Livedo reticular, Cianose): [Normal — pele corada e extremidades quentes / Alterada — palidez cutânea, extremidades frias ou livedo].
-- **Classificação Inicial pelo TEP:** [Paciente Estável / Desconforto Respiratório / Falência Respiratória / Choque Compensado / Choque Descompensado].
+- Classificação Inicial pelo TEP: [Paciente Estável / Desconforto Respiratório / Falência Respiratória / Choque Compensado / Choque Descompensado].
 
 # SUBJETIVO (ANAMNESE PEDIÁTRICA DIRIGIDA):
 - Queixa Principal (QP) & Tempo de Evolução: [ ] há [ ] [dias / horas].
@@ -33,9 +33,9 @@
   * Vacinação (Caderneta PNI): [Rigorasamente em dia para a idade / Atraso vacinal: [ ]] | Comorbidades: [Hígido(a) / Asma / Sibilância recorrente / APLV / Prematuridade / Outra: [ ]] | Alergias: [Nega alergias conhecidas / Alérgico(a) a: [ ]].
 
 # OBJETIVO (EXAME FÍSICO PEDIÁTRICO):
-- Sinais Vitais Ajustados para a Idade: FC: [ ] bpm | FR (contada em 1 minuto): [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C | Tempo de Enchimento Capilar (TEC): [< 2 segundos / segundos].
+- Sinais Vitais Ajustados para a Idade: FC: [ ] bpm | FR (contada em 1 minuto): [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C | Tempo de Enchimento Capilar (TEC): [< 2 segundos / [ ] segundos].
 - Ectoscopia & Pele: [Bom / Regular / Mau] estado geral, [ativo e reativo no colo / irritado / prostrado], corado, [hidratado (olhos normais, lágrimas presentes, mucosa oral úmida e sinal da prega imediato) / desidratado leve a moderado], anictérico, acianótico. Pele sem petéquias ou púrpuras. Fontanela anterior (se < 18m): [Plana e normotensa / Deprimida / Abaulada].
-- Aparelho Respiratório: Tórax sem tiragens subcostais, intercostais ou de fúrcula. Murmúrio vesicular presente e simétrico bilateralmente, [sem ruídos adventícios / com sibilos expiratórios / com estertores crepitantes em].
+- Aparelho Respiratório: Tórax sem tiragens subcostais, intercostais ou de fúrcula. Murmúrio vesicular presente e simétrico bilateralmente, [sem ruídos adventícios / com sibilos expiratórios / com estertores crepitantes em [ ]].
 - Aparelho Cardiovascular: Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros patológicos. Pulsos periféricos e femorais cheios e simétricos.
 - Abdome & Genitália: Abdome [plano / globoso fisiológico], flácido, depressível e indolor à palpação; sem visceromegalias ou irritação peritoneal. Genitália externa sem alterações flogísticas.
 - Oroscopia & Otoscopia (Realizadas por último):
@@ -54,7 +54,7 @@
 2. Reavaliação clínica após defervescência confirmando criança ativa, eupneica para a idade e aceitando líquidos por via oral.
 
 >> CONDUTA DOMICILIAR & ORIENTAÇÕES AOS PAIS:
-1. Prescrição domiciliar calculada rigorosamente pelo peso atual aferido (**[ ] kg**).
+1. Prescrição domiciliar calculada rigorosamente pelo peso atual aferido ([ ] kg).
 2. Lavagem nasal frequente com Soro Fisiológico 0,9% morno e oferta fracionada de líquidos/leite materno.
 3. Explicados e entregues por escrito os sinais de alarme para retorno imediato ao Pronto Atendimento Pediátrico (confirmado entendimento pelo método *Teach-Back*).
 >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:

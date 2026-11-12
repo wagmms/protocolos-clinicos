@@ -73,16 +73,16 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 [OPÇÃO 1 — ESPECTRO AMPLO / POLIPARASITISMO (COBRE HELMINTOS + GIÁRDIA + AMEBA)]:
 1. Nitazoxanida 500 mg (Annita) ------------------------------------------------ 1 caixa (6 comprimidos)
-   Tomar 1 comprimido por via oral de **12 em 12 horas**, sempre **junto às refeições**, durante **3 dias consecutivos** (Nota: pode deixar a urina e o suor com coloração amarelo-esverdeada fluorescente benigna durante o uso).
+   Tomar 1 comprimido por via oral de 12 em 12 horas, sempre junto às refeições, durante 3 dias consecutivos (Nota: pode deixar a urina e o suor com coloração amarelo-esverdeada fluorescente benigna durante o uso).
 
 [OU OPÇÃO 2 — HELMINTÍASES (ASCARIS, ANCILOSTOMÍASE, TRICURÍASE, ENTEROBÍASE / OXIÚROS)]:
 1. Albendazol 400 mg (Comprimido mastigável) ----------------------------------- 2 a 6 comprimidos
-   - **Para Ascaris / Ancilóstomo / Oxiúros (Enterobius):** Tomar 1 comprimido de 400 mg por via oral em **DOSE ÚNICA**, e **REPETIR 1 comprimido de 400 mg exatamente após 14 DIAS** (indispensável para matar os vermes que nascerem dos ovos remanescentes).
-   - **Para Larva Migrans Cutânea ("Bicho Geográfico") ou Tricuríase:** Tomar 1 comprimido de 400 mg por via oral 1 vez ao dia durante **3 a 5 dias**.
+   - Para Ascaris / Ancilóstomo / Oxiúros (Enterobius): Tomar 1 comprimido de 400 mg por via oral em DOSE ÚNICA, e REPETIR 1 comprimido de 400 mg exatamente após 14 DIAS (indispensável para matar os vermes que nascerem dos ovos remanescentes).
+   - Para Larva Migrans Cutânea ("Bicho Geográfico") ou Tricuríase: Tomar 1 comprimido de 400 mg por via oral 1 vez ao dia durante 3 a 5 dias.
 
 [OU OPÇÃO 3 — PROTOZOÁRIOS ESPECÍFICOS (GIARDÍASE OU AMEBÍASE INTESTINAL) E ESTRONGILOIDÍASE]:
 1. Secnidazol 1.000 mg (1 g) --------------------------------------------------- 2 comprimidos
-   Tomar **2 comprimidos (total de 2 g) por via oral em DOSE ÚNICA** após o jantar (PROIBIDO ingerir bebida alcoólica durante e até 4 dias após o uso pelo efeito antabuse: vômitos, rubor e taquicardia!).
+   Tomar 2 comprimidos (total de 2 g) por via oral em DOSE ÚNICA após o jantar (PROIBIDO ingerir bebida alcoólica durante e até 4 dias após o uso pelo efeito antabuse: vômitos, rubor e taquicardia!).
    *[OU Metronidazol 250 mg — Tomar 1 comprimido VO de 8/8h por 5 a 7 dias para Giardíase]*.
 2. [Para Estrongiloidíase — obrigatório antes de usar corticoide sistêmico]:
    Ivermectina 6 mg — Tomar [2 comprimidos (12 mg para 51–65 kg) / 2,5 comprimidos (15 mg para 66–79 kg)] por via oral em dose única em jejum (repetir em 14 dias se necessário).
@@ -97,7 +97,7 @@ ORIENTAÇÕES DE HIGIENE E QUEBRA DO CICLO DE REINFECÇÃO:
 ## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
 
 ### 🧠 1. Por Que Repetimos o Albendazol Após 14 Dias e Por Que Todo Paciente Que Vai Tomar Corticoide Precisa Receber Ivermectina? (Fisiopatologia & Raciocínio)
-- **A Regra dos 14 Dias no Ciclo Biológico dos Helmintos (*Enterobius vermicularis* e Ciclo de Loss):** Os benzimidazóis (Albendazol e Mebendazol) atuam bloqueando a polimerização da $\beta$-tubulina nos microtúbulos citoplasmáticos das células intestinais do verme adulto, impedindo a captação de glicose e matando o helminto adulto na luz intestinal. Porém, **eles têm baixa ação ovicida sobre os ovos já depositados na região perianal (oxiúros) ou sobre as larvas em trânsito pulmonar (Ciclo de Loss — *S. stercoralis*, *Ascaris*, *Ancylostoma*)**! Em 14 dias, esses ovos/larvas amadurecem para vermes adultos no intestino; por isso, **a 2ª dose no 14º dia elimina a nova geração antes que ela consiga pôr novos ovos**, quebrando definitivamente o ciclo!
+- **A Regra dos 14 Dias no Ciclo Biológico dos Helmintos (*Enterobius vermicularis* e Ciclo de Loss):** Os benzimidazóis (Albendazol e Mebendazol) atuam bloqueando a polimerização da β-tubulina nos microtúbulos citoplasmáticos das células intestinais do verme adulto, impedindo a captação de glicose e matando o helminto adulto na luz intestinal. Porém, **eles têm baixa ação ovicida sobre os ovos já depositados na região perianal (oxiúros) ou sobre as larvas em trânsito pulmonar (Ciclo de Loss — *S. stercoralis*, *Ascaris*, *Ancylostoma*)**! Em 14 dias, esses ovos/larvas amadurecem para vermes adultos no intestino; por isso, **a 2ª dose no 14º dia elimina a nova geração antes que ela consiga pôr novos ovos**, quebrando definitivamente o ciclo!
 - **Por que a Estrongiloidíase Disseminada mata o paciente que recebe Corticoide ou Quimioterapia sem profilaxia com Ivermectina:** O *Strongyloides stercoralis* é o único nematoide capaz de realizar **autoinfecção interna perpétua** no ser humano por décadas de forma assintomática (ou apenas com eosinofilia leve no hemograma). Quando o paciente recebe **corticoterapia sistêmica em dose imunossupressora** (ex: Prednisona `≥ 20 mg/dia` por `> 2 semanas`, pulsoterapia de Metilprednisolona, DPOC/Asma, Lúpus, Pênfigo), o corticoide mimetiza o hormônio de muda (ecdisona) do parasita e suprime os eosinófilos, desencadeando a **Síndrome de Hiperinfecção por *Strongyloides***: milhões de larvas filarioides perfuram a parede colônica carregando *Escherichia coli* e *Klebsiella* aderidas à sua cutícula, causando **choque séptico polimicrobiano, meningite por Gram-negativos e hemorragia alveolar com mortalidade `> 80%`**!
 
 ### 💊 2. Como Escolher o Antiparasitário Certo (Por Que Albendazol Dose Única Não Trata Ameba, e Metronidazol Não Trata Verme)? (Racional Farmacológico)

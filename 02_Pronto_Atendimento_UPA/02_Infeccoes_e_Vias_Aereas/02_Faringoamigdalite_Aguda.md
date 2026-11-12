@@ -80,7 +80,7 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 2. [OU Se opção por tratamento oral e NÃO recebeu Benzatina na UPA]:
    Amoxicilina 500 mg -------------------------------------------------------- 30 cápsulas
-   Tomar 1 cápsula por via oral de 8 em 8 horas (ou Amoxicilina 875 mg de 12 em 12 horas) durante **10 DIAS COMPLETOS** (Obrigatório completar os 10 dias mesmo que a dor de garganta desapareça no 2º ou 3º dia, para erradicar a bactéria e prevenir Febre Reumática).
+   Tomar 1 cápsula por via oral de 8 em 8 horas (ou Amoxicilina 875 mg de 12 em 12 horas) durante 10 DIAS COMPLETOS (Obrigatório completar os 10 dias mesmo que a dor de garganta desapareça no 2º ou 3º dia, para erradicar a bactéria e prevenir Febre Reumática).
    *[Se alérgico à Penicilina]*: Azitromicina 500 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Claritromicina 500 mg VO 12/12h por 10 dias).
 
 [PARA TODOS OS PACIENTES — CONTROLE DA DOR E INFLAMAÇÃO]:
@@ -101,7 +101,7 @@ ORIENTAÇÕES E SINAIS DE ALARME (ABSCESSO PERIAMIGDALIANO):
 ## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
 
 ### 🧠 1. Por Que Usamos o Escore de Centor Modificado (McIsaac) e Por Que Tratamos o Estreptococo por 10 Dias? (Fisiopatologia & Raciocínio)
-- **Por que 70% a 80% das dores de garganta em adultos são virais, mesmo quando a garganta está muito vermelha:** Vírus respiratórios (Adenovírus, Rinovírus, Epstein-Barr) são a causa majoritária das faringoamigdalites agudas. O único patógeno bacteriano comum que exige erradicação obrigatória é o ***Streptococcus pyogenes* (Estreptococo $\beta$-hemolítico do Grupo A de Lancefield — GAS)**. O **Escore de Centor Modificado** separa clinicamente o quadro viral (que tem tosse, coriza, rouquidão, conjuntivite ou úlceras orais) do quadro estreptocócico (início abrupto de febre `> 38 °C`, exsudato amigdaliano, adenopatia cervical anterior dolorosa e **ausência de tosse**).
+- **Por que 70% a 80% das dores de garganta em adultos são virais, mesmo quando a garganta está muito vermelha:** Vírus respiratórios (Adenovírus, Rinovírus, Epstein-Barr) são a causa majoritária das faringoamigdalites agudas. O único patógeno bacteriano comum que exige erradicação obrigatória é o ***Streptococcus pyogenes* (Estreptococo β-hemolítico do Grupo A de Lancefield — GAS)**. O **Escore de Centor Modificado** separa clinicamente o quadro viral (que tem tosse, coriza, rouquidão, conjuntivite ou úlceras orais) do quadro estreptocócico (início abrupto de febre `> 38 °C`, exsudato amigdaliano, adenopatia cervical anterior dolorosa e **ausência de tosse**).
 - **O mimetismo molecular da Proteína M e a prevenção da Febre Reumática:** A cápsula do *S. pyogenes* possui a **Proteína M**, cujos epítopos antigênicos mimetizam proteínas da miosina cardíaca e do endotélio valvar mitral/aórtico humano. Se a bactéria persistir na orofaringe por mais de 9 dias sem erradicação completa pelos beta-lactâmicos, os anticorpos anti-estreptocócicos atacam as válvulas cardíacas do paciente (**Febre Reumática Aguda**).
 
 ### 💊 2. Por Que Penicilina Benzatina Dose Única ou Amoxicilina por 10 Dias (e Nunca 5–7 Dias)? (Racional Farmacológico)

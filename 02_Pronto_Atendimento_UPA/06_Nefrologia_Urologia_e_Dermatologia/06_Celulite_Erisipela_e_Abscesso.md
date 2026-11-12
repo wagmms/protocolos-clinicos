@@ -111,7 +111,7 @@ CUIDADOS E SINAIS DE ALERTA:
 
 ### 🧠 1. Erisipela, Celulite e Abscesso: Como a Profundidade e a Purulência Ditam o Antibiótico
 As infecções de pele e partes moles seguem uma divisão anatômica e microbiológica clara (*IDSA*):
-- **Erisipela**: infecção da derme superficial e vasos linfáticos, com placa vermelho-viva, quente, brilhante e **bordas nítidas e elevadas**, causada quase exclusivamente pelo *Streptococcus pyogenes* ($\beta$-hemolítico do grupo A).
+- **Erisipela**: infecção da derme superficial e vasos linfáticos, com placa vermelho-viva, quente, brilhante e **bordas nítidas e elevadas**, causada quase exclusivamente pelo *Streptococcus pyogenes* (β-hemolítico do grupo A).
 - **Celulite não purulenta**: acomete derme profunda e tecido subcutâneo, com **bordas mal delimitadas**, causada por estreptococos e *Staphylococcus aureus* sensível à meticilina (MSSA) — respondendo a **Cefalexina, Amoxicilina-Clavulanato ou Oxacilina/Cefazolina IV**.
 - **Abscesso cutâneo / Celulite purulenta**: coleção flutuante causada predominantemente por *S. aureus* (incluindo cepas comunitárias resistentes à meticilina — **CA-MRSA**). Aqui, o tratamento primário é a **incisão e drenagem cirúrgica**, associada a **SMX-TMP ou Clindamicina** quando há celulite circundante extensa ou sinais sistêmicos.
 

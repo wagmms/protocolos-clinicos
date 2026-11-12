@@ -73,7 +73,7 @@
 ## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
 
 ### 🧠 1. Delirium Orgânico vs. Surto Psicótico Primário: Por Que Essa Diferenciação Salva Vidas?
-Todo quadro de agitação psicomotora aguda com **início abrupto em idoso, flutuação do nível de consciência, desorientação têmporo-espacial, alucinações visuais (zoopsias) ou sinais vitais alterados** é **Delirium secundário a causa orgânica** até prova em contrário (**mnemônico MOVE STUPID**: Metabólico/Hiponatremia, Oxigênio/Hipóxia, Vascular/AVCh, Endócrino/Hipoglicemia, Sepse/Meningite, Trauma/HSD, Uremia, Psicotrópicos/Abstinência alcoólica, Intoxicação, Dor/Globo vesical). Sedar um paciente agitado por **hipóxia, hipoglicemia ou hematoma subdural** sem checar $SpO_2$ e HGT converte uma emergência reversível em óbito.
+Todo quadro de agitação psicomotora aguda com **início abrupto em idoso, flutuação do nível de consciência, desorientação têmporo-espacial, alucinações visuais (zoopsias) ou sinais vitais alterados** é **Delirium secundário a causa orgânica** até prova em contrário (**mnemônico MOVE STUPID**: Metabólico/Hiponatremia, Oxigênio/Hipóxia, Vascular/AVCh, Endócrino/Hipoglicemia, Sepse/Meningite, Trauma/HSD, Uremia, Psicotrópicos/Abstinência alcoólica, Intoxicação, Dor/Globo vesical). Sedar um paciente agitado por **hipóxia, hipoglicemia ou hematoma subdural** sem checar SpO₂ e HGT converte uma emergência reversível em óbito.
 
 ### 💊 2. A Escada da Tranquilização Rápida: Desescalonamento Verbal → Via Oral → Contenção Química IM
 O objetivo na emergência não é "anestesiar" o paciente, mas atingir **calma cooperativa (RASS 0 a -1)**. Após falha do desescalonamento verbal (*Project BETA*) e recusa da medicação oral:

@@ -9,58 +9,58 @@
 ```text
 ###### ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA — CRISE CONVULSIVA FEBRIL (6 MESES A 5 ANOS) ######
 # IDENTIFICAÇÃO & PESO:
-- Criança: [Nome] | Idade: [ ] [meses / anos] (Faixa de definição: 6 a 60 meses; pico aos 18 meses) | **PESO ATUAL: [ ] kg**
+- Criança: [Nome] | Idade: [ ] [meses / anos] (Faixa de definição: 6 a 60 meses; pico aos 18 meses) | PESO ATUAL: [ ] kg
 - Acompanhante: [Mãe / Pai / Responsável: [ ]]
 
 # SUBJETIVO (SEMIOLOGIA DA CRISE & CRITÉRIOS SIMPLES vs COMPLEXA):
 - Queixa Principal (QP): Episódio de crise convulsiva em vigência de febre há [ ] minutos/horas.
 - Semiologia Detalhada do Evento Convulsivo:
-  * Morfologia Motora: **[Crise Generalizada Tônico-Clônica bilateral e simétrica, associada a perda de consciência e versão ocular / Crise Focal — abalos restritos a um hemicorpo ou desvio lateral fixo do olhar]**.
-  * Duração Estimada da Crise: **[< 5 minutos (cessou espontaneamente em domicílio/trajeto) / 5 a 14 minutos / ≥ 15 minutos (Crise Febril Prolongada)]**.
-  * Recorrência em 24 horas: **[Episódio único nas últimas 24 horas / Múltiplos episódios ( crises) no mesmo período de 24 horas]**.
+  * Morfologia Motora: [Crise Generalizada Tônico-Clônica bilateral e simétrica, associada a perda de consciência e versão ocular / Crise Focal — abalos restritos a um hemicorpo ou desvio lateral fixo do olhar].
+  * Duração Estimada da Crise: [< 5 minutos (cessou espontaneamente em domicílio/trajeto) / 5 a 14 minutos / ≥ 15 minutos (Crise Febril Prolongada)].
+  * Recorrência em 24 horas: [Episódio único nas últimas 24 horas / Múltiplos episódios ([ ] crises) no mesmo período de 24 horas].
   * Recuperação Pós-Ictal: [Sonolência pós-ictal breve (< 30–60 min) com retorno completo ao estado neurológico basal normal / Sonolência persistente ou déficit motor focal pós-ictal (Paralisia de Todd)].
 - História da Febre e Antecedentes:
-  * Temperatura aferida: **[ ] °C** (frequentemente ocorre na ascensão rápida da temperatura no 1º dia de febre).
+  * Temperatura aferida: [ ] °C (frequentemente ocorre na ascensão rápida da temperatura no 1º dia de febre).
   * Sintomas do Foco Infeccioso: [Coriza e tosse leve (IVAS) / Dor de ouvido (OMA) / Diarreia aguda / Febre isolada (< 24h)].
   * Antecedentes Pessoais e Familiares: DNPM prévio [normal para a idade]; Crises afebris prévias: [Nega]; História familiar de convulsão febril em pais/irmãos: [Positiva / Negativa]; Vacinação (Hib, Pneumo-10, Meningo C): [Completa em dia / Incompleta].
 
 # OBJETIVO (EXAME FÍSICO NEUROLÓGICO PÓS-ICTAL & BUSCA DO FOCO FEBRIL):
-- Sinais Vitais & Glicemia: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C | **Glicemia Capilar (HGT): [ ] mg/dL (Normoglicemia confirmada)**.
+- Sinais Vitais & Glicemia: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C | Glicemia Capilar (HGT): [ ] mg/dL (Normoglicemia confirmada).
 - Exame Neurológico Pós-Ictal (Após defervescência e recuperação do pós-ictal):
-  * Nível de Consciência: **[Alerta (Glasgow 15), interativo, reconhecendo os pais e consolável no colo / Ainda em sonolência pós-ictal imediata / Letárgico]**.
+  * Nível de Consciência: [Alerta (Glasgow 15), interativo, reconhecendo os pais e consolável no colo / Ainda em sonolência pós-ictal imediata / Letárgico].
   * Pupilas & Pares Cranianos: Pupilas isocóricas e fotorreagentes, motricidade ocular extrínseca preservada.
   * Força Motora & Tônus: Movimentação ativa e simétrica dos 4 membros, sem déficits motores focais (Paralisia de Todd ausente).
-  * Pesquisa de Sinais Meníngeos: Fontanela anterior (se aberta) **plana e normotensa**; nuca livre sem rigidez; Sinais de Kernig e Brudzinski **negativos**.
+  * Pesquisa de Sinais Meníngeos: Fontanela anterior (se aberta) plana e normotensa; nuca livre sem rigidez; Sinais de Kernig e Brudzinski negativos.
 - Exame Segmentar para Identificação do Foco da Febre:
   * Pele: Íntegra, corada, sem petéquias ou sufusões hemorrágicas.
   * Otoscopia & Oroscopia: [Faringe hiperemiada (faringoamigdalite/IVAS viral) / Membrana timpânica abaulada e hiperemiada (OMA) / Sem foco aparente no exame inicial].
   * Cardiopulmonar e Abdome: MV presente bilateralmente sem ruídos adventícios; BNF 2T sem sopros; abdome flácido e indolor.
 
 # AVALIAÇÃO DIAGNÓSTICA & CLASSIFICAÇÃO (SBP / AAP / ILAE):
-1. **[Crise Convulsiva Febril Simples (Típica) — Generalizada, < 15 min, única em 24h e sem déficit pós-ictal / Crise Convulsiva Febril Complexa (Atípica)]** (CID-10: R56.0).
+1. [Crise Convulsiva Febril Simples (Típica) — Generalizada, < 15 min, única em 24h e sem déficit pós-ictal / Crise Convulsiva Febril Complexa (Atípica)] (CID-10: R56.0).
 2. Etiologia da Febre: [IVAS viral / Otite Média Aguda / Exantema Súbito em fase febril / Gastroenterite].
 
 # PLANO / CONDUTA:
 
 >> [ETAPA 1] CONDUTA NA SALA DE EMERGÊNCIA (SE CRISE ATIVA COM DURAÇÃO > 5 MINUTOS):
-1. ABCDE: Posicionar em decúbito lateral de segurança no leito, aspirar vias aéreas superiores suavemente, ofertar O2 sob máscara não reinalante a 10 L/min, instalar monitorização e aferir **Glicemia Capilar (HGT)** imediatamente *(Se hipoglicemia `< 60 mg/dL`: administrar **Glicose 10% [SG 10%] `5 mL/kg` EV em bólus = `0,5 g/kg`** — Regra dos 50 do PALS; nunca usar SG 50% puro em veia periférica pediátrica)*.
-2. **Benzodiazepínico de 1ª Linha (Peso Atual: [ ] kg):**
-   - **Com Acesso Venoso:** **Diazepam `0,2 a 0,3 mg/kg` EV lento** (sem diluir, velocidade máx 1–2 mg/min; dose máx 5 mg em < 5 anos ou 10 mg em ≥ 5 anos) **OU Midazolam `0,15 a 0,2 mg/kg` EV**.
-   - **Sem Acesso Venoso Imediato (Vias Alternativas Rápidas):** **Midazolam `0,2 mg/kg` Intramuscular (IM)** no vasto lateral da coxa (ou `0,2 a 0,3 mg/kg` Intranasal/Bucal).
+1. ABCDE: Posicionar em decúbito lateral de segurança no leito, aspirar vias aéreas superiores suavemente, ofertar O2 sob máscara não reinalante a 10 L/min, instalar monitorização e aferir Glicemia Capilar (HGT) imediatamente *(Se hipoglicemia < 60 mg/dL: administrar Glicose 10% [SG 10%] 5 mL/kg EV em bólus = 0,5 g/kg — Regra dos 50 do PALS; nunca usar SG 50% puro em veia periférica pediátrica)*.
+2. Benzodiazepínico de 1ª Linha (Peso Atual: [ ] kg):
+   - Com Acesso Venoso: Diazepam 0,2 a 0,3 mg/kg EV lento (sem diluir, velocidade máx 1–2 mg/min; dose máx 5 mg em < 5 anos ou 10 mg em ≥ 5 anos) OU Midazolam 0,15 a 0,2 mg/kg EV.
+   - Sem Acesso Venoso Imediato (Vias Alternativas Rápidas): Midazolam 0,2 mg/kg Intramuscular (IM) no vasto lateral da coxa (ou 0,2 a 0,3 mg/kg Intranasal/Bucal).
 
 >> [ETAPA 2] CONDUTA PÓS-CRISE NA CONVULSÃO FEBRIL SIMPLES (CRIANÇA JÁ FORA DE CRISE):
 1. Administrar antitérmico (Dipirona ou Paracetamol) para conforto térmico e tratar o foco infeccioso identificado.
-2. **Propedêutica Racional (Diretrizes AAP / SBP — Choosing Wisely):**
-   - **Punção Lombar (LCR):** [Não indicada — criança > 12 meses (ou 6–12m com vacinação Hib/Pneumo-10 completa), alerta, sem sinais meníngeos e com recuperação pós-ictal completa / Indicada por sinais meníngeos, letargia persistente, < 6m ou 6–12m não vacinado].
-   - **Neuroimagem (TC de Crânio), EEG e Eletrólitos de Rotina:** **NÃO indicados** na Convulsão Febril Simples típica com exame neurológico normal.
-3. **Observação Clínica na Emergência por 2 a 4 Horas:** Confirmada recuperação neurológica basal completa, criança afebril, ativa, aceitando líquidos por via oral e pais tranquilos e orientados -> Alta segura com plano de ação domiciliar.
+2. Propedêutica Racional (Diretrizes AAP / SBP — Choosing Wisely):
+   - Punção Lombar (LCR): [Não indicada — criança > 12 meses (ou 6–12m com vacinação Hib/Pneumo-10 completa), alerta, sem sinais meníngeos e com recuperação pós-ictal completa / Indicada por sinais meníngeos, letargia persistente, < 6m ou 6–12m não vacinado].
+   - Neuroimagem (TC de Crânio), EEG e Eletrólitos de Rotina: NÃO indicados na Convulsão Febril Simples típica com exame neurológico normal.
+3. Observação Clínica na Emergência por 2 a 4 Horas: Confirmada recuperação neurológica basal completa, criança afebril, ativa, aceitando líquidos por via oral e pais tranquilos e orientados -> Alta segura com plano de ação domiciliar.
 >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO & PLANO DE AÇÃO DOMICILIAR — CONVULSÃO FEBRIL SIMPLES
 Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 
 USO ORAL:
 1. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
-   Dar **[ ] gotas** (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor, para proporcionar conforto à criança.
+   Dar [ ] gotas (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor, para proporcionar conforto à criança.
 
 2. [Se identificado foco bacteriano associado — ex: Otite Média Aguda]:
    [Apenas tratamento sintomático da virose / Amoxicilina conforme prescrição específica].
@@ -87,7 +87,7 @@ Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 
 USO ORAL:
 1. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
-   Dar **[ ] gotas** (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor, para proporcionar conforto à criança.
+   Dar [ ] gotas (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor, para proporcionar conforto à criança.
 
 2. [Se identificado foco bacteriano associado — ex: Otite Média Aguda]:
    [Apenas tratamento sintomático da virose / Amoxicilina conforme prescrição específica].

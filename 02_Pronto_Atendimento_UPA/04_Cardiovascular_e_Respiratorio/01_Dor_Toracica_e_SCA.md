@@ -73,7 +73,7 @@
 
 3. VASODILATADOR CORONARIANO / CONTROLE DA DOR:
    - Dinitrato de Isossorbida 5 mg sublingual agora (pode repetir a cada 5 min, até 3 doses, se PAS > 100 mmHg).
-   - [OU]: Nitroglicerina (Tridil 50 mg/10 mL): 1 ampola (10 mL) + 240 mL SG 5% (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 6 mL/h (10 a 20 mcg/min) e titular a cada 3 a 5 min se dor refratária ou congestão pulmonar.
+   - [OU]: Nitroglicerina EV contínua em bomba de infusão se dor refratária ou congestão pulmonar.
    - [CONTRAINDICADO SE PAS < 90 MMHG OU INFARTO DE VENTRÍCULO DIREITO].
 
 4. ANTICOAGULAÇÃO PARENTERAL PLENA (ENOXAPARINA):
@@ -94,7 +94,7 @@
 ## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
 
 ### 🧠 1. Por Que o ECG Deve Ser Feito em Menos de 10 Minutos e Por Que o Nitrato Pode Matar no Infarto de Parede Inferior? (Fisiopatologia & Raciocínio)
-- **Tempo é Músculo Miocárdico (Meta Porta-ECG $\le 10$ min):** Na oclusão trombótica aguda de uma artéria coronária epicárdica (**IAM com Supradesnivelamento de ST — IAMCSST**), a necrose miocárdica avança como uma onda da região subendocárdica para a subepicárdica. Realizar e laudar o ECG de 12 derivações em **até 10 minutos da chegada** permite acionar imediatamente a **Angioplastia Primária (meta Porta-Balão $\le 90$ min; ou $\le 120$ min se transferência)** ou a **Fibrinólise Química (meta Porta-Agulha $\le 30$ min)** caso não haja hemodinâmica disponível em 120 minutos.
+- **Tempo é Músculo Miocárdico (Meta Porta-ECG ≤ 10 min):** Na oclusão trombótica aguda de uma artéria coronária epicárdica (**IAM com Supradesnivelamento de ST — IAMCSST**), a necrose miocárdica avança como uma onda da região subendocárdica para a subepicárdica. Realizar e laudar o ECG de 12 derivações em **até 10 minutos da chegada** permite acionar imediatamente a **Angioplastia Primária (meta Porta-Balão ≤ 90 min; ou ≤ 120 min se transferência)** ou a **Fibrinólise Química (meta Porta-Agulha ≤ 30 min)** caso não haja hemodinâmica disponível em 120 minutos.
 - **A Armadilha Fatal do Nitrato (Isordil / Tridil) no Infarto de Ventrículo Direito (`DII, DIII, aVF` + `V3R, V4R`):** Cerca de 40% dos infartos inferiores por oclusão proximal da Artéria Coronária Direita acometem o **Ventrículo Direito (VD)**. O VD infartado perde sua contratilidade e torna-se **estritamente dependente da pré-carga (retorno venoso)** para conseguir empurrar o sangue pelo pulmão até o átrio esquerdo. Se você der **Dinitrato de Isossorbida (Isordil sublingual), Nitroglicerina (Tridil), Morfina ou Furosemida**, a venodilatação sistêmica zera o retorno venoso para o VD, provocando **choque cardiogênico refratário e parada cardiorrespiratória imediata**!
   - **Regra de Ouro:** Em todo supra ou isquemia de parede inferior (`DII, DIII, aVF`), **rode imediatamente as derivações direitas (`V3R` e `V4R`)** e **pergunte sobre uso de Sildenafila/Tadalafila nas últimas 24–48h** antes de cogitar nitrato! Se houver infarto de VD (`supra ≥ 1 mm em V4R` + hipotensão + turgência jugular + **pulmões limpos**), o tratamento é **expansão volêmica cautelosa com SF 0,9% (250–500 mL)** e reperfusão coronariana imediata!
 
@@ -107,7 +107,7 @@
     * Paciente **`> 75 anos`**: **NÃO fazer dose de ataque!** Administrar apenas **1 comprimido de `75 mg VO`** (evita hemorragia intracraniana no idoso trombolisado!).
 - **Por que NÃO damos Oxigênio se `SpO2 ≥ 90%` nem Morfina/Betabloqueador indiscriminadamente:**
   - **Oxigênio suplementar em normoxêmicos (`SpO2 ≥ 90%` — Estudo DETO2X-AMI):** A hiperóxia gera radicais livres de oxigênio que causam **vasoconstrição coronariana paradoxal** e aumentam a lesão de reperfusão. Só dê O2 se `SpO2 < 90%`!
-  - **Betabloqueador nas primeiras 24h (Estudo COMMIT):** Nunca fazer metoprolol EV ou VO de ataque se o paciente tiver **estertores pulmonares (Killip $\ge$ II), `FC > 110 bpm`, `PAS < 100 mmHg`, `PR > 0,24s` ou história de broncoespasmo**, pois precipita choque cardiogênico!
+  - **Betabloqueador nas primeiras 24h (Estudo COMMIT):** Nunca fazer metoprolol EV ou VO de ataque se o paciente tiver **estertores pulmonares (Killip ≥ II), `FC > 110 bpm`, `PAS < 100 mmHg`, `PR > 0,24s` ou história de broncoespasmo**, pois precipita choque cardiogênico!
 
 ### 🧭 3. Localização Anatômica das Paredes no ECG e Escore HEART para Dor Torácica na UPA
 | Parede Miocárdica no ECG | Derivações com Supra de ST | Artéria Culpada Provável | Cuidado Específico Obrigatório |

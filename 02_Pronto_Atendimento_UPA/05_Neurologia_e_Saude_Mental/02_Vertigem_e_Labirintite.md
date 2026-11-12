@@ -82,7 +82,7 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 USO ORAL (USO CURTO APENAS NOS PRIMEIROS 3 A 5 DIAS DE CRISE):
 1. Dimenidrinato 50 mg + Piridoxina (Vitamina B6) 10 mg (Dramin B6) ------------- 1 caixa
-   Tomar 1 comprimido por via oral de 6 em 6 horas (ou de 8 em 8 horas) durante **apenas 3 a 5 dias** para alívio da tontura rotatória aguda e do enjoo (Atenção: causa sonolência; proibido dirigir ou operar máquinas).
+   Tomar 1 comprimido por via oral de 6 em 6 horas (ou de 8 em 8 horas) durante apenas 3 a 5 dias para alívio da tontura rotatória aguda e do enjoo (Atenção: causa sonolência; proibido dirigir ou operar máquinas).
 
 2. [Se Vertigem Posicional Paroxística Benigna (VPPB) residual ou Doença de Ménière]:
    Dicloridrato de Betaistina 24 mg (Labirin) ----------------------------------- 1 caixa
@@ -92,8 +92,8 @@ USO ORAL (USO CURTO APENAS NOS PRIMEIROS 3 A 5 DIAS DE CRISE):
    Tomar 1 comprimido por via oral de 8 em 8 horas se houver náuseas ou vômitos.
 
 ORIENTAÇÕES CRÍTICAS SOBRE REABILITAÇÃO DO LABIRINTO E SINAIS DE ALARME (AVC):
-- **Por que NÃO usar Dramin, Cinarizina ou Flunarizina por mais de 3 a 5 dias:** Os remédios que "sedam o labirinto" servem apenas para os primeiros 3 dias de crise forte. Se usados por semanas ou meses, eles impedem o cérebro de reequilibrar o labirinto (compensação vestibular central) e, em pessoas idosas, a Cinarizina/Flunarizina causa tremores e rigidez iguais à Doença de Parkinson!
-- Se o seu diagnóstico foi **VPPB ("cristais soltos no labirinto" tratados hoje com a Manobra de Epley)**: Evitar movimentos bruscos da cabeça hoje, levantar-se da cama em duas etapas (primeiro sentar na beira da cama por 1 minuto e só depois levantar) e caminhar normalmente dentro de casa com apoio assim que a crise aliviar.
+- Por que NÃO usar Dramin, Cinarizina ou Flunarizina por mais de 3 a 5 dias: Os remédios que "sedam o labirinto" servem apenas para os primeiros 3 dias de crise forte. Se usados por semanas ou meses, eles impedem o cérebro de reequilibrar o labirinto (compensação vestibular central) e, em pessoas idosas, a Cinarizina/Flunarizina causa tremores e rigidez iguais à Doença de Parkinson!
+- Se o seu diagnóstico foi VPPB ("cristais soltos no labirinto" tratados hoje com a Manobra de Epley): Evitar movimentos bruscos da cabeça hoje, levantar-se da cama em duas etapas (primeiro sentar na beira da cama por 1 minuto e só depois levantar) e caminhar normalmente dentro de casa com apoio assim que a crise aliviar.
 - RETORNAR IMEDIATAMENTE À EMERGÊNCIA SE APRESENTAR (SINAIS DE AVC DE TRONCO/CEREBELO):
   1. Incapacidade de ficar em pé ou caminhar sozinho (queda para os lados / ataxia severa).
   2. Visão dupla (diplopia), fala enrolada (disartria), dificuldade para engolir (disfagia), dormência no rosto ou fraqueza em um braço/perna.
@@ -114,7 +114,7 @@ ORIENTAÇÕES CRÍTICAS SOBRE REABILITAÇÃO DO LABIRINTO E SINAIS DE ALARME (AV
 
 ### 💊 2. Como Diferenciar VPPB (Segundos, Posicional) de Neurite Vestibular (Dias, Contínua) e Por Que Proscrevemos Cinarizina/Flunarizina Contínuas? (Racional Farmacológico)
 - **Se a tontura dura `< 1 minuto` e só acontece ao virar na cama ou olhar para cima (sem nistagmo em repouso):** **NÃO aplique o HINTS!** Trata-se de **Vertigem Posicional Paroxística Benigna (VPPB)** por otólitos (cristais de carbonato de cálcio — otocônias) soltos no canal semicircular posterior! O diagnóstico é confirmado pela **Manobra de Dix-Hallpike** (nistagmo vertical-torcional para cima com latência de 2–5s, duração `< 30–60s` e fatigabilidade) e o **tratamento curativo na própria maca da UPA é a Manobra de Reposicionamento Canalicular de Epley** (taxa de cura de 80–90% em uma única sessão, sem precisar de remédio!).
-- **Por que usar Dramin (Dimenidrinato), Meclizina, Cinarizina ou Flunarizina por mais de 3–5 dias é prejudicial:** Os depressores vestibulares só devem ser usados nos primeiros **3 dias** de uma crise aguda intensa. Após 72 horas, o cerebelo precisa sentir o desequilíbrio entre os dois labirintos para promover a **compensação vestibular central**; manter sedativos labirínticos impede essa neuroplasticidade (deixando o paciente cronicamente tonto) e, em idosos, a **Cinarizina e a Flunarizina bloqueiam receptores dopaminérgicos $D_2$ estriatais, sendo a principal causa de Parkinsonismo Induzido por Drogas no Brasil**!
+- **Por que usar Dramin (Dimenidrinato), Meclizina, Cinarizina ou Flunarizina por mais de 3–5 dias é prejudicial:** Os depressores vestibulares só devem ser usados nos primeiros **3 dias** de uma crise aguda intensa. Após 72 horas, o cerebelo precisa sentir o desequilíbrio entre os dois labirintos para promover a **compensação vestibular central**; manter sedativos labirínticos impede essa neuroplasticidade (deixando o paciente cronicamente tonto) e, em idosos, a **Cinarizina e a Flunarizina bloqueiam receptores dopaminérgicos D₂ estriatais, sendo a principal causa de Parkinsonismo Induzido por Drogas no Brasil**!
 
 ### 🧭 3. Quadro Comparativo do Protocolo HINTS Plus: Vertigem Periférica (Neurite Vestibular) vs Vertigem Central (AVC de Fossa Posterior)
 | Etapa do Exame à Beira do Leito | Achado Compatível com LESÃO PERIFÉRICA (Neurite Vestibular — Todos os 4 precisam estar presentes!) | Achado de ALARME CENTRAL (AVC de Tronco/Cerebelo — Basta 1 alterado para internar!) |

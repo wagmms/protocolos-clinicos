@@ -23,7 +23,7 @@
 
 # 3. [A] ASSESSMENT (AVALIAÇÃO DAS ÚLTIMAS 24H, EXAME & LABORATÓRIO):
 - Evolução nas Últimas 24h: [Estável, sem intercorrências no plantão / Apresentou pico febril de [ ] °C / Apresentou dessaturação para [ ]% / Episódio de hipotensão ou dor aguda].
-- Sinais Vitais Atuais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ([em ar ambiente / sob O2 a L/min]) | Tax máx 24h: [ ] °C.
+- Sinais Vitais Atuais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ([em ar ambiente / sob O2 a [ ] L/min]) | Tax máx 24h: [ ] °C.
 - Balanço Hídrico & Diurese (24h): Diurese: [ ] mL ([ ] mL/kg/h) | BH 24h: [Neutro / Positivo em +[ ] mL / Negativo em -[ ] mL].
 - Achados Físicos Positivos do Dia: [Lúcido(a), eupneico(a), abdome flácido e indolor, extremidades bem perfundidas / Alteração relevante: [ ]].
 - Dispositivos Ativos: [Acesso periférico em [MSD / MSE] D[ ] / CVC em [ ] D[ ] / SVD / SNE / Dreno [ ] com débito de [ ] mL/24h].
@@ -40,7 +40,7 @@
    - Dispositivos: [Retirar SVD hoje / Sacar acesso venoso / Sacar dreno cirúrgico / Manter dispositivos].
 2. Pendências Objetivas para o Plantonista (Formato "Se X → Fazer Y"):
    - Pendência 1 (Laboratório): Checar resultado de [Eletrólitos / Hb / Função renal / Cultura] às [HH:MM] -> [Se K < 3,5 mEq/L, repor KCl; se Hb < 7,0 g/dL, transfundir 1 CH; se normal, manter conduta].
-   - Pendência 2 (Imagem / Parecer): Cobrar realização/laudo de [TC / USG / Parecer da] -> [Conduta conforme achado: ( )].
+   - Pendência 2 (Imagem / Parecer): Cobrar realização/laudo de [TC / USG / Parecer da [ ]] -> [Conduta conforme achado: [ ]].
    - Pendência 3 (Vigilância Clínica): Reavaliar [padrão respiratório / pressão arterial / diurese] às [HH:MM].
 3. Previsão de Alta Hospitalar: [Programada alta para (hoje / amanhã / em 48h) após conclusão de metas].
 ```

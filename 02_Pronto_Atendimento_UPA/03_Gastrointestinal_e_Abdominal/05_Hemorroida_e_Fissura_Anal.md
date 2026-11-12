@@ -73,8 +73,8 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 USO ORAL E TÓPICO:
 1. Diosmina 450 mg + Hesperidina 50 mg (Daflon 500 mg / Velunid) -------------- 1 caixa (30 comprimidos)
    [Ataque na Crise Hemorroidária Aguda]:
-   - Nos primeiros 4 dias: Tomar **2 comprimidos por via oral de 8 em 8 horas** (total de 6 comprimidos ao dia, junto às refeições).
-   - Nos 3 dias seguintes: Tomar **2 comprimidos por via oral de 12 em 12 horas** (total de 4 comprimidos ao dia).
+   - Nos primeiros 4 dias: Tomar 2 comprimidos por via oral de 8 em 8 horas (total de 6 comprimidos ao dia, junto às refeições).
+   - Nos 3 dias seguintes: Tomar 2 comprimidos por via oral de 12 em 12 horas (total de 4 comprimidos ao dia).
    - Após o 7º dia: Manter 2 comprimidos 1x ao dia por mais 2 a 3 semanas.
 
 2. Muciloide de Psyllium (Metamucil / Plantago ovata) ou Polietilenoglicol (PEG 4000 — Muvinlax) --- 1 caixa
@@ -82,18 +82,18 @@ USO ORAL E TÓPICO:
 
 3. [SE TROMBOSE HEMORROIDÁRIA — Pomada Anestésica/Anti-inflamatória por prazo curto]:
    Policresuleno + Cinchocaína Pomada (Proctyl) (ou Lidocaína 2% + Hidrocortisona — Xyloproct) --- 1 bisnaga
-   Aplicar externamente no mamilo hemorroidário 2 a 3 vezes ao dia e após evacuar, por **no máximo 5 a 7 dias**.
+   Aplicar externamente no mamilo hemorroidário 2 a 3 vezes ao dia e após evacuar, por no máximo 5 a 7 dias.
 
 4. [OU SE FISSURA ANAL AGUDA COM ESPASMO ESFINCTERIANO]:
    Diltiazem 2% + Lidocaína 2% em Gel/Pomada (ou Nifedipino 0,3% + Lidocaína 2%) --- 1 bisnaga (Manipulado ou comercial)
-   Aplicar na borda anal de 8 em 8 horas durante 4 a 6 semanas (relaxa a musculatura do esfíncter interno e cicatriza a fissura; **evitar pomadas com corticoide na fissura anal!**).
+   Aplicar na borda anal de 8 em 8 horas durante 4 a 6 semanas (relaxa a musculatura do esfíncter interno e cicatriza a fissura; evitar pomadas com corticoide na fissura anal!).
 
 5. Cetoprofeno 100 mg VO de 12/12h por 3 a 5 dias + Dipirona 1 g VO de 6/6h se dor.
 
 MEDIDAS LOCAIS INDISPENSÁVEIS (BANHO DE ASSENTO MORNO):
-- **Banho de Assento com Água Morna Pura:** Sentar em uma bacia com água morna (sem sal, sem vinagre e sem sabonete) por **15 minutos, 3 a 4 vezes ao dia** e sempre após evacuar (o calor morno relaxa o espasmo do esfíncter anal e alivia a dor mais do que qualquer pomada).
-- **Abolir o uso de Papel Higiênico:** Nunca esfregar papel higiênico após evacuar; lavar exclusivamente com a ducha higiênica ou água e secar apenas encostando uma toalha macia.
-- **Sinais de Alarme (Retorno Imediato):** Febre, calafrios, dor perianal pulsátil que piora progressivamente impedindo de sentar com inchaço quente ao lado do ânus (suspeita de Abscesso Anorretal) ou sangramento volumoso com tontura.
+- Banho de Assento com Água Morna Pura: Sentar em uma bacia com água morna (sem sal, sem vinagre e sem sabonete) por 15 minutos, 3 a 4 vezes ao dia e sempre após evacuar (o calor morno relaxa o espasmo do esfíncter anal e alivia a dor mais do que qualquer pomada).
+- Abolir o uso de Papel Higiênico: Nunca esfregar papel higiênico após evacuar; lavar exclusivamente com a ducha higiênica ou água e secar apenas encostando uma toalha macia.
+- Sinais de Alarme (Retorno Imediato): Febre, calafrios, dor perianal pulsátil que piora progressivamente impedindo de sentar com inchaço quente ao lado do ânus (suspeita de Abscesso Anorretal) ou sangramento volumoso com tontura.
 ```
 
 ---

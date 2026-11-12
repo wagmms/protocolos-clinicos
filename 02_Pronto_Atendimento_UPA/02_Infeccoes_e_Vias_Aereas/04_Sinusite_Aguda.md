@@ -75,7 +75,7 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 USO ORAL E NASAL:
 1. [Primeira Linha]: Amoxicilina + Clavulanato 875/125 mg (ou Amoxicilina 500 mg 8/8h) --- 14 comprimidos
-   Tomar 1 comprimido por via oral de 12 em 12 horas, sempre junto às refeições, durante **7 a 10 dias**.
+   Tomar 1 comprimido por via oral de 12 em 12 horas, sempre junto às refeições, durante 7 a 10 dias.
    *[Se alérgico a Penicilinas]*: Levofloxacino 500 mg (ou 750 mg) — Tomar 1 comprimido VO 1x/dia por 7 dias (ou Doxiciclina 100 mg VO 12/12h por 7–10 dias).
 
 2. Furoato de Mometasona Spray Nasal 50 mcg/jato (ou Budesonida 50–64 mcg) --- 1 frasco

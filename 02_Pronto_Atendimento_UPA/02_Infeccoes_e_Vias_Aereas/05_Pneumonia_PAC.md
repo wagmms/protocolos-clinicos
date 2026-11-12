@@ -79,14 +79,14 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 [OPÇÃO A — PACIENTE HÍGIDO SEM COMORBIDADES E SEM USO DE ATB NOS ÚLTIMOS 90 DIAS]:
 1. Amoxicilina 500 mg (ou Amoxicilina 875 mg de 12/12h) ---------------------- 21 cápsulas
-   Tomar 1 cápsula (ou 2 cápsulas = 1 g) por via oral de 8 em 8 horas durante **7 dias**.
+   Tomar 1 cápsula (ou 2 cápsulas = 1 g) por via oral de 8 em 8 horas durante 7 dias.
    *[OU Se suspeita de germe atípico / alergia leve]*: Azitromicina 500 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Claritromicina 500 mg VO 12/12h por 7 dias).
 
 [OPÇÃO B — PACIENTE COM COMORBIDADES (HAS, DM, DPOC, IC, DRC, IDOSO) OU USO RECENTE DE ATB]:
 1. Amoxicilina + Clavulanato 875/125 mg -------------------------------------- 14 comprimidos
-   Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante **7 dias**.
+   Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante 7 dias.
 2. ASSOCIADO A: Azitromicina 500 mg ------------------------------------------ 5 comprimidos
-   Tomar 1 comprimido por via oral 1 vez ao dia durante **5 dias** (Terapia combinada Beta-lactâmico + Macrolídeo).
+   Tomar 1 comprimido por via oral 1 vez ao dia durante 5 dias (Terapia combinada Beta-lactâmico + Macrolídeo).
    *[OU Monoterapia Alternativa com Quinolona Respiratória]*: Levofloxacino 750 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Moxifloxacino 400 mg VO 1x/dia por 5–7 dias).
 
 [MEDICAÇÃO SINTOMÁTICA E SUPORTE]:
@@ -110,14 +110,14 @@ Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 
 [OPÇÃO A — PACIENTE HÍGIDO SEM COMORBIDADES E SEM USO DE ATB NOS ÚLTIMOS 90 DIAS]:
 1. Amoxicilina 500 mg (ou Amoxicilina 875 mg de 12/12h) ---------------------- 21 cápsulas
-   Tomar 1 cápsula (ou 2 cápsulas = 1 g) por via oral de 8 em 8 horas durante **7 dias**.
+   Tomar 1 cápsula (ou 2 cápsulas = 1 g) por via oral de 8 em 8 horas durante 7 dias.
    *[OU Se suspeita de germe atípico / alergia leve]*: Azitromicina 500 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Claritromicina 500 mg VO 12/12h por 7 dias).
 
 [OPÇÃO B — PACIENTE COM COMORBIDADES (HAS, DM, DPOC, IC, DRC, IDOSO) OU USO RECENTE DE ATB]:
 1. Amoxicilina + Clavulanato 875/125 mg -------------------------------------- 14 comprimidos
-   Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante **7 dias**.
+   Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante 7 dias.
 2. ASSOCIADO A: Azitromicina 500 mg ------------------------------------------ 5 comprimidos
-   Tomar 1 comprimido por via oral 1 vez ao dia durante **5 dias** (Terapia combinada Beta-lactâmico + Macrolídeo).
+   Tomar 1 comprimido por via oral 1 vez ao dia durante 5 dias (Terapia combinada Beta-lactâmico + Macrolídeo).
    *[OU Monoterapia Alternativa com Quinolona Respiratória]*: Levofloxacino 750 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Moxifloxacino 400 mg VO 1x/dia por 5–7 dias).
 
 [MEDICAÇÃO SINTOMÁTICA E SUPORTE]:
