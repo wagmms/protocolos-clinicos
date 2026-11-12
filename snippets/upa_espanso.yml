@@ -22,7 +22,7 @@ matches:
       
       # ANTECEDENTES (HPP & HÁBITOS):
       - Comorbidades: [Nega / HAS / DM2 / Asma / DPOC / DAC prévia / DRC / Neoplasia].
-      - Medicações em Uso Contínuo: [Nega uso de medicações contínuas /].
+      - Medicações em Uso Contínuo: [Nega uso de medicações contínuas / Em uso de: [ ]].
       - ALERGIAS MEDICAMENTOSAS: [NEGA ALERGIAS CONHECIDAS / ALÉRGICO(A) A: (DIPIRONA / PENICILINA / AINES / OUTRA:)].
       - Hábitos: [Nega tabagismo, etilismo ou substâncias ilícitas / Tabagista maços/ano / Etilista social].
       
@@ -122,7 +122,7 @@ matches:
         * Nega dispneia, falta de ar, dor torácica ventilatório-dependente ou sibilos.
         * Nega dor facial intensa em peso unilateral ou secreção nasal purulenta fétida > 10 dias.
         * Nega disfagia intensa com recusa hídrica, trismo ou sialorreia.
-      - Alergias Medicamentosas: [Nega alergias conhecidas / Alérgico a:].
+      - Alergias Medicamentosas: [Nega alergias conhecidas / Alérgico a: [ ]].
       - Comorbidades: [Hígido / Asma / HAS / DM2].
       
       # OBJETIVO (EXAME FÍSICO DIRIGIDO):
@@ -595,6 +595,30 @@ matches:
       
       >> SINAIS DE ALARME PARA RETORNO IMEDIATO:
       - Orientado(a) a procurar a emergência imediatamente se apresentar falta de ar progressiva, lábios azulados, vômitos que impeçam tomar o antibiótico ou sonolência e desorientação.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — PNEUMONIA ADQUIRIDA NA COMUNIDADE (MANEJO AMBULATORIAL — CURB-65 = 0 OU 1)
+      Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+      
+      [OPÇÃO A — PACIENTE HÍGIDO SEM COMORBIDADES E SEM USO DE ATB NOS ÚLTIMOS 90 DIAS]:
+      1. Amoxicilina 500 mg (ou Amoxicilina 875 mg de 12/12h) ---------------------- 21 cápsulas
+         Tomar 1 cápsula (ou 2 cápsulas = 1 g) por via oral de 8 em 8 horas durante **7 dias**.
+         *[OU Se suspeita de germe atípico / alergia leve]*: Azitromicina 500 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Claritromicina 500 mg VO 12/12h por 7 dias).
+      
+      [OPÇÃO B — PACIENTE COM COMORBIDADES (HAS, DM, DPOC, IC, DRC, IDOSO) OU USO RECENTE DE ATB]:
+      1. Amoxicilina + Clavulanato 875/125 mg -------------------------------------- 14 comprimidos
+         Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante **7 dias**.
+      2. ASSOCIADO A: Azitromicina 500 mg ------------------------------------------ 5 comprimidos
+         Tomar 1 comprimido por via oral 1 vez ao dia durante **5 dias** (Terapia combinada Beta-lactâmico + Macrolídeo).
+         *[OU Monoterapia Alternativa com Quinolona Respiratória]*: Levofloxacino 750 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Moxifloxacino 400 mg VO 1x/dia por 5–7 dias).
+      
+      [MEDICAÇÃO SINTOMÁTICA E SUPORTE]:
+      3. Dipirona Monoidratada 1 g ------------------------------------------------- 1 caixa
+         Tomar 1 comprimido por via oral de 6 em 6 horas se febre (Tax ≥ 37,8 °C) ou dor no peito ao respirar.
+      
+      ORIENTAÇÕES E SINAIS DE ALARME (REAVALIAÇÃO OBRIGATÓRIA EM 48–72H):
+      - Manter repouso domiciliar, alimentação nutritiva e hidratação oral vigorosa (mínimo de 2 a 2,5 litros de água por dia para fluidificar a secreção pulmonar).
+      - REAVALIAÇÃO MÉDICA EM 48 A 72 HORAS: A febre deve ceder e o cansaço deve melhorar em até 48 a 72 horas do início do antibiótico.
+      - RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Falta de ar em repouso, respiração muito rápida, lábios arroxeados, tontura/queda da pressão, confusão mental/sonolência, vômitos que impeçam tomar o antibiótico ou febre persistente após 72 horas.
 
   - trigger: ";pneumonia-cnd"
     replace: |
@@ -623,9 +647,34 @@ matches:
       
       >> SINAIS DE ALARME PARA RETORNO IMEDIATO:
       - Orientado(a) a procurar a emergência imediatamente se apresentar falta de ar progressiva, lábios azulados, vômitos que impeçam tomar o antibiótico ou sonolência e desorientação.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — PNEUMONIA ADQUIRIDA NA COMUNIDADE (MANEJO AMBULATORIAL — CURB-65 = 0 OU 1)
+      Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+      
+      [OPÇÃO A — PACIENTE HÍGIDO SEM COMORBIDADES E SEM USO DE ATB NOS ÚLTIMOS 90 DIAS]:
+      1. Amoxicilina 500 mg (ou Amoxicilina 875 mg de 12/12h) ---------------------- 21 cápsulas
+         Tomar 1 cápsula (ou 2 cápsulas = 1 g) por via oral de 8 em 8 horas durante **7 dias**.
+         *[OU Se suspeita de germe atípico / alergia leve]*: Azitromicina 500 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Claritromicina 500 mg VO 12/12h por 7 dias).
+      
+      [OPÇÃO B — PACIENTE COM COMORBIDADES (HAS, DM, DPOC, IC, DRC, IDOSO) OU USO RECENTE DE ATB]:
+      1. Amoxicilina + Clavulanato 875/125 mg -------------------------------------- 14 comprimidos
+         Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante **7 dias**.
+      2. ASSOCIADO A: Azitromicina 500 mg ------------------------------------------ 5 comprimidos
+         Tomar 1 comprimido por via oral 1 vez ao dia durante **5 dias** (Terapia combinada Beta-lactâmico + Macrolídeo).
+         *[OU Monoterapia Alternativa com Quinolona Respiratória]*: Levofloxacino 750 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Moxifloxacino 400 mg VO 1x/dia por 5–7 dias).
+      
+      [MEDICAÇÃO SINTOMÁTICA E SUPORTE]:
+      3. Dipirona Monoidratada 1 g ------------------------------------------------- 1 caixa
+         Tomar 1 comprimido por via oral de 6 em 6 horas se febre (Tax ≥ 37,8 °C) ou dor no peito ao respirar.
+      
+      ORIENTAÇÕES E SINAIS DE ALARME (REAVALIAÇÃO OBRIGATÓRIA EM 48–72H):
+      - Manter repouso domiciliar, alimentação nutritiva e hidratação oral vigorosa (mínimo de 2 a 2,5 litros de água por dia para fluidificar a secreção pulmonar).
+      - REAVALIAÇÃO MÉDICA EM 48 A 72 HORAS: A febre deve ceder e o cansaço deve melhorar em até 48 a 72 horas do início do antibiótico.
+      - RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Falta de ar em repouso, respiração muito rápida, lábios arroxeados, tontura/queda da pressão, confusão mental/sonolência, vômitos que impeçam tomar o antibiótico ou febre persistente após 72 horas.
 
   - trigger: ";pneumonia-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO — PNEUMONIA ADQUIRIDA NA COMUNIDADE (MANEJO AMBULATORIAL — CURB-65 = 0 OU 1)
       Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
       
@@ -663,7 +712,7 @@ matches:
         * Nega enxergar halos coloridos ao redor de luzes ou cefaleia hemicraniana com náuseas (afasta Glaucoma Agudo).
         * Nega uso de lentes de contato (afasta ceratite por Pseudomonas).
         * Nega trauma ocular mecânico, químico ou respingo de substâncias cáusticas.
-      - Alergias: [Nega alergias / Alérgico a colírios:].
+      - Alergias: [Nega alergias / Alérgico a colírios: [ ]].
       
       # OBJETIVO (EXAME FÍSICO OFTALMOLÓGICO BÁSICO):
       - Ectoscopia Ocular Externa:
@@ -701,6 +750,25 @@ matches:
       - Suspender imediatamente o uso de lentes de contato até 1 semana após a cura completa.
       - Descarte imediato de maquiagens oculares usadas recentemente.
       - ALERTA: Procurar atendimento oftalmológico com urgência se a visão ficar embaçada, se surgir dor de cabeça muito forte no olho ou se não houver melhora após 4 a 5 dias.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — CONJUNTIVITE AGUDA
+      Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+      
+      [PARA TODOS OS CASOS — VIRAL OU BACTERIANA]:
+      1. Colírio Lubrificante Ocular (Lágrima Artificial sem conservantes — ex: Carmellose / Hialuronato de Sódio) --- 1 frasco
+         Pingar 1 a 2 gotas no(s) olho(s) afetado(s) de 2 em 2 horas ou de 4 em 4 horas (Dica: manter o frasco do colírio lubrificante na porta da geladeira; o colírio gelado desincha a conjuntiva e alivia a ardência e sensação de areia).
+      
+      2. Soro Fisiológico 0,9% (Frasco pequeno mantido na geladeira) --------------- 1 frasco
+         Realizar compressas frias sobre as pálpebras fechadas com gaze estéril embebida em soro fisiológico gelado por 10 minutos, 4 a 6 vezes ao dia, e limpar delicadamente as secreções.
+      
+      [ADICIONAR APENAS SE CONJUNTIVITE BACTERIANA — SECREÇÃO PURULENTA AMARELO-ESVERDEADA]:
+      3. Tobramicina 0,3% Colírio (Tobrex) (ou Moxifloxacino 0,5% / Ofloxacino 0,3% Colírio) --- 1 frasco
+         Pingar 1 gota no(s) olho(s) afetado(s) de 4 em 4 horas (durante o dia) por **7 dias** (sem encostar a ponta do frasco nos cílios).
+      
+      ORIENTAÇÕES DE HIGIENE, CONTÁGIO E SINAIS DE ALARME OCULAR:
+      - NUNCA usar água boricada (irrita a córnea) e NUNCA usar colírios com corticoide (como Maxidex, Dexacol ou Tobradex) ou colírios clareadores vasoconstritores sem prescrição de oftalmologista.
+      - Lavar as mãos com frequência, separar toalha de rosto e fronha de travesseiro, não coçar os olhos e suspender imediatamente o uso de lentes de contato e maquiagem ocular.
+      - PROCURAR IMEDIATAMENTE OFTALMOLOGISTA / EMERGÊNCIA SE APRESENTAR: Diminuição da visão (visão borrada que não limpa ao piscar), dor ocular profunda intensa, intolerância severa à claridade (fotofobia), mancha branca na parte colorida do olho (úlcera de córnea), pupila de tamanho diferente ou inchaço nas pálpebras com febre.
 
   - trigger: ";conjuntivite-cnd"
     replace: |
@@ -726,9 +794,29 @@ matches:
       - Suspender imediatamente o uso de lentes de contato até 1 semana após a cura completa.
       - Descarte imediato de maquiagens oculares usadas recentemente.
       - ALERTA: Procurar atendimento oftalmológico com urgência se a visão ficar embaçada, se surgir dor de cabeça muito forte no olho ou se não houver melhora após 4 a 5 dias.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — CONJUNTIVITE AGUDA
+      Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+      
+      [PARA TODOS OS CASOS — VIRAL OU BACTERIANA]:
+      1. Colírio Lubrificante Ocular (Lágrima Artificial sem conservantes — ex: Carmellose / Hialuronato de Sódio) --- 1 frasco
+         Pingar 1 a 2 gotas no(s) olho(s) afetado(s) de 2 em 2 horas ou de 4 em 4 horas (Dica: manter o frasco do colírio lubrificante na porta da geladeira; o colírio gelado desincha a conjuntiva e alivia a ardência e sensação de areia).
+      
+      2. Soro Fisiológico 0,9% (Frasco pequeno mantido na geladeira) --------------- 1 frasco
+         Realizar compressas frias sobre as pálpebras fechadas com gaze estéril embebida em soro fisiológico gelado por 10 minutos, 4 a 6 vezes ao dia, e limpar delicadamente as secreções.
+      
+      [ADICIONAR APENAS SE CONJUNTIVITE BACTERIANA — SECREÇÃO PURULENTA AMARELO-ESVERDEADA]:
+      3. Tobramicina 0,3% Colírio (Tobrex) (ou Moxifloxacino 0,5% / Ofloxacino 0,3% Colírio) --- 1 frasco
+         Pingar 1 gota no(s) olho(s) afetado(s) de 4 em 4 horas (durante o dia) por **7 dias** (sem encostar a ponta do frasco nos cílios).
+      
+      ORIENTAÇÕES DE HIGIENE, CONTÁGIO E SINAIS DE ALARME OCULAR:
+      - NUNCA usar água boricada (irrita a córnea) e NUNCA usar colírios com corticoide (como Maxidex, Dexacol ou Tobradex) ou colírios clareadores vasoconstritores sem prescrição de oftalmologista.
+      - Lavar as mãos com frequência, separar toalha de rosto e fronha de travesseiro, não coçar os olhos e suspender imediatamente o uso de lentes de contato e maquiagem ocular.
+      - PROCURAR IMEDIATAMENTE OFTALMOLOGISTA / EMERGÊNCIA SE APRESENTAR: Diminuição da visão (visão borrada que não limpa ao piscar), dor ocular profunda intensa, intolerância severa à claridade (fotofobia), mancha branca na parte colorida do olho (úlcera de córnea), pupila de tamanho diferente ou inchaço nas pálpebras com febre.
 
   - trigger: ";conjuntivite-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO — CONJUNTIVITE AGUDA
       Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
       
@@ -765,7 +853,7 @@ matches:
         - Sangramento de mucosas (gengivorragia, epistaxe, metrorragia volumosa ou hematêmese)
         - Letargia, sonolência excessiva, desorientação ou irritabilidade
         - Aumento progressivo e abrupto do hematócrito (hemoconcentração)
-        * STATUS: [TODOS OS SINAIS DE ALARME NEGADOS / SINAL DE ALARME PRESENTE:].
+        * STATUS: [TODOS OS SINAIS DE ALARME NEGADOS / SINAL DE ALARME PRESENTE: [ ]].
       - Comorbidades / Fatores de Risco: [Nega / Idade >= 65 anos / Gestante / HAS / DM2 / Cardiopata / DRC / Hepatopata / Asma].
       - Alergias: [Nega / Alérgico a Dipirona].
       
@@ -799,7 +887,7 @@ matches:
       2. Sintomáticos:
          - Dipirona 500 mg a 1 g VO de 6/6 horas se dor ou febre (ou Paracetamol 750 mg VO de 6/6h).
          - [Se náuseas]: Metoclopramida 10 mg VO 8/8h ou Ondansetrona 4 a 8 mg VO 8/8h.
-      3. CONTRAINDICAÇÃO FORMAL E ABSOLUTA: PROIBIDO USO DE AAS (ÁCIDO ACETILSALICÍLICO) E QUALQUER ANTI-INFLAMATÓRIO (IBUPROFENO, CETOPROFENO, DICLOFENACO, NIXILIDA, MELOXICAM, CORTICOIDES) PELO RISCO GRAVE DE HEMORRAGIA E AGRAVAMENTO DO QUADRO.
+      3. CONTRAINDICAÇÃO FORMAL E ABSOLUTA: PROIBIDO USO DE AAS (ÁCIDO ACETILSALICÍLICO) E QUALQUER ANTI-INFLAMATÓRIO (IBUPROFENO, CETOPROFENO, DICLOFENACO, NIMESULIDA, MELOXICAM, CORTICOIDES) PELO RISCO GRAVE DE HEMORRAGIA E AGRAVAMENTO DO QUADRO.
       4. Cartão de Acompanhamento da Dengue entregue com agendamento de retorno obrigatório na UBS/UPA no dia da queda da febre (dias 3 a 5).
       
       >> [SE GRUPO B]: OBSERVAÇÃO CLÍNICA NA UPA:
@@ -809,11 +897,60 @@ matches:
       >> [SE GRUPO C]: INTERNAÇÃO HOSPITALAR / CONDUTA IMEDIATA:
       1. Hidratação Venosa Imediata com Cristaloide (SF 0,9% ou Ringer Lactato):
          - Fase de Expansão: Infundir 10 mL/kg em 1 hora EV (Volume = [ ] mL em 1h).
-         - Reavaliação clínica e hematócrito em 2 horas. Se melhora: 8 mL/kg/h por 2h; depois 5 mL/kg/h por 2h.
-      2. Cateterismo vesical se oligúria; monitorização contínua de sinais vitais.
+         - Reavaliação clínica a cada 1 hora e hematócrito em 2 horas. Repetir fase de expansão até 3 vezes se ausência de melhora.
+         - Fase de Manutenção após melhora clínica/estabilização do Ht:
+           * 1ª Fase de Manutenção: 25 mL/kg em 6 horas (~4,1 mL/kg/h) EV (Volume = [ ] mL em 6h).
+           * 2ª Fase de Manutenção: 25 mL/kg em 8 horas (~3,1 mL/kg/h) EV (sendo 1/3 SF 0,9% + 2/3 SG 5%).
+      2. Cateterismo vesical se oligúria; monitorização contínua de sinais vitais e débito urinário (alvo >= 1 mL/kg/h).
+      
+      >> [SE GRUPO D]: DENGUE GRAVE / CHOQUE CIRCULATÓRIO (SALA VERMELHA):
+      1. Acesso venoso periférico duplo e calibroso imediato ou acesso venoso central.
+      2. Fase de Expansão Rápida com Cristaloide (SF 0,9% ou Ringer Lactato):
+         - Infundir 20 mL/kg EV em até 20 minutos (Volume = [ ] mL em 20 min).
+         - Reavaliação clínica hemodinâmica a cada 15 a 30 minutos e controle de hematócrito a cada 2 horas.
+         - Se choque persistente: repetir a expansão rápida de 20 mL/kg em 20 minutos até 3 vezes.
+      3. Se Choque Refratário a Volume após 3 expansões (Ht elevado = extravasamento persistente):
+         - Avaliar expansor plasmático coloide (Albumina humana a 5% 0,5 a 1 g/kg ou 10 a 20 mL/kg ou substitutos sintéticos).
+         - Iniciar suporte vasopressor precoce com Noradrenalina em BIC (iniciar a 0,1 a 0,5 mcg/kg/min) se hipotensão refratária com PAM < 65 mmHg.
+      4. Se Hematócrito em Queda Abrupta com Choque Mantido:
+         - Investigar hemorragia grave oculta (digestiva/retroperitoneal). Solicitar concentrado de hemácias de urgência (10 a 15 mL/kg).
+      5. Vaga imediata de UTI via regulação (CROSS/SISREG). Monitorização estrita de sinais vitais e débito urinário horário por SVD.
       
       >> SINAIS DE ALARME EXPLICADOS À FAMÍLIA (RETORNO IMEDIATO):
       - Atenção extrema nos dias em que a febre começar a ceder (período de maior risco de choque). Retornar correndo se tiver vômitos que não param, dor de barriga muito forte, sangramentos no nariz ou gengiva, tontura ao sentar ou sonolência extrema.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO & PLANO DE HIDRATAÇÃO — DENGUE (GRUPOS A E B — MINISTÉRIO DA SAÚDE)
+      Paciente: [Nome] | Peso Atual: [ ] kg | Dia de Doença: [ ]º dia | Data: [DD/MM/AAAA]
+      
+      1. PRESCRIÇÃO DE HIDRATAÇÃO ORAL VIGOROSA (O REMÉDIO QUE SALVA VIDAS NA DENGUE):
+         - Meta diária calculada pelo seu peso (60 mL/kg/dia): Beber **[ ] Litros de líquidos por dia** (divididos ao longo do dia).
+         - **1/3 deste volume ([ ] mL/dia)** DEVE ser de **Sais de Reidratação Oral (SRO)** (diluir 1 envelope em 1 litro de água filtrada) ou soro caseiro / água de coco.
+         - **2/3 deste volume ([ ] mL/dia)** em água pura, sucos naturais de frutas, chás claros ou sopas.
+         - Manter essa hidratação durante todo o período de febre e por até 24 a 48 horas após a febre desaparecer!
+      
+      2. MEDICAÇÃO PARA FEBRE E DOR:
+         - Dipirona Monoidratada 500 mg (ou 1 g) ----------------------------------- 1 caixa
+           Tomar 1 comprimido de 1 g (ou 2 comprimidos de 500 mg) por via oral até de 6 em 6 horas se febre ou dor no corpo/cabeça.
+         - [OU Alternativa] Paracetamol 500 mg a 750 mg ---------------------------- 1 caixa
+           Tomar 1 comprimido por via oral de 6 em 6 horas se febre ou dor (Máximo de 4 comprimidos em 24 horas).
+      
+      3. MEDICAÇÃO PARA NÁUSEAS / ENJOO:
+         - Ondansetrona 4 mg (ou Metoclopramida / Bromoprida 10 mg) ---------------- 1 caixa
+           Tomar 1 comprimido por via oral de 8 em 8 horas se apresentar enjoo.
+      
+      4. [Se coceira intensa na pele (exantema da dengue)]:
+         - Loratadina 10 mg (ou Dexclorfeniramina 2 mg) ---------------------------- 1 caixa
+           Tomar 1 comprimido por via oral 1 a 2 vezes ao dia + banhos frios e loção hidratante.
+      
+      PROIBIÇÃO ABSOLUTA (RISCO DE HEMORRAGIA GRAVE):
+      - É TERMINANTEMENTE PROIBIDO tomar AAS (Aspirina) e qualquer Anti-inflamatório (Ibuprofeno, Diclofenaco, Cetoprofeno, Nimesulida, Naproxeno, Celecoxibe) ou Corticoides, nem aplicar injeções intramusculares!
+      
+      SINAIS DE ALARME DA DENGUE (VOLTAR IMEDIATAMENTE À UPA — PRINCIPALMENTE QUANDO A FEBRE BAIXAR NO 3º AO 7º DIA!):
+      1. Dor na barriga (dor abdominal) intensa e contínua.
+      2. Vômitos persistentes (não consegue segurar líquidos).
+      3. Tontura, sensação de vista escura ou desmaio ao ficar de pé (hipotensão postural).
+      4. Qualquer sangramento (gengiva, nariz, manchas vermelhas/roxas na pele, fezes escuras, vômito com sangue ou menstruação excessiva).
+      5. Sonolência excessiva, confusão mental, irritabilidade ou falta de ar.
 
   - trigger: ";dengue-cnd"
     replace: |
@@ -826,7 +963,7 @@ matches:
       2. Sintomáticos:
          - Dipirona 500 mg a 1 g VO de 6/6 horas se dor ou febre (ou Paracetamol 750 mg VO de 6/6h).
          - [Se náuseas]: Metoclopramida 10 mg VO 8/8h ou Ondansetrona 4 a 8 mg VO 8/8h.
-      3. CONTRAINDICAÇÃO FORMAL E ABSOLUTA: PROIBIDO USO DE AAS (ÁCIDO ACETILSALICÍLICO) E QUALQUER ANTI-INFLAMATÓRIO (IBUPROFENO, CETOPROFENO, DICLOFENACO, NIXILIDA, MELOXICAM, CORTICOIDES) PELO RISCO GRAVE DE HEMORRAGIA E AGRAVAMENTO DO QUADRO.
+      3. CONTRAINDICAÇÃO FORMAL E ABSOLUTA: PROIBIDO USO DE AAS (ÁCIDO ACETILSALICÍLICO) E QUALQUER ANTI-INFLAMATÓRIO (IBUPROFENO, CETOPROFENO, DICLOFENACO, NIMESULIDA, MELOXICAM, CORTICOIDES) PELO RISCO GRAVE DE HEMORRAGIA E AGRAVAMENTO DO QUADRO.
       4. Cartão de Acompanhamento da Dengue entregue com agendamento de retorno obrigatório na UBS/UPA no dia da queda da febre (dias 3 a 5).
       
       >> [SE GRUPO B]: OBSERVAÇÃO CLÍNICA NA UPA:
@@ -836,14 +973,64 @@ matches:
       >> [SE GRUPO C]: INTERNAÇÃO HOSPITALAR / CONDUTA IMEDIATA:
       1. Hidratação Venosa Imediata com Cristaloide (SF 0,9% ou Ringer Lactato):
          - Fase de Expansão: Infundir 10 mL/kg em 1 hora EV (Volume = [ ] mL em 1h).
-         - Reavaliação clínica e hematócrito em 2 horas. Se melhora: 8 mL/kg/h por 2h; depois 5 mL/kg/h por 2h.
-      2. Cateterismo vesical se oligúria; monitorização contínua de sinais vitais.
+         - Reavaliação clínica a cada 1 hora e hematócrito em 2 horas. Repetir fase de expansão até 3 vezes se ausência de melhora.
+         - Fase de Manutenção após melhora clínica/estabilização do Ht:
+           * 1ª Fase de Manutenção: 25 mL/kg em 6 horas (~4,1 mL/kg/h) EV (Volume = [ ] mL em 6h).
+           * 2ª Fase de Manutenção: 25 mL/kg em 8 horas (~3,1 mL/kg/h) EV (sendo 1/3 SF 0,9% + 2/3 SG 5%).
+      2. Cateterismo vesical se oligúria; monitorização contínua de sinais vitais e débito urinário (alvo >= 1 mL/kg/h).
+      
+      >> [SE GRUPO D]: DENGUE GRAVE / CHOQUE CIRCULATÓRIO (SALA VERMELHA):
+      1. Acesso venoso periférico duplo e calibroso imediato ou acesso venoso central.
+      2. Fase de Expansão Rápida com Cristaloide (SF 0,9% ou Ringer Lactato):
+         - Infundir 20 mL/kg EV em até 20 minutos (Volume = [ ] mL em 20 min).
+         - Reavaliação clínica hemodinâmica a cada 15 a 30 minutos e controle de hematócrito a cada 2 horas.
+         - Se choque persistente: repetir a expansão rápida de 20 mL/kg em 20 minutos até 3 vezes.
+      3. Se Choque Refratário a Volume após 3 expansões (Ht elevado = extravasamento persistente):
+         - Avaliar expansor plasmático coloide (Albumina humana a 5% 0,5 a 1 g/kg ou 10 a 20 mL/kg ou substitutos sintéticos).
+         - Iniciar suporte vasopressor precoce com Noradrenalina em BIC (iniciar a 0,1 a 0,5 mcg/kg/min) se hipotensão refratária com PAM < 65 mmHg.
+      4. Se Hematócrito em Queda Abrupta com Choque Mantido:
+         - Investigar hemorragia grave oculta (digestiva/retroperitoneal). Solicitar concentrado de hemácias de urgência (10 a 15 mL/kg).
+      5. Vaga imediata de UTI via regulação (CROSS/SISREG). Monitorização estrita de sinais vitais e débito urinário horário por SVD.
       
       >> SINAIS DE ALARME EXPLICADOS À FAMÍLIA (RETORNO IMEDIATO):
       - Atenção extrema nos dias em que a febre começar a ceder (período de maior risco de choque). Retornar correndo se tiver vômitos que não param, dor de barriga muito forte, sangramentos no nariz ou gengiva, tontura ao sentar ou sonolência extrema.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO & PLANO DE HIDRATAÇÃO — DENGUE (GRUPOS A E B — MINISTÉRIO DA SAÚDE)
+      Paciente: [Nome] | Peso Atual: [ ] kg | Dia de Doença: [ ]º dia | Data: [DD/MM/AAAA]
+      
+      1. PRESCRIÇÃO DE HIDRATAÇÃO ORAL VIGOROSA (O REMÉDIO QUE SALVA VIDAS NA DENGUE):
+         - Meta diária calculada pelo seu peso (60 mL/kg/dia): Beber **[ ] Litros de líquidos por dia** (divididos ao longo do dia).
+         - **1/3 deste volume ([ ] mL/dia)** DEVE ser de **Sais de Reidratação Oral (SRO)** (diluir 1 envelope em 1 litro de água filtrada) ou soro caseiro / água de coco.
+         - **2/3 deste volume ([ ] mL/dia)** em água pura, sucos naturais de frutas, chás claros ou sopas.
+         - Manter essa hidratação durante todo o período de febre e por até 24 a 48 horas após a febre desaparecer!
+      
+      2. MEDICAÇÃO PARA FEBRE E DOR:
+         - Dipirona Monoidratada 500 mg (ou 1 g) ----------------------------------- 1 caixa
+           Tomar 1 comprimido de 1 g (ou 2 comprimidos de 500 mg) por via oral até de 6 em 6 horas se febre ou dor no corpo/cabeça.
+         - [OU Alternativa] Paracetamol 500 mg a 750 mg ---------------------------- 1 caixa
+           Tomar 1 comprimido por via oral de 6 em 6 horas se febre ou dor (Máximo de 4 comprimidos em 24 horas).
+      
+      3. MEDICAÇÃO PARA NÁUSEAS / ENJOO:
+         - Ondansetrona 4 mg (ou Metoclopramida / Bromoprida 10 mg) ---------------- 1 caixa
+           Tomar 1 comprimido por via oral de 8 em 8 horas se apresentar enjoo.
+      
+      4. [Se coceira intensa na pele (exantema da dengue)]:
+         - Loratadina 10 mg (ou Dexclorfeniramina 2 mg) ---------------------------- 1 caixa
+           Tomar 1 comprimido por via oral 1 a 2 vezes ao dia + banhos frios e loção hidratante.
+      
+      PROIBIÇÃO ABSOLUTA (RISCO DE HEMORRAGIA GRAVE):
+      - É TERMINANTEMENTE PROIBIDO tomar AAS (Aspirina) e qualquer Anti-inflamatório (Ibuprofeno, Diclofenaco, Cetoprofeno, Nimesulida, Naproxeno, Celecoxibe) ou Corticoides, nem aplicar injeções intramusculares!
+      
+      SINAIS DE ALARME DA DENGUE (VOLTAR IMEDIATAMENTE À UPA — PRINCIPALMENTE QUANDO A FEBRE BAIXAR NO 3º AO 7º DIA!):
+      1. Dor na barriga (dor abdominal) intensa e contínua.
+      2. Vômitos persistentes (não consegue segurar líquidos).
+      3. Tontura, sensação de vista escura ou desmaio ao ficar de pé (hipotensão postural).
+      4. Qualquer sangramento (gengiva, nariz, manchas vermelhas/roxas na pele, fezes escuras, vômito com sangue ou menstruação excessiva).
+      5. Sonolência excessiva, confusão mental, irritabilidade ou falta de ar.
 
   - trigger: ";dengue-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO & PLANO DE HIDRATAÇÃO — DENGUE (GRUPOS A E B — MINISTÉRIO DA SAÚDE)
       Paciente: [Nome] | Peso Atual: [ ] kg | Dia de Doença: [ ]º dia | Data: [DD/MM/AAAA]
       
@@ -1017,7 +1204,7 @@ matches:
           - Nega vômitos recorrentes ou hematêmese (vômitos com sangue ou borra de café).
           - Nega fezes pretas com cheiro podre característico (melena).
           - Nega história familiar de câncer gástrico em parentes de 1º grau.
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       - Medicações: [Nega uso recente de AINEs / Em uso crônico de AAS, Cetoprofeno, Ibuprofeno ou Diclofenaco].
       
       # OBJETIVO (EXAME FÍSICO DIRIGIDO):
@@ -1125,7 +1312,7 @@ matches:
         * Nega corrimento vaginal fétido ou sangramento genital ativo.
         * Nega hematêmese, melena ou enterorragia volumosa.
       - Antecedentes: [Nega cirurgias prévias / Relata laparotomia/cesárea prévia (risco de bridas) / Hérnia inguinal conhecida / Litíase biliar conhecida].
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO ABDOMINAL COMPLETO & SEMIOLOGIA ARMADA):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm (taquicardia) | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.
@@ -1148,8 +1335,8 @@ matches:
          - Hemograma: [ ] leucócitos/mm³ com [ ]% de bastonetes (desvio à esquerda).
          - PCR: [ ] mg/L | Amilase: [ ] U/L | Lipase: [ ] U/L.
          - Ureia: [ ] | Creatinina: [ ] | TGO: [ ] | TGP: [ ] | Bilirrubinas: [ ].
-         - EAS / Urina 1: [Sem leucocitúria ou hematúria /].
-         - Beta-hCG sérico (se mulher): [Negativo /].
+         - EAS / Urina 1: [Sem leucocitúria ou hematúria / Alterado: [ ]].
+         - Beta-hCG sérico (se mulher): [Negativo / Positivo: [ ]].
       2. Rotina Radiológica de Abdome Agudo (3 Incidências: Tórax PA + Abdome em pé + Decúbito):
          - [Sem pneumoperitônio sob cúpulas diafragmáticas / Sem níveis hidroaéreos patológicos / Presença de distensão de alças com níveis hidroaéreos em escada / Presença de lâmina de ar subdiafragmática (pneumoperitônio)].
       
@@ -1193,7 +1380,7 @@ matches:
         * Nega dor torácica anginosa precedente.
         * Nega tosse com expectoração sanguinolenta (afastada hemoptise respiratória).
         * Nega disfagia ou emagrecimento severo recente.
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO DA EMERGÊNCIA & ESTABILIDADE HEMODINÂMICA):
       - SINAIS VITAIS: PA deitado: [ ]x[ ] mmHg | FC: [ ] bpm (taquicardia compensatória) | FR: [ ] irpm | SpO2: [ ]% em AA.
@@ -1260,7 +1447,7 @@ matches:
         * Nega fezes afiladas ("fezes em fita"), perda involuntária de peso ou astenia severa.
         * Nega diarreia crônica alternada com constipação persistente.
       - Hábitos: Constipação intestinal crônica, baixa ingesta de fibras e água.
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME PROCTOLÓGICO BÁSICO DA UPA):
       - Posição do Paciente: Posição de Sims (decúbito lateral esquerdo com flexão das coxas sobre o abdome) sob foco de luz direta e privacidade.
@@ -1376,7 +1563,7 @@ matches:
         * Nega febre alta, calafrios ou fezes com sangue vivo e pus.
         * Nega desidratação, prostração grave ou perda de peso volumosa.
       - Hábitos & Saneamento: [Água encanada tratada / Água de poço; consome verduras cruas sem higienização com hipoclorito; crianças pequenas no domicílio].
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO DIRIGIDO):
       - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | Afebril.
@@ -1541,7 +1728,7 @@ matches:
       
       3. VASODILATADOR CORONARIANO / CONTROLE DA DOR:
          - Dinitrato de Isossorbida 5 mg sublingual agora (pode repetir a cada 5 min, até 3 doses, se PAS > 100 mmHg).
-         - [OU]: Nitroglicerina EV contínua em bomba de infusão se dor refratária ou congestão pulmonar.
+         - [OU]: Nitroglicerina (Tridil 50 mg/10 mL): 1 ampola (10 mL) + 240 mL SG 5% (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 6 mL/h (10 a 20 mcg/min) e titular a cada 3 a 5 min se dor refratária ou congestão pulmonar.
          - [CONTRAINDICADO SE PAS < 90 MMHG OU INFARTO DE VENTRÍCULO DIREITO].
       
       4. ANTICOAGULAÇÃO PARENTERAL PLENA (ENOXAPARINA):
@@ -1577,7 +1764,7 @@ matches:
       
       3. VASODILATADOR CORONARIANO / CONTROLE DA DOR:
          - Dinitrato de Isossorbida 5 mg sublingual agora (pode repetir a cada 5 min, até 3 doses, se PAS > 100 mmHg).
-         - [OU]: Nitroglicerina EV contínua em bomba de infusão se dor refratária ou congestão pulmonar.
+         - [OU]: Nitroglicerina (Tridil 50 mg/10 mL): 1 ampola (10 mL) + 240 mL SG 5% (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 6 mL/h (10 a 20 mcg/min) e titular a cada 3 a 5 min se dor refratária ou congestão pulmonar.
          - [CONTRAINDICADO SE PAS < 90 MMHG OU INFARTO DE VENTRÍCULO DIREITO].
       
       4. ANTICOAGULAÇÃO PARENTERAL PLENA (ENOXAPARINA):
@@ -1610,7 +1797,7 @@ matches:
         * GESTAÇÃO: Paciente não gestante (se mulher em idade fértil).
       - Fatores Emocionais / Desencadeantes: [Histórico de estresse emocional agudo / Dor osteomuscular concomitante / Privação de sono].
       - Medicações de Uso Contínuo: [Em uso irregular de Losartana, Enalapril, Anlodipino, Hidroclorotiazida / Nega uso de anti-hipertensivos].
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO DIRIGIDO À EXCLUSÃO DE LOA):
       - SINAIS VITAIS REPETIDOS APÓS REPOUSO: PA: [ ]x[ ] mmHg (MSD) e [ ]x[ ] mmHg (MSE) (Sem assimetria pressórica significativa).
@@ -1646,11 +1833,32 @@ matches:
       
       >> [SE EMERGÊNCIA HIPERTENSIVA - COM LESÃO DE ÓRGÃO-ALVO]:
       1. Transferência IMEDIATA para a Sala Vermelha; puncionar acesso venoso e monitorização contínua.
-      2. Iniciar vasodilatador endovenoso contínuo em Bomba de Infusão:
-         - [Se EAP ou SCA]: Nitroglicerina EV contínua (iniciar 5 mcg/min e titular a cada 5 min).
-         - [Se Encefalopatia Hipertensiva]: Nitroprussiato de Sódio EV (iniciar 0,25 a 0,5 mcg/kg/min).
+      2. Iniciar vasodilatador endovenoso contínuo em Bomba de Infusão (BIC):
+         - [Se EAP ou SCA]: Nitroglicerina (Tridil 50 mg/10 mL): 1 ampola (10 mL) + 240 mL SG 5% (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 6 mL/h (10 a 20 mcg/min) e titular a cada 3 a 5 min.
+         - [Se Encefalopatia Hipertensiva, Dissecção Aórtica ou Emergência Hipertensiva Geral]: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em frasco e equipo fotossensíveis (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min para 70 kg) e titular a cada 3 a 5 min sob vigilância invasiva/PANI de 3/3 min.
          - Meta: Reduzir a PAM em no máximo 20% a 25% na primeira hora (evitando AVC isquêmico).
       3. Vaga imediata de UTI via Central de Regulação.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — AJUSTE ANTI-HIPERTENSIVO PÓS-ATENDIMENTO (URGÊNCIA / PSEUDOCRISE HIPERTENSIVA)
+      Paciente: [Nome] | Idade: [ ] anos | PA na Alta: [ ]x[ ] mmHg | Data: [DD/MM/AAAA]
+      
+      USO ORAL CONTÍNUO (TOMAR TODOS OS DIAS MESMO QUANDO A PRESSÃO ESTIVER NORMAL):
+      1. [Se já era hipertenso e havia parado de tomar a medicação]:
+         Reiniciar imediatamente os medicamentos de uso contínuo habituais:
+         - Losartana Potássica 50 mg (ou Enalapril 10–20 mg) ------------------------ Uso contínuo
+           Tomar 1 comprimido por via oral de 12 em 12 horas (às 08:00h e às 20:00h).
+         - Besilato de Anlodipino 5 mg (ou Hidroclorotiazida 25 mg pela manhã) ------- Uso contínuo
+           Tomar 1 comprimido por via oral 1 vez ao dia.
+      
+      2. [Se dor de cabeça tensional ou dor osteomuscular foi o gatilho da subida da pressão (Pseudocrise)]:
+         Dipirona Monoidratada 1 g -------------------------------------------------- 1 caixa
+         Tomar 1 comprimido por via oral de 6 em 6 horas se dor (Evitar anti-inflamatórios como Diclofenaco/Ibuprofeno, pois eles retêm sal e aumentam a pressão arterial!).
+      
+      ORIENTAÇÕES DE SEGURANÇA E MAPA DE PRESSÃO ARTERIAL:
+      - Por que a pressão não deve ser baixada "de vez" na UPA: Reduzir a pressão arterial rapidamente demais em quem não tem emergência cardíaca ou neurológica diminui a circulação de sangue para o cérebro e rins, podendo causar tontura, isquemia cerebral (AVC) ou infarto. O objetivo seguro é a redução gradual em 24 a 48 horas com seus comprimidos diários.
+      - Reduzir o sal na comida, evitar alimentos embutidos/enlatados e não suspender o remédio da pressão por conta própria.
+      - Aferir e anotar a pressão arterial 2 vezes ao dia por 5 dias (MAPA residencial) e levar na consulta médica na UBS em até 7 dias.
+      - RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Dor ou aperto no peito, falta de ar súbita, perda de força ou formigamento em um lado do corpo, boca torta, dificuldade para falar, alteração súbita da visão ou confusão mental.
 
   - trigger: ";has-crise-cnd"
     replace: |
@@ -1675,14 +1883,36 @@ matches:
       
       >> [SE EMERGÊNCIA HIPERTENSIVA - COM LESÃO DE ÓRGÃO-ALVO]:
       1. Transferência IMEDIATA para a Sala Vermelha; puncionar acesso venoso e monitorização contínua.
-      2. Iniciar vasodilatador endovenoso contínuo em Bomba de Infusão:
-         - [Se EAP ou SCA]: Nitroglicerina EV contínua (iniciar 5 mcg/min e titular a cada 5 min).
-         - [Se Encefalopatia Hipertensiva]: Nitroprussiato de Sódio EV (iniciar 0,25 a 0,5 mcg/kg/min).
+      2. Iniciar vasodilatador endovenoso contínuo em Bomba de Infusão (BIC):
+         - [Se EAP ou SCA]: Nitroglicerina (Tridil 50 mg/10 mL): 1 ampola (10 mL) + 240 mL SG 5% (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 6 mL/h (10 a 20 mcg/min) e titular a cada 3 a 5 min.
+         - [Se Encefalopatia Hipertensiva, Dissecção Aórtica ou Emergência Hipertensiva Geral]: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em frasco e equipo fotossensíveis (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min para 70 kg) e titular a cada 3 a 5 min sob vigilância invasiva/PANI de 3/3 min.
          - Meta: Reduzir a PAM em no máximo 20% a 25% na primeira hora (evitando AVC isquêmico).
       3. Vaga imediata de UTI via Central de Regulação.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — AJUSTE ANTI-HIPERTENSIVO PÓS-ATENDIMENTO (URGÊNCIA / PSEUDOCRISE HIPERTENSIVA)
+      Paciente: [Nome] | Idade: [ ] anos | PA na Alta: [ ]x[ ] mmHg | Data: [DD/MM/AAAA]
+      
+      USO ORAL CONTÍNUO (TOMAR TODOS OS DIAS MESMO QUANDO A PRESSÃO ESTIVER NORMAL):
+      1. [Se já era hipertenso e havia parado de tomar a medicação]:
+         Reiniciar imediatamente os medicamentos de uso contínuo habituais:
+         - Losartana Potássica 50 mg (ou Enalapril 10–20 mg) ------------------------ Uso contínuo
+           Tomar 1 comprimido por via oral de 12 em 12 horas (às 08:00h e às 20:00h).
+         - Besilato de Anlodipino 5 mg (ou Hidroclorotiazida 25 mg pela manhã) ------- Uso contínuo
+           Tomar 1 comprimido por via oral 1 vez ao dia.
+      
+      2. [Se dor de cabeça tensional ou dor osteomuscular foi o gatilho da subida da pressão (Pseudocrise)]:
+         Dipirona Monoidratada 1 g -------------------------------------------------- 1 caixa
+         Tomar 1 comprimido por via oral de 6 em 6 horas se dor (Evitar anti-inflamatórios como Diclofenaco/Ibuprofeno, pois eles retêm sal e aumentam a pressão arterial!).
+      
+      ORIENTAÇÕES DE SEGURANÇA E MAPA DE PRESSÃO ARTERIAL:
+      - Por que a pressão não deve ser baixada "de vez" na UPA: Reduzir a pressão arterial rapidamente demais em quem não tem emergência cardíaca ou neurológica diminui a circulação de sangue para o cérebro e rins, podendo causar tontura, isquemia cerebral (AVC) ou infarto. O objetivo seguro é a redução gradual em 24 a 48 horas com seus comprimidos diários.
+      - Reduzir o sal na comida, evitar alimentos embutidos/enlatados e não suspender o remédio da pressão por conta própria.
+      - Aferir e anotar a pressão arterial 2 vezes ao dia por 5 dias (MAPA residencial) e levar na consulta médica na UBS em até 7 dias.
+      - RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Dor ou aperto no peito, falta de ar súbita, perda de força ou formigamento em um lado do corpo, boca torta, dificuldade para falar, alteração súbita da visão ou confusão mental.
 
   - trigger: ";has-crise-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO — AJUSTE ANTI-HIPERTENSIVO PÓS-ATENDIMENTO (URGÊNCIA / PSEUDOCRISE HIPERTENSIVA)
       Paciente: [Nome] | Idade: [ ] anos | PA na Alta: [ ]x[ ] mmHg | Data: [DD/MM/AAAA]
       
@@ -1716,7 +1946,7 @@ matches:
         * GRAVE: Fala apenas palavras isoladas/entrecortadas, postura curvada para a frente, agitado, uso evidente de musculatura acessória (tiragem intercostal), FC > 120 bpm, FR > 30 irpm, SpO2 < 90%.
         * RISCO IMINENTE DE PARADA (ASMA QUASE FATAL): Sonolência, confusão mental, respiração paradoxal toracoabdominal, bradicardia e TÓRAX SILENCIOSO (ausência de sibilos por falta de fluxo de ar).
       - Histórico de Asma de Alto Risco: [Nega / Histórico prévio de intubação orotraqueal por asma / Internação em UTI no último ano / Múltiplas idas à UPA no último mês].
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO RESPIRATÓRIO NA ADMISSÃO):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em ar ambiente.
@@ -1756,14 +1986,35 @@ matches:
       
       >> PRESCRIÇÃO DE ALTA DA UPA (SE RECUPERADO APÓS OBSERVAÇÃO DE 2 A 4 HORAS):
       1. Corticoide Oral (prevenção precoce de recaída):
-         - Prednisona 40 mg a 50 mg - Tomar 1 comprimido VO pela manhã por 5 a 7 dias (não necessita de desmame se <= 7 dias).
-      2. Terapia de Manutenção & Alívio com Corticoide Inalatório (Diretriz GINA - contraindicado uso de broncodilatador isolado sem corticoide inalatório):
+         - Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO pela manhã por 5 a 7 dias (não necessita de desmame se <= 7 dias).
+      2. Terapia de Manutenção & Alívio com Corticoide Inalatório (Diretriz GINA):
          - [OPÇÃO PREFERENCIAL GINA - LABA + CORTICOIDE INALATÓRIO]:
            * Fumarato de Formoterol + Budesonida (200/6 mcg ou 400/12 mcg): Inalar 1 cápsula/jato de 12 em 12 horas de uso contínuo + 1 inalação de resgate se falta de ar.
          - [OPÇÃO ALTERNATIVA DA REDE BÁSICA]:
            * Budesonida spray 200 mcg: Inalar 1 a 2 jatos de 12/12h de uso contínuo.
            * Salbutamol spray 100 mcg: Inalar 2 a 4 jatos com espaçador apenas de resgate se sintomas agudos, associado à Budesonida.
       3. Encaminhamento para UBS / Programa de Asma para seguimento ambulatorial e plano de ação por escrito.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — ALTA PÓS-CRISE DE ASMA / BRONCOESPASMO (PLANO DE AÇÃO GINA)
+      Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+      
+      USO ORAL (CICLO CURTO ANTI-INFLAMATÓRIO OBRIGATÓRIO PÓS-CRISE PARA EVITAR RECAÍDA):
+      1. Prednisona 20 mg (ou Prednisolona 20 mg) ---------------------------------- 1 caixa (10 comprimidos)
+         Tomar **2 comprimidos (total de 40 mg)** por via oral, 1 vez ao dia, **pela manhã após o café**, durante **5 a 7 dias consecutivos** (Não precisa fazer desmame se usar por até 7 dias).
+      
+      USO INALATÓRIO (TRATAMENTO DE MANUTENÇÃO E ALÍVIO — DIRETRIZ GINA):
+      2. Formoterol 12 mcg + Budesonida 400 mcg (Alenia / Foraseq / Symbicort) ----- 1 frasco/dispositivo
+         Inalar 1 cápsula/dose de **12 em 12 horas todos os dias** (tratamento controlador da inflamação brônquica) e, se necessário, fazer 1 inalação extra de alívio se sentir chiado ou falta de ar.
+         *(IMPORTANTE: Sempre enxaguar a boca com água e cuspir após usar a bombinha/cápsula com corticoide para evitar rouquidão e sapinho na boca).*
+      
+      3. [OU Alternativa SUS] Dipropionato de Beclometasona 250 mcg Spray + Salbutamol 100 mcg Spray (Aerolin):
+         - **Beclometasona 250 mcg (Bombinha Marrom — Manutenção):** Aplicar 2 jatos de 12 em 12 horas todos os dias (enxaguar a boca após o uso).
+         - **Salbutamol 100 mcg (Bombinha Azul — Resgate):** Aplicar 2 a 4 jatos (com espaçador) de 4 em 4 horas ou de 6 em 6 horas nos primeiros 3 dias, e depois apenas se tiver crise de falta de ar.
+      
+      ORIENTAÇÕES DE SEGURANÇA E SINAIS DE ALARME:
+      - Por que você precisa tomar a Prednisona por 5 dias e usar a bombinha de manutenção: A bombinha azul (Salbutamol) apenas abre o brônquio por algumas horas, mas não desincha a inflamação da crise. Tomar a Prednisona por 5 a 7 dias impede que a crise volte mais forte nos próximos dias!
+      - Proibido usar AAS e anti-inflamatórios (Ibuprofeno, Diclofenaco, Cetoprofeno, Nimesulida) se tiver histórico de piora da asma, nem usar betabloqueadores (Propranolol/Atenolol).
+      - RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Falta de ar para falar frases completas, necessidade de usar a bombinha de resgate a cada menos de 3 horas sem alívio, afundamento no pescoço/costelas ao respirar, lábios arroxeados ou sonolência.
 
   - trigger: ";asma-cnd"
     replace: |
@@ -1794,17 +2045,39 @@ matches:
       
       >> PRESCRIÇÃO DE ALTA DA UPA (SE RECUPERADO APÓS OBSERVAÇÃO DE 2 A 4 HORAS):
       1. Corticoide Oral (prevenção precoce de recaída):
-         - Prednisona 40 mg a 50 mg - Tomar 1 comprimido VO pela manhã por 5 a 7 dias (não necessita de desmame se <= 7 dias).
-      2. Terapia de Manutenção & Alívio com Corticoide Inalatório (Diretriz GINA - contraindicado uso de broncodilatador isolado sem corticoide inalatório):
+         - Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO pela manhã por 5 a 7 dias (não necessita de desmame se <= 7 dias).
+      2. Terapia de Manutenção & Alívio com Corticoide Inalatório (Diretriz GINA):
          - [OPÇÃO PREFERENCIAL GINA - LABA + CORTICOIDE INALATÓRIO]:
            * Fumarato de Formoterol + Budesonida (200/6 mcg ou 400/12 mcg): Inalar 1 cápsula/jato de 12 em 12 horas de uso contínuo + 1 inalação de resgate se falta de ar.
          - [OPÇÃO ALTERNATIVA DA REDE BÁSICA]:
            * Budesonida spray 200 mcg: Inalar 1 a 2 jatos de 12/12h de uso contínuo.
            * Salbutamol spray 100 mcg: Inalar 2 a 4 jatos com espaçador apenas de resgate se sintomas agudos, associado à Budesonida.
       3. Encaminhamento para UBS / Programa de Asma para seguimento ambulatorial e plano de ação por escrito.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — ALTA PÓS-CRISE DE ASMA / BRONCOESPASMO (PLANO DE AÇÃO GINA)
+      Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+      
+      USO ORAL (CICLO CURTO ANTI-INFLAMATÓRIO OBRIGATÓRIO PÓS-CRISE PARA EVITAR RECAÍDA):
+      1. Prednisona 20 mg (ou Prednisolona 20 mg) ---------------------------------- 1 caixa (10 comprimidos)
+         Tomar **2 comprimidos (total de 40 mg)** por via oral, 1 vez ao dia, **pela manhã após o café**, durante **5 a 7 dias consecutivos** (Não precisa fazer desmame se usar por até 7 dias).
+      
+      USO INALATÓRIO (TRATAMENTO DE MANUTENÇÃO E ALÍVIO — DIRETRIZ GINA):
+      2. Formoterol 12 mcg + Budesonida 400 mcg (Alenia / Foraseq / Symbicort) ----- 1 frasco/dispositivo
+         Inalar 1 cápsula/dose de **12 em 12 horas todos os dias** (tratamento controlador da inflamação brônquica) e, se necessário, fazer 1 inalação extra de alívio se sentir chiado ou falta de ar.
+         *(IMPORTANTE: Sempre enxaguar a boca com água e cuspir após usar a bombinha/cápsula com corticoide para evitar rouquidão e sapinho na boca).*
+      
+      3. [OU Alternativa SUS] Dipropionato de Beclometasona 250 mcg Spray + Salbutamol 100 mcg Spray (Aerolin):
+         - **Beclometasona 250 mcg (Bombinha Marrom — Manutenção):** Aplicar 2 jatos de 12 em 12 horas todos os dias (enxaguar a boca após o uso).
+         - **Salbutamol 100 mcg (Bombinha Azul — Resgate):** Aplicar 2 a 4 jatos (com espaçador) de 4 em 4 horas ou de 6 em 6 horas nos primeiros 3 dias, e depois apenas se tiver crise de falta de ar.
+      
+      ORIENTAÇÕES DE SEGURANÇA E SINAIS DE ALARME:
+      - Por que você precisa tomar a Prednisona por 5 dias e usar a bombinha de manutenção: A bombinha azul (Salbutamol) apenas abre o brônquio por algumas horas, mas não desincha a inflamação da crise. Tomar a Prednisona por 5 a 7 dias impede que a crise volte mais forte nos próximos dias!
+      - Proibido usar AAS e anti-inflamatórios (Ibuprofeno, Diclofenaco, Cetoprofeno, Nimesulida) se tiver histórico de piora da asma, nem usar betabloqueadores (Propranolol/Atenolol).
+      - RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Falta de ar para falar frases completas, necessidade de usar a bombinha de resgate a cada menos de 3 horas sem alívio, afundamento no pescoço/costelas ao respirar, lábios arroxeados ou sonolência.
 
   - trigger: ";asma-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO — ALTA PÓS-CRISE DE ASMA / BRONCOESPASMO (PLANO DE AÇÃO GINA)
       Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
       
@@ -1848,7 +2121,7 @@ matches:
         * Nega edema assimétrico de panturrilhas ou hemoptise (afastado TEP).
         * Nega piora de edema de membros inferiores ou ortopneia (afastada Insuficiência Cardíaca descompensada associada).
       - Medicações Habitual: [Em uso de Formoterol/Budesonida, Tiotrópio, Salbutamol SOS].
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO RESPIRATÓRIO DIRIGIDO):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em ar ambiente.
@@ -1878,8 +2151,8 @@ matches:
          - Salbutamol spray 100 mcg (4 a 8 jatos) + Brometo de Ipratrópio spray (4 jatos) com espaçador a cada 20 a 30 minutos na 1ª hora.
          - [OU]: Nebulização com Fenoterol 10 a 15 gotas + Ipratrópio 30 a 40 gotas em 3 mL de SF 0,9% (usar ar comprimido na nebulização se paciente retentor crônico de CO2).
       
-      3. CORTICOTERAPIA SISTÊMICA CURTA (PADRÃO-OURO - PROTOCOLO REDUCE):
-         - Prednisona 40 mg VO 1x/dia pela manhã por exatamente 5 DIAS (o guideline GOLD e o estudo REDUCE provaram que 5 dias são suficientes; não usar por mais de 5 a 7 dias).
+      3. CORTICOTERAPIA SISTÊMICA CURTA (PADRÃO-OURO):
+         - Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO 1x/dia pela manhã por exatamente 5 DIAS.
       
       4. ANTIBIOTICOTERAPIA (SE ANTHONISEN TIPO 1 OU TIPO 2 COM ESCARRO PURULENTO):
          - Amoxicilina + Clavulanato de Potássio 875/125 mg VO de 12/12h por 5 a 7 dias.
@@ -1888,6 +2161,30 @@ matches:
       
       5. [SE ACIDOSE RESPIRATÓRIA NA GASOMETRIA (pH < 7,35 e PaCO2 > 45 mmHg)]:
          - Indicação Imediata de VENTILAÇÃO NÃO INVASIVA (VNI com BiPAP): Modo Spontaneous/Timed (S/T), IPAP 10-12 cmH2O e EPAP 4-5 cmH2O. Reduz a mortalidade e o esforço ventilatório em mais de 50%.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — ALTA DE EXACERBAÇÃO AGUDA DE DPOC (GOLD)
+      Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+      
+      USO ORAL (ESQUEMA CURTO DE 5 DIAS — DIRETRIZ GOLD):
+      1. Prednisona 20 mg ----------------------------------------------------------- 1 caixa (10 comprimidos)
+         Tomar **2 comprimidos (total de 40 mg)** por via oral, 1 vez ao dia, pela manhã após o café, durante **exatamente 5 dias** (Estudo REDUCE: 5 dias têm a mesma eficácia que 14 dias, com metade dos efeitos colaterais).
+      
+      2. [SE PRESENÇA DE ESCARRO PURULENTO (CRITÉRIOS DE ANTHONISEN) — ANTIBIÓTICO POR 5 A 7 DIAS]:
+         Amoxicilina + Clavulanato 875/125 mg --------------------------------------- 14 comprimidos
+         Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante **5 a 7 dias**.
+         *[OU Alternativa]*: Azitromicina 500 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Levofloxacino 750 mg VO 1x/dia por 5 dias se DPOC muito grave/bronquiectasias).
+      
+      USO INALATÓRIO (BRONCODILATADORES DE LONGA DURAÇÃO E RESGATE):
+      3. Manter (ou iniciar) broncodilatador de longa duração de uso contínuo:
+         [Brometo de Tiotrópio 2,5 mcg (Spiriva Respimat — 2 jatos 1x/dia) + Formoterol/Budesonida 12/400 mcg de 12/12h / Dupla broncodilatação LAMA + LABA].
+      
+      4. Salbutamol 100 mcg Spray + Brometo de Ipratrópio 20 mcg Spray (ou Combivent / Duovent):
+         Aplicar 2 a 4 jatos por via inalatória (com espaçador) de 6 em 6 horas nos primeiros 3 a 5 dias ou se falta de ar.
+      
+      ORIENTAÇÕES CRÍTICAS E SINAIS DE ALARME:
+      - Cessação completa do tabagismo e atualização vacinal (Vacina Influenza anual e Pneumocócica).
+      - Se faz uso de oxigênio domiciliar: NUNCA aumentar o fluxo de oxigênio por conta própria acima do prescrito (normalmente 1 a 2 L/min para manter a saturação entre 88% e 92%), pois o excesso de oxigênio no DPOC retém gás carbônico no sangue e causa sonolência/coma!
+      - RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Piora da falta de ar mesmo em repouso, sonolência excessiva, confusão mental, dor de cabeça matinal intensa, febre persistente ou inchaço nas pernas.
 
   - trigger: ";dpoc-cnd"
     replace: |
@@ -1901,8 +2198,8 @@ matches:
          - Salbutamol spray 100 mcg (4 a 8 jatos) + Brometo de Ipratrópio spray (4 jatos) com espaçador a cada 20 a 30 minutos na 1ª hora.
          - [OU]: Nebulização com Fenoterol 10 a 15 gotas + Ipratrópio 30 a 40 gotas em 3 mL de SF 0,9% (usar ar comprimido na nebulização se paciente retentor crônico de CO2).
       
-      3. CORTICOTERAPIA SISTÊMICA CURTA (PADRÃO-OURO - PROTOCOLO REDUCE):
-         - Prednisona 40 mg VO 1x/dia pela manhã por exatamente 5 DIAS (o guideline GOLD e o estudo REDUCE provaram que 5 dias são suficientes; não usar por mais de 5 a 7 dias).
+      3. CORTICOTERAPIA SISTÊMICA CURTA (PADRÃO-OURO):
+         - Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO 1x/dia pela manhã por exatamente 5 DIAS.
       
       4. ANTIBIOTICOTERAPIA (SE ANTHONISEN TIPO 1 OU TIPO 2 COM ESCARRO PURULENTO):
          - Amoxicilina + Clavulanato de Potássio 875/125 mg VO de 12/12h por 5 a 7 dias.
@@ -1911,9 +2208,34 @@ matches:
       
       5. [SE ACIDOSE RESPIRATÓRIA NA GASOMETRIA (pH < 7,35 e PaCO2 > 45 mmHg)]:
          - Indicação Imediata de VENTILAÇÃO NÃO INVASIVA (VNI com BiPAP): Modo Spontaneous/Timed (S/T), IPAP 10-12 cmH2O e EPAP 4-5 cmH2O. Reduz a mortalidade e o esforço ventilatório em mais de 50%.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — ALTA DE EXACERBAÇÃO AGUDA DE DPOC (GOLD)
+      Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+      
+      USO ORAL (ESQUEMA CURTO DE 5 DIAS — DIRETRIZ GOLD):
+      1. Prednisona 20 mg ----------------------------------------------------------- 1 caixa (10 comprimidos)
+         Tomar **2 comprimidos (total de 40 mg)** por via oral, 1 vez ao dia, pela manhã após o café, durante **exatamente 5 dias** (Estudo REDUCE: 5 dias têm a mesma eficácia que 14 dias, com metade dos efeitos colaterais).
+      
+      2. [SE PRESENÇA DE ESCARRO PURULENTO (CRITÉRIOS DE ANTHONISEN) — ANTIBIÓTICO POR 5 A 7 DIAS]:
+         Amoxicilina + Clavulanato 875/125 mg --------------------------------------- 14 comprimidos
+         Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante **5 a 7 dias**.
+         *[OU Alternativa]*: Azitromicina 500 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Levofloxacino 750 mg VO 1x/dia por 5 dias se DPOC muito grave/bronquiectasias).
+      
+      USO INALATÓRIO (BRONCODILATADORES DE LONGA DURAÇÃO E RESGATE):
+      3. Manter (ou iniciar) broncodilatador de longa duração de uso contínuo:
+         [Brometo de Tiotrópio 2,5 mcg (Spiriva Respimat — 2 jatos 1x/dia) + Formoterol/Budesonida 12/400 mcg de 12/12h / Dupla broncodilatação LAMA + LABA].
+      
+      4. Salbutamol 100 mcg Spray + Brometo de Ipratrópio 20 mcg Spray (ou Combivent / Duovent):
+         Aplicar 2 a 4 jatos por via inalatória (com espaçador) de 6 em 6 horas nos primeiros 3 a 5 dias ou se falta de ar.
+      
+      ORIENTAÇÕES CRÍTICAS E SINAIS DE ALARME:
+      - Cessação completa do tabagismo e atualização vacinal (Vacina Influenza anual e Pneumocócica).
+      - Se faz uso de oxigênio domiciliar: NUNCA aumentar o fluxo de oxigênio por conta própria acima do prescrito (normalmente 1 a 2 L/min para manter a saturação entre 88% e 92%), pois o excesso de oxigênio no DPOC retém gás carbônico no sangue e causa sonolência/coma!
+      - RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Piora da falta de ar mesmo em repouso, sonolência excessiva, confusão mental, dor de cabeça matinal intensa, febre persistente ou inchaço nas pernas.
 
   - trigger: ";dpoc-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO — ALTA DE EXACERBAÇÃO AGUDA DE DPOC (GOLD)
       Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
       
@@ -1944,7 +2266,7 @@ matches:
       # IDENTIFICAÇÃO: Paciente: [Nome], [Idade] anos.
       # CLASSIFICAÇÃO HEMODINÂMICA DE STEVENSON:
       - PERFIL B: "QUENTE E ÚMIDO" (Boa perfusão periférica, porém com congestão pulmonar grave e hipertensão arterial) -> > 80% DOS CASOS DE EAP NA UPA.
-      - [Se Perfil C ("Frio e Úmido"): Choque cardiogênico com hipoperfusão -> avaliar Dobutamina + Noradrenalina].
+      - [Se Perfil C ("Frio e Úmido"): Choque cardiogênico com hipoperfusão -> avaliar Dobutamina (1 ampola 250 mg/20 mL + 230 mL SF 0,9%/SG 5% = 1.000 mcg/mL a 10-15 mL/h = 2,5-5 mcg/kg/min) + Noradrenalina (4 ampolas de 4 mg/4 mL = 16 mL + 234 mL SG 5% = 64 mcg/mL)].
       
       # SUBJETIVO:
       - Queixa Principal: Falta de ar intensa e súbita, sensação de afogamento e tosse com catarro espumoso há [ ] horas.
@@ -1953,7 +2275,7 @@ matches:
         * Nega dor torácica pleurítica aguda súbita com assimetria de murmúrio (afastado pneumotórax).
         * Nega febre alta, calafrios ou secreção purulenta espessa (afastada sepse pulmonar pura).
         * Nega estridor respiratório ou edema de glote anafilático.
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO DA SALA DE EMERGÊNCIA):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg (acentuadamente elevada) | FC: [ ] bpm | FR: [ ] irpm (taquipneia severa) | SpO2: [ ]% em ar ambiente.
@@ -1987,7 +2309,7 @@ matches:
          - Nitroglicerina (Tridil 50 mg/10 mL): Diluir 1 ampola (10 mL) em 240 mL de SG 5% (concentração 200 mcg/mL).
          - Iniciar infusão contínua em BIC a 10 a 20 mcg/min (3 a 6 mL/h) e titular a cada 3 a 5 minutos conforme tolerância da PA, objetivando redução da PAS para 140-150 mmHg.
          - [Enquanto prepara a BIC]: Dinitrato de Isossorbida 5 mg sublingual agora.
-         - [Se PAS > 180-200 mmHg refratária]: Nitroprussiato de Sódio EV em BIC sob vigilância estrita.
+         - [Se PAS > 180-200 mmHg refratária]: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em equipo fotossensível (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min) sob vigilância estrita.
       
       4. DIURÉTICO DE ALÇA ENDOVENOSO:
          - Furosemida 40 mg a 80 mg (2 a 4 ampolas) EV direto em bólus lento agora (dose equivalente a 1 a 2x a dose oral diária habitual do paciente).
@@ -2014,7 +2336,7 @@ matches:
          - Nitroglicerina (Tridil 50 mg/10 mL): Diluir 1 ampola (10 mL) em 240 mL de SG 5% (concentração 200 mcg/mL).
          - Iniciar infusão contínua em BIC a 10 a 20 mcg/min (3 a 6 mL/h) e titular a cada 3 a 5 minutos conforme tolerância da PA, objetivando redução da PAS para 140-150 mmHg.
          - [Enquanto prepara a BIC]: Dinitrato de Isossorbida 5 mg sublingual agora.
-         - [Se PAS > 180-200 mmHg refratária]: Nitroprussiato de Sódio EV em BIC sob vigilância estrita.
+         - [Se PAS > 180-200 mmHg refratária]: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em equipo fotossensível (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min) sob vigilância estrita.
       
       4. DIURÉTICO DE ALÇA ENDOVENOSO:
          - Furosemida 40 mg a 80 mg (2 a 4 ampolas) EV direto em bólus lento agora (dose equivalente a 1 a 2x a dose oral diária habitual do paciente).
@@ -2044,7 +2366,7 @@ matches:
         * P - PATTERN CHANGE (MUDANÇA DE PADRÃO): Nega dor que acorda o paciente de madrugada com vômitos em jato, nega piora acentuada com manobra de Valsalva (tosse, evacuação, esforço físico) e nega componente postural extremo (piora ortostática pós-raqui).
         * PÓS-TRAUMA: Nega trauma cranioencefálico (TCE) recente nos últimos dias/semanas.
       - Histórico Prévio: [Paciente com crises semelhantes prévias de enxaqueca / Primeiro episódio da vida].
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO NEUROLÓGICO DIRIGIDO DA UPA):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | Tax: [ ] °C (afebril).
@@ -2157,7 +2479,7 @@ matches:
         * Nega fraqueza, perda de força muscular ou dormência em um dos lados do corpo.
         * Nega incoordenação motora grave (incapacidade de alcançar objetos).
         * Nega cefaleia occipital súbita de início hiperagudo.
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO NEUROLÓGICO & PROTOCOLO HINTS NA SÍNDROME CONTÍNUA):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Tax: [ ] °C.
@@ -2267,7 +2589,7 @@ matches:
       - Descrição da Crise: Presenciada crise convulsiva generalizada caracterizada por abalos tônico-clônicos nos 4 membros, desvio do olhar para cima, sialorreia ("espuma na boca"), mordedura de borda lateral de língua e perda súbita da consciência. Duração estimada da crise: cerca de [ ] minutos.
       - Eventos Ictais: [Liberação esfincteriana urinária e/ou fecal presente / Ausente].
       - Fatores Desencadeantes: [Abandono recente de anticonvulsivantes (Fenobarbital/Carbamazepina/Valproato) / Febre alta prévia / Abstinência alcoólica aguda há horas / Privação severa de sono / Uso de drogas ilícitas (cocaína/crack) / TCE recente].
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO NA SALA DE EMERGÊNCIA):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% | Tax: [ ] °C.
@@ -2354,7 +2676,7 @@ matches:
         * EXCLUSÃO DE SÍNDROME CORONARIANA AGUDA: Nega dor precordial em aperto com irradiação para mandíbula ou dorso; nega histórico de cardiopatia isquêmica.
         * EXCLUSÃO DE TEP E ASMA: Nega dor pleurítica aguda em pontada, nega tosse ou chiado no peito; nega imobilização recente ou TVP prévia.
         * EXCLUSÃO DE INTOXICAÇÃO: Nega uso de drogas simpaticomiméticas ilícitas (cocaína, ecstasy, anfetaminas) ou anorexígenos.
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO DA EMERGÊNCIA):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg (discretamente elevada por tônus adrenérgico) | FC: [ ] bpm (taquicardia sinusal) | FR: [ ] irpm (padrão taquipneico suspiroso) | SpO2: 99% a 100% em ar ambiente | Tax: [ ] °C.
@@ -2391,6 +2713,20 @@ matches:
       - Esclarecer a natureza psicossomática dos sintomas e desmistificar o medo de infarto ou loucura.
       - Evitar cafeína, energéticos e álcool nos próximos dias.
       - Encaminhamento com relatório para a Unidade Básica de Saúde (UBS) / CAPS para avaliação psiquiátrica ambulatorial e introdução de terapia de manutenção (ISRS como Sertralina/Escitalopram) associada à psicoterapia cognitivo-comportamental.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO ORAL:
+      
+      1. Cloridrato de Sertralina 50 mg ------------------------------ 30 comprimidos
+         Tomar meio comprimido (25 mg) pela manhã após o café nos primeiros 7 dias, passando para 01 comprimido (50 mg) pela manhã a partir do 8º dia, continuamente, até avaliação psiquiátrica/ambulatorial.
+      
+      2. Cloridrato de Hidroxizina 25 mg ----------------------------- 10 comprimidos
+         Tomar 01 comprimido por via oral à noite ou em caso de crise aguda de ansiedade/insônia (máximo de 2 comprimidos ao dia). Atenção: pode causar sonolência.
+      
+      ORIENTAÇÕES NÃO FARMACOLÓGICAS E SINAIS DE ALERTA:
+      - Praticar respiração diafragmática quadrada (inspirar em 4s, segurar 4s, expirar lentamente pela boca em 6s) aos primeiros sinais de taquicardia ou formigamento.
+      - Reduzir consumo de cafeína, energéticos, pré-treinos e nicotina.
+      - Buscar acompanhamento longitudinal em Saúde Mental (UBS / CAPS / Psicoterapia Cognitivo-Comportamental).
+      - Retornar imediatamente se dor torácica opressiva ao esforço, desmaio ou ideação de autoextermínio.
 
   - trigger: ";ansiedade-cnd"
     replace: |
@@ -2418,9 +2754,24 @@ matches:
       - Esclarecer a natureza psicossomática dos sintomas e desmistificar o medo de infarto ou loucura.
       - Evitar cafeína, energéticos e álcool nos próximos dias.
       - Encaminhamento com relatório para a Unidade Básica de Saúde (UBS) / CAPS para avaliação psiquiátrica ambulatorial e introdução de terapia de manutenção (ISRS como Sertralina/Escitalopram) associada à psicoterapia cognitivo-comportamental.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO ORAL:
+      
+      1. Cloridrato de Sertralina 50 mg ------------------------------ 30 comprimidos
+         Tomar meio comprimido (25 mg) pela manhã após o café nos primeiros 7 dias, passando para 01 comprimido (50 mg) pela manhã a partir do 8º dia, continuamente, até avaliação psiquiátrica/ambulatorial.
+      
+      2. Cloridrato de Hidroxizina 25 mg ----------------------------- 10 comprimidos
+         Tomar 01 comprimido por via oral à noite ou em caso de crise aguda de ansiedade/insônia (máximo de 2 comprimidos ao dia). Atenção: pode causar sonolência.
+      
+      ORIENTAÇÕES NÃO FARMACOLÓGICAS E SINAIS DE ALERTA:
+      - Praticar respiração diafragmática quadrada (inspirar em 4s, segurar 4s, expirar lentamente pela boca em 6s) aos primeiros sinais de taquicardia ou formigamento.
+      - Reduzir consumo de cafeína, energéticos, pré-treinos e nicotina.
+      - Buscar acompanhamento longitudinal em Saúde Mental (UBS / CAPS / Psicoterapia Cognitivo-Comportamental).
+      - Retornar imediatamente se dor torácica opressiva ao esforço, desmaio ou ideação de autoextermínio.
 
   - trigger: ";ansiedade-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       USO ORAL:
       
       1. Cloridrato de Sertralina 50 mg ------------------------------ 30 comprimidos
@@ -2450,7 +2801,7 @@ matches:
       - Negativas Mandatórias:
         * Nega histórico de trauma cranioencefálico recente ou cefaleia febril precedente.
         * Sem porte de armas ou objetos perfurocortantes (revista de segurança realizada pela equipe/guarda).
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO & ESTADO MENTAL NA SALA DE EMERGÊNCIA):
       - SINAIS VITAIS (AFERIDOS ASSIM QUE POSSÍVEL): PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% | Tax: [ ] °C.
@@ -2470,14 +2821,18 @@ matches:
       - [Se paciente aceitou medicação oral voluntariamente]:
         * Haloperidol 5 mg VO (ou Risperidona 2 mg VO / Olanzapina 10 mg VO) + Clonazepam 2 mg VO.
       
-      >> ETAPA 2: CONTENÇÃO FARMACOLÓGICA RÁPIDA VIA INTRAMUSCULAR (SE RECUSA OU AGRESSIVIDADE ATIVA):
-      1. PROTOCOLO PADRÃO-OURO DA EMERGÊNCIA (Antipsicótico + Anti-histamínico com ação anticolinérgica):
+      >> ETAPA 2: CONTENÇÃO FARMACOLÓGICA RÁPIDA (SE RECUSA OU AGRESSIVIDADE ATIVA):
+      1. [SE SUSPEITA DE ABSTINÊNCIA ALCOÓLICA (DELIRIUM TREMENS) OU INTOXICAÇÃO POR COCAÍNA/CRACK]:
+         - PRIMEIRA LINHA OBRIGATÓRIA: Benzodiazepínico + Tiamina Parenteral (EVITAR Haloperidol isolado pelo risco de convulsão e arritmia):
+           * Diazepam 10 mg EV lento (1 a 2 mL/min) ou VO, repetindo a cada 10 a 20 min até sedação leve [OU Midazolam 5 a 10 mg IM/EV].
+           * + Tiamina (Vitamina B1) 100 mg a 300 mg IM ou EV (fazer ANTES de qualquer infusão de glicose para prevenção de Encefalopatia de Wernicke).
+      2. PROTOCOLO PADRÃO-OURO PARA SURTO PSIQUIÁTRICO / PSICOSE / MANIA (Antipsicótico + Anti-histamínico com ação anticolinérgica):
          - Haloperidol (Haldol) 5 mg (1 ampola = 1 mL) INTRAMUSCULAR profunda no glúteo.
          + Prometazina (Fenergan) 50 mg (1 ampola = 2 mL) INTRAMUSCULAR profunda no outro glúteo.
          *(Nota: A Prometazina potencializa a sedação do Haloperidol e PREVINE OBRIGATORIAMENTE a ocorrência de distonia aguda, trismo e crise oculógira induzidas pelo haloperidol).*
-      2. [Se paciente muito violento com pico adrenérgico extremo]:
+      3. [Se paciente muito violento com pico adrenérgico extremo]:
          - Adicionar Midazolam 5 a 10 mg IM profunda (ação sedativa hipnótica em 10 minutos).
-      3. [SE PACIENTE IDOSO COM DELIRIUM]:
+      4. [SE PACIENTE IDOSO COM DELIRIUM]:
          - EVITAR Prometazina e Benzodiazepínicos (risco de piora do delirium e sedação paradoxal).
          - Administrar apenas Haloperidol 1,0 mg a 2,5 mg IM ou Quetiapina 25 mg VO.
       
@@ -2501,14 +2856,18 @@ matches:
       - [Se paciente aceitou medicação oral voluntariamente]:
         * Haloperidol 5 mg VO (ou Risperidona 2 mg VO / Olanzapina 10 mg VO) + Clonazepam 2 mg VO.
       
-      >> ETAPA 2: CONTENÇÃO FARMACOLÓGICA RÁPIDA VIA INTRAMUSCULAR (SE RECUSA OU AGRESSIVIDADE ATIVA):
-      1. PROTOCOLO PADRÃO-OURO DA EMERGÊNCIA (Antipsicótico + Anti-histamínico com ação anticolinérgica):
+      >> ETAPA 2: CONTENÇÃO FARMACOLÓGICA RÁPIDA (SE RECUSA OU AGRESSIVIDADE ATIVA):
+      1. [SE SUSPEITA DE ABSTINÊNCIA ALCOÓLICA (DELIRIUM TREMENS) OU INTOXICAÇÃO POR COCAÍNA/CRACK]:
+         - PRIMEIRA LINHA OBRIGATÓRIA: Benzodiazepínico + Tiamina Parenteral (EVITAR Haloperidol isolado pelo risco de convulsão e arritmia):
+           * Diazepam 10 mg EV lento (1 a 2 mL/min) ou VO, repetindo a cada 10 a 20 min até sedação leve [OU Midazolam 5 a 10 mg IM/EV].
+           * + Tiamina (Vitamina B1) 100 mg a 300 mg IM ou EV (fazer ANTES de qualquer infusão de glicose para prevenção de Encefalopatia de Wernicke).
+      2. PROTOCOLO PADRÃO-OURO PARA SURTO PSIQUIÁTRICO / PSICOSE / MANIA (Antipsicótico + Anti-histamínico com ação anticolinérgica):
          - Haloperidol (Haldol) 5 mg (1 ampola = 1 mL) INTRAMUSCULAR profunda no glúteo.
          + Prometazina (Fenergan) 50 mg (1 ampola = 2 mL) INTRAMUSCULAR profunda no outro glúteo.
          *(Nota: A Prometazina potencializa a sedação do Haloperidol e PREVINE OBRIGATORIAMENTE a ocorrência de distonia aguda, trismo e crise oculógira induzidas pelo haloperidol).*
-      2. [Se paciente muito violento com pico adrenérgico extremo]:
+      3. [Se paciente muito violento com pico adrenérgico extremo]:
          - Adicionar Midazolam 5 a 10 mg IM profunda (ação sedativa hipnótica em 10 minutos).
-      3. [SE PACIENTE IDOSO COM DELIRIUM]:
+      4. [SE PACIENTE IDOSO COM DELIRIUM]:
          - EVITAR Prometazina e Benzodiazepínicos (risco de piora do delirium e sedação paradoxal).
          - Administrar apenas Haloperidol 1,0 mg a 2,5 mg IM ou Quetiapina 25 mg VO.
       
@@ -2580,6 +2939,30 @@ matches:
       
       >> SINAIS DE ALARME PARA RETORNO IMEDIATO:
       - Retornar imediatamente se apresentar febre alta com calafrios, vômitos que impeçam tomar o antibiótico ou dor lombar que piore nas costas.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO ORAL (ESCOLHER CONFORME CLASSIFICAÇÃO CLÍNICA):
+      
+      [OPÇÃO 1 - CISTITE AGUDA NÃO COMPLICADA (1ª LINHA - DOSE ÚNICA)]:
+      1. Fosfomicina Trometamol 3 g (envelope 8 g) ------------------- 01 envelope
+         Dissolver o conteúdo de 01 envelope em meio copo de água e tomar em dose única, preferencialmente à noite, após esvaziar completamente a bexiga.
+      
+      [OPÇÃO 2 - CISTITE AGUDA NÃO COMPLICADA (ALTERNATIVA 5 DIAS)]:
+      1. Nitrofurantoína 100 mg -------------------------------------- 20 cápsulas
+         Tomar 01 cápsula por via oral de 6/6 horas, junto às refeições, por 5 dias.
+      
+      [OPÇÃO 3 - PIELONEFRITE AGUDA NÃO COMPLICADA AMBULATORIAL]:
+      1. Ciprofloxacino 500 mg --------------------------------------- 14 comprimidos
+         Tomar 01 comprimido por via oral de 12/12 horas por 7 dias.
+      
+      [SINTOMÁTICOS DE APOIO]:
+      2. Fenazopiridina (Pyridium) 200 mg ---------------------------- 06 comprimidos
+         Tomar 01 comprimido por via oral de 8/8 horas, após as refeições, por 2 dias (alívio da disúria). Avisar que deixa a urina alaranjada/avermelhada.
+      3. Dipirona Sódica 1 g ----------------------------------------- 01 caixa
+         Tomar 01 comprimido de 6/6 horas se dor suprapúbica, lombar ou febre.
+      
+      SINAIS DE ALERTA:
+      - Ingerir ao menos 2,5 litros de água ao dia e não postergar a micção.
+      - Retornar imediatamente se febre persistente após 48-72h de antibiótico, calafrios, vômitos incoercíveis ou queda do estado geral.
 
   - trigger: ";itu-cnd"
     replace: |
@@ -2608,9 +2991,34 @@ matches:
       
       >> SINAIS DE ALARME PARA RETORNO IMEDIATO:
       - Retornar imediatamente se apresentar febre alta com calafrios, vômitos que impeçam tomar o antibiótico ou dor lombar que piore nas costas.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO ORAL (ESCOLHER CONFORME CLASSIFICAÇÃO CLÍNICA):
+      
+      [OPÇÃO 1 - CISTITE AGUDA NÃO COMPLICADA (1ª LINHA - DOSE ÚNICA)]:
+      1. Fosfomicina Trometamol 3 g (envelope 8 g) ------------------- 01 envelope
+         Dissolver o conteúdo de 01 envelope em meio copo de água e tomar em dose única, preferencialmente à noite, após esvaziar completamente a bexiga.
+      
+      [OPÇÃO 2 - CISTITE AGUDA NÃO COMPLICADA (ALTERNATIVA 5 DIAS)]:
+      1. Nitrofurantoína 100 mg -------------------------------------- 20 cápsulas
+         Tomar 01 cápsula por via oral de 6/6 horas, junto às refeições, por 5 dias.
+      
+      [OPÇÃO 3 - PIELONEFRITE AGUDA NÃO COMPLICADA AMBULATORIAL]:
+      1. Ciprofloxacino 500 mg --------------------------------------- 14 comprimidos
+         Tomar 01 comprimido por via oral de 12/12 horas por 7 dias.
+      
+      [SINTOMÁTICOS DE APOIO]:
+      2. Fenazopiridina (Pyridium) 200 mg ---------------------------- 06 comprimidos
+         Tomar 01 comprimido por via oral de 8/8 horas, após as refeições, por 2 dias (alívio da disúria). Avisar que deixa a urina alaranjada/avermelhada.
+      3. Dipirona Sódica 1 g ----------------------------------------- 01 caixa
+         Tomar 01 comprimido de 6/6 horas se dor suprapúbica, lombar ou febre.
+      
+      SINAIS DE ALERTA:
+      - Ingerir ao menos 2,5 litros de água ao dia e não postergar a micção.
+      - Retornar imediatamente se febre persistente após 48-72h de antibiótico, calafrios, vômitos incoercíveis ou queda do estado geral.
 
   - trigger: ";itu-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       USO ORAL (ESCOLHER CONFORME CLASSIFICAÇÃO CLÍNICA):
       
       [OPÇÃO 1 - CISTITE AGUDA NÃO COMPLICADA (1ª LINHA - DOSE ÚNICA)]:
@@ -2653,7 +3061,7 @@ matches:
         [ ] Anúria persistente ou oligúria severa.
         [ ] Dor intratável refratária à analgesia venosa potente na UPA.
         [ ] Gestante em vigência de cólica nefrética.
-        * STATUS: [TODOS OS CRITÉRIOS DE URGÊNCIA UROLÓGICA NEGADOS / PRESENTE:].
+        * STATUS: [TODOS OS CRITÉRIOS DE URGÊNCIA UROLÓGICA NEGADOS / PRESENTE: [ ]].
       - Histórico Prévio: [Episódios prévios conhecidos de litíase urinária com eliminação de cálculos / Primeiro episódio da vida].
       - Alergias: [Nega / Alérgico a Dipirona / Alérgico a AINEs].
       
@@ -2818,6 +3226,20 @@ matches:
       - TRATAMENTO OBRIGATÓRIO DE TODAS AS PARCERIAS SEXUAIS: Todas as pessoas com quem o paciente se relacionou sexualmente nos últimos 60 dias DEVEM comparecer à unidade de saúde para receber a mesma medicação (Ceftriaxona + Azitromicina), mesmo que estejam totalmente sem sintomas (a infecção em mulheres é assintomática em até 80% dos casos e pode causar infertilidade por DIP se não tratada).
       - Preservativos entregues; orientado uso contínuo de preservativo masculino/feminino em todas as relações futuras.
       - Notificação Compulsória formal da IST realizada via ficha de notificação do SINAN.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO INTRAMUSCULAR E ORAL (TRATAMENTO DUPLO GONOCOCO + CLAMÍDIA — PCDT IST/MS):
+      
+      1. Ceftriaxona 500 mg IM --------------------------------------- 01 frasco-ampola
+         Aplicar 500 mg por via intramuscular profunda (glúteo) em dose única na unidade de saúde.
+      
+      2. Azitromicina 500 mg ----------------------------------------- 02 comprimidos
+         Tomar 02 comprimidos (1 g) juntos por via oral em dose única.
+         (Alternativa se indisponibilidade ou preferência: Doxiciclina 100 mg — tomar 01 comprimido VO de 12/12h por 7 dias).
+      
+      ORIENTAÇÕES ESSENCIAIS:
+      - Abstinência sexual (ou uso rigoroso de preservativo) até 7 dias após o término do tratamento e desaparecimento completo dos sintomas.
+      - Convocação e tratamento obrigatório das parcerias sexuais dos últimos 60 dias (mesmo que assintomáticas) para evitar reinfecção (efeito pingue-pongue).
+      - Realizar testes rápidos para HIV, Sífilis e Hepatites B e C na UBS.
 
   - trigger: ";uretrite-cnd"
     replace: |
@@ -2838,9 +3260,24 @@ matches:
       - TRATAMENTO OBRIGATÓRIO DE TODAS AS PARCERIAS SEXUAIS: Todas as pessoas com quem o paciente se relacionou sexualmente nos últimos 60 dias DEVEM comparecer à unidade de saúde para receber a mesma medicação (Ceftriaxona + Azitromicina), mesmo que estejam totalmente sem sintomas (a infecção em mulheres é assintomática em até 80% dos casos e pode causar infertilidade por DIP se não tratada).
       - Preservativos entregues; orientado uso contínuo de preservativo masculino/feminino em todas as relações futuras.
       - Notificação Compulsória formal da IST realizada via ficha de notificação do SINAN.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO INTRAMUSCULAR E ORAL (TRATAMENTO DUPLO GONOCOCO + CLAMÍDIA — PCDT IST/MS):
+      
+      1. Ceftriaxona 500 mg IM --------------------------------------- 01 frasco-ampola
+         Aplicar 500 mg por via intramuscular profunda (glúteo) em dose única na unidade de saúde.
+      
+      2. Azitromicina 500 mg ----------------------------------------- 02 comprimidos
+         Tomar 02 comprimidos (1 g) juntos por via oral em dose única.
+         (Alternativa se indisponibilidade ou preferência: Doxiciclina 100 mg — tomar 01 comprimido VO de 12/12h por 7 dias).
+      
+      ORIENTAÇÕES ESSENCIAIS:
+      - Abstinência sexual (ou uso rigoroso de preservativo) até 7 dias após o término do tratamento e desaparecimento completo dos sintomas.
+      - Convocação e tratamento obrigatório das parcerias sexuais dos últimos 60 dias (mesmo que assintomáticas) para evitar reinfecção (efeito pingue-pongue).
+      - Realizar testes rápidos para HIV, Sífilis e Hepatites B e C na UBS.
 
   - trigger: ";uretrite-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       USO INTRAMUSCULAR E ORAL (TRATAMENTO DUPLO GONOCOCO + CLAMÍDIA — PCDT IST/MS):
       
       1. Ceftriaxona 500 mg IM --------------------------------------- 01 frasco-ampola
@@ -2870,7 +3307,7 @@ matches:
         * [ ] NEOPLASIA / METÁSTASE ÓSSEA: Nega histórico pessoal prévio de câncer (mama, próstata, pulmão); nega dor contínua em repouso que piora de madrugada na cama sem alívio em qualquer posição; nega perda ponderal inexplicada.
         * [ ] INFECÇÃO DA COLUNA (ESPONDILODISCITE / ABSCESSO EPIDURAL): Nega febre, calafrios ou sudorese noturna; nega uso de drogas endovenosas ou infecção urinária/cutânea recente.
         * [ ] RISCO DE FRATURA OSTEOPORÓTICA: Idade < 65 anos, nega uso crônico prolongado de corticoides orais e nega trauma contuso de alto impacto.
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO OSTEOMUSCULAR & NEUROLÓGICO DIRIGIDO):
       - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Tax: [ ] °C (afebril).
@@ -2972,7 +3409,7 @@ matches:
       - Queixa Principal: Manchas vermelhas pelo corpo que coçam muito / Inchaço nos lábios / Falta de ar há [ ] minutos.
       - HMA: Relata aparecimento agudo há cerca de [ ] minutos de placas avermelhadas na pele com intenso prurido, sensação de calor e formigamento difuso, acompanhadas de inchaço (angioedema) em [lábios / pálpebras / orelhas / face / mãos].
       - FATOR DESENCADEANTE IDENTIFICADO:
-        * [ ] Ingestão alimentar recente: [Frutos do mar/camarão / Amendoim/castanhas / Ovos / Leite / Outro:].
+        * [ ] Ingestão alimentar recente: [Frutos do mar/camarão / Amendoim/castanhas / Ovos / Leite / Outro: [ ]].
         * [ ] Medicamentos recentes: [Uso de anti-inflamatórios (AAS/Diclofenaco/Ibuprofeno) / Antibióticos (Amoxicilina/Penicilina) / Dipirona / IECA].
         * [ ] Picada de inseto: [Abelha / Vespa / Formiga de fogo].
         * [ ] Contato com látex ou substância química tópica.
@@ -3024,8 +3461,21 @@ matches:
          - Anti-histamínico de 2ª Geração (Não Sedativo):
            * Loratadina 10 mg VO 1x/dia pela manhã por 5 a 7 dias [OU Cetirizina 10 mg VO 1x/dia / Fexofenadina 180 mg VO 1x/dia].
          - Corticoide Oral (para desmame rápido):
-           * Prednisona 40 mg VO 1x/dia pela manhã por 3 a 5 dias (interrupção direta sem desmame).
+           * Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO 1x/dia pela manhã por 3 a 5 dias (interrupção direta sem desmame).
       3. Orientações: Identificar e afastar o agente causal suspeito; evitar banhos muito quentes.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO ORAL:
+      
+      1. Dicloridrato de Cetirizina 10 mg (ou Loratadina 10 mg / Bilastina 20 mg) -- 10 comprimidos
+         Tomar 01 comprimido por via oral de 24/24 horas por 5 a 7 dias.
+         (Nota: Em urticária aguda refratária, o anti-H1 de 2ª geração pode ser escalonado até 1 comprimido de 12/12h sob orientação médica).
+      
+      2. Prednisolona 20 mg ------------------------------------------ 10 comprimidos
+         Tomar 02 comprimidos (40 mg) por via oral pela manhã, após o café, por 3 a 5 dias (em caso de urticária extensa ou angioedema associado).
+      
+      SINAIS DE ALERTA DE ANAFILAXIA (RETORNO IMEDIATO):
+      - Suspender imediatamente medicamentos suspeitos (especialmente AINEs, AAS, Dipirona ou antibióticos recém-iniciados).
+      - Retornar IMEDIATAMENTE ao Pronto-Socorro se surgir: inchaço nos lábios ou língua, voz rouca/abafada, sensação de garganta fechando, falta de ar, chiado no peito ou tontura/desmaio.
 
   - trigger: ";alergia-cnd"
     replace: |
@@ -3057,11 +3507,25 @@ matches:
          - Anti-histamínico de 2ª Geração (Não Sedativo):
            * Loratadina 10 mg VO 1x/dia pela manhã por 5 a 7 dias [OU Cetirizina 10 mg VO 1x/dia / Fexofenadina 180 mg VO 1x/dia].
          - Corticoide Oral (para desmame rápido):
-           * Prednisona 40 mg VO 1x/dia pela manhã por 3 a 5 dias (interrupção direta sem desmame).
+           * Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO 1x/dia pela manhã por 3 a 5 dias (interrupção direta sem desmame).
       3. Orientações: Identificar e afastar o agente causal suspeito; evitar banhos muito quentes.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO ORAL:
+      
+      1. Dicloridrato de Cetirizina 10 mg (ou Loratadina 10 mg / Bilastina 20 mg) -- 10 comprimidos
+         Tomar 01 comprimido por via oral de 24/24 horas por 5 a 7 dias.
+         (Nota: Em urticária aguda refratária, o anti-H1 de 2ª geração pode ser escalonado até 1 comprimido de 12/12h sob orientação médica).
+      
+      2. Prednisolona 20 mg ------------------------------------------ 10 comprimidos
+         Tomar 02 comprimidos (40 mg) por via oral pela manhã, após o café, por 3 a 5 dias (em caso de urticária extensa ou angioedema associado).
+      
+      SINAIS DE ALERTA DE ANAFILAXIA (RETORNO IMEDIATO):
+      - Suspender imediatamente medicamentos suspeitos (especialmente AINEs, AAS, Dipirona ou antibióticos recém-iniciados).
+      - Retornar IMEDIATAMENTE ao Pronto-Socorro se surgir: inchaço nos lábios ou língua, voz rouca/abafada, sensação de garganta fechando, falta de ar, chiado no peito ou tontura/desmaio.
 
   - trigger: ";alergia-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       USO ORAL:
       
       1. Dicloridrato de Cetirizina 10 mg (ou Loratadina 10 mg / Bilastina 20 mg) -- 10 comprimidos
@@ -3109,6 +3573,15 @@ matches:
       
       # PLANO / CONDUTA:
       
+      >> [SE INDICAÇÃO DE TRATAMENTO HOSPITALAR / INTRAVENOSO NA UPA] (Febre alta, toxicidade sistêmica, linfangite extensa, comorbidades descompensadas ou intolerância oral):
+      1. Hidratação venosa e repouso absoluto no leito com membro elevado.
+      2. Antibioticoterapia Endovenosa na UPA:
+         - [Erisipela / Celulite grave sem abscesso - Cobertura Estreptocócica]:
+           Ceftriaxona 1 g a 2 g EV 1x/dia [OU Cefazolina 1 g a 2 g EV de 8/8 horas / Oxacilina 2 g EV de 4/4 horas].
+         - [Se alergia grave a beta-lactâmicos ou suspeita de MRSA]:
+           Clindamicina 600 mg EV de 8/8 horas [OU Vancomicina 15 a 20 mg/kg EV de 12/12h se choque séptico].
+      3. Monitorar extensão da lesão marcada com caneta dermográfica a cada 12 horas.
+      
       >> [SE ABSCESSO CUTÂNEO]: NOTA DE PROCEDIMENTO DE DRENAGEM CIRÚRGICA NA UPA:
       1. Antissepsia rigorosa da pele perilesional com Clorexidina Alcoólica 2% e aposição de campo estéril fenestrado.
       2. Infiltração anestésica local em leque com Lidocaína 2% sem vasoconstritor estritamente na pele sobre o domo do abscesso (evitando injetar dentro da cavidade purulenta para não inativar o anestésico).
@@ -3139,6 +3612,15 @@ matches:
   - trigger: ";celulite-cnd"
     replace: |
       # PLANO / CONDUTA:
+      
+      >> [SE INDICAÇÃO DE TRATAMENTO HOSPITALAR / INTRAVENOSO NA UPA] (Febre alta, toxicidade sistêmica, linfangite extensa, comorbidades descompensadas ou intolerância oral):
+      1. Hidratação venosa e repouso absoluto no leito com membro elevado.
+      2. Antibioticoterapia Endovenosa na UPA:
+         - [Erisipela / Celulite grave sem abscesso - Cobertura Estreptocócica]:
+           Ceftriaxona 1 g a 2 g EV 1x/dia [OU Cefazolina 1 g a 2 g EV de 8/8 horas / Oxacilina 2 g EV de 4/4 horas].
+         - [Se alergia grave a beta-lactâmicos ou suspeita de MRSA]:
+           Clindamicina 600 mg EV de 8/8 horas [OU Vancomicina 15 a 20 mg/kg EV de 12/12h se choque séptico].
+      3. Monitorar extensão da lesão marcada com caneta dermográfica a cada 12 horas.
       
       >> [SE ABSCESSO CUTÂNEO]: NOTA DE PROCEDIMENTO DE DRENAGEM CIRÚRGICA NA UPA:
       1. Antissepsia rigorosa da pele perilesional com Clorexidina Alcoólica 2% e aposição de campo estéril fenestrado.
@@ -3206,7 +3688,7 @@ matches:
           - Nega paralisia ou fraqueza na mímica facial (mímica facial simétrica).
           - Nega dor intensa no ouvido com vesículas no conduto auditivo externo ou vertigem súbita.
       - Histórico: [Passado de catapora/varicela na infância / Imunossupressão / Idade > 50 anos].
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO DERMATOLÓGICO & NEUROLÓGICO):
       - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Afebril.
@@ -3243,6 +3725,25 @@ matches:
       - Não manipular ou estourar as vesículas.
       - Alerta de Contágio: O líquido das vesículas contém o vírus vivo da catapora. Evitar contato direto com gestantes suscetíveis, recém-nascidos e pessoas imunossuprimidas até que todas as bolhas tenham virado crostas secas.
       - [SE SINAL DE HUTCHINSON PRESENTE]: Encaminhamento IMEDIATO ao Oftalmologista no mesmo dia para exame com lâmpada de fenda e fluoresceína.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO ORAL (INICIAR PREFERENCIALMENTE EM ATÉ 72H DO SURGIMENTO DAS VESÍCULAS):
+      
+      1. Aciclovir 400 mg -------------------------------------------- 70 comprimidos
+         Tomar 02 comprimidos (800 mg) por via oral, 5 vezes ao dia (às 06h, 10h, 14h, 18h e 22h — pulando a dose da madrugada), durante 7 dias. Ingerir bastante água durante o tratamento.
+         (Alternativa de maior comodidade posológica: Valaciclovir 500 mg — tomar 02 comprimidos [1.000 mg] VO de 8/8h por 7 dias).
+      
+      2. Dipirona Sódica 1 g ----------------------------------------- 20 comprimidos
+         Tomar 01 comprimido por via oral de 6/6 horas para controle da dor aguda.
+      
+      3. Cloridrato de Tramadol 50 mg (se dor neurítica moderada/intensa) -- 10 cápsulas
+         Tomar 01 cápsula por via oral de 8/8 horas se dor intensa refratária à dipirona.
+      
+      4. Gabapentina 300 mg (ou Pregabalina 75 mg) — se dor neuropática intensa:
+         Tomar 01 cápsula à noite nos primeiros 3 dias, progredindo conforme tolerância e acompanhamento ambulatorial.
+      
+      CUIDADOS LOCAIS E SINAIS DE ALERTA:
+      - Lavar as lesões suavemente com água e sabonete neutro; não estourar as vesículas e evitar contato das lesões ativas com gestantes, recém-nascidos e imunossuprimidos não vacinados contra varicela.
+      - RETORNO IMEDIATO se surgirem lesões na ponta do nariz (Sinal de Hutchinson), vermelhidão ocular, dor no olho, visão turva, paralisia facial ou dor de cabeça intensa com rigidez de nuca.
 
   - trigger: ";zoster-cnd"
     replace: |
@@ -3266,9 +3767,29 @@ matches:
       - Não manipular ou estourar as vesículas.
       - Alerta de Contágio: O líquido das vesículas contém o vírus vivo da catapora. Evitar contato direto com gestantes suscetíveis, recém-nascidos e pessoas imunossuprimidas até que todas as bolhas tenham virado crostas secas.
       - [SE SINAL DE HUTCHINSON PRESENTE]: Encaminhamento IMEDIATO ao Oftalmologista no mesmo dia para exame com lâmpada de fenda e fluoresceína.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      USO ORAL (INICIAR PREFERENCIALMENTE EM ATÉ 72H DO SURGIMENTO DAS VESÍCULAS):
+      
+      1. Aciclovir 400 mg -------------------------------------------- 70 comprimidos
+         Tomar 02 comprimidos (800 mg) por via oral, 5 vezes ao dia (às 06h, 10h, 14h, 18h e 22h — pulando a dose da madrugada), durante 7 dias. Ingerir bastante água durante o tratamento.
+         (Alternativa de maior comodidade posológica: Valaciclovir 500 mg — tomar 02 comprimidos [1.000 mg] VO de 8/8h por 7 dias).
+      
+      2. Dipirona Sódica 1 g ----------------------------------------- 20 comprimidos
+         Tomar 01 comprimido por via oral de 6/6 horas para controle da dor aguda.
+      
+      3. Cloridrato de Tramadol 50 mg (se dor neurítica moderada/intensa) -- 10 cápsulas
+         Tomar 01 cápsula por via oral de 8/8 horas se dor intensa refratária à dipirona.
+      
+      4. Gabapentina 300 mg (ou Pregabalina 75 mg) — se dor neuropática intensa:
+         Tomar 01 cápsula à noite nos primeiros 3 dias, progredindo conforme tolerância e acompanhamento ambulatorial.
+      
+      CUIDADOS LOCAIS E SINAIS DE ALERTA:
+      - Lavar as lesões suavemente com água e sabonete neutro; não estourar as vesículas e evitar contato das lesões ativas com gestantes, recém-nascidos e imunossuprimidos não vacinados contra varicela.
+      - RETORNO IMEDIATO se surgirem lesões na ponta do nariz (Sinal de Hutchinson), vermelhidão ocular, dor no olho, visão turva, paralisia facial ou dor de cabeça intensa com rigidez de nuca.
 
   - trigger: ";zoster-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       USO ORAL (INICIAR PREFERENCIALMENTE EM ATÉ 72H DO SURGIMENTO DAS VESÍCULAS):
       
       1. Aciclovir 400 mg -------------------------------------------- 70 comprimidos
@@ -3302,7 +3823,7 @@ matches:
       - Negativas Mandatórias:
         * Nega febre, calafrios ou prostração sistêmica.
         * Nega lesões bolhosas extensas com descolamento cutâneo (afastado pênfigo ou eritema multiforme).
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO DERMATOLÓGICO):
       - Ectoscopia Cutânea:
@@ -3466,7 +3987,7 @@ matches:
       
       [OPÇÃO B - SE INSUFICIÊNCIA RENAL, IDOSO OU CONTRAINDICAÇÃO A AINES/COLCHICINA]:
       1. Corticoide Sistêmico Oral:
-         - Prednisona 35 mg a 40 mg - Tomar 1 comprimido VO pela manhã por 5 dias consecutivos, suspendendo em seguida sem necessidade de desmame.
+         - Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO pela manhã por 5 dias consecutivos, suspendendo em seguida sem necessidade de desmame.
       
       >> ORIENTAÇÃO CRÍTICA SOBRE O ALOPURINOL:
       - REGRA DE OURO ABSOLUTA: NUNCA INICIAR ALOPURINOL DURANTE UMA CRISE AGUDA DE GOTA! A queda súbita do ácido úrico sanguíneo desestabiliza os cristais nas articulações, prolongando e piorando a dor. O Alopurinol só deve ser iniciado cerca de 2 a 4 semanas após a crise estar completamente resolvida.
@@ -3499,7 +4020,7 @@ matches:
       
       [OPÇÃO B - SE INSUFICIÊNCIA RENAL, IDOSO OU CONTRAINDICAÇÃO A AINES/COLCHICINA]:
       1. Corticoide Sistêmico Oral:
-         - Prednisona 35 mg a 40 mg - Tomar 1 comprimido VO pela manhã por 5 dias consecutivos, suspendendo em seguida sem necessidade de desmame.
+         - Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO pela manhã por 5 dias consecutivos, suspendendo em seguida sem necessidade de desmame.
       
       >> ORIENTAÇÃO CRÍTICA SOBRE O ALOPURINOL:
       - REGRA DE OURO ABSOLUTA: NUNCA INICIAR ALOPURINOL DURANTE UMA CRISE AGUDA DE GOTA! A queda súbita do ácido úrico sanguíneo desestabiliza os cristais nas articulações, prolongando e piorando a dor. O Alopurinol só deve ser iniciado cerca de 2 a 4 semanas após a crise estar completamente resolvida.
@@ -3543,7 +4064,7 @@ matches:
       - Negativas Mandatórias:
         * Nega cirurgia abdominal recente ou hematêmese.
         * Nega uso de drogas simpatomiméticas ilícitas (cocaína).
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO NA SALA VERMELHA):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg (hipotensão postural) | FC: [ ] bpm (taquicardia sinusal) | FR: [ ] irpm (hiperpneia) | SpO2: [ ]% | Tax: [ ] °C.
@@ -3648,7 +4169,7 @@ matches:
         * [ ] 3. TOXIDROME COLINÉRGICA (Organofosforados / Carbamatos / Chumbinho): Miose puntiforme, bradicardia acentuada, sialorreia profusa ("baba contínua"), broncorreia intensa com estertores ("afogando nas próprias secreções"), sudorese, fasciculações musculares e diarreia.
         * [ ] 4. TOXIDROME SIMPATICOMIMÉTICA (Cocaína, Crack, Anfetaminas): Agitação psicomotora violenta, midríase bilateral fotorreagente, taquicardia extrema, pico hipertensivo grave, sudorese profusa e hipertermia.
         * [ ] 5. TOXIDROME ANTICOLINÉRGICA (Tricíclicos, Anti-histamínicos): Midríase paralítica fixa, pele seca e quente, taquicardia, retenção urinária aguda (bexigoma) e delírio agitado.
-      - Alergias: [Nega /].
+      - Alergias: [Nega / Sim: [ ]].
       
       # OBJETIVO (EXAME FÍSICO DA SALA DE EMERGÊNCIA):
       - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.
@@ -3729,7 +4250,7 @@ matches:
       - O (Obstruction): Ausência de massas, estridor ou corpos estranhos em orofaringe.
       - N (Neck mobility): Mobilidade cervical livre [ou restrita por colar cervical em trauma raquimedular].
       
-      # PLANO / CONDUTA (PROTOCOLO CRONOMETRADO DOS 7 Ps DA SRI & SEDAÇÃO PÓS-IOT):
+      # PLANO / CONDUTA (PROTOCOLO CRONOMETRADO DOS 7 Ps DA SRI):
       
       1. P1 - PREPARAÇÃO (MATERIAL SOAP ME TESTADO):
          - Aspirador rígido de Yankauer funcionando com sucção efetiva à mão.
@@ -3743,15 +4264,15 @@ matches:
       
       3. P3 - PRÉ-OTIMIZAÇÃO HEMODINÂMICA (MINUTO -3):
          - Ressuscitação volêmica prévia / noradrenalina em bólus ("push-dose") se instabilidade hemodinâmica.
-         - [Se indicado para atenuação da resposta simpática (TCE ou dissecção)]: Fentanil 2 mcg/kg EV lento.
+         - [Se indicado para atenuação da resposta simpática (TCE ou dissecção)]: Fentanil 2 mcg/kg EV lento ([ ] mcg EV).
       
       4. P4 - PARALISIA COM INDUÇÃO SIMULTÂNEA (MINUTO 0):
          - HIPNÓTICO ESCOLHIDO (ADMINISTRADO PRIMEIRO):
-           * [ ] Etomidato 0,3 mg/kg: Administrados 20 mg (1 ampola de 10 mL) EV em bólus direto (excelente estabilidade cardiovascular; sem queda pressórica).
+           * [ ] Etomidato 0,3 mg/kg: Administrados [ ] mg ([ ] mL) EV em bólus direto (dose usual 20 mg / 10 mL; excelente estabilidade cardiovascular; sem queda pressórica).
            * [ ] OU Cetamina (Ketamina) 1,5 a 2,0 mg/kg: Administrados [ ] mg EV (escolha ouro na asma/DPOC por potente broncodilatação).
            * [ ] OU Propofol 1,5 a 2,0 mg/kg: Administrados [ ] mg EV (se hipertenso sem choque).
          - BLOQUEADOR NEUROMUSCULAR (ADMINISTRADO IMEDIATAMENTE A SEGUIR):
-           * [ ] Succinilcolina 1,0 a 1,5 mg/kg: Administrados 100 mg (1 frasco) EV direto (início de ação em 45 segundos) [CONFERIDA AUSÊNCIA DE CONTRAINDICAÇÕES: sem hipercalemia, sem queimadura > 24h e sem lesão medular].
+           * [ ] Succinilcolina 1,0 a 1,5 mg/kg: Administrados [ ] mg ([ ] mL) EV direto (dose usual 100 mg / 1 frasco; início de ação em 45 segundos) [CONFERIDA AUSÊNCIA DE CONTRAINDICAÇÕES: sem hipercalemia, sem queimadura > 24h e sem lesão medular].
            * [ ] OU Rocurônio 1,2 mg/kg: Administrados [ ] mg EV direto (dose de sequência rápida - início em 60 segundos).
       
       5. P5 - POSICIONAMENTO (MINUTO 0 A +1):
@@ -3775,14 +4296,17 @@ matches:
          - Tubo conectado ao ventilador mecânico em modo protetor (Volume Corrente 6 mL/kg de peso predito, PEEP 5-8 cmH2O, FiO2 100% inicial e FR 14-16 irpm).
          - Solicitada Radiografia de Tórax no leito para checagem da ponta do tubo traqueal (3 a 4 cm acima da carina).
       
-      # PRESCRIÇÃO DA SEDAÇÃO CONTÍNUA DE MANUTENÇÃO (BIC):
-      1. Fentanil (50 mcg/mL): 1 ampola de 500 mcg (10 mL) pura na seringa ou diluída em SF 0,9% -> Iniciar infusão a 2 a 4 mL/h em BIC.
-      2. Midazolam (5 mg/mL): 2 ampolas de 50 mg (20 mL) + 80 mL de SF 0,9% (Solução 1 mg/mL) -> Iniciar infusão a 5 a 10 mL/h em BIC.
-      3. [OU Propofol 1% puro em BIC se paciente estável hemodinamicamente].
+      >> PRESCRIÇÃO DA SEDAÇÃO CONTÍNUA DE MANUTENÇÃO PÓS-IOT (BIC):
+      1. Fentanil (50 mcg/mL):
+         - Opção Solução Diluída Padrão: 4 ampolas (40 mL = 2.000 mcg) + 160 mL de SF 0,9% (Solução 10 mcg/mL) -> Iniciar infusão a 5 a 15 mL/h em BIC (50 a 150 mcg/h).
+         - [OU Opção Solução Pura na seringa]: Fentanil puro 50 mcg/mL em seringa de 20 ou 50 mL -> Iniciar infusão a 1 a 3 mL/h em BIC (50 a 150 mcg/h).
+      2. Midazolam (5 mg/mL):
+         - 2 ampolas de 50 mg/10 mL (20 mL = 100 mg) + 80 mL de SF 0,9% (Solução 1 mg/mL) -> Iniciar infusão a 5 a 10 mL/h em BIC.
+      3. [OU Propofol 1% puro (10 mg/mL) em BIC a 5 a 20 mL/h se paciente estável hemodinamicamente sem choque].
 
   - trigger: ";sri-cnd"
     replace: |
-      # PLANO / CONDUTA (PROTOCOLO CRONOMETRADO DOS 7 Ps DA SRI & SEDAÇÃO PÓS-IOT):
+      # PLANO / CONDUTA (PROTOCOLO CRONOMETRADO DOS 7 Ps DA SRI):
       
       1. P1 - PREPARAÇÃO (MATERIAL SOAP ME TESTADO):
          - Aspirador rígido de Yankauer funcionando com sucção efetiva à mão.
@@ -3796,15 +4320,15 @@ matches:
       
       3. P3 - PRÉ-OTIMIZAÇÃO HEMODINÂMICA (MINUTO -3):
          - Ressuscitação volêmica prévia / noradrenalina em bólus ("push-dose") se instabilidade hemodinâmica.
-         - [Se indicado para atenuação da resposta simpática (TCE ou dissecção)]: Fentanil 2 mcg/kg EV lento.
+         - [Se indicado para atenuação da resposta simpática (TCE ou dissecção)]: Fentanil 2 mcg/kg EV lento ([ ] mcg EV).
       
       4. P4 - PARALISIA COM INDUÇÃO SIMULTÂNEA (MINUTO 0):
          - HIPNÓTICO ESCOLHIDO (ADMINISTRADO PRIMEIRO):
-           * [ ] Etomidato 0,3 mg/kg: Administrados 20 mg (1 ampola de 10 mL) EV em bólus direto (excelente estabilidade cardiovascular; sem queda pressórica).
+           * [ ] Etomidato 0,3 mg/kg: Administrados [ ] mg ([ ] mL) EV em bólus direto (dose usual 20 mg / 10 mL; excelente estabilidade cardiovascular; sem queda pressórica).
            * [ ] OU Cetamina (Ketamina) 1,5 a 2,0 mg/kg: Administrados [ ] mg EV (escolha ouro na asma/DPOC por potente broncodilatação).
            * [ ] OU Propofol 1,5 a 2,0 mg/kg: Administrados [ ] mg EV (se hipertenso sem choque).
          - BLOQUEADOR NEUROMUSCULAR (ADMINISTRADO IMEDIATAMENTE A SEGUIR):
-           * [ ] Succinilcolina 1,0 a 1,5 mg/kg: Administrados 100 mg (1 frasco) EV direto (início de ação em 45 segundos) [CONFERIDA AUSÊNCIA DE CONTRAINDICAÇÕES: sem hipercalemia, sem queimadura > 24h e sem lesão medular].
+           * [ ] Succinilcolina 1,0 a 1,5 mg/kg: Administrados [ ] mg ([ ] mL) EV direto (dose usual 100 mg / 1 frasco; início de ação em 45 segundos) [CONFERIDA AUSÊNCIA DE CONTRAINDICAÇÕES: sem hipercalemia, sem queimadura > 24h e sem lesão medular].
            * [ ] OU Rocurônio 1,2 mg/kg: Administrados [ ] mg EV direto (dose de sequência rápida - início em 60 segundos).
       
       5. P5 - POSICIONAMENTO (MINUTO 0 A +1):
@@ -3828,10 +4352,13 @@ matches:
          - Tubo conectado ao ventilador mecânico em modo protetor (Volume Corrente 6 mL/kg de peso predito, PEEP 5-8 cmH2O, FiO2 100% inicial e FR 14-16 irpm).
          - Solicitada Radiografia de Tórax no leito para checagem da ponta do tubo traqueal (3 a 4 cm acima da carina).
       
-      # PRESCRIÇÃO DA SEDAÇÃO CONTÍNUA DE MANUTENÇÃO (BIC):
-      1. Fentanil (50 mcg/mL): 1 ampola de 500 mcg (10 mL) pura na seringa ou diluída em SF 0,9% -> Iniciar infusão a 2 a 4 mL/h em BIC.
-      2. Midazolam (5 mg/mL): 2 ampolas de 50 mg (20 mL) + 80 mL de SF 0,9% (Solução 1 mg/mL) -> Iniciar infusão a 5 a 10 mL/h em BIC.
-      3. [OU Propofol 1% puro em BIC se paciente estável hemodinamicamente].
+      >> PRESCRIÇÃO DA SEDAÇÃO CONTÍNUA DE MANUTENÇÃO PÓS-IOT (BIC):
+      1. Fentanil (50 mcg/mL):
+         - Opção Solução Diluída Padrão: 4 ampolas (40 mL = 2.000 mcg) + 160 mL de SF 0,9% (Solução 10 mcg/mL) -> Iniciar infusão a 5 a 15 mL/h em BIC (50 a 150 mcg/h).
+         - [OU Opção Solução Pura na seringa]: Fentanil puro 50 mcg/mL em seringa de 20 ou 50 mL -> Iniciar infusão a 1 a 3 mL/h em BIC (50 a 150 mcg/h).
+      2. Midazolam (5 mg/mL):
+         - 2 ampolas de 50 mg/10 mL (20 mL = 100 mg) + 80 mL de SF 0,9% (Solução 1 mg/mL) -> Iniciar infusão a 5 a 10 mL/h em BIC.
+      3. [OU Propofol 1% puro (10 mg/mL) em BIC a 5 a 20 mL/h se paciente estável hemodinamicamente sem choque].
 
   - trigger: ";pcr"
     replace: |
@@ -3847,7 +4374,7 @@ matches:
       - Ausência de incursões respiratórias eficazes (em apneia ou gasping agônico).
       - Acionada equipe de emergência, solicitado carrinho de parada e desfibrilador/monitor imediatamente.
       
-      CICLOS DE RESSUSCITAÇÃO CARDIOPULMONAR (ACLS):
+      # PLANO / CONDUTA (CICLOS DE RESSUSCITAÇÃO CARDIOPULMONAR - ACLS):
       - Compressões torácicas de alta qualidade iniciadas imediatamente (frequência 100-120/min, profundidade 5-6 cm, retorno completo do tórax, rotação do compressor a cada 2 minutos).
       - Monitorização conectada / Pás posicionadas.
       - RITMO INICIAL: [ FV / TV sem pulso / Assistolia / AESP ]
@@ -3889,6 +4416,11 @@ matches:
 
   - trigger: ";pcr-cnd"
     replace: |
+      # PLANO / CONDUTA (CICLOS DE RESSUSCITAÇÃO CARDIOPULMONAR - ACLS):
+      - Compressões torácicas de alta qualidade iniciadas imediatamente (frequência 100-120/min, profundidade 5-6 cm, retorno completo do tórax, rotação do compressor a cada 2 minutos).
+      - Monitorização conectada / Pás posicionadas.
+      - RITMO INICIAL: [ FV / TV sem pulso / Assistolia / AESP ]
+      
       # PLANO / CONDUTA (CICLOS DE RCP, DROGAS, CAUSAS REVERSÍVEIS & DESFECHO PÓS-RCE):
       * Ciclo 1 ([ ]h[ ]): Ritmo [ ] | [ Choque de 200J Bifásico / Não chocável ] | RCP 2 min.
       * Ciclo 2 ([ ]h[ ]): Ritmo [ ] | Droga: Adrenalina 1mg EV/IO + flush 20ml SF 0,9%.
@@ -3952,11 +4484,11 @@ matches:
       - Ectoscopia: [Mau / Regular] estado geral, [sonolento / torporoso / confuso / lúcido], descorado, taquipneico.
       - Perfusão Periférica: Extremidades [frias e mal perfundidas / quentes com vasodilatação distributiva]. Tempo de enchimento capilar (TEC): [ ] segundos (alterado se > 3 segundos). Presença de livedo em joelhos: [Sim / Não].
       - Aparelho Cardiovascular: Ritmo cardíaco taquicárdico regular em 2 tempos, bulhas normofonéticas, sem sopros.
-      - Aparelho Respiratório: Murmúrio vesicular [reduzido em bases / com presença de estertores crepitantes em / sem ruídos adventícios].
+      - Aparelho Respiratório: Murmúrio vesicular [reduzido em bases / com presença de estertores crepitantes em [ ] / sem ruídos adventícios].
       - Abdome: Flácido, [indolor / dor difusa / dor à palpação de fossa ilíaca / sinais de irritação peritoneal].
-      - Pele: Ausência de lesões bolhosas, crepitação subcutânea ou áreas necróticas extensas [se presente: ( )].
+      - Pele: Ausência de lesões bolhosas, crepitação subcutânea ou áreas necróticas extensas [se presente: [ ]].
       
-      # PLANO / CONDUTA (PACOTE DA 1ª HORA — SURVIVING SEPSIS & METAS DE 6 HORAS):
+      # PLANO / CONDUTA (PACOTE DA 1ª HORA - BUNDLE SURVIVING SEPSIS CAMPAIGN):
       1. Lactato Sérico Inicial: Coletado às [HH:MM] -> Resultado: [ ] mmol/L (Alerta se > 2 mmol/L | Hipoperfusão tecidual grave se >= 4 mmol/L). Programada redosagem em 2 a 4 horas para avaliar clareamento do lactato.
       2. Hemoculturas Prévias ao Antibiótico: Coletados 2 pares de hemoculturas (frascos aeróbio e anaeróbio) de sítios de punção periférica distintos às [HH:MM] (sem atrasar a infusão do antimicrobiano).
       3. Coleta de Culturas do Foco Provável: [Urocultura com antibiograma / Cultura de escarro / Swab ou aspirado de secreção].
@@ -3970,9 +4502,9 @@ matches:
          - Alíquota calculada de 30 mL/kg de peso: Administrados [ ] mL de Ringer Lactato aquecido em infusão rápida por acesso periférico calibroso nas primeiras 3 horas (início às [HH:MM]).
          - Reavaliação dinâmica da resposta volêmica a cada 500 mL (avaliação de estertores pulmonares, pressão venosa e tempo de enchimento capilar).
       6. Vasopressor Precoce (se PAM mantida < 65 mmHg durante ou logo após início da ressuscitação volêmica):
-         - Iniciada Noradrenalina por acesso periférico provisório / cateter venoso central: Solução padrão (4 ampolas = 16 mg em 234 mL de SG 5% = 64 mcg/mL), titulada em BIC a [ ] mL/h para meta de PAM >= 65 mmHg.
-         - [Se dose de Noradrenalina elevada > 0,25 mcg/kg/min]: Associada Vasopressina em dose fixa de 0,03 UI/min.
-         - [Se disfunção miocárdica associada / baixo débito cardíaco]: Associada Dobutamina 2,5 a 20 mcg/kg/min.
+         - Iniciada Noradrenalina por acesso periférico provisório / cateter venoso central: Solução padrão (4 ampolas de 4 mg/4 mL = 16 mL em 234 mL de SG 5% = 250 mL a 64 mcg/mL), titulada em BIC a [ ] mL/h para meta de PAM >= 65 mmHg.
+         - [Se dose de Noradrenalina elevada > 0,25 mcg/kg/min]: Associada Vasopressina em dose fixa (1 ampola 20 UI/1 mL + 99 mL SF 0,9% = 0,2 UI/mL -> Iniciar a 9 mL/h em BIC = 0,03 UI/min).
+         - [Se disfunção miocárdica associada / baixo débito cardíaco]: Associada Dobutamina (1 ampola 250 mg/20 mL + 230 mL SF 0,9%/SG 5% = 1.000 mcg/mL -> Iniciar a 10 a 15 mL/h em BIC = 2,5 a 20 mcg/kg/min).
       7. Cateterismo Vesical de Demora com coletor graduado para mensuração do débito urinário horário (meta: >= 0,5 mL/kg/h).
       
       # AVALIAÇÃO DIAGNÓSTICA:
@@ -3988,7 +4520,7 @@ matches:
 
   - trigger: ";sepse-cnd"
     replace: |
-      # PLANO / CONDUTA (PACOTE DA 1ª HORA — SURVIVING SEPSIS & METAS DE 6 HORAS):
+      # PLANO / CONDUTA (PACOTE DA 1ª HORA - BUNDLE SURVIVING SEPSIS CAMPAIGN):
       1. Lactato Sérico Inicial: Coletado às [HH:MM] -> Resultado: [ ] mmol/L (Alerta se > 2 mmol/L | Hipoperfusão tecidual grave se >= 4 mmol/L). Programada redosagem em 2 a 4 horas para avaliar clareamento do lactato.
       2. Hemoculturas Prévias ao Antibiótico: Coletados 2 pares de hemoculturas (frascos aeróbio e anaeróbio) de sítios de punção periférica distintos às [HH:MM] (sem atrasar a infusão do antimicrobiano).
       3. Coleta de Culturas do Foco Provável: [Urocultura com antibiograma / Cultura de escarro / Swab ou aspirado de secreção].
@@ -4002,9 +4534,9 @@ matches:
          - Alíquota calculada de 30 mL/kg de peso: Administrados [ ] mL de Ringer Lactato aquecido em infusão rápida por acesso periférico calibroso nas primeiras 3 horas (início às [HH:MM]).
          - Reavaliação dinâmica da resposta volêmica a cada 500 mL (avaliação de estertores pulmonares, pressão venosa e tempo de enchimento capilar).
       6. Vasopressor Precoce (se PAM mantida < 65 mmHg durante ou logo após início da ressuscitação volêmica):
-         - Iniciada Noradrenalina por acesso periférico provisório / cateter venoso central: Solução padrão (4 ampolas = 16 mg em 234 mL de SG 5% = 64 mcg/mL), titulada em BIC a [ ] mL/h para meta de PAM >= 65 mmHg.
-         - [Se dose de Noradrenalina elevada > 0,25 mcg/kg/min]: Associada Vasopressina em dose fixa de 0,03 UI/min.
-         - [Se disfunção miocárdica associada / baixo débito cardíaco]: Associada Dobutamina 2,5 a 20 mcg/kg/min.
+         - Iniciada Noradrenalina por acesso periférico provisório / cateter venoso central: Solução padrão (4 ampolas de 4 mg/4 mL = 16 mL em 234 mL de SG 5% = 250 mL a 64 mcg/mL), titulada em BIC a [ ] mL/h para meta de PAM >= 65 mmHg.
+         - [Se dose de Noradrenalina elevada > 0,25 mcg/kg/min]: Associada Vasopressina em dose fixa (1 ampola 20 UI/1 mL + 99 mL SF 0,9% = 0,2 UI/mL -> Iniciar a 9 mL/h em BIC = 0,03 UI/min).
+         - [Se disfunção miocárdica associada / baixo débito cardíaco]: Associada Dobutamina (1 ampola 250 mg/20 mL + 230 mL SF 0,9%/SG 5% = 1.000 mcg/mL -> Iniciar a 10 a 15 mL/h em BIC = 2,5 a 20 mcg/kg/min).
       7. Cateterismo Vesical de Demora com coletor graduado para mensuração do débito urinário horário (meta: >= 0,5 mL/kg/h).
       
       # AVALIAÇÃO DIAGNÓSTICA:
@@ -4039,18 +4571,8 @@ matches:
       - Escala de Coma de Glasgow: [ ]/15 pontos (Ocular: [ ], Verbal: [ ], Motora: [ ]).
       - Pupilas: Isocóricas e fotorreagentes [ou anisocóricas: ( )].
       - Escala de Gravidade do AVC (NIHSS - National Institutes of Health Stroke Scale):
-        * Consciência (1a/1b/1c): [ ]
-        * Paralisia do Olhar Conjugado (2): [ ]
-        * Campo Visual (3): [ ]
-        * Paralisia Facial (4): [ ]
-        * Função Motora dos Membros Superiores (5a/5b): [ ]
-        * Função Motora dos Membros Inferiores (6a/6b): [ ]
-        * Ataxia de Membros (7): [ ]
-        * Sensibilidade (8): [ ]
-        * Linguagem / Afasia (9): [ ]
-        * Disartria (10): [ ]
-        * Extinção e Desatenção / Negligência (11): [ ]
-        * PONTUAÇÃO TOTAL DO NIHSS: [ ] PONTOS (AVC Menor <= 4 | Moderado 5-15 | Grave 16-20 | Muito Grave > 20).
+        * PONTUAÇÃO TOTAL DO NIHSS: [ 0 ] PONTOS (AVC Menor <= 4 | Moderado 5-15 | Grave 16-20 | Muito Grave > 20).
+        * Detalhamento Executivo: [1a-Consciência: 0 | 1b-Perguntas: 0 | 1c-Comandos: 0 | 2-Olhar: 0 | 3-Campo Visual: 0 | 4-Paralisia Facial: 0 | 5a/5b-MMSS: 0/0 | 6a/6b-MMII: 0/0 | 7-Ataxia: 0 | 8-Sensibilidade: 0 | 9-Linguagem: 0 | 10-Disartria: 0 | 11-Negligência: 0].
       
       # INVESTIGAÇÃO COMPLEMENTAR IMEDIATA:
       - Tomografia Computadorizada de Crânio sem Contraste (Realizada às [HH:MM]):
@@ -4068,7 +4590,7 @@ matches:
       1. Verificação Estrita das Contraindicações Absolutas:
          - Afastados: Hemorragia na TC, TCE grave ou AVC isquêmico nos últimos 3 meses, história prévia de hemorragia intracraniana, cirurgia de SNC ou espinhal recente, sangramento ativo, plaquetas < 100.000, INR > 1,7, uso de anticoagulante direto (DOAC) nas últimas 48 horas.
       2. Controle Pressórico Pré-Trombólise (OBRIGATÓRIO PA < 185/110 mmHg ANTES DE INFUNDIR rt-PA):
-         - Se PA >= 185/110 mmHg: Administrado Nitroprussiato de Sódio em BIC ou Metoprolol 5 mg EV lento a cada 10 min.
+         - Se PA >= 185/110 mmHg: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em frasco/equipo fotossensíveis (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min para 70 kg) titulado a cada 3 a 5 min [OU Metoprolol 5 mg EV lento a cada 10 min].
          - PA estabilizada com segurança em [ ]x[ ] mmHg às [HH:MM].
       3. Protocolo de Infusão de Alteplase (rt-PA) - Peso do Paciente: [ ] kg:
          - Dose Total Calculada (0,9 mg/kg - Dose Máxima: 90 mg): [ ] mg de Alteplase.
@@ -4086,7 +4608,7 @@ matches:
       2. Antiagregação Plaquetária (iniciar após TC afastar hemorragia):
          - [Monoterapia]: AAS 100 a 300 mg VO (comprimido mastigado ou por SNE) 1x/dia.
          - [OU Dupla Antiagregação - Se AVCi Menor com NIHSS <= 3 ou AIT de Alto Risco com ABCD2 >= 4]:
-           AAS 100 mg VO + Clopidogrel 300 mg VO de ataque, mantendo Clopidogrel 75 mg/dia + AAS 100 mg/dia por 21 dias consecutivos, seguido de monoterapia.
+           AAS 160 a 300 mg VO mastigado + Clopidogrel 300 mg VO de ataque, mantendo Clopidogrel 75 mg/dia + AAS 100 mg/dia por 21 dias consecutivos, seguido de monoterapia.
       3. Estatina em Alta Potência: Atorvastatina 80 mg VO à noite.
       4. Normoglicemia (manter glicemia entre 140 e 180 mg/dL), normotermia (tratar qualquer febre > 37,5 °C com dipirona) e cabeceira a 0-30 graus.
       5. Vaga de enfermaria neurológica / UTI regulada via CROSS/SISREG.
@@ -4099,7 +4621,7 @@ matches:
       1. Verificação Estrita das Contraindicações Absolutas:
          - Afastados: Hemorragia na TC, TCE grave ou AVC isquêmico nos últimos 3 meses, história prévia de hemorragia intracraniana, cirurgia de SNC ou espinhal recente, sangramento ativo, plaquetas < 100.000, INR > 1,7, uso de anticoagulante direto (DOAC) nas últimas 48 horas.
       2. Controle Pressórico Pré-Trombólise (OBRIGATÓRIO PA < 185/110 mmHg ANTES DE INFUNDIR rt-PA):
-         - Se PA >= 185/110 mmHg: Administrado Nitroprussiato de Sódio em BIC ou Metoprolol 5 mg EV lento a cada 10 min.
+         - Se PA >= 185/110 mmHg: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em frasco/equipo fotossensíveis (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min para 70 kg) titulado a cada 3 a 5 min [OU Metoprolol 5 mg EV lento a cada 10 min].
          - PA estabilizada com segurança em [ ]x[ ] mmHg às [HH:MM].
       3. Protocolo de Infusão de Alteplase (rt-PA) - Peso do Paciente: [ ] kg:
          - Dose Total Calculada (0,9 mg/kg - Dose Máxima: 90 mg): [ ] mg de Alteplase.
@@ -4117,7 +4639,7 @@ matches:
       2. Antiagregação Plaquetária (iniciar após TC afastar hemorragia):
          - [Monoterapia]: AAS 100 a 300 mg VO (comprimido mastigado ou por SNE) 1x/dia.
          - [OU Dupla Antiagregação - Se AVCi Menor com NIHSS <= 3 ou AIT de Alto Risco com ABCD2 >= 4]:
-           AAS 100 mg VO + Clopidogrel 300 mg VO de ataque, mantendo Clopidogrel 75 mg/dia + AAS 100 mg/dia por 21 dias consecutivos, seguido de monoterapia.
+           AAS 160 a 300 mg VO mastigado + Clopidogrel 300 mg VO de ataque, mantendo Clopidogrel 75 mg/dia + AAS 100 mg/dia por 21 dias consecutivos, seguido de monoterapia.
       3. Estatina em Alta Potência: Atorvastatina 80 mg VO à noite.
       4. Normoglicemia (manter glicemia entre 140 e 180 mg/dL), normotermia (tratar qualquer febre > 37,5 °C com dipirona) e cabeceira a 0-30 graus.
       5. Vaga de enfermaria neurológica / UTI regulada via CROSS/SISREG.
@@ -4175,27 +4697,22 @@ matches:
          - Metoprolol 5 mg EV lento em 2 minutos (pode repetir a cada 5 min até 15 mg total) [OU Diltiazem 0,25 mg/kg EV lento em 2 min].
       
       >> [MODALIDADE C]: PACIENTE ESTÁVEL COM FIBRILAÇÃO ATRIAL (FA) DE ALTA RESPOSTA:
-      1. Controle de Frequência Cardíaca (Meta inicial: FC < 110 bpm em repouso):
+      1. CHECAGEM OBRIGATÓRIA ANTES DO CONTROLE DE FREQUÊNCIA:
+         - ALERTA CRÍTICO: Contraindicação absoluta ao bloqueio do nó AV (Metoprolol, Diltiazem, Verapamil, Deslanosídeo, Adenosina e Amiodarona) se suspeita de FA pré-excitada / Wolff-Parkinson-White (QRS largo, bizarro e irregularmente irregular). Bloquear o nó AV nessa condição desvia a condução 100% para a via acessória, precipitando Fibrilação Ventricular e PCR fatal imediata. Em FA pré-excitada, a conduta é cardioversão elétrica imediata ou procainamida.
+      2. Controle de Frequência Cardíaca (Meta inicial: FC < 110 bpm em repouso - QRS estreito habitual):
          - [Paciente Sem Insuficiência Cardíaca Descompensada]:
            * Metoprolol (Seloken) 5 mg EV lento em 2 minutos. Pode repetir a cada 5 minutos até dose máxima de 15 mg.
            * [OU]: Diltiazem 0,25 mg/kg EV em 2 minutos (dose média: 15 a 20 mg EV).
          - [Paciente Com Insuficiência Cardíaca Aguda / Fração de Ejeção Reduzida]:
            * Deslanosídeo (Cedilanide) 0,4 mg (1 ampola = 2 mL) EV diluído em 20 mL de SF 0,9% lento.
            * [OU]: Amiodarona 150 mg a 300 mg EV diluídos em 100 mL de SG 5% infundidos em 20 a 30 minutos.
-      2. Definição do Tempo de Início da Arritmia (Janela de Reversão de Ritmo):
+      3. Definição do Tempo de Início da Arritmia (Janela de Reversão de Ritmo):
          - [FA iniciada há < 48 horas documentadas]: Paciente elegível para reversão química (Amiodarona 300 mg EV em 1h + manutenção de 900 mg em 24h) ou elétrica com baixo risco tromboembólico.
          - [FA iniciada há >= 48 horas ou de tempo indeterminado]: PROIBIDA reversão de ritmo de rotina na UPA sem anticoagulação prévia por 3 semanas ou ECO transesofágico (risco de embolização de trombo atrial e AVC isquêmico extenso). A conduta na UPA deve ser estritamente o controle da frequência ventricular.
-      3. Estratificação de Risco Tromboembólico - Escore CHA2DS2-VASc:
-         [ ] C - Insuficiência Cardíaca Congestiva (+1)
-         [ ] H - Hipertensão Arterial Sistêmica (+1)
-         [ ] A2 - Idade >= 75 anos (+2)
-         [ ] D - Diabetes Mellitus (+1)
-         [ ] S2 - AVC / AIT / Tromboembolismo prévio (+2)
-         [ ] V - Doença Vascular (IAM prévio, DAOP, placa aórtica) (+1)
-         [ ] A - Idade entre 65 e 74 anos (+1)
-         [ ] Sc - Sexo Feminino (+1)
-         * TOTAL CHA2DS2-VASc: [ ] PONTOS
-         * Conduta de Anticoagulação: Indicada anticoagulação oral plena se pontuação >= 2 em homens ou >= 3 em mulheres (DOAC: Apixabana 5 mg VO 12/12h / Rivaroxabana 20 mg VO 1x/dia com almoço).
+      4. Estratificação de Risco Tromboembólico - Escore CHA2DS2-VASc:
+         - Escore CHA2DS2-VASc Total: [ 0 ] PONTOS (Homem >= 2 ou Mulher >= 3: anticoagulação indicada).
+         - Detalhamento: [C-Insuf.Cardíaca(1): 0 | H-Hipertensão(1): 0 | A2-Idade>=75a(2): 0 | D-Diabetes(1): 0 | S2-AVC/AIT(2): 0 | V-Vascular(1): 0 | A-Idade 65-74a(1): 0 | Sc-Sexo Fem(1): 0].
+         - Conduta de Anticoagulação: [Sem indicação (baixo risco) / Indicada anticoagulação oral plena (DOAC: Apixabana 5 mg VO 12/12h / Rivaroxabana 20 mg VO 1x/dia com alimento)].
 
   - trigger: ";taqui-cnd"
     replace: |
@@ -4224,27 +4741,22 @@ matches:
          - Metoprolol 5 mg EV lento em 2 minutos (pode repetir a cada 5 min até 15 mg total) [OU Diltiazem 0,25 mg/kg EV lento em 2 min].
       
       >> [MODALIDADE C]: PACIENTE ESTÁVEL COM FIBRILAÇÃO ATRIAL (FA) DE ALTA RESPOSTA:
-      1. Controle de Frequência Cardíaca (Meta inicial: FC < 110 bpm em repouso):
+      1. CHECAGEM OBRIGATÓRIA ANTES DO CONTROLE DE FREQUÊNCIA:
+         - ALERTA CRÍTICO: Contraindicação absoluta ao bloqueio do nó AV (Metoprolol, Diltiazem, Verapamil, Deslanosídeo, Adenosina e Amiodarona) se suspeita de FA pré-excitada / Wolff-Parkinson-White (QRS largo, bizarro e irregularmente irregular). Bloquear o nó AV nessa condição desvia a condução 100% para a via acessória, precipitando Fibrilação Ventricular e PCR fatal imediata. Em FA pré-excitada, a conduta é cardioversão elétrica imediata ou procainamida.
+      2. Controle de Frequência Cardíaca (Meta inicial: FC < 110 bpm em repouso - QRS estreito habitual):
          - [Paciente Sem Insuficiência Cardíaca Descompensada]:
            * Metoprolol (Seloken) 5 mg EV lento em 2 minutos. Pode repetir a cada 5 minutos até dose máxima de 15 mg.
            * [OU]: Diltiazem 0,25 mg/kg EV em 2 minutos (dose média: 15 a 20 mg EV).
          - [Paciente Com Insuficiência Cardíaca Aguda / Fração de Ejeção Reduzida]:
            * Deslanosídeo (Cedilanide) 0,4 mg (1 ampola = 2 mL) EV diluído em 20 mL de SF 0,9% lento.
            * [OU]: Amiodarona 150 mg a 300 mg EV diluídos em 100 mL de SG 5% infundidos em 20 a 30 minutos.
-      2. Definição do Tempo de Início da Arritmia (Janela de Reversão de Ritmo):
+      3. Definição do Tempo de Início da Arritmia (Janela de Reversão de Ritmo):
          - [FA iniciada há < 48 horas documentadas]: Paciente elegível para reversão química (Amiodarona 300 mg EV em 1h + manutenção de 900 mg em 24h) ou elétrica com baixo risco tromboembólico.
          - [FA iniciada há >= 48 horas ou de tempo indeterminado]: PROIBIDA reversão de ritmo de rotina na UPA sem anticoagulação prévia por 3 semanas ou ECO transesofágico (risco de embolização de trombo atrial e AVC isquêmico extenso). A conduta na UPA deve ser estritamente o controle da frequência ventricular.
-      3. Estratificação de Risco Tromboembólico - Escore CHA2DS2-VASc:
-         [ ] C - Insuficiência Cardíaca Congestiva (+1)
-         [ ] H - Hipertensão Arterial Sistêmica (+1)
-         [ ] A2 - Idade >= 75 anos (+2)
-         [ ] D - Diabetes Mellitus (+1)
-         [ ] S2 - AVC / AIT / Tromboembolismo prévio (+2)
-         [ ] V - Doença Vascular (IAM prévio, DAOP, placa aórtica) (+1)
-         [ ] A - Idade entre 65 e 74 anos (+1)
-         [ ] Sc - Sexo Feminino (+1)
-         * TOTAL CHA2DS2-VASc: [ ] PONTOS
-         * Conduta de Anticoagulação: Indicada anticoagulação oral plena se pontuação >= 2 em homens ou >= 3 em mulheres (DOAC: Apixabana 5 mg VO 12/12h / Rivaroxabana 20 mg VO 1x/dia com almoço).
+      4. Estratificação de Risco Tromboembólico - Escore CHA2DS2-VASc:
+         - Escore CHA2DS2-VASc Total: [ 0 ] PONTOS (Homem >= 2 ou Mulher >= 3: anticoagulação indicada).
+         - Detalhamento: [C-Insuf.Cardíaca(1): 0 | H-Hipertensão(1): 0 | A2-Idade>=75a(2): 0 | D-Diabetes(1): 0 | S2-AVC/AIT(2): 0 | V-Vascular(1): 0 | A-Idade 65-74a(1): 0 | Sc-Sexo Fem(1): 0].
+         - Conduta de Anticoagulação: [Sem indicação (baixo risco) / Indicada anticoagulação oral plena (DOAC: Apixabana 5 mg VO 12/12h / Rivaroxabana 20 mg VO 1x/dia com alimento)].
 
   - trigger: ";hiperk"
     replace: |
@@ -4404,12 +4916,16 @@ matches:
          - (Nota de segurança: Ausência de vasoconstritor em extremidades como dedos, dorso nasal, orelha ou pênis).
       3. Preparo Cirúrgico: Realizado desbridamento mínimo econômico de bordas teciduais desvitalizadas e hemostasia local por compressão e eletrocautério / pinçamento simples.
       4. Síntese Cirúrgica:
-         - [Plano Subcutâneo se profundo]: Fechamento por planos com [ ] pontos simples invertidos de fio absorvível Vicryl 4-0.
-         - [Pele]: Síntese de pele realizada com [ ] pontos simples [OU pontos Donati de eversão] com fio inabsorvível [Nylon 3-0 / Nylon 4-0 / Nylon 5-0 / Nylon 6-0].
-         - Bordas perfeitamente coaptadas, sem tensão mecânica excessiva e com eversão das margens.
+         - [SE MORDEDURA ANIMAL (CÃO/GATO) OU FERIMENTO PUNTIFORME/CONTAMINADO EM EXTREMIDADE]:
+           * NÃO REALIZADA SUTURA PRIMÁRIA OCLUSIVA HERMÉTICA (risco altíssimo de infecção profunda/flegmão).
+           * Realizada irrigação abundante e desbridamento; ferida mantida aberta para cicatrização por 2ª intenção ou apenas aproximação frouxa com fita/pontos simples espaçados (exceto se ferimento em face, onde se admite síntese cuidadosa após lavagem vigorosa).
+         - [SE FERIMENTO CORTOCONTUSO LIMPO / NÃO MORDEDURA]:
+           * [Plano Subcutâneo se profundo]: Fechamento por planos com [ ] pontos simples invertidos de fio absorvível Vicryl 4-0.
+           * [Pele]: Síntese de pele realizada com [ ] pontos simples [OU pontos Donati de eversão] com fio inabsorvível [Nylon 3-0 / Nylon 4-0 / Nylon 5-0 / Nylon 6-0].
+           * Bordas perfeitamente coaptadas, sem tensão mecânica excessiva e com eversão das margens.
       5. Curativo: Limpeza final, aplicação de fina camada de pomada de Neomicina/Bacitracina e oclusão com gaze estéril e micropore.
       
-      # PLANO / CONDUTA (PROFILAXIA ANTITETÂNICA, ANTIRRÁBICA & PRESCRIÇÃO DE ALTA):
+      # PROFILAXIA ANTITETÂNICA (DIRETRIZ MINISTÉRIO DA SAÚDE):
       - Tipo de Ferimento: [Ferimento com baixo risco de tétano (limpo, superficial, < 6 horas) / Ferimento de alto risco (contaminado com terra, fezes, corpos estranhos, perfurante ou com tecido desvitalizado)].
       - Status Vacinal Prévio: [Vacinado completo com 3 doses (última dose há < 5 anos) / Vacinado completo (última há 5 a 10 anos) / Vacinado completo (última há > 10 anos) / Incerto ou < 3 doses].
       - CONDUTA DE TÉTANO DEFINIDA:
@@ -4425,65 +4941,41 @@ matches:
         * [ ] Iniciado Esquema de Vacina Antirrábica de cultivo celular (4 doses: Dias 0, 3, 7 e 14 via IM no deltoide).
         * [ ] Administrado Soro Antirrábico Humano (SAR 40 UI/kg) ou Imunoglobulina (IGHAR 20 UI/kg): Infiltrado ao redor da lesão o maior volume possível e o restante aplicado por via intramuscular.
       
-      # PRESCRIÇÃO DE ALTA & ORIENTAÇÕES AO PACIENTE:
-      1. Analgesia: Dipirona 1 g VO de 6/6 horas SOS dor por 2 a 3 dias.
-      2. Cuidados Locais com a Ferida:
+      # PLANO / CONDUTA:
+      
+      >> PRESCRIÇÃO DE ALTA & ORIENTAÇÕES AO PACIENTE:
+      1. Antibioticoterapia Profilática para Mordedura Animal (Cão/Gato/Humana):
+         - [SE MORDEDURA ANIMAL/HUMANA OU TRAUMA PERFURANTE CONTAMINADO]:
+           Amoxicilina + Clavulanato de Potássio 875/125 mg - Tomar 1 comprimido VO de 12/12 horas às refeições por 5 a 7 dias (cobertura obrigatória para Pasteurella multocida, Capnocytophaga, S. aureus e anaeróbios).
+           [OU SE ALERGIA A PENICILINAS]: Doxiciclina 100 mg VO 12/12h + Metronidazol 500 mg VO 8/8h por 5 a 7 dias.
+      2. Analgesia: Dipirona 1 g VO de 6/6 horas SOS dor por 2 a 3 dias.
+      3. Cuidados Locais com a Ferida:
          - Manter curativo limpo e seco por 24 horas. Após 24h, lavar a ferida delicadamente com água corrente e sabonete neutro durante o banho diário, secar e recobrir com curativo estéril se exposto a sujidades.
-      3. Prazo Agendado para Retirada dos Pontos:
+      4. Prazo Agendado para Retirada dos Pontos (se suturado):
          - Comparecer à UBS ou UPA para retirada dos pontos em:
            * Face: 5 a 7 dias.
            * Couro Cabeludo: 7 a 10 dias.
            * Tronco e Membros Superiores/Inferiores: 10 a 14 dias.
            * Áreas de Articulações / Alta Mobilidade: 14 dias.
-      4. Sinais de Alarme: Retornar antes se surgirem vermelhidão que se espalha ao redor dos pontos, calor intenso, inchaço acentuado, saída de secreção purulenta (pus) ou febre.
+      5. Sinais de Alarme: Retornar antes se surgirem vermelhidão que se espalha ao redor da lesão, calor intenso, inchaço acentuado, saída de secreção purulenta (pus) ou febre.
 
   - trigger: ";sutura-cnd"
     replace: |
-      # PLANO / CONDUTA (PROFILAXIA ANTITETÂNICA, ANTIRRÁBICA & PRESCRIÇÃO DE ALTA):
-      - Tipo de Ferimento: [Ferimento com baixo risco de tétano (limpo, superficial, < 6 horas) / Ferimento de alto risco (contaminado com terra, fezes, corpos estranhos, perfurante ou com tecido desvitalizado)].
-      - Status Vacinal Prévio: [Vacinado completo com 3 doses (última dose há < 5 anos) / Vacinado completo (última há 5 a 10 anos) / Vacinado completo (última há > 10 anos) / Incerto ou < 3 doses].
-      - CONDUTA DE TÉTANO DEFINIDA:
-        * [ ] Nenhuma intervenção antitetânica necessária no momento (vacinado há menos de 5 anos).
-        * [ ] Administrada Vacina Dupla Adulto (dT) 0,5 mL IM no deltoide (reforço vacinal indicado).
-        * [ ] Administrada Vacina dT 0,5 mL IM + Imunoglobulina Humana Antitetânica (IGHAT) 250 UI IM profunda em sítio separado (ferimento grave em paciente não vacinado ou incerto) [OU Soro Antitetânico (SAT) 5.000 UI IM se IGHAT indisponível].
+      # PLANO / CONDUTA:
       
-      # PROFILAXIA DA RAIVA HUMANA (SE MORDEDURA OU ARRANHADURA ANIMAL):
-      - Animal Agressor: [Cão ou Gato passível de observação por 10 dias / Animal raivoso, desaparecido ou morto / Animal silvestre: morcego, macaco, raposa / Não se aplica (trauma não animal)].
-      - Tipo de Exposição: [Leve (arranhadura superficial) / Grave (mordedura profunda em mãos, face, pés ou mucosas, ou qualquer contato com morcego)].
-      - CONDUTA DE RAIVA DEFINIDA:
-        * [ ] Animal (cão/gato) domiciliado e sadio: Paciente orientado a manter o animal em observação domiciliar por 10 dias. Não iniciado soro/vacina no momento. Se o animal adoecer ou morrer em 10 dias, retornar imediatamente para vacinação.
-        * [ ] Iniciado Esquema de Vacina Antirrábica de cultivo celular (4 doses: Dias 0, 3, 7 e 14 via IM no deltoide).
-        * [ ] Administrado Soro Antirrábico Humano (SAR 40 UI/kg) ou Imunoglobulina (IGHAR 20 UI/kg): Infiltrado ao redor da lesão o maior volume possível e o restante aplicado por via intramuscular.
-      
-      # PRESCRIÇÃO DE ALTA & ORIENTAÇÕES AO PACIENTE:
-      1. Analgesia: Dipirona 1 g VO de 6/6 horas SOS dor por 2 a 3 dias.
-      2. Cuidados Locais com a Ferida:
+      >> PRESCRIÇÃO DE ALTA & ORIENTAÇÕES AO PACIENTE:
+      1. Antibioticoterapia Profilática para Mordedura Animal (Cão/Gato/Humana):
+         - [SE MORDEDURA ANIMAL/HUMANA OU TRAUMA PERFURANTE CONTAMINADO]:
+           Amoxicilina + Clavulanato de Potássio 875/125 mg - Tomar 1 comprimido VO de 12/12 horas às refeições por 5 a 7 dias (cobertura obrigatória para Pasteurella multocida, Capnocytophaga, S. aureus e anaeróbios).
+           [OU SE ALERGIA A PENICILINAS]: Doxiciclina 100 mg VO 12/12h + Metronidazol 500 mg VO 8/8h por 5 a 7 dias.
+      2. Analgesia: Dipirona 1 g VO de 6/6 horas SOS dor por 2 a 3 dias.
+      3. Cuidados Locais com a Ferida:
          - Manter curativo limpo e seco por 24 horas. Após 24h, lavar a ferida delicadamente com água corrente e sabonete neutro durante o banho diário, secar e recobrir com curativo estéril se exposto a sujidades.
-      3. Prazo Agendado para Retirada dos Pontos:
+      4. Prazo Agendado para Retirada dos Pontos (se suturado):
          - Comparecer à UBS ou UPA para retirada dos pontos em:
            * Face: 5 a 7 dias.
            * Couro Cabeludo: 7 a 10 dias.
            * Tronco e Membros Superiores/Inferiores: 10 a 14 dias.
            * Áreas de Articulações / Alta Mobilidade: 14 dias.
-      4. Sinais de Alarme: Retornar antes se surgirem vermelhidão que se espalha ao redor dos pontos, calor intenso, inchaço acentuado, saída de secreção purulenta (pus) ou febre.
-
-  - trigger: ";sutura-rec"
-    replace: |
-      USO ORAL E CUIDADOS COM A SUTURA:
-      
-      1. Dipirona Sódica 1 g ----------------------------------------- 10 comprimidos
-         Tomar 01 comprimido por via oral de 6/6 horas se dor no local da sutura.
-      
-      2. [SE MORDEDURA ANIMAL / FERIMENTO CONTAMINADO / MÃO / PÉ]:
-         Amoxicilina + Clavulanato 875/125 mg ------------------------ 14 comprimidos
-         Tomar 01 comprimido por via oral de 12/12 horas, junto às refeições, por 5 a 7 dias (cobertura obrigatória para Pasteurella multocida, Capnocytophaga, S. aureus e anaeróbios).
-      
-      CUIDADOS COM OS PONTOS E RETORNO PARA RETIRADA:
-      - Lavar a ferida diariamente no banho com água corrente e sabonete neutro, secar delicadamente com toalha limpa e manter aberta (ou protegida com gaze seca se houver atrito com a roupa).
-      - Prazo para retirada de pontos na UBS:
-        • Face e pálpebras: 4 a 5 dias
-        • Couro cabeludo, pescoço e tronco: 7 a 10 dias
-        • Membros superiores/inferiores e áreas articulares/plantares: 10 a 14 dias
-      - Retornar imediatamente se surgir vermelhidão progressiva, calor local, saída de pus, abertura dos pontos (deiscência) ou febre.
-      - Comparecer à Sala de Vacinas da UBS com este encaminhamento para completar o esquema antitetânico e/ou antirrábico prescrito.
+      5. Sinais de Alarme: Retornar antes se surgirem vermelhidão que se espalha ao redor da lesão, calor intenso, inchaço acentuado, saída de secreção purulenta (pus) ou febre.
 

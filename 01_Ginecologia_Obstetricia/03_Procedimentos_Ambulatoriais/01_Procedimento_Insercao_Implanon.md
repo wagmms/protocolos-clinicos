@@ -15,14 +15,14 @@ Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], DUM: [DD/MM/AAAA].
 - Consentimento & Lote: TCLE lido e assinado. Lote do dispositivo: [ ] | Validade de uso: 3 anos (até [DD/MM/AAAA]).
 
 # DESCRIÇÃO TÉCNICA DO PROCEDIMENTO:
-1. Posicionamento & Marcação Anatômica: Paciente em decúbito dorsal com braço não dominante ([esquerdo / direito]) abduzido a 90° e cotovelo fletido (mão sob a cabeça). Demarcado ponto de inserção na face medial do braço, **8 a 10 cm proximal ao epicôndilo medial do úmero** e **3 a 5 cm posterior ao sulco bicipital** (sobre o tríceps, fora do trajeto neurovascular ulnar/braquial), com marcação guia a 4 cm cranialmente.
+1. Posicionamento & Marcação Anatômica: Paciente em decúbito dorsal com braço não dominante ([esquerdo / direito]) abduzido a 90° e cotovelo fletido (mão sob a cabeça). Demarcado ponto de inserção na face medial do braço, 8 a 10 cm proximal ao epicôndilo medial do úmero e 3 a 5 cm posterior ao sulco bicipital (sobre o tríceps, fora do trajeto neurovascular ulnar/braquial), com marcação guia a 4 cm cranialmente.
 2. Antissepsia & Anestesia: Antissepsia com Clorexidina Alcoólica 2%, colocação de campo estéril e botão anestésico + infiltração subdérmica de 2 mL de Lidocaína 2% sem vasoconstritor ao longo do trajeto de 4 cm.
 3. Inserção Subdérmica Superficial:
    - Perfuração da pele com a ponta da agulha do aplicador em ângulo < 30° com bisel para cima.
    - Horizontalização imediata do aplicador paralelamente à pele, elevando suavemente a derme (*tenting*) durante toda a progressão até a marca limite da cânula.
    - Acionamento completo do cursor roxo para trás, retraindo a agulha e liberando o implante radiopaco no plano subdérmico.
 4. Palpação Confirmatória Dupla (Obrigatória):
-   - Implante palpado integralmente em suas duas extremidades (4 cm) pelo médico executor e **pela própria paciente**.
+   - Implante palpado integralmente em suas duas extremidades (4 cm) pelo médico executor e pela própria paciente.
 5. Curativo: Aproximação do orifício com fita estéril (*Steri-Strip*), gaze estéril e enfaixamento compressivo com atadura de crepe. Procedimento sem sangramento ou parestesias.
 
 # AVALIAÇÃO DIAGNÓSTICA:

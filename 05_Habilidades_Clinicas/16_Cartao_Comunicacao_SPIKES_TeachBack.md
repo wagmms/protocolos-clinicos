@@ -114,7 +114,7 @@
 
 ## 📝 5. COMO REGISTRAR NO PRONTUÁRIO (Texto Pronto)
 ```text
-REGISTRO DE COMUNICAÇÃO CLÍNICA / REuniÃO FAMILIAR (PROTOCOLO SPIKES & TEACH-BACK):
+REGISTRO DE COMUNICAÇÃO CLÍNICA / REUNIÃO FAMILIAR (PROTOCOLO SPIKES & TEACH-BACK):
 Realizada conversa estruturada em ambiente reservado com o(a) paciente [e familiares: nomes e grau de parentesco]. Explorada a percepção prévia sobre o quadro clínico e compartilhadas, em linguagem clara e acessível, as informações referentes ao diagnóstico de [ ], gravidade atual e prognóstico. Acolhidas as dúvidas e reações emocionais com escuta ativa e suporte empático. Alinhado o plano terapêutico conjunto [proporcionalidade terapêutica / condutas definidas] e sinais de alarme. Verificada a compreensão das orientações pelo método Teach-Back, com paciente/família demonstrando entendimento adequado do plano proposto.
 ```
 

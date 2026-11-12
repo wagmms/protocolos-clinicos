@@ -6462,20 +6462,26 @@ IDENTIFICAÇÃO &amp; PESO:
       const item = allData[index];
       if (!item) return;
       const resolved = getResolvedProtocolBodies(index);
-      const bodyToCopy = resolved.conduta_body || resolved.pep_body;
-      if (!bodyToCopy) return;
-      const targetBtn = btnEl || document.querySelector(`[data-copy-conduta="${index}"]`);
-      copyTextToClipboard(bodyToCopy, '✅ Conduta copiada com sucesso!', targetBtn);
+      const bodyToCopy = resolved.conduta_body;
+      const targetBtn = btnEl || document.querySelector('[data-copy-conduta="' + index + '"]');
+      if (bodyToCopy && bodyToCopy.trim().length > 10) {
+        copyTextToClipboard(bodyToCopy, '✅ Conduta copiada com sucesso!', targetBtn);
+      } else {
+        copyTextToClipboard(resolved.pep_body, 'ℹ️ Sem conduta isolada: copiado snippet completo', targetBtn);
+      }
     }
 
     function copyReceita(index, btnEl) {
       const item = allData[index];
       if (!item) return;
       const resolved = getResolvedProtocolBodies(index);
-      const bodyToCopy = resolved.receita_body || resolved.conduta_body || resolved.pep_body;
-      if (!bodyToCopy) return;
-      const targetBtn = btnEl || document.querySelector(`[data-copy-receita="${index}"]`);
-      copyTextToClipboard(bodyToCopy, '✅ Receita copiada com sucesso!', targetBtn);
+      const bodyToCopy = resolved.receita_body;
+      const targetBtn = btnEl || document.querySelector('[data-copy-receita="' + index + '"]');
+      if (bodyToCopy && bodyToCopy.trim().length > 10) {
+        copyTextToClipboard(bodyToCopy, '✅ Receita copiada com sucesso!', targetBtn);
+      } else {
+        copyTextToClipboard(resolved.conduta_body || resolved.pep_body, 'ℹ️ Sem receita específica: copiada conduta/snippet', targetBtn);
+      }
     }
 
     function copyTrigger(trig, btnEl) {
@@ -8990,7 +8996,7 @@ IDENTIFICAÇÃO &amp; PESO:
 
         // Extrair receita domiciliar / alta automaticamente quando presente no corpo PEP
         if (!item.has_receita && item.pep_body && item.mod_id !== 'hab') {
-          const recMatch = item.pep_body.match(/((?:>>\s*|#+\s*|^)(?:PRESCRIÇÃO DOMICILIAR|PRESCRIÇÃO DE ALTA|RECEITA DE ALTA|PRESCRIÇÃO MÉDICA AMBULATORIAL)[\s\S]*?)(?=\n(?:>>\s*(?:ORIENTA|SINAIS DE ALARME|MEDIDAS)|#+\s+|$))/im);
+          const recMatch = item.pep_body.match(/((?:>>\s*|#+\s*|^)(?:PRESCRIÇÃO DOMICILIAR|PRESCRIÇÃO DE ALTA|RECEITA DE ALTA|PRESCRIÇÃO MÉDICA AMBULATORIAL|PRESCRIÇÃO AMBULATORIAL)[\s\S]*?)(?=\n(?:>>\s*(?:ORIENTA|SINAIS DE ALARME|MEDIDAS)|#+\s+[A-Z0-9])|$)/i);
           if (recMatch && recMatch[1] && recMatch[1].trim().length > 20) {
             item.has_receita = true;
             item.receita_body = recMatch[1].trim();

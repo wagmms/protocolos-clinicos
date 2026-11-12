@@ -40,6 +40,15 @@
 
 # PLANO / CONDUTA:
 
+>> [SE INDICAÇÃO DE TRATAMENTO HOSPITALAR / INTRAVENOSO NA UPA] (Febre alta, toxicidade sistêmica, linfangite extensa, comorbidades descompensadas ou intolerância oral):
+1. Hidratação venosa e repouso absoluto no leito com membro elevado.
+2. Antibioticoterapia Endovenosa na UPA:
+   - [Erisipela / Celulite grave sem abscesso - Cobertura Estreptocócica]:
+     Ceftriaxona 1 g a 2 g EV 1x/dia [OU Cefazolina 1 g a 2 g EV de 8/8 horas / Oxacilina 2 g EV de 4/4 horas].
+   - [Se alergia grave a beta-lactâmicos ou suspeita de MRSA]:
+     Clindamicina 600 mg EV de 8/8 horas [OU Vancomicina 15 a 20 mg/kg EV de 12/12h se choque séptico].
+3. Monitorar extensão da lesão marcada com caneta dermográfica a cada 12 horas.
+
 >> [SE ABSCESSO CUTÂNEO]: NOTA DE PROCEDIMENTO DE DRENAGEM CIRÚRGICA NA UPA:
 1. Antissepsia rigorosa da pele perilesional com Clorexidina Alcoólica 2% e aposição de campo estéril fenestrado.
 2. Infiltração anestésica local em leque com Lidocaína 2% sem vasoconstritor estritamente na pele sobre o domo do abscesso (evitando injetar dentro da cavidade purulenta para não inativar o anestésico).
@@ -102,7 +111,7 @@ CUIDADOS E SINAIS DE ALERTA:
 
 ### 🧠 1. Erisipela, Celulite e Abscesso: Como a Profundidade e a Purulência Ditam o Antibiótico
 As infecções de pele e partes moles seguem uma divisão anatômica e microbiológica clara (*IDSA*):
-- **Erisipela**: infecção da derme superficial e vasos linfáticos, com placa vermelho-viva, quente, brilhante e **bordas nítidas e elevadas**, causada quase exclusivamente pelo *Streptococcus pyogenes* ($eta$-hemolítico do grupo A).
+- **Erisipela**: infecção da derme superficial e vasos linfáticos, com placa vermelho-viva, quente, brilhante e **bordas nítidas e elevadas**, causada quase exclusivamente pelo *Streptococcus pyogenes* ($\beta$-hemolítico do grupo A).
 - **Celulite não purulenta**: acomete derme profunda e tecido subcutâneo, com **bordas mal delimitadas**, causada por estreptococos e *Staphylococcus aureus* sensível à meticilina (MSSA) — respondendo a **Cefalexina, Amoxicilina-Clavulanato ou Oxacilina/Cefazolina IV**.
 - **Abscesso cutâneo / Celulite purulenta**: coleção flutuante causada predominantemente por *S. aureus* (incluindo cepas comunitárias resistentes à meticilina — **CA-MRSA**). Aqui, o tratamento primário é a **incisão e drenagem cirúrgica**, associada a **SMX-TMP ou Clindamicina** quando há celulite circundante extensa ou sinais sistêmicos.
 

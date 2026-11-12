@@ -66,7 +66,7 @@
    - Anti-histamínico de 2ª Geração (Não Sedativo):
      * Loratadina 10 mg VO 1x/dia pela manhã por 5 a 7 dias [OU Cetirizina 10 mg VO 1x/dia / Fexofenadina 180 mg VO 1x/dia].
    - Corticoide Oral (para desmame rápido):
-     * Prednisona 40 mg VO 1x/dia pela manhã por 3 a 5 dias (interrupção direta sem desmame).
+     * Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO 1x/dia pela manhã por 3 a 5 dias (interrupção direta sem desmame).
 3. Orientações: Identificar e afastar o agente causal suspeito; evitar banhos muito quentes.
 >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 USO ORAL:
@@ -110,7 +110,7 @@ SINAIS DE ALERTA DE ANAFILAXIA (RETORNO IMEDIATO):
 ## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
 
 ### 🧠 1. Urticária Simples vs. Anafilaxia: Por Que a Adrenalina IM É Insubstituível?
-A **urticária aguda** caracteriza-se por pápulas/placas eritemato-edematosas pruriginosas e **fugazes** (cada lesão individual desaparece em < 24h sem deixar cicatriz), mediadas pela degranulação de mastócitos cutâneos. Porém, quando ao quadro cutâneo associa-se **comprometimento respiratório** (dispneia, broncoespasmo, estridor, edema de língua/úvula), **cardiovascular** (hipotensão, síncope) ou **gastrointestinal grave** (vômitos/dor abdominal em cólica após alérgeno), configura-se **ANAFILAXIA**. Na anafilaxia, anti-histamínicos e corticoides demoram horas para agir e **não revertem o choque distributivo nem o edema laríngeo**: a única droga que salva a vida no minuto zero é a **Adrenalina 0,3 a 0,5 mg IM no vasto lateral da coxa** (ação $lpha_1$ vasoconstritora que reduz o edema de mucosa e ação $eta_2$ broncodilatadora e estabilizadora da membrana mastocitária).
+A **urticária aguda** caracteriza-se por pápulas/placas eritemato-edematosas pruriginosas e **fugazes** (cada lesão individual desaparece em < 24h sem deixar cicatriz), mediadas pela degranulação de mastócitos cutâneos. Porém, quando ao quadro cutâneo associa-se **comprometimento respiratório** (dispneia, broncoespasmo, estridor, edema de língua/úvula), **cardiovascular** (hipotensão, síncope) ou **gastrointestinal grave** (vômitos/dor abdominal em cólica após alérgeno), configura-se **ANAFILAXIA**. Na anafilaxia, anti-histamínicos e corticoides demoram horas para agir e **não revertem o choque distributivo nem o edema laríngeo**: a única droga que salva a vida no minuto zero é a **Adrenalina 0,3 a 0,5 mg IM no vasto lateral da coxa** (ação $\alpha_1$ vasoconstritora que reduz o edema de mucosa e ação $\beta_2$ broncodilatadora e estabilizadora da membrana mastocitária).
 
 ### 💊 2. Angioedema Histaminérgico vs. Angioedema por Bradicinina (IECA): O Erro Clássico no PS
 Nem todo paciente que chega com lábio ou língua inchados tem alergia! Se o angioedema for **isolado (sem placas de urticária e sem prurido)** em usuário de **IECA (Enalapril, Captopril, Ramipril)** — mesmo que tome o remédio há anos —, o mediador não é a histamina, mas o acúmulo de **bradicinina** por bloqueio da enzima degradadora (cininase II). Esse angioedema bradicininérgico responde mal a anti-histamínicos e corticoides, exigindo **suspensão definitiva e vitalícia de toda a classe dos IECA**, vigilância rigorosa da via aérea e, se houver estridor ou voz abafada ("batata quente"), intubação precoce com profissional experiente.

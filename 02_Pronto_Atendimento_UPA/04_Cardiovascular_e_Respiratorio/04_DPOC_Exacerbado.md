@@ -57,8 +57,8 @@
    - Salbutamol spray 100 mcg (4 a 8 jatos) + Brometo de Ipratrópio spray (4 jatos) com espaçador a cada 20 a 30 minutos na 1ª hora.
    - [OU]: Nebulização com Fenoterol 10 a 15 gotas + Ipratrópio 30 a 40 gotas em 3 mL de SF 0,9% (usar ar comprimido na nebulização se paciente retentor crônico de CO2).
 
-3. CORTICOTERAPIA SISTÊMICA CURTA (PADRÃO-OURO - PROTOCOLO REDUCE):
-   - Prednisona 40 mg VO 1x/dia pela manhã por exatamente 5 DIAS (o guideline GOLD e o estudo REDUCE provaram que 5 dias são suficientes; não usar por mais de 5 a 7 dias).
+3. CORTICOTERAPIA SISTÊMICA CURTA (PADRÃO-OURO):
+   - Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO 1x/dia pela manhã por exatamente 5 DIAS.
 
 4. ANTIBIOTICOTERAPIA (SE ANTHONISEN TIPO 1 OU TIPO 2 COM ESCARRO PURULENTO):
    - Amoxicilina + Clavulanato de Potássio 875/125 mg VO de 12/12h por 5 a 7 dias.

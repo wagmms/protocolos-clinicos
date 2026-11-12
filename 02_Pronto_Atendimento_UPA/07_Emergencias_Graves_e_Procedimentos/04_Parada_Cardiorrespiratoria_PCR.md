@@ -19,7 +19,7 @@ CONSTATAÇÃO DO EVENTO:
 - Ausência de incursões respiratórias eficazes (em apneia ou gasping agônico).
 - Acionada equipe de emergência, solicitado carrinho de parada e desfibrilador/monitor imediatamente.
 
-CICLOS DE RESSUSCITAÇÃO CARDIOPULMONAR (ACLS):
+# PLANO / CONDUTA (CICLOS DE RESSUSCITAÇÃO CARDIOPULMONAR - ACLS):
 - Compressões torácicas de alta qualidade iniciadas imediatamente (frequência 100-120/min, profundidade 5-6 cm, retorno completo do tórax, rotação do compressor a cada 2 minutos).
 - Monitorização conectada / Pás posicionadas.
 - RITMO INICIAL: [ FV / TV sem pulso / Assistolia / AESP ]

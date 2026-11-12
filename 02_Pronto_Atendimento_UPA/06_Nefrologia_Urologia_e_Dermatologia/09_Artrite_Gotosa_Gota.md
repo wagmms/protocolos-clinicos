@@ -69,7 +69,7 @@
 
 [OPÇÃO B - SE INSUFICIÊNCIA RENAL, IDOSO OU CONTRAINDICAÇÃO A AINES/COLCHICINA]:
 1. Corticoide Sistêmico Oral:
-   - Prednisona 35 mg a 40 mg - Tomar 1 comprimido VO pela manhã por 5 dias consecutivos, suspendendo em seguida sem necessidade de desmame.
+   - Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO pela manhã por 5 dias consecutivos, suspendendo em seguida sem necessidade de desmame.
 
 >> ORIENTAÇÃO CRÍTICA SOBRE O ALOPURINOL:
 - REGRA DE OURO ABSOLUTA: NUNCA INICIAR ALOPURINOL DURANTE UMA CRISE AGUDA DE GOTA! A queda súbita do ácido úrico sanguíneo desestabiliza os cristais nas articulações, prolongando e piorando a dor. O Alopurinol só deve ser iniciado cerca de 2 a 4 semanas após a crise estar completamente resolvida.
@@ -109,7 +109,7 @@ REGRAS DE OURO NA CRISE AGUDA:
 ## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
 
 ### 🧠 1. Gota Aguda vs. Artrite Séptica: A Armadilha Diagnóstica na Monoartrite Quente
-A crise aguda de gota decorre da fagocitose de cristais de monourato de sódio pelos macrófagos sinoviais, ativando o **inflamassoma NLRP3** e liberando uma tempestade de **Interleucina-1$eta$ ($IL-1eta$)** que produz monoartrite hiperaguda (pico em < 24h), eritema violáceo e dor ao mínimo toque do lençol (classicamenente na 1ª metatarsofalangeana — **Podagra** —, tornozelo ou joelho). Contudo, **ácido úrico sérico normal na vigência da crise NÃO descarta gota** (a $IL-6$ tem efeito uricosúrico agudo, reduzindo a uricemia durante o ataque) e **hiperuricemia NÃO exclui Artrite Séptica**. Na dúvida diante de monoartrite aguda com febre alta ou porta de entrada, a **artrocentese diagnóstica** (contagem celular, Gram, cultura e pesquisa de cristais com birrefringência negativa) é mandatória.
+A crise aguda de gota decorre da fagocitose de cristais de monourato de sódio pelos macrófagos sinoviais, ativando o **inflamassoma NLRP3** e liberando uma tempestade de **Interleucina-1$\beta$ ($IL-1\beta$)** que produz monoartrite hiperaguda (pico em < 24h), eritema violáceo e dor ao mínimo toque do lençol (classicamenente na 1ª metatarsofalangeana — **Podagra** —, tornozelo ou joelho). Contudo, **ácido úrico sérico normal na vigência da crise NÃO descarta gota** (a $IL-6$ tem efeito uricosúrico agudo, reduzindo a uricemia durante o ataque) e **hiperuricemia NÃO exclui Artrite Séptica**. Na dúvida diante de monoartrite aguda com febre alta ou porta de entrada, a **artrocentese diagnóstica** (contagem celular, Gram, cultura e pesquisa de cristais com birrefringência negativa) é mandatória.
 
 ### 💊 2. Por Que NUNCA Iniciar nem Suspender o Alopurinol Durante a Crise Aguda?
 Qualquer oscilação brusca na concentração sérica de ácido úrico desestabiliza os microtofos sinoviais, promovendo dissolução parcial e **desprendimento (*shedding*) de novos cristais para a cavidade articular**, o que perpetua e agrava a crise inflamatória. Por isso, vale a regra de ouro:

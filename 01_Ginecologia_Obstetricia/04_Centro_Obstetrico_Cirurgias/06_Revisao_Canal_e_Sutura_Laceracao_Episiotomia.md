@@ -12,22 +12,22 @@
 # IDENTIFICAÇÃO & CLASSIFICAÇÃO DA LESÃO:
 - Paciente: [Nome], [Idade] anos, Leito: [ ], G[ ] P[ ] A[ ] | Data/Hora: [DD/MM/AAAA] às [HH:MM].
 - Indicação & Grau da Lesão: [Laceração perineal espontânea de 2º grau / Episiotomia médio-lateral direita seletiva / Laceração de 1º grau sangrante / Laceração de 3º grau com reparo esfincteriano (OASIS)].
-- Extensão Anatômica Verificada: Comprometimento de mucosa vaginal, fúrcula e musculatura do corpo perineal (transverso superficial e bulbocavernoso). Toque retal pré-sutura confirmando **integridade do complexo do esfíncter anal externo/interno e da mucosa anorretal** (afastada lesão de 3º/4º grau).
+- Extensão Anatômica Verificada: Comprometimento de mucosa vaginal, fúrcula e musculatura do corpo perineal (transverso superficial e bulbocavernoso). Toque retal pré-sutura confirmando integridade do complexo do esfíncter anal externo/interno e da mucosa anorretal (afastada lesão de 3º/4º grau).
 
 # TEMPOS TÉCNICOS DA REVISÃO E PERINEORRAFIA:
-1. Exposição & Revisão de Canal: Paciente em litotomia sob foco cirúrgico, antissepsia com Clorexidina Aquosa 0,5% e campos estéreis. Revisão de colo uterino em 360° com pinças de Foerster (DeLee) e paredes vaginais: [íntegras e sem hematomas / suturada laceração cervical em lábio]. Posicionado tampão de gaze estéril com reparo para manter campo seco.
-2. Anestesia Local: Infiltração em leque nos planos mucoso, muscular e subcutâneo com **10 a 15 mL de Lidocaína 2% sem vasoconstritor** (aspiração prévia negativa).
+1. Exposição & Revisão de Canal: Paciente em litotomia sob foco cirúrgico, antissepsia com Clorexidina Aquosa 0,5% e campos estéreis. Revisão de colo uterino em 360° com pinças de Foerster (DeLee) e paredes vaginais: [íntegras e sem hematomas / suturada laceração cervical em lábio [ ]]. Posicionado tampão de gaze estéril com reparo para manter campo seco.
+2. Anestesia Local: Infiltração em leque nos planos mucoso, muscular e subcutâneo com 10 a 15 mL de Lidocaína 2% sem vasoconstritor (aspiração prévia negativa).
 3. Síntese da Mucosa Vaginal (1º Plano):
-   - Identificado o ápice da laceração vaginal; dado **1º ponto de ancoragem 0,5 a 1,0 cm ACIMA (cranial) do ápice** para ligadura de vasos submucosos retraídos.
-   - Sutura contínua não-ancorada da mucosa vaginal com fio absorvível **Poliglactina (Vicryl) 2-0** até o anel himenal/carúnculas.
+   - Identificado o ápice da laceração vaginal; dado 1º ponto de ancoragem 0,5 a 1,0 cm ACIMA (cranial) do ápice para ligadura de vasos submucosos retraídos.
+   - Sutura contínua não-ancorada da mucosa vaginal com fio absorvível Poliglactina (Vicryl) 2-0 até o anel himenal/carúnculas.
 4. Miorrafia do Corpo Perineal (2º Plano):
    - Aproximação anatômica sem tensão dos músculos bulbocavernoso e transverso superficial do períneo com 3 a 4 pontos contínuos frouxos ou separados invertidos de Vicryl 2-0, obliterando o espaço morto.
 5. Síntese da Pele Perineal (3º Plano):
-   - Sutura contínua **intradérmica/subcuticular** com Vicryl 2-0 (menor dor pós-operatória), finalizada com nó sepultado na fúrcula.
+   - Sutura contínua intradérmica/subcuticular com Vicryl 2-0 (menor dor pós-operatória), finalizada com nó sepultado na fúrcula.
 6. Conferência Final Obrigatória (Tampão + Toque Vaginal + Toque Retal):
-   - **Retirado o tampão de gaze vaginal** (contagem de compressas conferida).
+   - Retirado o tampão de gaze vaginal (contagem de compressas conferida).
    - Toque vaginal: Vagina pérvia, linha de sutura hemostática e ausência de hematomas de parede.
-   - **Toque retal pós-sutura (com luva limpa):** Mucosa retal livre e deslizante (ausência de pontos transfixantes acidentais na luz retal) e tônus esfincteriano preservado.
+   - Toque retal pós-sutura (com luva limpa): Mucosa retal livre e deslizante (ausência de pontos transfixantes acidentais na luz retal) e tônus esfincteriano preservado.
 
 # AVALIAÇÃO DIAGNÓSTICA:
 1. Perineorrafia pós-parto por [laceração perineal de 2º grau (CID-10: O70.1) / episiotomia (O75.9)] sem intercorrências.

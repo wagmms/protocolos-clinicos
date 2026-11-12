@@ -57,8 +57,8 @@
 
 >> PRESCRIÇÃO DE ALTA DA UPA (SE RECUPERADO APÓS OBSERVAÇÃO DE 2 A 4 HORAS):
 1. Corticoide Oral (prevenção precoce de recaída):
-   - Prednisona 40 mg a 50 mg - Tomar 1 comprimido VO pela manhã por 5 a 7 dias (não necessita de desmame se <= 7 dias).
-2. Terapia de Manutenção & Alívio com Corticoide Inalatório (Diretriz GINA - contraindicado uso de broncodilatador isolado sem corticoide inalatório):
+   - Prednisona 20 mg - Tomar 2 comprimidos (40 mg) VO pela manhã por 5 a 7 dias (não necessita de desmame se <= 7 dias).
+2. Terapia de Manutenção & Alívio com Corticoide Inalatório (Diretriz GINA):
    - [OPÇÃO PREFERENCIAL GINA - LABA + CORTICOIDE INALATÓRIO]:
      * Fumarato de Formoterol + Budesonida (200/6 mcg ou 400/12 mcg): Inalar 1 cápsula/jato de 12 em 12 horas de uso contínuo + 1 inalação de resgate se falta de ar.
    - [OPÇÃO ALTERNATIVA DA REDE BÁSICA]:
@@ -126,10 +126,10 @@ ORIENTAÇÕES DE SEGURANÇA E SINAIS DE ALARME:
 
 ### 💊 2. Por Que Associamos Ipratrópio ao Salbutamol na 1ª Hora, Damos Corticoide Precoce e Usamos Sulfato de Magnésio nos Refratários? (Racional Farmacológico)
 - **1. Dupla Broncodilatação de Ataque na 1ª Hora (SABA + SAMA a cada 20 min por 3 doses):**
-  - O **Salbutamol (`4 a 10 jatos` no espaçador ou Fenoterol `10–20 gotas` na nebulização)** ativa receptores $eta_2$-adrenérgicos, aumentando o `AMPc` intracelular e relaxando rapidamente o músculo liso brônquico.
+  - O **Salbutamol (`4 a 10 jatos` no espaçador ou Fenoterol `10–20 gotas` na nebulização)** ativa receptores $\beta_2$-adrenérgicos, aumentando o `AMPc` intracelular e relaxando rapidamente o músculo liso brônquico.
   - Associar o **Brometo de Ipratrópio (`Atrovent 40 gotas = 0,5 mg` ou `4–8 jatos`)** nas primeiras 3 doses (a cada 20 min na 1ª hora) bloqueia os receptores muscarínicos $M_3$ vagais, reduz a hipersecreção mucosa e produz **broncodilatação sinérgica que reduz em 25–30% a necessidade de internação hospitalar** nas crises moderadas a graves!
 - **2. Por que o Corticoide Sistêmico (Prednisona `40–60 mg VO` ou Hidrocortisona `200 mg EV` / Metilprednisolona `40–60 mg EV`) deve ser dado na 1ª hora (mesmo demorando 4h para agir):**
-  - Como o corticoide precisa entrar no núcleo celular e alterar a transcrição gênica (levando **4 a 6 horas** para iniciar seu efeito anti-inflamatório e de *upregulation* dos receptores $eta_2$), **dá-lo na primeira hora da chegada garante que, ao final das 4 horas de observação na UPA, o edema brônquico já esteja regredindo**! Além disso, a via oral (**Prednisona 40–60 mg VO**) tem eficácia 100% equivalente à via venosa se o paciente consegue engolir e não está vomitando!
+  - Como o corticoide precisa entrar no núcleo celular e alterar a transcrição gênica (levando **4 a 6 horas** para iniciar seu efeito anti-inflamatório e de *upregulation* dos receptores $\beta_2$), **dá-lo na primeira hora da chegada garante que, ao final das 4 horas de observação na UPA, o edema brônquico já esteja regredindo**! Além disso, a via oral (**Prednisona 40–60 mg VO**) tem eficácia 100% equivalente à via venosa se o paciente consegue engolir e não está vomitando!
 - **3. Por que o Sulfato de Magnésio (`2 g EV diluídos em 100 mL de SF 0,9% em 20 minutos`) resgata a crise grave refratária:**
   - O íon magnésio ($Mg^{2+}$) compete diretamente com o cálcio ($Ca^{2+}$) nos canais de cálcio voltagem-dependentes da musculatura lisa brônquica e inibe a degranulação de mastócitos e a liberação de acetilcolina nas terminações colinérgicas, promovendo broncodilatação adicional nos pacientes com `VEF1/PFE < 25–30%` ou refratários à 1ª hora de SABA + Ipratrópio!
 

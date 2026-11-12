@@ -91,7 +91,7 @@ ORIENTAÇÕES FUNDAMENTAIS E SINAIS DE ALARME:
 ### 💊 2. Por Que a Lavagem Nasal Supera os Descongestionantes Vasoconstritores e Por Que Evitamos Antibióticos? (Racional Farmacológico)
 - **Por que a Lavagem Nasal com SF 0,9% de alto volume e baixa pressão é a intervenção nº 1:** O soro fisiológico remove mecanicamente o excesso de muco, crostas, partículas virais e mediadores inflamatórios (`bradicinina` e `prostaglandinas`), restaura o batimento mucociliar e reduz o **gotejamento pós-nasal** — que é a verdadeira causa da tosse seca noturna que piora ao deitar!
 - **O perigo dos vasoconstritores tópicos (Nafazolina / Oximetazolina) e sistêmicos (Pseudoefedrina / Fenilefrina):**
-  - Os agonistas $lpha$-adrenérgicos tópicos causam vasoconstrição intensa da mucosa; quando usados por `> 3 a 5 dias`, induzem *downregulation* dos receptores adrenérgicos e vasodilatação rebote refratária (**Rinite Medicamentosa**), além de crise hipertensiva e taquiarritmias.
+  - Os agonistas $\alpha$-adrenérgicos tópicos causam vasoconstrição intensa da mucosa; quando usados por `> 3 a 5 dias`, induzem *downregulation* dos receptores adrenérgicos e vasodilatação rebote refratária (**Rinite Medicamentosa**), além de crise hipertensiva e taquiarritmias.
   - Descongestionantes orais (fenilefrina/pseudoefedrina) são **contraindicados em hipertensos, coronariopatas, idosos com hiperplasia prostática (causam retenção urinária aguda!) e gestantes**.
 
 ### 🧭 3. Diagnóstico Diferencial no Pronto Atendimento: Resfriado Comum vs Síndrome Gripal (Influenza) vs Sinusite Bacteriana

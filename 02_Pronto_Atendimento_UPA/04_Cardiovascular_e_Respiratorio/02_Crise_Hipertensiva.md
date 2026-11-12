@@ -59,9 +59,9 @@
 
 >> [SE EMERGÊNCIA HIPERTENSIVA - COM LESÃO DE ÓRGÃO-ALVO]:
 1. Transferência IMEDIATA para a Sala Vermelha; puncionar acesso venoso e monitorização contínua.
-2. Iniciar vasodilatador endovenoso contínuo em Bomba de Infusão:
-   - [Se EAP ou SCA]: Nitroglicerina EV contínua (iniciar 5 mcg/min e titular a cada 5 min).
-   - [Se Encefalopatia Hipertensiva]: Nitroprussiato de Sódio EV (iniciar 0,25 a 0,5 mcg/kg/min).
+2. Iniciar vasodilatador endovenoso contínuo em Bomba de Infusão (BIC):
+   - [Se EAP ou SCA]: Nitroglicerina (Tridil 50 mg/10 mL): 1 ampola (10 mL) + 240 mL SG 5% (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 6 mL/h (10 a 20 mcg/min) e titular a cada 3 a 5 min.
+   - [Se Encefalopatia Hipertensiva, Dissecção Aórtica ou Emergência Hipertensiva Geral]: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em frasco e equipo fotossensíveis (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min para 70 kg) e titular a cada 3 a 5 min sob vigilância invasiva/PANI de 3/3 min.
    - Meta: Reduzir a PAM em no máximo 20% a 25% na primeira hora (evitando AVC isquêmico).
 3. Vaga imediata de UTI via Central de Regulação.
 >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:

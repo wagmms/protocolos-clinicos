@@ -14,9 +14,9 @@ matches:
       - HMA: Paciente admitido(a) nesta enfermaria proveniente de [UPA / Pronto-Socorro / Ambulatório] com quadro de [ ], iniciado há [ ] dias, caracterizado por [ ]. No serviço de origem recebeu [medidas e medicações prévias: ( )]. No momento da admissão no leito, encontra-se [estável sem queixas álgicas agudas / com queixa residual de].
       - Negativas de Gravidade Mandatórias: Nega no momento precordialgia típica, dispneia em repouso, síncope, déficits motores focais agudos ou sangramentos francos ativos.
       - Comorbidades Ativas: [Nega comorbidades prévias / HAS / DM tipo 2 / Dislipidemia / Insuficiência Cardíaca (FE [ ]%) / DPOC / Asma / DRC estágio [ ] / Hepatopatia crônica / Neoplasia: [ ]].
-      - Cirurgias e Internações Prévias: [Nega /].
+      - Cirurgias e Internações Prévias: [Nega / Sim: [ ]].
       - Alergias Medicamentosas: [Nega alergias conhecidas / Alérgico(a) a: — pulseira de alerta acionada].
-      - Hábitos de Vida: Tabagismo: [Nega / Ex-tabagista há [ ] anos / Ativo ([ ] maços-ano)] | Etilismo: [Nega / Etilista social / Etilista crônico:] | Uso de substâncias ilícitas: [Nega / Sim:].
+      - Hábitos de Vida: Tabagismo: [Nega / Ex-tabagista há [ ] anos / Ativo ([ ] maços-ano)] | Etilismo: [Nega / Etilista social / Etilista crônico: [ ]] | Uso de substâncias ilícitas: [Nega / Sim: [ ]].
       
       # RECONCILIAÇÃO MEDICAMENTOSA DE ADMISSÃO (USO PRÉVIO DOMICILIAR):
       1. [Medicamento 1, dose e posologia] -> Conduta na internação: [Manter em prescrição / Suspender temporariamente por [ ] / Substituir por [ ]]
@@ -129,7 +129,7 @@ matches:
       2. Hidratação Venosa: [Suspensa soroterapia de manutenção; manter acesso salinizado / Manter SF 0,9% mL EV em 24h].
       3. Terapêutica Antimicrobiana & Específica:
          - [Manter [ ] em D[ ] de [ ] dias / Realizar transição (Switch Therapy) para via oral com [ ] / Suspender antibiótico por término de tratamento].
-         - [Ajuste de medicações de uso contínuo / controle pressórico e glicêmico:].
+         - [Ajuste de medicações de uso contínuo / controle pressórico e glicêmico: [ ]].
       4. Profilaxia de TEV & Mobilidade: Manter [Enoxaparina 40 mg SC 1x/dia / HNF 5.000 UI SC 8/8h] + estimular deambulação assistida no corredor e fisioterapia motora/respiratória.
       5. Revisão de Dispositivos Invasivos: [Retirar Sonda Vesical de Demora hoje / Trocar ou sacar acesso periférico com > 96h / Manter dispositivos atuais pérvios].
       6. Exames de Controle Solicitados para [Amanhã / Segunda-feira]: [Hemograma, PCR, Função Renal e Eletrólitos / Sem necessidade de coleta laboratorial amanhã].
@@ -144,7 +144,7 @@ matches:
       2. Hidratação Venosa: [Suspensa soroterapia de manutenção; manter acesso salinizado / Manter SF 0,9% mL EV em 24h].
       3. Terapêutica Antimicrobiana & Específica:
          - [Manter [ ] em D[ ] de [ ] dias / Realizar transição (Switch Therapy) para via oral com [ ] / Suspender antibiótico por término de tratamento].
-         - [Ajuste de medicações de uso contínuo / controle pressórico e glicêmico:].
+         - [Ajuste de medicações de uso contínuo / controle pressórico e glicêmico: [ ]].
       4. Profilaxia de TEV & Mobilidade: Manter [Enoxaparina 40 mg SC 1x/dia / HNF 5.000 UI SC 8/8h] + estimular deambulação assistida no corredor e fisioterapia motora/respiratória.
       5. Revisão de Dispositivos Invasivos: [Retirar Sonda Vesical de Demora hoje / Trocar ou sacar acesso periférico com > 96h / Manter dispositivos atuais pérvios].
       6. Exames de Controle Solicitados para [Amanhã / Segunda-feira]: [Hemograma, PCR, Função Renal e Eletrólitos / Sem necessidade de coleta laboratorial amanhã].
@@ -199,6 +199,28 @@ matches:
          - Higienizar ferida operatória com água corrente e sabonete neutro no banho; manter seca e descoberta.
          - [Sacar dreno cirúrgico hoje (débito < 30–50 mL/24h seroso) / Manter dreno com aferição de débito / Retirar SVD hoje].
       6. Desospitalização: [Alta hospitalar concedida hoje com receita, cuidados com os pontos e retorno cirúrgico agendado / Previsão de alta para amanhã].
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — ALTA PÓS-OPERATÓRIA CIRÚRGICA
+      Paciente: [Nome] | Procedimento: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL:
+      1. Dipirona Monoidratada 500 mg (ou 1 g) ------------------------------------- 1 caixa
+         Tomar 1 comprimido de 1 g (ou 2 comprimidos de 500 mg) por via oral de 6 em 6 horas em horário fixo nos primeiros 3 dias, e depois se houver dor.
+      
+      2. Cetoprofeno 100 mg (ou Ibuprofeno 600 mg) --------------------------------- 1 caixa
+         Tomar 1 comprimido por via oral de 12 em 12 horas, sempre após as refeições, durante 3 a 5 dias (Suspender se histórico de gastrite, úlcera ou doença renal).
+      
+      3. Cloridrato de Tramadol 50 mg (Resgate para dor forte) --------------------- 1 caixa
+         Tomar 1 comprimido por via oral até de 8 em 8 horas APENAS se dor moderada a intensa que não ceda com a Dipirona.
+      
+      4. Ondansetrona 4 mg (ou Bromoprida 10 mg) ----------------------------------- 1 caixa
+         Tomar 1 comprimido por via oral de 8 em 8 horas se apresentar náuseas ou enjoos.
+      
+      CUIDADOS COM A FERIDA OPERATÓRIA & ORIENTAÇÕES PÓS-ALTA:
+      - Lavar a incisão cirúrgica diariamente durante o banho com água corrente e sabonete neutro, secando suavemente com toalha limpa (sem esfregar). Não aplicar pomadas caseiras, óleos ou pós sobre os pontos.
+      - Caminhar dentro de casa várias vezes ao dia para prevenir trombose nas pernas; evitar esforço físico intenso, pegar peso (> 5 kg) ou dirigir por [15 a 30] dias.
+      - Retorno agendado no Ambulatório de Cirurgia / UBS em [7 a 14] dias para revisão cirúrgica e retirada de pontos.
+      - SINAIS DE ALARME (RETORNO IMEDIATO AO PRONTO-SOCORRO): Febre aferida (≥ 37,8 °C), vermelhidão quente que se espalha ao redor do corte, saída de pus ou abertura dos pontos, dor abdominal progressiva, vômitos persistentes, parada de eliminação de gases/fezes, dor/inchaço na panturrilha ou falta de ar súbita.
 
   - trigger: ";enf-evo-po-cnd"
     replace: |
@@ -215,9 +237,32 @@ matches:
          - Higienizar ferida operatória com água corrente e sabonete neutro no banho; manter seca e descoberta.
          - [Sacar dreno cirúrgico hoje (débito < 30–50 mL/24h seroso) / Manter dreno com aferição de débito / Retirar SVD hoje].
       6. Desospitalização: [Alta hospitalar concedida hoje com receita, cuidados com os pontos e retorno cirúrgico agendado / Previsão de alta para amanhã].
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO — ALTA PÓS-OPERATÓRIA CIRÚRGICA
+      Paciente: [Nome] | Procedimento: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL:
+      1. Dipirona Monoidratada 500 mg (ou 1 g) ------------------------------------- 1 caixa
+         Tomar 1 comprimido de 1 g (ou 2 comprimidos de 500 mg) por via oral de 6 em 6 horas em horário fixo nos primeiros 3 dias, e depois se houver dor.
+      
+      2. Cetoprofeno 100 mg (ou Ibuprofeno 600 mg) --------------------------------- 1 caixa
+         Tomar 1 comprimido por via oral de 12 em 12 horas, sempre após as refeições, durante 3 a 5 dias (Suspender se histórico de gastrite, úlcera ou doença renal).
+      
+      3. Cloridrato de Tramadol 50 mg (Resgate para dor forte) --------------------- 1 caixa
+         Tomar 1 comprimido por via oral até de 8 em 8 horas APENAS se dor moderada a intensa que não ceda com a Dipirona.
+      
+      4. Ondansetrona 4 mg (ou Bromoprida 10 mg) ----------------------------------- 1 caixa
+         Tomar 1 comprimido por via oral de 8 em 8 horas se apresentar náuseas ou enjoos.
+      
+      CUIDADOS COM A FERIDA OPERATÓRIA & ORIENTAÇÕES PÓS-ALTA:
+      - Lavar a incisão cirúrgica diariamente durante o banho com água corrente e sabonete neutro, secando suavemente com toalha limpa (sem esfregar). Não aplicar pomadas caseiras, óleos ou pós sobre os pontos.
+      - Caminhar dentro de casa várias vezes ao dia para prevenir trombose nas pernas; evitar esforço físico intenso, pegar peso (> 5 kg) ou dirigir por [15 a 30] dias.
+      - Retorno agendado no Ambulatório de Cirurgia / UBS em [7 a 14] dias para revisão cirúrgica e retirada de pontos.
+      - SINAIS DE ALARME (RETORNO IMEDIATO AO PRONTO-SOCORRO): Febre aferida (≥ 37,8 °C), vermelhidão quente que se espalha ao redor do corte, saída de pus ou abertura dos pontos, dor abdominal progressiva, vômitos persistentes, parada de eliminação de gases/fezes, dor/inchaço na panturrilha ou falta de ar súbita.
 
   - trigger: ";enf-evo-po-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO — ALTA PÓS-OPERATÓRIA CIRÚRGICA
       Paciente: [Nome] | Procedimento: [ ] | Data: [DD/MM/AAAA]
       
@@ -306,14 +351,14 @@ matches:
       # 2. [B] BACKGROUND (CONTEXTO CLÍNICO & HISTÓRICO ESSENCIAL):
       - Motivo da Admissão: Internado(a) em [DD/MM/AAAA] por quadro de [ ].
       - Comorbidades de Base: [Hígido(a) / HAS / DM2 / IC (FE [ ]%) / DRC estágio [ ] / DPOC / Cirrose / Neoplasia: [ ]].
-      - Intervenções Relevantes Realizadas na Internação: [Tratamento clínico exclusivo / Procedimento cirúrgico: / Toracocentese / Paracentese / EDA / Transfusão].
-      - Alergias Medicamentosas: [Nega alergias / Alérgico(a) a:].
+      - Intervenções Relevantes Realizadas na Internação: [Tratamento clínico exclusivo / Procedimento cirúrgico: [ ]/ Toracocentese / Paracentese / EDA / Transfusão].
+      - Alergias Medicamentosas: [Nega alergias / Alérgico(a) a: [ ]].
       
       # 3. [A] ASSESSMENT (AVALIAÇÃO DAS ÚLTIMAS 24H, EXAME & LABORATÓRIO):
       - Evolução nas Últimas 24h: [Estável, sem intercorrências no plantão / Apresentou pico febril de [ ] °C / Apresentou dessaturação para [ ]% / Episódio de hipotensão ou dor aguda].
       - Sinais Vitais Atuais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ([em ar ambiente / sob O2 a L/min]) | Tax máx 24h: [ ] °C.
       - Balanço Hídrico & Diurese (24h): Diurese: [ ] mL ([ ] mL/kg/h) | BH 24h: [Neutro / Positivo em +[ ] mL / Negativo em -[ ] mL].
-      - Achados Físicos Positivos do Dia: [Lúcido(a), eupneico(a), abdome flácido e indolor, extremidades bem perfundidas / Alteração relevante:].
+      - Achados Físicos Positivos do Dia: [Lúcido(a), eupneico(a), abdome flácido e indolor, extremidades bem perfundidas / Alteração relevante: [ ]].
       - Dispositivos Ativos: [Acesso periférico em [MSD / MSE] D[ ] / CVC em [ ] D[ ] / SVD / SNE / Dreno [ ] com débito de [ ] mL/24h].
       - Exames Laboratoriais e Culturas Recentes:
         * Hb: [ ] | Leuco: [ ] (Bast: [ ]%) | Plaq: [ ] | PCR: [ ] | Cr: [ ] | Ur: [ ] | Na: [ ] | K: [ ].
@@ -383,13 +428,38 @@ matches:
       2. Medicamentos NOVOS INICIADOS ou com DOSE AJUSTADA na internação:
          - [Medicamento novo/ajustado, dose, posologia e motivo clínico]
       3. Medicamentos SUSPENSOS DEFINITIVAMENTE (NÃO TOMAR MAIS):
-         - [Medicamento suspenso e motivo clínico da suspensão: / Nenhuma medicação prévia suspensa]
+         - [Medicamento suspenso e motivo clínico da suspensão: [ ]/ Nenhuma medicação prévia suspensa]
       
       >> PLANO DE SEGUIMENTO AMBULATORIAL (CONTRARREFERÊNCIA):
       1. Encaminhado(a) com cópia impressa deste Sumário de Alta para a Unidade Básica de Saúde (UBS / ESF) de referência para consulta médica de reavaliação em [7 a 14] dias.
       2. Seguimento Especializado: [Agendado retorno no Ambulatório de [ ] em [ ] dias / Não necessita de ambulatório terciário].
       3. Exames para levar na consulta de retorno: [Solicitados Creatinina, Ureia, Potássio e Hemograma de controle em 7 dias / Sem exames pendentes].
       4. Sinais de Alarme Explicados (Teach-back confirmado com paciente e familiar): Retornar imediatamente ao Pronto Atendimento se febre (≥ 37,8 °C), falta de ar, dor no peito, vômitos persistentes, confusão mental ou redução importante da urina.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO DE ALTA HOSPITALAR — CLÍNICA MÉDICA
+      Paciente: [Nome] | Data da Alta: [DD/MM/AAAA]
+      
+      1. MEDICAÇÃO PARA TERMINAR O TRATAMENTO AGUDO (COM PRAZO DE TÉRMINO):
+         - [Amoxicilina + Clavulanato 875/125 mg (ou outro antimicrobiano em transição oral)]
+           Tomar 1 comprimido por via oral de [12 em 12] horas durante mais [ ] dias corridos (Último dia de tomada: [DD/MM/AAAA]). Não interromper antes desta data.
+      
+      2. MEDICAÇÕES DE USO CONTÍNUO DIÁRIO (TOMAR TODOS OS DIAS):
+         - [Medicamento Contínuo 1 — ex: Losartana 50 mg]
+           Tomar [1] comprimido por via oral pela manhã ([08:00]h) — Uso contínuo.
+         - [Medicamento Contínuo 2 — ex: Anlodipino 5 mg / Metformina 850 mg / Sinvastatina 20 mg]
+           Tomar [1] comprimido por via oral [após o almoço e/ou jantar] — Uso contínuo.
+      
+      3. MEDICAÇÃO SINTOMÁTICA (APENAS SE NECESSÁRIO):
+         - Dipirona Monoidratada 500 mg (ou 1 g)
+           Tomar 1 comprimido por via oral até de 6 em 6 horas se apresentar dor ou febre (Tax ≥ 37,8 °C).
+      
+      ATENÇÃO — REMÉDIOS ANTIGOS SUSPENSOS (NÃO TOMAR MAIS EM CASA):
+      - Suspender definitivamente o uso de: [Nenhum / [ ] — substituído pela nova receita acima].
+      
+      ORIENTAÇÕES GERAIS E SINAIS DE ALARME:
+      - Manter dieta [geral saudável / com restrição de sal / para diabetes] e boa hidratação oral ([1,5 a 2] litros de água/dia, salvo restrição médica).
+      - Levar este Receituário e o Sumário de Alta na sua consulta na UBS em [7 a 14] dias.
+      - Procurar imediatamente a UPA / Pronto-Socorro se apresentar febre (≥ 37,8 °C), falta de ar, dor no peito, vômitos que impeçam tomar os comprimidos ou sonolência excessiva.
 
   - trigger: ";alta-clin-cnd"
     replace: |
@@ -401,16 +471,42 @@ matches:
       2. Medicamentos NOVOS INICIADOS ou com DOSE AJUSTADA na internação:
          - [Medicamento novo/ajustado, dose, posologia e motivo clínico]
       3. Medicamentos SUSPENSOS DEFINITIVAMENTE (NÃO TOMAR MAIS):
-         - [Medicamento suspenso e motivo clínico da suspensão: / Nenhuma medicação prévia suspensa]
+         - [Medicamento suspenso e motivo clínico da suspensão: [ ]/ Nenhuma medicação prévia suspensa]
       
       >> PLANO DE SEGUIMENTO AMBULATORIAL (CONTRARREFERÊNCIA):
       1. Encaminhado(a) com cópia impressa deste Sumário de Alta para a Unidade Básica de Saúde (UBS / ESF) de referência para consulta médica de reavaliação em [7 a 14] dias.
       2. Seguimento Especializado: [Agendado retorno no Ambulatório de [ ] em [ ] dias / Não necessita de ambulatório terciário].
       3. Exames para levar na consulta de retorno: [Solicitados Creatinina, Ureia, Potássio e Hemograma de controle em 7 dias / Sem exames pendentes].
       4. Sinais de Alarme Explicados (Teach-back confirmado com paciente e familiar): Retornar imediatamente ao Pronto Atendimento se febre (≥ 37,8 °C), falta de ar, dor no peito, vômitos persistentes, confusão mental ou redução importante da urina.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO DE ALTA HOSPITALAR — CLÍNICA MÉDICA
+      Paciente: [Nome] | Data da Alta: [DD/MM/AAAA]
+      
+      1. MEDICAÇÃO PARA TERMINAR O TRATAMENTO AGUDO (COM PRAZO DE TÉRMINO):
+         - [Amoxicilina + Clavulanato 875/125 mg (ou outro antimicrobiano em transição oral)]
+           Tomar 1 comprimido por via oral de [12 em 12] horas durante mais [ ] dias corridos (Último dia de tomada: [DD/MM/AAAA]). Não interromper antes desta data.
+      
+      2. MEDICAÇÕES DE USO CONTÍNUO DIÁRIO (TOMAR TODOS OS DIAS):
+         - [Medicamento Contínuo 1 — ex: Losartana 50 mg]
+           Tomar [1] comprimido por via oral pela manhã ([08:00]h) — Uso contínuo.
+         - [Medicamento Contínuo 2 — ex: Anlodipino 5 mg / Metformina 850 mg / Sinvastatina 20 mg]
+           Tomar [1] comprimido por via oral [após o almoço e/ou jantar] — Uso contínuo.
+      
+      3. MEDICAÇÃO SINTOMÁTICA (APENAS SE NECESSÁRIO):
+         - Dipirona Monoidratada 500 mg (ou 1 g)
+           Tomar 1 comprimido por via oral até de 6 em 6 horas se apresentar dor ou febre (Tax ≥ 37,8 °C).
+      
+      ATENÇÃO — REMÉDIOS ANTIGOS SUSPENSOS (NÃO TOMAR MAIS EM CASA):
+      - Suspender definitivamente o uso de: [Nenhum / [ ] — substituído pela nova receita acima].
+      
+      ORIENTAÇÕES GERAIS E SINAIS DE ALARME:
+      - Manter dieta [geral saudável / com restrição de sal / para diabetes] e boa hidratação oral ([1,5 a 2] litros de água/dia, salvo restrição médica).
+      - Levar este Receituário e o Sumário de Alta na sua consulta na UBS em [7 a 14] dias.
+      - Procurar imediatamente a UPA / Pronto-Socorro se apresentar febre (≥ 37,8 °C), falta de ar, dor no peito, vômitos que impeçam tomar os comprimidos ou sonolência excessiva.
 
   - trigger: ";alta-clin-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO DE ALTA HOSPITALAR — CLÍNICA MÉDICA
       Paciente: [Nome] | Data da Alta: [DD/MM/AAAA]
       
@@ -464,7 +560,7 @@ matches:
       - PARTE I (Cadeia Causal Direta — da causa terminal na linha A até a causa básica na última linha):
         * Linha a (Causa Imediata / Terminal): [ex: Choque séptico refratário / Insuficiência respiratória aguda hipoxêmica / Tamponamento cardíaco] — Tempo aproximado: [ horas / dias].
         * Linha b (Devido a / Causa Intermediária): [ex: Pneumonia bacteriana nosocomial / Tromboembolismo pulmonar maciço / Infarto agudo do miocárdio] — Tempo aproximado: [ dias].
-        * Linha c (Devido a / Causa Intermediária): [Não se aplica /] — Tempo aproximado: [ ].
+        * Linha c (Devido a / Causa Intermediária): [Não se aplica / Causa: [ ]] — Tempo aproximado: [ ].
         * Linha d (Causa Básica Fundamental — doença que iniciou a cadeia): [ex: Doença Pulmonar Obstrutiva Crônica grave / Neoplasia maligna de cólon metastática / Aterosclerose coronariana hipertensiva] — Tempo aproximado: [ meses / anos].
       - PARTE II (Outras condições mórbidas preexistentes que contribuíram, mas não entraram na cadeia direta):
         * [ex: Diabetes Mellitus tipo 2, Doença Renal Crônica estágio 4, Fibrilação Atrial crônica].
@@ -483,7 +579,7 @@ matches:
       - PARTE I (Cadeia Causal Direta — da causa terminal na linha A até a causa básica na última linha):
         * Linha a (Causa Imediata / Terminal): [ex: Choque séptico refratário / Insuficiência respiratória aguda hipoxêmica / Tamponamento cardíaco] — Tempo aproximado: [ horas / dias].
         * Linha b (Devido a / Causa Intermediária): [ex: Pneumonia bacteriana nosocomial / Tromboembolismo pulmonar maciço / Infarto agudo do miocárdio] — Tempo aproximado: [ dias].
-        * Linha c (Devido a / Causa Intermediária): [Não se aplica /] — Tempo aproximado: [ ].
+        * Linha c (Devido a / Causa Intermediária): [Não se aplica / Causa: [ ]] — Tempo aproximado: [ ].
         * Linha d (Causa Básica Fundamental — doença que iniciou a cadeia): [ex: Doença Pulmonar Obstrutiva Crônica grave / Neoplasia maligna de cólon metastática / Aterosclerose coronariana hipertensiva] — Tempo aproximado: [ meses / anos].
       - PARTE II (Outras condições mórbidas preexistentes que contribuíram, mas não entraram na cadeia direta):
         * [ex: Diabetes Mellitus tipo 2, Doença Renal Crônica estágio 4, Fibrilação Atrial crônica].

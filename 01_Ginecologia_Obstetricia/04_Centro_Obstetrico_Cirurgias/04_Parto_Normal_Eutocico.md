@@ -18,12 +18,12 @@
 # DESCRIÇÃO TÉCNICA DA ASSISTÊNCIA (2º E 3º PERÍODOS):
 1. Posição & Antissepsia: Parturiente em posição [semissentada / verticalizada / litotomia a 45°], antissepsia vulvoperineal com Clorexidina Aquosa 0,5% e campos estéreis. BCF monitorizado no expulsivo entre [120–155] bpm sem desacelerações patológicas.
 2. Desprendimento Cefálico & Corporal:
-   - Puxos espontâneos coordenados às contrações; proteção perineal ativa pela **Manobra de Ritgen modificada** com deflexão cefálica controlada (sem episiotomia).
+   - Puxos espontâneos coordenados às contrações; proteção perineal ativa pela Manobra de Ritgen modificada com deflexão cefálica controlada (sem episiotomia).
    - Checada região cervical: [ausência de circular de cordão / circular frouxa reduzida sobre o polo cefálico].
    - Rotação externa espontânea (restituição), tração suave biparietal inferior para desprendimento do ombro anterior sob a sínfise púbica e elevação cranial para o ombro posterior e tronco.
 3. Manejo Ativo do 3º Período (Dequitação Placentária — Diretriz OMS/MS):
-   - Administradas **10 UI de Ocitocina IM profunda** no vasto lateral da coxa imediatamente após o desprendimento fetal.
-   - Tração controlada do cordão umbilical associada à contrapressão suprapúbica do segmento uterino (**Manobra de Brandt-Andrews**) e rotação placentária sobre seu eixo na saída vulvar (**Manobra de Jacob-Dublin**) às [HH:MM].
+   - Administradas 10 UI de Ocitocina IM profunda no vasto lateral da coxa imediatamente após o desprendimento fetal.
+   - Tração controlada do cordão umbilical associada à contrapressão suprapúbica do segmento uterino (Manobra de Brandt-Andrews) e rotação placentária sobre seu eixo na saída vulvar (Manobra de Jacob-Dublin) às [HH:MM].
    - Revisão Placentária: Faces materna (cotilédones completos) e fetal íntegras, membranas completas e cordão com 2 artérias e 1 veia. Coletado sangue de cordão para TS/Rh e Coombs Direto (se mãe Rh-).
 4. Revisão do Canal de Parto & 4º Período (Greenberg):
    - Revisão sob válvulas: Colo uterino íntegro em 360°, paredes vaginais sem hematomas. Períneo: [Íntegro / Laceração superficial de 1º grau hemostática sem necessidade de rafia / Laceração de 2º grau suturada conforme nota de perineorrafia].

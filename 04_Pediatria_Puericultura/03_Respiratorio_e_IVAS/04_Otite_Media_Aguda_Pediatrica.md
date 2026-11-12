@@ -37,7 +37,7 @@
 
 >> CONDUTA TERAPÊUTICA & ESCOLHA DO ANTIMICROBIANO:
 1. **Analgesia Sistêmica Otimizada (Obrigatória em 100% dos casos nas primeiras 48h):**
-   - Dipirona gotas (500 mg/mL) 0,8 a 1 gota/kg VO 6/6h e/ou Ibuprofeno gotas (100 mg/mL) 1 gota/kg VO 8/8h por 48 a 72 horas (o antibiótico leva 24–48h para reduzir a dor timpânica).
+   - Dipirona gotas (500 mg/mL) 0,8 a 1 gota/kg VO 6/6h e/ou Ibuprofeno gotas [Atenção à apresentação: se 100 mg/mL = 1 gota/kg; se 50 mg/mL = 2 gotas/kg] (100 mg/mL) 1 gota/kg VO 8/8h por 48 a 72 horas (o antibiótico leva 24–48h para reduzir a dor timpânica).
 2. **Antibioticoterapia Dirigida pelo Perfil de Risco (Peso Atual: [ ] kg):**
    - **[OPÇÃO 1 — Sem fatores de risco para resistência e sem conjuntivite]:**
      **Amoxicilina 50 mg/kg/dia VO** dividida de 8/8h (suspensão 250 mg/5 mL) ou 12/12h (suspensão 400 mg/5 mL).

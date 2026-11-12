@@ -3319,7 +3319,13 @@ html_page = (
 
 with open(html_path, 'w', encoding='utf-8') as fh:
     fh.write(html_page)
+# Protegendo a Workstation V2.0: atualiza apenas os snippets inline sem destruir o index.html moderno
 index_path = os.path.join(BASE_PROJECT, 'index.html')
-with open(index_path, 'w', encoding='utf-8') as fh:
-    fh.write(html_page)
+if os.path.exists(index_path):
+    with open(index_path, 'r', encoding='utf-8') as fh:
+        idx_code = fh.read()
+    import re
+    idx_code = re.sub(r'const allData = \[[\s\S]*?\];', f'const allData = {snippets_json_payload};', idx_code, count=1)
+    with open(index_path, 'w', encoding='utf-8') as fh:
+        fh.write(idx_code)
 print(f"Cockpit Web UI/UX High-End salvo com sucesso em {html_path} e {index_path}!")

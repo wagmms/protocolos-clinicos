@@ -119,7 +119,7 @@ SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
 
 ### 💊 2. Por Que Associamos Adrenalina Inalatória Pura + Dexametasona e Observamos por 3 a 4 Horas? (Racional Farmacológico)
 - **O casamento farmacocinético perfeito (Adrenalina = Ponte Rápida | Dexametasona = Efeito Sustentado):**
-  - A **Adrenalina 1:1.000 pura (`0,5 mL/kg`, máx `5 mL = 5 ampolas`)** estimula os receptores $lpha_1$-adrenérgicos das arteríolas da mucosa subglótica, causando vasoconstrição imediata e reabsorção do edema em **10 a 15 minutos**. Porém, sua meia-vida tópica dura apenas **90 a 120 minutos**!
+  - A **Adrenalina 1:1.000 pura (`0,5 mL/kg`, máx `5 mL = 5 ampolas`)** estimula os receptores $\alpha_1$-adrenérgicos das arteríolas da mucosa subglótica, causando vasoconstrição imediata e reabsorção do edema em **10 a 15 minutos**. Porém, sua meia-vida tópica dura apenas **90 a 120 minutos**!
   - A **Dexametasona (`0,15 a 0,6 mg/kg`, máx `10 mg`)** tem meia-vida biológica longa (`36 a 54 horas`) e inibe a síntese nuclear de citocinas inflamatórias, mas demora **2 a 4 horas** para iniciar seu efeito clínico máximo.
 - **Por que dar alta 30 minutos após a nebulização com Adrenalina é um erro grave ("Efeito Rebote"):** A criança que chegou com estridor em repouso, recebeu adrenalina e ficou ótima em 20 minutos parecerá "curada". Se for liberada para casa imediatamente, após 2 horas o efeito da adrenalina termina antes de a dexametasona fazer efeito completo, e o edema subglótico retorna no caminho para casa. Por isso, **toda criança que recebe nebulização com adrenalina exige 3 a 4 horas de observação no PS**.
 

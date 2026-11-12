@@ -53,7 +53,7 @@ USO ORAL:
    - Ácido Acetilsalicílico (AAS) [100 mg / 150 mg] ---------------------- 30 comprimidos
      Tomar 1 comprimido via oral à noite (ao deitar) até completar 36 semanas.
    - Carbonato de Cálcio 500 mg (1.250 mg) ----------------------------- 60 comprimidos
-     Tomar 1 comprimido via oral 2 vezes ao dia junto às refeições.
+     Tomar 1 comprimido via oral 2 vezes ao dia junto às refeições (longe do sulfato ferroso para não prejudicar a absorção de ferro).
 3. [Se Azia/Pirose] Hidróxido de Alumínio + Magnésio suspensão oral ---- 1 frasco
    Tomar 10 mL via oral 1 hora após as refeições e ao deitar, se azia (longe do sulfato ferroso).
 4. [Se Lombalgia/Dor] Paracetamol 500 mg ou Dipirona 500 mg ------------ 1 caixa
@@ -69,8 +69,7 @@ ORIENTAÇÕES DE SINAIS DE ALARME:
 
 ### 🧠 1. Por Que Examinamos Assim a Cada Retorno? (Semiologia Obstétrica Explicada)
 - **Por que a Altura Uterina (AU) equivale à IG entre 20 e 32 semanas?** Nesse intervalo, o crescimento uterino é linear (`~1 cm/semana`), guardando correlação direta com a idade gestacional (`± 2 a 3 cm`, entre os percentis 10 e 90 da curva).
-  - **AU abaixo do esperado para a IG:** Pensar em **Restrição de Crescimento Fetal (RCIU)**, **Oligoâmnio**, erro de datação ou óbito fetal $
-ightarrow$ solicitar USG Obstétrica com Doppler (artéria umbilical e cerebral média).
+  - **AU abaixo do esperado para a IG:** Pensar em **Restrição de Crescimento Fetal (RCIU)**, **Oligoâmnio**, erro de datação ou óbito fetal $\rightarrow$ solicitar USG Obstétrica com Doppler (artéria umbilical e cerebral média).
   - **AU acima do esperado para a IG:** Pensar em **Macrossomia (DMG descompensado)**, **Polidrâmnio**, **Gemelaridade** ou miomatose uterina.
 - **O Porquê de Cada Tempo das 4 Manobras de Leopold-Zweifel:**
   1. **1ª Manobra (Fundo Uterino):** Define a **Situação** (Longitudinal vs. Transversa) palpando qual polo ocupa o fundo (o polo pélvico é grande, irregular, macio e não rechaça; o cefálico é duro, liso e globoso).

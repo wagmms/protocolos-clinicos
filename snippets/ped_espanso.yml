@@ -6,7 +6,7 @@ matches:
       ###### ATENDIMENTO PEDIÁTRICO — FICHA MESTRA UNIVERSAL (TRIÂNGULO PEDIÁTRICO) ######
       # IDENTIFICAÇÃO & ANTROPOMETRIA OBRIGATÓRIA:
       - Criança: [Nome] | Sexo: [Masculino / Feminino] | Idade: [ ] anos e [ ] meses (DN: [DD/MM/AAAA])
-      - Acompanhante / Informante: [Mãe / Pai / Avó / Responsável legal:]
+      - Acompanhante / Informante: [Mãe / Pai / Avó / Responsável legal: [ ]]
       - **PESO ATUAL AFERIDO NA BALANÇA: [ ] kg** | Estatura: [ ] cm | PC (< 2 anos): [ ] cm
       
       # TRIÂNGULO DE AVALIAÇÃO PEDIÁTRICA (TEP — IMPRESSÃO VISUAL NOS PRIMEIROS 15 SEGUNDOS):
@@ -25,8 +25,8 @@ matches:
         * Hábito Intestinal: [Normal / Diarreia líquida ([ ] episódios/24h, sem sangue ou muco) / Constipação há [ ] dias].
       - Negativas Mandatórias de Alarme Pediátrico: Nega crises convulsivas, gemência contínua, cianose perioral, vômitos incoercíveis/biliosos, petéquias ou manchas arroxeadas que não somem à digitopressão, abaulamento de fontanela ou rigidez de nuca.
       - Antecedentes & Vacinação:
-        * Perinatal: Parto [Normal / Cesárea] com [ ] semanas, Peso ao nascer: [ ] g, [sem intercorrências neonatais / intercorrência:].
-        * Vacinação (Caderneta PNI): [Rigorasamente em dia para a idade / Atraso vacinal:] | Comorbidades: [Hígido(a) / Asma / Sibilância recorrente / APLV / Prematuridade /] | Alergias: [Nega alergias conhecidas / Alérgico(a) a:].
+        * Perinatal: Parto [Normal / Cesárea] com [ ] semanas, Peso ao nascer: [ ] g, [sem intercorrências neonatais / intercorrência: [ ]].
+        * Vacinação (Caderneta PNI): [Rigorasamente em dia para a idade / Atraso vacinal: [ ]] | Comorbidades: [Hígido(a) / Asma / Sibilância recorrente / APLV / Prematuridade / Outra: [ ]] | Alergias: [Nega alergias conhecidas / Alérgico(a) a: [ ]].
       
       # OBJETIVO (EXAME FÍSICO PEDIÁTRICO):
       - Sinais Vitais Ajustados para a Idade: FC: [ ] bpm | FR (contada em 1 minuto): [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C | Tempo de Enchimento Capilar (TEC): [< 2 segundos / segundos].
@@ -53,6 +53,28 @@ matches:
       1. Prescrição domiciliar calculada rigorosamente pelo peso atual aferido (**[ ] kg**).
       2. Lavagem nasal frequente com Soro Fisiológico 0,9% morno e oferta fracionada de líquidos/leite materno.
       3. Explicados e entregues por escrito os sinais de alarme para retorno imediato ao Pronto Atendimento Pediátrico (confirmado entendimento pelo método *Teach-Back*).
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO (DOSES CALCULADAS PELO PESO)
+      Paciente: [Nome] | Peso Aferido: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL E NASAL:
+      1. Dipirona Solução Oral Gotas (500 mg/mL — 1 gota ≈ 25 mg) -------------------- 1 frasco
+         Dar [ ] gotas (Dose: 15 a 25 mg/kg/dose = 0,6 a 1 gota/kg; máx 40 gotas/dose; contraindicada em < 3 meses ou < 5 kg) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor.
+      
+      2. [OU Alternativa — 1ª escolha se < 3 meses ou < 5 kg] Paracetamol Solução Oral Gotas (200 mg/mL — 1 gota ≈ 13 a 15 mg) --- 1 frasco
+         Dar [ ] gotas (Dose: 10 a 15 mg/kg/dose = 1 gota/kg; máx 35 a 50 gotas/dose) por via oral até de 6 em 6 horas se houver febre ou dor (Não alternar dois antitérmicos de rotina).
+      
+      3. Soro Fisiológico 0,9% (0,9% sem conservantes) ------------------------------- 1 frasco (250 mL ou 500 mL)
+         Realizar lavagem nasal com seringa de [3 mL / 5 mL / 10 mL] em cada narina, com a criança sentada, de 4 a 6 vezes ao dia (especialmente antes de mamar/comer e antes de dormir).
+      
+      ORIENTAÇÕES DE CUIDADO E SINAIS DE ALARME (RETORNO IMEDIATO):
+      - Oferecer líquidos frequentemente em pequenas quantidades (seio materno em livre demanda, água, água de coco ou soro de reidratação oral). Não forçar comida sólida se a criança estiver inapetente, mas manter a hidratação.
+      - NUNCA dar xaropes para tosse, descongestionantes nasais de adulto ou AAS (ácido acetilsalicílico) para crianças.
+      - RETORNAR IMEDIATAMENTE AO PRONTO-SOCORRO SE A CRIANÇA APRESENTAR:
+        1. Respiração rápida, cansada ou afundamento abaixo das costelas e no pescoço ao respirar (tiragem).
+        2. Prostração extrema, sonolência excessiva ou gemência contínua mesmo depois que a febre abaixar.
+        3. Manchas vermelhas ou roxas na pele que não desaparecem ao esticar a pele com o dedo (petéquias).
+        4. Vômitos repetidos que impeçam a criança de segurar água ou leite, ou ausência de xixi na fralda por mais de 6 a 8 horas.
 
   - trigger: ";ped-ficha-cnd"
     replace: |
@@ -66,18 +88,41 @@ matches:
       1. Prescrição domiciliar calculada rigorosamente pelo peso atual aferido (**[ ] kg**).
       2. Lavagem nasal frequente com Soro Fisiológico 0,9% morno e oferta fracionada de líquidos/leite materno.
       3. Explicados e entregues por escrito os sinais de alarme para retorno imediato ao Pronto Atendimento Pediátrico (confirmado entendimento pelo método *Teach-Back*).
-
-  - trigger: ";ped-ficha-rec"
-    replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO PEDIÁTRICO (DOSES CALCULADAS PELO PESO)
       Paciente: [Nome] | Peso Aferido: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
       
       USO ORAL E NASAL:
       1. Dipirona Solução Oral Gotas (500 mg/mL — 1 gota ≈ 25 mg) -------------------- 1 frasco
-         Dar [ ] gotas (Regra prática: 0,8 a 1 gota por kg de peso; máx 35–40 gotas/dose) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor.
+         Dar [ ] gotas (Dose: 15 a 25 mg/kg/dose = 0,6 a 1 gota/kg; máx 40 gotas/dose; contraindicada em < 3 meses ou < 5 kg) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor.
       
-      2. [OU Alternativa] Paracetamol Solução Oral Gotas (200 mg/mL) ---------------- 1 frasco
-         Dar [ ] gotas (Regra prática: 1 gota por kg de peso; máx 35 gotas/dose) por via oral até de 6 em 6 horas se houver febre ou dor (Não alternar dois antitérmicos de rotina).
+      2. [OU Alternativa — 1ª escolha se < 3 meses ou < 5 kg] Paracetamol Solução Oral Gotas (200 mg/mL — 1 gota ≈ 13 a 15 mg) --- 1 frasco
+         Dar [ ] gotas (Dose: 10 a 15 mg/kg/dose = 1 gota/kg; máx 35 a 50 gotas/dose) por via oral até de 6 em 6 horas se houver febre ou dor (Não alternar dois antitérmicos de rotina).
+      
+      3. Soro Fisiológico 0,9% (0,9% sem conservantes) ------------------------------- 1 frasco (250 mL ou 500 mL)
+         Realizar lavagem nasal com seringa de [3 mL / 5 mL / 10 mL] em cada narina, com a criança sentada, de 4 a 6 vezes ao dia (especialmente antes de mamar/comer e antes de dormir).
+      
+      ORIENTAÇÕES DE CUIDADO E SINAIS DE ALARME (RETORNO IMEDIATO):
+      - Oferecer líquidos frequentemente em pequenas quantidades (seio materno em livre demanda, água, água de coco ou soro de reidratação oral). Não forçar comida sólida se a criança estiver inapetente, mas manter a hidratação.
+      - NUNCA dar xaropes para tosse, descongestionantes nasais de adulto ou AAS (ácido acetilsalicílico) para crianças.
+      - RETORNAR IMEDIATAMENTE AO PRONTO-SOCORRO SE A CRIANÇA APRESENTAR:
+        1. Respiração rápida, cansada ou afundamento abaixo das costelas e no pescoço ao respirar (tiragem).
+        2. Prostração extrema, sonolência excessiva ou gemência contínua mesmo depois que a febre abaixar.
+        3. Manchas vermelhas ou roxas na pele que não desaparecem ao esticar a pele com o dedo (petéquias).
+        4. Vômitos repetidos que impeçam a criança de segurar água ou leite, ou ausência de xixi na fralda por mais de 6 a 8 horas.
+
+  - trigger: ";ped-ficha-rec"
+    replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO (DOSES CALCULADAS PELO PESO)
+      Paciente: [Nome] | Peso Aferido: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL E NASAL:
+      1. Dipirona Solução Oral Gotas (500 mg/mL — 1 gota ≈ 25 mg) -------------------- 1 frasco
+         Dar [ ] gotas (Dose: 15 a 25 mg/kg/dose = 0,6 a 1 gota/kg; máx 40 gotas/dose; contraindicada em < 3 meses ou < 5 kg) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor.
+      
+      2. [OU Alternativa — 1ª escolha se < 3 meses ou < 5 kg] Paracetamol Solução Oral Gotas (200 mg/mL — 1 gota ≈ 13 a 15 mg) --- 1 frasco
+         Dar [ ] gotas (Dose: 10 a 15 mg/kg/dose = 1 gota/kg; máx 35 a 50 gotas/dose) por via oral até de 6 em 6 horas se houver febre ou dor (Não alternar dois antitérmicos de rotina).
       
       3. Soro Fisiológico 0,9% (0,9% sem conservantes) ------------------------------- 1 frasco (250 mL ou 500 mL)
          Realizar lavagem nasal com seringa de [3 mL / 5 mL / 10 mL] em cada narina, com a criança sentada, de 4 a 6 vezes ao dia (especialmente antes de mamar/comer e antes de dormir).
@@ -97,7 +142,7 @@ matches:
       # IDENTIFICAÇÃO & CRONOLOGIA:
       - Criança: [Nome] | Sexo: [Masculino / Feminino] | DN: [DD/MM/AAAA]
       - Idade Cronológica: [ ] meses e [ ] dias ([Nascido a termo / Prematuro de [ ] semanas -> Idade Corrigida: [ ] meses])
-      - Acompanhante: [Mãe / Pai / Ambos os pais / Cuidador(a):]
+      - Acompanhante: [Mãe / Pai / Ambos os pais / Cuidador(a): [ ]]
       
       # SUBJETIVO (ANAMNESE DE PUERICULTURA, NUTRIÇÃO & ROTINA):
       - Intercorrências desde a última consulta: [Assintomático(a), em excelente evolução / Apresentou quadro leve de].
@@ -117,7 +162,7 @@ matches:
         * IMC para a Idade: **[ ] kg/m²** -> Classificação: [Eutrofia (Z entre -2 e +1) / Risco de sobrepeso (Z > +1) / Sobrepeso (Z > +2)].
       - Triagens Neonatais & Caderneta de Vacinação (PNI):
         * Triagens: Pezinho: [Normal] | Olhinho (Reflexo Vermelho): [Presente e simétrico] | Orelhinha (EOA): [Passou bilateralmente] | Coraçãozinho: [Normal] | Linguinha: [Normal].
-        * Situação Vacinal: [Completa e rigorosamente em dia para a idade / Vacinas pendentes encaminhadas hoje:].
+        * Situação Vacinal: [Completa e rigorosamente em dia para a idade / Vacinas pendentes encaminhadas hoje: [ ]].
       - Exame FÍSICO Segmentar Completo:
         * Ectoscopia: BEG, ativo, reativo, corado, hidratado, anictérico, acianótico. Fontanela anterior [plana e normotensa / fechada fisiologicamente].
         * Cardiopulmonar: RCR em 2T, BNF sem sopros, pulsos femorais palpáveis e simétricos; MV presente bilateralmente sem ruídos adventícios.
@@ -126,7 +171,7 @@ matches:
         * Motricidade Grossa: [Adequado para a idade: sustenta cabeça (2–4m) / senta sem apoio (6–9m) / anda (12–15m) / corre (18–24m)].
         * Motricidade Fina: [Adequado para a idade: abre as mãos e pega objetos (4m) / transfere objetos (6m) / pinça polegar-indicador (9–12m) / rabisca e empilha blocos (18–24m)].
         * Linguagem e Comunicação: [Adequado para a idade: vocaliza e sorri (2–4m) / balbucia sílabas (6–9m) / primeiras palavras com sentido (12m) / junta 2 palavras (18–24m)].
-        * Pessoal-Social (Sinais de Alerta TEA / M-CHAT): [Contato visual sustentado, sorriso social recíproco, atende pelo nome e compartilha atenção apontando / Alerta identificado:].
+        * Pessoal-Social (Sinais de Alerta TEA / M-CHAT): [Contato visual sustentado, sorriso social recíproco, atende pelo nome e compartilha atenção apontando / Alerta identificado: [ ]].
       
       # AVALIAÇÃO DE PUERICULTURA:
       1. Criança [eutrófica com velocidade de crescimento e desenvolvimento neuropsicomotor adequados para a idade (CID-10: Z00.1) / com alerta nutricional ou de desenvolvimento em acompanhamento].
@@ -138,24 +183,10 @@ matches:
       1. Manter [Aleitamento Materno Exclusivo em livre demanda até o 6º mês / Aleitamento materno + alimentação complementar saudável in natura].
       2. Suplementação Profilática (SBP / Ministério da Saúde):
          - Vitamina D3 (Colecalciferol): [400 UI/dia VO (< 12 meses) / 600 UI/dia VO (12 a 24 meses)].
-         - Ferro Elementar Profilático: [Ainda não iniciado (< 6m a termo em AME) / Iniciar ou manter 1 mg/kg/dia VO de ferro elementar (termo ≥ 6m) / 2 mg/kg/dia VO desde 30 dias de vida (prematuro ou baixo peso < 2.500 g)].
+         - Ferro Elementar Profilático (SBP): [Ainda não iniciado (< 3–6m a termo sem fatores de risco) / Iniciar ou manter 1 mg/kg/dia VO a partir dos 6 meses (termo sem fatores de risco) / Iniciar 1 mg/kg/dia VO aos 3 meses (termo com fator de risco) / 2 a 4 mg/kg/dia VO desde 30 dias de vida (prematuro ou baixo peso < 2.500 g)].
       3. Prevenção de Acidentes Domésticos e Sono Seguro: Orientados decúbito dorsal estrito no berço, transporte veicular no bebê-conforto/cadeirinha de costas para o painel, prevenção de quedas de trocador/cama, queimaduras, afogamentos e engasgos (proibição de grãos inteiros e peças pequenas).
       4. Agendado retorno de Puericultura para [ ] meses de idade (Cronograma MS: 1ª sem, 1m, 2m, 4m, 6m, 9m, 12m, 18m e 24m).
-
-  - trigger: ";puericultura-cnd"
-    replace: |
-      # PLANO / CONDUTA:
-      
-      >> CONDUTA DE PUERICULTURA & PREVENÇÃO DE ACIDENTES:
-      1. Manter [Aleitamento Materno Exclusivo em livre demanda até o 6º mês / Aleitamento materno + alimentação complementar saudável in natura].
-      2. Suplementação Profilática (SBP / Ministério da Saúde):
-         - Vitamina D3 (Colecalciferol): [400 UI/dia VO (< 12 meses) / 600 UI/dia VO (12 a 24 meses)].
-         - Ferro Elementar Profilático: [Ainda não iniciado (< 6m a termo em AME) / Iniciar ou manter 1 mg/kg/dia VO de ferro elementar (termo ≥ 6m) / 2 mg/kg/dia VO desde 30 dias de vida (prematuro ou baixo peso < 2.500 g)].
-      3. Prevenção de Acidentes Domésticos e Sono Seguro: Orientados decúbito dorsal estrito no berço, transporte veicular no bebê-conforto/cadeirinha de costas para o painel, prevenção de quedas de trocador/cama, queimaduras, afogamentos e engasgos (proibição de grãos inteiros e peças pequenas).
-      4. Agendado retorno de Puericultura para [ ] meses de idade (Cronograma MS: 1ª sem, 1m, 2m, 4m, 6m, 9m, 12m, 18m e 24m).
-
-  - trigger: ";puericultura-rec"
-    replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO DE PUERICULTURA — SUPLEMENTAÇÃO PROFILÁTICA (SBP)
       Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
       
@@ -165,7 +196,60 @@ matches:
       
       2. Sulfato Ferroso (ou Ferro Polimaltosado / Quelato) Solução Gotas ------------ 1 frasco
          (Concentração padrão: 25 mg de Ferro Elementar/mL ≈ 1 mg de Ferro Elementar por gota)
-         Dar [ ] gotas (Dose: [1 mg/kg/dia para nascidos a termo a partir dos 6 meses / 2 mg/kg/dia para prematuros ou baixo peso < 2.500 g a partir de 30 dias de vida]) por via oral, 1 vez ao dia, 30 minutos antes do almoço (preferencialmente junto com fruta cítrica rica em vitamina C, longe do leite), até os 24 meses.
+         Dar [ ] gotas (Dose SBP: [1 mg/kg/dia a partir dos 6 meses (termo sem risco) / 1 mg/kg/dia a partir dos 3 meses (termo com fator de risco) / 2 mg/kg/dia a partir de 30 dias (prematuro ou peso 1.500–2.499 g) / 3 a 4 mg/kg/dia a partir de 30 dias (< 1.500 g)]) por via oral, 1 vez ao dia, 30 minutos antes do almoço (preferencialmente junto com fruta cítrica rica em vitamina C, longe do leite), até os 24 meses.
+      
+      3. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+         Para higiene nasal com seringa de 3 a 5 mL em cada narina antes das mamadas e antes de dormir se houver congestão nasal.
+      
+      ORIENTAÇÕES NUTRICIONAIS E DE SEGURANÇA (SBP / MINISTÉRIO DA SAÚDE):
+      - Zero açúcar, zero mel (risco de botulismo intestinal em < 1 ano), zero sucos (mesmo naturais) no 1º ano de vida e zero alimentos ultraprocessados (biscoitos, iogurtes açucarados, embutidos) nos primeiros 2 anos.
+      - Posição de Sono Seguro: Sempre de barriga para cima (decúbito dorsal), em colchão firme, sem travesseiros fofos, protetores de berço ou cobertores soltos.
+      - Zero exposição a telas (celular, tablet, televisão) antes dos 2 anos de idade.
+
+  - trigger: ";puericultura-cnd"
+    replace: |
+      # PLANO / CONDUTA:
+      
+      >> CONDUTA DE PUERICULTURA & PREVENÇÃO DE ACIDENTES:
+      1. Manter [Aleitamento Materno Exclusivo em livre demanda até o 6º mês / Aleitamento materno + alimentação complementar saudável in natura].
+      2. Suplementação Profilática (SBP / Ministério da Saúde):
+         - Vitamina D3 (Colecalciferol): [400 UI/dia VO (< 12 meses) / 600 UI/dia VO (12 a 24 meses)].
+         - Ferro Elementar Profilático (SBP): [Ainda não iniciado (< 3–6m a termo sem fatores de risco) / Iniciar ou manter 1 mg/kg/dia VO a partir dos 6 meses (termo sem fatores de risco) / Iniciar 1 mg/kg/dia VO aos 3 meses (termo com fator de risco) / 2 a 4 mg/kg/dia VO desde 30 dias de vida (prematuro ou baixo peso < 2.500 g)].
+      3. Prevenção de Acidentes Domésticos e Sono Seguro: Orientados decúbito dorsal estrito no berço, transporte veicular no bebê-conforto/cadeirinha de costas para o painel, prevenção de quedas de trocador/cama, queimaduras, afogamentos e engasgos (proibição de grãos inteiros e peças pequenas).
+      4. Agendado retorno de Puericultura para [ ] meses de idade (Cronograma MS: 1ª sem, 1m, 2m, 4m, 6m, 9m, 12m, 18m e 24m).
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO DE PUERICULTURA — SUPLEMENTAÇÃO PROFILÁTICA (SBP)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
+      
+      USO ORAL DIÁRIO:
+      1. Colecalciferol (Vitamina D3) Gotas (200 UI por gota) ------------------------ 1 frasco
+         Dar [2 gotas (= 400 UI/dia para menores de 1 ano) / 3 gotas (= 600 UI/dia de 1 a 2 anos)] por via oral, 1 vez ao dia, todos os dias, até completar 24 meses de idade.
+      
+      2. Sulfato Ferroso (ou Ferro Polimaltosado / Quelato) Solução Gotas ------------ 1 frasco
+         (Concentração padrão: 25 mg de Ferro Elementar/mL ≈ 1 mg de Ferro Elementar por gota)
+         Dar [ ] gotas (Dose SBP: [1 mg/kg/dia a partir dos 6 meses (termo sem risco) / 1 mg/kg/dia a partir dos 3 meses (termo com fator de risco) / 2 mg/kg/dia a partir de 30 dias (prematuro ou peso 1.500–2.499 g) / 3 a 4 mg/kg/dia a partir de 30 dias (< 1.500 g)]) por via oral, 1 vez ao dia, 30 minutos antes do almoço (preferencialmente junto com fruta cítrica rica em vitamina C, longe do leite), até os 24 meses.
+      
+      3. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+         Para higiene nasal com seringa de 3 a 5 mL em cada narina antes das mamadas e antes de dormir se houver congestão nasal.
+      
+      ORIENTAÇÕES NUTRICIONAIS E DE SEGURANÇA (SBP / MINISTÉRIO DA SAÚDE):
+      - Zero açúcar, zero mel (risco de botulismo intestinal em < 1 ano), zero sucos (mesmo naturais) no 1º ano de vida e zero alimentos ultraprocessados (biscoitos, iogurtes açucarados, embutidos) nos primeiros 2 anos.
+      - Posição de Sono Seguro: Sempre de barriga para cima (decúbito dorsal), em colchão firme, sem travesseiros fofos, protetores de berço ou cobertores soltos.
+      - Zero exposição a telas (celular, tablet, televisão) antes dos 2 anos de idade.
+
+  - trigger: ";puericultura-rec"
+    replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO DE PUERICULTURA — SUPLEMENTAÇÃO PROFILÁTICA (SBP)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
+      
+      USO ORAL DIÁRIO:
+      1. Colecalciferol (Vitamina D3) Gotas (200 UI por gota) ------------------------ 1 frasco
+         Dar [2 gotas (= 400 UI/dia para menores de 1 ano) / 3 gotas (= 600 UI/dia de 1 a 2 anos)] por via oral, 1 vez ao dia, todos os dias, até completar 24 meses de idade.
+      
+      2. Sulfato Ferroso (ou Ferro Polimaltosado / Quelato) Solução Gotas ------------ 1 frasco
+         (Concentração padrão: 25 mg de Ferro Elementar/mL ≈ 1 mg de Ferro Elementar por gota)
+         Dar [ ] gotas (Dose SBP: [1 mg/kg/dia a partir dos 6 meses (termo sem risco) / 1 mg/kg/dia a partir dos 3 meses (termo com fator de risco) / 2 mg/kg/dia a partir de 30 dias (prematuro ou peso 1.500–2.499 g) / 3 a 4 mg/kg/dia a partir de 30 dias (< 1.500 g)]) por via oral, 1 vez ao dia, 30 minutos antes do almoço (preferencialmente junto com fruta cítrica rica em vitamina C, longe do leite), até os 24 meses.
       
       3. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
          Para higiene nasal com seringa de 3 a 5 mL em cada narina antes das mamadas e antes de dormir se houver congestão nasal.
@@ -180,7 +264,7 @@ matches:
       ###### ATENDIMENTO PEDIÁTRICO — RESFRIADO COMUM / RINOFARINGITE AGUDA ######
       # IDENTIFICAÇÃO & PESO:
       - Paciente: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | **PESO ATUAL: [ ] kg**
-      - Acompanhante: [Mãe / Pai / Responsável:]
+      - Acompanhante: [Mãe / Pai / Responsável: [ ]]
       
       # SUBJETIVO (ANAMNESE DIRIGIDA & EXCLUSÃO DE GRAVIDADE):
       - Queixa Principal (QP): Coriza, obstrução nasal e tosse há [ ] dias.
@@ -213,6 +297,30 @@ matches:
       3. Hidratação oral abundante e fracionamento das mamadas/refeições.
       4. Proscrição formal e explicação aos pais sobre a proibição de antibióticos, xaropes antitussígenos/mucolíticos e descongestionantes nasais tópicos ou sistêmicos.
       5. Orientados sinais de alarme para retorno imediato (taquipneia, tiragem subcostal, febre > 72h, otalgia ou prostração sem febre).
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — RESFRIADO COMUM / IVAS
+      Paciente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO NASAL E ORAL:
+      1. Soro Fisiológico 0,9% (em temperatura ambiente/morna) ----------------------- 1 frasco (500 mL)
+         Realizar lavagem nasal com seringa de [3 mL (< 1 ano) / 5 a 10 mL (1 a 3 anos) / 10 a 20 mL (> 4 anos)] em cada narina, com a criança SEMPRE sentada e cabecinha levemente inclinada para frente, de 5 a 6 vezes ao dia (obrigatoriamente antes das mamadas/refeições e antes de dormir).
+      
+      2. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar [ ] gotas (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas APENAS se houver febre (Tax ≥ 37,8 °C) com desconforto ou dor.
+      
+      3. [Se Criança > 1 ano de idade com tosse noturna irritativa]:
+         Mel de abelhas puro --------------------------------------------------------- Uso oral
+         Oferecer meia a 1 colher de chá (2,5 a 5 mL) de mel puro 30 minutos antes de dormir (Atenção: ESTRITAMENTE PROIBIDO para menores de 1 ano de idade pelo risco de botulismo).
+      
+      MEDICAMENTOS PROIBIDOS NA INFÂNCIA (NÃO UTILIZAR):
+      - NÃO usar xaropes para tosse, mucolíticos ou antigripais com descongestionantes (risco de intoxicação grave, taquicardia e sonolência).
+      - NÃO pingar descongestionantes nasais de adulto no nariz da criança (risco de queda de pressão, bradicardia e coma).
+      - NÃO usar antibiótico: o catarro ficar amarelado ou esverdeado a partir do 3º dia faz parte da evolução normal do resfriado viral e NÃO significa sinusite bacteriana.
+      
+      SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+      - Respiração rápida, cansada ou afundamento das costelas ao respirar.
+      - Febre que dure mais de 3 dias seguidos (72 horas) ou febre que volte a subir depois de já ter ficado 24 horas sem febre.
+      - Dor de ouvido intensa, saída de pus pelo ouvido ou prostração contínua mesmo sem febre.
 
   - trigger: ";ped-resfriado-cnd"
     replace: |
@@ -224,9 +332,34 @@ matches:
       3. Hidratação oral abundante e fracionamento das mamadas/refeições.
       4. Proscrição formal e explicação aos pais sobre a proibição de antibióticos, xaropes antitussígenos/mucolíticos e descongestionantes nasais tópicos ou sistêmicos.
       5. Orientados sinais de alarme para retorno imediato (taquipneia, tiragem subcostal, febre > 72h, otalgia ou prostração sem febre).
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — RESFRIADO COMUM / IVAS
+      Paciente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO NASAL E ORAL:
+      1. Soro Fisiológico 0,9% (em temperatura ambiente/morna) ----------------------- 1 frasco (500 mL)
+         Realizar lavagem nasal com seringa de [3 mL (< 1 ano) / 5 a 10 mL (1 a 3 anos) / 10 a 20 mL (> 4 anos)] em cada narina, com a criança SEMPRE sentada e cabecinha levemente inclinada para frente, de 5 a 6 vezes ao dia (obrigatoriamente antes das mamadas/refeições e antes de dormir).
+      
+      2. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar [ ] gotas (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas APENAS se houver febre (Tax ≥ 37,8 °C) com desconforto ou dor.
+      
+      3. [Se Criança > 1 ano de idade com tosse noturna irritativa]:
+         Mel de abelhas puro --------------------------------------------------------- Uso oral
+         Oferecer meia a 1 colher de chá (2,5 a 5 mL) de mel puro 30 minutos antes de dormir (Atenção: ESTRITAMENTE PROIBIDO para menores de 1 ano de idade pelo risco de botulismo).
+      
+      MEDICAMENTOS PROIBIDOS NA INFÂNCIA (NÃO UTILIZAR):
+      - NÃO usar xaropes para tosse, mucolíticos ou antigripais com descongestionantes (risco de intoxicação grave, taquicardia e sonolência).
+      - NÃO pingar descongestionantes nasais de adulto no nariz da criança (risco de queda de pressão, bradicardia e coma).
+      - NÃO usar antibiótico: o catarro ficar amarelado ou esverdeado a partir do 3º dia faz parte da evolução normal do resfriado viral e NÃO significa sinusite bacteriana.
+      
+      SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+      - Respiração rápida, cansada ou afundamento das costelas ao respirar.
+      - Febre que dure mais de 3 dias seguidos (72 horas) ou febre que volte a subir depois de já ter ficado 24 horas sem febre.
+      - Dor de ouvido intensa, saída de pus pelo ouvido ou prostração contínua mesmo sem febre.
 
   - trigger: ";ped-resfriado-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO PEDIÁTRICO — RESFRIADO COMUM / IVAS
       Paciente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
       
@@ -256,7 +389,7 @@ matches:
       ###### ATENDIMENTO PEDIÁTRICO — BRONQUIOLITE VIRAL AGUDA (BVA NO LACTENTE < 2 ANOS) ######
       # IDENTIFICAÇÃO & FATORES DE RISCO DE GRAVIDADE:
       - Lactente: [Nome] | Idade: [ ] meses (Faixa clássica < 24 meses; pico 2 a 6 meses) | **PESO ATUAL: [ ] kg**
-      - Acompanhante: [Mãe / Pai / Responsável:]
+      - Acompanhante: [Mãe / Pai / Responsável: [ ]]
       - Fatores de Risco para BVA Grave: [Nenhum — lactente a termo hígido > 3 meses / Idade < 12 semanas (< 3 meses) / Prematuridade (< 37 semanas) / Cardiopatia congênita hemodinamicamente significativa / Broncodisplasia pulmonar / Imunodeficiência].
       
       # SUBJETIVO (HISTÓRIA CLÍNICA & FASE EVOLUTIVA DA DOENÇA):
@@ -298,10 +431,32 @@ matches:
       2. Suporte Hídrico e Nutricional Seguro (Prevenção de Broncoaspiração):
          - Se `FR < 60 irpm`: Manter via oral fracionada após lavagem nasal.
          - Se `FR entre 60 e 70 irpm`: Passar **Sonda Nasogástrica (SNG)** para dieta enteral fracionada (leite materno ordenhado/fórmula).
-         - Se `FR > 70 irpm`, desconforto grave ou vômitos: **Dieta zero (Jejum)** + Hidratação Venosa Isotônica (`SF 0,9% + SG 5%` na proporção 1:1 = Na ~77 mEq/L, a 70–80% da cota de Holliday-Segar pelo risco de SIADH).
+         - Se `FR > 70 irpm`, desconforto grave ou vômitos: **Dieta zero (Jejum)** + Hidratação Venosa de Manutenção **Isotônica** (`SG 5% 500 mL + NaCl 20% 10 a 11 mL + KCl 19,1% 4 a 5 mL` = `[Na+] ~140 mEq/L`, restrita a **70–80% da cota de Holliday-Segar** pelo risco de SIADH e hiponatremia).
       3. Higiene de Vias Aéreas: Lavagem nasal com SF 0,9% e aspiração nasal superficial suave antes das dietas e se desconforto (Evitar fisioterapia respiratória convencional de tapotagem).
       4. Nebulização com Salina Hipertônica 3% (apenas para pacientes internados): `4 mL de NaCl 3%` por nebulização de 8/8h se hipersecreção importante.
       5. Monitorização contínua (oximetria, FC, FR) e precaução de contato e gotículas no leito.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — BRONQUIOLITE VIRAL AGUDA LEVE (MANEJO DOMICILIAR)
+      Lactente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
+      
+      USO NASAL E ORAL:
+      1. Soro Fisiológico 0,9% (Morno / Temperatura Ambiente) ------------------------ 1 frasco (500 mL)
+         Lavar ambas as narinas com seringa de [3 a 5] mL em cada narina, com o bebê sentado no colo, OBRIGATORIAMENTE antes de todas as mamadas e antes de dormir (o bebê pequeno respira quase só pelo nariz; desentupir o nariz reduz metade do cansaço para mamar).
+      
+      2. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+         Dar [ ] gotas por via oral até de 6 em 6 horas APENAS se houver febre (≥ 37,8 °C) ou irritabilidade por dor.
+      
+      CUIDADOS ESSENCIAIS EM CASA & POR QUE NÃO USAR CORTICOIDE/ANTIBIÓTICO:
+      - Mamadas Fracionadas: Ofereça o peito ou a mamadeira por menos tempo e mais vezes ao dia, permitindo que o bebê descanse e respire entre as sugadas.
+      - Cabeceira Elevada: Coloque um calço firme embaixo dos pés da cabeceira do berço (inclinação de 20 a 30°).
+      - Esclarecimento Importante: Na bronquiolite, o "chiado" é causado por catarro e inchaço viral nos bronquíolos finos, e não por falta de antibiótico ou crise de asma. Por isso, corticoides (Prednisolona), antibióticos (Amoxicilina) e xaropes NÃO ajudam e podem fazer mal ao bebê.
+      - Atenção ao 3º a 5º dia: O pico de cansaço da bronquiolite costuma acontecer entre o 3º e o 5º dia do início do quadro.
+      
+      SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+      1. Afundamento visível da barriga abaixo das costelas ou na furculinha do pescoço a cada respiração (tiragem).
+      2. Respiração muito rápida (mais de 60 respirações por minuto contadas com o bebê calmo) ou gemido constante.
+      3. Bebê que não consegue mamar (aceitando menos da metade do normal) ou que fica sem molhar a fralda por mais de 6 horas.
+      4. Qualquer pausa na respiração (apneia), lábios arroxeados ou bebê muito molinho/difícil de acordar.
 
   - trigger: ";bva-cnd"
     replace: |
@@ -319,13 +474,36 @@ matches:
       2. Suporte Hídrico e Nutricional Seguro (Prevenção de Broncoaspiração):
          - Se `FR < 60 irpm`: Manter via oral fracionada após lavagem nasal.
          - Se `FR entre 60 e 70 irpm`: Passar **Sonda Nasogástrica (SNG)** para dieta enteral fracionada (leite materno ordenhado/fórmula).
-         - Se `FR > 70 irpm`, desconforto grave ou vômitos: **Dieta zero (Jejum)** + Hidratação Venosa Isotônica (`SF 0,9% + SG 5%` na proporção 1:1 = Na ~77 mEq/L, a 70–80% da cota de Holliday-Segar pelo risco de SIADH).
+         - Se `FR > 70 irpm`, desconforto grave ou vômitos: **Dieta zero (Jejum)** + Hidratação Venosa de Manutenção **Isotônica** (`SG 5% 500 mL + NaCl 20% 10 a 11 mL + KCl 19,1% 4 a 5 mL` = `[Na+] ~140 mEq/L`, restrita a **70–80% da cota de Holliday-Segar** pelo risco de SIADH e hiponatremia).
       3. Higiene de Vias Aéreas: Lavagem nasal com SF 0,9% e aspiração nasal superficial suave antes das dietas e se desconforto (Evitar fisioterapia respiratória convencional de tapotagem).
       4. Nebulização com Salina Hipertônica 3% (apenas para pacientes internados): `4 mL de NaCl 3%` por nebulização de 8/8h se hipersecreção importante.
       5. Monitorização contínua (oximetria, FC, FR) e precaução de contato e gotículas no leito.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — BRONQUIOLITE VIRAL AGUDA LEVE (MANEJO DOMICILIAR)
+      Lactente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
+      
+      USO NASAL E ORAL:
+      1. Soro Fisiológico 0,9% (Morno / Temperatura Ambiente) ------------------------ 1 frasco (500 mL)
+         Lavar ambas as narinas com seringa de [3 a 5] mL em cada narina, com o bebê sentado no colo, OBRIGATORIAMENTE antes de todas as mamadas e antes de dormir (o bebê pequeno respira quase só pelo nariz; desentupir o nariz reduz metade do cansaço para mamar).
+      
+      2. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+         Dar [ ] gotas por via oral até de 6 em 6 horas APENAS se houver febre (≥ 37,8 °C) ou irritabilidade por dor.
+      
+      CUIDADOS ESSENCIAIS EM CASA & POR QUE NÃO USAR CORTICOIDE/ANTIBIÓTICO:
+      - Mamadas Fracionadas: Ofereça o peito ou a mamadeira por menos tempo e mais vezes ao dia, permitindo que o bebê descanse e respire entre as sugadas.
+      - Cabeceira Elevada: Coloque um calço firme embaixo dos pés da cabeceira do berço (inclinação de 20 a 30°).
+      - Esclarecimento Importante: Na bronquiolite, o "chiado" é causado por catarro e inchaço viral nos bronquíolos finos, e não por falta de antibiótico ou crise de asma. Por isso, corticoides (Prednisolona), antibióticos (Amoxicilina) e xaropes NÃO ajudam e podem fazer mal ao bebê.
+      - Atenção ao 3º a 5º dia: O pico de cansaço da bronquiolite costuma acontecer entre o 3º e o 5º dia do início do quadro.
+      
+      SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+      1. Afundamento visível da barriga abaixo das costelas ou na furculinha do pescoço a cada respiração (tiragem).
+      2. Respiração muito rápida (mais de 60 respirações por minuto contadas com o bebê calmo) ou gemido constante.
+      3. Bebê que não consegue mamar (aceitando menos da metade do normal) ou que fica sem molhar a fralda por mais de 6 horas.
+      4. Qualquer pausa na respiração (apneia), lábios arroxeados ou bebê muito molinho/difícil de acordar.
 
   - trigger: ";bva-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO PEDIÁTRICO — BRONQUIOLITE VIRAL AGUDA LEVE (MANEJO DOMICILIAR)
       Lactente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
       
@@ -353,7 +531,7 @@ matches:
       ###### ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA — CRUPE VIRAL (LARINGOTRAQUEOBRONQUITE) ######
       # IDENTIFICAÇÃO & PESO:
       - Criança: [Nome] | Idade: [ ] [meses / anos] (Faixa típica: 6 meses a 3 anos) | **PESO ATUAL: [ ] kg**
-      - Acompanhante: [Mãe / Pai / Responsável:]
+      - Acompanhante: [Mãe / Pai / Responsável: [ ]]
       
       # SUBJETIVO (ANAMNESE DIRIGIDA & EXCLUSÃO DE EPIGLOTITE / CORPO ESTRANHO):
       - Queixa Principal (QP): Tosse rouca ("tosse de cachorro/foca") e barulho agudo para puxar o ar iniciados à noite há [ ] horas.
@@ -395,6 +573,30 @@ matches:
       3. **Observação Clínica Obrigatória por 3 a 4 Horas Pós-Adrenalina (Prevenção do Efeito Rebote):**
          - Manter em sala de observação pediátrica por no mínimo **3 a 4 horas** após o término da nebulização com adrenalina.
          - Reavaliação pós-observação às [HH:MM]: [Criança eupneica, sem estridor em repouso, sem tiragens e SpO2 ≥ 95% em AA -> Alta segura / Recorrência do estridor em repouso -> Repetir nebulização com adrenalina e internar].
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — ALTA DE LARINGITE / CRUPE VIRAL
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      NOTA DE MEDICAÇÃO JÁ REALIZADA NO PRONTO ATENDIMENTO:
+      - A criança já recebeu na unidade a dose única anti-inflamatória de **Dexametasona ([ ] mg)**, que possui ação prolongada por 48 a 72 horas para desinchar a laringe (não sendo necessário repetir corticoide em casa, salvo nova prescrição médica).
+      
+      USO ORAL E NASAL DOMICILIAR:
+      1. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+         Dar [ ] gotas por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor de garganta.
+      
+      2. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+         Lavar as narinas com seringa de 3 a 5 mL suavemente se houver secreção nasal, sem forçar caso a criança chore muito.
+      
+      ORIENTAÇÕES AOS PAIS PARA ALÍVIO DA TOSSE ROUCA À NOITE:
+      - Manter a Criança Calma: O choro aumenta o turbilhonamento do ar na garganta e piora o barulho (estridor). Acolha a criança no colo em posição sentada.
+      - Ar Fresco ou Vapor Úmido: Em caso de crise de tosse "de cachorro" à noite, sente-se com a criança no banheiro com o chuveiro morno ligado formando vapor por 10 a 15 minutos, ou leve-a próxima à janela para respirar ar fresco noturno.
+      - Hidratação: Oferecer líquidos frios ou em temperatura ambiente em pequenos goles.
+      
+      SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+      1. Barulho agudo para puxar o ar (estridor) presente mesmo quando a criança está CALMA, quieta no colo ou dormindo.
+      2. Afundamento na furculinha do pescoço ou abaixo das costelas para respirar.
+      3. Criança babando sem conseguir engolir a própria saliva (sialorreia) ou pescoço esticado para frente.
+      4. Agitação intensa, sonolência anormal ou cor arroxeada ao redor da boca.
 
   - trigger: ";crupe-cnd"
     replace: |
@@ -414,9 +616,34 @@ matches:
       3. **Observação Clínica Obrigatória por 3 a 4 Horas Pós-Adrenalina (Prevenção do Efeito Rebote):**
          - Manter em sala de observação pediátrica por no mínimo **3 a 4 horas** após o término da nebulização com adrenalina.
          - Reavaliação pós-observação às [HH:MM]: [Criança eupneica, sem estridor em repouso, sem tiragens e SpO2 ≥ 95% em AA -> Alta segura / Recorrência do estridor em repouso -> Repetir nebulização com adrenalina e internar].
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — ALTA DE LARINGITE / CRUPE VIRAL
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      NOTA DE MEDICAÇÃO JÁ REALIZADA NO PRONTO ATENDIMENTO:
+      - A criança já recebeu na unidade a dose única anti-inflamatória de **Dexametasona ([ ] mg)**, que possui ação prolongada por 48 a 72 horas para desinchar a laringe (não sendo necessário repetir corticoide em casa, salvo nova prescrição médica).
+      
+      USO ORAL E NASAL DOMICILIAR:
+      1. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+         Dar [ ] gotas por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor de garganta.
+      
+      2. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+         Lavar as narinas com seringa de 3 a 5 mL suavemente se houver secreção nasal, sem forçar caso a criança chore muito.
+      
+      ORIENTAÇÕES AOS PAIS PARA ALÍVIO DA TOSSE ROUCA À NOITE:
+      - Manter a Criança Calma: O choro aumenta o turbilhonamento do ar na garganta e piora o barulho (estridor). Acolha a criança no colo em posição sentada.
+      - Ar Fresco ou Vapor Úmido: Em caso de crise de tosse "de cachorro" à noite, sente-se com a criança no banheiro com o chuveiro morno ligado formando vapor por 10 a 15 minutos, ou leve-a próxima à janela para respirar ar fresco noturno.
+      - Hidratação: Oferecer líquidos frios ou em temperatura ambiente em pequenos goles.
+      
+      SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+      1. Barulho agudo para puxar o ar (estridor) presente mesmo quando a criança está CALMA, quieta no colo ou dormindo.
+      2. Afundamento na furculinha do pescoço ou abaixo das costelas para respirar.
+      3. Criança babando sem conseguir engolir a própria saliva (sialorreia) ou pescoço esticado para frente.
+      4. Agitação intensa, sonolência anormal ou cor arroxeada ao redor da boca.
 
   - trigger: ";crupe-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO PEDIÁTRICO — ALTA DE LARINGITE / CRUPE VIRAL
       Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
       
@@ -446,7 +673,7 @@ matches:
       ###### ATENDIMENTO PEDIÁTRICO — OTITE MÉDIA AGUDA (OMA) ######
       # IDENTIFICAÇÃO & PESO:
       - Criança: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | **PESO ATUAL: [ ] kg**
-      - Acompanhante: [Mãe / Pai / Responsável:]
+      - Acompanhante: [Mãe / Pai / Responsável: [ ]]
       
       # SUBJETIVO (ANAMNESE DIRIGIDA & FATORES DE RESISTÊNCIA BACTERIANA):
       - Queixa Principal (QP): Dor de ouvido (otalgia), febre e irritabilidade há [ ] dias.
@@ -454,7 +681,7 @@ matches:
       - Presença de Otorreia: [Ausente / Otorreia purulenta exteriorizada no conduto auditivo externo após alívio súbito da dor (perfuração timpânica espontânea)].
       - Presença de Conjuntivite Purulenta Ipsilateral (Síndrome Otite-Conjuntivite): [Ausente / Presente — forte preditor de Haemophilus influenzae não-tipável produtor de beta-lactamase].
       - Estratificação de Risco para Pneumococo Resistente (Define Dose de Amoxicilina 50 vs 90 mg/kg/dia):
-        * Idade < 2 anos: [Sim / Não] | Frequenta creche/berçário: [Sim / Não] | Uso de antibiótico nos últimos 30 dias: [Não / Sim:].
+        * Idade < 2 anos: [Sim / Não] | Frequenta creche/berçário: [Sim / Não] | Uso de antibiótico nos últimos 30 dias: [Não / Sim: [ ]].
       - Negativas Mandatórias de Complicações (Mastoidite / SNC): Nega edema, hiperemia ou dor retroauricular com deslocamento anterior do pavilhão ("orelha em abano" aguda), paralisia facial periférica, vômitos em jato ou rigidez de nuca.
       
       # OBJETIVO (EXAME FÍSICO & OTOSCOPIA DIAGNÓSTICA SBP/AAP):
@@ -473,16 +700,42 @@ matches:
       
       >> CONDUTA TERAPÊUTICA & ESCOLHA DO ANTIMICROBIANO:
       1. **Analgesia Sistêmica Otimizada (Obrigatória em 100% dos casos nas primeiras 48h):**
-         - Dipirona gotas (500 mg/mL) 0,8 a 1 gota/kg VO 6/6h e/ou Ibuprofeno gotas (100 mg/mL) 1 gota/kg VO 8/8h por 48 a 72 horas (o antibiótico leva 24–48h para reduzir a dor timpânica).
+         - Dipirona gotas (500 mg/mL) 0,8 a 1 gota/kg VO 6/6h e/ou Ibuprofeno gotas [Atenção à apresentação: se 100 mg/mL = 1 gota/kg; se 50 mg/mL = 2 gotas/kg] (100 mg/mL) 1 gota/kg VO 8/8h por 48 a 72 horas (o antibiótico leva 24–48h para reduzir a dor timpânica).
       2. **Antibioticoterapia Dirigida pelo Perfil de Risco (Peso Atual: [ ] kg):**
          - **[OPÇÃO 1 — Sem fatores de risco para resistência e sem conjuntivite]:**
            **Amoxicilina 50 mg/kg/dia VO** dividida de 8/8h (suspensão 250 mg/5 mL) ou 12/12h (suspensão 400 mg/5 mL).
          - **[OPÇÃO 2 — Risco de Pneumococo Resistente (< 2 anos, creche ou ATB nos últimos 30 dias)]:**
            **Amoxicilina em Dose Dobrada: 90 mg/kg/dia VO** dividida de 12/12h (preferir suspensão concentrada de 400 mg/5 mL).
          - **[OPÇÃO 3 — Síndrome Otite-Conjuntivite, Amoxicilina nos últimos 30 dias ou Falha em 48–72h]:**
-           **Amoxicilina + Clavulanato (formulação 400 mg + 57 mg / 5 mL na proporção 7:1 ou 14:1)** na dose de **50 a 90 mg/kg/dia da amoxicilina** dividida de 12/12h.
+           **Amoxicilina + Clavulanato** na dose de **50 a 90 mg/kg/dia da amoxicilina** dividida de 12/12h *(Atenção farmacológica: na apresentação 7:1 de `400 + 57 mg/5 mL`, respeitar o teto de `≤ 10 mg/kg/dia` de clavulanato — para atingir `90 mg/kg/dia` sem diarreia severa, usar formulação 14:1 de `600 + 42,9 mg/5 mL` OU combinar `45 mg/kg/dia` de Amox+Clav 400+57/5 mL + `45 mg/kg/dia` de Amoxicilina pura 400/5 mL)*.
+         - **[OPÇÃO 4 — Alergia à Penicilina/Amoxicilina]:** Se reação não-IgE: **Cefuroxima `30 mg/kg/dia` VO de 12/12h** (ou Ceftriaxona `50 mg/kg/dia` IM/EV por 1–3 dias). Se anafilaxia/IgE-mediada: **Claritromicina `15 mg/kg/dia` VO de 12/12h** ou **Azitromicina `10 mg/kg/dia` no D1 e `5 mg/kg/dia` do D2 ao D5**.
          - **Duração do Tratamento:** **[10 dias (obrigatório em < 2 anos, otorreia ou doença grave) / 7 dias (2 a 5 anos leve-moderada) / 5 a 7 dias (≥ 6 anos leve-moderada)]**.
       3. Lavagem nasal frequente com SF 0,9% para desobstruir o óstio faríngeo da tuba auditiva; proscrito uso de gotas otológicas no ouvido se houver suspeita de perfuração timpânica.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — OTITE MÉDIA AGUDA (OMA)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL E NASAL:
+      1. [Amoxicilina Suspensão Oral 400 mg / 5 mL (80 mg/mL) / Amoxicilina 250 mg / 5 mL (50 mg/mL) / Amoxicilina + Clavulanato 400 + 57 mg / 5 mL] --- [ ] frasco(s)
+         Dar **[ ] mL** por via oral de **[12 em 12 horas / 8 em 8 horas]**, rigorosamente nos horários, durante **[10 / 7]** dias consecutivos.
+         *(Cálculo conferido pelo peso de [ ] kg na dose de [50 / 90] mg/kg/dia).*
+      
+      2. Ibuprofeno Solução Oral Gotas (100 mg/mL) ----------------------------------- 1 frasco
+         Dar **[ ] gotas** (1 gota por kg de peso; máx 40 gotas) por via oral de 8 em 8 horas nos primeiros 2 a 3 dias para controle da dor e inflamação do tímpano.
+      
+      3. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor intensa.
+      
+      4. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+         Realizar lavagem nasal com seringa de [3 a 5 / 5 a 10] mL em cada narina 4 a 6 vezes ao dia para desentupir o canal que liga o nariz ao ouvido (tuba auditiva).
+      
+      ORIENTAÇÕES E SINAIS DE ALARME (MASTOIDITE):
+      - Não pingar nenhuma gota, óleo morno ou remédio caseiro dentro do ouvido da criança. Se estiver saindo secreção (otorreia), limpe apenas a parte externa da orelha e proteja o ouvido da entrada de água do banho com algodão embebido em óleo mineral/vaselina na concha externa.
+      - O antibiótico demora de 24 a 48 horas para fazer a febre e a dor desaparecerem; por isso, dê o analgésico prescrito regularmente nos primeiros 2 dias.
+      - RETORNAR IMEDIATAMENTE AO PRONTO-SOCORRO SE:
+        1. Surgir vermelhidão, inchaço ou dor atrás da orelha, ou se a orelha parecer "empurrada para frente" (sinal de Mastoidite Aguda).
+        2. Persistir febre alta ou dor intensa após 48 a 72 horas do início do antibiótico.
+        3. Surgir sonolência excessiva, vômitos repetidos ou rigidez no pescoço.
 
   - trigger: ";ped-otite-cnd"
     replace: |
@@ -490,19 +743,46 @@ matches:
       
       >> CONDUTA TERAPÊUTICA & ESCOLHA DO ANTIMICROBIANO:
       1. **Analgesia Sistêmica Otimizada (Obrigatória em 100% dos casos nas primeiras 48h):**
-         - Dipirona gotas (500 mg/mL) 0,8 a 1 gota/kg VO 6/6h e/ou Ibuprofeno gotas (100 mg/mL) 1 gota/kg VO 8/8h por 48 a 72 horas (o antibiótico leva 24–48h para reduzir a dor timpânica).
+         - Dipirona gotas (500 mg/mL) 0,8 a 1 gota/kg VO 6/6h e/ou Ibuprofeno gotas [Atenção à apresentação: se 100 mg/mL = 1 gota/kg; se 50 mg/mL = 2 gotas/kg] (100 mg/mL) 1 gota/kg VO 8/8h por 48 a 72 horas (o antibiótico leva 24–48h para reduzir a dor timpânica).
       2. **Antibioticoterapia Dirigida pelo Perfil de Risco (Peso Atual: [ ] kg):**
          - **[OPÇÃO 1 — Sem fatores de risco para resistência e sem conjuntivite]:**
            **Amoxicilina 50 mg/kg/dia VO** dividida de 8/8h (suspensão 250 mg/5 mL) ou 12/12h (suspensão 400 mg/5 mL).
          - **[OPÇÃO 2 — Risco de Pneumococo Resistente (< 2 anos, creche ou ATB nos últimos 30 dias)]:**
            **Amoxicilina em Dose Dobrada: 90 mg/kg/dia VO** dividida de 12/12h (preferir suspensão concentrada de 400 mg/5 mL).
          - **[OPÇÃO 3 — Síndrome Otite-Conjuntivite, Amoxicilina nos últimos 30 dias ou Falha em 48–72h]:**
-           **Amoxicilina + Clavulanato (formulação 400 mg + 57 mg / 5 mL na proporção 7:1 ou 14:1)** na dose de **50 a 90 mg/kg/dia da amoxicilina** dividida de 12/12h.
+           **Amoxicilina + Clavulanato** na dose de **50 a 90 mg/kg/dia da amoxicilina** dividida de 12/12h *(Atenção farmacológica: na apresentação 7:1 de `400 + 57 mg/5 mL`, respeitar o teto de `≤ 10 mg/kg/dia` de clavulanato — para atingir `90 mg/kg/dia` sem diarreia severa, usar formulação 14:1 de `600 + 42,9 mg/5 mL` OU combinar `45 mg/kg/dia` de Amox+Clav 400+57/5 mL + `45 mg/kg/dia` de Amoxicilina pura 400/5 mL)*.
+         - **[OPÇÃO 4 — Alergia à Penicilina/Amoxicilina]:** Se reação não-IgE: **Cefuroxima `30 mg/kg/dia` VO de 12/12h** (ou Ceftriaxona `50 mg/kg/dia` IM/EV por 1–3 dias). Se anafilaxia/IgE-mediada: **Claritromicina `15 mg/kg/dia` VO de 12/12h** ou **Azitromicina `10 mg/kg/dia` no D1 e `5 mg/kg/dia` do D2 ao D5**.
          - **Duração do Tratamento:** **[10 dias (obrigatório em < 2 anos, otorreia ou doença grave) / 7 dias (2 a 5 anos leve-moderada) / 5 a 7 dias (≥ 6 anos leve-moderada)]**.
       3. Lavagem nasal frequente com SF 0,9% para desobstruir o óstio faríngeo da tuba auditiva; proscrito uso de gotas otológicas no ouvido se houver suspeita de perfuração timpânica.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — OTITE MÉDIA AGUDA (OMA)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL E NASAL:
+      1. [Amoxicilina Suspensão Oral 400 mg / 5 mL (80 mg/mL) / Amoxicilina 250 mg / 5 mL (50 mg/mL) / Amoxicilina + Clavulanato 400 + 57 mg / 5 mL] --- [ ] frasco(s)
+         Dar **[ ] mL** por via oral de **[12 em 12 horas / 8 em 8 horas]**, rigorosamente nos horários, durante **[10 / 7]** dias consecutivos.
+         *(Cálculo conferido pelo peso de [ ] kg na dose de [50 / 90] mg/kg/dia).*
+      
+      2. Ibuprofeno Solução Oral Gotas (100 mg/mL) ----------------------------------- 1 frasco
+         Dar **[ ] gotas** (1 gota por kg de peso; máx 40 gotas) por via oral de 8 em 8 horas nos primeiros 2 a 3 dias para controle da dor e inflamação do tímpano.
+      
+      3. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor intensa.
+      
+      4. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+         Realizar lavagem nasal com seringa de [3 a 5 / 5 a 10] mL em cada narina 4 a 6 vezes ao dia para desentupir o canal que liga o nariz ao ouvido (tuba auditiva).
+      
+      ORIENTAÇÕES E SINAIS DE ALARME (MASTOIDITE):
+      - Não pingar nenhuma gota, óleo morno ou remédio caseiro dentro do ouvido da criança. Se estiver saindo secreção (otorreia), limpe apenas a parte externa da orelha e proteja o ouvido da entrada de água do banho com algodão embebido em óleo mineral/vaselina na concha externa.
+      - O antibiótico demora de 24 a 48 horas para fazer a febre e a dor desaparecerem; por isso, dê o analgésico prescrito regularmente nos primeiros 2 dias.
+      - RETORNAR IMEDIATAMENTE AO PRONTO-SOCORRO SE:
+        1. Surgir vermelhidão, inchaço ou dor atrás da orelha, ou se a orelha parecer "empurrada para frente" (sinal de Mastoidite Aguda).
+        2. Persistir febre alta ou dor intensa após 48 a 72 horas do início do antibiótico.
+        3. Surgir sonolência excessiva, vômitos repetidos ou rigidez no pescoço.
 
   - trigger: ";ped-otite-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO PEDIÁTRICO — OTITE MÉDIA AGUDA (OMA)
       Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
       
@@ -533,7 +813,7 @@ matches:
       ###### ATENDIMENTO PEDIÁTRICO — PNEUMONIA ADQUIRIDA NA COMUNIDADE (PAC) ######
       # IDENTIFICAÇÃO & PESO:
       - Criança: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | **PESO ATUAL: [ ] kg**
-      - Acompanhante: [Mãe / Pai / Responsável:]
+      - Acompanhante: [Mãe / Pai / Responsável: [ ]]
       
       # SUBJETIVO (ANAMNESE DIRIGIDA & PADRÃO CLÍNICO):
       - Queixa Principal (QP): Tosse, febre persistente e respiração rápida/cansada há [ ] dias.
@@ -574,6 +854,27 @@ matches:
       3. Antibioticoterapia Venosa Empírica:
          - Criança vacinada sem sepse/derrame extenso: **Ampicilina `200 mg/kg/dia` EV de 6/6h** (ou Penicilina Cristalina `200.000 UI/kg/dia` EV de 4/4h ou 6/6h).
          - Criança grave, vacinação incompleta ou derrame pleural complicado: **Ceftriaxona `50 a 100 mg/kg/dia` EV** (+ Oxacilina `200 mg/kg/dia` ou Clindamicina se suspeita de *S. aureus*/pneumatocele).
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — PNEUMONIA COMUNITÁRIA (TRATAMENTO AMBULATORIAL)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL E NASAL:
+      1. [Amoxicilina Suspensão Oral 250 mg / 5 mL (50 mg/mL) / Amoxicilina Suspensão Oral 400 mg / 5 mL (80 mg/mL)] --- [ ] frasco(s)
+         Dar **[ ] mL** por via oral de **[8 em 8 horas / 12 em 12 horas]**, rigorosamente nos horários, durante **7 dias** completos (Não interromper o antibiótico mesmo que a febre desapareça no 2º dia).
+         *(Dose calculada para [ ] kg: [50 / 90] mg/kg/dia).*
+      
+      2. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+         Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor no peito/barriga para respirar.
+      
+      3. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+         Lavar as narinas com seringa de [3 a 5 / 5 a 10] mL em cada narina 4 a 6 vezes ao dia e oferecer bastante líquido (água, leite materno, sucos naturais ou água de coco).
+      
+      COMPROMISSO OBRIGATÓRIO DE RETORNO EM 48 HORAS & SINAIS DE ALARME:
+      - RETORNO AGENDADO EM 48 HORAS ([DD/MM/AAAA]): Toda criança em tratamento de pneumonia em casa precisa ser reavaliada pelo médico em 48 a 72 horas para confirmar que a febre cedeu e que a respiração desacelerou.
+      - VOLTAR IMEDIATAMENTE AO PRONTO-SOCORRO (ANTES DE 48H) SE:
+        1. A febre continuar alta após 48 horas do início da Amoxicilina ou o cansaço para respirar aumentar.
+        2. Surgir afundamento abaixo das costelas, gemido constante a cada respiração ou cor arroxeada nos lábios.
+        3. A criança vomitar as doses do antibiótico ou ficar muito sonolenta/prostrada mesmo sem febre.
 
   - trigger: ";ped-pneumonia-cnd"
     replace: |
@@ -592,9 +893,31 @@ matches:
       3. Antibioticoterapia Venosa Empírica:
          - Criança vacinada sem sepse/derrame extenso: **Ampicilina `200 mg/kg/dia` EV de 6/6h** (ou Penicilina Cristalina `200.000 UI/kg/dia` EV de 4/4h ou 6/6h).
          - Criança grave, vacinação incompleta ou derrame pleural complicado: **Ceftriaxona `50 a 100 mg/kg/dia` EV** (+ Oxacilina `200 mg/kg/dia` ou Clindamicina se suspeita de *S. aureus*/pneumatocele).
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — PNEUMONIA COMUNITÁRIA (TRATAMENTO AMBULATORIAL)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL E NASAL:
+      1. [Amoxicilina Suspensão Oral 250 mg / 5 mL (50 mg/mL) / Amoxicilina Suspensão Oral 400 mg / 5 mL (80 mg/mL)] --- [ ] frasco(s)
+         Dar **[ ] mL** por via oral de **[8 em 8 horas / 12 em 12 horas]**, rigorosamente nos horários, durante **7 dias** completos (Não interromper o antibiótico mesmo que a febre desapareça no 2º dia).
+         *(Dose calculada para [ ] kg: [50 / 90] mg/kg/dia).*
+      
+      2. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+         Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor no peito/barriga para respirar.
+      
+      3. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+         Lavar as narinas com seringa de [3 a 5 / 5 a 10] mL em cada narina 4 a 6 vezes ao dia e oferecer bastante líquido (água, leite materno, sucos naturais ou água de coco).
+      
+      COMPROMISSO OBRIGATÓRIO DE RETORNO EM 48 HORAS & SINAIS DE ALARME:
+      - RETORNO AGENDADO EM 48 HORAS ([DD/MM/AAAA]): Toda criança em tratamento de pneumonia em casa precisa ser reavaliada pelo médico em 48 a 72 horas para confirmar que a febre cedeu e que a respiração desacelerou.
+      - VOLTAR IMEDIATAMENTE AO PRONTO-SOCORRO (ANTES DE 48H) SE:
+        1. A febre continuar alta após 48 horas do início da Amoxicilina ou o cansaço para respirar aumentar.
+        2. Surgir afundamento abaixo das costelas, gemido constante a cada respiração ou cor arroxeada nos lábios.
+        3. A criança vomitar as doses do antibiótico ou ficar muito sonolenta/prostrada mesmo sem febre.
 
   - trigger: ";ped-pneumonia-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO PEDIÁTRICO — PNEUMONIA COMUNITÁRIA (TRATAMENTO AMBULATORIAL)
       Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
       
@@ -622,7 +945,7 @@ matches:
       # IDENTIFICAÇÃO & PESO DE ENTRADA:
       - Criança: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | **PESO DE ENTRADA AFERIDO: [ ] kg**
       - Peso Prévio Conhecido (se disponível para cálculo de perda aguda): [Não informado / [ ] kg -> Perda de [ ]%]
-      - Acompanhante: [Mãe / Pai / Responsável:]
+      - Acompanhante: [Mãe / Pai / Responsável: [ ]]
       
       # SUBJETIVO (CARACTERIZAÇÃO DA DIARREIA, VÔMITOS & RED FLAGS):
       - Queixa Principal (QP): Diarreia líquida e vômitos há [ ] dias.
@@ -667,6 +990,33 @@ matches:
            * **Maiores de 1 ano (Total em 3 horas):** `30 mL/kg` em **30 minutos** + `70 mL/kg` em **2 horas e 30 minutos**.
          - *(No Choque Hipovolêmico PALS: Bólus de `20 mL/kg` de SF 0,9% ou RL em 5 a 20 minutos, repetindo até restauração da perfusão e nível de consciência).*
       3. Assim que a criança estiver consciente e capaz de deglutir, iniciar SRO concomitante (`5 mL/kg/h`) e reavaliar de hora em hora até transição para Plano B e Plano A.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — GASTROENTERITE AGUDA (PLANO A — OMS / MINISTÉRIO DA SAÚDE)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL:
+      1. Sais para Reidratação Oral (SRO — Envelope Padrão OMS/MS) ------------------- [4 a 6] envelopes
+         Dissolver 1 envelope inteiro em exatamente 1 litro de água filtrada ou fervida fria (não adicionar açúcar nem sal; desprezar a sobra após 24 horas).
+         Oferecer **[50 a 100 mL (meio copo — menores de 1 ano) / 100 a 200 mL (1 copo — maiores de 1 ano)]** em pequenos goles ou colheradas APÓS CADA evacuação líquida ou episódio de vômito.
+      
+      2. Sulfato de Zinco Solução Oral (4 mg/mL) ou Gotas ---------------------------- 1 frasco
+         Dar **[10 mg (= 2,5 mL se < 6 meses) / 20 mg (= 5 mL se ≥ 6 meses)]** por via oral, 1 vez ao dia, durante **10 a 14 dias consecutivos** (mesmo após a diarreia parar, pois o Zinco regenera a parede do intestino e evita nova diarreia nos próximos 3 meses).
+      
+      3. Ondansetrona 4 mg (Comprimido Orodispersível — derrete na língua) ----------- 1 caixa
+         Dar **[meio comprimido (2 mg para 8 a 15 kg) / 1 comprimido (4 mg para > 15 kg)]** na boca até de 8 em 8 horas APENAS se houver vômitos repetidos que impeçam a hidratação. Aguardar 20 minutos após o comprimido antes de oferecer o soro em colheradas.
+      
+      4. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor abdominal.
+      
+      REGRAS DE OURO DA ALIMENTAÇÃO E MEDICAMENTOS PROIBIDOS:
+      - NUNCA deixar a criança de jejum e NUNCA diluir o leite/fórmula com mais água: mantenha o leite materno em livre demanda e a alimentação habitual saudável (arroz, caldo de feijão, frango/carne magra cozida, batata, banana, maçã, cenoura). Evitar apenas refrigerantes, sucos industrializados muito doces e frituras (o excesso de açúcar puxa mais água para o intestino e piora a diarreia).
+      - ESTRITAMENTE PROIBIDO dar remédios para "travar o intestino" (Loperamida / Imosec, Elixir Paregórico) ou refrigerante sem gás.
+      
+      SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+      1. Criança muito irritada bebendo água com sede desesperada, ou criança muito molinha/sonolenta que não quer beber nada.
+      2. Olhos fundos, choro sem lágrimas, boca seca ou ausência de xixi na fralda por mais de 6 horas.
+      3. Vômitos repetidos que não param mesmo após o remédio de enjoo, ou vômito verde-escuro (bilioso).
+      4. Surgimento de sangue vivo nas fezes ou dor de barriga intensa e contínua.
 
   - trigger: ";ped-desidratacao-cnd"
     replace: |
@@ -693,9 +1043,37 @@ matches:
            * **Maiores de 1 ano (Total em 3 horas):** `30 mL/kg` em **30 minutos** + `70 mL/kg` em **2 horas e 30 minutos**.
          - *(No Choque Hipovolêmico PALS: Bólus de `20 mL/kg` de SF 0,9% ou RL em 5 a 20 minutos, repetindo até restauração da perfusão e nível de consciência).*
       3. Assim que a criança estiver consciente e capaz de deglutir, iniciar SRO concomitante (`5 mL/kg/h`) e reavaliar de hora em hora até transição para Plano B e Plano A.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — GASTROENTERITE AGUDA (PLANO A — OMS / MINISTÉRIO DA SAÚDE)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL:
+      1. Sais para Reidratação Oral (SRO — Envelope Padrão OMS/MS) ------------------- [4 a 6] envelopes
+         Dissolver 1 envelope inteiro em exatamente 1 litro de água filtrada ou fervida fria (não adicionar açúcar nem sal; desprezar a sobra após 24 horas).
+         Oferecer **[50 a 100 mL (meio copo — menores de 1 ano) / 100 a 200 mL (1 copo — maiores de 1 ano)]** em pequenos goles ou colheradas APÓS CADA evacuação líquida ou episódio de vômito.
+      
+      2. Sulfato de Zinco Solução Oral (4 mg/mL) ou Gotas ---------------------------- 1 frasco
+         Dar **[10 mg (= 2,5 mL se < 6 meses) / 20 mg (= 5 mL se ≥ 6 meses)]** por via oral, 1 vez ao dia, durante **10 a 14 dias consecutivos** (mesmo após a diarreia parar, pois o Zinco regenera a parede do intestino e evita nova diarreia nos próximos 3 meses).
+      
+      3. Ondansetrona 4 mg (Comprimido Orodispersível — derrete na língua) ----------- 1 caixa
+         Dar **[meio comprimido (2 mg para 8 a 15 kg) / 1 comprimido (4 mg para > 15 kg)]** na boca até de 8 em 8 horas APENAS se houver vômitos repetidos que impeçam a hidratação. Aguardar 20 minutos após o comprimido antes de oferecer o soro em colheradas.
+      
+      4. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor abdominal.
+      
+      REGRAS DE OURO DA ALIMENTAÇÃO E MEDICAMENTOS PROIBIDOS:
+      - NUNCA deixar a criança de jejum e NUNCA diluir o leite/fórmula com mais água: mantenha o leite materno em livre demanda e a alimentação habitual saudável (arroz, caldo de feijão, frango/carne magra cozida, batata, banana, maçã, cenoura). Evitar apenas refrigerantes, sucos industrializados muito doces e frituras (o excesso de açúcar puxa mais água para o intestino e piora a diarreia).
+      - ESTRITAMENTE PROIBIDO dar remédios para "travar o intestino" (Loperamida / Imosec, Elixir Paregórico) ou refrigerante sem gás.
+      
+      SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+      1. Criança muito irritada bebendo água com sede desesperada, ou criança muito molinha/sonolenta que não quer beber nada.
+      2. Olhos fundos, choro sem lágrimas, boca seca ou ausência de xixi na fralda por mais de 6 horas.
+      3. Vômitos repetidos que não param mesmo após o remédio de enjoo, ou vômito verde-escuro (bilioso).
+      4. Surgimento de sangue vivo nas fezes ou dor de barriga intensa e contínua.
 
   - trigger: ";ped-desidratacao-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO PEDIÁTRICO — GASTROENTERITE AGUDA (PLANO A — OMS / MINISTÉRIO DA SAÚDE)
       Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
       
@@ -753,7 +1131,7 @@ matches:
       - Exames Complementares Realizados na Emergência:
         * **Urina Tipo 1 (EAS) + Urocultura colhida por Cateterismo Vesical / Punção Suprapúbica** (NUNCA usar saco coletor para urocultura!): [Não indicada (< 24–48h de febre em > 3m bem e vacinado) / EAS normal (Leucócitos < 10.000/mL, Esterase e Nitrito negativos) / EAS alterado compatível com ITU].
         * Hemograma, PCR e Hemocultura: [Não solicitados / Leuco: [ ] /mm³ (Neutrófilos absolutos: [ ]) | PCR: [ ] mg/L | Procalcitonina: [ ] ng/mL].
-        * Líquor (Punção Lombar): [Não indicada / Realizada (< 28 dias ou sinais de alto risco):].
+        * Líquor (Punção Lombar): [Não indicada / Realizada (< 28 dias ou sinais de alto risco): [ ]].
       
       # AVALIAÇÃO DIAGNÓSTICA:
       1. Febre Sem Sinais Localizatórios (FSSL) em [Recém-nascido < 28d / Lactente 29–90d de Baixo Risco / Lactente 3–36m vacinado em bom estado geral] (CID-10: R50.9).
@@ -763,7 +1141,7 @@ matches:
       >> [CENÁRIO 1 — RECÉM-NASCIDO < 28 DIAS]: INTERNAÇÃO & TRIAGEM SÉPTICA COMPLETA OBRIGATÓRIA:
       1. Internação hospitalar imediata (mesmo que o RN pareça em ótimo estado geral e com exames iniciais normais).
       2. Coletar Hemograma, PCR, 2 Hemoculturas, Urina 1 + Urocultura por sondagem vesical, Radiografia de Tórax (se sintomas respiratórios) e **Punção Lombar obrigatória (LCR)**.
-      3. Iniciar antibioticoterapia venosa empírica imediata: **Ampicilina `50 mg/kg/dose` EV de 6/6h (cobertura para *Streptococcus agalactiae* e *Listeria*) + Gentamicina `4 a 5 mg/kg/dia` EV (ou Cefotaxima `50 mg/kg/dose` EV de 8/8h)** para Gram-negativos entéricos (*E. coli*).
+      3. Iniciar antibioticoterapia venosa empírica imediata: **Ampicilina `50 mg/kg/dose` EV de 6/6h ou 8/8h (cobertura para *Streptococcus agalactiae* e *Listeria*) + Gentamicina `4 a 5 mg/kg/dia` EV 1x/dia (ou Cefotaxima `50 mg/kg/dose` EV de 8/8h ou 6/6h se suspeita de meningite)** para Gram-negativos entéricos (*E. coli*). *(Atenção: Ceftriaxona é estritamente CONTRAINDICADA em recém-nascidos `< 28 dias` pelo risco de kernicterus por deslocamento da bilirrubina da albumina e precipitação fatal com cálcio).*
       
       >> [CENÁRIO 2 — LACTENTE DE 29 A 90 DIAS]: CONDUTA GUIADA POR CRITÉRIOS DE RISCO (ROCHESTER / STEP-BY-STEP):
       1. Coletar obrigatoriamente **EAS + Urocultura por sonda vesical** + Hemograma + PCR + Hemocultura.
@@ -773,6 +1151,27 @@ matches:
       >> [CENÁRIO 3 — CRIANÇA DE 3 A 36 MESES VACINADA E EM BOM ESTADO GERAL (TEP NORMAL)]:
       1. Se febre `≥ 39 °C` ou duração `> 24–48h` em menina `< 24 meses` ou menino `< 6–12 meses` (ou `< 24m` não circuncidado): Coletar **EAS + Urocultura por cateterismo vesical** (ITU responde por `> 80%` das infecções bacterianas ocultas nesta faixa!).
       2. Com EAS normal (ou febre `< 24h` em criança ativa e bem vacinada): Alta segura com antitérmico sintomático e **reavaliação médica programada em 24 a 48 horas** (frequentemente surge o exantema do Exantema Súbito / Roséola após 72h quando a febre cede!).
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — FEBRE SEM FOCO (CRITÉRIOS DE BAIXO RISCO COM REAVALIAÇÃO EM 24–48H)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL:
+      1. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar **[ ] gotas** (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) associada a desconforto ou irritabilidade.
+      
+      2. [OU Alternativa] Paracetamol Solução Oral Gotas (200 mg/mL) ---------------- 1 frasco
+         Dar **[ ] gotas** (1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre ou dor.
+      
+      ORIENTAÇÕES DE OBSERVAÇÃO EM CASA & REAVALIAÇÃO PROGRAMADA:
+      - Hidratação: Oferecer seio materno em livre demanda, água ou soro de reidratação oral com frequência (a febre aumenta a perda de água pela pele e respiração). Vestir a criança com roupas leves e frescas (não agasalhar em excesso).
+      - O que Observar após o Antitérmico: O sinal mais tranquilizador na pediatria é ver que, 40 a 60 minutos após o remédio da febre, a criança volta a ficar ativa, olha nos olhos, sorri e aceita líquidos.
+      - RETORNO PROGRAMADO: Retornar para reavaliação médica em **[24 / 48] horas** (se a febre persistir por mais de 48 horas sem aparecer gripe, será necessário colher exame de urina para descartar infecção urinária oculta).
+      
+      SINAIS DE ALARME DE EMERGÊNCIA (VOLTAR IMEDIATAMENTE AO PRONTO-SOCORRO):
+      1. Teste do Copo na Pele: Surgimento de pintinhas vermelhas ou manchas roxas na pele que NÃO desaparecem quando você pressiona um copo de vidro transparente contra a mancha (sinal de alerta máximo para infecção grave).
+      2. Criança que continua muito molinha, gemendo, chorando sem consolo ou difícil de acordar MESMO DEPOIS que a febre abaixou.
+      3. Respiração muito rápida, afundamento das costelas ou moleira (fontanela) estufada/alta.
+      4. Vômitos repetidos ou crise convulsiva.
 
   - trigger: ";ped-febre-cnd"
     replace: |
@@ -781,7 +1180,7 @@ matches:
       >> [CENÁRIO 1 — RECÉM-NASCIDO < 28 DIAS]: INTERNAÇÃO & TRIAGEM SÉPTICA COMPLETA OBRIGATÓRIA:
       1. Internação hospitalar imediata (mesmo que o RN pareça em ótimo estado geral e com exames iniciais normais).
       2. Coletar Hemograma, PCR, 2 Hemoculturas, Urina 1 + Urocultura por sondagem vesical, Radiografia de Tórax (se sintomas respiratórios) e **Punção Lombar obrigatória (LCR)**.
-      3. Iniciar antibioticoterapia venosa empírica imediata: **Ampicilina `50 mg/kg/dose` EV de 6/6h (cobertura para *Streptococcus agalactiae* e *Listeria*) + Gentamicina `4 a 5 mg/kg/dia` EV (ou Cefotaxima `50 mg/kg/dose` EV de 8/8h)** para Gram-negativos entéricos (*E. coli*).
+      3. Iniciar antibioticoterapia venosa empírica imediata: **Ampicilina `50 mg/kg/dose` EV de 6/6h ou 8/8h (cobertura para *Streptococcus agalactiae* e *Listeria*) + Gentamicina `4 a 5 mg/kg/dia` EV 1x/dia (ou Cefotaxima `50 mg/kg/dose` EV de 8/8h ou 6/6h se suspeita de meningite)** para Gram-negativos entéricos (*E. coli*). *(Atenção: Ceftriaxona é estritamente CONTRAINDICADA em recém-nascidos `< 28 dias` pelo risco de kernicterus por deslocamento da bilirrubina da albumina e precipitação fatal com cálcio).*
       
       >> [CENÁRIO 2 — LACTENTE DE 29 A 90 DIAS]: CONDUTA GUIADA POR CRITÉRIOS DE RISCO (ROCHESTER / STEP-BY-STEP):
       1. Coletar obrigatoriamente **EAS + Urocultura por sonda vesical** + Hemograma + PCR + Hemocultura.
@@ -791,9 +1190,31 @@ matches:
       >> [CENÁRIO 3 — CRIANÇA DE 3 A 36 MESES VACINADA E EM BOM ESTADO GERAL (TEP NORMAL)]:
       1. Se febre `≥ 39 °C` ou duração `> 24–48h` em menina `< 24 meses` ou menino `< 6–12 meses` (ou `< 24m` não circuncidado): Coletar **EAS + Urocultura por cateterismo vesical** (ITU responde por `> 80%` das infecções bacterianas ocultas nesta faixa!).
       2. Com EAS normal (ou febre `< 24h` em criança ativa e bem vacinada): Alta segura com antitérmico sintomático e **reavaliação médica programada em 24 a 48 horas** (frequentemente surge o exantema do Exantema Súbito / Roséola após 72h quando a febre cede!).
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO — FEBRE SEM FOCO (CRITÉRIOS DE BAIXO RISCO COM REAVALIAÇÃO EM 24–48H)
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL:
+      1. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar **[ ] gotas** (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) associada a desconforto ou irritabilidade.
+      
+      2. [OU Alternativa] Paracetamol Solução Oral Gotas (200 mg/mL) ---------------- 1 frasco
+         Dar **[ ] gotas** (1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre ou dor.
+      
+      ORIENTAÇÕES DE OBSERVAÇÃO EM CASA & REAVALIAÇÃO PROGRAMADA:
+      - Hidratação: Oferecer seio materno em livre demanda, água ou soro de reidratação oral com frequência (a febre aumenta a perda de água pela pele e respiração). Vestir a criança com roupas leves e frescas (não agasalhar em excesso).
+      - O que Observar após o Antitérmico: O sinal mais tranquilizador na pediatria é ver que, 40 a 60 minutos após o remédio da febre, a criança volta a ficar ativa, olha nos olhos, sorri e aceita líquidos.
+      - RETORNO PROGRAMADO: Retornar para reavaliação médica em **[24 / 48] horas** (se a febre persistir por mais de 48 horas sem aparecer gripe, será necessário colher exame de urina para descartar infecção urinária oculta).
+      
+      SINAIS DE ALARME DE EMERGÊNCIA (VOLTAR IMEDIATAMENTE AO PRONTO-SOCORRO):
+      1. Teste do Copo na Pele: Surgimento de pintinhas vermelhas ou manchas roxas na pele que NÃO desaparecem quando você pressiona um copo de vidro transparente contra a mancha (sinal de alerta máximo para infecção grave).
+      2. Criança que continua muito molinha, gemendo, chorando sem consolo ou difícil de acordar MESMO DEPOIS que a febre abaixou.
+      3. Respiração muito rápida, afundamento das costelas ou moleira (fontanela) estufada/alta.
+      4. Vômitos repetidos ou crise convulsiva.
 
   - trigger: ";ped-febre-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO PEDIÁTRICO — FEBRE SEM FOCO (CRITÉRIOS DE BAIXO RISCO COM REAVALIAÇÃO EM 24–48H)
       Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
       
@@ -820,7 +1241,7 @@ matches:
       ###### ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA — CRISE CONVULSIVA FEBRIL (6 MESES A 5 ANOS) ######
       # IDENTIFICAÇÃO & PESO:
       - Criança: [Nome] | Idade: [ ] [meses / anos] (Faixa de definição: 6 a 60 meses; pico aos 18 meses) | **PESO ATUAL: [ ] kg**
-      - Acompanhante: [Mãe / Pai / Responsável:]
+      - Acompanhante: [Mãe / Pai / Responsável: [ ]]
       
       # SUBJETIVO (SEMIOLOGIA DA CRISE & CRITÉRIOS SIMPLES vs COMPLEXA):
       - Queixa Principal (QP): Episódio de crise convulsiva em vigência de febre há [ ] minutos/horas.
@@ -853,7 +1274,7 @@ matches:
       # PLANO / CONDUTA:
       
       >> [ETAPA 1] CONDUTA NA SALA DE EMERGÊNCIA (SE CRISE ATIVA COM DURAÇÃO > 5 MINUTOS):
-      1. ABCDE: Posicionar em decúbito lateral de segurança no leito, aspirar vias aéreas superiores suavemente, ofertar O2 sob máscara não reinalante a 10 L/min, instalar monitorização e aferir **Glicemia Capilar (HGT)** imediatamente.
+      1. ABCDE: Posicionar em decúbito lateral de segurança no leito, aspirar vias aéreas superiores suavemente, ofertar O2 sob máscara não reinalante a 10 L/min, instalar monitorização e aferir **Glicemia Capilar (HGT)** imediatamente *(Se hipoglicemia `< 60 mg/dL`: administrar **Glicose 10% [SG 10%] `5 mL/kg` EV em bólus = `0,5 g/kg`** — Regra dos 50 do PALS; nunca usar SG 50% puro em veia periférica pediátrica)*.
       2. **Benzodiazepínico de 1ª Linha (Peso Atual: [ ] kg):**
          - **Com Acesso Venoso:** **Diazepam `0,2 a 0,3 mg/kg` EV lento** (sem diluir, velocidade máx 1–2 mg/min; dose máx 5 mg em < 5 anos ou 10 mg em ≥ 5 anos) **OU Midazolam `0,15 a 0,2 mg/kg` EV**.
          - **Sem Acesso Venoso Imediato (Vias Alternativas Rápidas):** **Midazolam `0,2 mg/kg` Intramuscular (IM)** no vasto lateral da coxa (ou `0,2 a 0,3 mg/kg` Intranasal/Bucal).
@@ -864,13 +1285,33 @@ matches:
          - **Punção Lombar (LCR):** [Não indicada — criança > 12 meses (ou 6–12m com vacinação Hib/Pneumo-10 completa), alerta, sem sinais meníngeos e com recuperação pós-ictal completa / Indicada por sinais meníngeos, letargia persistente, < 6m ou 6–12m não vacinado].
          - **Neuroimagem (TC de Crânio), EEG e Eletrólitos de Rotina:** **NÃO indicados** na Convulsão Febril Simples típica com exame neurológico normal.
       3. **Observação Clínica na Emergência por 2 a 4 Horas:** Confirmada recuperação neurológica basal completa, criança afebril, ativa, aceitando líquidos por via oral e pais tranquilos e orientados -> Alta segura com plano de ação domiciliar.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO & PLANO DE AÇÃO DOMICILIAR — CONVULSÃO FEBRIL SIMPLES
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL:
+      1. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar **[ ] gotas** (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor, para proporcionar conforto à criança.
+      
+      2. [Se identificado foco bacteriano associado — ex: Otite Média Aguda]:
+         [Apenas tratamento sintomático da virose / Amoxicilina conforme prescrição específica].
+      
+      ESCLARECIMENTOS FUNDAMENTAIS PARA TRANQUILIZAR A FAMÍLIA:
+      1. A Convulsão Febril Simples é Benigna: Apesar de ser muito assustadora para quem assiste, uma crise convulsiva febril curta (< 15 minutos) NÃO causa dano cerebral, NÃO afeta a inteligência ou o desenvolvimento e NÃO significa que a criança tem epilepsia (mais de 97% das crianças com convulsão febril simples nunca terão epilepsia).
+      2. Sobre os Antitérmicos: Dar antitérmico ajuda a criança a se sentir melhor, mas nenhum antitérmico impede 100% que uma nova crise aconteça (pois a convulsão geralmente ocorre na subida rápida da primeira febre). Também NÃO se deve usar remédio controlado anticonvulsivante de uso diário (como Fenobarbital ou Ácido Valproico) para prevenir convulsão febril simples.
+      
+      COMO AGIR EM CASA SE ACONTECER UM NOVO EPISÓDIO (PASSO A PASSO DE SEGURANÇA):
+      1. Mantenha a calma e olhe no relógio para marcar a hora em que a crise começou (a maioria para sozinha em 1 a 3 minutos).
+      2. Deite a criança DE LADO (decúbito lateral) no chão sobre um tapete ou na cama, longe de quinas ou objetos duros, para que a saliva escorra para fora e ela respire livremente.
+      3. NUNCA tente abrir a boca da criança à força, NUNCA puxe a língua e NUNCA coloque o dedo, colher, pano ou água/remédio na boca durante a crise (a língua NÃO enrola nem é engolida, e colocar objetos na boca pode quebrar dentes ou sufocar a criança).
+      4. Leve imediatamente ao Pronto-Socorro (ou ligue 192 — SAMU) se a crise durar MAIS DE 5 MINUTOS, se um lado só do corpo tremer ou se a criança não voltar a ficar esperta 30 a 60 minutos após a crise parar.
 
   - trigger: ";convulsao-febril-cnd"
     replace: |
       # PLANO / CONDUTA:
       
       >> [ETAPA 1] CONDUTA NA SALA DE EMERGÊNCIA (SE CRISE ATIVA COM DURAÇÃO > 5 MINUTOS):
-      1. ABCDE: Posicionar em decúbito lateral de segurança no leito, aspirar vias aéreas superiores suavemente, ofertar O2 sob máscara não reinalante a 10 L/min, instalar monitorização e aferir **Glicemia Capilar (HGT)** imediatamente.
+      1. ABCDE: Posicionar em decúbito lateral de segurança no leito, aspirar vias aéreas superiores suavemente, ofertar O2 sob máscara não reinalante a 10 L/min, instalar monitorização e aferir **Glicemia Capilar (HGT)** imediatamente *(Se hipoglicemia `< 60 mg/dL`: administrar **Glicose 10% [SG 10%] `5 mL/kg` EV em bólus = `0,5 g/kg`** — Regra dos 50 do PALS; nunca usar SG 50% puro em veia periférica pediátrica)*.
       2. **Benzodiazepínico de 1ª Linha (Peso Atual: [ ] kg):**
          - **Com Acesso Venoso:** **Diazepam `0,2 a 0,3 mg/kg` EV lento** (sem diluir, velocidade máx 1–2 mg/min; dose máx 5 mg em < 5 anos ou 10 mg em ≥ 5 anos) **OU Midazolam `0,15 a 0,2 mg/kg` EV**.
          - **Sem Acesso Venoso Imediato (Vias Alternativas Rápidas):** **Midazolam `0,2 mg/kg` Intramuscular (IM)** no vasto lateral da coxa (ou `0,2 a 0,3 mg/kg` Intranasal/Bucal).
@@ -881,9 +1322,30 @@ matches:
          - **Punção Lombar (LCR):** [Não indicada — criança > 12 meses (ou 6–12m com vacinação Hib/Pneumo-10 completa), alerta, sem sinais meníngeos e com recuperação pós-ictal completa / Indicada por sinais meníngeos, letargia persistente, < 6m ou 6–12m não vacinado].
          - **Neuroimagem (TC de Crânio), EEG e Eletrólitos de Rotina:** **NÃO indicados** na Convulsão Febril Simples típica com exame neurológico normal.
       3. **Observação Clínica na Emergência por 2 a 4 Horas:** Confirmada recuperação neurológica basal completa, criança afebril, ativa, aceitando líquidos por via oral e pais tranquilos e orientados -> Alta segura com plano de ação domiciliar.
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+      RECEITUÁRIO MÉDICO PEDIÁTRICO & PLANO DE AÇÃO DOMICILIAR — CONVULSÃO FEBRIL SIMPLES
+      Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+      
+      USO ORAL:
+      1. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+         Dar **[ ] gotas** (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor, para proporcionar conforto à criança.
+      
+      2. [Se identificado foco bacteriano associado — ex: Otite Média Aguda]:
+         [Apenas tratamento sintomático da virose / Amoxicilina conforme prescrição específica].
+      
+      ESCLARECIMENTOS FUNDAMENTAIS PARA TRANQUILIZAR A FAMÍLIA:
+      1. A Convulsão Febril Simples é Benigna: Apesar de ser muito assustadora para quem assiste, uma crise convulsiva febril curta (< 15 minutos) NÃO causa dano cerebral, NÃO afeta a inteligência ou o desenvolvimento e NÃO significa que a criança tem epilepsia (mais de 97% das crianças com convulsão febril simples nunca terão epilepsia).
+      2. Sobre os Antitérmicos: Dar antitérmico ajuda a criança a se sentir melhor, mas nenhum antitérmico impede 100% que uma nova crise aconteça (pois a convulsão geralmente ocorre na subida rápida da primeira febre). Também NÃO se deve usar remédio controlado anticonvulsivante de uso diário (como Fenobarbital ou Ácido Valproico) para prevenir convulsão febril simples.
+      
+      COMO AGIR EM CASA SE ACONTECER UM NOVO EPISÓDIO (PASSO A PASSO DE SEGURANÇA):
+      1. Mantenha a calma e olhe no relógio para marcar a hora em que a crise começou (a maioria para sozinha em 1 a 3 minutos).
+      2. Deite a criança DE LADO (decúbito lateral) no chão sobre um tapete ou na cama, longe de quinas ou objetos duros, para que a saliva escorra para fora e ela respire livremente.
+      3. NUNCA tente abrir a boca da criança à força, NUNCA puxe a língua e NUNCA coloque o dedo, colher, pano ou água/remédio na boca durante a crise (a língua NÃO enrola nem é engolida, e colocar objetos na boca pode quebrar dentes ou sufocar a criança).
+      4. Leve imediatamente ao Pronto-Socorro (ou ligue 192 — SAMU) se a crise durar MAIS DE 5 MINUTOS, se um lado só do corpo tremer ou se a criança não voltar a ficar esperta 30 a 60 minutos após a crise parar.
 
   - trigger: ";convulsao-febril-rec"
     replace: |
+      >> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
       RECEITUÁRIO MÉDICO PEDIÁTRICO & PLANO DE AÇÃO DOMICILIAR — CONVULSÃO FEBRIL SIMPLES
       Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
       

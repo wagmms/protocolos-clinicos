@@ -73,7 +73,7 @@
 
 3. VASODILATADOR CORONARIANO / CONTROLE DA DOR:
    - Dinitrato de Isossorbida 5 mg sublingual agora (pode repetir a cada 5 min, até 3 doses, se PAS > 100 mmHg).
-   - [OU]: Nitroglicerina EV contínua em bomba de infusão se dor refratária ou congestão pulmonar.
+   - [OU]: Nitroglicerina (Tridil 50 mg/10 mL): 1 ampola (10 mL) + 240 mL SG 5% (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 6 mL/h (10 a 20 mcg/min) e titular a cada 3 a 5 min se dor refratária ou congestão pulmonar.
    - [CONTRAINDICADO SE PAS < 90 MMHG OU INFARTO DE VENTRÍCULO DIREITO].
 
 4. ANTICOAGULAÇÃO PARENTERAL PLENA (ENOXAPARINA):

@@ -41,14 +41,18 @@
 - [Se paciente aceitou medicação oral voluntariamente]:
   * Haloperidol 5 mg VO (ou Risperidona 2 mg VO / Olanzapina 10 mg VO) + Clonazepam 2 mg VO.
 
->> ETAPA 2: CONTENÇÃO FARMACOLÓGICA RÁPIDA VIA INTRAMUSCULAR (SE RECUSA OU AGRESSIVIDADE ATIVA):
-1. PROTOCOLO PADRÃO-OURO DA EMERGÊNCIA (Antipsicótico + Anti-histamínico com ação anticolinérgica):
+>> ETAPA 2: CONTENÇÃO FARMACOLÓGICA RÁPIDA (SE RECUSA OU AGRESSIVIDADE ATIVA):
+1. [SE SUSPEITA DE ABSTINÊNCIA ALCOÓLICA (DELIRIUM TREMENS) OU INTOXICAÇÃO POR COCAÍNA/CRACK]:
+   - PRIMEIRA LINHA OBRIGATÓRIA: Benzodiazepínico + Tiamina Parenteral (EVITAR Haloperidol isolado pelo risco de convulsão e arritmia):
+     * Diazepam 10 mg EV lento (1 a 2 mL/min) ou VO, repetindo a cada 10 a 20 min até sedação leve [OU Midazolam 5 a 10 mg IM/EV].
+     * + Tiamina (Vitamina B1) 100 mg a 300 mg IM ou EV (fazer ANTES de qualquer infusão de glicose para prevenção de Encefalopatia de Wernicke).
+2. PROTOCOLO PADRÃO-OURO PARA SURTO PSIQUIÁTRICO / PSICOSE / MANIA (Antipsicótico + Anti-histamínico com ação anticolinérgica):
    - Haloperidol (Haldol) 5 mg (1 ampola = 1 mL) INTRAMUSCULAR profunda no glúteo.
    + Prometazina (Fenergan) 50 mg (1 ampola = 2 mL) INTRAMUSCULAR profunda no outro glúteo.
    *(Nota: A Prometazina potencializa a sedação do Haloperidol e PREVINE OBRIGATORIAMENTE a ocorrência de distonia aguda, trismo e crise oculógira induzidas pelo haloperidol).*
-2. [Se paciente muito violento com pico adrenérgico extremo]:
+3. [Se paciente muito violento com pico adrenérgico extremo]:
    - Adicionar Midazolam 5 a 10 mg IM profunda (ação sedativa hipnótica em 10 minutos).
-3. [SE PACIENTE IDOSO COM DELIRIUM]:
+4. [SE PACIENTE IDOSO COM DELIRIUM]:
    - EVITAR Prometazina e Benzodiazepínicos (risco de piora do delirium e sedação paradoxal).
    - Administrar apenas Haloperidol 1,0 mg a 2,5 mg IM ou Quetiapina 25 mg VO.
 

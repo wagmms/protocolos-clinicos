@@ -27,18 +27,8 @@
 - Escala de Coma de Glasgow: [ ]/15 pontos (Ocular: [ ], Verbal: [ ], Motora: [ ]).
 - Pupilas: Isocóricas e fotorreagentes [ou anisocóricas: ( )].
 - Escala de Gravidade do AVC (NIHSS - National Institutes of Health Stroke Scale):
-  * Consciência (1a/1b/1c): [ ]
-  * Paralisia do Olhar Conjugado (2): [ ]
-  * Campo Visual (3): [ ]
-  * Paralisia Facial (4): [ ]
-  * Função Motora dos Membros Superiores (5a/5b): [ ]
-  * Função Motora dos Membros Inferiores (6a/6b): [ ]
-  * Ataxia de Membros (7): [ ]
-  * Sensibilidade (8): [ ]
-  * Linguagem / Afasia (9): [ ]
-  * Disartria (10): [ ]
-  * Extinção e Desatenção / Negligência (11): [ ]
-  * PONTUAÇÃO TOTAL DO NIHSS: [ ] PONTOS (AVC Menor <= 4 | Moderado 5-15 | Grave 16-20 | Muito Grave > 20).
+  * PONTUAÇÃO TOTAL DO NIHSS: [ 0 ] PONTOS (AVC Menor <= 4 | Moderado 5-15 | Grave 16-20 | Muito Grave > 20).
+  * Detalhamento Executivo: [1a-Consciência: 0 | 1b-Perguntas: 0 | 1c-Comandos: 0 | 2-Olhar: 0 | 3-Campo Visual: 0 | 4-Paralisia Facial: 0 | 5a/5b-MMSS: 0/0 | 6a/6b-MMII: 0/0 | 7-Ataxia: 0 | 8-Sensibilidade: 0 | 9-Linguagem: 0 | 10-Disartria: 0 | 11-Negligência: 0].
 
 # INVESTIGAÇÃO COMPLEMENTAR IMEDIATA:
 - Tomografia Computadorizada de Crânio sem Contraste (Realizada às [HH:MM]):
@@ -56,7 +46,7 @@
 1. Verificação Estrita das Contraindicações Absolutas:
    - Afastados: Hemorragia na TC, TCE grave ou AVC isquêmico nos últimos 3 meses, história prévia de hemorragia intracraniana, cirurgia de SNC ou espinhal recente, sangramento ativo, plaquetas < 100.000, INR > 1,7, uso de anticoagulante direto (DOAC) nas últimas 48 horas.
 2. Controle Pressórico Pré-Trombólise (OBRIGATÓRIO PA < 185/110 mmHg ANTES DE INFUNDIR rt-PA):
-   - Se PA >= 185/110 mmHg: Administrado Nitroprussiato de Sódio em BIC ou Metoprolol 5 mg EV lento a cada 10 min.
+   - Se PA >= 185/110 mmHg: Nitroprussiato de Sódio (Nipride 50 mg/2 mL): 1 ampola (2 mL) + 248 mL de SG 5% em frasco/equipo fotossensíveis (concentração: 200 mcg/mL) -> Iniciar em BIC a 3 a 5 mL/h (~0,25 a 0,5 mcg/kg/min para 70 kg) titulado a cada 3 a 5 min [OU Metoprolol 5 mg EV lento a cada 10 min].
    - PA estabilizada com segurança em [ ]x[ ] mmHg às [HH:MM].
 3. Protocolo de Infusão de Alteplase (rt-PA) - Peso do Paciente: [ ] kg:
    - Dose Total Calculada (0,9 mg/kg - Dose Máxima: 90 mg): [ ] mg de Alteplase.
@@ -74,7 +64,7 @@
 2. Antiagregação Plaquetária (iniciar após TC afastar hemorragia):
    - [Monoterapia]: AAS 100 a 300 mg VO (comprimido mastigado ou por SNE) 1x/dia.
    - [OU Dupla Antiagregação - Se AVCi Menor com NIHSS <= 3 ou AIT de Alto Risco com ABCD2 >= 4]:
-     AAS 100 mg VO + Clopidogrel 300 mg VO de ataque, mantendo Clopidogrel 75 mg/dia + AAS 100 mg/dia por 21 dias consecutivos, seguido de monoterapia.
+     AAS 160 a 300 mg VO mastigado + Clopidogrel 300 mg VO de ataque, mantendo Clopidogrel 75 mg/dia + AAS 100 mg/dia por 21 dias consecutivos, seguido de monoterapia.
 3. Estatina em Alta Potência: Atorvastatina 80 mg VO à noite.
 4. Normoglicemia (manter glicemia entre 140 e 180 mg/dL), normotermia (tratar qualquer febre > 37,5 °C com dipirona) e cabeceira a 0-30 graus.
 5. Vaga de enfermaria neurológica / UTI regulada via CROSS/SISREG.

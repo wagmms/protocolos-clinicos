@@ -16,14 +16,14 @@ Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ].
 
 # DESCRIÇÃO TÉCNICA DO PROCEDIMENTO:
 1. Posicionamento & Palpação Prévia Obrigatória: Paciente em decúbito dorsal, braço [esquerdo / direito] abduzido com cotovelo fletido. Implante prévio facilmente localizado por palpação bimanual no plano subdérmico superficial, móvel e íntegro.
-2. Antissepsia & Anestesia Sob a Ponta Distal: Antissepsia com Clorexidina Alcoólica 2% e campo estéril. Infiltração de **0,5 a 1 mL de Lidocaína 2% sem vasoconstritor exatamente ABAIXO da extremidade distal do implante** (para elevar a ponta contra a derme, evitando hidrodissecção acima do implante que o esconderia).
+2. Antissepsia & Anestesia Sob a Ponta Distal: Antissepsia com Clorexidina Alcoólica 2% e campo estéril. Infiltração de 0,5 a 1 mL de Lidocaína 2% sem vasoconstritor exatamente ABAIXO da extremidade distal do implante (para elevar a ponta contra a derme, evitando hidrodissecção acima do implante que o esconderia).
 3. Incisão Longitudinal & Extração (*Técnica Pop-Out*):
    - Pressão digital firme na extremidade proximal do implante para projetar a ponta distal contra a pele.
    - Incisão longitudinal de 2 a 3 mm com lâmina nº 11 sobre a extremidade distal.
-   - Divulsão delicada da cápsula fibrosa com gaze/lâmina até exteriorização da ponta branca; apreensão com pinça Mosquito curva e extração completa de bastonete íntegro medindo **4,0 cm** (apresentado à paciente).
+   - Divulsão delicada da cápsula fibrosa com gaze/lâmina até exteriorização da ponta branca; apreensão com pinça Mosquito curva e extração completa de bastonete íntegro medindo 4,0 cm (apresentado à paciente).
 4. [SE REALIZADA TROCA IMEDIATA]:
    - Complementada anestesia subdérmica ao longo de 4 cm cranialmente.
-   - Introduzida a agulha do novo aplicador Implanon NXT pela **mesma incisão de retirada**, avançando no plano subdérmico superficial sob visão/elevação da pele e liberado o novo implante.
+   - Introduzida a agulha do novo aplicador Implanon NXT pela mesma incisão de retirada, avançando no plano subdérmico superficial sob visão/elevação da pele e liberado o novo implante.
    - Palpação confirmatória do novo bastonete de 4 cm realizada pelo médico e pela paciente.
 5. Síntese & Curativo: Hemostasia compressiva, fechamento com [fita de aproximação estéril *Steri-Strip* / 1 ponto simples de Mononylon 4-0], gaze estéril e faixa compressiva de crepe. Procedimento sem intercorrências.
 

@@ -59,27 +59,22 @@
    - Metoprolol 5 mg EV lento em 2 minutos (pode repetir a cada 5 min até 15 mg total) [OU Diltiazem 0,25 mg/kg EV lento em 2 min].
 
 >> [MODALIDADE C]: PACIENTE ESTÁVEL COM FIBRILAÇÃO ATRIAL (FA) DE ALTA RESPOSTA:
-1. Controle de Frequência Cardíaca (Meta inicial: FC < 110 bpm em repouso):
+1. CHECAGEM OBRIGATÓRIA ANTES DO CONTROLE DE FREQUÊNCIA:
+   - ALERTA CRÍTICO: Contraindicação absoluta ao bloqueio do nó AV (Metoprolol, Diltiazem, Verapamil, Deslanosídeo, Adenosina e Amiodarona) se suspeita de FA pré-excitada / Wolff-Parkinson-White (QRS largo, bizarro e irregularmente irregular). Bloquear o nó AV nessa condição desvia a condução 100% para a via acessória, precipitando Fibrilação Ventricular e PCR fatal imediata. Em FA pré-excitada, a conduta é cardioversão elétrica imediata ou procainamida.
+2. Controle de Frequência Cardíaca (Meta inicial: FC < 110 bpm em repouso - QRS estreito habitual):
    - [Paciente Sem Insuficiência Cardíaca Descompensada]:
      * Metoprolol (Seloken) 5 mg EV lento em 2 minutos. Pode repetir a cada 5 minutos até dose máxima de 15 mg.
      * [OU]: Diltiazem 0,25 mg/kg EV em 2 minutos (dose média: 15 a 20 mg EV).
    - [Paciente Com Insuficiência Cardíaca Aguda / Fração de Ejeção Reduzida]:
      * Deslanosídeo (Cedilanide) 0,4 mg (1 ampola = 2 mL) EV diluído em 20 mL de SF 0,9% lento.
      * [OU]: Amiodarona 150 mg a 300 mg EV diluídos em 100 mL de SG 5% infundidos em 20 a 30 minutos.
-2. Definição do Tempo de Início da Arritmia (Janela de Reversão de Ritmo):
+3. Definição do Tempo de Início da Arritmia (Janela de Reversão de Ritmo):
    - [FA iniciada há < 48 horas documentadas]: Paciente elegível para reversão química (Amiodarona 300 mg EV em 1h + manutenção de 900 mg em 24h) ou elétrica com baixo risco tromboembólico.
    - [FA iniciada há >= 48 horas ou de tempo indeterminado]: PROIBIDA reversão de ritmo de rotina na UPA sem anticoagulação prévia por 3 semanas ou ECO transesofágico (risco de embolização de trombo atrial e AVC isquêmico extenso). A conduta na UPA deve ser estritamente o controle da frequência ventricular.
-3. Estratificação de Risco Tromboembólico - Escore CHA2DS2-VASc:
-   [ ] C - Insuficiência Cardíaca Congestiva (+1)
-   [ ] H - Hipertensão Arterial Sistêmica (+1)
-   [ ] A2 - Idade >= 75 anos (+2)
-   [ ] D - Diabetes Mellitus (+1)
-   [ ] S2 - AVC / AIT / Tromboembolismo prévio (+2)
-   [ ] V - Doença Vascular (IAM prévio, DAOP, placa aórtica) (+1)
-   [ ] A - Idade entre 65 e 74 anos (+1)
-   [ ] Sc - Sexo Feminino (+1)
-   * TOTAL CHA2DS2-VASc: [ ] PONTOS
-   * Conduta de Anticoagulação: Indicada anticoagulação oral plena se pontuação >= 2 em homens ou >= 3 em mulheres (DOAC: Apixabana 5 mg VO 12/12h / Rivaroxabana 20 mg VO 1x/dia com almoço).
+4. Estratificação de Risco Tromboembólico - Escore CHA2DS2-VASc:
+   - Escore CHA2DS2-VASc Total: [ 0 ] PONTOS (Homem >= 2 ou Mulher >= 3: anticoagulação indicada).
+   - Detalhamento: [C-Insuf.Cardíaca(1): 0 | H-Hipertensão(1): 0 | A2-Idade>=75a(2): 0 | D-Diabetes(1): 0 | S2-AVC/AIT(2): 0 | V-Vascular(1): 0 | A-Idade 65-74a(1): 0 | Sc-Sexo Fem(1): 0].
+   - Conduta de Anticoagulação: [Sem indicação (baixo risco) / Indicada anticoagulação oral plena (DOAC: Apixabana 5 mg VO 12/12h / Rivaroxabana 20 mg VO 1x/dia com alimento)].
 ```
 
 ---

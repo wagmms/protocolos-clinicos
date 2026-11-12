@@ -19,8 +19,8 @@ Acesse via navegador em **[https://wagmms.github.io/protocolos-clinicos/](https:
 - **Personalizador com Chips Interativos:** Clique nas opções `[Opção A / Opção B]` diretamente nos chips visuais na aba *"⚡ Personalizar & Chips"* para ajustar a conduta antes de copiar para o prontuário.
 - **Calculadora de Doses por Peso na Topbar:** Insira o peso do paciente (`Peso: [ 70 ] kg`) e acesse instantaneamente doses calculadas de Sepse (30 mL/kg), Dengue C (10 mL/kg/h), Alteplase (0,9 mg/kg), Enoxaparina (1 mg/kg vs 0,75 mg/kg em idosos), Drogas de Intubação (SRI), Dipirona e Paracetamol gotas.
 - **Command Palette Global (`Ctrl + K` ou `/`):** Pressione `Ctrl + K` em qualquer tela para abrir a busca instantânea tipo Spotlight, navegar com as setas e copiar o protocolo com `Enter` (ou abrir diretamente cartões da aba `🧠 Habilidades`).
-- **Aba Dedicada `🧠 Habilidades` (19 Cartões Pré-Porta 30s — 100% Isolada dos 90 PEP):**
-  - Localizada em [`05_Habilidades_Clinicas/`](05_Habilidades_Clinicas/), separada da aba `🌐 Geral`, de `snippets/snippets_todos.json` e dos arquivos Espanso (os 90 modelos de PEP não são alterados).
+- **Aba Dedicada `🧠 Habilidades` (19 Cartões Pré-Porta 30s — 100% Isolada dos 74 PEP):**
+  - Localizada em [`05_Habilidades_Clinicas/`](05_Habilidades_Clinicas/), separada da aba `🌐 Geral`, de `snippets/snippets_todos.json` e dos arquivos Espanso (os 74 modelos de PEP não são alterados).
   - Ao abrir um cartão na aba **`🧠 Habilidades`** (ou via `Ctrl + K` marcado como `🧠 Habilidade`), o Drawer exibe 3 abas dedicadas:
     1. **`⚡ Pré-Porta 30s`:** meta de tempo, âncora mnemônica em destaque e roteiro escaneável no celular antes de entrar no atendimento.
     2. **`✅ Checklist Pós-Atendimento`:** checkboxes persistidos em `localStorage`, contador `X/Y executados` com barra de progresso, painel ao vivo **"Pontos Cegos / Itens Esquecidos"**, botão **`📋 Copiar Debriefing`** (Markdown pronto para `00_DIARIO_PONTOS_CEGOS.md`) e **`🔄 Resetar p/ Próximo Paciente`**.
