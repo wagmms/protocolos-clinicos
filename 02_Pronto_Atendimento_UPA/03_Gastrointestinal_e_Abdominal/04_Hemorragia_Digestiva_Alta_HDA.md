@@ -19,7 +19,7 @@
   * Nega dor torácica anginosa precedente.
   * Nega tosse com expectoração sanguinolenta (afastada hemoptise respiratória).
   * Nega disfagia ou emagrecimento severo recente.
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO DA EMERGÊNCIA & ESTABILIDADE HEMODINÂMICA):
 - SINAIS VITAIS: PA deitado: [ ]x[ ] mmHg | FC: [ ] bpm (taquicardia compensatória) | FR: [ ] irpm | SpO2: [ ]% em AA.

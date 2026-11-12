@@ -51,7 +51,7 @@
 2. Hidratação Venosa: [Suspensa soroterapia de manutenção; manter acesso salinizado / Manter SF 0,9% mL EV em 24h].
 3. Terapêutica Antimicrobiana & Específica:
    - [Manter [ ] em D[ ] de [ ] dias / Realizar transição (Switch Therapy) para via oral com [ ] / Suspender antibiótico por término de tratamento].
-   - [Ajuste de medicações de uso contínuo / controle pressórico e glicêmico:].
+   - [Ajuste de medicações de uso contínuo / controle pressórico e glicêmico: [ ]].
 4. Profilaxia de TEV & Mobilidade: Manter [Enoxaparina 40 mg SC 1x/dia / HNF 5.000 UI SC 8/8h] + estimular deambulação assistida no corredor e fisioterapia motora/respiratória.
 5. Revisão de Dispositivos Invasivos: [Retirar Sonda Vesical de Demora hoje / Trocar ou sacar acesso periférico com > 96h / Manter dispositivos atuais pérvios].
 6. Exames de Controle Solicitados para [Amanhã / Segunda-feira]: [Hemograma, PCR, Função Renal e Eletrólitos / Sem necessidade de coleta laboratorial amanhã].

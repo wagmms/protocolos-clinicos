@@ -11,7 +11,7 @@
 ###### PASSAGEM DE CASO / ROUND OBSTÉTRICO DE PUERPÉRIO (5 TEMPOS) ######
 # 1. MANCHETE OBSTÉTRICA (IDENTIFICAÇÃO + PARTO + RISCO):
 "Preceptor(a), Leito [ ], [Nome], [Idade] anos, G[ ] P[ ] A[ ], no [1º / 2º / 3º] DPO de [Parto Normal sem intercorrências / Parto Normal com laceração de [2º] grau / Cesariana por [indicação]] com IG de [ ]s[ ]d.
-- Antecedentes: [Hígida / HAG / Pré-eclâmpsia / DMG em dieta / Anemia] | Alergias: [Nega alergias / Alérgica a:].
+- Antecedentes: [Hígida / HAG / Pré-eclâmpsia / DMG em dieta / Anemia] | Alergias: [Nega alergias / Alérgica a: [ ]].
 - Intraparto: [Sem intercorrências / Apresentou HPP por atonia revertida com ocitocina + ácido tranexâmico]."
 
 # 2. SUBJETIVO & AMAMENTAÇÃO (ÚLTIMAS 24H):

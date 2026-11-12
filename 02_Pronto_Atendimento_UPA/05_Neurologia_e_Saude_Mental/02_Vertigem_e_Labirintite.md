@@ -20,7 +20,7 @@
   * Nega fraqueza, perda de força muscular ou dormência em um dos lados do corpo.
   * Nega incoordenação motora grave (incapacidade de alcançar objetos).
   * Nega cefaleia occipital súbita de início hiperagudo.
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO NEUROLÓGICO & PROTOCOLO HINTS NA SÍNDROME CONTÍNUA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Tax: [ ] °C.

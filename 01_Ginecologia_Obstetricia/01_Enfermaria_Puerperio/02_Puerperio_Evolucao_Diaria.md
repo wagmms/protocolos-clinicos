@@ -11,8 +11,8 @@
 ###### EVOLUÇÃO DIÁRIA DE ENFERMARIA — PUERPÉRIO (ALOJAMENTO CONJUNTO) ######
 # IDENTIFICAÇÃO & PARTO:
 Paciente [Nome], [Idade] anos, Leito [ ], G[ ] P[ ] A[ ], TS Materna: [O+ / A+ / B+ / Rh negativo] | TS RN: [ ] (Coombs Direto: [Negativo / Positivo]).
-Em [1º / 2º / 3º] dia de puerpério de [Parto Normal sem laceração / Parto Normal com rafia de laceração de 2º grau / Parto Normal com episiotomia / Cesárea por indicação de] realizado em [DD/MM às HH:MM] com IG de [ ]s[ ]d.
-Comorbidades & Alergias: [Hígida / HAG / Pré-eclâmpsia / DMG sob dieta / Anemia] | Alergias: [Nega alergias medicamentosas / Alérgica a:].
+Em [1º / 2º / 3º] dia de puerpério de [Parto Normal sem laceração / Parto Normal com rafia de laceração de 2º grau / Parto Normal com episiotomia / Cesárea por indicação de [ ]] realizado em [DD/MM às HH:MM] com IG de [ ]s[ ]d.
+Comorbidades & Alergias: [Hígida / HAG / Pré-eclâmpsia / DMG sob dieta / Anemia] | Alergias: [Nega alergias medicamentosas / Alérgica a: [ ]].
 
 # SUBJETIVO (EVOLUÇÃO NAS 24H & AMAMENTAÇÃO):
 Encontro puérpera no leito com RN em alojamento conjunto.

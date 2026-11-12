@@ -33,7 +33,7 @@ Chamado(a) ao leito às [HH:MM] pela equipe de enfermagem por parada cardiorresp
 - PARTE I (Cadeia Causal Direta — da causa terminal na linha A até a causa básica na última linha):
   * Linha a (Causa Imediata / Terminal): [ex: Choque séptico refratário / Insuficiência respiratória aguda hipoxêmica / Tamponamento cardíaco] — Tempo aproximado: [ horas / dias].
   * Linha b (Devido a / Causa Intermediária): [ex: Pneumonia bacteriana nosocomial / Tromboembolismo pulmonar maciço / Infarto agudo do miocárdio] — Tempo aproximado: [ dias].
-  * Linha c (Devido a / Causa Intermediária): [Não se aplica /] — Tempo aproximado: [ ].
+  * Linha c (Devido a / Causa Intermediária): [Não se aplica / Causa: [ ]] — Tempo aproximado: [ ].
   * Linha d (Causa Básica Fundamental — doença que iniciou a cadeia): [ex: Doença Pulmonar Obstrutiva Crônica grave / Neoplasia maligna de cólon metastática / Aterosclerose coronariana hipertensiva] — Tempo aproximado: [ meses / anos].
 - PARTE II (Outras condições mórbidas preexistentes que contribuíram, mas não entraram na cadeia direta):
   * [ex: Diabetes Mellitus tipo 2, Doença Renal Crônica estágio 4, Fibrilação Atrial crônica].

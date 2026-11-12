@@ -11,7 +11,7 @@
 # IDENTIFICAÇÃO & CRONOLOGIA:
 - Criança: [Nome] | Sexo: [Masculino / Feminino] | DN: [DD/MM/AAAA]
 - Idade Cronológica: [ ] meses e [ ] dias ([Nascido a termo / Prematuro de [ ] semanas -> Idade Corrigida: [ ] meses])
-- Acompanhante: [Mãe / Pai / Ambos os pais / Cuidador(a):]
+- Acompanhante: [Mãe / Pai / Ambos os pais / Cuidador(a): [ ]]
 
 # SUBJETIVO (ANAMNESE DE PUERICULTURA, NUTRIÇÃO & ROTINA):
 - Intercorrências desde a última consulta: [Assintomático(a), em excelente evolução / Apresentou quadro leve de].
@@ -31,7 +31,7 @@
   * IMC para a Idade: **[ ] kg/m²** -> Classificação: [Eutrofia (Z entre -2 e +1) / Risco de sobrepeso (Z > +1) / Sobrepeso (Z > +2)].
 - Triagens Neonatais & Caderneta de Vacinação (PNI):
   * Triagens: Pezinho: [Normal] | Olhinho (Reflexo Vermelho): [Presente e simétrico] | Orelhinha (EOA): [Passou bilateralmente] | Coraçãozinho: [Normal] | Linguinha: [Normal].
-  * Situação Vacinal: [Completa e rigorosamente em dia para a idade / Vacinas pendentes encaminhadas hoje:].
+  * Situação Vacinal: [Completa e rigorosamente em dia para a idade / Vacinas pendentes encaminhadas hoje: [ ]].
 - Exame FÍSICO Segmentar Completo:
   * Ectoscopia: BEG, ativo, reativo, corado, hidratado, anictérico, acianótico. Fontanela anterior [plana e normotensa / fechada fisiologicamente].
   * Cardiopulmonar: RCR em 2T, BNF sem sopros, pulsos femorais palpáveis e simétricos; MV presente bilateralmente sem ruídos adventícios.
@@ -40,7 +40,7 @@
   * Motricidade Grossa: [Adequado para a idade: sustenta cabeça (2–4m) / senta sem apoio (6–9m) / anda (12–15m) / corre (18–24m)].
   * Motricidade Fina: [Adequado para a idade: abre as mãos e pega objetos (4m) / transfere objetos (6m) / pinça polegar-indicador (9–12m) / rabisca e empilha blocos (18–24m)].
   * Linguagem e Comunicação: [Adequado para a idade: vocaliza e sorri (2–4m) / balbucia sílabas (6–9m) / primeiras palavras com sentido (12m) / junta 2 palavras (18–24m)].
-  * Pessoal-Social (Sinais de Alerta TEA / M-CHAT): [Contato visual sustentado, sorriso social recíproco, atende pelo nome e compartilha atenção apontando / Alerta identificado:].
+  * Pessoal-Social (Sinais de Alerta TEA / M-CHAT): [Contato visual sustentado, sorriso social recíproco, atende pelo nome e compartilha atenção apontando / Alerta identificado: [ ]].
 
 # AVALIAÇÃO DE PUERICULTURA:
 1. Criança [eutrófica com velocidade de crescimento e desenvolvimento neuropsicomotor adequados para a idade (CID-10: Z00.1) / com alerta nutricional ou de desenvolvimento em acompanhamento].
@@ -52,16 +52,10 @@
 1. Manter [Aleitamento Materno Exclusivo em livre demanda até o 6º mês / Aleitamento materno + alimentação complementar saudável in natura].
 2. Suplementação Profilática (SBP / Ministério da Saúde):
    - Vitamina D3 (Colecalciferol): [400 UI/dia VO (< 12 meses) / 600 UI/dia VO (12 a 24 meses)].
-   - Ferro Elementar Profilático: [Ainda não iniciado (< 6m a termo em AME) / Iniciar ou manter 1 mg/kg/dia VO de ferro elementar (termo ≥ 6m) / 2 mg/kg/dia VO desde 30 dias de vida (prematuro ou baixo peso < 2.500 g)].
+   - Ferro Elementar Profilático (SBP): [Ainda não iniciado (< 3–6m a termo sem fatores de risco) / Iniciar ou manter 1 mg/kg/dia VO a partir dos 6 meses (termo sem fatores de risco) / Iniciar 1 mg/kg/dia VO aos 3 meses (termo com fator de risco) / 2 a 4 mg/kg/dia VO desde 30 dias de vida (prematuro ou baixo peso < 2.500 g)].
 3. Prevenção de Acidentes Domésticos e Sono Seguro: Orientados decúbito dorsal estrito no berço, transporte veicular no bebê-conforto/cadeirinha de costas para o painel, prevenção de quedas de trocador/cama, queimaduras, afogamentos e engasgos (proibição de grãos inteiros e peças pequenas).
 4. Agendado retorno de Puericultura para [ ] meses de idade (Cronograma MS: 1ª sem, 1m, 2m, 4m, 6m, 9m, 12m, 18m e 24m).
-```
-
----
-
-## 💊 Receita Domiciliar / Alta
-
-```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO DE PUERICULTURA — SUPLEMENTAÇÃO PROFILÁTICA (SBP)
 Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
 
@@ -71,7 +65,33 @@ USO ORAL DIÁRIO:
 
 2. Sulfato Ferroso (ou Ferro Polimaltosado / Quelato) Solução Gotas ------------ 1 frasco
    (Concentração padrão: 25 mg de Ferro Elementar/mL ≈ 1 mg de Ferro Elementar por gota)
-   Dar [ ] gotas (Dose: [1 mg/kg/dia para nascidos a termo a partir dos 6 meses / 2 mg/kg/dia para prematuros ou baixo peso < 2.500 g a partir de 30 dias de vida]) por via oral, 1 vez ao dia, 30 minutos antes do almoço (preferencialmente junto com fruta cítrica rica em vitamina C, longe do leite), até os 24 meses.
+   Dar [ ] gotas (Dose SBP: [1 mg/kg/dia a partir dos 6 meses (termo sem risco) / 1 mg/kg/dia a partir dos 3 meses (termo com fator de risco) / 2 mg/kg/dia a partir de 30 dias (prematuro ou peso 1.500–2.499 g) / 3 a 4 mg/kg/dia a partir de 30 dias (< 1.500 g)]) por via oral, 1 vez ao dia, 30 minutos antes do almoço (preferencialmente junto com fruta cítrica rica em vitamina C, longe do leite), até os 24 meses.
+
+3. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+   Para higiene nasal com seringa de 3 a 5 mL em cada narina antes das mamadas e antes de dormir se houver congestão nasal.
+
+ORIENTAÇÕES NUTRICIONAIS E DE SEGURANÇA (SBP / MINISTÉRIO DA SAÚDE):
+- Zero açúcar, zero mel (risco de botulismo intestinal em < 1 ano), zero sucos (mesmo naturais) no 1º ano de vida e zero alimentos ultraprocessados (biscoitos, iogurtes açucarados, embutidos) nos primeiros 2 anos.
+- Posição de Sono Seguro: Sempre de barriga para cima (decúbito dorsal), em colchão firme, sem travesseiros fofos, protetores de berço ou cobertores soltos.
+- Zero exposição a telas (celular, tablet, televisão) antes dos 2 anos de idade.
+```
+
+---
+
+## 💊 Receita Domiciliar / Alta
+
+```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO DE PUERICULTURA — SUPLEMENTAÇÃO PROFILÁTICA (SBP)
+Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
+
+USO ORAL DIÁRIO:
+1. Colecalciferol (Vitamina D3) Gotas (200 UI por gota) ------------------------ 1 frasco
+   Dar [2 gotas (= 400 UI/dia para menores de 1 ano) / 3 gotas (= 600 UI/dia de 1 a 2 anos)] por via oral, 1 vez ao dia, todos os dias, até completar 24 meses de idade.
+
+2. Sulfato Ferroso (ou Ferro Polimaltosado / Quelato) Solução Gotas ------------ 1 frasco
+   (Concentração padrão: 25 mg de Ferro Elementar/mL ≈ 1 mg de Ferro Elementar por gota)
+   Dar [ ] gotas (Dose SBP: [1 mg/kg/dia a partir dos 6 meses (termo sem risco) / 1 mg/kg/dia a partir dos 3 meses (termo com fator de risco) / 2 mg/kg/dia a partir de 30 dias (prematuro ou peso 1.500–2.499 g) / 3 a 4 mg/kg/dia a partir de 30 dias (< 1.500 g)]) por via oral, 1 vez ao dia, 30 minutos antes do almoço (preferencialmente junto com fruta cítrica rica em vitamina C, longe do leite), até os 24 meses.
 
 3. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
    Para higiene nasal com seringa de 3 a 5 mL em cada narina antes das mamadas e antes de dormir se houver congestão nasal.

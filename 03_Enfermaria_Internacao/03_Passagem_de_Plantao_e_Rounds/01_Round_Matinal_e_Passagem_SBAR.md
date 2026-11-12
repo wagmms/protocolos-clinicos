@@ -18,14 +18,14 @@
 # 2. [B] BACKGROUND (CONTEXTO CLÍNICO & HISTÓRICO ESSENCIAL):
 - Motivo da Admissão: Internado(a) em [DD/MM/AAAA] por quadro de [ ].
 - Comorbidades de Base: [Hígido(a) / HAS / DM2 / IC (FE [ ]%) / DRC estágio [ ] / DPOC / Cirrose / Neoplasia: [ ]].
-- Intervenções Relevantes Realizadas na Internação: [Tratamento clínico exclusivo / Procedimento cirúrgico: / Toracocentese / Paracentese / EDA / Transfusão].
-- Alergias Medicamentosas: [Nega alergias / Alérgico(a) a:].
+- Intervenções Relevantes Realizadas na Internação: [Tratamento clínico exclusivo / Procedimento cirúrgico: [ ]/ Toracocentese / Paracentese / EDA / Transfusão].
+- Alergias Medicamentosas: [Nega alergias / Alérgico(a) a: [ ]].
 
 # 3. [A] ASSESSMENT (AVALIAÇÃO DAS ÚLTIMAS 24H, EXAME & LABORATÓRIO):
 - Evolução nas Últimas 24h: [Estável, sem intercorrências no plantão / Apresentou pico febril de [ ] °C / Apresentou dessaturação para [ ]% / Episódio de hipotensão ou dor aguda].
 - Sinais Vitais Atuais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ([em ar ambiente / sob O2 a L/min]) | Tax máx 24h: [ ] °C.
 - Balanço Hídrico & Diurese (24h): Diurese: [ ] mL ([ ] mL/kg/h) | BH 24h: [Neutro / Positivo em +[ ] mL / Negativo em -[ ] mL].
-- Achados Físicos Positivos do Dia: [Lúcido(a), eupneico(a), abdome flácido e indolor, extremidades bem perfundidas / Alteração relevante:].
+- Achados Físicos Positivos do Dia: [Lúcido(a), eupneico(a), abdome flácido e indolor, extremidades bem perfundidas / Alteração relevante: [ ]].
 - Dispositivos Ativos: [Acesso periférico em [MSD / MSE] D[ ] / CVC em [ ] D[ ] / SVD / SNE / Dreno [ ] com débito de [ ] mL/24h].
 - Exames Laboratoriais e Culturas Recentes:
   * Hb: [ ] | Leuco: [ ] (Bast: [ ]%) | Plaq: [ ] | PCR: [ ] | Cr: [ ] | Ur: [ ] | Na: [ ] | K: [ ].

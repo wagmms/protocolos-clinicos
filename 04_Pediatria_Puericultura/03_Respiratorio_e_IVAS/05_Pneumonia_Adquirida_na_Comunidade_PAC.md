@@ -10,7 +10,7 @@
 ###### ATENDIMENTO PEDIÁTRICO — PNEUMONIA ADQUIRIDA NA COMUNIDADE (PAC) ######
 # IDENTIFICAÇÃO & PESO:
 - Criança: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | **PESO ATUAL: [ ] kg**
-- Acompanhante: [Mãe / Pai / Responsável:]
+- Acompanhante: [Mãe / Pai / Responsável: [ ]]
 
 # SUBJETIVO (ANAMNESE DIRIGIDA & PADRÃO CLÍNICO):
 - Queixa Principal (QP): Tosse, febre persistente e respiração rápida/cansada há [ ] dias.
@@ -51,6 +51,27 @@
 3. Antibioticoterapia Venosa Empírica:
    - Criança vacinada sem sepse/derrame extenso: **Ampicilina `200 mg/kg/dia` EV de 6/6h** (ou Penicilina Cristalina `200.000 UI/kg/dia` EV de 4/4h ou 6/6h).
    - Criança grave, vacinação incompleta ou derrame pleural complicado: **Ceftriaxona `50 a 100 mg/kg/dia` EV** (+ Oxacilina `200 mg/kg/dia` ou Clindamicina se suspeita de *S. aureus*/pneumatocele).
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO PEDIÁTRICO — PNEUMONIA COMUNITÁRIA (TRATAMENTO AMBULATORIAL)
+Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+
+USO ORAL E NASAL:
+1. [Amoxicilina Suspensão Oral 250 mg / 5 mL (50 mg/mL) / Amoxicilina Suspensão Oral 400 mg / 5 mL (80 mg/mL)] --- [ ] frasco(s)
+   Dar **[ ] mL** por via oral de **[8 em 8 horas / 12 em 12 horas]**, rigorosamente nos horários, durante **7 dias** completos (Não interromper o antibiótico mesmo que a febre desapareça no 2º dia).
+   *(Dose calculada para [ ] kg: [50 / 90] mg/kg/dia).*
+
+2. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+   Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor no peito/barriga para respirar.
+
+3. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+   Lavar as narinas com seringa de [3 a 5 / 5 a 10] mL em cada narina 4 a 6 vezes ao dia e oferecer bastante líquido (água, leite materno, sucos naturais ou água de coco).
+
+COMPROMISSO OBRIGATÓRIO DE RETORNO EM 48 HORAS & SINAIS DE ALARME:
+- RETORNO AGENDADO EM 48 HORAS ([DD/MM/AAAA]): Toda criança em tratamento de pneumonia em casa precisa ser reavaliada pelo médico em 48 a 72 horas para confirmar que a febre cedeu e que a respiração desacelerou.
+- VOLTAR IMEDIATAMENTE AO PRONTO-SOCORRO (ANTES DE 48H) SE:
+  1. A febre continuar alta após 48 horas do início da Amoxicilina ou o cansaço para respirar aumentar.
+  2. Surgir afundamento abaixo das costelas, gemido constante a cada respiração ou cor arroxeada nos lábios.
+  3. A criança vomitar as doses do antibiótico ou ficar muito sonolenta/prostrada mesmo sem febre.
 ```
 
 ---
@@ -58,6 +79,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO — PNEUMONIA COMUNITÁRIA (TRATAMENTO AMBULATORIAL)
 Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 

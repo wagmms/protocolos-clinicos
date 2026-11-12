@@ -71,5 +71,7 @@
 ### 🧭 3. Os 4 "Ts" da HPP: Como Não Esquecer as Outras 3 Causas
 - **Tônus (70% — Atonia Uterina):** Útero mole e esponjoso acima da cicatriz umbilical.
 - **Trauma (20% — Laceração de colo/vagina, Hematoma pélvico ou Rotura/Inversão uterina):** Sangramento vermelho vivo contínuo **com o útero firme e bem contraído (Globo de Pinard presente)!** Exige revisão com valvas de Doyen sob boa luz.
-- **Tecido (9% — Retenção placentária / Cotilédone acessório / Acretismo):** Placenta incompleta à inspeção $ightarrow$ curagem digital ou curetagem romba com cureta de Wallich.
-- **Trombina (1% — Coagulopatia prévia ou CIVD secundária a DPP/embolia amniótica/sepse):** Sangue que **não forma coágulo firme em tubo seco após 7–10 min** (*Teste de Weiner*) e sangra pelos locais de venopunção $ightarrow$ acionar transfusão maciça `1 CH : 1 PFC : 1 Plaquetas` + Crioprecipitado se fibrinogênio `< 200 mg/dL`.
+- **Tecido (9% — Retenção placentária / Cotilédone acessório / Acretismo):** Placenta incompleta à inspeção $
+ightarrow$ curagem digital ou curetagem romba com cureta de Wallich.
+- **Trombina (1% — Coagulopatia prévia ou CIVD secundária a DPP/embolia amniótica/sepse):** Sangue que **não forma coágulo firme em tubo seco após 7–10 min** (*Teste de Weiner*) e sangra pelos locais de venopunção $
+ightarrow$ acionar transfusão maciça `1 CH : 1 PFC : 1 Plaquetas` + Crioprecipitado se fibrinogênio `< 200 mg/dL`.

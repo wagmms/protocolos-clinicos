@@ -73,6 +73,30 @@
 
 >> SINAIS DE ALARME PARA RETORNO IMEDIATO:
 - Orientado(a) a procurar a emergência imediatamente se apresentar falta de ar progressiva, lábios azulados, vômitos que impeçam tomar o antibiótico ou sonolência e desorientação.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO — PNEUMONIA ADQUIRIDA NA COMUNIDADE (MANEJO AMBULATORIAL — CURB-65 = 0 OU 1)
+Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+
+[OPÇÃO A — PACIENTE HÍGIDO SEM COMORBIDADES E SEM USO DE ATB NOS ÚLTIMOS 90 DIAS]:
+1. Amoxicilina 500 mg (ou Amoxicilina 875 mg de 12/12h) ---------------------- 21 cápsulas
+   Tomar 1 cápsula (ou 2 cápsulas = 1 g) por via oral de 8 em 8 horas durante **7 dias**.
+   *[OU Se suspeita de germe atípico / alergia leve]*: Azitromicina 500 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Claritromicina 500 mg VO 12/12h por 7 dias).
+
+[OPÇÃO B — PACIENTE COM COMORBIDADES (HAS, DM, DPOC, IC, DRC, IDOSO) OU USO RECENTE DE ATB]:
+1. Amoxicilina + Clavulanato 875/125 mg -------------------------------------- 14 comprimidos
+   Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante **7 dias**.
+2. ASSOCIADO A: Azitromicina 500 mg ------------------------------------------ 5 comprimidos
+   Tomar 1 comprimido por via oral 1 vez ao dia durante **5 dias** (Terapia combinada Beta-lactâmico + Macrolídeo).
+   *[OU Monoterapia Alternativa com Quinolona Respiratória]*: Levofloxacino 750 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Moxifloxacino 400 mg VO 1x/dia por 5–7 dias).
+
+[MEDICAÇÃO SINTOMÁTICA E SUPORTE]:
+3. Dipirona Monoidratada 1 g ------------------------------------------------- 1 caixa
+   Tomar 1 comprimido por via oral de 6 em 6 horas se febre (Tax ≥ 37,8 °C) ou dor no peito ao respirar.
+
+ORIENTAÇÕES E SINAIS DE ALARME (REAVALIAÇÃO OBRIGATÓRIA EM 48–72H):
+- Manter repouso domiciliar, alimentação nutritiva e hidratação oral vigorosa (mínimo de 2 a 2,5 litros de água por dia para fluidificar a secreção pulmonar).
+- REAVALIAÇÃO MÉDICA EM 48 A 72 HORAS: A febre deve ceder e o cansaço deve melhorar em até 48 a 72 horas do início do antibiótico.
+- RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Falta de ar em repouso, respiração muito rápida, lábios arroxeados, tontura/queda da pressão, confusão mental/sonolência, vômitos que impeçam tomar o antibiótico ou febre persistente após 72 horas.
 ```
 
 ---
@@ -80,6 +104,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO — PNEUMONIA ADQUIRIDA NA COMUNIDADE (MANEJO AMBULATORIAL — CURB-65 = 0 OU 1)
 Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 

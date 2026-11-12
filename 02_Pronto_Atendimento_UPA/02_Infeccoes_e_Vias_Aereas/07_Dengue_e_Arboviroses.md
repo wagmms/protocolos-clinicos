@@ -22,7 +22,7 @@
   - Sangramento de mucosas (gengivorragia, epistaxe, metrorragia volumosa ou hematêmese)
   - Letargia, sonolência excessiva, desorientação ou irritabilidade
   - Aumento progressivo e abrupto do hematócrito (hemoconcentração)
-  * STATUS: [TODOS OS SINAIS DE ALARME NEGADOS / SINAL DE ALARME PRESENTE:].
+  * STATUS: [TODOS OS SINAIS DE ALARME NEGADOS / SINAL DE ALARME PRESENTE: [ ]].
 - Comorbidades / Fatores de Risco: [Nega / Idade >= 65 anos / Gestante / HAS / DM2 / Cardiopata / DRC / Hepatopata / Asma].
 - Alergias: [Nega / Alérgico a Dipirona].
 
@@ -71,6 +71,39 @@
 
 >> SINAIS DE ALARME EXPLICADOS À FAMÍLIA (RETORNO IMEDIATO):
 - Atenção extrema nos dias em que a febre começar a ceder (período de maior risco de choque). Retornar correndo se tiver vômitos que não param, dor de barriga muito forte, sangramentos no nariz ou gengiva, tontura ao sentar ou sonolência extrema.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO & PLANO DE HIDRATAÇÃO — DENGUE (GRUPOS A E B — MINISTÉRIO DA SAÚDE)
+Paciente: [Nome] | Peso Atual: [ ] kg | Dia de Doença: [ ]º dia | Data: [DD/MM/AAAA]
+
+1. PRESCRIÇÃO DE HIDRATAÇÃO ORAL VIGOROSA (O REMÉDIO QUE SALVA VIDAS NA DENGUE):
+   - Meta diária calculada pelo seu peso (60 mL/kg/dia): Beber **[ ] Litros de líquidos por dia** (divididos ao longo do dia).
+   - **1/3 deste volume ([ ] mL/dia)** DEVE ser de **Sais de Reidratação Oral (SRO)** (diluir 1 envelope em 1 litro de água filtrada) ou soro caseiro / água de coco.
+   - **2/3 deste volume ([ ] mL/dia)** em água pura, sucos naturais de frutas, chás claros ou sopas.
+   - Manter essa hidratação durante todo o período de febre e por até 24 a 48 horas após a febre desaparecer!
+
+2. MEDICAÇÃO PARA FEBRE E DOR:
+   - Dipirona Monoidratada 500 mg (ou 1 g) ----------------------------------- 1 caixa
+     Tomar 1 comprimido de 1 g (ou 2 comprimidos de 500 mg) por via oral até de 6 em 6 horas se febre ou dor no corpo/cabeça.
+   - [OU Alternativa] Paracetamol 500 mg a 750 mg ---------------------------- 1 caixa
+     Tomar 1 comprimido por via oral de 6 em 6 horas se febre ou dor (Máximo de 4 comprimidos em 24 horas).
+
+3. MEDICAÇÃO PARA NÁUSEAS / ENJOO:
+   - Ondansetrona 4 mg (ou Metoclopramida / Bromoprida 10 mg) ---------------- 1 caixa
+     Tomar 1 comprimido por via oral de 8 em 8 horas se apresentar enjoo.
+
+4. [Se coceira intensa na pele (exantema da dengue)]:
+   - Loratadina 10 mg (ou Dexclorfeniramina 2 mg) ---------------------------- 1 caixa
+     Tomar 1 comprimido por via oral 1 a 2 vezes ao dia + banhos frios e loção hidratante.
+
+PROIBIÇÃO ABSOLUTA (RISCO DE HEMORRAGIA GRAVE):
+- É TERMINANTEMENTE PROIBIDO tomar AAS (Aspirina) e qualquer Anti-inflamatório (Ibuprofeno, Diclofenaco, Cetoprofeno, Nimesulida, Naproxeno, Celecoxibe) ou Corticoides, nem aplicar injeções intramusculares!
+
+SINAIS DE ALARME DA DENGUE (VOLTAR IMEDIATAMENTE À UPA — PRINCIPALMENTE QUANDO A FEBRE BAIXAR NO 3º AO 7º DIA!):
+1. Dor na barriga (dor abdominal) intensa e contínua.
+2. Vômitos persistentes (não consegue segurar líquidos).
+3. Tontura, sensação de vista escura ou desmaio ao ficar de pé (hipotensão postural).
+4. Qualquer sangramento (gengiva, nariz, manchas vermelhas/roxas na pele, fezes escuras, vômito com sangue ou menstruação excessiva).
+5. Sonolência excessiva, confusão mental, irritabilidade ou falta de ar.
 ```
 
 ---
@@ -78,6 +111,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO & PLANO DE HIDRATAÇÃO — DENGUE (GRUPOS A E B — MINISTÉRIO DA SAÚDE)
 Paciente: [Nome] | Peso Atual: [ ] kg | Dia de Doença: [ ]º dia | Data: [DD/MM/AAAA]
 

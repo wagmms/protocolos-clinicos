@@ -22,7 +22,7 @@
   * [ ] 3. TOXIDROME COLINÉRGICA (Organofosforados / Carbamatos / Chumbinho): Miose puntiforme, bradicardia acentuada, sialorreia profusa ("baba contínua"), broncorreia intensa com estertores ("afogando nas próprias secreções"), sudorese, fasciculações musculares e diarreia.
   * [ ] 4. TOXIDROME SIMPATICOMIMÉTICA (Cocaína, Crack, Anfetaminas): Agitação psicomotora violenta, midríase bilateral fotorreagente, taquicardia extrema, pico hipertensivo grave, sudorese profusa e hipertermia.
   * [ ] 5. TOXIDROME ANTICOLINÉRGICA (Tricíclicos, Anti-histamínicos): Midríase paralítica fixa, pele seca e quente, taquicardia, retenção urinária aguda (bexigoma) e delírio agitado.
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO DA SALA DE EMERGÊNCIA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.

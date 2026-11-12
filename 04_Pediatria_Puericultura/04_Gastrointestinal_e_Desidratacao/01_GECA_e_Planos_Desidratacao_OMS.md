@@ -11,7 +11,7 @@
 # IDENTIFICAÇÃO & PESO DE ENTRADA:
 - Criança: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | **PESO DE ENTRADA AFERIDO: [ ] kg**
 - Peso Prévio Conhecido (se disponível para cálculo de perda aguda): [Não informado / [ ] kg -> Perda de [ ]%]
-- Acompanhante: [Mãe / Pai / Responsável:]
+- Acompanhante: [Mãe / Pai / Responsável: [ ]]
 
 # SUBJETIVO (CARACTERIZAÇÃO DA DIARREIA, VÔMITOS & RED FLAGS):
 - Queixa Principal (QP): Diarreia líquida e vômitos há [ ] dias.
@@ -56,6 +56,33 @@
      * **Maiores de 1 ano (Total em 3 horas):** `30 mL/kg` em **30 minutos** + `70 mL/kg` em **2 horas e 30 minutos**.
    - *(No Choque Hipovolêmico PALS: Bólus de `20 mL/kg` de SF 0,9% ou RL em 5 a 20 minutos, repetindo até restauração da perfusão e nível de consciência).*
 3. Assim que a criança estiver consciente e capaz de deglutir, iniciar SRO concomitante (`5 mL/kg/h`) e reavaliar de hora em hora até transição para Plano B e Plano A.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO PEDIÁTRICO — GASTROENTERITE AGUDA (PLANO A — OMS / MINISTÉRIO DA SAÚDE)
+Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+
+USO ORAL:
+1. Sais para Reidratação Oral (SRO — Envelope Padrão OMS/MS) ------------------- [4 a 6] envelopes
+   Dissolver 1 envelope inteiro em exatamente 1 litro de água filtrada ou fervida fria (não adicionar açúcar nem sal; desprezar a sobra após 24 horas).
+   Oferecer **[50 a 100 mL (meio copo — menores de 1 ano) / 100 a 200 mL (1 copo — maiores de 1 ano)]** em pequenos goles ou colheradas APÓS CADA evacuação líquida ou episódio de vômito.
+
+2. Sulfato de Zinco Solução Oral (4 mg/mL) ou Gotas ---------------------------- 1 frasco
+   Dar **[10 mg (= 2,5 mL se < 6 meses) / 20 mg (= 5 mL se ≥ 6 meses)]** por via oral, 1 vez ao dia, durante **10 a 14 dias consecutivos** (mesmo após a diarreia parar, pois o Zinco regenera a parede do intestino e evita nova diarreia nos próximos 3 meses).
+
+3. Ondansetrona 4 mg (Comprimido Orodispersível — derrete na língua) ----------- 1 caixa
+   Dar **[meio comprimido (2 mg para 8 a 15 kg) / 1 comprimido (4 mg para > 15 kg)]** na boca até de 8 em 8 horas APENAS se houver vômitos repetidos que impeçam a hidratação. Aguardar 20 minutos após o comprimido antes de oferecer o soro em colheradas.
+
+4. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+   Dar **[ ] gotas** por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor abdominal.
+
+REGRAS DE OURO DA ALIMENTAÇÃO E MEDICAMENTOS PROIBIDOS:
+- NUNCA deixar a criança de jejum e NUNCA diluir o leite/fórmula com mais água: mantenha o leite materno em livre demanda e a alimentação habitual saudável (arroz, caldo de feijão, frango/carne magra cozida, batata, banana, maçã, cenoura). Evitar apenas refrigerantes, sucos industrializados muito doces e frituras (o excesso de açúcar puxa mais água para o intestino e piora a diarreia).
+- ESTRITAMENTE PROIBIDO dar remédios para "travar o intestino" (Loperamida / Imosec, Elixir Paregórico) ou refrigerante sem gás.
+
+SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+1. Criança muito irritada bebendo água com sede desesperada, ou criança muito molinha/sonolenta que não quer beber nada.
+2. Olhos fundos, choro sem lágrimas, boca seca ou ausência de xixi na fralda por mais de 6 horas.
+3. Vômitos repetidos que não param mesmo após o remédio de enjoo, ou vômito verde-escuro (bilioso).
+4. Surgimento de sangue vivo nas fezes ou dor de barriga intensa e contínua.
 ```
 
 ---
@@ -63,6 +90,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO — GASTROENTERITE AGUDA (PLANO A — OMS / MINISTÉRIO DA SAÚDE)
 Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 

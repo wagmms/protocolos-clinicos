@@ -17,7 +17,7 @@
   * Nega dispneia, falta de ar, dor torácica ventilatório-dependente ou sibilos.
   * Nega dor facial intensa em peso unilateral ou secreção nasal purulenta fétida > 10 dias.
   * Nega disfagia intensa com recusa hídrica, trismo ou sialorreia.
-- Alergias Medicamentosas: [Nega alergias conhecidas / Alérgico a:].
+- Alergias Medicamentosas: [Nega alergias conhecidas / Alérgico a: [ ]].
 - Comorbidades: [Hígido / Asma / HAS / DM2].
 
 # OBJETIVO (EXAME FÍSICO DIRIGIDO):

@@ -65,6 +65,24 @@
      * Tronco e Membros Superiores/Inferiores: 10 a 14 dias.
      * Áreas de Articulações / Alta Mobilidade: 14 dias.
 4. Sinais de Alarme: Retornar antes se surgirem vermelhidão que se espalha ao redor dos pontos, calor intenso, inchaço acentuado, saída de secreção purulenta (pus) ou febre.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+USO ORAL E CUIDADOS COM A SUTURA:
+
+1. Dipirona Sódica 1 g ----------------------------------------- 10 comprimidos
+   Tomar 01 comprimido por via oral de 6/6 horas se dor no local da sutura.
+
+2. [SE MORDEDURA ANIMAL / FERIMENTO CONTAMINADO / MÃO / PÉ]:
+   Amoxicilina + Clavulanato 875/125 mg ------------------------ 14 comprimidos
+   Tomar 01 comprimido por via oral de 12/12 horas, junto às refeições, por 5 a 7 dias (cobertura obrigatória para Pasteurella multocida, Capnocytophaga, S. aureus e anaeróbios).
+
+CUIDADOS COM OS PONTOS E RETORNO PARA RETIRADA:
+- Lavar a ferida diariamente no banho com água corrente e sabonete neutro, secar delicadamente com toalha limpa e manter aberta (ou protegida com gaze seca se houver atrito com a roupa).
+- Prazo para retirada de pontos na UBS:
+  • Face e pálpebras: 4 a 5 dias
+  • Couro cabeludo, pescoço e tronco: 7 a 10 dias
+  • Membros superiores/inferiores e áreas articulares/plantares: 10 a 14 dias
+- Retornar imediatamente se surgir vermelhidão progressiva, calor local, saída de pus, abertura dos pontos (deiscência) ou febre.
+- Comparecer à Sala de Vacinas da UBS com este encaminhamento para completar o esquema antitetânico e/ou antirrábico prescrito.
 ```
 
 ---
@@ -74,6 +92,7 @@
 > **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 USO ORAL E CUIDADOS COM A SUTURA:
 
 1. Dipirona Sódica 1 g ----------------------------------------- 10 comprimidos

@@ -10,7 +10,7 @@
 ###### ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA — CRUPE VIRAL (LARINGOTRAQUEOBRONQUITE) ######
 # IDENTIFICAÇÃO & PESO:
 - Criança: [Nome] | Idade: [ ] [meses / anos] (Faixa típica: 6 meses a 3 anos) | **PESO ATUAL: [ ] kg**
-- Acompanhante: [Mãe / Pai / Responsável:]
+- Acompanhante: [Mãe / Pai / Responsável: [ ]]
 
 # SUBJETIVO (ANAMNESE DIRIGIDA & EXCLUSÃO DE EPIGLOTITE / CORPO ESTRANHO):
 - Queixa Principal (QP): Tosse rouca ("tosse de cachorro/foca") e barulho agudo para puxar o ar iniciados à noite há [ ] horas.
@@ -52,6 +52,30 @@
 3. **Observação Clínica Obrigatória por 3 a 4 Horas Pós-Adrenalina (Prevenção do Efeito Rebote):**
    - Manter em sala de observação pediátrica por no mínimo **3 a 4 horas** após o término da nebulização com adrenalina.
    - Reavaliação pós-observação às [HH:MM]: [Criança eupneica, sem estridor em repouso, sem tiragens e SpO2 ≥ 95% em AA -> Alta segura / Recorrência do estridor em repouso -> Repetir nebulização com adrenalina e internar].
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO PEDIÁTRICO — ALTA DE LARINGITE / CRUPE VIRAL
+Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+
+NOTA DE MEDICAÇÃO JÁ REALIZADA NO PRONTO ATENDIMENTO:
+- A criança já recebeu na unidade a dose única anti-inflamatória de **Dexametasona ([ ] mg)**, que possui ação prolongada por 48 a 72 horas para desinchar a laringe (não sendo necessário repetir corticoide em casa, salvo nova prescrição médica).
+
+USO ORAL E NASAL DOMICILIAR:
+1. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+   Dar [ ] gotas por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor de garganta.
+
+2. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+   Lavar as narinas com seringa de 3 a 5 mL suavemente se houver secreção nasal, sem forçar caso a criança chore muito.
+
+ORIENTAÇÕES AOS PAIS PARA ALÍVIO DA TOSSE ROUCA À NOITE:
+- Manter a Criança Calma: O choro aumenta o turbilhonamento do ar na garganta e piora o barulho (estridor). Acolha a criança no colo em posição sentada.
+- Ar Fresco ou Vapor Úmido: Em caso de crise de tosse "de cachorro" à noite, sente-se com a criança no banheiro com o chuveiro morno ligado formando vapor por 10 a 15 minutos, ou leve-a próxima à janela para respirar ar fresco noturno.
+- Hidratação: Oferecer líquidos frios ou em temperatura ambiente em pequenos goles.
+
+SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+1. Barulho agudo para puxar o ar (estridor) presente mesmo quando a criança está CALMA, quieta no colo ou dormindo.
+2. Afundamento na furculinha do pescoço ou abaixo das costelas para respirar.
+3. Criança babando sem conseguir engolir a própria saliva (sialorreia) ou pescoço esticado para frente.
+4. Agitação intensa, sonolência anormal ou cor arroxeada ao redor da boca.
 ```
 
 ---
@@ -59,6 +83,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO — ALTA DE LARINGITE / CRUPE VIRAL
 Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 

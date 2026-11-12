@@ -21,7 +21,7 @@
   * Nega febre alta, calafrios ou fezes com sangue vivo e pus.
   * Nega desidratação, prostração grave ou perda de peso volumosa.
 - Hábitos & Saneamento: [Água encanada tratada / Água de poço; consome verduras cruas sem higienização com hipoclorito; crianças pequenas no domicílio].
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO DIRIGIDO):
 - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | Afebril.

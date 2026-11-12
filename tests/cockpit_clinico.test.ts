@@ -384,3 +384,66 @@ test('Editorial Diretrizes & Raciocínio Clínico: Formatted HTML renderer and s
   }
 });
 
+test('Personalizar v3.0 & Modular Architecture: Sub-inputs restored, 49 Receitas unified in pep_body, weight-based dose helper, and /src modules', () => {
+  // 1. Verify modular /src architecture files exist
+  const requiredModules = [
+    'src/styles/cockpit.css',
+    'src/data/clinical_data.ts',
+    'src/engine/personalizar.ts',
+    'src/engine/diretrizes.ts',
+    'src/engine/search.ts',
+    'src/engine/workstation.ts'
+  ];
+  for (const relPath of requiredModules) {
+    const full = path.resolve(process.cwd(), relPath);
+    assert.equal(fs.existsSync(full), true, `Modular file ${relPath} must exist`);
+  }
+
+  const { sandbox, runExpr } = extractScriptAndRun();
+  const allData = Array.from<any>(runExpr('allData'));
+  const pepItems = allData.filter((d: any) => d.mod_id !== 'hab');
+
+  // 2. Verify zero stripped choice brackets ([Nega /], [Ausente //10 min], or choice options ending with ':')
+  for (const item of pepItems) {
+    assert.equal(item.pep_body.includes('[Nega /]'), false, `Protocol ${item.id} must not have stripped [Nega /]`);
+    assert.equal(item.pep_body.includes('//10 min]'), false, `Protocol ${item.id} must not have stripped //10 min]`);
+    const lines = String(item.pep_body).split('\n');
+    for (const line of lines) {
+      const tokens = Array.from<any>(runExpr(`parseBalancedBrackets(${JSON.stringify(line)})`));
+      for (const tok of tokens) {
+        if (tok.type === 'bracket') {
+          const choices = Array.from<string>(runExpr(`splitTopLevelChoices(${JSON.stringify(tok.inner)})`));
+          if (choices.length > 1) {
+            for (const ch of choices) {
+              assert.equal(ch.trim().endsWith(':'), false, `Choice option "${ch}" in protocol ${item.id} must include an inline [ ] sub-input after colon`);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 3. Verify all 49 protocols with has_receita: true have their prescription unified inside pep_body
+  const receitaItems = pepItems.filter((d: any) => d.has_receita);
+  assert.ok(receitaItems.length >= 49, 'Must have at least 49 protocols with has_receita: true');
+  for (const item of receitaItems) {
+    assert.ok(
+      /PRESCRIÇÃO DOMICILIAR|PRESCRIÇÃO DE ALTA|RECEITA DE ALTA|PRESCRIÇÃO MÉDICA AMBULATORIAL/i.test(item.pep_body),
+      `Protocol ${item.id} (${item.title}) with has_receita: true must include its prescription section inside pep_body for Personalizar customization`
+    );
+  }
+
+  // 4. Verify inline weight-based dose calculator helper in Personalizar v3.0
+  const doses12kg = sandbox.window.computeWeightBasedDoses(12);
+  assert.ok(doses12kg, 'computeWeightBasedDoses(12) must return calculated doses');
+  assert.equal(doses12kg.dipironaGotas, 10, '12 kg Dipirona gotas (500mg/mL) must be 10 gotas');
+  assert.equal(doses12kg.dipironaMg, 240, '12 kg Dipirona mg (20 mg/kg) must be 240 mg');
+  assert.equal(doses12kg.paracetamolGotas, 12, '12 kg Paracetamol gotas (200mg/mL) must be 12 gotas');
+  assert.equal(doses12kg.ibuprofenoGotas100, 12, '12 kg Ibuprofeno 100mg/mL must be 12 gotas');
+  assert.equal(doses12kg.amoxi50Ml8h, '4,0', '12 kg Amoxicilina 50mg/kg/dia (250mg/5mL) must be 4,0 mL de 8/8h');
+  assert.equal(doses12kg.amoxi90Ml12h, '6,8', '12 kg Amoxicilina 90mg/kg/dia (400mg/5mL) must be 6,8 mL de 12/12h');
+  assert.equal(doses12kg.prednisolonaMlDia, '4,0', '12 kg Prednisolona 1mg/kg/dia (3mg/mL) must be 4,0 mL/dia');
+  assert.equal(typeof sandbox.window.focusNextEmptyInteractiveInput, 'function', 'focusNextEmptyInteractiveInput must be exposed on window');
+});
+
+

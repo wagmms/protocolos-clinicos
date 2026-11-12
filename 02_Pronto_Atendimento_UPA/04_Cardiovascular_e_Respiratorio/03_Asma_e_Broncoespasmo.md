@@ -17,7 +17,7 @@
   * GRAVE: Fala apenas palavras isoladas/entrecortadas, postura curvada para a frente, agitado, uso evidente de musculatura acessória (tiragem intercostal), FC > 120 bpm, FR > 30 irpm, SpO2 < 90%.
   * RISCO IMINENTE DE PARADA (ASMA QUASE FATAL): Sonolência, confusão mental, respiração paradoxal toracoabdominal, bradicardia e TÓRAX SILENCIOSO (ausência de sibilos por falta de fluxo de ar).
 - Histórico de Asma de Alto Risco: [Nega / Histórico prévio de intubação orotraqueal por asma / Internação em UTI no último ano / Múltiplas idas à UPA no último mês].
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO RESPIRATÓRIO NA ADMISSÃO):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em ar ambiente.
@@ -65,6 +65,27 @@
      * Budesonida spray 200 mcg: Inalar 1 a 2 jatos de 12/12h de uso contínuo.
      * Salbutamol spray 100 mcg: Inalar 2 a 4 jatos com espaçador apenas de resgate se sintomas agudos, associado à Budesonida.
 3. Encaminhamento para UBS / Programa de Asma para seguimento ambulatorial e plano de ação por escrito.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO — ALTA PÓS-CRISE DE ASMA / BRONCOESPASMO (PLANO DE AÇÃO GINA)
+Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+
+USO ORAL (CICLO CURTO ANTI-INFLAMATÓRIO OBRIGATÓRIO PÓS-CRISE PARA EVITAR RECAÍDA):
+1. Prednisona 20 mg (ou Prednisolona 20 mg) ---------------------------------- 1 caixa (10 comprimidos)
+   Tomar **2 comprimidos (total de 40 mg)** por via oral, 1 vez ao dia, **pela manhã após o café**, durante **5 a 7 dias consecutivos** (Não precisa fazer desmame se usar por até 7 dias).
+
+USO INALATÓRIO (TRATAMENTO DE MANUTENÇÃO E ALÍVIO — DIRETRIZ GINA):
+2. Formoterol 12 mcg + Budesonida 400 mcg (Alenia / Foraseq / Symbicort) ----- 1 frasco/dispositivo
+   Inalar 1 cápsula/dose de **12 em 12 horas todos os dias** (tratamento controlador da inflamação brônquica) e, se necessário, fazer 1 inalação extra de alívio se sentir chiado ou falta de ar.
+   *(IMPORTANTE: Sempre enxaguar a boca com água e cuspir após usar a bombinha/cápsula com corticoide para evitar rouquidão e sapinho na boca).*
+
+3. [OU Alternativa SUS] Dipropionato de Beclometasona 250 mcg Spray + Salbutamol 100 mcg Spray (Aerolin):
+   - **Beclometasona 250 mcg (Bombinha Marrom — Manutenção):** Aplicar 2 jatos de 12 em 12 horas todos os dias (enxaguar a boca após o uso).
+   - **Salbutamol 100 mcg (Bombinha Azul — Resgate):** Aplicar 2 a 4 jatos (com espaçador) de 4 em 4 horas ou de 6 em 6 horas nos primeiros 3 dias, e depois apenas se tiver crise de falta de ar.
+
+ORIENTAÇÕES DE SEGURANÇA E SINAIS DE ALARME:
+- Por que você precisa tomar a Prednisona por 5 dias e usar a bombinha de manutenção: A bombinha azul (Salbutamol) apenas abre o brônquio por algumas horas, mas não desincha a inflamação da crise. Tomar a Prednisona por 5 a 7 dias impede que a crise volte mais forte nos próximos dias!
+- Proibido usar AAS e anti-inflamatórios (Ibuprofeno, Diclofenaco, Cetoprofeno, Nimesulida) se tiver histórico de piora da asma, nem usar betabloqueadores (Propranolol/Atenolol).
+- RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Falta de ar para falar frases completas, necessidade de usar a bombinha de resgate a cada menos de 3 horas sem alívio, afundamento no pescoço/costelas ao respirar, lábios arroxeados ou sonolência.
 ```
 
 ---
@@ -72,6 +93,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO — ALTA PÓS-CRISE DE ASMA / BRONCOESPASMO (PLANO DE AÇÃO GINA)
 Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 

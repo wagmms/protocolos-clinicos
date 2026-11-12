@@ -20,7 +20,7 @@
   * Nega dor torácica pleurítica aguda súbita com assimetria de murmúrio (afastado pneumotórax).
   * Nega febre alta, calafrios ou secreção purulenta espessa (afastada sepse pulmonar pura).
   * Nega estridor respiratório ou edema de glote anafilático.
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO DA SALA DE EMERGÊNCIA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg (acentuadamente elevada) | FC: [ ] bpm | FR: [ ] irpm (taquipneia severa) | SpO2: [ ]% em ar ambiente.

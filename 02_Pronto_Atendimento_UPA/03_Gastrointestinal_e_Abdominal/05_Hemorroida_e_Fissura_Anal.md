@@ -20,7 +20,7 @@
   * Nega fezes afiladas ("fezes em fita"), perda involuntária de peso ou astenia severa.
   * Nega diarreia crônica alternada com constipação persistente.
 - Hábitos: Constipação intestinal crônica, baixa ingesta de fibras e água.
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME PROCTOLÓGICO BÁSICO DA UPA):
 - Posição do Paciente: Posição de Sims (decúbito lateral esquerdo com flexão das coxas sobre o abdome) sob foco de luz direta e privacidade.

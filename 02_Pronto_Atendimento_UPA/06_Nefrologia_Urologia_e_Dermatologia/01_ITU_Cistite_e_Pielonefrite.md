@@ -63,6 +63,30 @@
 
 >> SINAIS DE ALARME PARA RETORNO IMEDIATO:
 - Retornar imediatamente se apresentar febre alta com calafrios, vômitos que impeçam tomar o antibiótico ou dor lombar que piore nas costas.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+USO ORAL (ESCOLHER CONFORME CLASSIFICAÇÃO CLÍNICA):
+
+[OPÇÃO 1 - CISTITE AGUDA NÃO COMPLICADA (1ª LINHA - DOSE ÚNICA)]:
+1. Fosfomicina Trometamol 3 g (envelope 8 g) ------------------- 01 envelope
+   Dissolver o conteúdo de 01 envelope em meio copo de água e tomar em dose única, preferencialmente à noite, após esvaziar completamente a bexiga.
+
+[OPÇÃO 2 - CISTITE AGUDA NÃO COMPLICADA (ALTERNATIVA 5 DIAS)]:
+1. Nitrofurantoína 100 mg -------------------------------------- 20 cápsulas
+   Tomar 01 cápsula por via oral de 6/6 horas, junto às refeições, por 5 dias.
+
+[OPÇÃO 3 - PIELONEFRITE AGUDA NÃO COMPLICADA AMBULATORIAL]:
+1. Ciprofloxacino 500 mg --------------------------------------- 14 comprimidos
+   Tomar 01 comprimido por via oral de 12/12 horas por 7 dias.
+
+[SINTOMÁTICOS DE APOIO]:
+2. Fenazopiridina (Pyridium) 200 mg ---------------------------- 06 comprimidos
+   Tomar 01 comprimido por via oral de 8/8 horas, após as refeições, por 2 dias (alívio da disúria). Avisar que deixa a urina alaranjada/avermelhada.
+3. Dipirona Sódica 1 g ----------------------------------------- 01 caixa
+   Tomar 01 comprimido de 6/6 horas se dor suprapúbica, lombar ou febre.
+
+SINAIS DE ALERTA:
+- Ingerir ao menos 2,5 litros de água ao dia e não postergar a micção.
+- Retornar imediatamente se febre persistente após 48-72h de antibiótico, calafrios, vômitos incoercíveis ou queda do estado geral.
 ```
 
 ---
@@ -72,6 +96,7 @@
 > **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 USO ORAL (ESCOLHER CONFORME CLASSIFICAÇÃO CLÍNICA):
 
 [OPÇÃO 1 - CISTITE AGUDA NÃO COMPLICADA (1ª LINHA - DOSE ÚNICA)]:

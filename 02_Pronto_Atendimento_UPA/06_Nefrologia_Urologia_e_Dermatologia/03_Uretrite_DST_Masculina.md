@@ -58,6 +58,20 @@
 - TRATAMENTO OBRIGATÓRIO DE TODAS AS PARCERIAS SEXUAIS: Todas as pessoas com quem o paciente se relacionou sexualmente nos últimos 60 dias DEVEM comparecer à unidade de saúde para receber a mesma medicação (Ceftriaxona + Azitromicina), mesmo que estejam totalmente sem sintomas (a infecção em mulheres é assintomática em até 80% dos casos e pode causar infertilidade por DIP se não tratada).
 - Preservativos entregues; orientado uso contínuo de preservativo masculino/feminino em todas as relações futuras.
 - Notificação Compulsória formal da IST realizada via ficha de notificação do SINAN.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+USO INTRAMUSCULAR E ORAL (TRATAMENTO DUPLO GONOCOCO + CLAMÍDIA — PCDT IST/MS):
+
+1. Ceftriaxona 500 mg IM --------------------------------------- 01 frasco-ampola
+   Aplicar 500 mg por via intramuscular profunda (glúteo) em dose única na unidade de saúde.
+
+2. Azitromicina 500 mg ----------------------------------------- 02 comprimidos
+   Tomar 02 comprimidos (1 g) juntos por via oral em dose única.
+   (Alternativa se indisponibilidade ou preferência: Doxiciclina 100 mg — tomar 01 comprimido VO de 12/12h por 7 dias).
+
+ORIENTAÇÕES ESSENCIAIS:
+- Abstinência sexual (ou uso rigoroso de preservativo) até 7 dias após o término do tratamento e desaparecimento completo dos sintomas.
+- Convocação e tratamento obrigatório das parcerias sexuais dos últimos 60 dias (mesmo que assintomáticas) para evitar reinfecção (efeito pingue-pongue).
+- Realizar testes rápidos para HIV, Sífilis e Hepatites B e C na UBS.
 ```
 
 ---
@@ -67,6 +81,7 @@
 > **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 USO INTRAMUSCULAR E ORAL (TRATAMENTO DUPLO GONOCOCO + CLAMÍDIA — PCDT IST/MS):
 
 1. Ceftriaxona 500 mg IM --------------------------------------- 01 frasco-ampola

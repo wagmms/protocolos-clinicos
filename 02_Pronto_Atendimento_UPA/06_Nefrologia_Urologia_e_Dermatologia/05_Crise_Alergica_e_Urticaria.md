@@ -14,7 +14,7 @@
 - Queixa Principal: Manchas vermelhas pelo corpo que coçam muito / Inchaço nos lábios / Falta de ar há [ ] minutos.
 - HMA: Relata aparecimento agudo há cerca de [ ] minutos de placas avermelhadas na pele com intenso prurido, sensação de calor e formigamento difuso, acompanhadas de inchaço (angioedema) em [lábios / pálpebras / orelhas / face / mãos].
 - FATOR DESENCADEANTE IDENTIFICADO:
-  * [ ] Ingestão alimentar recente: [Frutos do mar/camarão / Amendoim/castanhas / Ovos / Leite / Outro:].
+  * [ ] Ingestão alimentar recente: [Frutos do mar/camarão / Amendoim/castanhas / Ovos / Leite / Outro: [ ]].
   * [ ] Medicamentos recentes: [Uso de anti-inflamatórios (AAS/Diclofenaco/Ibuprofeno) / Antibióticos (Amoxicilina/Penicilina) / Dipirona / IECA].
   * [ ] Picada de inseto: [Abelha / Vespa / Formiga de fogo].
   * [ ] Contato com látex ou substância química tópica.
@@ -68,6 +68,19 @@
    - Corticoide Oral (para desmame rápido):
      * Prednisona 40 mg VO 1x/dia pela manhã por 3 a 5 dias (interrupção direta sem desmame).
 3. Orientações: Identificar e afastar o agente causal suspeito; evitar banhos muito quentes.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+USO ORAL:
+
+1. Dicloridrato de Cetirizina 10 mg (ou Loratadina 10 mg / Bilastina 20 mg) -- 10 comprimidos
+   Tomar 01 comprimido por via oral de 24/24 horas por 5 a 7 dias.
+   (Nota: Em urticária aguda refratária, o anti-H1 de 2ª geração pode ser escalonado até 1 comprimido de 12/12h sob orientação médica).
+
+2. Prednisolona 20 mg ------------------------------------------ 10 comprimidos
+   Tomar 02 comprimidos (40 mg) por via oral pela manhã, após o café, por 3 a 5 dias (em caso de urticária extensa ou angioedema associado).
+
+SINAIS DE ALERTA DE ANAFILAXIA (RETORNO IMEDIATO):
+- Suspender imediatamente medicamentos suspeitos (especialmente AINEs, AAS, Dipirona ou antibióticos recém-iniciados).
+- Retornar IMEDIATAMENTE ao Pronto-Socorro se surgir: inchaço nos lábios ou língua, voz rouca/abafada, sensação de garganta fechando, falta de ar, chiado no peito ou tontura/desmaio.
 ```
 
 ---
@@ -77,6 +90,7 @@
 > **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 USO ORAL:
 
 1. Dicloridrato de Cetirizina 10 mg (ou Loratadina 10 mg / Bilastina 20 mg) -- 10 comprimidos

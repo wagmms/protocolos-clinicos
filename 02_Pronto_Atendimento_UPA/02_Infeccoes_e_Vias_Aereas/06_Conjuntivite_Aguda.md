@@ -18,7 +18,7 @@
   * Nega enxergar halos coloridos ao redor de luzes ou cefaleia hemicraniana com náuseas (afasta Glaucoma Agudo).
   * Nega uso de lentes de contato (afasta ceratite por Pseudomonas).
   * Nega trauma ocular mecânico, químico ou respingo de substâncias cáusticas.
-- Alergias: [Nega alergias / Alérgico a colírios:].
+- Alergias: [Nega alergias / Alérgico a colírios: [ ]].
 
 # OBJETIVO (EXAME FÍSICO OFTALMOLÓGICO BÁSICO):
 - Ectoscopia Ocular Externa:
@@ -56,6 +56,25 @@
 - Suspender imediatamente o uso de lentes de contato até 1 semana após a cura completa.
 - Descarte imediato de maquiagens oculares usadas recentemente.
 - ALERTA: Procurar atendimento oftalmológico com urgência se a visão ficar embaçada, se surgir dor de cabeça muito forte no olho ou se não houver melhora após 4 a 5 dias.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO — CONJUNTIVITE AGUDA
+Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+
+[PARA TODOS OS CASOS — VIRAL OU BACTERIANA]:
+1. Colírio Lubrificante Ocular (Lágrima Artificial sem conservantes — ex: Carmellose / Hialuronato de Sódio) --- 1 frasco
+   Pingar 1 a 2 gotas no(s) olho(s) afetado(s) de 2 em 2 horas ou de 4 em 4 horas (Dica: manter o frasco do colírio lubrificante na porta da geladeira; o colírio gelado desincha a conjuntiva e alivia a ardência e sensação de areia).
+
+2. Soro Fisiológico 0,9% (Frasco pequeno mantido na geladeira) --------------- 1 frasco
+   Realizar compressas frias sobre as pálpebras fechadas com gaze estéril embebida em soro fisiológico gelado por 10 minutos, 4 a 6 vezes ao dia, e limpar delicadamente as secreções.
+
+[ADICIONAR APENAS SE CONJUNTIVITE BACTERIANA — SECREÇÃO PURULENTA AMARELO-ESVERDEADA]:
+3. Tobramicina 0,3% Colírio (Tobrex) (ou Moxifloxacino 0,5% / Ofloxacino 0,3% Colírio) --- 1 frasco
+   Pingar 1 gota no(s) olho(s) afetado(s) de 4 em 4 horas (durante o dia) por **7 dias** (sem encostar a ponta do frasco nos cílios).
+
+ORIENTAÇÕES DE HIGIENE, CONTÁGIO E SINAIS DE ALARME OCULAR:
+- NUNCA usar água boricada (irrita a córnea) e NUNCA usar colírios com corticoide (como Maxidex, Dexacol ou Tobradex) ou colírios clareadores vasoconstritores sem prescrição de oftalmologista.
+- Lavar as mãos com frequência, separar toalha de rosto e fronha de travesseiro, não coçar os olhos e suspender imediatamente o uso de lentes de contato e maquiagem ocular.
+- PROCURAR IMEDIATAMENTE OFTALMOLOGISTA / EMERGÊNCIA SE APRESENTAR: Diminuição da visão (visão borrada que não limpa ao piscar), dor ocular profunda intensa, intolerância severa à claridade (fotofobia), mancha branca na parte colorida do olho (úlcera de córnea), pupila de tamanho diferente ou inchaço nas pálpebras com febre.
 ```
 
 ---
@@ -63,6 +82,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO — CONJUNTIVITE AGUDA
 Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 

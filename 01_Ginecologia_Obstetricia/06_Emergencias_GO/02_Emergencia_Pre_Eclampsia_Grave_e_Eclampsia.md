@@ -20,7 +20,7 @@
 # OBJETIVO (EXAME FÍSICO & VITALIDADE FETAL):
 - Sinais Vitais & Neurológico: PA: [170x115] mmHg (confirmada em 15 min) | FC: [88] bpm | FR: [18] irpm | SpO2: [98]% AA. Consciente, ECG [15], pupilas isocóricas. Reflexos patelares: [Exaltados 3+/4+ ou 4+/4+ com clônus aquileu / Normoativos 2+/4+].
 - Cardiopulmonar & Extremidades: RCR 2T BNF, MV+ bilateral [sem ruídos adventícios / com crepitações basais]. Edema de MMII/face [++/4+]. Diurese em SVD: [> 25] mL/h, clara.
-- Exame Obstétrico: AU: [ ] cm | Tônus uterino: [Normal (sem hipertonia de DPP)] | DU: [Ausente //10 min] | BCF: [140] bpm, rítmico | CTG: [Categoria I / Categoria II / Categoria III].
+- Exame Obstétrico: AU: [ ] cm | Tônus uterino: [Normal (sem hipertonia de DPP)] | DU: [Ausente / [ ] contrações/10 min] | BCF: [140] bpm, rítmico | CTG: [Categoria I / Categoria II / Categoria III].
 
 # AVALIAÇÃO DIAGNÓSTICA:
 1. [Pré-Eclâmpsia Grave (CID-10: O14.1) / Iminência de Eclâmpsia (O14.1) / Eclâmpsia (O15.0) / Síndrome HELLP (O14.2)] em gestação de [ ]s[ ]d.

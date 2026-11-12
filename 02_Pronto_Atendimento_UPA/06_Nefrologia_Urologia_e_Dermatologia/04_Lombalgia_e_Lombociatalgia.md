@@ -21,7 +21,7 @@
   * [ ] NEOPLASIA / METÁSTASE ÓSSEA: Nega histórico pessoal prévio de câncer (mama, próstata, pulmão); nega dor contínua em repouso que piora de madrugada na cama sem alívio em qualquer posição; nega perda ponderal inexplicada.
   * [ ] INFECÇÃO DA COLUNA (ESPONDILODISCITE / ABSCESSO EPIDURAL): Nega febre, calafrios ou sudorese noturna; nega uso de drogas endovenosas ou infecção urinária/cutânea recente.
   * [ ] RISCO DE FRATURA OSTEOPORÓTICA: Idade < 65 anos, nega uso crônico prolongado de corticoides orais e nega trauma contuso de alto impacto.
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO OSTEOMUSCULAR & NEUROLÓGICO DIRIGIDO):
 - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Tax: [ ] °C (afebril).

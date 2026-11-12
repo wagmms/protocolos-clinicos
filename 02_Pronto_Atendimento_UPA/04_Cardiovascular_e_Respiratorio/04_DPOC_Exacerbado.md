@@ -27,7 +27,7 @@
   * Nega edema assimétrico de panturrilhas ou hemoptise (afastado TEP).
   * Nega piora de edema de membros inferiores ou ortopneia (afastada Insuficiência Cardíaca descompensada associada).
 - Medicações Habitual: [Em uso de Formoterol/Budesonida, Tiotrópio, Salbutamol SOS].
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO RESPIRATÓRIO DIRIGIDO):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em ar ambiente.
@@ -67,6 +67,30 @@
 
 5. [SE ACIDOSE RESPIRATÓRIA NA GASOMETRIA (pH < 7,35 e PaCO2 > 45 mmHg)]:
    - Indicação Imediata de VENTILAÇÃO NÃO INVASIVA (VNI com BiPAP): Modo Spontaneous/Timed (S/T), IPAP 10-12 cmH2O e EPAP 4-5 cmH2O. Reduz a mortalidade e o esforço ventilatório em mais de 50%.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO — ALTA DE EXACERBAÇÃO AGUDA DE DPOC (GOLD)
+Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+
+USO ORAL (ESQUEMA CURTO DE 5 DIAS — DIRETRIZ GOLD):
+1. Prednisona 20 mg ----------------------------------------------------------- 1 caixa (10 comprimidos)
+   Tomar **2 comprimidos (total de 40 mg)** por via oral, 1 vez ao dia, pela manhã após o café, durante **exatamente 5 dias** (Estudo REDUCE: 5 dias têm a mesma eficácia que 14 dias, com metade dos efeitos colaterais).
+
+2. [SE PRESENÇA DE ESCARRO PURULENTO (CRITÉRIOS DE ANTHONISEN) — ANTIBIÓTICO POR 5 A 7 DIAS]:
+   Amoxicilina + Clavulanato 875/125 mg --------------------------------------- 14 comprimidos
+   Tomar 1 comprimido por via oral de 12 em 12 horas, junto às refeições, durante **5 a 7 dias**.
+   *[OU Alternativa]*: Azitromicina 500 mg — Tomar 1 comprimido VO 1x/dia por 5 dias (ou Levofloxacino 750 mg VO 1x/dia por 5 dias se DPOC muito grave/bronquiectasias).
+
+USO INALATÓRIO (BRONCODILATADORES DE LONGA DURAÇÃO E RESGATE):
+3. Manter (ou iniciar) broncodilatador de longa duração de uso contínuo:
+   [Brometo de Tiotrópio 2,5 mcg (Spiriva Respimat — 2 jatos 1x/dia) + Formoterol/Budesonida 12/400 mcg de 12/12h / Dupla broncodilatação LAMA + LABA].
+
+4. Salbutamol 100 mcg Spray + Brometo de Ipratrópio 20 mcg Spray (ou Combivent / Duovent):
+   Aplicar 2 a 4 jatos por via inalatória (com espaçador) de 6 em 6 horas nos primeiros 3 a 5 dias ou se falta de ar.
+
+ORIENTAÇÕES CRÍTICAS E SINAIS DE ALARME:
+- Cessação completa do tabagismo e atualização vacinal (Vacina Influenza anual e Pneumocócica).
+- Se faz uso de oxigênio domiciliar: NUNCA aumentar o fluxo de oxigênio por conta própria acima do prescrito (normalmente 1 a 2 L/min para manter a saturação entre 88% e 92%), pois o excesso de oxigênio no DPOC retém gás carbônico no sangue e causa sonolência/coma!
+- RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Piora da falta de ar mesmo em repouso, sonolência excessiva, confusão mental, dor de cabeça matinal intensa, febre persistente ou inchaço nas pernas.
 ```
 
 ---
@@ -74,6 +98,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO — ALTA DE EXACERBAÇÃO AGUDA DE DPOC (GOLD)
 Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
 

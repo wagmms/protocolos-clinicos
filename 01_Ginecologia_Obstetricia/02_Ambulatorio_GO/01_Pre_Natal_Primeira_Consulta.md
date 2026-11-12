@@ -16,8 +16,8 @@ Paciente [Nome], [Idade] anos, Profissão: [Profissão], G[ ] P[ ] (PN [ ] / PC 
 - IG Definitiva Adotada: [ ] semanas e [ ] dias.
 
 # ANTECEDENTES & SUBJETIVO (HMA):
-- Antecedentes Obstétricos: [Nulípara / Gestações prévias sem intercorrências / Antecedente de Pré-eclâmpsia / DMG prévio / Parto prematuro prévio / Cesárea prévia há anos]. Último Citopatológico: [Em dia e normal / Colhido há > 1–3 anos].
-- Comorbidades, Drogas & Alergias: [Hígida, nega HAS, DM, tireoidopatia ou trombofilia / Portadora de:] | Medicações em uso: [Nega uso contínuo / Em uso de:] | Alergias: [Nega alergias conhecidas / Alérgica a:] | Hábitos: [Nega tabagismo, etilismo ou drogas ilícitas / Tabagista / Etilismo / Outros:].
+- Antecedentes Obstétricos: [Nulípara / Gestações prévias sem intercorrências / Antecedente de Pré-eclâmpsia / DMG prévio / Parto prematuro prévio / Cesárea prévia há [ ] anos]. Último Citopatológico: [Em dia e normal / Colhido há > 1–3 anos].
+- Comorbidades, Drogas & Alergias: [Hígida, nega HAS, DM, tireoidopatia ou trombofilia / Portadora de: [ ]] | Medicações em uso: [Nega uso contínuo / Em uso de: [ ]] | Alergias: [Nega alergias conhecidas / Alérgica a: [ ]] | Hábitos: [Nega tabagismo, etilismo ou drogas ilícitas / Tabagista / Etilismo / Outros: [ ]].
 - HMA: Comparece para abertura de pré-natal. Refere [ausência de queixas / náuseas matinais leves sem perda ponderal / mastalgia e sonolência fisiológicas].
 - Negativas Mandatórias: Nega sangramento vaginal, perda de líquido, cólicas pélvicas intensas, disúria, febre ou contato com exantemas.
 
@@ -30,7 +30,7 @@ Paciente [Nome], [Idade] anos, Profissão: [Profissão], G[ ] P[ ] (PN [ ] / PC 
 
 # AVALIAÇÃO DIAGNÓSTICA:
 1. Gestação tópica de [ ] semanas e [ ] dias (CID-10: Z34.0 / Z34.8).
-2. Estratificação de Risco: [Pré-Natal de Risco Habitual (PNBR) / Pré-Natal de Alto Risco (PNAR) por:] | Risco de Pré-Eclâmpsia: [Baixo / Alto risco — indicada profilaxia com AAS + Cálcio].
+2. Estratificação de Risco: [Pré-Natal de Risco Habitual (PNBR) / Pré-Natal de Alto Risco (PNAR) por: [ ]] | Risco de Pré-Eclâmpsia: [Baixo / Alto risco — indicada profilaxia com AAS + Cálcio].
 
 # PLANO / CONDUTA:
 >> CONDUTA & EXAMES SOLICITADOS (ROTINA DE 1º TRIMESTRE):

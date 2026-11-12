@@ -54,6 +54,28 @@
    - Higienizar ferida operatória com água corrente e sabonete neutro no banho; manter seca e descoberta.
    - [Sacar dreno cirúrgico hoje (débito < 30–50 mL/24h seroso) / Manter dreno com aferição de débito / Retirar SVD hoje].
 6. Desospitalização: [Alta hospitalar concedida hoje com receita, cuidados com os pontos e retorno cirúrgico agendado / Previsão de alta para amanhã].
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO — ALTA PÓS-OPERATÓRIA CIRÚRGICA
+Paciente: [Nome] | Procedimento: [ ] | Data: [DD/MM/AAAA]
+
+USO ORAL:
+1. Dipirona Monoidratada 500 mg (ou 1 g) ------------------------------------- 1 caixa
+   Tomar 1 comprimido de 1 g (ou 2 comprimidos de 500 mg) por via oral de 6 em 6 horas em horário fixo nos primeiros 3 dias, e depois se houver dor.
+
+2. Cetoprofeno 100 mg (ou Ibuprofeno 600 mg) --------------------------------- 1 caixa
+   Tomar 1 comprimido por via oral de 12 em 12 horas, sempre após as refeições, durante 3 a 5 dias (Suspender se histórico de gastrite, úlcera ou doença renal).
+
+3. Cloridrato de Tramadol 50 mg (Resgate para dor forte) --------------------- 1 caixa
+   Tomar 1 comprimido por via oral até de 8 em 8 horas APENAS se dor moderada a intensa que não ceda com a Dipirona.
+
+4. Ondansetrona 4 mg (ou Bromoprida 10 mg) ----------------------------------- 1 caixa
+   Tomar 1 comprimido por via oral de 8 em 8 horas se apresentar náuseas ou enjoos.
+
+CUIDADOS COM A FERIDA OPERATÓRIA & ORIENTAÇÕES PÓS-ALTA:
+- Lavar a incisão cirúrgica diariamente durante o banho com água corrente e sabonete neutro, secando suavemente com toalha limpa (sem esfregar). Não aplicar pomadas caseiras, óleos ou pós sobre os pontos.
+- Caminhar dentro de casa várias vezes ao dia para prevenir trombose nas pernas; evitar esforço físico intenso, pegar peso (> 5 kg) ou dirigir por [15 a 30] dias.
+- Retorno agendado no Ambulatório de Cirurgia / UBS em [7 a 14] dias para revisão cirúrgica e retirada de pontos.
+- SINAIS DE ALARME (RETORNO IMEDIATO AO PRONTO-SOCORRO): Febre aferida (≥ 37,8 °C), vermelhidão quente que se espalha ao redor do corte, saída de pus ou abertura dos pontos, dor abdominal progressiva, vômitos persistentes, parada de eliminação de gases/fezes, dor/inchaço na panturrilha ou falta de ar súbita.
 ```
 
 ---
@@ -61,6 +83,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO — ALTA PÓS-OPERATÓRIA CIRÚRGICA
 Paciente: [Nome] | Procedimento: [ ] | Data: [DD/MM/AAAA]
 

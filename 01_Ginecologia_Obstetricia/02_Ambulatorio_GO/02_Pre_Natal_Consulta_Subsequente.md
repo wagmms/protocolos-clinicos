@@ -10,7 +10,7 @@
 ```text
 ###### CONSULTA DE PRÉ-NATAL — SEGUIMENTO / RETORNO ######
 # IDENTIFICAÇÃO & CRONOLOGIA:
-Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], TS/Rh: [O+ / A+ / B+ / AB+ / O- / A- / Aguarda] | Risco: [Risco Habitual / Alto Risco por:].
+Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], TS/Rh: [O+ / A+ / B+ / AB+ / O- / A- / Aguarda] | Risco: [Risco Habitual / Alto Risco por: [ ]].
 - IG Atual: [ ] semanas e [ ] dias (por [USG de 1º tri / DUM confiável]) | DPP: [DD/MM/AAAA].
 
 # SUBJETIVO (EVOLUÇÃO & ALARME OBSTÉTRICO):
@@ -35,7 +35,7 @@ Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], TS/Rh: [O+ / A+ / B+ / AB+ / O- /
 
 # AVALIAÇÃO DIAGNÓSTICA:
 1. Gestação tópica de [ ] semanas e [ ] dias, feto vital e crescimento adequado (CID-10: Z34.8).
-2. Exames e curvas [dentro da normalidade para a idade gestacional / com alteração de:].
+2. Exames e curvas [dentro da normalidade para a idade gestacional / com alteração de: [ ]].
 
 # PLANO / CONDUTA:
 >> CONDUTA & SOLICITAÇÕES POR IDADE GESTACIONAL:

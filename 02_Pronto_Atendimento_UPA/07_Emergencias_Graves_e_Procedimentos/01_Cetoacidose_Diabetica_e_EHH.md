@@ -22,7 +22,7 @@
 - Negativas Mandatórias:
   * Nega cirurgia abdominal recente ou hematêmese.
   * Nega uso de drogas simpatomiméticas ilícitas (cocaína).
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO NA SALA VERMELHA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg (hipotensão postural) | FC: [ ] bpm (taquicardia sinusal) | FR: [ ] irpm (hiperpneia) | SpO2: [ ]% | Tax: [ ] °C.

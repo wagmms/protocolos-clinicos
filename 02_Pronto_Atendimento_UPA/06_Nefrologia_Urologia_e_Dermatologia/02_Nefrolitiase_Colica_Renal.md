@@ -24,7 +24,7 @@
   [ ] Anúria persistente ou oligúria severa.
   [ ] Dor intratável refratária à analgesia venosa potente na UPA.
   [ ] Gestante em vigência de cólica nefrética.
-  * STATUS: [TODOS OS CRITÉRIOS DE URGÊNCIA UROLÓGICA NEGADOS / PRESENTE:].
+  * STATUS: [TODOS OS CRITÉRIOS DE URGÊNCIA UROLÓGICA NEGADOS / PRESENTE: [ ]].
 - Histórico Prévio: [Episódios prévios conhecidos de litíase urinária com eliminação de cálculos / Primeiro episódio da vida].
 - Alergias: [Nega / Alérgico a Dipirona / Alérgico a AINEs].
 

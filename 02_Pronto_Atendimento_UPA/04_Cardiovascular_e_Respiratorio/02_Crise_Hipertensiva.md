@@ -23,7 +23,7 @@
   * GESTAÇÃO: Paciente não gestante (se mulher em idade fértil).
 - Fatores Emocionais / Desencadeantes: [Histórico de estresse emocional agudo / Dor osteomuscular concomitante / Privação de sono].
 - Medicações de Uso Contínuo: [Em uso irregular de Losartana, Enalapril, Anlodipino, Hidroclorotiazida / Nega uso de anti-hipertensivos].
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO DIRIGIDO À EXCLUSÃO DE LOA):
 - SINAIS VITAIS REPETIDOS APÓS REPOUSO: PA: [ ]x[ ] mmHg (MSD) e [ ]x[ ] mmHg (MSE) (Sem assimetria pressórica significativa).
@@ -64,6 +64,27 @@
    - [Se Encefalopatia Hipertensiva]: Nitroprussiato de Sódio EV (iniciar 0,25 a 0,5 mcg/kg/min).
    - Meta: Reduzir a PAM em no máximo 20% a 25% na primeira hora (evitando AVC isquêmico).
 3. Vaga imediata de UTI via Central de Regulação.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO — AJUSTE ANTI-HIPERTENSIVO PÓS-ATENDIMENTO (URGÊNCIA / PSEUDOCRISE HIPERTENSIVA)
+Paciente: [Nome] | Idade: [ ] anos | PA na Alta: [ ]x[ ] mmHg | Data: [DD/MM/AAAA]
+
+USO ORAL CONTÍNUO (TOMAR TODOS OS DIAS MESMO QUANDO A PRESSÃO ESTIVER NORMAL):
+1. [Se já era hipertenso e havia parado de tomar a medicação]:
+   Reiniciar imediatamente os medicamentos de uso contínuo habituais:
+   - Losartana Potássica 50 mg (ou Enalapril 10–20 mg) ------------------------ Uso contínuo
+     Tomar 1 comprimido por via oral de 12 em 12 horas (às 08:00h e às 20:00h).
+   - Besilato de Anlodipino 5 mg (ou Hidroclorotiazida 25 mg pela manhã) ------- Uso contínuo
+     Tomar 1 comprimido por via oral 1 vez ao dia.
+
+2. [Se dor de cabeça tensional ou dor osteomuscular foi o gatilho da subida da pressão (Pseudocrise)]:
+   Dipirona Monoidratada 1 g -------------------------------------------------- 1 caixa
+   Tomar 1 comprimido por via oral de 6 em 6 horas se dor (Evitar anti-inflamatórios como Diclofenaco/Ibuprofeno, pois eles retêm sal e aumentam a pressão arterial!).
+
+ORIENTAÇÕES DE SEGURANÇA E MAPA DE PRESSÃO ARTERIAL:
+- Por que a pressão não deve ser baixada "de vez" na UPA: Reduzir a pressão arterial rapidamente demais em quem não tem emergência cardíaca ou neurológica diminui a circulação de sangue para o cérebro e rins, podendo causar tontura, isquemia cerebral (AVC) ou infarto. O objetivo seguro é a redução gradual em 24 a 48 horas com seus comprimidos diários.
+- Reduzir o sal na comida, evitar alimentos embutidos/enlatados e não suspender o remédio da pressão por conta própria.
+- Aferir e anotar a pressão arterial 2 vezes ao dia por 5 dias (MAPA residencial) e levar na consulta médica na UBS em até 7 dias.
+- RETORNAR IMEDIATAMENTE À UPA SE APRESENTAR: Dor ou aperto no peito, falta de ar súbita, perda de força ou formigamento em um lado do corpo, boca torta, dificuldade para falar, alteração súbita da visão ou confusão mental.
 ```
 
 ---
@@ -71,6 +92,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO — AJUSTE ANTI-HIPERTENSIVO PÓS-ATENDIMENTO (URGÊNCIA / PSEUDOCRISE HIPERTENSIVA)
 Paciente: [Nome] | Idade: [ ] anos | PA na Alta: [ ]x[ ] mmHg | Data: [DD/MM/AAAA]
 

@@ -10,7 +10,7 @@
 ###### ATENDIMENTO PEDIÁTRICO — BRONQUIOLITE VIRAL AGUDA (BVA NO LACTENTE < 2 ANOS) ######
 # IDENTIFICAÇÃO & FATORES DE RISCO DE GRAVIDADE:
 - Lactente: [Nome] | Idade: [ ] meses (Faixa clássica < 24 meses; pico 2 a 6 meses) | **PESO ATUAL: [ ] kg**
-- Acompanhante: [Mãe / Pai / Responsável:]
+- Acompanhante: [Mãe / Pai / Responsável: [ ]]
 - Fatores de Risco para BVA Grave: [Nenhum — lactente a termo hígido > 3 meses / Idade < 12 semanas (< 3 meses) / Prematuridade (< 37 semanas) / Cardiopatia congênita hemodinamicamente significativa / Broncodisplasia pulmonar / Imunodeficiência].
 
 # SUBJETIVO (HISTÓRIA CLÍNICA & FASE EVOLUTIVA DA DOENÇA):
@@ -52,10 +52,32 @@
 2. Suporte Hídrico e Nutricional Seguro (Prevenção de Broncoaspiração):
    - Se `FR < 60 irpm`: Manter via oral fracionada após lavagem nasal.
    - Se `FR entre 60 e 70 irpm`: Passar **Sonda Nasogástrica (SNG)** para dieta enteral fracionada (leite materno ordenhado/fórmula).
-   - Se `FR > 70 irpm`, desconforto grave ou vômitos: **Dieta zero (Jejum)** + Hidratação Venosa Isotônica (`SF 0,9% + SG 5%` na proporção 1:1 = Na ~77 mEq/L, a 70–80% da cota de Holliday-Segar pelo risco de SIADH).
+   - Se `FR > 70 irpm`, desconforto grave ou vômitos: **Dieta zero (Jejum)** + Hidratação Venosa de Manutenção **Isotônica** (`SG 5% 500 mL + NaCl 20% 10 a 11 mL + KCl 19,1% 4 a 5 mL` = `[Na+] ~140 mEq/L`, restrita a **70–80% da cota de Holliday-Segar** pelo risco de SIADH e hiponatremia).
 3. Higiene de Vias Aéreas: Lavagem nasal com SF 0,9% e aspiração nasal superficial suave antes das dietas e se desconforto (Evitar fisioterapia respiratória convencional de tapotagem).
 4. Nebulização com Salina Hipertônica 3% (apenas para pacientes internados): `4 mL de NaCl 3%` por nebulização de 8/8h se hipersecreção importante.
 5. Monitorização contínua (oximetria, FC, FR) e precaução de contato e gotículas no leito.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO PEDIÁTRICO — BRONQUIOLITE VIRAL AGUDA LEVE (MANEJO DOMICILIAR)
+Lactente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
+
+USO NASAL E ORAL:
+1. Soro Fisiológico 0,9% (Morno / Temperatura Ambiente) ------------------------ 1 frasco (500 mL)
+   Lavar ambas as narinas com seringa de [3 a 5] mL em cada narina, com o bebê sentado no colo, OBRIGATORIAMENTE antes de todas as mamadas e antes de dormir (o bebê pequeno respira quase só pelo nariz; desentupir o nariz reduz metade do cansaço para mamar).
+
+2. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+   Dar [ ] gotas por via oral até de 6 em 6 horas APENAS se houver febre (≥ 37,8 °C) ou irritabilidade por dor.
+
+CUIDADOS ESSENCIAIS EM CASA & POR QUE NÃO USAR CORTICOIDE/ANTIBIÓTICO:
+- Mamadas Fracionadas: Ofereça o peito ou a mamadeira por menos tempo e mais vezes ao dia, permitindo que o bebê descanse e respire entre as sugadas.
+- Cabeceira Elevada: Coloque um calço firme embaixo dos pés da cabeceira do berço (inclinação de 20 a 30°).
+- Esclarecimento Importante: Na bronquiolite, o "chiado" é causado por catarro e inchaço viral nos bronquíolos finos, e não por falta de antibiótico ou crise de asma. Por isso, corticoides (Prednisolona), antibióticos (Amoxicilina) e xaropes NÃO ajudam e podem fazer mal ao bebê.
+- Atenção ao 3º a 5º dia: O pico de cansaço da bronquiolite costuma acontecer entre o 3º e o 5º dia do início do quadro.
+
+SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+1. Afundamento visível da barriga abaixo das costelas ou na furculinha do pescoço a cada respiração (tiragem).
+2. Respiração muito rápida (mais de 60 respirações por minuto contadas com o bebê calmo) ou gemido constante.
+3. Bebê que não consegue mamar (aceitando menos da metade do normal) ou que fica sem molhar a fralda por mais de 6 horas.
+4. Qualquer pausa na respiração (apneia), lábios arroxeados ou bebê muito molinho/difícil de acordar.
 ```
 
 ---
@@ -63,6 +85,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO — BRONQUIOLITE VIRAL AGUDA LEVE (MANEJO DOMICILIAR)
 Lactente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
 

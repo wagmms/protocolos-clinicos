@@ -41,13 +41,38 @@
 2. Medicamentos NOVOS INICIADOS ou com DOSE AJUSTADA na internação:
    - [Medicamento novo/ajustado, dose, posologia e motivo clínico]
 3. Medicamentos SUSPENSOS DEFINITIVAMENTE (NÃO TOMAR MAIS):
-   - [Medicamento suspenso e motivo clínico da suspensão: / Nenhuma medicação prévia suspensa]
+   - [Medicamento suspenso e motivo clínico da suspensão: [ ]/ Nenhuma medicação prévia suspensa]
 
 >> PLANO DE SEGUIMENTO AMBULATORIAL (CONTRARREFERÊNCIA):
 1. Encaminhado(a) com cópia impressa deste Sumário de Alta para a Unidade Básica de Saúde (UBS / ESF) de referência para consulta médica de reavaliação em [7 a 14] dias.
 2. Seguimento Especializado: [Agendado retorno no Ambulatório de [ ] em [ ] dias / Não necessita de ambulatório terciário].
 3. Exames para levar na consulta de retorno: [Solicitados Creatinina, Ureia, Potássio e Hemograma de controle em 7 dias / Sem exames pendentes].
 4. Sinais de Alarme Explicados (Teach-back confirmado com paciente e familiar): Retornar imediatamente ao Pronto Atendimento se febre (≥ 37,8 °C), falta de ar, dor no peito, vômitos persistentes, confusão mental ou redução importante da urina.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO DE ALTA HOSPITALAR — CLÍNICA MÉDICA
+Paciente: [Nome] | Data da Alta: [DD/MM/AAAA]
+
+1. MEDICAÇÃO PARA TERMINAR O TRATAMENTO AGUDO (COM PRAZO DE TÉRMINO):
+   - [Amoxicilina + Clavulanato 875/125 mg (ou outro antimicrobiano em transição oral)]
+     Tomar 1 comprimido por via oral de [12 em 12] horas durante mais [ ] dias corridos (Último dia de tomada: [DD/MM/AAAA]). Não interromper antes desta data.
+
+2. MEDICAÇÕES DE USO CONTÍNUO DIÁRIO (TOMAR TODOS OS DIAS):
+   - [Medicamento Contínuo 1 — ex: Losartana 50 mg]
+     Tomar [1] comprimido por via oral pela manhã ([08:00]h) — Uso contínuo.
+   - [Medicamento Contínuo 2 — ex: Anlodipino 5 mg / Metformina 850 mg / Sinvastatina 20 mg]
+     Tomar [1] comprimido por via oral [após o almoço e/ou jantar] — Uso contínuo.
+
+3. MEDICAÇÃO SINTOMÁTICA (APENAS SE NECESSÁRIO):
+   - Dipirona Monoidratada 500 mg (ou 1 g)
+     Tomar 1 comprimido por via oral até de 6 em 6 horas se apresentar dor ou febre (Tax ≥ 37,8 °C).
+
+ATENÇÃO — REMÉDIOS ANTIGOS SUSPENSOS (NÃO TOMAR MAIS EM CASA):
+- Suspender definitivamente o uso de: [Nenhum / [ ] — substituído pela nova receita acima].
+
+ORIENTAÇÕES GERAIS E SINAIS DE ALARME:
+- Manter dieta [geral saudável / com restrição de sal / para diabetes] e boa hidratação oral ([1,5 a 2] litros de água/dia, salvo restrição médica).
+- Levar este Receituário e o Sumário de Alta na sua consulta na UBS em [7 a 14] dias.
+- Procurar imediatamente a UPA / Pronto-Socorro se apresentar febre (≥ 37,8 °C), falta de ar, dor no peito, vômitos que impeçam tomar os comprimidos ou sonolência excessiva.
 ```
 
 ---
@@ -55,6 +80,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO DE ALTA HOSPITALAR — CLÍNICA MÉDICA
 Paciente: [Nome] | Data da Alta: [DD/MM/AAAA]
 

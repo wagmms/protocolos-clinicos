@@ -10,7 +10,7 @@
 ###### ATENDIMENTO PEDIÁTRICO — RESFRIADO COMUM / RINOFARINGITE AGUDA ######
 # IDENTIFICAÇÃO & PESO:
 - Paciente: [Nome] | Idade: [ ] [meses / anos] | Sexo: [Masculino / Feminino] | **PESO ATUAL: [ ] kg**
-- Acompanhante: [Mãe / Pai / Responsável:]
+- Acompanhante: [Mãe / Pai / Responsável: [ ]]
 
 # SUBJETIVO (ANAMNESE DIRIGIDA & EXCLUSÃO DE GRAVIDADE):
 - Queixa Principal (QP): Coriza, obstrução nasal e tosse há [ ] dias.
@@ -43,6 +43,30 @@
 3. Hidratação oral abundante e fracionamento das mamadas/refeições.
 4. Proscrição formal e explicação aos pais sobre a proibição de antibióticos, xaropes antitussígenos/mucolíticos e descongestionantes nasais tópicos ou sistêmicos.
 5. Orientados sinais de alarme para retorno imediato (taquipneia, tiragem subcostal, febre > 72h, otalgia ou prostração sem febre).
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO PEDIÁTRICO — RESFRIADO COMUM / IVAS
+Paciente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+
+USO NASAL E ORAL:
+1. Soro Fisiológico 0,9% (em temperatura ambiente/morna) ----------------------- 1 frasco (500 mL)
+   Realizar lavagem nasal com seringa de [3 mL (< 1 ano) / 5 a 10 mL (1 a 3 anos) / 10 a 20 mL (> 4 anos)] em cada narina, com a criança SEMPRE sentada e cabecinha levemente inclinada para frente, de 5 a 6 vezes ao dia (obrigatoriamente antes das mamadas/refeições e antes de dormir).
+
+2. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+   Dar [ ] gotas (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas APENAS se houver febre (Tax ≥ 37,8 °C) com desconforto ou dor.
+
+3. [Se Criança > 1 ano de idade com tosse noturna irritativa]:
+   Mel de abelhas puro --------------------------------------------------------- Uso oral
+   Oferecer meia a 1 colher de chá (2,5 a 5 mL) de mel puro 30 minutos antes de dormir (Atenção: ESTRITAMENTE PROIBIDO para menores de 1 ano de idade pelo risco de botulismo).
+
+MEDICAMENTOS PROIBIDOS NA INFÂNCIA (NÃO UTILIZAR):
+- NÃO usar xaropes para tosse, mucolíticos ou antigripais com descongestionantes (risco de intoxicação grave, taquicardia e sonolência).
+- NÃO pingar descongestionantes nasais de adulto no nariz da criança (risco de queda de pressão, bradicardia e coma).
+- NÃO usar antibiótico: o catarro ficar amarelado ou esverdeado a partir do 3º dia faz parte da evolução normal do resfriado viral e NÃO significa sinusite bacteriana.
+
+SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+- Respiração rápida, cansada ou afundamento das costelas ao respirar.
+- Febre que dure mais de 3 dias seguidos (72 horas) ou febre que volte a subir depois de já ter ficado 24 horas sem febre.
+- Dor de ouvido intensa, saída de pus pelo ouvido ou prostração contínua mesmo sem febre.
 ```
 
 ---
@@ -50,6 +74,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO — RESFRIADO COMUM / IVAS
 Paciente: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 

@@ -26,7 +26,7 @@ Acolhimento / Classificação de Risco: [Azul / Verde / Amarelo / Vermelho] às 
 
 # ANTECEDENTES (HPP & HÁBITOS):
 - Comorbidades: [Nega / HAS / DM2 / Asma / DPOC / DAC prévia / DRC / Neoplasia].
-- Medicações em Uso Contínuo: [Nega uso de medicações contínuas /].
+- Medicações em Uso Contínuo: [Nega uso de medicações contínuas / Em uso de: [ ]].
 - ALERGIAS MEDICAMENTOSAS: [NEGA ALERGIAS CONHECIDAS / ALÉRGICO(A) A: (DIPIRONA / PENICILINA / AINES / OUTRA:)].
 - Hábitos: [Nega tabagismo, etilismo ou substâncias ilícitas / Tabagista maços/ano / Etilista social].
 

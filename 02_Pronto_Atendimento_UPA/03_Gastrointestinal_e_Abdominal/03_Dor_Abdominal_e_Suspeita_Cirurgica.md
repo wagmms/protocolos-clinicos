@@ -22,7 +22,7 @@
   * Nega corrimento vaginal fétido ou sangramento genital ativo.
   * Nega hematêmese, melena ou enterorragia volumosa.
 - Antecedentes: [Nega cirurgias prévias / Relata laparotomia/cesárea prévia (risco de bridas) / Hérnia inguinal conhecida / Litíase biliar conhecida].
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO ABDOMINAL COMPLETO & SEMIOLOGIA ARMADA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm (taquicardia) | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.
@@ -45,8 +45,8 @@
    - Hemograma: [ ] leucócitos/mm³ com [ ]% de bastonetes (desvio à esquerda).
    - PCR: [ ] mg/L | Amilase: [ ] U/L | Lipase: [ ] U/L.
    - Ureia: [ ] | Creatinina: [ ] | TGO: [ ] | TGP: [ ] | Bilirrubinas: [ ].
-   - EAS / Urina 1: [Sem leucocitúria ou hematúria /].
-   - Beta-hCG sérico (se mulher): [Negativo /].
+   - EAS / Urina 1: [Sem leucocitúria ou hematúria / Alterado: [ ]].
+   - Beta-hCG sérico (se mulher): [Negativo / Positivo: [ ]].
 2. Rotina Radiológica de Abdome Agudo (3 Incidências: Tórax PA + Abdome em pé + Decúbito):
    - [Sem pneumoperitônio sob cúpulas diafragmáticas / Sem níveis hidroaéreos patológicos / Presença de distensão de alças com níveis hidroaéreos em escada / Presença de lâmina de ar subdiafragmática (pneumoperitônio)].
 

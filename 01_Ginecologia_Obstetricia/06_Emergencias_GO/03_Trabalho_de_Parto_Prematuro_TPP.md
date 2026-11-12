@@ -72,4 +72,5 @@
 - **Por que manter e intensificar a amamentação/ordenha é obrigatório?**
   - As bactérias estão no tecido intersticial mamário (a criança não adoece ao mamar no peito com mastite!).
   - Se você suspender a amamentação na mama afetada, ocorre **estase láctea aguda sob pressão**, transformando o leite retido em meio de cultura quente e convertendo a mastite celulítica em **Abscesso Mamário** em 48 horas!
-- **Quando drenar?** Toda vez que houver **flutuação à palpação** ou coleção líquida na Ultrassonografia mamária $ightarrow$ punção aspirativa guiada por USG ou drenagem cirúrgica sob cobertura de **Cefalexina 500 mg VO 6/6h** (ou **Oxacilina / Clindamicina EV** se sepse/MRSA).
+- **Quando drenar?** Toda vez que houver **flutuação à palpação** ou coleção líquida na Ultrassonografia mamária $
+ightarrow$ punção aspirativa guiada por USG ou drenagem cirúrgica sob cobertura de **Cefalexina 500 mg VO 6/6h** (ou **Oxacilina / Clindamicina EV** se sepse/MRSA).

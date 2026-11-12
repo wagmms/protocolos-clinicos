@@ -21,7 +21,7 @@
   * EXCLUSÃO DE SÍNDROME CORONARIANA AGUDA: Nega dor precordial em aperto com irradiação para mandíbula ou dorso; nega histórico de cardiopatia isquêmica.
   * EXCLUSÃO DE TEP E ASMA: Nega dor pleurítica aguda em pontada, nega tosse ou chiado no peito; nega imobilização recente ou TVP prévia.
   * EXCLUSÃO DE INTOXICAÇÃO: Nega uso de drogas simpaticomiméticas ilícitas (cocaína, ecstasy, anfetaminas) ou anorexígenos.
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO DA EMERGÊNCIA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg (discretamente elevada por tônus adrenérgico) | FC: [ ] bpm (taquicardia sinusal) | FR: [ ] irpm (padrão taquipneico suspiroso) | SpO2: 99% a 100% em ar ambiente | Tax: [ ] °C.
@@ -58,6 +58,20 @@
 - Esclarecer a natureza psicossomática dos sintomas e desmistificar o medo de infarto ou loucura.
 - Evitar cafeína, energéticos e álcool nos próximos dias.
 - Encaminhamento com relatório para a Unidade Básica de Saúde (UBS) / CAPS para avaliação psiquiátrica ambulatorial e introdução de terapia de manutenção (ISRS como Sertralina/Escitalopram) associada à psicoterapia cognitivo-comportamental.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+USO ORAL:
+
+1. Cloridrato de Sertralina 50 mg ------------------------------ 30 comprimidos
+   Tomar meio comprimido (25 mg) pela manhã após o café nos primeiros 7 dias, passando para 01 comprimido (50 mg) pela manhã a partir do 8º dia, continuamente, até avaliação psiquiátrica/ambulatorial.
+
+2. Cloridrato de Hidroxizina 25 mg ----------------------------- 10 comprimidos
+   Tomar 01 comprimido por via oral à noite ou em caso de crise aguda de ansiedade/insônia (máximo de 2 comprimidos ao dia). Atenção: pode causar sonolência.
+
+ORIENTAÇÕES NÃO FARMACOLÓGICAS E SINAIS DE ALERTA:
+- Praticar respiração diafragmática quadrada (inspirar em 4s, segurar 4s, expirar lentamente pela boca em 6s) aos primeiros sinais de taquicardia ou formigamento.
+- Reduzir consumo de cafeína, energéticos, pré-treinos e nicotina.
+- Buscar acompanhamento longitudinal em Saúde Mental (UBS / CAPS / Psicoterapia Cognitivo-Comportamental).
+- Retornar imediatamente se dor torácica opressiva ao esforço, desmaio ou ideação de autoextermínio.
 ```
 
 ---
@@ -67,6 +81,7 @@
 > **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 USO ORAL:
 
 1. Cloridrato de Sertralina 50 mg ------------------------------ 30 comprimidos

@@ -21,7 +21,7 @@
 - Negativas Mandatórias:
   * Nega histórico de trauma cranioencefálico recente ou cefaleia febril precedente.
   * Sem porte de armas ou objetos perfurocortantes (revista de segurança realizada pela equipe/guarda).
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO & ESTADO MENTAL NA SALA DE EMERGÊNCIA):
 - SINAIS VITAIS (AFERIDOS ASSIM QUE POSSÍVEL): PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% | Tax: [ ] °C.

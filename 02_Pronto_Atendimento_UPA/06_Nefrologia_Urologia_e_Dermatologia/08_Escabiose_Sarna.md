@@ -20,7 +20,7 @@
 - Negativas Mandatórias:
   * Nega febre, calafrios ou prostração sistêmica.
   * Nega lesões bolhosas extensas com descolamento cutâneo (afastado pênfigo ou eritema multiforme).
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO DERMATOLÓGICO):
 - Ectoscopia Cutânea:

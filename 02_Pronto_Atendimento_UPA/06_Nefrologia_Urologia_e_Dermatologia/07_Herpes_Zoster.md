@@ -23,7 +23,7 @@
     - Nega paralisia ou fraqueza na mímica facial (mímica facial simétrica).
     - Nega dor intensa no ouvido com vesículas no conduto auditivo externo ou vertigem súbita.
 - Histórico: [Passado de catapora/varicela na infância / Imunossupressão / Idade > 50 anos].
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 
 # OBJETIVO (EXAME FÍSICO DERMATOLÓGICO & NEUROLÓGICO):
 - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Afebril.
@@ -60,6 +60,25 @@
 - Não manipular ou estourar as vesículas.
 - Alerta de Contágio: O líquido das vesículas contém o vírus vivo da catapora. Evitar contato direto com gestantes suscetíveis, recém-nascidos e pessoas imunossuprimidas até que todas as bolhas tenham virado crostas secas.
 - [SE SINAL DE HUTCHINSON PRESENTE]: Encaminhamento IMEDIATO ao Oftalmologista no mesmo dia para exame com lâmpada de fenda e fluoresceína.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+USO ORAL (INICIAR PREFERENCIALMENTE EM ATÉ 72H DO SURGIMENTO DAS VESÍCULAS):
+
+1. Aciclovir 400 mg -------------------------------------------- 70 comprimidos
+   Tomar 02 comprimidos (800 mg) por via oral, 5 vezes ao dia (às 06h, 10h, 14h, 18h e 22h — pulando a dose da madrugada), durante 7 dias. Ingerir bastante água durante o tratamento.
+   (Alternativa de maior comodidade posológica: Valaciclovir 500 mg — tomar 02 comprimidos [1.000 mg] VO de 8/8h por 7 dias).
+
+2. Dipirona Sódica 1 g ----------------------------------------- 20 comprimidos
+   Tomar 01 comprimido por via oral de 6/6 horas para controle da dor aguda.
+
+3. Cloridrato de Tramadol 50 mg (se dor neurítica moderada/intensa) -- 10 cápsulas
+   Tomar 01 cápsula por via oral de 8/8 horas se dor intensa refratária à dipirona.
+
+4. Gabapentina 300 mg (ou Pregabalina 75 mg) — se dor neuropática intensa:
+   Tomar 01 cápsula à noite nos primeiros 3 dias, progredindo conforme tolerância e acompanhamento ambulatorial.
+
+CUIDADOS LOCAIS E SINAIS DE ALERTA:
+- Lavar as lesões suavemente com água e sabonete neutro; não estourar as vesículas e evitar contato das lesões ativas com gestantes, recém-nascidos e imunossuprimidos não vacinados contra varicela.
+- RETORNO IMEDIATO se surgirem lesões na ponta do nariz (Sinal de Hutchinson), vermelhidão ocular, dor no olho, visão turva, paralisia facial ou dor de cabeça intensa com rigidez de nuca.
 ```
 
 ---
@@ -69,6 +88,7 @@
 > **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 USO ORAL (INICIAR PREFERENCIALMENTE EM ATÉ 72H DO SURGIMENTO DAS VESÍCULAS):
 
 1. Aciclovir 400 mg -------------------------------------------- 70 comprimidos

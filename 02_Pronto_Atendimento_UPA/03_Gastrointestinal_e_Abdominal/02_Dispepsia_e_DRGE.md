@@ -25,7 +25,7 @@
     - Nega vômitos recorrentes ou hematêmese (vômitos com sangue ou borra de café).
     - Nega fezes pretas com cheiro podre característico (melena).
     - Nega história familiar de câncer gástrico em parentes de 1º grau.
-- Alergias: [Nega /].
+- Alergias: [Nega / Sim: [ ]].
 - Medicações: [Nega uso recente de AINEs / Em uso crônico de AAS, Cetoprofeno, Ibuprofeno ou Diclofenaco].
 
 # OBJETIVO (EXAME FÍSICO DIRIGIDO):

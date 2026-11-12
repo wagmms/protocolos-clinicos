@@ -10,7 +10,7 @@
 ###### ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA — CRISE CONVULSIVA FEBRIL (6 MESES A 5 ANOS) ######
 # IDENTIFICAÇÃO & PESO:
 - Criança: [Nome] | Idade: [ ] [meses / anos] (Faixa de definição: 6 a 60 meses; pico aos 18 meses) | **PESO ATUAL: [ ] kg**
-- Acompanhante: [Mãe / Pai / Responsável:]
+- Acompanhante: [Mãe / Pai / Responsável: [ ]]
 
 # SUBJETIVO (SEMIOLOGIA DA CRISE & CRITÉRIOS SIMPLES vs COMPLEXA):
 - Queixa Principal (QP): Episódio de crise convulsiva em vigência de febre há [ ] minutos/horas.
@@ -43,7 +43,7 @@
 # PLANO / CONDUTA:
 
 >> [ETAPA 1] CONDUTA NA SALA DE EMERGÊNCIA (SE CRISE ATIVA COM DURAÇÃO > 5 MINUTOS):
-1. ABCDE: Posicionar em decúbito lateral de segurança no leito, aspirar vias aéreas superiores suavemente, ofertar O2 sob máscara não reinalante a 10 L/min, instalar monitorização e aferir **Glicemia Capilar (HGT)** imediatamente.
+1. ABCDE: Posicionar em decúbito lateral de segurança no leito, aspirar vias aéreas superiores suavemente, ofertar O2 sob máscara não reinalante a 10 L/min, instalar monitorização e aferir **Glicemia Capilar (HGT)** imediatamente *(Se hipoglicemia `< 60 mg/dL`: administrar **Glicose 10% [SG 10%] `5 mL/kg` EV em bólus = `0,5 g/kg`** — Regra dos 50 do PALS; nunca usar SG 50% puro em veia periférica pediátrica)*.
 2. **Benzodiazepínico de 1ª Linha (Peso Atual: [ ] kg):**
    - **Com Acesso Venoso:** **Diazepam `0,2 a 0,3 mg/kg` EV lento** (sem diluir, velocidade máx 1–2 mg/min; dose máx 5 mg em < 5 anos ou 10 mg em ≥ 5 anos) **OU Midazolam `0,15 a 0,2 mg/kg` EV**.
    - **Sem Acesso Venoso Imediato (Vias Alternativas Rápidas):** **Midazolam `0,2 mg/kg` Intramuscular (IM)** no vasto lateral da coxa (ou `0,2 a 0,3 mg/kg` Intranasal/Bucal).
@@ -54,6 +54,26 @@
    - **Punção Lombar (LCR):** [Não indicada — criança > 12 meses (ou 6–12m com vacinação Hib/Pneumo-10 completa), alerta, sem sinais meníngeos e com recuperação pós-ictal completa / Indicada por sinais meníngeos, letargia persistente, < 6m ou 6–12m não vacinado].
    - **Neuroimagem (TC de Crânio), EEG e Eletrólitos de Rotina:** **NÃO indicados** na Convulsão Febril Simples típica com exame neurológico normal.
 3. **Observação Clínica na Emergência por 2 a 4 Horas:** Confirmada recuperação neurológica basal completa, criança afebril, ativa, aceitando líquidos por via oral e pais tranquilos e orientados -> Alta segura com plano de ação domiciliar.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+RECEITUÁRIO MÉDICO PEDIÁTRICO & PLANO DE AÇÃO DOMICILIAR — CONVULSÃO FEBRIL SIMPLES
+Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
+
+USO ORAL:
+1. Dipirona Solução Oral Gotas (500 mg/mL) ------------------------------------- 1 frasco
+   Dar **[ ] gotas** (0,8 a 1 gota/kg; máx 35 gotas) por via oral até de 6 em 6 horas se houver febre (temperatura axilar ≥ 37,8 °C) ou dor, para proporcionar conforto à criança.
+
+2. [Se identificado foco bacteriano associado — ex: Otite Média Aguda]:
+   [Apenas tratamento sintomático da virose / Amoxicilina conforme prescrição específica].
+
+ESCLARECIMENTOS FUNDAMENTAIS PARA TRANQUILIZAR A FAMÍLIA:
+1. A Convulsão Febril Simples é Benigna: Apesar de ser muito assustadora para quem assiste, uma crise convulsiva febril curta (< 15 minutos) NÃO causa dano cerebral, NÃO afeta a inteligência ou o desenvolvimento e NÃO significa que a criança tem epilepsia (mais de 97% das crianças com convulsão febril simples nunca terão epilepsia).
+2. Sobre os Antitérmicos: Dar antitérmico ajuda a criança a se sentir melhor, mas nenhum antitérmico impede 100% que uma nova crise aconteça (pois a convulsão geralmente ocorre na subida rápida da primeira febre). Também NÃO se deve usar remédio controlado anticonvulsivante de uso diário (como Fenobarbital ou Ácido Valproico) para prevenir convulsão febril simples.
+
+COMO AGIR EM CASA SE ACONTECER UM NOVO EPISÓDIO (PASSO A PASSO DE SEGURANÇA):
+1. Mantenha a calma e olhe no relógio para marcar a hora em que a crise começou (a maioria para sozinha em 1 a 3 minutos).
+2. Deite a criança DE LADO (decúbito lateral) no chão sobre um tapete ou na cama, longe de quinas ou objetos duros, para que a saliva escorra para fora e ela respire livremente.
+3. NUNCA tente abrir a boca da criança à força, NUNCA puxe a língua e NUNCA coloque o dedo, colher, pano ou água/remédio na boca durante a crise (a língua NÃO enrola nem é engolida, e colocar objetos na boca pode quebrar dentes ou sufocar a criança).
+4. Leve imediatamente ao Pronto-Socorro (ou ligue 192 — SAMU) se a crise durar MAIS DE 5 MINUTOS, se um lado só do corpo tremer ou se a criança não voltar a ficar esperta 30 a 60 minutos após a crise parar.
 ```
 
 ---
@@ -61,6 +81,7 @@
 ## 💊 Receita Domiciliar / Alta
 
 ```text
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
 RECEITUÁRIO MÉDICO PEDIÁTRICO & PLANO DE AÇÃO DOMICILIAR — CONVULSÃO FEBRIL SIMPLES
 Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 
