@@ -1,77 +1,92 @@
 # Ambulatório de Pré-Natal - Consulta Subsequente (Retorno)
 
 > **Atalho sugerido:** `;pn-ret`  
-> **Finalidade:** Consulta de acompanhamento evolutivo do 2º e 3º trimestres da gestação.
+> **Finalidade:** Seguimento evolutivo de 2º e 3º trimestres, auditoria de curvas (AU, PA, Glicemia), exames por faixa de IG e prescrição de retorno.
 
 ---
 
 ### [SNIPPET DE PRONTUÁRIO - COPIAR ABAIXO]
 
 ```text
-###### CONSULTA DE PRÉ-NATAL - SEGUIMENTO ######
-# IDENTIFICAÇÃO & DADOS CRONOLÓGICOS:
-Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ].
-- Idade Gestacional Atual: [ ] semanas e [ ] dias (confirmada por [DUM confiável / USG de 1º trimestre de DD/MM/AAAA]).
-- DPP: [DD/MM/AAAA]
+###### CONSULTA DE PRÉ-NATAL — SEGUIMENTO / RETORNO ######
+# IDENTIFICAÇÃO & CRONOLOGIA:
+Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], TS/Rh: [O+ / A+ / B+ / AB+ / O- / A- / Aguarda] | Risco: [Risco Habitual / Alto Risco por: [ ]].
+- IG Atual: [ ] semanas e [ ] dias (por [USG de 1º tri / DUM confiável]) | DPP: [DD/MM/AAAA].
 
-# SUBJETIVO (HMA):
-Gestante comparece para consulta de retorno pré-natal.
-- Movimentação Fetal: [Presente, ativa e vigorosa / Feto mexendo bem nas últimas 24h / Não percebida ainda por IG < 18-20 semanas].
-- Queixas Maternas: [Sem queixas no período / Refere lombalgia postural leve / Refere azia/pirose esporádica / Refere edema leve vespertino em tornozelos].
-- Negativas Mandatórias de Alarme Obstétrico:
-  * Nega perdas vaginais: Nega perda de sangue genital, nega perda de líquido claro com cheiro de água sanitária (perda de LA).
-  * Nega leucorreia com prurido, ardor ou odor desagradável.
-  * Nega contrações uterinas dolorosas e rítmicas de trabalho de parto prematuro.
-  * Nega sintomas pré-monitórios de pré-eclâmpsia: Nega cefaleia holocraniana/occipital, escotomas visuais, fotofobia, zumbidos ou epigastralgia em barra.
-  * Nega disúria, polaciúria, febre ou calafrios.
-- Adesão Medicamentosa: Em uso regular de Sulfato Ferroso 40 mg Fe elementar/dia [e Ácido Fólico / Anti-hipertensivo: [ ] / Insulina].
+# SUBJETIVO (EVOLUÇÃO & ALARME OBSTÉTRICO):
+- Evolução & Movimentação Fetal: Comparece para retorno com exames. Movimentação fetal [presente e ativa / ainda não percebida (< 18–20s)]. Queixas: [Assintomática no período / Refere pirose leve / Lombalgia mecânica leve / Edema maleolar vespertino leve].
+- Adesão Medicamentosa: Em uso regular de [Sulfato Ferroso / Ácido Fólico / AAS 100 mg + Carbonato de Cálcio / Metildopa].
+- Negativas Mandatórias de Alarme: Nega sangramento vaginal, perda de líquido amniótico, contrações rítmicas dolorosas, cefaleia, escotomas, epigastralgia em barra, disúria ou febre.
 
-# CONTROLES & CURVAS (SE INDICADO):
-- [Se HAS / HAG / PE]: Curva de PA domiciliar trazida: [Média de PA dentro do alvo (< 135x85 mmHg) / Registrados [ ] picos pressóricos acima do alvo].
-- [Se DMG / DM2]: Perfil glicêmico domiciliar (mapa de 4 a 6 pontos):
-  * Jejum (alvo < 95 mg/dL): [ ] mg/dL
-  * 1h pós-prandial (alvo < 140 mg/dL) ou 2h pós-prandial (alvo < 120 mg/dL): [ ] mg/dL
-  * Análise: [[ ]% das medidas normais / [ ] medidas de hiperglicemia registradas].
+# OBJETIVO (EXAME FÍSICO OBSTÉTRICO & CURVAS):
+- Vitais & Antropometria: PA (sentada): [110x70] mmHg | FC: [80] bpm | Peso Atual: [ ] kg (Variação no período: [+/- ] kg | Ganho total: [ ] kg).
+- Exame Geral & Cardiopulmonar: BEG, corada, hidratada, eupneica, RCR 2T BNF, MV+ bilateral limpo.
+- Abdome Gravídico (Leopold & Vitalidade):
+  * Altura Uterina (AU): [ ] cm (compatível com a curva AU/IG entre P10–P90).
+  * Manobras de Leopold: Feto único, situação [longitudinal], apresentação [cefálica / pélvica], dorso à [esquerda / direita].
+  * Dinâmica Uterina (DU): [Ausente / Contrações de Braxton-Hicks isoladas e indolores]. Tônus uterino fisiológico.
+  * Ausculta Fetal (BCF): [142] bpm, rítmico, sem desacelerações audíveis (pulso materno aferido simultaneamente).
+- Extremidades: [Sem edemas / Edema maleolar fisiológico +/4+ bilateral e simétrico], panturrilhas livres.
+- Revisão de Exames & Controles Trazidos:
+  * Laboratório / TOTG-75g (24–28s): [Hemograma Hb [ ] g/dL, Urocultura negativa, Sorologias NR / TOTG-75g: Jejum [ ], 1h [ ], 2h [ ] mg/dL -> Normal].
+  * USG Obstétrica / Morfológica: [Feto normodramnia (ILA/MBV normal), placenta corporal sem sinais de prévia, PFE: [ ] g (Percentil [ ])].
+  * Swab EGB (35–37s): [Ainda fora da janela / Negativo / Positivo -> anotado em destaque na Caderneta para profilaxia intraparto].
+  * [Se HAG/DMG]: [Curva de PA domiciliar < 135x85 mmHg / Mapa glicêmico com > 80% das medidas no alvo (Jejum < 95 e 1h pós < 140 mg/dL)].
 
-# OBJETIVO (EXAME FÍSICO):
-- Sinais Vitais: PA: [ ]x[ ] mmHg (braço direito) | FC: [ ] bpm | Afebril.
-- Antropometria: Peso Atual: [ ] kg (Ganho de peso desde a última consulta: [+/- ] kg | Ganho ponderal total na gestação: [ ] kg).
-- Estado Geral: Bom estado geral, corada, hidratada, anictérica, acianótica, eupneica.
-- Abdome Obstétrico:
-  * Altura Uterina (AU): [ ] cm (compatível com a IG, situada entre os percentis 10 e 90 da curva de AU/IG).
-  * Manobras de Leopold: Situação [longitudinal], apresentação [cefálica / pélvica], dorso [à direita / à esquerda].
-  * Dinâmica Uterina (em 10 min): [Ausente / Contrações de treinamento de Braxton-Hicks isoladas, indolores e arrítmicas].
-  * Batimentos Cardiofetais (BCF): [ ] bpm, audíveis ao sonar Doppler, ritmo cardíaco fetal regular, ausência de desacelerações.
-- Membros Inferiores: [Sem edemas / Edema maleolar fisiológico bilateral +/4+], sem assimetrias, panturrilhas livres e indolores.
-
-# CHECAGEM DE EXAMES COMPLEMENTARES:
-- Ultrassonografia: [Morfológica de 2º tri realizada em DD/MM: sem malformações, placenta [fúndica/anterior/posterior], ILA normal / USG obstétrica com peso fetal estimado de [ ] g, percentil [ ]].
-- Teste de Tolerância Oral à Glicose (TOTG-75g entre 24-28s): [Jejum: [ ], 1h: [ ], 2h: [ ] mg/dL -> Normal / Alterado compatível com DMG].
-- Coombs Indireto (se mãe Rh negativo): [Negativo em 28 semanas -> Indicada profilaxia antenatal com Imunoglobulina Anti-D 300 mcg IM].
-- Rastreio de Streptococcus do Grupo B (EGB entre 36 0/7 e 37 6/7 semanas): [Coletado swab vaginal e retal / Resultado: Negativo / Positivo -> indicada profilaxia intraparto com Penicilina G Cristalina ou Ampicilina].
-- Sorologias de 3º Trimestre: HIV [NR], VDRL [NR], HBsAg [NR], Toxoplasmose [NR / Imune].
-
-# AVALIAÇÃO:
-1. G[ ] P[ ] A[ ] - Gestação tópica com IG de [ ] semanas e [ ] dias.
-2. [Gestação de Risco Habitual / Gestação de Alto Risco por [comorbidade]].
-3. Vitalidade e crescimento fetais preservados no momento.
+# AVALIAÇÃO DIAGNÓSTICA:
+1. Gestação tópica de [ ] semanas e [ ] dias, feto vital e crescimento adequado (CID-10: Z34.8).
+2. Exames e curvas [dentro da normalidade para a idade gestacional / com alteração de: [ ]].
 
 # PLANO / CONDUTA:
-1. Manter suplementação com Sulfato Ferroso 40 mg de ferro elementar/dia até o parto.
-2. [Se aplicável]: Atualização vacinal com dTpa (a partir de 20 semanas) e Influenza.
-3. [Se aplicável]: Imunoglobulina Anti-D 300 mcg IM com 28 semanas (se Rh negativa e Coombs indireto negativo).
-4. Orientações sobre o Parto: Esclarecidas dúvidas sobre sinais de trabalho de parto ativo (2 a 3 contrações regulares em 10 minutos que duram 40-50 segundos acompanhadas de perda de tampão ou dilatação).
-5. Reforçados sinais de alarme e busca por pronto atendimento imediato: Perda de líquido, sangramento vaginal, diminuição nítida da movimentação fetal (< 6 a 10 movimentos em 2 horas após refeições), cefaleia intensa, dor em barra no epigástrio.
-6. Retorno Agendado: Em [4 semanas / 2 semanas se > 36 semanas / semanalmente se > 38-40 semanas].
+>> CONDUTA & SOLICITAÇÕES POR IDADE GESTACIONAL:
+1. Atualizada Caderneta da Gestante (gráfico de curva de AU e ganho ponderal).
+2. Vacinação & Imunoprofilaxia: [Encaminhada para dTpa (a partir de 20s) e Influenza / Prescrita Imunoglobulina Anti-D 300 mcg IM na 28ª semana (mãe Rh- com Coombs Indireto negativo) / Vacinação completa].
+3. Exames Solicitados Hoje: [Nenhum pendente / TOTG-75g + Coombs Indireto (24–28s) / Rotina de 3º Trimestre (Hemograma, EAS, Urocultura, HIV, VDRL, HBsAg, Toxo) / Swab vaginal e retal para Streptococcus agalactiae (EGB entre 35–37s)].
+4. Orientações de sinais de trabalho de parto ativo (2–3 contrações fortes de 40–60s em 10 min) e mobilograma fetal.
+5. Retorno agendado em: [4 semanas (até 28s) / 2 semanas (28 a 36s) / 1 semana (a partir de 36s até o parto)].
+
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+USO ORAL:
+1. Sulfato Ferroso 40 mg de ferro elementar (200 mg) ------------------- 60 comprimidos
+   Tomar 1 comprimido via oral, 1 vez ao dia, 30 minutos antes do almoço (com suco cítrico), uso contínuo.
+2. [Se mantida profilaxia de Pré-Eclâmpsia até 36 semanas]:
+   - Ácido Acetilsalicílico (AAS) [100 mg / 150 mg] ---------------------- 30 comprimidos
+     Tomar 1 comprimido via oral à noite (ao deitar) até completar 36 semanas.
+   - Carbonato de Cálcio 500 mg (1.250 mg) ----------------------------- 60 comprimidos
+     Tomar 1 comprimido via oral 2 vezes ao dia junto às refeições.
+3. [Se Azia/Pirose] Hidróxido de Alumínio + Magnésio suspensão oral ---- 1 frasco
+   Tomar 10 mL via oral 1 hora após as refeições e ao deitar, se azia (longe do sulfato ferroso).
+4. [Se Lombalgia/Dor] Paracetamol 500 mg ou Dipirona 500 mg ------------ 1 caixa
+   Tomar 1 comprimido via oral de 6 em 6 horas se dor (proibido uso de anti-inflamatórios na gestação!).
+
+ORIENTAÇÕES DE SINAIS DE ALARME:
+- Procurar a Emergência Obstétrica imediatamente se: perda de líquido ou sangue vaginal, redução da movimentação do bebê, dor de cabeça forte que não passa, visão embaçada/pontos brilhantes, dor na boca do estômago ou contrações fortes antes das 37 semanas.
 ```
 
 ---
 
-### [MARCOS CRÍTICOS POR IDADE GESTACIONAL]
-- **20 a 24 semanas:** Realização da Ultrassonografia Morfológica de 2º Trimestre (avaliação anatômica fetal detalhada e medida do colo uterino transvaginal para rastreio de parto prematuro).
-- **20 semanas em diante:** Aplicação de 1 dose de **dTpa** (independente do histórico vacinal prévio, a cada nova gestação).
-- **24 a 28 semanas:** Realização obrigatória do **TOTG-75g** para todas as gestantes sem diagnóstico prévio de diabetes. Critérios de DMG (basta 1 valor alterado): Jejum ≥ 92 mg/dL | 1h ≥ 180 mg/dL | 2h ≥ 153 mg/dL.
-- **28 semanas:** Aplicação profilática antenatal de **Imunoglobulina Anti-D (300 mcg)** para gestantes Rh negativo não sensibilizadas (Coombs indireto negativo).
-- **36 0/7 a 37 6/7 semanas:** Coleta de **Swab Vaginal e Retal para EGB** (Streptococcus agalactiae) sem espéculo (janela atualizada FEBRASGO/ACOG com validade de 5 semanas, até 41s). Se positivo (ou bacteriúria por EGB nesta gestação ou filho prévio com sepse por EGB), indicar quimioprofilaxia no trabalho de parto ativo ou RPMO:
-  * **1ª Escolha (Espectro Estreito):** Penicilina G Cristalina 5 milhões UI EV ataque + 2,5 milhões UI EV de 4/4h até o nascimento.
-  * **2ª Escolha (Alternativa):** Ampicilina 2 g EV ataque + 1 g EV de 4/4h até o nascimento.
+### [REGRAS DE CONDUTA E DIRETRIZES CLÍNICAS]
+
+### 🧠 1. Por Que Examinamos Assim a Cada Retorno? (Semiologia Obstétrica Explicada)
+- **Por que a Altura Uterina (AU) equivale à IG entre 20 e 32 semanas?** Nesse intervalo, o crescimento uterino é linear (`~1 cm/semana`), guardando correlação direta com a idade gestacional (`± 2 a 3 cm`, entre os percentis 10 e 90 da curva).
+  - **AU abaixo do esperado para a IG:** Pensar em **Restrição de Crescimento Fetal (RCIU)**, **Oligoâmnio**, erro de datação ou óbito fetal $ightarrow$ solicitar USG Obstétrica com Doppler (artéria umbilical e cerebral média).
+  - **AU acima do esperado para a IG:** Pensar em **Macrossomia (DMG descompensado)**, **Polidrâmnio**, **Gemelaridade** ou miomatose uterina.
+- **O Porquê de Cada Tempo das 4 Manobras de Leopold-Zweifel:**
+  1. **1ª Manobra (Fundo Uterino):** Define a **Situação** (Longitudinal vs. Transversa) palpando qual polo ocupa o fundo (o polo pélvico é grande, irregular, macio e não rechaça; o cefálico é duro, liso e globoso).
+  2. **2ª Manobra (Deslizamento Lateral):** Define a **Posição** (Dorso à esquerda ou à direita). É fundamental porque **o foco máximo de ausculta do BCF ao Sonar fica exatamente sobre o dorso/ombro fetal anterior**!
+  3. **3ª Manobra (Pawlik — Apreensão Suprapúbica):** Avalia a **Apresentação** (Cefálica vs. Pélvica) e sua mobilidade acima do estreito superior.
+  4. **4ª Manobra (Escava Pélvica — de costas para o rosto da paciente):** Define a **Insinuação** (se o maior diâmetro biparietal já ultrapassou o estreito superior da bacia).
+
+### 🧭 2. Cronograma do 2º e 3º Trimestre: Por Que Nessa Idade Gestacional Exata?
+| Marco Gestacional | Exame / Conduta Obrigatória | O Porquê Fisiopatológico & Clínico |
+| :--- | :--- | :--- |
+| **`20 a 24 semanas`** | **USG Morfológica de 2º Trimestre + Medida do Colo TV** | Todos os órgãos fetais já estão formados com bom volume de líquido amniótico para janela acústica. Se **colo uterino `< 25 mm`** à via transvaginal → iniciar **Progesterona Micronizada 200 mg VV/noite** até 36s (reduz prematuridade em 45%). |
+| **`20 a 36 semanas`** | **Vacina dTpa (Tríplice Bacteriana Acelular)** | Repetida em **toda gestação** (mesmo se vacinada no ano anterior) para gerar pico de anticorpos **IgG anti-coqueluche** que atravessam ativamente a placenta e protegem o RN nos primeiros 60 dias de vida. |
+| **`24 a 28 semanas`** | **TOTG-75g (Jejum < 92 | 1h < 180 | 2h < 153)** | É a janela de **pico do Hormônio Lactogênio Placentário (hPL)**, progesterona e cortisol, que causam resistência insulínica materna máxima. Basta **1 valor alterado** para fechar diagnóstico de DMG. |
+| **`28 semanas (se Rh-)`** | **Coombs Indireto + Imunoglobulina Anti-D 300 mcg IM** | Previne a sensibilização materna por microtransfusões feto-maternas silenciosas do 3º trimestre (caso o Coombs Indireto esteja negativo). |
+| **`35 a 37 semanas`** | **Swab Vagino-Retal (1/3 distal da vagina + ânus) p/ GBS** | A colonização pelo *Streptococcus agalactiae* (EGB) é transitória; a cultura tem validade preditiva de **5 semanas** (colher em 35–37s garante cobertura até 40–41 semanas). |
+
+### 🚫 3. Quando NÃO Precisa Colher o Swab de GBS (Indicação Direta de Penicilina Intraparto)
+- Você **não precisa colher swab** entre 35–37 semanas em duas situações, porque elas **já têm indicação obrigatória de profilaxia intraparto com Penicilina Cristalina** (5 milhões UI EV ataque + 2,5 milhões UI 4/4h até o parto):
+  1. **Urocultura positiva para *Streptococcus agalactiae* (GBS)** em qualquer trimestre da gestação atual (indica alta carga de colonização urogenital).
+  2. **Filho anterior que teve sepse/meningite neonatal precoce por GBS**.

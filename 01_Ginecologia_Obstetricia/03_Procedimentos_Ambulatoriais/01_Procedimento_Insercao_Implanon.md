@@ -1,50 +1,72 @@
 # Procedimento Ambulatorial - Inserção de Implanon (Etonogestrel 68 mg)
 
 > **Atalho sugerido:** `;implanon-ins`  
-> **Finalidade:** Descrição técnica padronizada da inserção subdérmica do implante contraceptivo.
+> **Finalidade:** Nota técnica de inserção subdérmica do implante de Etonogestrel 68 mg, confirmação por palpação e receita pós-procedimento.
 
 ---
 
 ### [SNIPPET DE PRONTUÁRIO - COPIAR ABAIXO]
 
 ```text
-###### NOTA DE PROCEDIMENTO: INSERÇÃO DE IMPLANTE SUBDÉRMICO (IMPLANON) ######
-# INDICAÇÃO & IDENTIFICAÇÃO:
-Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ].
-Indicação: Contracepção de longa duração reversível (LARC) [em puerpério imediato / em menacme com gravidez previamente excluída].
-Termo de Consentimento Livre e Esclarecido (TCLE): Apresentado, lido, compreendido e assinado pela paciente antes do procedimento. Excluída gravidez ativa.
+###### NOTA DE PROCEDIMENTO: INSERÇÃO DE IMPLANTE SUBDÉRMICO (IMPLANON NXT 68 MG) ######
+# IDENTIFICAÇÃO & ELEGIBILIDADE:
+Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], DUM: [DD/MM/AAAA].
+- Indicação & Elegibilidade (OMS): Contracepção reversível de longa ação (LARC) [no menacme com β-hCG negativo / no pós-parto imediato]. Ausência de contraindicações Categoria 4 da OMS (nega câncer de mama, TVP/TEP agudo ou hepatopatia grave).
+- Consentimento & Lote: TCLE lido e assinado. Lote do dispositivo: [ ] | Validade de uso: 3 anos (até [DD/MM/AAAA]).
 
-# PASSOS TÉCNICOS DO PROCEDIMENTO:
-1. Posicionamento da Paciente: Decúbito dorsal horizontal com o braço não dominante flexionado no cotovelo e a mão posicionada sob a cabeça.
-2. Demarcação Anatômica: Identificado ponto de inserção na face interna do braço não dominante, cerca de 8 a 10 cm acima do epicôndilo medial do úmero e 3 a 5 cm posterior ao sulco entre os músculos bíceps e tríceps braquiais (zona de segurança para evitar o feixe vasculonervoso braquial).
-3. Antissepsia: Rigorosa antissepsia da pele com Clorexidina Alcoólica 2% em movimentos circulares e aposição de campo estéril fenestrado.
-4. Anestesia Local: Realizada infiltração anestésica com 1,5 a 2 mL de Lidocaína 2% sem vasoconstritor, estritamente no trajeto subdérmico planejado (cânula de inserção).
-5. Inserção do Implante:
-   - Aplicador introduzido com bisel para cima em ângulo aproximado de 30 graus até transfixar a derme.
-   - Imediata horizontalização do aplicador paralelamente à superfície cutânea, elevando suavemente a pele ("tenteando") para garantir posicionamento estritamente subdérmico superficial.
-   - Progressão completa da cânula sob a derme até o limitador.
-   - Destravamento da trava de segurança do aplicador e retração completa da cânula através do botão deslizante, liberando o bastonete de Etonogestrel 68 mg na loja subcutânea.
-6. Palpação Confirmatória Obrigatória:
-   - O implante foi facilmente palpado em toda a sua extensão (4 cm) pelo médico executor no plano subdérmico superficial.
-   - A paciente foi orientada e guiada para palpar e reconhecer a presença do implante em seu próprio braço.
-7. Hemostasia e Curativo:
-   - Ausência de sangramento ativo no orifício de punção.
-   - Realizado curativo aproximativo com fita microporada / steri-strip no ponto de inserção.
-   - Confeccionado curativo compressivo oclusivo com atadura de crepe para prevenção de hematomas locais.
+# DESCRIÇÃO TÉCNICA DO PROCEDIMENTO:
+1. Posicionamento & Marcação Anatômica: Paciente em decúbito dorsal com braço não dominante ([esquerdo / direito]) abduzido a 90° e cotovelo fletido (mão sob a cabeça). Demarcado ponto de inserção na face medial do braço, **8 a 10 cm proximal ao epicôndilo medial do úmero** e **3 a 5 cm posterior ao sulco bicipital** (sobre o tríceps, fora do trajeto neurovascular ulnar/braquial), com marcação guia a 4 cm cranialmente.
+2. Antissepsia & Anestesia: Antissepsia com Clorexidina Alcoólica 2%, colocação de campo estéril e botão anestésico + infiltração subdérmica de 2 mL de Lidocaína 2% sem vasoconstritor ao longo do trajeto de 4 cm.
+3. Inserção Subdérmica Superficial:
+   - Perfuração da pele com a ponta da agulha do aplicador em ângulo < 30° com bisel para cima.
+   - Horizontalização imediata do aplicador paralelamente à pele, elevando suavemente a derme (*tenting*) durante toda a progressão até a marca limite da cânula.
+   - Acionamento completo do cursor roxo para trás, retraindo a agulha e liberando o implante radiopaco no plano subdérmico.
+4. Palpação Confirmatória Dupla (Obrigatória):
+   - Implante palpado integralmente em suas duas extremidades (4 cm) pelo médico executor e **pela própria paciente**.
+5. Curativo: Aproximação do orifício com fita estéril (*Steri-Strip*), gaze estéril e enfaixamento compressivo com atadura de crepe. Procedimento sem sangramento ou parestesias.
 
-# DESFECHO DO PROCEDIMENTO:
-Procedimento realizado sob técnica asséptica rigorosa, sem intercorrências imediatas. Paciente tolerou bem a intervenção, saindo lúcida, corada e hemodinamicamente estável.
+# AVALIAÇÃO DIAGNÓSTICA:
+1. Inserção de implante contraceptivo subdérmico sem intercorrências (CID-10: Z30.1).
 
-# ORIENTAÇÕES PÓS-PROCEDIMENTO & SEGUIMENTO:
-1. Manter curativo compressivo de crepe por 24 horas e a fita adesiva estéril por 3 a 5 dias, mantendo o local limpo e seco.
-2. Evitar carregar peso excessivo ou praticar musculação intensa com o membro nas primeiras 48 horas.
-3. Entregue à paciente o Cartão da Usuária contendo o número do lote, data de inserção ([DD/MM/AAAA]) e data limite para retirada ou troca ([DD/MM/AAAA + 3 anos]).
-4. Esclarecido que o método tem validade de 3 anos e que alterações do padrão de sangramento menstrual (spotting, amenorreia ou sangramento irregular) são esperadas e benignas.
-5. Orientada a procurar a UBS caso sinta dor local intensa com vermelhidão, calor ou caso deixe de palpar o implante sob a pele.
+# PLANO / CONDUTA:
+>> CONDUTA & ORIENTAÇÕES PÓS-PROCEDIMENTO:
+1. Entregue Cartão da Usuária preenchido com lote, braço de inserção, data atual e data de retirada/troca em 3 anos.
+2. Orientada sobre mudanças benignas esperadas no padrão menstrual (amenorreia, *spotting* ou escapes irregulares).
+3. Uso de método de barreira (preservativo) por 7 dias se inserido fora dos primeiros 5 dias do ciclo menstrual.
+
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+USO ORAL:
+1. [Dipirona Monoidratada 500 mg / Paracetamol 750 mg] ---------------- 1 caixa
+   Tomar 1 comprimido via oral de 6 em 6 horas se dor no local da aplicação nos primeiros 2 dias.
+2. [Se surgirem escapes/spotting prolongados incômodos nos primeiros meses]:
+   [Ácido Mefenâmico 500 mg / Ibuprofeno 600 mg] ------------------------- 1 caixa
+   Tomar 1 comprimido via oral de 8 em 8 horas, após as refeições, por 5 dias.
+
+CUIDADOS COM O CURATIVO E SINAIS DE ALARME:
+- Retirar a faixa compressiva externa após 24 horas e manter o adesivo pequeno por 3 a 5 dias (limpo e seco).
+- Evitar carregar peso excessivo com o braço nas primeiras 48 horas.
+- Procurar atendimento médico se: dor forte progressiva, dormência/formigamento nos dedos da mão, pus/vermelhidão intensa ou se deixar de sentir o bastonete sob a pele.
 ```
 
 ---
 
-### [ALERTAS DE SEGURANÇA NA INSERÇÃO DO IMPLANON]
-- **Técnica Estritamente Subdérmica:** O erro mais grave é a inserção profunda (intramuscular ou fascial), com risco de lesão do nervo ulnar ou artéria braquial, ou migração vascular pulmonar. A cânula deve sempre permanecer visível empurrando a pele por baixo durante toda a progressão.
-- **Se o Implante Não for Palpável Imediatamente:** Nunca deixar a paciente sair sem confirmar a palpação. Se houver dúvida se o implante foi disparado, solicitar Ultrassonografia de alta frequência de partes moles do braço e orientar método de barreira (preservativo) até localização.
+### [REGRAS DE CONDUTA E DIRETRIZES CLÍNICAS]
+
+### 🧠 1. Por Que o Implanon (Etonogestrel 68 mg) é o Método Mais Eficaz da Medicina?
+- **Duplo Mecanismo de Ação Central e Periférico (Índice de Pearl = `0,05` — superior à laqueadura tubária!):**
+  1. **Bloqueio Hipotalâmico-Hipofisário do Pico de LH:** O etonogestrel liberado continuamente na corrente sanguínea suprime o pico ovulatório de LH, impedindo a ovulação em `> 99%` dos ciclos (sem suprimir totalmente o FSH, de modo que os folículos continuam produzindo estradiol endógeno fisiológico — evitando fogachos e perda de massa óssea!).
+  2. **Espessamento Hostil do Muco Cervical:** Torna o muco cervical escasso e altamente viscoso, bloqueando a penetração dos espermatozoides.
+  3. **Atrofia/Decidualização Endometrial:** Impede a receptividade endometrial e reduz drasticamente a dismenorreia e o volume menstrual.
+
+### 📐 2. Por Que a Anatomia da Inserção Mudou? (Trava Contra Lesão Neural e Vascular)
+- **A Zona de Perigo (Sulco Bicipital Medial):** No sulco entre o bíceps e o tríceps correm superficialmente o **nervo mediano, o nervo ulnar, a artéria braquial e a veia basílica**.
+- **A Técnica Atualizada da Fabricante (Sobre o Tríceps):**
+  - Marca-se o ponto de entrada **8 a 10 cm proximal ao epicôndilo medial do úmero** e **3 a 5 cm POSTERIORMENTE ao sulco bicipital** (diretamente sobre o ventre do músculo tríceps, longe do feixe neurovascular).
+  - Após perfurar a derme em `< 30°`, **abaixa-se o aplicador para a posição totalmente horizontal (paralela à pele)** e avança-se toda a agulha levantando levemente a pele (*técnica de tenda*). Isso garante que o bastão fique **estritamente subdérmico** (logo abaixo da derme), facilitando a palpação imediata e a retirada futura em 3 anos.
+
+### 💊 3. Por Que Ocorre o *Spotting* (Escape) e Como Tratamos na Prática?
+- **Por que sangra?** A progestina contínua sem estrogênio deixa o endométrio fino, atrófico e com **neovascularização capilar superficial frágil**. Não é falta de eficácia contraceptiva!
+- **Manejo Escalonado do Sangramento Desfavorável:**
+  1. **Tranquilização prévia (padrão-ouro):** Explicar antes da inserção que `~20%` entram em amenorreia e `~20%` têm escapes irregulares nos primeiros 3–6 meses reduz em 80% os pedidos de retirada precoce.
+  2. **1ª Linha Medicamentosa (AINE por 5 a 7 dias):** **Ibuprofeno 600 mg VO de 8/8h** ou **Ácido Mefenâmico 500 mg VO de 8/8h por 5 dias** (inibe prostaglandinas vasodilatadoras endometriais e estabiliza os capilares).
+  3. **2ª Linha (se sem contraindicação ao estrogênio):** **ACO Combinado** (Etinilestradiol 30 mcg + Levonorgestrel 150 mcg) 1 cp/dia por **21 a 42 dias** para proliferar e reepitelizar a camada basal do endométrio.

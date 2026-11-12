@@ -1,95 +1,84 @@
 # Ambulatório de Ginecologia Geral - Consulta de Rotina e Queixas
 
 > **Atalho sugerido:** `;gin-amb`  
-> **Finalidade:** Consulta ginecológica ambulatorial, rastreamento preventivo oncológico e investigação de queixas clínicas.
+> **Finalidade:** Consulta ginecológica ambulatorial, rastreio oncoginecológico (Colo e Mama), investigação de queixas (Vulvovaginites, SUA, Climatério) e receituário pronto.
 
 ---
 
 ### [SNIPPET DE PRONTUÁRIO - COPIAR ABAIXO]
 
 ```text
-###### CONSULTA AMBULATORIAL - GINECOLOGIA GERAL ######
-# IDENTIFICAÇÃO:
-Paciente [Nome], [Idade] anos, Estado Civil: [ ], Profissão: [ ].
-G[ ] P[ ] (PN [ ] / PC [ ]) A[ ].
+###### CONSULTA AMBULATORIAL — GINECOLOGIA GERAL & PREVENÇÃO ######
+# IDENTIFICAÇÃO & HISTÓRIA REPRODUTIVA:
+Paciente [Nome], [Idade] anos, G[ ] P[ ] (PN [ ] / PC [ ]) A[ ], Status: [Menacme / Climatério / Pós-menopausa há [ ] anos].
+- DUM: [DD/MM/AAAA] | Ciclos: [Regulares 28/28d, fluxo 4–5d normal / Irregulares / Sangramento uterino aumentado com coágulos / Amenorreia].
+- Contracepção / TRH Atual: [Nenhum / ACO: [ ] / DIU de Cobre / SIU-LNG Mirena / Implanon / Injetável mensal ou trimestral / Preservativo].
+- Rastreio Oncológico Prévio:
+  * Citopatológico / DNA-HPV: Último em [MM/AAAA] -> [Normal (NILM) / Alterado: [ ] / Nunca realizou].
+  * Mamografia Bilateral: Última em [MM/AAAA] -> [BI-RADS 1 ou 2 / BI-RADS 0 / BI-RADS 3 / Não aplicável pela idade].
+  * USG Transvaginal: Última em [MM/AAAA] -> [Sem alterações / Miomatose uterina / Eco endometrial de [ ] mm].
 
-# ANTECEDENTES GINECO-OBSTÉTRICOS & HISTÓRIA MENSTRUAL:
-- Status Hormonal: [Menacme / Transição Menopáusica / Pós-Menopausa há [ ] anos].
-- DUM (Data da Última Menstruação): [DD/MM/AAAA] [OU: Menopausa aos [ ] anos].
-- Padrão Menstrual: Ciclos regulares de [ ]/[ ] dias, fluxo durante [ ] dias, volume [normal / aumentado com coágulos].
-- Contracepção / Hormonioterapia Atual: [Nenhum método / DIU de [ ] / Implanon / ACO oral: [ ] / TRH: [ ]].
-- Menarca aos [ ] anos | Sexarca aos [ ] anos | Parcerias sexuais: [Estável / Eventuais]. Uso de preservativo: [Sempre / Às vezes / Não].
-
-# RASTREAMENTOS PREVENTIVOS:
-- Exame Citopatológico de Colo Uterino (Papanicolau): Último em [MM/AAAA], resultado [Normal / Negativo para malignidade / Alterado: [ ]].
-- Teste Molecular de DNA-HPV oncogênico (quando disponível): Último em [MM/AAAA], resultado [Negativo / Positivo para HPV 16/18 / Positivo para outros tipos oncogênicos / Não realizado].
-- Mamografia Bilateral: Última em [MM/AAAA], classificação BI-RADS [1 / 2 / 3 / 4 / 0].
-- Ultrassonografia Pélvica / Transvaginal: Última em [MM/AAAA], resultado: [Útero e anexos sem alterações / Miomatose / Espessamento endometrial de [ ] mm].
-
-# ANTECEDENTES PESSOAIS & FAMILIARES:
-- Comorbidades: Nega HAS, DM, dislipidemia, trombofilias ou neoplasias [se positivo: [ ]].
-- Histórico Familiar de Câncer: Nega histórico familiar de neoplasia de mama (< 50 anos) ou ovário em parentes de 1º grau [se positivo: [ ]].
-- Cirurgias Prévias: Nega cirurgias pélvicas ou abdominais prévias [se realizadas: [ ]].
-- Medicamentos em Uso: [Nega / [ ]].
-- Alergias: Nega alergias medicamentosas conhecidas [se alérgica: [ ]].
-- Hábitos: Nega tabagismo, etilismo ou substâncias ilícitas [se fuma: [ ] cigarros/dia].
-
-# SUBJETIVO (QUEIXA PRINCIPAL & HMA):
-Paciente comparece em consulta ginecológica [para rotina anual / com queixa de: [queixa principal]].
-- História da Queixa Atual: Relata [descrever início, frequência, fatores de piora/melhora, tratamentos prévios].
-- Negativas Mandatórias Ginecológicas:
-  * Nega sinusorragia (sangramento durante ou logo após as relações sexuais).
-  * Nega sangramento vaginal na pós-menopausa.
-  * Nega corrimento vaginal com odor fétido, prurido vulvar intenso ou sensação de queimação.
-  * Nega dor pélvica aguda incapacitante ou dispareunia de profundidade.
-  * Nega sintomas vasomotores intensos (fogachos) ou ressecamento vaginal incapacitante.
-  * Nega queixas urinárias (disúria, incontinência aos esforços ou noctúria).
+# ANTECEDENTES & SUBJETIVO (QD & HMA):
+- Comorbidades, HF & Alergias: [Hígida / HAS / DM2 / Dislipidemia / Hipotireoidismo] | HF Câncer (Mama < 50a / Ovário / Endométrio em 1º grau): [Nega / Positivo em: [ ]] | Alergias: [Nega alergias medicamentosas / Alérgica a: [ ]] | Tabagismo: [Nega / Sim].
+- Queixa Principal & HMA: Comparece para [rotina ginecológica preventiva anual assintomática / queixa de corrimento vaginal com prurido / queixa de corrimento com odor fétido (peixe) / sangramento uterino anormal / fogachos e ressecamento vaginal].
+- Negativas Mandatórias Ginecológicas: Nega sinusorragia (sangramento pós-coito), sangramento pós-menopausa, dor pélvica aguda, dispareunia profunda, febre ou perda urinária.
 
 # OBJETIVO (EXAME FÍSICO GINECOLÓGICO):
-- Sinais Vitais & Antropometria: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Peso: [ ] kg | Altura: [ ] m | IMC: [ ] kg/m².
-- Estado Geral: Bom estado geral, corada, hidratada, anictérica, acianótica, afebril.
-- Mamas & Axilas:
-  * Inspeção Estática e Dinâmica: Mamas simétricas, pele íntegra, ausência de retração cutânea, abaulamentos, edema ou aspecto de "casca de laranja". Complexos aréolo-papilares sem desvios ou ulcerações.
-  * Palpação Sistemática dos Quatro Quadrantes: Parênquima mamário de consistência glandular habitual, sem nódulos palpáveis definidos, espessamentos suspeitos ou áreas endurecidas.
-  * Expressão Papilar: Ausência de descarga papilar espontânea ou provocada (ou presença de descarga fisiológica leitosa / aquosa / sanguinolenta unilateral).
-  * Cadeias Linfonodais: Fossas supraclaviculares e regiões axilares bilaterais livres, sem linfonodomegalias palpáveis.
-- Abdome: Flácido, indolor à palpação superficial e profunda, sem massas ou visceromegalias palpáveis, descompressão brusca negativa.
-- Genitália Externa: Pilificação ginecoide habitual, vulva sem lesões exofíticas (condilomas), úlceras, escoriações ou distrofias. Glândulas de Bartholin e Skene sem tumefações ou dor.
-- Exame Especular:
-  * Mucosa vaginal [trófica e rugosa / atrófica e adelgaçada], sem ulcerações ou sinais inflamatórios exuberantes.
-  * Conteúdo vaginal [fisiológico claro sem odor / leitoso aderente / grumoso tipo nata / bolhoso amarelo-esverdeado].
-  * Colo uterino centrado, epitélio escamoso liso, orifício externo circular/em fenda [com zona de ectopia periorificial benigna / sem lesões vegetantes ou sangrantes].
-  * Coleta de Citopatológico: [Realizada nesta consulta sem intercorrências (raspado ectocervical com espátula de Ayre + escovado endocervical) / Não coletado por estar em dia].
-- Toque Vaginal Bimanual:
-  * Colo uterino de consistência fibroelástica habitual, móvel e indolor à mobilização cervical (Sinal de Frenkel negativo).
-  * Corpo uterino em [anteversoflexão (AVF) / retroversoflexão (RVF)], de volume normal, consistência habitual, móvel e indolor.
-  * Regiões anexiais bilaterais livres, sem massas palpáveis ou dor à palpação dos fundos de saco vaginais.
+- Vitais & Antropometria: PA: [115x75] mmHg | FC: [74] bpm | Peso: [ ] kg | Altura: [ ] m | IMC: [ ] kg/m². BEG, corada, hidratada.
+- Exame Clínico das Mamas: Simétricas, sem retrações, abaulamentos ou alterações do complexo aréolo-papilar à inspeção estática e dinâmica. Palpação dos 4 quadrantes e região retroareolar sem nódulos dominantes ou espessamentos. Expressão papilar [negativa / descarga láctea bilateral]. Fossas axilares e supraclaviculares livres.
+- Abdome & Genitália Externa: Abdome flácido, indolor, sem massas. Vulva eutrófica, pilificação habitual, sem úlceras, fissuras ou lesões verrucosas (condilomas); glândulas de Bartholin e Skene livres.
+- Exame Especular: Paredes vaginais [tróficas e rugosas / hipotróficas], conteúdo vaginal [fisiológico hialino sem odor / branco grumoso aderente tipo "leite coalhado" (Candidíase) / acinzentado fluido homogêneo com teste das aminas/Whiff positivo (Vaginose) / amarelo-esverdeado bolhoso com colpite focal]. Colo uterino centrado, epitelizado, sem lesões vegetantes ou friabilidade. Coleta de Citopatológico: [Realizada hoje (Ayre + cytobrush) sem intercorrências / Não realizada por rastreio em dia].
+- Toque Bimanual: Colo fibroelástico, móvel, indolor à mobilização (Chandelier/Frenkel negativo). Útero em [AVF / RVF], tamanho normal, móvel e indolor. Anexos livres e indolores bilateralmente.
 
 # AVALIAÇÃO DIAGNÓSTICA:
-1. Consulta de rotina ginecológica preventiva / [Queixa diagnóstica: ex: Vulvovaginite / SUA / Dismenorreia / Climatério].
-2. Rastreamento oncoginecológico atualizado.
+1. [Rotina ginecológica preventiva (CID-10: Z01.4) / Vulvovaginite por Candidíase (B37.3) / Vaginose Bacteriana (N76.0) / Sangramento Uterino Anormal - PALM-COEIN (N93.9) / Síndrome Climatérica (N95.1)].
 
 # PLANO / CONDUTA:
-1. Conduta Terapêutica Medicamentosa: [Prescrição de tratamento específico com dose, via e tempo de tratamento / Mantenho orientações de higiene íntima].
-2. Exames Complementares Solicitados:
-   - [ ] Citopatológico de Colo Uterino (se coletado hoje, aguardar laudo).
-   - [ ] Mamografia bilateral de rastreamento (se faixa etária indicada).
-   - [ ] Ultrassonografia Pélvica Transvaginal (se indicado para avaliação de espessura endometrial ou miomas).
-3. Orientações de Saúde da Mulher:
-   - Uso de preservativo nas relações sexuais para prevenção de ISTs.
-   - Higiene íntima: Sabonete líquido suave com pH neutro/fisiológico, calcinhas de algodão, evitar protetores diários sintéticos contínuos e duchas vaginais internas.
-   - Estilo de vida saudável: Dieta balanceada rica em cálcio e atividade física regular.
-4. Retorno: Agendado retorno em [30 dias para checar resultados de exames / 1 ano para nova rotina anual].
+>> CONDUTA AMBULATORIAL & RASTREAMENTO:
+1. Exames Solicitados: [Citopatológico de colo uterino colhido hoje / Mamografia bilateral de rastreamento / USG Pélvica Transvaginal / Sorologias ISTs (HIV, Sífilis, Hep B e C) + Perfil lipídico, glicemia e TSH].
+2. Orientada higiene íntima fisiológica (sabonete neutro apenas na vulva externa, calcinha de algodão, proscritas duchas vaginais internas), proteção contra ISTs e autoexame de conscientização mamária.
+3. Retorno agendado com resultados de exames.
+
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+[OPÇÃO A — CANDIDÍASE VULVOVAGINAL NÃO COMPLICADA]:
+1. Miconazol Nitrato 2% Creme Vaginal ---------------------------------- 1 bisnaga + 7 aplicadores
+   Aplicar 1 aplicador cheio (5 g) via vaginal profunda, à noite ao deitar, durante 7 noites consecutivas.
+   [OU Fluconazol 150 mg: Tomar 1 cápsula via oral em dose única (Proibido na gestação!)].
+
+[OPÇÃO B — VAGINOSE BACTERIANA (GARDNERELLA) / TRICOMONÍASE]:
+1. Metronidazol [250 mg (2 cp 12/12h) / 400 mg (1 cp 12/12h)] ---------- 1 caixa
+   Tomar 2 comprimidos de 250 mg (500 mg) via oral, de 12 em 12 horas, durante 7 dias consecutivos.
+   [OU Metronidazol Gel Vaginal 100 mg/g (0,75%): 1 aplicador cheio (5 g) via vaginal à noite por 5 noites].
+   - Orientação: Evitar bebida alcoólica durante o tratamento e até 48h após o término (efeito antabuse). Se Tricomoníase, tratar obrigatoriamente o(a) parceiro(a) com Metronidazol 2 g VO dose única.
+
+[OPÇÃO C — ATROFIA VULVOVAGINAL / SÍNDROME GENITURINÁRIA DA MENOPAUSA]:
+1. Estriol 1 mg/g Creme Vaginal ---------------------------------------- 1 bisnaga + aplicador
+   Aplicar 0,5 g via vaginal à noite por 14 dias consecutivos; após, manter 1 aplicação 2 vezes por semana.
+
+[OPÇÃO D — SANGRAMENTO UTERINO ANORMAL AGUDO NÃO-GESTACIONAL (CONTROLE DE FLUXO)]:
+1. Ácido Tranexâmico 250 mg -------------------------------------------- 1 caixa (36 comprimidos)
+   Tomar 2 comprimidos (500 mg) via oral de 8 em 8 horas durante os dias de fluxo intenso (por até 4 a 5 dias).
 ```
 
 ---
 
-### [DIRETRIZES DE RASTREAMENTO ONCOLÓGICO]
-- **Câncer de Colo Uterino (Ministério da Saúde):**
-  * Citopatológico convencional: Início aos 25 anos em mulheres com atividade sexual iniciada, até os 64 anos. Periodicidade: anual nos dois primeiros exames; após dois exames anuais consecutivos negativos, realizar a cada **3 anos**.
-  * Teste Molecular de DNA-HPV oncogênico (transição oficial MS/INCA/SUS): Mulheres de **25 a 64 anos**, realizado a cada **5 anos** quando negativo. Se positivo para HPV 16/18: encaminhar para colposcopia imediata. Se positivo para outros subtipos oncogênicos: realizar citologia reflexa.
-- **Câncer de Mama:**
-  * Ministério da Saúde / INCA: Mamografia bianual entre **50 e 69 anos**.
-  * FEBRASGO / Colégio Brasileiro de Radiologia (CBR): Mamografia anual a partir dos **40 anos**.
-  * Alto Risco (parente de 1º grau com CA de mama < 50 anos ou ovário): Iniciar rastreamento 10 anos antes da idade do diagnóstico do familiar mais jovem (nunca antes dos 25-30 anos).
-- **Sangramento na Pós-Menopausa:** Conduta mandatória: Ultrassonografia Transvaginal para medir o eco endometrial. Se sem TRH: espessura normal ≤ 4 mm. Se com TRH: espessura normal ≤ 8 mm. Qualquer medida acima exige histeroscopia com biópsia endometrial para afastar adenocarcinoma de endométrio.
+### [REGRAS DE CONDUTA E DIRETRIZES CLÍNICAS]
+
+### 🧠 1. Raciocínio Diagnóstico das Vulvovaginites (Por Que o pH e o KOH Decidem?)
+- O ecossistema vaginal normal no menacme é dominado pelos **Lactobacilos de Döderlein**, que convertem o glicogênio epitelial (estimulado pelo estrogênio) em **ácido lático** e peróxido de hidrogênio, mantendo o **pH vaginal ácido entre `3,8 e 4,5`**.
+- Quando você examina o corrimento no espéculo, a combinação de **aspecto + pH + Teste das Aminas (Whiff test com KOH 10%)** separa imediatamente as 3 etiologias:
+
+| Etiologia | pH Vaginal | Teste de Whiff (KOH 10%) | Fisiopatologia & Por Que Tratamos Assim |
+| :--- | :---: | :---: | :--- |
+| **Vaginose Bacteriana** (*Gardnerella / Mobiluncus*) | **`> 4,5`** | **Positivo** (*odor de peixe podre*) | Desaparecimento dos lactobacilos e supercrescimento polimicrobiano anaeróbio que produz aminas voláteis (putrescina/cadaverina) e recobre células epiteliais (*Clue cells*). **Por que Metronidazol 7 dias?** Age especificamente em bactérias anaeróbias sem destruir os lactobacilos! Não é IST clássica (não trata parceiro assintomático). |
+| **Candidíase Vulvovaginal** (*Candida albicans*) | **`< 4,5` (Normal!)** | **Negativo** | O fungo prolifera sem destruir os lactobacilos (por isso o pH continua ácido `< 4,5`!) e desencadeia intensa reação inflamatória mucosa (prurido intenso, ardor, dispareunia e placas brancas grumosas aderidas). Tratada com **Azólico tópico (Miconazol 7n) ou Fluconazol 150 mg VO dose única**. |
+| **Tricomoníase** (*Trichomonas vaginalis*) | **`> 5,0`** | **Positivo ou Fraco** | Protozoário flagelado **sexualmente transmissível** que lesa diretamente o epitélio escamoso, criando microulcerações subepiteliais (**Colo em Framboesa / "Pele de Onça" no Schiller**) e corrimento amarelo-esverdeado bolhoso. **Obriga tratar o parceiro sexual** (Metronidazol 2g DU ou 500mg 12/12h 7d) e solicitar sorologias de ISTs! |
+
+### 🧭 2. Por Que o Rastreamento de Colo Uterino (INCA/MS) Segue a Regra 25–64 Anos (1-1-3)?
+- **Por que NÃO coletamos Papanicolaou antes dos 25 anos?** Em adolescentes e jovens `< 25 anos`, a incidência de infecção pelo HPV é altíssima, mas **> 85–90% das lesões de baixo grau (LSIL/NIC I) regridem espontaneamente** pela imunidade celular em 12 a 24 meses. Rastrear antes dos 25 anos leva a cauterizações e conizações desnecessárias que destroem o estroma cervical e causam **Incompetência Istmocervical e Parto Prematuro** no futuro!
+- **Por que o intervalo passa para 3 anos após 2 exames anuais normais?** Um único esfregaço citológico tem sensibilidade de `~60–70%`; dois exames anuais consecutivos negativos reduzem a chance de falso-negativo a quase zero, e como a história natural de evolução de NIC II/III para câncer invasor leva **10 a 15 anos**, o intervalo trienal é 100% seguro até os 64 anos.
+
+### 🩺 3. Por Que Usamos o Sistema PALM-COEIN no Sangramento Uterino Anormal (SUA)?
+- A FIGO dividiu o SUA em dois blocos mnemônicos que guiam exatamente qual exame pedir:
+  - **Causas Estruturais (`P-A-L-M`: Pólipo, Adenomiose, Leiomioma, Malignidade/Hiperplasia):** Diagnosticadas por **USG Transvaginal / Histeroscopia**. Atenção: toda paciente **> 45 anos com SUA** ou com **sangramento pós-menopausa + espessura endometrial > 4 mm (sem TRH)** exige **biópsia endometrial / histeroscopia** para excluir hiperplasia atípica e adenocarcinoma de endométrio!
+  - **Causas Não-Estruturais (`C-O-E-I-N`: Coagulopatia, Ovulatória/SOP, Endometrial, Iatrogênica, Não classificada):** Diagnosticadas pela história clínica, TSH, Prolactina, Coagulograma e exclusão de gravidez ($eta$-hCG).

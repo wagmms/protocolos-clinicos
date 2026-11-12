@@ -1,83 +1,80 @@
 # Manejo de Emergência - Rotura Prematura de Membranas Ovulares (RPMO)
 
 > **Atalho sugerido:** `;rpmo`  
-> **Finalidade:** Diagnóstico clínico e complementar de amniorrexe prematura, exclusão de corioamnionite, conduta conservadora vs ativa por idade gestacional, antibioticoterapia de latência e vigilância materno-fetal.
+> **Finalidade:** Diagnóstico especular estéril de bolsa rota, exclusão de Corioamnionite (Critérios de Gibbs), antibioticoterapia de latência (< 34s) vs resolução ativa (>= 34–37s).
 
 ---
 
 ### [SNIPPET DE PRONTUÁRIO - COPIAR ABAIXO]
 
 ```text
-###### ATENDIMENTO DE EMERGÊNCIA OBSTÉTRICA: ROTURA PREMATURA DE MEMBRANAS (RPMO) ######
-# IDENTIFICAÇÃO:
-- Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
-- G[ ] P[ ] (PN [ ] / PC [ ]) A[ ] | DUM: [DD/MM/AAAA] | IG confirmada por USG de 1º tri: [ ] semanas e [ ] dias.
-- Tempo Estimado de Bolsa Rota: [ ] horas (Início referido às [HH:MM] do dia [DD/MM/AAAA]).
+###### ATENDIMENTO DE EMERGÊNCIA OBSTÉTRICA — ROTURA PREMATURA DE MEMBRANAS (RPMO) ######
+# IDENTIFICAÇÃO & TEMPO DE BOLSA ROTA:
+- Paciente: [Nome], [Idade] anos, Leito: [ ], G[ ] P[ ] (PN [ ] / PC [ ]) A[ ] | TS/Rh: [O+ / A+ / B+ / AB+ / O- / A- / Aguarda].
+- IG Confirmada: **[ ] semanas e [ ] dias** (por USG de 1º tri) | Tempo de Bolsa Rota: **[ ] horas** (início às [HH:MM] de [DD/MM]).
 
-# SUBJETIVO & HISTÓRIA CLÍNICA:
-- Queixa Principal: Perda súbita de líquido transparente em grande volume pela vagina há [ ] horas.
-- HMA: Gestante relata perda involuntária e súbita de líquido claro com odor característico de água sanitária / cândida, escorrendo pelas pernas, sem controle voluntário pelo esfíncter uretral.
-- INVESTIGAÇÃO ATIVA DE CORIOAMNIONITE (CRITÉRIOS DE GIBBS):
-  [ ] Febre materna (Tax >= 37,8 °C confirmada).
-  [ ] Taquicardia materna inexplicada (FC > 100 bpm mantida).
-  [ ] Taquicardia fetal persistente (BCF basal > 160 bpm).
-  [ ] Hipersensibilidade / dor à palpação do corpo e fundo uterino fora da contração.
-  [ ] Líquido amniótico com odor fétido, purulento ou turvo.
-  [ ] Leucocitose materna > 15.000/mm³ com desvio à esquerda (> 10% de bastões) e PCR elevada.
-  * STATUS DE INFECÇÃO INTRAOVULAR: [AUSÊNCIA DE SINAIS DE CORIOAMNIONITE / CORIOAMNIONITE CLÍNICA CONFIRMADA].
-- Negativas Mandatórias:
-  * Nega sangramento vaginal vivo abundante (afastados DPP e placenta prévia).
-  * Nega queixas de disúria intensa, hematúria ou perdas urinárias aos esforços (afastada perda esfincteriana isolada).
-  * Movimentação fetal: [Ativa e perceptível / Reduzida].
+# SUBJETIVO (QD & RASTREIO DE CORIOAMNIONITE):
+- Queixa Principal & HMA: Perda súbita e contínua de líquido claro em grande volume pela vagina há [ ] horas, escorrendo pelas pernas, com odor característico de água sanitária. Movimentação fetal [presente e ativa / reduzida].
+- Triagem Clínica de Corioamnionite e Complicações: [Nega febre, calafrios, dor uterina contínua ou odor vaginal fétido (sem sinais clínicos de corioamnionite) / Apresenta febre e dor uterina (suspeita de corioamnionite)] | Nega sangramento vaginal vivo ou escuro (afastados PP e DPP). Contrações: [Nega contrações rítmicas / Refere cólicas regulares].
 
-# OBJETIVO (EXAME FÍSICO OBSTÉTRICO & GERAL):
-- SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em ar ambiente | Tax: [ ] °C.
-- Abdome Obstétrico: Altura Uterina: [ ] cm. Tônus uterino normal, indolor à palpação profunda. Dinâmica Uterina: [Ausente / [ ] contrações em 10 min].
-- Batimentos Cardiofetais (BCF): [ ] bpm, rítmicos, sem desacelerações à ausculta intermitente.
-- EXAME ESPECULAR ESTÉRIL (CONDUTA MANDATÓRIA - TOQUE VAGINAL PROSCRITO SE FORA DE TRABALHO DE PARTO ATIVO):
-  * Introduzido espéculo de Collins estéril sem lubrificante prévio.
-  * Inspeção: Visualização direta de saída ativa de líquido límpido com grumos pelo orifício externo do colo uterino, acumulando em fundo de saco posterior.
-  * Manobra de Tarnier / Valsalva: [Positiva, com saída franca de líquido amniótico à tosse/esforço / Ausente no momento].
-  * Teste do papel de Nitrazina (se realizado): Viragem da fita para cor azul/violeta (pH alcalino entre 7,0 e 7,5 - positivo para líquido amniótico).
-  * Teste de Cristalização em Lâmina (se realizado): Presença de padrão arboriforme clássico em folha de samambaia à microscopia óptica.
-- TOQUE VAGINAL: [NÃO REALIZADO para prevenção de infecção ascendente / Realizado apenas por paciente apresentar contrações regulares em trabalho de parto ativo: colo [ ] cm, apagado [ ]%, polo cefálico [ ] de De Lee].
-
-# EXAMES COMPLEMENTARES:
-- Ultrassonografia Obstétrica: Feto único, apresentação [cefálica / pélvica]. Índice de Líquido Amniótico (ILA): [ ] cm / Maior bolsão vertical: [ ] cm (evidenciando oligoidramnia com ILA < 5 cm).
-- Cardiotocografia Basal: Traçado [Categoria I - reativo com variabilidade normal e acelerações transitórias / Categoria II / Categoria III].
-- Laboratório: Hemograma completo com contagem de plaquetas e leucócitos, PCR quantitativa, EAS e Urocultura, Swab anovaginal para EGB.
+# OBJETIVO (EXAME FÍSICO & PROPEDÊUTICA DE BOLSA ROTA):
+- Sinais Vitais Maternos: PA: [110x70] mmHg | FC: [82] bpm (< 100 bpm) | FR: [16] irpm | Tax: **[36,5] °C (< 37,8 °C — afebril)**.
+- Abdome Obstétrico: AU: [ ] cm | Tônus uterino fisiológico, **útero indolor à palpação fora de contração** | DU: [Ausente / [ ] contrações em 10 min] | BCF: **[140] bpm** (basal 110–160 bpm, sem taquicardia fetal).
+- **Exame Especular Estéril (MANDATÓRIO — Sem lubrificante):**
+  * Visualização direta de líquido amniótico [claro com grumos / meconial fluido / purulento fétido] exteriorizando-se pelo orifício cervical externo e acumulando em fundo de saco posterior (**Manobra de Tarnier / Valsalva positiva**).
+  * Colo visualmente [fechado e posterior / entreaberto para [ ] cm], sem prolapso de cordão umbilical.
+  * Testes Acessórios (se dúvida): [pH vaginal alcalino >= 7,0 (Nitrazina azul) / Cristalização em folha de samambaia na lâmina positiva].
+  * Coletado **Swab Vaginal e Retal para Streptococcus agalactiae (EGB)**.
+- **Toque Vaginal:** **[NÃO REALIZADO (proscrito na RPMO fora de trabalho de parto ativo para proteger o período de latência e prevenir corioamnionite!) / Realizado apenas por trabalho de parto ativo franco: colo [ ] cm, apagado [ ]%, De Lee [ ]]**.
+- Exames Complementares:
+  * USG Obstétrica: Apresentação [cefálica / pélvica], PFE: [ ] g, **MBV (Maior Bolsão Vertical): [ ] cm / ILA: [ ] cm** ([Oligoidrâmnio / Normodrâmnio]).
+  * CTG Basal: [Categoria I — feto reativo com variabilidade moderada 6–25 bpm / Categoria II / Categoria III].
+  * Laboratório: Leucócitos: [ ]/mm³ (sem desvio), PCR: [ ] mg/L, EAS/Urocultura normais.
 
 # AVALIAÇÃO DIAGNÓSTICA:
-1. Rotura Prematura de Membranas Ovulares pré-termo (CID-10: O42.0) com IG de [ ] semanas e [ ] dias.
-2. [Sem corioamnionite clínica / Corioamnionite confirmada].
+1. Rotura Prematura de Membranas Ovulares [a termo >= 37s (CID-10: O42.0) / pré-termo < 37s (O42.9)], tempo de latência de [ ]h, **[sem critérios de Corioamnionite (Gibbs negativo) / complicada por Corioamnionite Clínica (O41.1)]**.
 
-# PLANO / CONDUTA POR FAIXA DE IDADE GESTACIONAL:
+# PLANO / CONDUTA:
+>> [MODALIDADE A — CONDUTA ATIVA / INTERRUPÇÃO DA GESTAÇÃO (SE IG >= 34–37 SEMANAS OU CORIOAMNIONITE / SFA EM QUALQUER IG)]:
+1. Internação em Centro Obstétrico para **resolução da gestação** ([Indução do trabalho de parto com Ocitocina se colo favorável (Bishop >= 6) ou Misoprostol 25 mcg vaginal se colo desfavorável / Cesariana se apresentação anômala, iteratividade ou SFA]).
+2. **Profilaxia Intraparto para EGB (Se IG < 37s, bolsa rota >= 18h, Tax >= 38°C ou Swab EGB positivo):**
+   - **Penicilina G Cristalina 5.000.000 UI EV** (ataque) + **2.500.000 UI EV de 4/4 horas** até o parto (ou **Ampicilina 2 g EV ataque + 1 g EV de 4/4h**).
+3. **[SE CORIOAMNIONITE CONFIRMADA — Resolver parto (via obstétrica) + Antibiótico Terapêutico Imediato]:**
+   - **Ampicilina 2 g EV de 6/6h + Gentamicina 5 mg/kg EV 1x/dia (24/24h)** [associar **Clindamicina 900 mg EV de 8/8h** ou **Metronidazol 500 mg EV de 8/8h** se for submetida a Cesariana, mantendo até 24–48h afebril pós-parto].
 
->> [MODALIDADE A]: CONDUTA ATIVA / RESOLUÇÃO IMEDIATA (SE IG >= 37 SEMANAS OU SE CORIOAMNIONITE EM QUALQUER IG):
-1. Internação em Centro Obstétrico para resolução imediata do parto.
-2. Se corioamnionite clínica confirmada: antibioticoterapia terapêutica endovenosa imediata:
-   - Ampicilina 2 g EV de 6/6h + Gentamicina 5 mg/kg EV 1x/dia (+ Clindamicina 900 mg EV de 8/8h se parto cesariano).
-3. Via de Parto: Indicação obstétrica [Indução do parto com Ocitocina se feto cefálico e condições favoráveis / Cesariana se indicação obstétrica ou sofrimento fetal agudo].
-4. Profilaxia intraparto para EGB se bolsa rota >= 18 horas ou swab desconhecido/positivo.
-
->> [MODALIDADE B]: CONDUTA CONSERVADORA (SE IG ENTRE 24 E 33 SEMANAS E 6 DIAS SEM SINAIS DE INFECÇÃO OU SOFRIMENTO FETAL):
-1. Internação em enfermaria de alto risco obstétrico, repouso relativo no leito.
-2. Vigilância Materno-Fetal Rigorosa:
-   - Aferição de sinais vitais maternos e Tax a cada 4 a 6 horas.
-   - Ausculta de BCF de 6/6 horas e Cardiotocografia diária.
-   - Hemograma e PCR a cada 48 a 72 horas para monitorização de leucocitose/desvio.
-3. Corticoterapia para Maturação Pulmonar Fetal:
-   - Betametasona 12 mg IM profunda 1x/dia por 2 doses (intervalo de 24 horas).
-4. Antibioticoterapia de Latência (Protocolo de Kenyon / Consenso Nacional):
-   - Fase Endovenosa (primeiras 48 horas): Ampicilina 2 g EV de 6/6h + Azitromicina 1 g VO em dose única na admissão.
-   - Fase Oral (subsequente por 5 dias): Amoxicilina 500 mg VO de 8/8h (totalizando 7 dias de antibioticoterapia de latência).
-5. Neuroproteção com Sulfato de Magnésio: Reservado para se surgirem sinais de parto iminente com IG < 32 semanas (Dose: 4 g EV ataque + 1 g/h manutenção).
-6. Toque vaginal de rotina terminantemente proscrito durante a conduta conservadora.
+>> [MODALIDADE B — CONDUTA CONSERVADORA HOSPITALAR (SE IG ENTRE 24s0d E 33s6d SEM CORIOAMNIONITE E SEM SFA)]:
+1. Internação em Alto Risco Obstétrico, repouso relativo, hidratação oral vigorosa, absorvente estéril e **PROIBIÇÃO ESTRITA DE TOQUES VAGINAIS**.
+2. **Curva Clínica e Laboratorial de Infecção:** Sinais vitais maternos (PA, FC, Tax) e BCF a cada 4–6 horas; CTG diária; Hemograma + PCR a cada 48–72 horas.
+3. **Corticoterapia para Maturação Pulmonar Fetal:**
+   - **Betametasona 12 mg IM profunda 24/24h por 2 doses** (ou Dexametasona 6 mg IM 12/12h por 4 doses).
+4. **Antibioticoterapia para Aumento do Período de Latência (Esquema de 7 Dias — ACOG/FEBRASGO):**
+   - **Primeiras 48 horas (EV):** **Ampicilina 2 g EV de 6/6 horas** + **Azitromicina 1 g VO em dose única** na admissão (substituindo a eritromicina).
+   - **Dias 3 a 7 (Oral — por mais 5 dias):** **Amoxicilina 500 mg VO de 8/8 horas** por 5 dias (Total = 7 dias; **PROIBIDO usar Amoxicilina + Clavulanato pelo risco de Enterocolite Necrotizante neonatal!**).
+5. **Neuroproteção Fetal (se entrar em trabalho de parto iminente com IG < 32 semanas):** Sulfato de Magnésio 4 g EV ataque em 20 min + 1 g/h EV em BIC.
 ```
 
 ---
 
-### [REGRAS DE CONDUTA NA ROTURA PREMATURA DE MEMBRANAS]
-- **Toque Vaginal Proscrito:** Em gestantes com RPMO fora de trabalho de parto ativo, o exame de toque vaginal digital acelera drasticamente a colonização bacteriana ascendente da cavidade uterina e reduz o tempo de latência para corioamnionite. Diagnóstico e acompanhamento são estritamente especulares.
-- **Contraindicação de Amoxicilina + Clavulanato na RPMO:** NUNCA utilizar Amoxicilina associada a Clavulanato de Potássio na antibioticoterapia de latência pré-termo (forte associação científica comprovada com o desenvolvimento de **Enterocolite Necrotizante neonatal grave**). Utilizar sempre o esquema de Ampicilina + Azitromicina seguido de Amoxicilina pura.
-- **Corioamnionite Interrompe a Gestação:** Na vigência de corioamnionite confirmada, não há qualquer indicação de manter conduta expectante, tocolíticos ou aguardar efeito pleno de corticoides. O parto deve ser indicado imediatamente, independentemente da idade gestacional.
+### [REGRAS DE CONDUTA E DIRETRIZES CLÍNICAS]
+
+### 🧠 1. As 3 Causas de Sangramento da 1ª Metade (< 20 Semanas): Como Diferenciar na Porta?
+Diante de toda gestante no 1º trimestre com sangramento vaginal e/ou dor pélvica, o **Exame Especular + Toque Vaginal Bimanual (avaliando o Orifício Cervical Interno) + USG Transvaginal** separam imediatamente os 3 grandes grupos:
+
+| Quadro Clínico | Orifício do Colo (Ao Toque) | Achado na USG Transvaginal | Conduta Definidora |
+| :--- | :---: | :--- | :--- |
+| **Ameaça de Abortamento** | **Fechado** | Embrião/Saco gestacional intrauterino íntegro com **BCF presente** (pode haver hematoma subcoriônico). | Conduta expectante ambulatorial + analgesia/antiespasmódico + orientar retorno se febre ou sangramento intenso. |
+| **Abortamento Incompleto / Inevitável** | **Pérvio / Aberto** (dedo penetra o canal) | Eco endometrial heterogêneo **> 15 mm** com restos ovulares ao Doppler (ou embrião sem saída completa). | **Esvaziamento Uterino:** Preferir **AMIU** (Aspiração Manual Intrauterina) até 12 semanas + profilaxia **Anti-D se mãe Rh(-)**. |
+| **Abortamento Retido** | **Fechado** | CCN **`≥ 7 mm` sem BCF** ou Saco Gestacional médio **`≥ 25 mm` sem embrião** (Gestação Anembrionada). | Conduta expectante, preparo cervical com Misoprostol vaginal e **AMIU**. |
+| **Abortamento Infectado (Séptico)** | **Pérvio** com saída de secreção **purulenta/fétida** | Restos ovulares + sinais sistêmicos (febre, taquicardia, leucocitose, dor intensa à mobilização uterina). | **1º Iniciar Clindamicina 900mg 8/8h + Gentamicina EV imediato → 2º Esvaziar o útero logo após a 1ª dose de ATB!** (Nunca esperar 24h para esvaziar o foco séptico!). |
+| **Gravidez Ectópica** | **Fechado** (com *Grito de Douglas* se rota!) | **Útero vazio** com $eta$-hCG acima da Zona Discriminatória (`> 2.000–3.500 mUI/mL`) + massa anexial (*Sinal do Anel Tubário*) ± líquido livre. | **Rota/Instável:** Laparoscopia/Laparotomia (Salpingectomia). **Íntegra:** Metotrexato `50 mg/m² IM` se preencher os 5 critérios. |
+| **Mola Hidatiforme (DTG)** | Fechado ou eliminando **vesículas ("cachos de uva")** | Útero aumentado para a IG + imagem em **"flocos de neve" / "tempestade de neve"** + cistos tecaluteínicos ovarianos ($eta$-hCG `> 100.000`). | **Vácuo-aspiração elétrica/AMIU** (evitar cureta cortante pelo risco de perfuração!) + histopatológico + curva semanal/mensal de $eta$-hCG por 6 meses! |
+
+### 💊 2. Por Que o Protocolo de Metotrexato (`50 mg/m² IM`) Exige Checar D4 e D7?
+- **Os 5 Critérios de Elegibilidade para o Metotrexato na Ectópica Íntegra:**
+  1. Estabilidade hemodinâmica absoluta (sem dor aguda de irritação peritoneal);
+  2. Massa anexial ectópica **`< 3,5 a 4,0 cm`**;
+  3. **Ausência de BCF** no saco ectópico;
+  4. $eta$-hCG quantitativo basal **`< 5.000 mUI/mL`**;
+  5. Função renal, hepática e hemograma normais.
+- **Por que medimos o $eta$-hCG no D1, D4 e D7 (e esperamos queda `≥ 15%` entre o D4 e o D7)?**
+  - Entre o **D1 e o D4**, a destruição das células do sinciciotrofoblasto pelo Metotrexato libera $eta$-hCG intracelular na circulação, fazendo o nível sérico **subir fisiologicamente no D4**! Por isso nunca operamos por subida no D4 se a paciente estiver estável; o parâmetro real de sucesso é a **queda de pelo menos 15% do valor do D7 em relação ao valor do D4**.

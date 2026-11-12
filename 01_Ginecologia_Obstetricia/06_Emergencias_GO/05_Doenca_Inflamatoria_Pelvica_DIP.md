@@ -1,91 +1,96 @@
 # Manejo de Emergência - Doença Inflamatória Pélvica (DIP)
 
 > **Atalho sugerido:** `;dip`  
-> **Finalidade:** Diagnóstico clínico estruturado pelos critérios do CDC/Ministério da Saúde, estadiamento pela classificação de Monif, decisão de conduta ambulatorial vs internação hospitalar e esquemas antimicrobianos.
+> **Finalidade:** Diagnóstico clínico de DIP (Critérios CDC/MS), estadiamento de Monif (I a IV), tratamento hospitalar vs ambulatorial e receita completa (incluindo parceiro).
 
 ---
 
 ### [SNIPPET DE PRONTUÁRIO - COPIAR ABAIXO]
 
 ```text
-###### ATENDIMENTO DE EMERGÊNCIA: DOENÇA INFLAMATÓRIA PÉLVICA (DIP) ######
-# IDENTIFICAÇÃO:
-- Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
-- G[ ] P[ ] A[ ] | DUM: [DD/MM/AAAA] (relação com menstruação recente: [ ] dias).
-- Fatores de Risco: [Múltiplas parcerias sexuais / Inserção recente de DIU há < 3 semanas / Histórico prévio de IST ou DIP / Relações sexuais desprotegidas].
+###### ATENDIMENTO DE EMERGÊNCIA GINECOLÓGICA — DOENÇA INFLAMATÓRIA PÉLVICA (DIP) ######
+# IDENTIFICAÇÃO & FATORES DE RISCO:
+- Paciente: [Nome], [Idade] anos, G[ ] P[ ] A[ ] | DUM: [DD/MM/AAAA] | **β-hCG: NEGATIVO (obrigatório)**.
+- Contexto & Alergias: [Sem método de barreira / Nova parceria / Uso de DIU / Episódio prévio de IST] | Alergias: [Nega alergias medicamentosas / Alérgica a: [ ]].
 
-# SUBJETIVO & HISTÓRIA CLÍNICA:
-- Queixa Principal: Dor intensa em baixo ventre / hipogástrio associada a corrimento e febre há [ ] dias.
-- HMA: Paciente relata dor pélvica contínua e progressiva, de caráter em peso ou cólica em hipogástrio e fossas ilíacas, com piora importante durante relações sexuais (dispareunia de profundidade) e à deambulação, com início após término do ciclo menstrual recente. Refere corrimento vaginal amarelado com odor fétido e sensação de febre.
-- CRITÉRIOS DIAGNÓSTICOS DO CDC / MINISTÉRIO DA SAÚDE:
-  * CRITÉRIOS MAIORES (TODOS OS 3 OBRIGATÓRIOS NO EXAME FÍSICO):
-    [ ] Dor à palpação do abdome inferior / hipogástrio.
-    [ ] Dor à palpação dos anexos bilateralmente.
-    [ ] Dor intensa à mobilização do colo uterino (Sinal de Frenkel positivo).
-  * CRITÉRIOS MENORES (PELO MENOS 1 PRESENTE):
-    [ ] Temperatura axilar > 38,3 °C.
-    [ ] Corrimento endocervical anormal mucopurulento ou friabilidade do colo uterino.
-    [ ] Leucocitose no hemograma (> 10.500/mm³ com desvio).
-    [ ] Proteína C-Reativa (PCR) ou VHS significativamente elevadas.
-    [ ] Comprovação laboratorial de infecção por Neisseria gonorrhoeae ou Chlamydia trachomatis.
-  * CRITÉRIOS ELABORADOS / ESPECÍFICOS (SE HOUVER):
-    [ ] Evidência histopatológica de endometrite / USG pélvica demonstrando espessamento tubário ou abscesso tubo-ovariano.
-- Negativas Mandatórias:
-  * Nega atraso menstrual, teste de gravidez (Beta-hCG) quantitativo negativo (afastada gestação ectópica).
-  * Nega dor súbita paroxística em fossa ilíaca acompanhada de vômitos incoercíveis (afastada torção anexial).
-  * Nega dor migratória para fossa ilíaca direita com descompressão dolorosa clássica isolada (afastada apendicite aguda).
+# SUBJETIVO (QD & HMA):
+- Queixa Principal & HMA: Dor pélvica/baixo ventre bilateral progressiva há [ ] dias, associada a corrimento vaginal purulento, dispareunia de profundidade e [febre aferida de [ ]°C / calafrios / disúria].
+- Negativas Mandatórias: Nega atraso menstrual (β-hCG negativo — afastada ectópica). [Nega vômitos incoercíveis, peritonismo difuso ou instabilidade hemodinâmica (elegível para Monif I ambulatorial) / Apresenta febre alta, vômitos e peritonismo (indicada internação — Monif II/III)].
 
-# OBJETIVO (EXAME FÍSICO GINECOLÓGICO & GERAL):
-- SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.
-- Exame Abdominal: Abdome plano, dor significativa à palpação de hipogástrio e fossas ilíacas, sem massas palpáveis evidentes. Descompressão brusca [negativa / discretamente positiva localizada em hipogástrio].
-- Exame Especular:
-  * Conteúdo vaginal abundante, amarelado, purulento, saindo pelo orifício externo do colo uterino (cervicite purulenta franca).
-  * Ectocéfalo friável, com sangramento fácil ao toque da espátula/gaze.
-- Toque Vaginal Bimanual:
-  * Mobilização do colo uterino extremamente dolorosa (grito de Douglas / Sinal de Frenkel francamente positivo).
-  * Útero discretamente doloroso à palpação, anexos espessados e muito dolorosos bilateralmente.
-  * Fundos de saco vaginais: [Livres sem massas flutuantes palpáveis / Abaulamento doloroso em fundo de saco posterior].
+# OBJETIVO (EXAME FÍSICO GINECOLÓGICO & EXAMES):
+- Sinais Vitais: PA: [115x70] mmHg | FC: [88] bpm | FR: [16] irpm | SpO2: [99]% AA | Tax: [37,8] °C.
+- Exame Abdominal: Abdome plano, RHA+, **dor à palpação profunda de hipogástrio e fossas ilíacas bilateralmente**, [sem sinais de peritonite difusa (DB negativo) / com descompressão brusca dolorosa localizada em pelve]. Sinal de Murphy/dor em HCD (Síndrome de Fitz-Hugh-Curtis): [Ausente / Presente].
+- Exame Especular: Paredes vaginais hiperemiadas, **secreção mucopurulenta amarelada fluindo pelo orifício cervical externo (cervicite mucopurulenta)** e colo friável ao toque do swab.
+- Toque Vaginal Bimanual (3 Critérios Maiores Presentes):
+  * **1. Dor intensa à mobilização do colo uterino (Sinal de Chandelier / Frenkel positivo)**;
+  * **2. Dor à palpação uterina em hipogástrio**;
+  * **3. Dor à palpação das regiões anexiais bilateralmente**, [sem massas anexiais palpáveis (Monif I) / com espessamento/massa anexial palpável sugerindo abscesso tubo-ovariano (Monif III)].
+- Exames Complementares:
+  * **Teste Rápido / β-hCG sérico: NEGATIVO** | Testes Rápidos (HIV, Sífilis, Hep B e C): [Não reagentes].
+  * Laboratório: Leucócitos: [ ]/mm³, PCR: [ ] mg/L, EAS: [ ].
+  * USG Pélvica Transvaginal: [Útero e ovários sem coleções pélvicas (Monif I/II) / Imagem complexa heterogênea retrouterina/anexial de [ ] cm compatível com Abscesso Tubo-Ovariano (Monif III)].
 
-# EXAMES COMPLEMENTARES:
-- Teste Imunológico de Gravidez (TIG / Beta-hCG): NEGATIVO.
-- Laboratório: Hemograma completo (Leucócitos: [ ] /mm³, Bastões: [ ]%), PCR: [ ] mg/L, EAS com fita reagente.
-- Ultrassonografia Pélvica / Transvaginal: [Ausência de coleções anexiais, útero e ovários de aspecto habitual / Visualizada coleção anecoica/heterogênea com septos em anexo [direito / esquerdo] compatível com abscesso tubo-ovariano medindo [ ] cm].
+# AVALIAÇÃO DIAGNÓSTICA:
+1. Doença Inflamatória Pélvica Aguda (CID-10: N73.0 / N73.9) — **Estágio [Monif I (Leve — Ambulatorial) / Monif II (Moderada com peritonismo — Hospitalar) / Monif III (Abscesso Tubo-Ovariano — Hospitalar) / Monif IV (Abscesso Roto/Sepse — Cirúrgico)]**.
 
-# AVALIAÇÃO DIAGNÓSTICA & CLASSIFICAÇÃO DE MONIF:
-1. Doença Inflamatória Pélvica aguda (CID-10: N73.9).
-2. Classificação de Gravidade (Monif):
-   - [ ] MONIF I: Endometrite e salpingite aguda sem peritonite (Tratamento Ambulatorial).
-   - [ ] MONIF II: Salpingite com peritonite pélvica localizada (Tratamento Hospitalar).
-   - [ ] MONIF III: Salpingite com abscesso tubo-ovariano íntegro (Tratamento Hospitalar).
-   - [ ] MONIF IV: Abscesso tubo-ovariano roto ou choque séptico (Cirúrgico Imediato).
+# PLANO / CONDUTA:
+>> [MODALIDADE 1 — CONDUTA AMBULATORIAL (MONIF I — APLICAR CEFTRIAXONA IM AGORA NA UNIDADE)]:
+1. Administrar **AGORA na unidade**: **Ceftriaxona 500 mg IM profunda em dose única** + Dipirona 1 g EV/VO para alívio álgico.
+2. Prescrever **Doxiciclina + Metronidazol** por **14 dias** para casa + convocação e tratamento empírico obrigatório do(a) parceiro(a) sexual.
+3. **Agendar Reavaliação Médica Obrigatória em 48 a 72 horas** (se não houver melhora clínica substancial em 72h -> internar para esquema EV!).
 
-# PLANO / CONDUTA POR MODALIDADE:
+>> [MODALIDADE 2 — CONDUTA HOSPITALAR (SE MONIF II, III, IV, GESTANTE, VÔMITOS OU FALHA EM 72H)]:
+1. Internação hospitalar, dieta zero se vômitos/possibilidade cirúrgica, hidratação venosa e analgesia EV.
+2. **Esquema Antibiótico Hospitalar (1ª Linha — MS/CDC):**
+   - **Ceftriaxona 1 g EV de 24/24 horas** (ou 2 g EV 1x/dia)
+   - **+ Doxiciclina 100 mg VO (ou EV) de 12/12 horas**
+   - **+ Metronidazol 400 mg VO de 12/12h (ou 500 mg EV de 8/8h)**
+   *(Manter EV até 24–48h após melhora clínica e defervescência; em seguida, transicionar para Doxiciclina 100 mg VO 12/12h + Metronidazol 400–500 mg VO 12/12h até completar **14 dias totais**)*.
+3. *[OU Esquema Hospitalar Alternativo (Preferencial no Abscesso Tubo-Ovariano — Monif III)]*:
+   - **Clindamicina 900 mg EV de 8/8 horas + Gentamicina 5 mg/kg EV 1x/dia** (ou 2 mg/kg ataque + 1,5 mg/kg 8/8h) + transição oral após 24–48h de melhora até completar 14 dias.
+4. Abordagem Cirúrgica (Laparoscopia / Laparotomia / Drenagem): Imediata se **Monif IV** (abscesso roto / choque séptico) ou se abscesso tubo-ovariano $> 8\text{ cm}$ sem resposta após 48–72h de ATB EV.
 
->> [MODALIDADE 1]: CONDUTA AMBULATORIAL (EXCLUSIVO PARA MONIF I):
-1. Prescrição Terapêutica Ambulatorial:
-   - Ceftriaxona 500 mg IM em dose única na UPA (para Neisseria gonorrhoeae).
-   + Doxiciclina 100 mg VO de 12/12 horas por 14 dias consecutivos (para Chlamydia trachomatis).
-   + Metronidazol 500 mg VO de 12/12 horas por 14 dias consecutivos (para anaeróbios e vaginose bacteriana associada).
-2. Analgesia: Dipirona 1 g VO de 6/6h SOS ou Ibuprofeno 600 mg VO de 8/8h por 3 a 5 dias.
-3. Tratamento de Parceiros(as) Sexuais: Convocação obrigatória dos contatos sexuais dos últimos 60 dias para tratamento empírico (Ceftriaxona 500 mg IM + Azitromicina 1 g VO dose única).
-4. Abstinência sexual estrita durante todo o período de tratamento.
-5. Retorno Obrigatório em 72 horas para reavaliação clínica. Se não houver melhora expressiva da dor e da febre: internação hospitalar mandatória para antibioticoterapia endovenosa.
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA:
+USO INTRAMUSCULAR (REALIZAR NA UNIDADE DE SAÚDE / UPA HOJE):
+1. Ceftriaxona 500 mg pó liofilizado injetável ------------------------- 1 frasco-ampola
+   Aplicar 500 mg por via intramuscular profunda em dose única hoje.
 
->> [MODALIDADE 2]: CONDUTA HOSPITALAR / INTERNAÇÃO (MONIF II A IV, GESTANTE OU FALHA AMBULATORIAL):
-1. Internação imediata em leito de enfermaria cirúrgica/ginecológica.
-2. Jejum ou dieta branda, hidratação venosa e analgesia endovenosa.
-3. Esquema Antimicrobiano Hospitalar de 1ª Escolha:
-   - Ceftriaxona 1 g a 2 g EV 1x/dia
-   + Doxiciclina 100 mg VO ou EV de 12/12 horas por 14 dias
-   + Metronidazol 500 mg EV de 8/8 horas
-   [OU Esquema Hospitalar Alternativo]:
-   - Clindamicina 900 mg EV de 8/8 horas + Gentamicina 5 mg/kg EV 1x/dia (ou 2 mg/kg ataque + 1,5 mg/kg 8/8h).
-4. Avaliação Cirúrgica da Ginecologia / Laparoscopia se Monif IV ou abscesso > 8-10 cm refratário a tratamento clínico.
+USO ORAL (PARA A PACIENTE — TRATAMENTO COMPLETO DE 14 DIAS):
+2. Doxiciclina 100 mg -------------------------------------------------- 28 comprimidos
+   Tomar 1 comprimido via oral de 12 em 12 horas (após o café e o jantar, com 1 copo cheio de água e sem deitar por 30 min), durante 14 dias consecutivos.
+3. Metronidazol [250 mg (56 cp) / 400 mg (28 cp)] ---------------------- 14 dias
+   Tomar 2 comprimidos de 250 mg (500 mg) via oral de 12 em 12 horas, durante 14 dias consecutivos.
+   *(Atenção: Proibido ingerir bebida alcoólica durante os 14 dias e até 48h após o término — risco de reação grave com vômitos e mal-estar)*.
+4. Ibuprofeno 600 mg --------------------------------------------------- 1 caixa
+   Tomar 1 comprimido via oral de 8 em 8 horas após as refeições por 5 dias se dor.
+
+TRATAMENTO OBRIGATÓRIO DO(A) PARCEIRO(A) SEXUAL (DOSE ÚNICA):
+- Ceftriaxona 500 mg IM em dose única + Azitromicina 500 mg (tomar 2 comprimidos = 1 g via oral em dose única).
+
+ORIENTAÇÕES E RETORNO OBRIGATÓRIO:
+- Manter abstinência sexual total até o término dos 14 dias de tratamento da paciente e do parceiro.
+- **RETORNO OBRIGATÓRIO EM 48 A 72 HORAS** para reavaliação médica (ou procurar o Hospital imediatamente antes disso se a febre/dor aumentarem ou se apresentar vômitos que impeçam tomar os comprimidos).
 ```
 
 ---
 
-### [REGRAS DE CONDUTA NA DOENÇA INFLAMATÓRIA PÉLVICA]
-- **Beta-hCG é Obrigatório:** NUNCA fechar diagnóstico de DIP ou iniciar antibioticoterapia empírica sem antes documentar um teste de gravidez (Beta-hCG) negativo. Prenhez ectópica rota simula perfeitamente o quadro clínico de dor à mobilização cervical e anexial.
-- **Tratamento Simultâneo dos Parceiros:** O tratamento da paciente é clinicamente inútil sem o tratamento empírico concomitante do(s) parceiro(s) sexual(is) dos últimos 60 dias, sob risco iminente de reinfecção e infertilidade por fator tubário / sinéquias pélvicas.
-- **Regra das 72 Horas:** Toda paciente tratada em regime ambulatorial para DIP (Monif I) deve ter reavaliação médica presencial formal agendada em **48 a 72 horas**. A persistência de dor à palpação ou febre após 72h define falha terapêutica e indicação absoluta de internação hospitalar imediata.
+### [REGRAS DE CONDUTA E DIRETRIZES CLÍNICAS]
+
+### 🧠 1. Por Que o Diagnóstico de DIP é Clínico e de Baixo Limiar? (Prevenção de Sequelas Tubárias)
+- **A Fisiopatologia da Lesão Tubária Irreversível:** A Doença Inflamatória Pélvica nasce da ascensão canalicular de *Neisseria gonorrhoeae* e *Chlamydia trachomatis* do colo uterino para o endométrio, endossalpinge e peritônio pélvico (facilitada pela abertura do canal cervical e perda do tampão mucoso durante a menstruação!). A resposta inflamatória destrói as células ciliadas da mucosa tubária: **cada episódio de DIP atrasado dobra o risco de Infertilidade por Fator Tubário, multiplica em 6 a 10x o risco de Gravidez Ectópica e causa Dor Pélvica Crônica (e aderências peri-hepáticas em *"cordas de violino"* — Síndrome de Fitz-Hugh-Curtis)**.
+- **Regra Diagnóstica do Ministério da Saúde (PCDT-IST):** Basta a presença dos **3 Critérios Maiores** (**Dor hipogástrica + Dor à palpação de anexos + Dor à mobilização do colo uterino / *Sinal de Chandelier***) somados a **1 Critério Menor** (febre, corrimento endocervical mucopurulento, leucocitose, PCR/VHS elevados ou diplococos/clamídia) para iniciar o tratamento imediatamente na porta!
+
+### 💊 2. Por Que a Prescrição de DIP Exige SEMPRE 3 Antibióticos Simultâneos?
+Nenhum antibiótico isolado cobre todas as fases microbiológicas da DIP. Por isso o esquema (seja ambulatorial ou hospitalar) precisa atacar simultaneamente os **3 grupos bacterianos**:
+1. **Contra *Neisseria gonorrhoeae* (Gonococo):** **Ceftriaxona `500 mg IM` dose única** (no ambulatório) ou **Ceftriaxona `1 g EV 24/24h`** (na internação). *Por que não Ciprofloxacino?* Mais de 50% das cepas de gonococo no Brasil têm resistência cromossômica às quinolonas!
+2. **Contra *Chlamydia trachomatis* e *Mycoplasma genitalium* (Bactérias Intracelulares):** **Doxiciclina `100 mg VO de 12/12h por 14 dias`**.
+3. **Contra Anaeróbios Estritos (*Bacteroides, Peptostreptococcus*) e *Gardnerella*:** **Metronidazol `250 mg (2 cp) ou 400–500 mg VO de 12/12h por 14 dias`** — os anaeróbios invadem a trompa lesada e são os grandes responsáveis pela formação do **Abscesso Tubo-Ovariano (ATO)**!
+4. **Por que tratar os Parceiros Sexuais dos últimos 60 dias (mesmo assintomáticos)?** Com **Ceftriaxona 500 mg IM DU + Azitromicina 1 g VO DU**, evitando o *"efeito pingue-pongue"* de reinfecção da paciente!
+
+### 🧭 3. Classificação de Monif (Gainesville): Quando Internar vs. Tratar em Casa?
+| Estágio de Monif | Achado Clínico & Ultrassonográfico | Local de Tratamento & Conduta |
+| :--- | :--- | :--- |
+| **Estágio I (Leve / Não complicada)** | Salpingite aguda **sem peritonite** e sem massa anexial; paciente em bom estado geral, sem vômitos. | **Ambulatorial** (Ceftriaxona 500mg IM DU + Doxiciclina 14d + Metronidazol 14d) + **Reavaliação obrigatória em 48–72h**! |
+| **Estágio II (Com Peritonite)** | Salpingite aguda **com sinais de irritação peritoneal** (descompressão brusca dolorosa / Blumberg pélvico) ou febre alta/vômitos. | **Internação Hospitalar** com ATB Venoso até permanecer **afebril e sem dor peritoneal por 24 a 48h**, completando 14 dias via oral. |
+| **Estágio III (Abscesso Tubo-Ovariano)** | Presença de **massa anexial / Abscesso Tubo-Ovariano (ATO) íntegro** na USG transvaginal. | **Internação Hospitalar** (preferir **Clindamicina 900mg EV 8/8h + Gentamicina**, pois a Clindamicina penetra muito melhor dentro da cápsula do abscesso!). Se ATO `> 7–8 cm` ou sem melhora em 48–72h → drenagem cirúrgica/guiada. |
+| **Estágio IV (Abscesso Roto / Choque)** | **Rotura de Abscesso Tubo-Ovariano** com peritonite purulenta difusa e sepse/choque séptico. | **Emergência Cirúrgica Imediata** (Laparotomia exploradora + lavagem cavitária + ATB EV de amplo espectro). |

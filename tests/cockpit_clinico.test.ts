@@ -243,6 +243,128 @@ test('Desktop Workstation Refactor, Column Resizers & Weight Calculator Exclusio
   // Test (?) Shortcuts modal
   runExpr('openShortcutsModal()');
   assert.equal(elements.shortcutsOverlay.classList.contains('open'), true, 'openShortcutsModal must open shortcuts modal');
+  assert.equal(elements.shortcutsOverlay.classList.contains('open'), true);
   runExpr('closeShortcutsModal()');
   assert.equal(elements.shortcutsOverlay.classList.contains('open'), false, 'closeShortcutsModal must close shortcuts modal');
+});
+
+test('Preceptor V2.0 Audit: All 19 Clinical Skills cards upgraded in 05_Habilidades_Clinicas, snippets_hab.json, and index.html', () => {
+  const { runExpr } = extractScriptAndRun();
+  const allData = Array.from<any>(runExpr('allData'));
+  const habItems = allData.filter((d: any) => d.mod_id === 'hab');
+  assert.equal(habItems.length, 19, 'Must have all 19 Clinical Skills cards in index.html');
+
+  const habJsonPath = path.resolve(process.cwd(), 'snippets/snippets_hab.json');
+  const habJson = JSON.parse(fs.readFileSync(habJsonPath, 'utf8'));
+  assert.equal(habJson.length, 19, 'snippets_hab.json must have 19 cards');
+
+  for (const item of habItems) {
+    assert.ok(item.trigger && item.trigger.startsWith(';hab-'), `Card ${item.id} must have a ;hab-* trigger`);
+    assert.ok(item.anchor && item.anchor.length > 20, `Card ${item.id} must have a V2.0 anchor sequence`);
+    assert.ok(item.pre_porta && item.pre_porta.includes('1. O QUE NÃO ESQUECER'), `Card ${item.id} pre_porta must include V2.0 Preceptor structure`);
+    assert.ok(item.pre_porta.includes('COMO REGISTRAR NO PRONTUÁRIO'), `Card ${item.id} pre_porta must include ready-to-copy clinical record`);
+    assert.ok(Array.isArray(item.checklist_sections) && item.checklist_sections.length >= 3, `Card ${item.id} must have structured checklist sections`);
+    const hasV2Section = item.checklist_sections.some((s: any) => s.title.includes('Upgrade Preceptor V2.0'));
+    assert.equal(hasV2Section, true, `Card ${item.id} must include Upgrade Preceptor V2.0 checklist section`);
+    assert.ok(Array.isArray(item.pitfalls) && item.pitfalls.length >= 4, `Card ${item.id} must have Red Flags + Pitfalls populated`);
+
+    // Verify corresponding markdown file on disk
+    const mdFull = path.resolve(process.cwd(), item.path);
+    const mdText = fs.readFileSync(mdFull, 'utf8');
+    assert.ok(mdText.includes('## 🎯 1. O QUE NÃO ESQUECER'), `${item.path} must have V2.0 section 1`);
+    assert.ok(mdText.includes('## 🧠 2. MNEMÔNICO / REGRA DE OURO'), `${item.path} must have V2.0 section 2`);
+    assert.ok(mdText.includes('## 🛠️ 3. COREOGRAFIA / PASSO A PASSO TÉCNICO'), `${item.path} must have V2.0 section 3`);
+    assert.ok(mdText.includes('## 🚨 4. RED FLAGS'), `${item.path} must have V2.0 section 4`);
+    assert.ok(mdText.includes('## 📝 5. COMO REGISTRAR NO PRONTUÁRIO'), `${item.path} must have V2.0 section 5`);
+    assert.ok(mdText.includes('## ⚠️ 6. ARMADILHAS DO INTERNO'), `${item.path} must have V2.0 section 6`);
+    assert.ok(mdText.includes('## ✅ 7. CHECKLIST PÓS-ATENDIMENTO'), `${item.path} must have V2.0 section 7`);
+  }
+});
+
+test('Padrão Ouro PEP v2.0: All 15 Ginecologia & Obstetrícia protocols have bipartite Conduta, Diretriz/Guia, and Outpatient Receitas', () => {
+  const { runExpr } = extractScriptAndRun();
+  const allData = Array.from<any>(runExpr('allData'));
+  const goItems = allData.filter((d: any) => d.mod_id === 'go');
+  assert.equal(goItems.length, 15, 'Must have all 15 GO protocols in index.html');
+
+  for (const item of goItems) {
+    assert.equal(item.has_split, true, `GO protocol ${item.id} (${item.trigger}) must have bipartite # PLANO / CONDUTA split`);
+    assert.ok(item.conduta_body && item.conduta_body.length > 400, `GO protocol ${item.id} must have complete conduta_body`);
+    assert.equal(item.has_guia, true, `GO protocol ${item.id} (${item.trigger}) must have Guia/Diretriz populated`);
+    assert.ok(item.guia_body && item.guia_body.length > 300, `GO protocol ${item.id} must have substantive guia_body`);
+  }
+
+  const expectedReceitaIds = ['go-1', 'go-3', 'go-4', 'go-5', 'go-6', 'go-7', 'go-9', 'go-14', 'go-15'];
+  for (const id of expectedReceitaIds) {
+    const proto = goItems.find((d: any) => d.id === id);
+    assert.ok(proto, `Protocol ${id} must exist`);
+    assert.equal(proto.has_receita, true, `Protocol ${id} (${proto.trigger}) must have Receita Domiciliar / Alta`);
+    assert.ok(proto.receita_body && proto.receita_body.length > 300, `Protocol ${id} must have complete receita_body`);
+  }
+});
+
+test('Personalizar v2.0 Engine: Balanced brackets, zero DD/MM/AAAA choice splits, and clean choice groups across all 15 GO protocols', () => {
+  const { runExpr } = extractScriptAndRun();
+  const allData = Array.from<any>(runExpr('allData'));
+  const goItems = allData.filter((d: any) => d.mod_id === 'go');
+
+  // Verify DD/MM/AAAA and DD/MM are never split into choices
+  const dateFullChoices = Array.from<string>(runExpr("splitTopLevelChoices('DD/MM/AAAA')"));
+  assert.deepEqual(dateFullChoices, ['DD/MM/AAAA'], 'DD/MM/AAAA must never be split into DD, MM, AAAA pills');
+
+  const dateShortChoices = Array.from<string>(runExpr("splitTopLevelChoices('DD/MM')"));
+  assert.deepEqual(dateShortChoices, ['DD/MM'], 'DD/MM must never be split into DD, MM pills');
+
+  // Verify nested brackets inside options are kept intact by parseBalancedBrackets + splitTopLevelChoices
+  const usgChoices = Array.from<string>(
+    runExpr("splitTopLevelChoices('Solicitada hoje / Realizada em [DD/MM] com CCN de [ ] mm = IG USG: [ ]s[ ]d')")
+  );
+  assert.deepEqual(usgChoices, [
+    'Solicitada hoje',
+    'Realizada em [DD/MM] com CCN de [ ] mm = IG USG: [ ]s[ ]d'
+  ]);
+
+  // Verify every bracket across all 15 GO protocols parses cleanly with zero dangling '[' or ']' options
+  for (const item of goItems) {
+    const lines = String(item.pep_body).split('\n');
+    for (const line of lines) {
+      const escaped = JSON.stringify(line);
+      const tokens = Array.from<any>(runExpr(`parseBalancedBrackets(${escaped})`));
+      for (const tok of tokens) {
+        if (tok.type === 'bracket') {
+          const choices = Array.from<string>(runExpr(`splitTopLevelChoices(${JSON.stringify(tok.inner)})`));
+          for (const ch of choices) {
+            assert.notEqual(ch, 'DD', `Protocol ${item.id} must not produce a 'DD' choice pill in line: ${line}`);
+            assert.notEqual(ch, 'MM', `Protocol ${item.id} must not produce a 'MM' choice pill in line: ${line}`);
+            assert.notEqual(ch, 'AAAA', `Protocol ${item.id} must not produce an 'AAAA' choice pill in line: ${line}`);
+          }
+        }
+      }
+    }
+  }
+});
+
+test('Editorial Diretrizes & Raciocínio Clínico: Formatted HTML renderer and structured "Por Quê" sections across all 15 GO protocols', () => {
+  assert.ok(htmlContent.includes('id="drawerGuiaPanel"'), 'Must include dedicated #drawerGuiaPanel for formatted Diretrizes');
+  assert.ok(htmlContent.includes('class="guia-section-card'), 'Must define .guia-section-card editorial styling');
+
+  const { runExpr } = extractScriptAndRun();
+  const allData = Array.from<any>(runExpr('allData'));
+  const goItems = allData.filter((d: any) => d.mod_id === 'go');
+
+  // Verify inline formatter converts bold, code pills, and LaTeX clinical symbols cleanly
+  const formatted = String(runExpr("formatGuiaInlineHtml('Diluir `$MgSO_4$` **4 g** $\\\\rightarrow$ `100 mL/h`')"));
+  assert.ok(formatted.includes('<code class="guia-inline-code">MgSO₄</code>'), 'Must format inline code and MgSO4 symbol');
+  assert.ok(formatted.includes('<strong class="guia-strong">4 g</strong>'), 'Must format bold text');
+  assert.ok(formatted.includes('→'), 'Must convert LaTeX rightarrow to →');
+
+  // Verify all 15 GO protocols have multi-section structured Diretrizes explaining "Por Que"
+  for (const item of goItems) {
+    assert.ok(item.guia_body.includes('### '), `Protocol ${item.id} must have structured ### sections in guia_body`);
+    assert.ok(
+      item.guia_body.includes('Por Que') || item.guia_body.includes('Por quê'),
+      `Protocol ${item.id} must explain clinical rationale ("Por Que") in guia_body`
+    );
+    assert.ok(item.guia_body.length > 900, `Protocol ${item.id} must have rich, comprehensive clinical rationale (>900 chars)`);
+  }
 });

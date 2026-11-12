@@ -1,20 +1,73 @@
-# Exame Físico Geral Coreografado (Zero Ping-Pong)
-**Categoria:** Semiologia Geral
-**Meta de Tempo:** 5–7 min
-**Âncora:** Frente → Costas → Direita 30°-45° → Direita 0° → Em Pé
+# Exame Físico Geral Coreografado (Zero Ping-Pong em 5 Estações)
+**Atalho Rápido:** `;hab-efg` | **Meta de Tempo:** 30s Pré-Porta
+**Âncora:** 5 Estações (Zero Ping-Pong): Sentado Geral/Mãos → Posterior (Tórax/Rim) → Anterior Sentado (Carótida/2º EIC) → Supino (CV/Abdome I-A-P-P/MMII) → Pé
 
-## ⚡ Pré-Porta 30s
+---
+
+## 🎯 1. O QUE NÃO ESQUECER (Visão de 5 Segundos)
+1. REGRA DA COREOGRAFIA ERGONÔMICA: O médico permanece à DIREITA do leito e o paciente muda de posição apenas 3 vezes (Sentado -> Deitado 45° -> Deitado 0° -> Em pé). Zero "ping-pong" de sentar e deitar repetidamente!
+2. ESTAÇÃO 0 (ENTRADA + ECTOSCOPIA + SSVV REAIS):
+
+---
+
+## 🧠 2. MNEMÔNICO / REGRA DE OURO
+> **5 Estações (Zero Ping-Pong): Sentado Geral/Mãos → Posterior (Tórax/Rim) → Anterior Sentado (Carótida/2º EIC) → Supino (CV/Abdome I-A-P-P/MMII) → Pé**
+
+---
+
+## 🛠️ 3. COREOGRAFIA / PASSO A PASSO TÉCNICO
+REGRA DA COREOGRAFIA ERGONÔMICA: O médico permanece à DIREITA do leito e o paciente muda de posição apenas 3 vezes (Sentado -> Deitado 45° -> Deitado 0° -> Em pé). Zero "ping-pong" de sentar e deitar repetidamente!
+ESTAÇÃO 0 (ENTRADA + ECTOSCOPIA + SSVV REAIS):
+- Ectoscopia da porta: Consciência, fácies, marcha, fala em frases completas vs entrecortada, postura (ortopneia/tripé vs inquietação cólica vs imobilidade peritoneal), estado nutricional/hidratação.
+- Ritual: Lavar e AQUECER mãos + estetoscópio (sempre na PELE NUA, expondo só o segmento examinado!).
+- SSVV: PA (manguito 40% circunferência x 80% comprimento; manguito pequeno superestima PA!) + FC/Pulso + FR REAL (contar 60s fingindo palpar pulso radial — avisar altera a respiração!) + SpO2 + Tax.
+ESTAÇÃO 1 (SENTADO — VISÃO ANTERIOR):
+- Mãos (cartão de visitas): Temperatura, suor, TEC (< 2s), baqueteamento digital (Sinal de Schamroth: perda do losango entre unhas = hipóxia crônica/neoplasia/endocardite/cirrose), cianose, tremor (flapping/asterixis na encefalopatia) e simetria dos pulsos radiais.
+- Cabeça & Face: Conjuntiva inferior (palidez de anemia se prega conjuntival pálida), esclera sob luz natural (icterícia visível se BT > 2,0–2,5 mg/dL), pupilas (isocoria/fotomotor) e MOE em "H".
+- Cavidade Oral & Pescoço Anterior: Lanterna + "Aaah" (mucosas/hidratação, dentes/focos sépticos, elevação do palato/úvula) -> Centralização da traqueia na fúrcula esternal.
+ESTAÇÃO 2 (SENTADO — VISÃO POSTERIOR):
+- Pescoço por trás: Palpação bimanual da tireoide ("Engula um gole de água": bócio/nódulos sobem na deglutição) + Colar linfonodal em Ferradura (Pré/Retroauricular -> Occipital -> Tonsilar/Submandibular/Submentoniano -> Cadeias cervicais -> Fossas Supraclaviculares pedindo p/ encolher ombros: Linfonodo de Virchow/Troisier à E = neoplasia gástrica/abdominal!).
+- Tórax Posterior (Pele nua, braços cruzados à frente p/ afastar escápulas, respirando pela BOCA entreaberta): Inspeção -> Expansibilidade (Ruault nos ápices e prega cutânea T9-T10 nas bases) -> FTV ("33" c/ borda ulnar em escada) -> Percussão intercostal comparativa -> Ausculta em Z + Linhas Axilares -> Punho-percussão lombar (Giordano).
+ESTAÇÃO 3 (DEITADO A 30°–45° — ANCORADO À DIREITA):
+- Pescoço Vascular: Altura do pulso venoso jugular interno D com luz tangencial (normal <= 3-4 cm acima do Ângulo de Louis = PVC <= 8-9 cmH2O) + Refluxo hepatojugular + Ausculta carotídea em apneia ANTES de palpar (uma carótida por vez!).
+- Precórdio & Pulmão Anterior: Palpação de frêmitos, impulsão paraesternal E (VD) e Ictus Cordis (5º EIC LHCE, <= 2 polpas digitais) -> Ausculta cardíaca nos 5 focos (2D-2E-3E-4E-5E: A-P-Erb-T-M) PALPANDO PULSO RADIAL/CAROTÍDEO SIMULTÂNEO p/ cravar B1! -> Ausculta pulmonar anterior (incluindo 4º-5º EIC D = Lobo Médio e E = Língula).
+ESTAÇÃO 4 (DEITADO HORIZONTAL 0° — JOELHOS SEMIFLETIDOS & BRAÇOS AO LADO):
+- Abdome (Ordem Sagrada I-A-P-P): Inspeção -> Ausculta (ANTES de tocar!) -> Percussão (4 quadrantes, Espaço de Traube e Hepatimetria 6-12 cm na LHC D) -> Palpação superficial e profunda começando LONGE da dor e OLHANDO PARA O ROSTO do paciente (Fígado por Lemos-Torres/Mathieu, Baço em posição de Schuster se esplenomegalia, Blumberg, Murphy) -> Regiões inguino-crurais (hérnias).
+- MMII & Neuro Express: Edema pré-tibial/sacral (cacifo de Godet 1+ a 4+), simetria/empastamento de panturrilhas (TVP), temperatura em rampa, pulsos femorais, poplíteos, tibiais posteriores e pediosos bilaterais -> Força/Sensibilidade/Babinski.
+ESTAÇÃO 5 (EM PÉ, SE INDICADO): PA e FC em decúbito vs 1 e 3 min em pé (Hipotensão Ortostática = queda PAS >= 20 ou PAD >= 10 mmHg -> hipovolemia/disautonomia) + Marcha e Romberg.
+
+---
+
+## 🚨 4. RED FLAGS (Sinais de Alarme)
+- **Fazer "ping-pong" postural com o paciente:** Mandar deitar para ver o coração, sentar para ver o pulmão e deitar de novo cansa o paciente grave/idoso e faz você esquecer etapas.
+- **Avisar que vai contar a frequência respiratória ou chutar "FR 16 irpm":** Quando avisado, o paciente controla voluntariamente a ventilação; chutar FR perde o sinal mais sensível de deterioração clínica (taquipneia > 20–22 irpm na sepse e no TEP).
+- **Auscultar coração sem palpar o pulso radial/carotídeo simultaneamente:** Na taquicardia a diástole encurta e fica igual à sístole, levando o médico a confundir B1 com B2 e inverter sopro sistólico com diastólico.
+
+---
+
+## 📝 5. COMO REGISTRAR NO PRONTUÁRIO (Texto Pronto)
 ```text
-ESTAÇÃO 0 (ENTRADA + RITUAL + SSVV): Ectoscopia da porta (marcha/fala/fácies/esforço) | Aquecer mãos + esteto (expor por partes na pele nua!) | PA (manguito certo) + FC + FR REAL (30-60s fingindo contar pulso) + SpO2 + Tax.
-ESTAÇÃO 1 (SENTADO FRENTE - Pivô 1): Pegar mãos (temp/unhas/baqueteamento/TEC <2s/pulsos radiais simétricos) -> Olhos (conjuntiva/esclera/pupilas/MOE em "H") -> Boca com lanterna ("Aaah": palato/úvula) -> Traqueia centrada.
-ESTAÇÃO 2 (SENTADO COSTAS - Pivô 2): Tireoide por trás ("Engula") -> Linfonodos em Ferradura (Pré/Retroauricular/Occipital -> Submento/Submandib/Tonsilar -> Cervical -> Supraclavicular/Virchow "Encolha ombros") -> Pulmão dorsal a pele nua e boca aberta (Inspeção -> Expansib/FTV "33" -> Percussão -> Ausculta em Z comparativo + Axilas) -> Giordano bilateral.
-ESTAÇÃO 3 (DEITADO 30°-45° À DIREITA - Pivô 3): Turgência Jugular direita tangencial + Refluxo hepatojugular -> Carótidas (auscultar em apneia antes de palpar, 1 DE CADA VEZ!) -> Precórdio (frêmito/ictus no 5º EIC) -> Ausculta Escada 2D-2E-3E-4E-5E (A-P-A-T-M) palpando pulso simultâneo (= B1!) -> Pulmão anterior (lobo médio/língula).
-ESTAÇÃO 4 (DEITADO 0° À DIREITA - Joelhos fletidos + braços ao lado): Abdome SEMPRE I-A-P-P (Inspeção -> Ausculta antes de tocar -> Percussão/Traube/Hepatimetria -> Palpação longe da dor OLHANDO O ROSTO do paciente -> Fígado/Baço/Blumberg/Murphy) -> MMII (cacifo pré-tibial/panturrilhas/pulsos pedioso e tibial post bilaterais) -> Neuro express (força/sensib/reflexos/meníngeos).
-ESTAÇÃO 5 (EM PÉ, se indicado): PA + FC ortostática (1 e 3 min: queda PAS >=20 ou PAD >=10) | Marcha + Romberg | Coluna e manobra de Valsalva p/ hérnias.
+EXAME FÍSICO GERAL COREOGRAFADO (5 ESTAÇÕES):
+- Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm (60s) | SpO2: [ ]% AA | Tax: [ ]°C | Dor: [ ]/10.
+- Ectoscopia e Cabeça/Pescoço: BEG, lúcido e orientado, corado, hidratado, anictérico, acianótico, afebril. Ausência de baqueteamento digital (Schamroth preservado). Pupilas isocóricas e fotorreagentes. Tireoide eutrófica, sem linfonodomegalias cervicais ou supraclaviculares (Virchow negativo). PVJ fisiológica a 45°.
+- Aparelho Respiratório: Tórax atípico, simétrico, sem esforço respiratório. FTV e percussão claro pulmonar simétricos. MV+ bilateralmente sem ruídos adventícios.
+- Aparelho Cardiovascular: Ictus cordis no 5º EIC E na LHC, normoimpulsivo. RCR em 2T, BNF (B1 sincrônica ao pulso carotídeo/radial), sem sopros ou B3/B4.
+- Abdome (Ordem I-A-P-P): Plano, sem cicatrizes ou circulações colaterais. RHA+ normoativos, sem sopros abdominais. Timpânico, Traube livre, Giordano negativo. Flácido, indolor à palpação superficial e profunda, sem visceromegalias ou irritação peritoneal.
+- Extremidades: Aquecidas, TEC < 2s, pulsos pediosos e tibiais posteriores 4+/4+ simétricos, sem edema ou sinais de TVP (panturrilhas livres).
 ```
 
-## ✅ Checklist Pós-Atendimento
+---
 
+## ⚠️ 6. ARMADILHAS DO INTERNO (Erros Comuns na Prática)
+- **Fazer "ping-pong" postural com o paciente:** Mandar deitar para ver o coração, sentar para ver o pulmão e deitar de novo cansa o paciente grave/idoso e faz você esquecer etapas.
+- **Avisar que vai contar a frequência respiratória ou chutar "FR 16 irpm":** Quando avisado, o paciente controla voluntariamente a ventilação; chutar FR perde o sinal mais sensível de deterioração clínica (taquipneia > 20–22 irpm na sepse e no TEP).
+- **Auscultar coração sem palpar o pulso radial/carotídeo simultaneamente:** Na taquicardia a diástole encurta e fica igual à sístole, levando o médico a confundir B1 com B2 e inverter sopro sistólico com diastólico.
+- **Palpar o abdome antes de auscultar ou com os braços do paciente atrás da nuca:** A palpação prévia altera os ruídos hidroaéreos, e braços elevados esticam a parede abdominal simulando defesa peritoneal.
+- **Não tirar meias/sapatos em diabéticos, idosos e vasculopatas:** Deixa passar úlcera plantar infectada (foco oculto de sepse) e isquemia arterial crítica de membro inferior.
+
+---
+
+## ✅ 7. CHECKLIST PÓS-ATENDIMENTO (Autoavaliação & Debriefing V2.0)
 ### 0. Ectoscopia, Ambiência & Sinais Vitais
 - [ ] Observei ectoscopia geral desde a entrada (consciência, fala em frases completas, fácies, postura)
 - [ ] Higienizei e aqueci mãos/estetoscópio e expus apenas o segmento examinado (pele nua, respeitando o pudor)
@@ -44,11 +97,6 @@ ESTAÇÃO 5 (EM PÉ, se indicado): PA + FC ortostática (1 e 3 min: queda PAS >=
 ### 5. Em Pé (Se Indicado)
 - [ ] Avaliei PA/FC ortostática (1 e 3 min: queda PAS ≥ 20 ou PAD ≥ 10), marcha, Romberg ou manobra de Valsalva p/ hérnias
 
-## 🚫 Armadilhas & Erros Fatais
-- **Palpar ou percutir o abdome antes de auscultar:** Estimula o peristaltismo artificialmente (mascarando íleo paralítico) e deflagra defesa muscular voluntária que inviabiliza o resto do exame.
-- **Chutar "FR 16 irpm" ou avisar que vai contar a respiração:** Avisar altera o padrão respiratório voluntariamente; chutar cega a equipe para taquipneia (> 20–22 irpm), o sinal mais precoce de sepse, TEP e acidose metabólica.
-- **Auscultar o coração sem palpar o pulso simultaneamente:** Em pacientes taquicárdicos, o tempo diastólico encurta e iguala-se ao sistólico, fazendo confundir B1 com B2 e inverter sopros sistólicos com diastólicos.
-- **Auscultar por cima da roupa ou avental hospitalar:** O atrito têxtil fabrica falsos estertores/atrito pleural e filtra sons graves (B3/B4) e sopros regurgitativos suaves. Estetoscópio exige pele nua.
-- **Deixar o paciente respirar pelo nariz no exame pulmonar ou colocar os braços atrás da nuca no abdominal:** Respiração nasal abafa o murmúrio vesicular; braços atrás da cabeça (ou levantar o queixo para olhar o médico) esticam a aponeurose do reto abdominal, simulando defesa peritoneal.
-- **Palpar carótidas sem auscultar previamente ou palpar ambas simultaneamente:** Palpar sobre sopro carotídeo pode embolizar placa ateromatosa; palpar ambas ao mesmo tempo causa bradicardia vagal reflexa, síncope e isquemia cerebral transitória.
-- **Omitir pulsos distais (pedioso e tibial posterior) e fossas supraclaviculares:** Deixar de tirar meias/calçados em diabéticos, idosos e tabagistas perde isquemia crítica; pular a fossa supraclavicular esquerda perde o linfonodo de Virchow.
+### 6. Upgrade Preceptor V2.0 (Manobras de Alta Acurácia)
+- [ ] Contei a FR real em 60s fingindo palpar o pulso radial e pesquisei Sinal de Schamroth (baqueteamento) e Linfonodo de Virchow supraclavicular esquerdo
+- [ ] Palpei o pulso carotídeo/radial simultaneamente à ausculta cardíaca (identificando B1) e respeitei a ordem abdominal I-A-P-P

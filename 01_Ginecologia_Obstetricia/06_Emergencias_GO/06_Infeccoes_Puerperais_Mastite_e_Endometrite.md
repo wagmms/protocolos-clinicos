@@ -1,94 +1,83 @@
 # Manejo de Emergência - Infecções Puerperais: Mastite e Endometrite
 
 > **Atalhos sugeridos:** `;mastite` | `;endometrite`  
-> **Finalidade:** Diagnóstico diferencial e condutas terapêuticas para as duas principais infecções pós-parto: mastite puerperal aguda (esvaziamento mamário e manejo ambulatorial) e endometrite puerperal pós-cesárea/parto normal (tríade de Bumm e esquema padrão ouro hospitalar).
+> **Finalidade:** Diagnóstico diferencial e manejo da Febre Puerperal — Mastite Lactacional Aguda (ambulatorial/manutenção da amamentação) vs Endometrite Puerperal (Tríade de Bumm e esquema Clindamicina + Gentamicina EV).
 
 ---
 
 ### [SNIPPET DE PRONTUÁRIO - COPIAR ABAIXO]
 
 ```text
-###### ATENDIMENTO DE EMERGÊNCIA OBSTÉTRICA: INFECÇÃO PUERPERAL ######
-# IDENTIFICAÇÃO:
-- Paciente: [Nome], [Idade] anos, Leito: [ ], Registro: [ ]
-- G[ ] P[ ] (PN [ ] / PC [ ]) A[ ] | Puerpério: [ ]º dia pós-parto [vaginal / cesariana].
-- Diagnóstico Clínico do Atendimento: [MODALIDADE A: MASTITE LACTACIONAL AGUDA / MODALIDADE B: ENDOMETRITE PUERPERAL].
+###### ATENDIMENTO DE EMERGÊNCIA OBSTÉTRICA — INFECÇÕES PUERPERAIS (MASTITE vs ENDOMETRITE) ######
+# IDENTIFICAÇÃO & CONTEXTO PUERPERAL:
+- Paciente: [Nome], [Idade] anos, G[ ] P[ ] (PN [ ] / PC [ ]) A[ ], no **[ ]º dia de puerpério** de [Parto Normal / Cesariana].
+- Quadro Atual: **[MODALIDADE A — MASTITE PUERPERAL AGUDA / MODALIDADE B — ENDOMETRITE PUERPERAL]** | Alergias: [Nega alergias medicamentosas / Alérgica a: [ ]].
 
-=============================================================================
->> [MODALIDADE A]: PROTOCOLO DE MASTITE PUERPERAL AGUDA (;mastite)
-=============================================================================
+# SUBJETIVO (QD & HMA):
+- Queixa Principal & HMA:
+  * [SE MASTITE]: Dor mamária localizada intensa, vermelhidão em cunha e calafrios/febre (Tax [38,5] °C) há [ ] dias, associada a fissura mamilar e ingurgitamento prévio em mama [direita / esquerda]. Nega dor hipogástrica ou lóquios fétidos.
+  * [SE ENDOMETRITE]: Febre alta (Tax >= 38,0 °C), calafrios, mal-estar, dor hipogástrica progressiva e eliminação de lóquios escuros/purulentos com odor fétido intenso há [ ] dias (Fatores de risco: [cesariana / bolsa rota prolongada / múltiplos toques / anemia]). Nega queixas mamárias ou respiratórias.
 
-# SUBJETIVO:
-- Queixa Principal: Dor intensa, vermelhidão e inchaço em mama [direita / esquerda] com febre há [ ] dias.
-- HMA: Puérpera no [ ]º dia de aleitamento materno exclusivo, relata início agudo de dor mamária latejante, acompanhada de calor local, calafrios e febre (Tax referida de [ ] °C). Refere histórico de ingurgitamento mamário prévio e fissura mamilar recente.
-- Negativas Mandatórias:
-  * Nega dor abdominal em cólica, subinvolução uterina ou alteração no odor dos lóquios (afastada infecção pélvica).
-  * Nega drenagem espontânea de pus pelo mamilo ou ponto de flutuação evidente à palpação.
-
-# OBJETIVO (EXAME FÍSICO MAMÁRIO):
-- Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Tax: [ ] °C | FR: [ ] irpm.
+# OBJETIVO (EXAME FÍSICO DIRIGIDO & EXAMES):
+- Sinais Vitais: PA: [110x70] mmHg | FC: [98] bpm | FR: [18] irpm | SpO2: [99]% AA | Tax: **[38,4] °C**.
 - Exame das Mamas:
-  * Inspeção: Presença de área de eritema em cunha bem delimitada, acometendo o quadrante [superior lateral / inferior lateral / medial] da mama [direita / esquerda]. Edema cutâneo localizado. Presença de fissura mamilar em cicatrização no complexo aréolo-papilar.
-  * Palpação: Parênquima mamário endurecido e doloroso na área do eritema, aumento evidente da temperatura local. Ausência de ponto de flutuação cística ou coleção circunscrita profunda palpável (afastado abscesso mamário franco clinicamente).
-  * Expressão Papilar: Saída de leite materno habitual, sem grumos purulentos macroscópicos.
-  * Cadeias Linfonodais: Linfonodo axilar satélite palpável, móvel e doloroso homolateral.
+  * [SE MASTITE]: Mama [direita / esquerda] com **placa eritematosa em cunha, quente, edemaciada e dolorosa** no quadrante [superior externo / inferior], fissura mamilar presente, **ausência de ponto de flutuação** à palpação (afastado abscesso mamário franco). Linfonodo axilar homolateral palpável.
+  * [SE ENDOMETRITE]: Mamas lactantes flácidas/túrgidas fisiológicas, indolores, sem hiperemia ou sinais de mastite.
+- Exame Abdominal, Obstétrico & Especular (Tríade de Bumm):
+  * [SE MASTITE]: Abdome flácido, útero bem involuído e indolor, ferida/períneo íntegros, lóquios fisiológicos sem odor.
+  * [SE ENDOMETRITE — **Tríade de Bumm Positiva**]: Abdome doloroso em hipogástrio (DB negativo); ferida operatória [íntegra sem coleção / com celulite perilesional]. Ao exame especular e toque bimanual: **(1) Febre puerperal + (2) Útero subinvoluído, amolecido e intensamente doloroso à mobilização + (3) Lóquios achocolatados/purulentos de odor fétido** fluindo pelo colo.
+- Exames Complementares (se realizados):
+  * [Ambulatorial sem necessidade de exames / Hemograma: Leucócitos [ ]/mm³ com [ ]% bastões, PCR: [ ] mg/L / USG Mamária: sem coleção líquida / USG Transvaginal: cavidade uterina [vazia sem restos / com conteúdo heterogêneo sugerindo restos placentários]].
 
 # AVALIAÇÃO DIAGNÓSTICA:
-1. Mastite Lactacional Aguda não complicada em mama [direita / esquerda] (CID-10: O91.2).
+1. **[Mastite Lactacional Aguda não complicada em mama [direita / esquerda] (CID-10: O91.2) / Endometrite Puerperal Aguda pós-[cesárea/parto] (CID-10: O85)]**.
 
-# PLANO / CONDUTA AMBULATORIAL:
-1. NÃO SUSPENDER O ALEITAMENTO MATERNO: Orientado manter a amamentação na mama afetada. O esvaziamento mecânico frequente da mama é o pilar terapêutico curativo primário (iniciar a mamada pela mama sadia para acionar o reflexo de ejeção e drenar a mama doente em seguida; ordenha manual ou com bomba após as mamadas se esvaziamento incompleto).
-2. Antibioticoterapia Oral de 1ª Escolha (Duração de 10 a 14 dias - Cobertura para S. aureus):
-   - Cefalexina 500 mg VO de 6/6 horas por 10 a 14 dias consecutivos.
-   - [OU Opção 2 se risco de resistência]: Amoxicilina + Clavulanato de Potássio 875/125 mg VO de 12/12h por 10 dias.
-   - [OU Opção se alergia grave a betalactâmicos]: Clindamicina 300 mg VO de 6/6h por 10 dias.
-3. Analgesia & Anti-inflamatório:
-   - Ibuprofeno 400 a 600 mg VO de 8/8h por 3 a 5 dias (alívio do edema tecidual).
-   - Dipirona 1 g VO de 6/6h SOS dor intensa ou febre.
-4. Medidas Físicas: Compressas mornas imediatamente antes da amamentação para dilatar ductos e compressas frias após a mamada para alívio do ingurgitamento e dor. Correção da pega e do posicionamento do RN.
-5. Reavaliação: Retorno obrigatório em 48 a 72 horas para checar resolução da febre e descartar formação de abscesso mamário (se surgir ponto de flutuação: solicitar USG mamária urgente e programar drenagem com agulha ou cirúrgica).
+# PLANO / CONDUTA:
+>> [MODALIDADE A — CONDUTA NA MASTITE PUERPERAL AGUDA (AMBULATORIAL)]:
+1. **MANTER O ALEITAMENTO MATERNO (Pilar #1 do tratamento):** Orientada a **NÃO suspender a amamentação na mama afetada** (o esvaziamento frequente previne abscesso e não faz mal ao RN a termo). Iniciar mamada pela mama sadia e ordenhar manualmente o leite residual da mama afetada após as mamadas.
+2. Prescritos **Cefalexina 500 mg VO 6/6h por 10 a 14 dias** (cobertura antiestafilocócica para *S. aureus*) + **Ibuprofeno 600 mg VO 8/8h** + Dipirona 1 g VO 6/6h SOS + compressas frias após as mamadas.
+3. **Reavaliação Obrigatória em 48 a 72 horas:** Se persistir febre após 48–72h de ATB ou surgir área de flutuação -> solicitar **USG de Mamas** e realizar **punção aspirativa por agulha grossa / drenagem de Abscesso Mamário** (mantendo amamentação).
 
-=============================================================================
->> [MODALIDADE B]: PROTOCOLO DE ENDOMETRITE PUERPERAL (;endometrite)
-=============================================================================
+>> [MODALIDADE B — CONDUTA NA ENDOMETRITE PUERPERAL (INTERNAÇÃO HOSPITALAR OBRIGATÓRIA)]:
+1. Internação hospitalar, hidratação venosa, antitérmico/analgesia EV e coleta de Hemograma, PCR, EAS/Urocultura e Hemoculturas (se sepse/calafrios).
+2. **Antibioticoterapia Endovenosa Padrão-Ouro (Cobertura Polimicrobiana Aeróbia/Anaeróbia):**
+   - **Clindamicina 900 mg EV de 8/8 horas**
+   - **+ Gentamicina 5 mg/kg EV em dose única diária (24/24h)** [ou 1,5 mg/kg EV de 8/8h se função renal normal].
+   *(Observação: se disfunção renal grave, substituir Gentamicina por Ceftriaxona 2 g EV 1x/dia ou usar Ampicilina-Sulbactam 3 g EV 6/6h)*.
+3. **Esvaziamento Uterino (Se USG mostrar restos placentários retidos):** Realizar curagem/AMIU **após 6 a 12 horas de impregnação antibiótica EV**.
+4. **Critério de Alta (Sem necessidade de antibiótico oral para casa!):** Manter Clindamicina + Gentamicina EV até a paciente permanecer **afebril por 24 a 48 horas completas**, com dor resolvida e leucograma em queda -> **Suspender antibiótico e dar alta hospitalar (não prescrever ATB VO na alta!)**.
+5. *Se febre persistir após 48–72h de Clinda + Genta:* Associar **Ampicilina 2 g EV de 6/6h** (para cobrir *Enterococcus faecalis*) e investigar hematoma/abscesso pélvico, infecção de ferida operatória ou **Tromboflebite Pélvica Séptica** (TC de pelve com contraste).
 
-# SUBJETIVO:
-- Queixa Principal: Febre alta, calafrios e cólicas no baixo ventre após o parto há [ ] dias.
-- HMA: Puérpera no [ ]º dia pós-parto [cesariana / vaginal], relata início de febre alta (Tax >= 38 °C), mal-estar geral, adinamia e dor em baixo ventre que vem piorando progressivamente. Refere saída de corrimento vaginal com cheiro fétido intenso e coloração escura/achocolatada.
-- Fatores de Risco: Parto cesáreo, tempo prolongado de trabalho de parto (> 12h), bolsa rota prolongada, toques vaginais repetidos.
-- Negativas Mandatórias: Nega dispneia súbita, tosse ou dor pleurítica (afastado TEP), nega dor mamária localizada (afastada mastite puerperal).
+>> PRESCRIÇÃO DOMICILIAR / RECEITA DE ALTA (PARA MASTITE LACTACIONAL AMBULATORIAL):
+USO ORAL:
+1. Cefalexina 500 mg --------------------------------------------------- 40 comprimidos
+   Tomar 1 comprimido via oral de 6 em 6 horas, rigorosamente nos horários, durante 10 dias consecutivos.
+   *[Se alergia a betalactâmicos: Clindamicina 300 mg — Tomar 1 cápsula VO de 6/6h por 10 dias]*.
+2. Ibuprofeno 600 mg [NÃO PRESCREVER SE HIPERTENSA / PRÉ-ECLÂMPSIA] ----- 1 caixa
+   Tomar 1 comprimido via oral de 8 em 8 horas, após as refeições, durante 5 dias (reduz o inchaço dos ductos mamários).
+3. [Dipirona Monoidratada 1 g / Paracetamol 750 mg] -------------------- 1 caixa
+   Tomar 1 comprimido via oral de 6 em 6 horas se dor ou febre.
 
-# OBJETIVO (EXAME FÍSICO GINECOLÓGICO):
-- Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm (taquicardia proporcional à febre) | FR: [ ] irpm | Tax: [ ] °C.
-- Exame Abdominal: Abdome flácido, com dor significativa à palpação de hipogástrio. Ferida operatória de cesárea com bordas coaptadas, [sem sinais de infecção de sítio cirúrgico superficial / com eritema perilesional]. Descompressão brusca negativa.
-- Exame Obstétrico / Tríade de Bumm:
-  * 1. Febre Puerperal comprovada (Tax >= 38 °C).
-  * 2. Subinvolução e Amolecimento Uterino: Fundo uterino palpável acima da cicatriz umbilical, útero amolecido, atônico e hipersensível ao toque bimanual.
-  * 3. Lóquios Patológicos: Exame especular evidencia lóquios escuros/achocolatados, purulentos, com odor fétido pronunciado fluindo pelo orifício cervical externo. Colo pérvio para [ ] dedo(s).
-
-# EXAMES COMPLEMENTARES:
-- Laboratório: Hemograma completo com leucocitose expressiva e neutrofilia (Leucócitos: [ ] /mm³, com [ ]% de bastões), PCR elevada, EAS com urocultura, Coagulograma.
-- Ultrassonografia Pélvica / Transvaginal: Avaliação de cavidade uterina: [Presença de eco endometrial heterogêneo espessado compatível com restos ovulares retidos / Ausência de restos, com coleção líquida/gás intracavitário / Anexos livres sem coleções pélvicas].
-
-# AVALIAÇÃO DIAGNÓSTICA:
-1. Endometrite Puerperal Aguda pós-[cesárea / parto normal] (CID-10: O85).
-
-# PLANO / CONDUTA HOSPITALAR:
-1. Internação imediata em leito de enfermaria de obstetrícia de alto risco.
-2. Jejum temporário, hidratação endovenosa com Ringer Lactato ou SF 0,9%.
-3. Antibioticoterapia Endovenosa de Amplo Espectro (Esquema Padrão Ouro):
-   - Clindamicina 900 mg EV de 8/8 horas
-   + Gentamicina 5 mg/kg EV em dose única diária (ou 1,5 mg/kg EV de 8/8h).
-4. Conduta se Febre Persistir após 48 a 72 horas de antibioticoterapia:
-   - Associar Ampicilina 2 g EV de 6/6 horas (cobertura para Enterococcus faecalis).
-   - Solicitar Tomografia Computadorizada de Pelve com contraste para investigar Tromboflebite Pélvica Séptica ou Abscesso Pélvico profundo.
-5. Curagem Uterina / AMIU: Indicada revisão uterina se USG comprovar restos ovulares ou placentários retidos na cavidade (realizar após impregnação antibiótica prévia).
-6. Critério de Cura e Alta: Manter esquema endovenoso até a paciente permanecer afebril por **48 horas completas** e assintomática. Não é necessário manter antibioticoterapia oral domiciliar após esse período.
+ORIENTAÇÕES PRÁTICAS PARA A AMAMENTAÇÃO NA MASTITE:
+- **NÃO pare de amamentar na mama inflamada:** O leite parado piora a infecção e forma abscesso. O bebê pode mamar normalmente com segurança.
+- Aplique compressas **frias** (não quentes!) por 10–15 minutos após as mamadas para reduzir o edema e a dor.
+- **Retorno obrigatório em 48 a 72 horas** (ou imediatamente se a febre não ceder, se surgir um caroço mole/flutuante na mama ou listras vermelhas).
 ```
 
 ---
 
-### [REGRAS DE CONDUTA NAS INFECÇÕES PUERPERAIS]
-- **Amamentação é Tratamento na Mastite:** NUNCA orientar a paciente a suspender a amamentação na mama afetada pela mastite. O esvaziamento mecânico do leite estagnado é a intervenção terapêutica mais eficaz para desobstruir ductos e curar a infecção. O leite não oferece risco ao recém-nascido hígido.
-- **Cesárea é o Maior Fator de Risco da Endometrite:** O risco de endometrite pós-parto cesariano é de **10 a 20 vezes maior** que no parto normal. Por essa razão, a cefazolina profilática de rotina na incisão cirúrgica do parto cesáreo é mandatória.
-- **Proscrição de Antibiótico Oral de Manutenção na Endometrite:** Após 48 horas afebril sob clindamicina + gentamicina EV e com involução uterina normal, o esquema é sumariamente encerrado e a paciente recebe alta. Não há qualquer evidência que justifique prescrever antibióticos orais profiláticos após a alta.
+### [REGRAS DE CONDUTA E DIRETRIZES CLÍNICAS]
+
+### 🧠 1. Por Que a Gestante Evolui Tão Rápido de Bacteriúria para Pielonefrite Grave?
+Durante a gestação ocorrem três alterações anatômicas e hormonais que transformam o trato urinário em um sistema de estase:
+1. **Ação Miorrelaxante da Progesterona Placentária:** Relaxa a musculatura lisa da pelve renal e dos ureteres, reduzindo o peristaltismo ureteral e gerando **hidronefrose fisiológica da gestação**.
+2. **Compressão Mecânica pelo Útero Gravídico Dextrorrodado:** O cólon sigmoide à esquerda roda o útero para a direita, comprimindo diretamente o **ureter direito** contra a borda pélvica (por isso **70 a 80% das pielonefrites na gestação ocorrem no rim direito — *Sinal de Giordano à direita***!).
+3. **Glicosúria Fisiológica e Alcalinização Urinária:** Facilitam a multiplicação da *Escherichia coli* uropatogênica (`80–90%` dos casos).
+- **Consequência Clínica:** Enquanto na mulher não-gestante a bacteriúria assintomática é benigna, na gestante **30% das Bacteriúrias Assintomáticas não tratadas evoluem para Pielonefrite Aguda**, que libera fosfolipase A2 bacteriana e prostaglandinas, desencadeando **Trabalho de Parto Prematuro (TPP), Rotura Prematura de Membranas (RPMO) e Edema Agudo de Pulmão Não-Cardiogênico (SDRA)** por lesão endotelial alveolar mediada por endotoxinas!
+
+### 💊 2. Escolha Segura do Antibiótico na Gestação (E Por Que Alguns São Proibidos)
+| Cenário Clínico | 1ª Opção Segura (Categoria B) | Opções Alternativas | Travas Farmacológicas (O Porquê) |
+| :--- | :--- | :--- | :--- |
+| **Bacteriúria Assintomática (`≥ 10⁵ UFC/mL`) ou Cistite Aguda** | **Fosfomicina Trometamol `3 g VO dose única`** (diluído em água à noite após esvaziar a bexiga) | **Cefalexina `500 mg VO 6/6h` por 7 dias** ou **Amoxicilina-Clavulanato `500/125 mg VO 8/8h` por 7 dias** | **Nitrofurantoína `100 mg VO 6/6h` por 7d** é excelente para cistite, mas **NUNCA use para Pielonefrite** (não atinge concentração no parênquima renal!) e **evite após 36 semanas / no termo** (causa anemia hemolítica e icterícia/kernicterus no RN por imaturidade da G6PD eritrocitária!). |
+| **Pielonefrite Aguda (Qualquer IG)** | **INTERNAÇÃO HOSPITALAR + Ceftriaxona `1 a 2 g EV 24/24h`** (ou Cefazolina `1–2 g EV 6/6h`) | **Piperacilina-Tazobactam** ou **Meropenem** (se sepse grave ou ITU prévia por ESBL) | Só transicionar para via oral após a gestante permanecer **`48 horas consecutivas afebril`**, completando 10 a 14 dias totais. |
+| **Quimioprofilaxia Supressiva Até o Parto** | **Nitrofurantoína `100 mg VO 1 cp à noite`** (ou **Cefalexina `250–500 mg VO à noite`** após 36s) | Indicada após **1 episódio de Pielonefrite** ou **≥ 2 episódios de Cistite/BA** na mesma gestação! | Previne recidiva (que ocorre em até 25% das gestantes com pielonefrite pela persistência da compressão ureteral). **Quinolonas (Cipro/Norfloxacino) são PROIBIDAS em toda a gestação** (lesão da cartilagem fetal). |
