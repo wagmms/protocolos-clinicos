@@ -447,3 +447,12 @@ test('Personalizar v3.0 & Modular Architecture: Sub-inputs restored, 49 Receitas
 });
 
 
+
+test('Compositor Modular de Prescrição: Carrinho de Prescrição em 1 Clique (#tabCartBtn, #btnAddToCart, #drawerCartPanel)', () => {
+  const html = fs.readFileSync(path.join(process.cwd(), 'index.html'), 'utf-8');
+  assert.ok(html.includes('id="btnAddToCart"'), 'Must include #btnAddToCart button in drawer footer');
+  assert.ok(html.includes('id="tabCartBtn"'), 'Must include #tabCartBtn tab in drawer tabs');
+  assert.ok(html.includes('id="drawerCartPanel"'), 'Must include #drawerCartPanel dedicated UI panel');
+  assert.ok(html.includes('function addCustomItemToCart'), 'Must define addCustomItemToCart function in JS');
+  assert.ok(html.includes('function copyPrescriptionCart'), 'Must define copyPrescriptionCart function in JS');
+});

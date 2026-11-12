@@ -6051,6 +6051,7 @@ IDENTIFICAÇÃO &amp; PESO:
         <button class="drawer-tab" id="tabInteractiveBtn" onclick="switchDrawerTab('interactive')">Personalizar</button>
         <button class="drawer-tab" id="tabCondutaBtn" onclick="switchDrawerTab('conduta')">Conduta</button>
         <button class="drawer-tab" id="tabRecBtn" onclick="switchDrawerTab('receita')">Receita</button>
+        <button class="drawer-tab" id="tabCartBtn" onclick="switchDrawerTab('carrinho')" style="color:#38bdf8;">🛒 Carrinho <span id="tabCartBadge">(0)</span></button>
         <button class="drawer-tab" id="tabGuiaBtn" onclick="switchDrawerTab('guia')">Diretrizes</button>
 
         <!-- Abas Dedicadas: Habilidades Clínicas -->
@@ -6080,6 +6081,45 @@ IDENTIFICAÇÃO &amp; PESO:
         </div>
 
         <!-- Conteúdo Editorial: Aba Diretrizes & Raciocínio Clínico (Porquê das Condutas) -->
+                <!-- Painel Dedicado: Carrinho de Prescrição Modular -->
+        <div class="guia-panel" id="drawerCartPanel" style="display:none; flex-direction:column; gap:12px; height:100%; overflow-y:auto; padding:16px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:10px;">
+            <div>
+              <h3 style="margin:0; font-size:14px; color:#f1f5f9; display:flex; align-items:center; gap:6px;">
+                <span>🛒 Carrinho de Prescrição Modular</span>
+                <span style="font-size:11px; color:#94a3b8; font-weight:normal;">(Composição em 1 Clique)</span>
+              </h3>
+              <p style="margin:4px 0 0 0; font-size:11px; color:#64748b;">Combine itens de múltiplos protocolos e atalhos rápidos numa receita numerada.</p>
+            </div>
+            <div style="display:flex; gap:6px;">
+              <button class="btn btn-outline" onclick="clearPrescriptionCart()" style="font-size:11px; padding:4px 8px; color:#ef4444;">🗑️ Limpar</button>
+              <button class="btn btn-primary" onclick="copyPrescriptionCart()" style="font-size:11px; padding:4px 10px;">📋 Copiar Carrinho</button>
+            </div>
+          </div>
+
+          <!-- Atalhos Rápidos de 1 Clique (Básico de Plantão) -->
+          <div style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.06); border-radius:8px; padding:10px;">
+            <div style="font-size:11px; font-weight:600; color:#38bdf8; margin-bottom:6px;">⚡ Injeção Rápida de Medicamentos Frequentes:</div>
+            <div style="display:flex; flex-wrap:wrap; gap:6px;" id="cartQuickPresets">
+              <button type="button" class="btn btn-outline" onclick="addCustomItemToCart('Dipirona 1 g: Tomar 1 comprimido VO a cada 6 horas se dor ou febre.')" style="font-size:10px; padding:3px 7px;">+ Dipirona 1g</button>
+              <button type="button" class="btn btn-outline" onclick="addCustomItemToCart('Paracetamol 750 mg: Tomar 1 comprimido VO a cada 6 horas se dor ou febre.')" style="font-size:10px; padding:3px 7px;">+ Paracetamol 750mg</button>
+              <button type="button" class="btn btn-outline" onclick="addCustomItemToCart('Ondansetrona 8 mg: Tomar 1 comprimido VO a cada 8 horas se náuseas ou vômitos.')" style="font-size:10px; padding:3px 7px;">+ Ondansetrona 8mg</button>
+              <button type="button" class="btn btn-outline" onclick="addCustomItemToCart('Soro Fisiológico 0,9%: Realizar lavagem nasal com 10 a 20 mL em cada narina várias vezes ao dia.')" style="font-size:10px; padding:3px 7px;">+ Lavagem Nasal SF</button>
+              <button type="button" class="btn btn-outline" onclick="addCustomItemToCart('Simeticona 40 gotas (ou comp 125 mg): Tomar 1 dose VO de 8/8h se distensão abdominal ou gases.')" style="font-size:10px; padding:3px 7px;">+ Simeticona</button>
+              <button type="button" class="btn btn-outline" onclick="addCustomItemToCart('Sais de Reidratação Oral (SRO): Dissolver 1 envelope em 1 litro de água filtrada e beber após cada evacuação diarreica.')" style="font-size:10px; padding:3px 7px;">+ SRO OMS</button>
+              <button type="button" class="btn btn-outline" onclick="addCustomItemToCart('Repouso domiciliar e hidratação oral abundante (2 a 3 litros de água por dia).')" style="font-size:10px; padding:3px 7px;">+ Hidratação/Repouso</button>
+              <button type="button" class="btn btn-outline" onclick="addCustomItemToCart('Retornar imediatamente à UPA se sinais de alarme: febre persistente > 72h, dispneia, vômitos incoercíveis ou piora clínica.')" style="font-size:10px; padding:3px 7px;">+ Sinais de Alarme</button>
+            </div>
+          </div>
+
+          <!-- Lista de Itens do Carrinho -->
+          <div id="cartItemsContainer" style="display:flex; flex-direction:column; gap:8px; flex:1;">
+            <div id="cartEmptyState" style="text-align:center; padding:30px; color:#64748b; font-size:12px;">
+              🛒 O carrinho está vazio.<br>Clique em <b>"+ Carrinho"</b> em qualquer protocolo ou nos botões de injeção rápida acima.
+            </div>
+          </div>
+        </div>
+
         <div class="guia-panel" id="drawerGuiaPanel" style="display:none;">
           <div class="guia-lead-banner">
             <div class="guia-lead-left">
@@ -6156,6 +6196,10 @@ IDENTIFICAÇÃO &amp; PESO:
           <span class="drawer-hab-meta-footer" id="drawerHabMetaFooter" style="display:none;"></span>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
+          <button class="btn btn-outline" id="btnAddToCart" onclick="addCurrentToPrescriptionCart()" title="Adicionar itens desta receita ao Carrinho de Prescrição" style="display:inline-flex; align-items:center; gap:5px; font-size:11px; padding:6px 10px;">
+            <span>🛒 + Carrinho</span>
+            <span class="badge-cart-count" id="cartItemCountBadge" style="display:none; background:#0284c7; color:#fff; font-size:10px; border-radius:10px; padding:1px 5px;">0</span>
+          </button>
           <button class="btn btn-primary" id="drawerCopyBtn" onclick="copyCurrentDrawerTab()">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
             <span id="drawerCopyBtnText">Copiar Texto Aberto</span>
@@ -6782,6 +6826,7 @@ IDENTIFICAÇÃO &amp; PESO:
       drawerContent.style.display = 'none';
       drawerInteractivePanel.style.display = 'none';
       if (drawerGuiaPanel) drawerGuiaPanel.style.display = 'none';
+      const cartPanel = document.getElementById('drawerCartPanel'); if (cartPanel) cartPanel.style.display = 'none';
       habPrePanel.style.display = 'none';
       habChecklistPanel.style.display = 'none';
       habPitfallsPanel.style.display = 'none';
@@ -7118,6 +7163,7 @@ IDENTIFICAÇÃO &amp; PESO:
       tabInteractiveBtn.classList.toggle('active', tab === 'interactive');
       tabCondutaBtn.classList.toggle('active', tab === 'conduta');
       tabRecBtn.classList.toggle('active', tab === 'receita');
+      const tabCartBtn = document.getElementById('tabCartBtn'); if (tabCartBtn) tabCartBtn.classList.toggle('active', tab === 'carrinho');
       tabGuiaBtn.classList.toggle('active', tab === 'guia');
 
       tabHabPreBtn.classList.toggle('active', tab === 'preporta');
@@ -8582,6 +8628,124 @@ IDENTIFICAÇÃO &amp; PESO:
       };
     }
 
+    
+    // =========================================================================
+    // MOTOR DO COMPOSITOR MODULAR DE PRESCRIÇÃO ("CARRINHO DE PRESCRIÇÃO")
+    // =========================================================================
+    let prescriptionCartItems = [];
+
+    function updateCartBadges() {
+      const count = prescriptionCartItems.length;
+      const badge1 = document.getElementById("cartItemCountBadge");
+      const badge2 = document.getElementById("tabCartBadge");
+      if (badge1) {
+        badge1.textContent = String(count);
+        badge1.style.display = count > 0 ? "inline-block" : "none";
+      }
+      if (badge2) {
+        badge2.textContent = "(" + count + ")";
+      }
+    }
+
+    function addCustomItemToCart(itemText) {
+      if (!itemText || !itemText.trim()) return;
+      const clean = itemText.trim().replace(/^\d+\.\s*/, "");
+      prescriptionCartItems.push({
+        id: "cart-" + Date.now() + "-" + Math.random().toString(36).substr(2, 4),
+        text: clean
+      });
+      updateCartBadges();
+      renderPrescriptionCartUI();
+      showToast("🛒 Item adicionado ao carrinho!", 1400);
+      triggerHaptic();
+    }
+
+    function addCurrentToPrescriptionCart() {
+      const item = allData[currentDrawerIndex];
+      if (!item) return;
+      const resolved = getResolvedProtocolBodies(currentDrawerIndex);
+      const textToScan = resolved.receita_body || resolved.conduta_body || resolved.pep_body || "";
+
+      const lines = textToScan.split(/\n+/);
+      let added = 0;
+      let currentEntry = "";
+
+      lines.forEach(l => {
+        const trimmed = l.trim();
+        if (/^(\d+\.|>>|[-*])\s+/.test(trimmed)) {
+          if (currentEntry) {
+            addCustomItemToCart(currentEntry);
+            added++;
+          }
+          currentEntry = trimmed.replace(/^(\d+\.|>>|[-*])\s+/, "");
+        } else if (currentEntry && trimmed && !trimmed.startsWith("#")) {
+          currentEntry += " " + trimmed;
+        }
+      });
+      if (currentEntry) {
+        addCustomItemToCart(currentEntry);
+        added++;
+      }
+
+      if (added === 0 && textToScan.trim()) {
+        addCustomItemToCart(item.title + ": " + textToScan.slice(0, 120) + "...");
+        added++;
+      }
+      showToast("🛒 " + added + " item(ns) adicionado(s) ao carrinho!", 1800);
+    }
+
+    function removeCartItem(idx) {
+      prescriptionCartItems.splice(idx, 1);
+      updateCartBadges();
+      renderPrescriptionCartUI();
+    }
+
+    function clearPrescriptionCart() {
+      prescriptionCartItems = [];
+      updateCartBadges();
+      renderPrescriptionCartUI();
+      showToast("🗑️ Carrinho limpo!", 1400);
+    }
+
+    function renderPrescriptionCartUI() {
+      const container = document.getElementById("cartItemsContainer");
+      if (!container) return;
+      if (prescriptionCartItems.length === 0) {
+        container.innerHTML = "<div id=\"cartEmptyState\" style=\"text-align:center; padding:30px; color:#64748b; font-size:12px;\">🛒 O carrinho está vazio.<br>Clique em <b>\"+ Carrinho\"</b> em qualquer protocolo ou nos botões de injeção rápida acima.</div>";
+        return;
+      }
+
+      let html = "";
+      prescriptionCartItems.forEach((it, idx) => {
+        html += "<div style=\"display:flex; align-items:flex-start; justify-content:space-between; gap:10px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:6px; padding:8px 12px;\">";
+        html += "<div style=\"display:flex; gap:8px; align-items:baseline; flex:1;\">";
+        html += "<span style=\"font-weight:700; color:#38bdf8; font-size:12px;\">" + (idx + 1) + ".</span>";
+        html += "<span style=\"font-size:12px; color:#e2e8f0; line-height:1.4;\">" + it.text + "</span>";
+        html += "</div>";
+        html += "<button type=\"button\" onclick=\"removeCartItem(" + idx + ")\" style=\"background:none; border:none; color:#ef4444; cursor:pointer; font-size:14px; padding:2px;\" title=\"Remover este item\">&times;</button>";
+        html += "</div>";
+      });
+      container.innerHTML = html;
+    }
+
+    function buildPrescriptionCartText() {
+      if (prescriptionCartItems.length === 0) return "";
+      let out = "RECEITUÁRIO MÉDICO:\n\n";
+      prescriptionCartItems.forEach((it, idx) => {
+        out += (idx + 1) + ". " + it.text + "\n\n";
+      });
+      return out.trim();
+    }
+
+    function copyPrescriptionCart() {
+      if (prescriptionCartItems.length === 0) {
+        showToast("⚠️ O carrinho está vazio!", 1600);
+        return;
+      }
+      const fullText = buildPrescriptionCartText();
+      copyTextToClipboard(fullText, "✅ Receita combinada copiada com sucesso (" + prescriptionCartItems.length + " itens)!", null);
+    }
+
     function getResolvedProtocolBodies(index) {
       const item = allData[index];
       if (!item) return { pep_body: '', conduta_body: '', receita_body: '' };
@@ -8675,6 +8839,8 @@ IDENTIFICAÇÃO &amp; PESO:
         copyTextToClipboard(resolved.conduta_body || drawerContent.textContent, '✅ Conduta copiada com sucesso!', drawerCopyBtn);
       } else if (currentDrawerTab === 'receita') {
         copyTextToClipboard(resolved.receita_body || drawerContent.textContent, '✅ Receita copiada com sucesso!', drawerCopyBtn);
+      } else if (currentDrawerTab === 'carrinho') {
+        copyPrescriptionCart();
       } else if (currentDrawerTab === 'guia') {
         copyTextToClipboard(item.guia_body || '', '✅ Diretrizes clínicas copiadas com sucesso!', drawerCopyBtn);
       } else {
