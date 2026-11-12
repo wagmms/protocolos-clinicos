@@ -8,6 +8,7 @@
     "start": "vite --host",
     "build": "vite build",
     "preview": "vite preview --host",
+    "test": "node --test tests/cockpit_clinico.test.ts",
     "lint": "node --check vite.config.js"
   },
   "devDependencies": {
