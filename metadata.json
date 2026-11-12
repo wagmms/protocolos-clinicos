@@ -1,0 +1,5 @@
+{
+  "name": "Cockpit Clínico — PEP & Habilidades",
+  "description": "Motor clínico de prontuário eletrônico (PEP), busca semântica por queixas e sintomas (Ctrl+K), calculadora ponderal de doses críticas e cartões de habilidades médicas para plantão.",
+  "requestFramePermissions": []
+}
