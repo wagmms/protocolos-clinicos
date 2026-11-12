@@ -180,9 +180,9 @@ test('Prompt 3: Mobile thumb-zone bottom bar, 48x48 touch targets, haptics, 1s e
 });
 
 test('Desktop Workstation Refactor, Column Resizers & Weight Calculator Exclusion', () => {
-  // Verify 3-column resizable grid CSS & anti-slop clinical palette
-  assert.ok(htmlContent.includes('grid-template-columns: var(--sidebar-width, 232px) 6px var(--list-width, 460px) 6px minmax(360px, 1fr)'), 'Must define 3 resizable desktop columns with draggable splitters');
-  assert.ok(htmlContent.includes('id="resizerSidebar"'), 'Must include #resizerSidebar drag splitter');
+  // Verify workstation grid CSS & anti-slop clinical palette
+  assert.ok(htmlContent.includes('grid-template-columns: var(--sidebar-width, 232px) var(--list-width, 460px) 6px minmax(360px, 1fr)'), 'Must define workstation columns with fixed sidebar and resizable list splitter');
+  assert.equal(htmlContent.includes('id="resizerSidebar"'), false, 'First column must be fixed in width without #resizerSidebar');
   assert.ok(htmlContent.includes('id="resizerList"'), 'Must include #resizerList drag splitter');
   assert.ok(htmlContent.includes('.power-action-btn'), 'Must style .power-action-btn in top-right cockpit bar');
   assert.ok(htmlContent.includes('#0b0e14'), 'Must include #0b0e14 deep clinical slate');

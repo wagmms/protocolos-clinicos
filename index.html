@@ -2410,7 +2410,7 @@
       }
       .workstation-shell {
         display: grid;
-        grid-template-columns: var(--sidebar-width, 232px) 6px var(--list-width, 460px) 6px minmax(360px, 1fr);
+        grid-template-columns: var(--sidebar-width, 232px) var(--list-width, 460px) 6px minmax(360px, 1fr);
         width: 100vw;
         height: 100vh;
         overflow: hidden;
@@ -2463,19 +2463,25 @@
         box-shadow: 0 0 8px rgba(56, 189, 248, 0.45);
       }
 
-      /* 1. COLUNA ESQUERDA: Barra Lateral Redimensionável */
+      /* 1. COLUNA ESQUERDA: Barra Lateral Fixa */
       .ws-sidebar {
         width: 100%;
         min-width: 0;
         height: 100vh;
         background: var(--bg);
-        border-right: none;
+        border-right: 1px solid var(--border);
         border-bottom: none;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         overflow-y: auto;
         user-select: none;
+      }
+
+      /* Ocultar link de caminho do arquivo e chips de atalho ;atalho no cockpit */
+      #drawerPath,
+      #drawerTriggerChip {
+        display: none !important;
       }
       .ws-sidebar-brand {
         display: flex;
@@ -2882,23 +2888,12 @@
       </div>
 
       <div class="ws-sidebar-footer">
-        <button type="button" class="ws-sidebar-cmd-btn" onclick="openCmdPalette()">
-          <span>Spotlight Queixas</span>
-          <span class="kbd-shortcut">Ctrl+K</span>
-        </button>
         <button type="button" class="ws-sidebar-cmd-btn" onclick="openShortcutsModal()">
           <span>Mapa de Atalhos</span>
           <span class="kbd-shortcut">?</span>
         </button>
-        <div class="ws-Shortcuts-mini">
-          <span><strong style="color:var(--text-secondary);">J / K</strong> Navegar</span>
-          <span><strong style="color:var(--text-secondary);">1 / 2 / 3</strong> Copiar</span>
-        </div>
       </div>
     </aside>
-
-    <!-- DIVISOR ARRASTÁVEL 1 (Barra Lateral <-> Lista de Protocolos) -->
-    <div class="col-resizer" id="resizerSidebar" data-resizer="sidebar" role="separator" aria-orientation="vertical" aria-label="Redimensionar barra lateral" title="Arraste para redimensionar a barra lateral • Duplo clique para restaurar"></div>
 
     <!-- COLUNA 2 (CENTRAL - Redimensionável com Scroll Independente): Busca Integrada & Lista Densa -->
     <main class="ws-list-pane" id="wsListPane" aria-label="Lista de Protocolos">
@@ -2906,7 +2901,7 @@
         <div class="search-row">
           <div class="search-wrapper">
             <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-            <input type="text" id="searchInput" class="search-input" placeholder="Filtrar queixa, protocolo ou ;atalho...">
+            <input type="text" id="searchInput" class="search-input" placeholder="Filtrar por queixa ou protocolo...">
             <span class="search-shortcut-hint">/</span>
           </div>
         </div>
@@ -6026,7 +6021,7 @@ IDENTIFICAÇÃO:
         <div class="drawer-title-group">
           <div class="drawer-eyebrow-row">
             <span class="sev-badge sev-rotina" id="drawerSeverityBadge">ROTINA</span>
-            <p id="drawerPath">caminho/do/arquivo.md</p>
+            <p id="drawerPath" style="display:none;">caminho/do/arquivo.md</p>
           </div>
           <h2 id="drawerTitle">Título do Protocolo</h2>
         </div>
@@ -6057,14 +6052,8 @@ IDENTIFICAÇÃO:
         <div class="drawer-code-block" id="drawerContent"></div>
         <div class="interactive-panel" id="drawerInteractivePanel" style="display:none;">
           <div class="interactive-lead">
-            <div class="interactive-toolbar-left">
-              <span class="pep-fill-counter" id="pepFillCounter">⚡ 0 edições</span>
-            </div>
-            <div class="interactive-toolbar-actions">
-              <button type="button" class="pep-tool-btn" id="btnPepFillDates" onclick="fillInteractiveDatesToday()" title="Preencher datas vazias (exceto DUM/DPP) com a data de hoje">📅 Datas = Hoje</button>
-              <button type="button" class="pep-tool-btn" id="btnPepToggleEmptyMode" onclick="toggleInteractiveEmptyMode()" title="Alternar como campos em branco são exportados ao copiar">[ ] Vazios: Manter</button>
-              <button type="button" class="pep-tool-btn" id="btnPepReset" onclick="resetInteractiveCurrent()" title="Restaurar todas as opções e campos para o valor padrão">↺ Restaurar</button>
-            </div>
+            <span style="font-size:0.75rem; color:var(--text-muted);">Edite os campos ou selecione as opções para personalizar</span>
+            <button type="button" class="pep-tool-btn" id="btnPepReset" onclick="resetInteractiveCurrent()" title="Restaurar todas as opções e campos para o valor padrão">↺ Restaurar padrão</button>
           </div>
           <div class="interactive-rendered" id="interactiveRendered"></div>
         </div>
@@ -6140,7 +6129,7 @@ IDENTIFICAÇÃO:
 
       <div class="drawer-footer">
         <div style="display:flex; align-items:center; gap:8px;">
-          <span class="trigger-chip" id="drawerTriggerChip" onclick="copyDrawerTrigger()">
+          <span class="trigger-chip" id="drawerTriggerChip" style="display:none;" onclick="copyDrawerTrigger()">
             <code id="drawerTrigger">;atalho</code>
           </span>
           <span class="drawer-hab-meta-footer" id="drawerHabMetaFooter" style="display:none;"></span>
@@ -6161,7 +6150,7 @@ IDENTIFICAÇÃO:
     <div class="cmd-modal" onclick="event.stopPropagation()">
       <div class="cmd-search-box">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--text-secondary)" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <input type="text" id="cmdSearchInput" class="cmd-search-input" placeholder="Buscar protocolo PEP, queixa clínica, habilidade ou atalho..." autocomplete="off">
+        <input type="text" id="cmdSearchInput" class="cmd-search-input" placeholder="Buscar queixa clínica, protocolo ou habilidade..." autocomplete="off">
         <span class="kbd-shortcut">ESC</span>
       </div>
       <div class="cmd-results" id="cmdResults"></div>
@@ -6738,11 +6727,11 @@ IDENTIFICAÇÃO:
           : defaultHabTab;
         switchDrawerTab(targetTab);
       } else {
-        if (item.trigger) {
-          drawerTriggerChip.style.display = 'inline-flex';
-          drawerTrigger.textContent = item.trigger;
-        } else {
+        if (drawerTriggerChip) {
           drawerTriggerChip.style.display = 'none';
+        }
+        if (item.trigger && drawerTrigger) {
+          drawerTrigger.textContent = item.trigger;
         }
         drawerHabMetaFooter.style.display = 'inline-flex';
         drawerHabMetaFooter.textContent = `${item.module_name} • ${item.category}`;
@@ -8864,7 +8853,7 @@ IDENTIFICAÇÃO:
       activeModule = btn.dataset.mod;
       searchInput.placeholder = activeModule === 'hab'
         ? 'Buscar habilidade, manobra, ECG, RX, SPIKES, Leopold...'
-        : 'Filtrar por queixa (falta de ar, dor no peito), diagnóstico ou ;atalho...';
+        : 'Filtrar por queixa (falta de ar, dor no peito) ou protocolo...';
       updateSubcategories();
       filterCards();
     });
@@ -9197,8 +9186,8 @@ IDENTIFICAÇÃO:
               setColumnWidths({ sidebarWidth: startSidebarW + deltaX }, false);
             } else {
               const sidebarRight = (sidebarEl && sidebarEl.getBoundingClientRect)
-                ? sidebarEl.getBoundingClientRect().right + 6
-                : (currentColWidths.sidebarWidth + 6);
+                ? sidebarEl.getBoundingClientRect().right
+                : currentColWidths.sidebarWidth;
               const candidateListW = clientX > 0 ? (clientX - sidebarRight) : (startListW + deltaX);
               setColumnWidths({ listWidth: candidateListW }, false);
             }
@@ -9230,7 +9219,7 @@ IDENTIFICAÇÃO:
         });
       }
 
-      attachResizerEvents(resizerSidebar, 'sidebar');
+      if (resizerSidebar) attachResizerEvents(resizerSidebar, 'sidebar');
       attachResizerEvents(resizerList, 'list');
     }
 
