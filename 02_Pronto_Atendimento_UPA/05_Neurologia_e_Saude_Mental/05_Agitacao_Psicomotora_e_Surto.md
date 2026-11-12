@@ -9,7 +9,7 @@
 
 ```text
 ###### ATENDIMENTO UPA / SALA DE EMERGÊNCIA: AGITAÇÃO PSICOMOTORA / SURTO ######
-# IDENTIFICAÇÃO: Paciente: [Nome], [Idade] anos, Sexo: [M/F].
+# IDENTIFICAÇÃO: Paciente: [Nome], [Idade] anos, Sexo: [Masculino / Feminino].
 # CONTEXTO DE ENTRADA: [Trazido por familiares / Resgatado pelo SAMU ou Polícia Militar / Descompensação aguda na sala de espera].
 
 # SUBJETIVO & HISTÓRICO PSIQUIÁTRICO / CLÍNICO:
@@ -21,7 +21,7 @@
 - Negativas Mandatórias:
   * Nega histórico de trauma cranioencefálico recente ou cefaleia febril precedente.
   * Sem porte de armas ou objetos perfurocortantes (revista de segurança realizada pela equipe/guarda).
-- Alergias: [Nega / [ ]].
+- Alergias: [Nega /].
 
 # OBJETIVO (EXAME FÍSICO & ESTADO MENTAL NA SALA DE EMERGÊNCIA):
 - SINAIS VITAIS (AFERIDOS ASSIM QUE POSSÍVEL): PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% | Tax: [ ] °C.
@@ -66,6 +66,16 @@
 
 ---
 
-### [REGRAS DE SEGURANÇA MÉDICO-LEGAL NA CONTENÇÃO]
-- **Nunca Deixar o Paciente em Decúbito Ventral:** A asfixia posicional é a causa número 1 de morte súbita em pacientes psiquiátricos contidos em prontos-socorros e delegacias. O paciente deitado de barriga para baixo com peso sobre as costas é incapaz de expandir o gradil costal, gerando hipóxia rápida, acidose lática e parada cardíaca. A contenção é SEMPRE de barriga para cima com cabeceira elevada.
-- **Por que Sempre Associar o Fenergan ao Haldol:** O Haloperidol puro em alta dose em pacientes jovens causa uma taxa de até 40% de **Distonia Aguda** nas primeiras 2 a 6 horas (espasmo doloroso de torcicolo, trismo mandibular e crise oculógira com os olhos travados para cima). A **Prometazina (50 mg IM)** bloqueia os receptores colinérgicos muscarínicos, prevenindo a distonia aguda de forma eficaz.
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Delirium Orgânico vs. Surto Psicótico Primário: Por Que Essa Diferenciação Salva Vidas?
+Todo quadro de agitação psicomotora aguda com **início abrupto em idoso, flutuação do nível de consciência, desorientação têmporo-espacial, alucinações visuais (zoopsias) ou sinais vitais alterados** é **Delirium secundário a causa orgânica** até prova em contrário (**mnemônico MOVE STUPID**: Metabólico/Hiponatremia, Oxigênio/Hipóxia, Vascular/AVCh, Endócrino/Hipoglicemia, Sepse/Meningite, Trauma/HSD, Uremia, Psicotrópicos/Abstinência alcoólica, Intoxicação, Dor/Globo vesical). Sedar um paciente agitado por **hipóxia, hipoglicemia ou hematoma subdural** sem checar $SpO_2$ e HGT converte uma emergência reversível em óbito.
+
+### 💊 2. A Escada da Tranquilização Rápida: Desescalonamento Verbal → Via Oral → Contenção Química IM
+O objetivo na emergência não é "anestesiar" o paciente, mas atingir **calma cooperativa (RASS 0 a -1)**. Após falha do desescalonamento verbal (*Project BETA*) e recusa da medicação oral:
+- Em **surto psicótico/esquizofrenia/mania**: a combinação clássica **Haloperidol 5 mg IM + Prometazina 50 mg IM** (estudos *TREC*) oferece início rápido e a ação anticolinérgica da prometazina previne a **distonia aguda laríngea/cervical** induzida pelo butirofenônico.
+- Em **intoxicação alcoólica aguda ou idoso com delirium**: **evita-se prometazina e midazolam** (pelo risco de depressão respiratória sinérgica com álcool e piora paradoxal do delirium anticolinérgico), utilizando-se Haloperidol isolado em baixa dose (2,5–5 mg IM, após descartar QTc longo).
+- Em **abstinência alcoólica (*Delirium Tremens*) ou intoxicação simpaticomimética (cocaína/crack)**: a base é o **Benzodiazepínico (Diazepam/Midazolam)**, pois o haloperidol isolado reduz o limiar convulsivo e prejudica a dissipação térmica.
+
+### 🧭 3. Segurança Legal e Clínica na Contenção Mecânica no Leito
+A contenção física (4 ou 5 pontos com faixas acolchoadas) é um **ato médico terapêutico excepcional**, indicado apenas quando há risco iminente de auto ou heteroagressão refratário à abordagem verbal. Exige prescrição médica formal em prontuário, cabeceira elevada a 30° (prevenção de broncoaspiração) e monitorização documentada a cada 15–30 minutos de sinais vitais, expansão torácica e **perfusão/pulsos distais dos quatro membros** (prevenção de rabdomiólise, síndrome compartimental e trombose venosa).

@@ -1,20 +1,19 @@
 # Atendimento de Pronto Atendimento - Dor Abdominal Aguda e Abdome Agudo Cirúrgico
-
-> **Atalho sugerido:** `;abdome-agudo`  
-> **Finalidade:** Sistematização propedêutica das síndromes do abdome agudo (inflamatório, perfurativo, obstrutivo, isquêmico e hemorrágico), manobras semiológicas e conduta imediata.
+**Categoria:** Pronto Atendimento / UPA Adulto  
+**Atalho Recomendado:** `;abdome-agudo`
 
 ---
 
-### [SNIPPET DE PRONTUÁRIO - COPIAR ABAIXO]
+## 📋 Snippet para Prontuário Eletrônico (PEP)
 
 ```text
 ###### ATENDIMENTO UPA: DOR ABDOMINAL AGUDA / SUSPEITA CIRÚRGICA ######
-# IDENTIFICAÇÃO: Paciente: [Nome], [Idade] anos, Sexo: [M/F].
+# IDENTIFICAÇÃO: Paciente: [Nome], [Idade] anos, Sexo: [Masculino / Feminino].
 # SUBJETIVO:
 - Queixa Principal: Dor de barriga intensa há [ ] horas/dias.
 - HMA: Relata dor abdominal de início [súbito / insidioso] há cerca de [ ] horas.
   * Localização inicial: [Epigástrio / Periumbilical / Hipogástrio / Fossa ilíaca direita / Fossa ilíaca esquerda / Flanco].
-  * Migração da dor: [Dor iniciou periumbilical e migrou para fossa ilíaca direita após [ ] horas (cronologia de Murphy da apendicite) / Fixa sem migração].
+  * Migração da dor: [Dor iniciou periumbilical e migrou para fossa ilíaca direita após horas (cronologia de Murphy da apendicite) / Fixa sem migração].
   * Caráter & Intensidade: [Em cólica intermitente / Contínua em pontada / Queimação intensa], intensidade [ ]/10 na escala visual de dor.
   * Fatores de Piora/Melhora: Piora com tosse e deambulação (peritonismo); [sem alívio com analgésicos comuns].
   * Sintomas Associados: [Febre de [ ] °C / Anorexia total (recusa qualquer comida) / Náuseas e vômitos ([ ] episódios) / Parada de eliminação de flatos e fezes há [ ] horas].
@@ -23,7 +22,7 @@
   * Nega corrimento vaginal fétido ou sangramento genital ativo.
   * Nega hematêmese, melena ou enterorragia volumosa.
 - Antecedentes: [Nega cirurgias prévias / Relata laparotomia/cesárea prévia (risco de bridas) / Hérnia inguinal conhecida / Litíase biliar conhecida].
-- Alergias: [Nega / [ ]].
+- Alergias: [Nega /].
 
 # OBJETIVO (EXAME FÍSICO ABDOMINAL COMPLETO & SEMIOLOGIA ARMADA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm (taquicardia) | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.
@@ -35,19 +34,19 @@
   * Palpação Superficial e Profunda:
     - Resistência muscular: [Flácido / Defesa muscular voluntária à palpação / Defesa muscular involuntária localizada / Abdome em tábua com contratura generalizada].
     - MANOBRAS SEMIOLÓGICAS ESPECÍFICAS TESTADAS:
-      [ ] Sinal de Blumberg (Descompressão brusca dolorosa em ponto de McBurney em FID): [POSITIVO (Peritonite em FID) / Negativo].
-      [ ] Sinal de Rovsing (Dor em FID à compressão contínua retrógrada da FIE): [POSITIVO / Negativo].
-      [ ] Sinal de Murphy (Pausa na inspiração profunda à palpação do ponto cístico sob o rebordo costal direito): [POSITIVO (Colecistite aguda) / Negativo].
-      [ ] Sinal de Giordano (Punhopercussão lombar): [Negativo bilateral / Positivo à direita/esquerda].
-      [ ] Sinal do Psoas e Obturador: [Positivo / Negativo].
+      - Sinal de Blumberg (Descompressão brusca dolorosa em ponto de McBurney em FID): [POSITIVO (Peritonite em FID) / Negativo].
+      - Sinal de Rovsing (Dor em FID à compressão contínua retrógrada da FIE): [POSITIVO / Negativo].
+      - Sinal de Murphy (Pausa na inspiração profunda à palpação do ponto cístico sob o rebordo costal direito): [POSITIVO (Colecistite aguda) / Negativo].
+      - Sinal de Giordano (Punhopercussão lombar): [Negativo bilateral / Positivo à direita/esquerda].
+      - Sinal do Psoas e Obturador: [Positivo / Negativo].
 
 # EXAMES COMPLEMENTARES SOLICITADOS NA UPA:
 1. Laboratório de Urgência:
    - Hemograma: [ ] leucócitos/mm³ com [ ]% de bastonetes (desvio à esquerda).
    - PCR: [ ] mg/L | Amilase: [ ] U/L | Lipase: [ ] U/L.
    - Ureia: [ ] | Creatinina: [ ] | TGO: [ ] | TGP: [ ] | Bilirrubinas: [ ].
-   - EAS / Urina 1: [Sem leucocitúria ou hematúria / [ ]].
-   - Beta-hCG sérico (se mulher): [Negativo / [ ]].
+   - EAS / Urina 1: [Sem leucocitúria ou hematúria /].
+   - Beta-hCG sérico (se mulher): [Negativo /].
 2. Rotina Radiológica de Abdome Agudo (3 Incidências: Tórax PA + Abdome em pé + Decúbito):
    - [Sem pneumoperitônio sob cúpulas diafragmáticas / Sem níveis hidroaéreos patológicos / Presença de distensão de alças com níveis hidroaéreos em escada / Presença de lâmina de ar subdiafragmática (pneumoperitônio)].
 
@@ -68,5 +67,24 @@
 
 ---
 
-### [MITO MÉDICO: ANALGESIA NO ABDOME AGUDO]
-- **Nunca Deixar o Paciente Sofrendo com Dor:** A antiga premissa de que "não se deve dar analgesia em dor abdominal para não mascarar o quadro" já foi derrubada por múltiplos ensaios clínicos randomizados. O uso de Dipirona e opióides moderados (como Tramadol) alivia a dor, relaxa a musculatura voluntária, permite uma palpação mais profunda e fidedigna pelo cirurgião e previne a ativação adrenérgica prejudicial. O que é contraindicado é o uso de AINEs (risco de sangramento, piora renal e perfuração) ou sedação pesada que impeça o diálogo com o paciente.
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que a Dor Visceral Começa no Meio da Barriga e Depois Migra para o Ponto Cirúrgico (Dor Parietal)? (Fisiopatologia & Raciocínio)
+- **A neuroanatomia da migração da dor abdominal (Fibras C Viscerais vs Fibras A-delta Somáticas):**
+  - **Fase Inicial (Dor Visceral Pura):** A distensão da luz do apêndice, da vesícula ou do intestino delgado estimula fibras autonômicas aferentes tipo **C** (não mielinizadas, bilaterais), que entram na medula espinhal conforme a origem embriológica do intestino: **Intestino Anterior** (estômago, duodeno, fígado, vias biliares, pâncreas) dói no **Epigástrio**; **Intestino Médio** (intestino delgado, apêndice, ceco) dói na **Região Periumbilical**; **Intestino Posterior** (cólon esquerdo, sigmoide, reto) dói no **Hipogástrio**. É uma dor mal localizada, surda ou em cólica.
+  - **Fase Tardia (Dor Somática / Peritoneal):** Quando a inflamação transmural atinge o **peritônio parietal** (ex: apêndice inflamado tocando o peritônio da Fossa Ilíaca Direita), são ativadas as fibras somáticas mielinizadas **A-delta** unilaterais. A dor torna-se **aguda, milimetricamente localizada, contínua, piora à tosse/movimento e gera defesa muscular involuntária e descompressão brusca dolorosa (Sinal de Blumberg)**!
+- **Regra de Ouro:** Em toda mulher em idade fértil (`12 a 50 anos`) com dor abdominal aguda, **solicitar $eta$-hCG na triagem é obrigatório** (mesmo que refira laqueadura, DIU ou menstruação recente) para excluir **Gravidez Ectópica Rota**!
+
+### 💊 2. Por Que o Mito de "Não Dar Analgesia no Abdome Agudo para Não Mascarar o Exame" Foi Abolido? (Racional Farmacológico)
+- **A evidência científica definitiva (*Cochrane* / Colégio Americano de Cirurgiões):** Durante décadas ensinou-se erroneamente que medicar um paciente com dor abdominal aguda "mascararia a peritonite". Mais de 12 ensaios clínicos randomizados provaram que a analgesia endovenosa (Dipirona, Escopolamina e até doses tituladas de **Morfina `2 a 4 mg EV`** ou **Fentanil**) **alivia o sofrimento humano, reduz a contratura voluntária de defesa por medo da dor e NÃO elimina a descompressão brusca verdadeira (Blumberg), melhorando ou mantendo a acurácia diagnóstica do cirurgião e do ultrassonografista!**
+- **Por que evitamos AINEs (Cetoprofeno/Diclofenaco) no abdome agudo cirúrgico:** Se o paciente tiver uma úlcera péptica perfurada, diverticulite, isquemia mesentérica ou for para cirurgia de urgência nas próximas horas com hipovolemia, o AINE aumenta o sangramento cirúrgico (antiagregação plaquetária) e precipita **lesão renal aguda pré-renal**.
+
+### 🧭 3. Topografia Semiotécnica, Sinais Clássicos e Exame de Imagem de 1ª Escolha no Abdome Agudo
+| Hipótese Cirúrgica | Sinais Semiológicos Clássicos na Beira do Leito | Exame de Imagem Padrão-Ouro e Laboratório |
+| :--- | :--- | :--- |
+| **1. Apendicite Aguda** *(FID)* | Migração epigástrio → FID; **Blumberg** (ponto de McBurney), **Rovsing** (palpa FIE → dói FID), **Dunphy** (dor na FID ao tossir), **Psoas** (apêndice retrocecal) e **Obturador** (pélvico). | **TC de Abdome e Pelve com contraste EV** (ou USG de abdome em crianças/gestantes) + Hemograma, PCR, EAS e $eta$-hCG. |
+| **2. Colecistite Aguda** *(HCD)* | Dor em HCD `> 6h` pós-prandial + febre + **Sinal de Murphy Positivo** (parada súbita da inspiração profunda à compressão do ponto cístico). *(Se Icterícia + Febre + Dor = **Tríade de Charcot / Colangite**).* | **Ultrassonografia (USG) de Abdome Superior** (cálculo impactado no infundíbulo, parede `> 3–4 mm`, líquido pericolecístico) + Bilirrubinas, FA, GGT, TGO/TGP. |
+| **3. Pancreatite Aguda** *(Epigástrio em Barra)* | Dor epigástrica intensa irradiada para o dorso, náuseas/vômitos incoercíveis, alívio parcial na prece maometana. | **Amilase e Lipase séricas `≥ 3x` o limite superior** + USG de vias biliares (buscar microcálculos). *(TC só após 72h se dúvida/necrose).* |
+| **4. Úlcera Perfurada** *(Abdome em Tábua)* | Dor epigástrica **hiperaguda ("em punhalada")**, rigidez abdominal difusa ("em tábua") e **Sinal de Jobert** (timpanismo no lugar da macicez hepática). | **Radiografia de Tórax em Ortostase (PA) + Abdome Agudo** (**Pneumoperitônio** = ar livre subdiafragmático) ou TC sem contraste. |
+| **5. Diverticulite Aguda** *(FIE — "Apendicite à Esquerda")* | Paciente `> 50 anos` com dor em Fossa Ilíaca Esquerda, febre e alteração do hábito intestinal. | **TC de Abdome e Pelve** (Classificação de **Hinchey I a IV** — define tratamento clínico vs drenagem/Hartmann). |
+| **6. Isquemia Mesentérica Aguda** | Idoso com **Fibrilação Atrial** ou aterosclerose grave com **dor abdominal lancinante desproporcional ao exame físico inocente**. | **Angiotomografia (Angio-TC) de Vasos Mesentéricos** + Gasometria com **Lactato arterial elevado** e acidose metabólica. |

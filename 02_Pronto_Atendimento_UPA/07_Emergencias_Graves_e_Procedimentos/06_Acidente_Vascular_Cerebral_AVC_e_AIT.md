@@ -16,7 +16,7 @@
 - Classificação Temporal: [JANELA DE TROMBÓLISE VÁLIDA (< 4,5 HORAS) / FORA DA JANELA (> 4,5 HORAS) / AVC DO DESPERTAR (WAKE-UP STROKE)].
 
 # TRIAGEM RÁPIDA PRÉ-HOSPITALAR (ESCALA DE CINCINNATI):
-[ ] Queda Facial (Paralisia Facial): [Assimetria de rima labial ao sorrir / Desvio para [direita / esquerda] / Normal].
+[ ] Queda Facial (Paralisia Facial): [Assimetria de rima labial ao sorrir / Desvio para (direita / esquerda) / Normal].
 [ ] Queda do Braço (Déficit Motor): [Queda completa / Queda parcial em 10s / Sem queda simétrico].
 [ ] Fala Anormal (Disartria / Afasia): [Incompreensível / Dificuldade para articular / Incapaz de falar / Normal].
 * Escore de Cincinnati: [POSITIVO (1 a 3 itens alterados) / Negativo].
@@ -25,7 +25,7 @@
 - Sinais Vitais na Admissão: PA: [ ]x[ ] mmHg (PAM: [ ] mmHg) | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.
 - Glicemia Capilar Imediata: [ ] mg/dL (Afastada e corrigida prontamente hipoglicemia < 60 mg/dL).
 - Escala de Coma de Glasgow: [ ]/15 pontos (Ocular: [ ], Verbal: [ ], Motora: [ ]).
-- Pupilas: Isocóricas e fotorreagentes [ou anisocóricas: [ ]].
+- Pupilas: Isocóricas e fotorreagentes [ou anisocóricas: ( )].
 - Escala de Gravidade do AVC (NIHSS - National Institutes of Health Stroke Scale):
   * Consciência (1a/1b/1c): [ ]
   * Paralisia do Olhar Conjugado (2): [ ]
@@ -42,7 +42,7 @@
 
 # INVESTIGAÇÃO COMPLEMENTAR IMEDIATA:
 - Tomografia Computadorizada de Crânio sem Contraste (Realizada às [HH:MM]):
-  * [Ausência de sangramento intracraniano agudo (hiperdensidade descartada) / Sinais precoces de isquemia no território da ACM: apagamento de sulcos corticais e perda da diferenciação córtico-subcortical, ASPECTS: [ ] pontos / Presença de hemorragia intraparenquimatosa ou subaracnóidea confirmada].
+  * [Ausência de sangramento intracraniano agudo (hiperdensidade descartada) / Sinais precoces de isquemia no território da ACM: apagamento de sulcos corticais e perda da diferenciação córtico-subcortical, ASPECTS: pontos / Presença de hemorragia intraparenquimatosa ou subaracnóidea confirmada].
 - Laboratório Urgente: Hemograma com plaquetas (Plaquetas: [ ] /mm³), TP/INR: [ ], TTPA: [ ], Creatinina, Eletrólitos.
 - Eletrocardiograma de 12 Derivações: [Ritmo sinusal / Fibrilação atrial aguda ou crônica / Isquemia miocárdica aguda associada].
 
@@ -82,6 +82,15 @@
 
 ---
 
-### [REGRAS DE CONDUTA NO ACIDENTE VASCULAR CEREBRAL]
-- **Pressão Permissiva vs Trombólise:** Se o paciente **NÃO** for trombolisado, a pressão arterial alta é um mecanismo fisiológico de proteção para manter o fluxo na área de penumbra isquêmica. Baixar a PA intempestivamente na UPA transforma tecido cerebral viável em infarto definitivo. Só intervir se PAS > 220 ou PAD > 120 mmHg (reduzindo no máximo 15% em 24 horas). Já se o paciente **FOR** trombolisado com rt-PA, o teto pressórico rígido é `< 185/110 mmHg` antes e `< 180/105 mmHg` depois (risco de transformação hemorrágica fatal).
-- **Proscrição de Antiagregante e Anticoagulante nas 24h Pós-rtPA:** NUNCA prescrever AAS, Clopidogrel ou Heparina nas primeiras 24 horas após o término da infusão de Alteplase. Apenas após a TC de crânio de controle de 24 horas demonstrar ausência de sangramento esses fármacos podem ser liberados.
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que "Tempo É Cérebro"? A Zona de Penumbra Isquêmica e a Regra do *Last Known Well*
+A cada minuto de oclusão de uma grande artéria cerebral, **1,9 milhão de neurônios** são perdidos irreversivelmente no *core* isquêmico, mas o tecido ao redor (**zona de penumbra**) permanece vivo graças à circulação colateral por algumas horas. O relógio da trombólise (**janela de até 4,5 horas para Alteplase/Tenecteplase** e **até 6 a 24 horas para Trombectomia Mecânica** em oclusão de grande vaso) conta a partir do **último momento em que o paciente foi visto assintomático (*Last Known Well*)** — no AVC do despertar (*Wake-up Stroke*), o tempo zero é a hora em que o paciente foi dormir bem, exigindo RM (mismatch DWI-FLAIR) ou TC perfusão para recanalização.
+
+### 💊 2. Os 2 Erros Fatais Antes da TC de Crânio: Esquecer a Glicemia e Baixar a Pressão Arterial Rápido Demais
+Antes de ativar a trombólise, dois cuidados à beira do leito são inegociáveis:
+1. **Checar a Glicemia Capilar (HGT)**: a **hipoglicemia (< 60 mg/dL)** é o grande camaleão neurológico capaz de produzir hemiparesia e afasia súbitas idênticas ao AVC, revertendo instantaneamente com glicose hipertônica.
+2. **Permissividade Hipertensiva no AVC Isquêmico**: a hipertensão reativa é o mecanismo fisiológico que mantém a perfusão da zona de penumbra; **reduzir a PA abruptamente com Nifedipino ou Captopril infarta a penumbra**. No AVCi **candidato à trombólise**, a PA deve ser reduzida suavemente com anti-hipertensivo titulável IV (Metoprolol, Labetalol ou Nitroprussiato) apenas se **PA ≥ 185x110 mmHg** (mantendo < 180x105 mmHg nas 24h pós-rtPA); no AVCi **não candidato à trombólise**, só se trata a PA nas primeiras 24h se **PA > 220x120 mmHg** (reduzindo apenas 15%).
+
+### 🧭 3. Trombólise Venosa (Alteplase 0,9 mg/kg) e Profilaxia Secundária Precoce (AAS vs. DAPT no AIT/AVC Menor)
+Confirmada a ausência de hemorragia na TC de crânio e respeitados os critérios de exclusão, administra-se **Alteplase (rt-PA) 0,9 mg/kg (máximo 90 mg): 10% em bolus IV em 1 min e 90% em BIC em 60 min**, sendo **proibidos AAS, Heparina e passagem de SNE/SVD nas primeiras 24 horas** pós-trombólise. Nos pacientes fora de janela que não receberam trombolítico, inicia-se **AAS 100–300 mg/dia** imediatamente após a TC descartar sangramento (após triagem de disfagia); em **AIT de alto risco ($ABCD^2 \ge 4$) ou AVC isquêmico menor ($NIHSS \le 3$)** não cardioembólico, os estudos *CHANCE* e *POINT* demonstram que a **Dupla Antiagregação (AAS 100 mg + Clopidogrel 75 mg, com ataque de 300 mg) por 21 dias** reduz drasticamente a recorrência de AVC nos primeiros 90 dias.

@@ -7,82 +7,101 @@
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
 ```text
-ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA - CRUPE VIRAL / LARINGITE AGUDA
+###### ATENDIMENTO DE EMERGÊNCIA PEDIÁTRICA — CRUPE VIRAL (LARINGOTRAQUEOBRONQUITE) ######
+# IDENTIFICAÇÃO & PESO:
+- Criança: [Nome] | Idade: [ ] [meses / anos] (Faixa típica: 6 meses a 3 anos) | **PESO ATUAL: [ ] kg**
+- Acompanhante: [Mãe / Pai / Responsável:]
 
-IDENTIFICAÇÃO:
-- Paciente: [ ] | Idade: [ ] meses/anos (Faixa típica: 6 meses a 3 anos) | PESO ATUAL: [ ] kg
-- Informante: [Mãe / Pai / Responsável: ]
+# SUBJETIVO (ANAMNESE DIRIGIDA & EXCLUSÃO DE EPIGLOTITE / CORPO ESTRANHO):
+- Queixa Principal (QP): Tosse rouca ("tosse de cachorro/foca") e barulho agudo para puxar o ar iniciados à noite há [ ] horas.
+- História da Moléstia Atual (HMA): Criança apresentou pródromo catarral leve há [1 a 3] dias (coriza hialina e febre baixa de [ ] °C), evoluindo na madrugada de hoje com início abrupto de **tosse ladrante metálica**, rouquidão vocal e estridor inspiratório laríngeo.
+- Exclusão Mandatória de Epiglotite Aguda, Traqueíte Bacteriana e Aspiração de Corpo Estranho:
+  * Deglutição e Saliva: [Deglutindo saliva normalmente, sem sialorreia (baba) e sem posição em tripé].
+  * História de Engasgo: Nega início hiperagudo durante alimentação ou brincadeira com peças pequenas/grãos (afastada aspiração de corpo estranho).
+  * Estado Toxêmico: Nega febre alta (> 39,5 °C) com aparência tóxica ou prostração extrema.
 
-HISTÓRIA CLÍNICA:
-- QP: Tosse rouca e barulho para respirar iniciado subitamente à noite há [ ] horas.
-- HMA: Criança vinha apresentando pródromo de resfriado leve há 1 a 2 dias (coriza e febre baixa de ... °C). Evoluiu durante a noite com início súbito de tosse ladrante ("tosse de foca/cachorro"), rouquidão e ruído agudo na respiração (estridor laríngeo).
-- Febre: [ Afebril / Febre baixa < 38,5°C / Febre alta > 39°C com toxemia (suspeitar de epiglotite/traqueíte) ].
-- Deglutição & Sialorreia: [ Deglutindo saliva normalmente, sem engasgos / Sialorreia importante com dificuldade para engolir saliva ].
+# OBJETIVO (EXAME FÍSICO NO COLO DA MÃE & ESCORE DE WESTLEY):
+- Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C | TEC < 2s.
+- Ectoscopia & Voz: [Bom / Regular] estado geral, examinada no colo materno sem forçar decúbito dorsal, [alerta e ativa / ansiosa pelo esforço respiratório], corada, acianótica. Voz/choro rouco e tosse ladrante característica.
+- Avaliação do Escore de Gravidade de Westley (0 a 17 pontos):
+  1. Estridor Inspiratório: [Ausente em repouso, audível apenas ao choro/agitação (0) / Audível em repouso com estetoscópio (+1) / Audível em repouso sem estetoscópio (+2)].
+  2. Retrações / Tiragens (Fúrcula, Intercostal e Subcostal): [Ausentes (0) / Leves (+1) / Moderadas (+2) / Graves (+3)].
+  3. Entrada de Ar (Murmúrio Vesicular): [Normal bilateralmente (0) / Diminuída (+1) / Muito diminuída (+2)].
+  4. Cianose: [Ausente (0) / Com agitação (+4) / Em repouso (+5)].
+  5. Nível de Consciência: [Normal e alerta (0) / Desorientado, agitado por hipóxia ou letárgico (+5)].
+  * **ESCORE DE WESTLEY TOTAL: [ ] PONTOS** -> Classificação: **[Crupe Leve (≤ 2 pts — sem estridor em repouso) / Crupe Moderado (3 a 7 pts — estridor em repouso com tiragem) / Crupe Grave (≥ 8 pts — risco de falência respiratória)]**.
+- Nota de Segurança: Não realizada oroscopia forçada com espátula para evitar laringoespasmo reflexo.
 
-NEGATIVAS MANDATÓRIAS (EXCLUSÃO DE EPIGLOTITE & CORPO ESTRANHO):
-- Nega início súbito após engasgo alimentar com objeto/grão.
-- Nega salivação excessiva (sialorreia), disfagia grave, recusa total para engolir e postura em tripé.
-- Nega aspecto toxemiado grave ou choque séptico.
-- Nega cianose ou episódios de apneia.
+# AVALIAÇÃO DIAGNÓSTICA:
+1. Laringite Viral Aguda / Crupe Viral (CID-10: J05.0 — provável Vírus Parainfluenza tipos 1 e 2).
+2. Gravidade Clínica: **[Leve (sem estridor em repouso) / Moderada a Grave (estridor em repouso presente)]**.
 
-EXAME FÍSICO OBJETIVO:
-- Sinais Vitais: FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente | Tax: [ ] °C.
-- Ectoscopia: Estado geral [ BEG / REG ], choro rouco característico. Sem cianose perioral.
-- Aparelho Respiratório & Laringe:
-  * Voz e Choro: [ Rouquidão e tosse ladrante presentes ].
-  * Estridor Laríngeo: [ Ausente em repouso, presente apenas ao choro/agitação (Crupe Leve) / Presente em repouso, audível sem estetoscópio (Crupe Moderado a Grave) ].
-  * Sinais de Esforço: [ Ausentes / Tiragem supraesternal leve / Tiragem intercostal e subcostal moderada / Batimento de asa de nariz ].
-  * Ausculta Pulmonar: Murmúrio vesicular presente bilateralmente, sem sibilos ou estertores creptantes associados.
-- Escore de Westley: [ ] pontos (Classificação: [ LEVE (≤ 2 pontos) / MODERADO (3 a 5 pontos) / GRAVE (6 a 11 pontos) ]).
-- Oroscopia: Evitada manipulação com espátula se estridor importante para não desencadear espasmo laringo subglótico.
+# PLANO / CONDUTA:
 
-AVALIAÇÃO & HIPÓTESE DIAGNÓSTICA:
-- Laringite Aguda Viral / Crupe Viral Típico (CID-10: J05.0 - Etiologia provável: Vírus Parainfluenza).
-- Gravidade: [ LEVE (Sem estridor em repouso) / MODERADO A GRAVE (Estridor em repouso) ].
+>> [MODALIDADE A] CONDUTA NO CRUPE LEVE (WESTLEY ≤ 2 — SEM ESTRIDOR EM REPOUSO):
+1. **Dexametasona Dose Única na Unidade (Padrão-Ouro para TODOS os casos de Crupe, inclusive leves):**
+   - Administrada **Dexametasona [0,15 a 0,6 mg/kg = mg] por via oral** (ou IM se vômito) em dose única agora (Dose máxima: 10 mg).
+2. Manter criança tranquila no colo; reavaliar após 1 hora confirmando ausência de estridor em repouso e boa aceitação oral.
+3. Alta segura com receita sintomática e orientação de retorno imediato se surgir estridor com a criança calma/dormindo.
 
----
-
-CONDUTA TERAPÊUTICA E MEDICAMENTOSA:
-
-[ ] CONDUTA NO CRUPE LEVE (Escore ≤ 2 - Sem estridor em repouso):
-1. Dexametasona dose única:
-   - Dexametasona elixir (0,1 mg/mL) ou comprimido/injetável: **0,15 mg/kg a 0,6 mg/kg por via oral dose única** (Dose administrada: [ ] mg). Reduz a inflamação subglótica e previne progressão para crupe grave.
-2. Orientações de Alta Segura:
-   - Manter a criança calma (o choro e a agitação aumentam o fluxo turbulento e pioram o estridor).
-   - Inalação de ar fresco/úmido ou banho morno com vapor.
-   - Antitérmicos habituais se febre (Dipirona ou Paracetamol).
-   - Retorno imediato se o ruído na respiração passar a ocorrer mesmo quando a criança estiver quieta/dormindo ou se afundamento do peito.
-
-[ ] CONDUTA NO CRUPE MODERADO A GRAVE (Escore ≥ 3 - Estridor em repouso):
-1. Nebulização Imediata com Adrenalina (Ação Rápida Descongestionante):
-   - **Adrenalina 1:1.000 (1 mg/mL) pura:** Administrar **0,5 mL/kg por nebulização** (Dose mínima: 2 mL; Dose máxima: 5 mL), associada a O2 a 4-6 L/min, em máscara facial. Início de ação em 10 a 30 minutos.
-2. Corticoterapia Sistêmica Imediata:
-   - **Dexametasona 0,6 mg/kg VO, IM ou EV dose única** (Dose máxima: 10 a 16 mg). Início de ação anti-inflamatória em 1 a 2 horas, cobrindo a fase posterior da adrenalina.
-3. Oxigenoterapia: Se SpO2 < 92%, oferecer O2 umidificado mantendo a criança no colo da mãe/cuidador para evitar agitação.
-4. PERÍODO OBRIGATÓRIO DE OBSERVAÇÃO CLÍNICA:
-   - Manter a criança em observação na emergência por **NO MÍNIMO 2 A 4 HORAS** após a nebulização com adrenalina.
-   - Justificativa médico-legal: O efeito vasoconstritor da adrenalina dura cerca de 2 horas. Existe risco documentado de **efeito rebote** com piora do estridor após esse período se a ação do corticoide ainda não tiver atingido o pico.
-   - Critérios para alta após 2-4h: Ausência total de estridor em repouso, sem tiragens, SpO2 > 94% em ar ambiente e boa ingesta de líquidos.
+>> [MODALIDADE B] CONDUTA NO CRUPE MODERADO A GRAVE (WESTLEY ≥ 3 — ESTRIDOR EM REPOUSO):
+1. **Nebulização Imediata com Adrenalina (L-Epinefrina 1:1.000 = 1 mg/mL) Pura sem Diluir:**
+   - Administrar **`0,5 mL/kg` de Adrenalina pura (Máximo: 5 mL = 5 ampolas)** em máscara facial com fluxo de O2 a 6–8 L/min agora (Início de ação vasoconstritora em 10 minutos).
+2. **Dexametasona Sistêmica Imediata:**
+   - Administrar **Dexametasona `0,6 mg/kg` [VO / IM / EV]** (Máximo: 10 mg) em dose única agora (ou Budesonida inalatória `2 mg` nebulizada junto à adrenalina se impossibilidade de VO/IM).
+3. **Observação Clínica Obrigatória por 3 a 4 Horas Pós-Adrenalina (Prevenção do Efeito Rebote):**
+   - Manter em sala de observação pediátrica por no mínimo **3 a 4 horas** após o término da nebulização com adrenalina.
+   - Reavaliação pós-observação às [HH:MM]: [Criança eupneica, sem estridor em repouso, sem tiragens e SpO2 ≥ 95% em AA -> Alta segura / Recorrência do estridor em repouso -> Repetir nebulização com adrenalina e internar].
 ```
 
 ---
 
-## 🎯 Guia de Bolso: Diagnóstico Diferencial de Risco - Epiglotite vs Crupe
+## 💊 Receita Domiciliar / Alta
 
-O Crupe Viral é benigno e frequente; a **Epiglotite Aguda** é uma emergência catastrófica com risco de óbito por asfixia súbita:
+```text
+RECEITUÁRIO MÉDICO PEDIÁTRICO — ALTA DE LARINGITE / CRUPE VIRAL
+Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] | Data: [DD/MM/AAAA]
 
-| Característica Clínica | Crupe Viral (Laringite) | Epiglotite Aguda (Grave Emergência) |
-| :--- | :--- | :--- |
-| **Idade Típica** | 6 meses a 3 anos | 2 a 7 anos (ou qualquer idade se não vacinado) |
-| **Início** | Gradual (1-2 dias de resfriado prévio) | **Hiperagudo** e fulminante (horas) |
-| **Febre** | Baixa a moderada (< 38,5°C) | **Alta (> 39°C)** com toxemia e prostração |
-| **Tosse** | **Ladrante ("tosse de foca") exuberante** | Ausente ou fraca/suprimida por dor de garganta |
-| **Deglutição & Saliva** | Normal, deglute saliva sem problemas | **Sialorreia (baba contínua)** por odinofagia extrema |
-| **Postura Corporal** | Variada, confortável | **Posição em Tripé** (sentado inclinado para frente, queixo estendido, boca aberta) |
-| **Agente Causal** | Parainfluenza, Rinovírus, VSR | *Haemophilus influenzae* tipo B, *Strepto pyogenes* |
+NOTA DE MEDICAÇÃO JÁ REALIZADA NO PRONTO ATENDIMENTO:
+- A criança já recebeu na unidade a dose única anti-inflamatória de **Dexametasona ([ ] mg)**, que possui ação prolongada por 48 a 72 horas para desinchar a laringe (não sendo necessário repetir corticoide em casa, salvo nova prescrição médica).
 
-> [!CAUTION]
-> **Conduta Crítica na Suspeita de Epiglotite Aguda:**
-> 1. **NUNCA** use abaixador de língua para examinar a orofaringe (pode desencadear espasmo laringóclise reflexo total e parada respiratória imediata).
-> 2. **NUNCA** deite a criança de costas; mantenha-a sentada no colo do acompanhante.
-> 3. Acione imediatamente o Médico Cirurgião Pediátrico / ORL e prepare material de via aérea difícil para intubação em centro cirúrgico.
+USO ORAL E NASAL DOMICILIAR:
+1. Dipirona Solução Oral Gotas (500 mg/mL) (ou Paracetamol 200 mg/mL) ---------- 1 frasco
+   Dar [ ] gotas por via oral até de 6 em 6 horas se houver febre (≥ 37,8 °C) ou dor de garganta.
+
+2. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+   Lavar as narinas com seringa de 3 a 5 mL suavemente se houver secreção nasal, sem forçar caso a criança chore muito.
+
+ORIENTAÇÕES AOS PAIS PARA ALÍVIO DA TOSSE ROUCA À NOITE:
+- Manter a Criança Calma: O choro aumenta o turbilhonamento do ar na garganta e piora o barulho (estridor). Acolha a criança no colo em posição sentada.
+- Ar Fresco ou Vapor Úmido: Em caso de crise de tosse "de cachorro" à noite, sente-se com a criança no banheiro com o chuveiro morno ligado formando vapor por 10 a 15 minutos, ou leve-a próxima à janela para respirar ar fresco noturno.
+- Hidratação: Oferecer líquidos frios ou em temperatura ambiente em pequenos goles.
+
+SINAIS DE ALARME PARA RETORNO IMEDIATO AO PRONTO-SOCORRO:
+1. Barulho agudo para puxar o ar (estridor) presente mesmo quando a criança está CALMA, quieta no colo ou dormindo.
+2. Afundamento na furculinha do pescoço ou abaixo das costelas para respirar.
+3. Criança babando sem conseguir engolir a própria saliva (sialorreia) ou pescoço esticado para frente.
+4. Agitação intensa, sonolência anormal ou cor arroxeada ao redor da boca.
+```
+
+---
+
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que o Estridor Ocorre na Inspiração e Por Que Nunca Usamos Abaixador de Língua no Crupe Grave? (Fisiopatologia & Raciocínio)
+- **A Lei de Poiseuille ($R \propto 1/r^4$) na região subglótica:** Na criança de 6 meses a 3 anos, a cartilagem cricoide (região subglótica) é o ponto mais estreito de toda a via aérea superior e o único anel cartilaginoso completo (não distensível). Como a resistência ao fluxo aéreo é inversamente proporcional à **quarta potência do raio**, apenas **`1 mm` de edema inflamatório viral** na subglote do lactente reduz a área de secção transversal em **mais de 65% a 75%**. Durante a inspiração, a pressão intraluminal negativa na traqueia extratorácica colapsa ainda mais a parede edemaciada, gerando o **estridor inspiratório** e a tiragem de fúrcula.
+- **Por que o choro piora o estridor e o abaixador de língua é proscrito na suspeita de epiglotite/crupe grave:** O choro transforma o fluxo laminar em fluxo turbulento (aumentando dramaticamente a resistência), e a tentativa forçada de visualizar a orofaringe com espátula pode desencadear **laringoespasmo reflexo vagal agudo** e oclusão completa de uma via aérea que já estava pérvia por poucos milímetros.
+
+### 💊 2. Por Que Associamos Adrenalina Inalatória Pura + Dexametasona e Observamos por 3 a 4 Horas? (Racional Farmacológico)
+- **O casamento farmacocinético perfeito (Adrenalina = Ponte Rápida | Dexametasona = Efeito Sustentado):**
+  - A **Adrenalina 1:1.000 pura (`0,5 mL/kg`, máx `5 mL = 5 ampolas`)** estimula os receptores $lpha_1$-adrenérgicos das arteríolas da mucosa subglótica, causando vasoconstrição imediata e reabsorção do edema em **10 a 15 minutos**. Porém, sua meia-vida tópica dura apenas **90 a 120 minutos**!
+  - A **Dexametasona (`0,15 a 0,6 mg/kg`, máx `10 mg`)** tem meia-vida biológica longa (`36 a 54 horas`) e inibe a síntese nuclear de citocinas inflamatórias, mas demora **2 a 4 horas** para iniciar seu efeito clínico máximo.
+- **Por que dar alta 30 minutos após a nebulização com Adrenalina é um erro grave ("Efeito Rebote"):** A criança que chegou com estridor em repouso, recebeu adrenalina e ficou ótima em 20 minutos parecerá "curada". Se for liberada para casa imediatamente, após 2 horas o efeito da adrenalina termina antes de a dexametasona fazer efeito completo, e o edema subglótico retorna no caminho para casa. Por isso, **toda criança que recebe nebulização com adrenalina exige 3 a 4 horas de observação no PS**.
+
+### 🧭 3. Diagnóstico Diferencial Crítico: Crupe Viral vs Epiglotite Aguda vs Traqueíte Bacteriana
+| Característica Clínica | Crupe Viral (Laringotraqueobronquite) | Epiglotite Aguda (Emergência Cirúrgica) | Traqueíte Bacteriana (*S. aureus*) |
+| :--- | :--- | :--- | :--- |
+| **Agente & Idade Típica** | *Parainfluenza 1 e 2* (`6 meses a 3 anos`) | *Haemophilus influenzae B* / *Streptococcus* (`2 a 7 anos`) | *Staphylococcus aureus* secundário a IVAS |
+| **Instalação & Febre** | Pródromo catarral de 1–3 dias; febre baixa (`< 38,5 °C`) | **Hiperaguda** (horas); febre alta (`> 39,5 °C`) e toxemia | Piora abrupta com febre alta após crupe inicial |
+| **Tosse & Voz** | **Tosse ladrante ("de foca")** e rouquidão | **Ausência de tosse ladrante**; voz abafada ("batata quente") | Tosse produtiva espessa com estridor bifásico |
+| **Deglutição & Postura** | Engole saliva normalmente; confortável no colo | **Sialorreia intensa (baba)**, disfagia extrema e **Posição em Tripé** | Toxemiado; **não responde à nebulização com adrenalina** |

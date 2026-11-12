@@ -19,10 +19,10 @@
 
 # OBJETIVO (EXAME FÍSICO & PROPEDÊUTICA DE BOLSA ROTA):
 - Sinais Vitais Maternos: PA: [110x70] mmHg | FC: [82] bpm (< 100 bpm) | FR: [16] irpm | Tax: **[36,5] °C (< 37,8 °C — afebril)**.
-- Abdome Obstétrico: AU: [ ] cm | Tônus uterino fisiológico, **útero indolor à palpação fora de contração** | DU: [Ausente / [ ] contrações em 10 min] | BCF: **[140] bpm** (basal 110–160 bpm, sem taquicardia fetal).
+- Abdome Obstétrico: AU: [ ] cm | Tônus uterino fisiológico, **útero indolor à palpação fora de contração** | DU: [Ausente / contrações em 10 min] | BCF: **[140] bpm** (basal 110–160 bpm, sem taquicardia fetal).
 - **Exame Especular Estéril (MANDATÓRIO — Sem lubrificante):**
   * Visualização direta de líquido amniótico [claro com grumos / meconial fluido / purulento fétido] exteriorizando-se pelo orifício cervical externo e acumulando em fundo de saco posterior (**Manobra de Tarnier / Valsalva positiva**).
-  * Colo visualmente [fechado e posterior / entreaberto para [ ] cm], sem prolapso de cordão umbilical.
+  * Colo visualmente [fechado e posterior / entreaberto para cm], sem prolapso de cordão umbilical.
   * Testes Acessórios (se dúvida): [pH vaginal alcalino >= 7,0 (Nitrazina azul) / Cristalização em folha de samambaia na lâmina positiva].
   * Coletado **Swab Vaginal e Retal para Streptococcus agalactiae (EGB)**.
 - **Toque Vaginal:** **[NÃO REALIZADO (proscrito na RPMO fora de trabalho de parto ativo para proteger o período de latência e prevenir corioamnionite!) / Realizado apenas por trabalho de parto ativo franco: colo [ ] cm, apagado [ ]%, De Lee [ ]]**.

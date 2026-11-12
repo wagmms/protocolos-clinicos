@@ -23,7 +23,7 @@
 - O (Obstruction): Ausência de massas, estridor ou corpos estranhos em orofaringe.
 - N (Neck mobility): Mobilidade cervical livre [ou restrita por colar cervical em trauma raquimedular].
 
-# PROTOCOLO CRONOMETRADO DOS 7 Ps DA SRI:
+# PLANO / CONDUTA (PROTOCOLO CRONOMETRADO DOS 7 Ps DA SRI & SEDAÇÃO PÓS-IOT):
 
 1. P1 - PREPARAÇÃO (MATERIAL SOAP ME TESTADO):
    - Aspirador rígido de Yankauer funcionando com sucção efetiva à mão.
@@ -77,6 +77,15 @@
 
 ---
 
-### [REGRAS DE OURO NA INTUBAÇÃO DE EMERGÊNCIA]
-- **A Ausculta do Epigástrio Vem Primeiro:** Ao testar a colocação do tubo traqueal com o estetoscópio, o primeiro lugar a auscultar é OBRIGATORIAMENTE a boca do estômago (epigástrio). Se ouvir som de borbulhamento ou ar entrando no estômago, o tubo está no esôfago! Desinsufle o cuff imediatamente, retire o tubo e pré-oxigene novamente.
-- **Ventilar com Ambu Antes da Indução Causa Broncoaspiração:** Na Sequência Rápida de Intubação, o paciente não deve ser ventilado com ambu sob pressão positiva após a injeção do hipnótico e bloqueador (a menos que a saturação caia abaixo de 90%). A ventilação sob máscara antes da intubação vence a pressão do esfíncter esofágico inferior, joga ar para dentro do estômago, causa distensão gástrica aguda e regurgitação maciça de conteúdo gástrico nos pulmões.
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que "Ressuscitar Antes de Intubar" na Via Aérea Fisiologicamente Difícil (*HOP*)?
+Mais pacientes morrem na Sala Vermelha pela **fisiologia da intubação** do que pela falha anatômica de passar o tubo (**mnemônico HOP**: **H**ipotensão, **O**xigenação crítica/Hipoxemia e **P**H acidótico grave). A transição da ventilação espontânea (pressão intratorácica negativa) para a ventilação com pressão positiva, somada à perda do tônus simpático pelo indutor, reduz abruptamente o retorno venoso e precipita PCR pós-intubação. Por isso, na **Preparação e Pré-oxigenação**, corrige-se a hipotensão com **cristaloide + Nora/Adrenalina push-dose (10–20 mcg IV)**, pré-oxigena-se por 3–5 min (com VNI/PEEP se $SpO_2 < 93\%$ no shunt por EAP/Pneumonia) e mantém-se **oxigenação apneica com cateter nasal a 15 L/min** durante a laringoscopia.
+
+### 💊 2. Escolha Farmacológica nos 7 Ps: Etomidato vs. Cetamina e Succinilcolina vs. Rocurônio
+O sucesso de 1ª tentativa (*First-Pass Success*) depende do par **Indutor + Bloqueador Neuromuscular (BNM)** administrados em bolus rápido sequencial:
+- **Indutor (Paralisia com Indução)**: **Etomidato (0,3 mg/kg IV)** é o padrão-ouro pela neutralidade hemodinâmica; **Cetamina (1,5–2 mg/kg IV)** é a escolha de eleição no **broncoespasmo grave (asma)** e no **choque séptico** (efeito broncodilatador e simpaticomimético); **Midazolam e Propofol são evitados em instáveis** pela vasodilatação e queda grave da PAM.
+- **BNM**: **Succinilcolina (1,5 mg/kg IV)** oferece fasciculação e relaxamento ótimo em 45 segundos, mas é **absolutamente contraindicada** se houver **risco de Hipercalemia** (grande queimado > 48h, politrauma/rabdomiólise > 48h, denervação/AVC/TRM antigo, DRC com $K^+ > 5,5$), situação em que se utiliza **Rocurônio (1,2 mg/kg IV)**.
+
+### 🧭 3. Confirmação do Tubo (Capnografia) e Sedação Contínua Pós-IOT Imediata
+Após a passagem do balonete 2 cm além das pregas vocais (fixação habitual em 21–23 cm na rima labial), a confirmação padrão-ouro é a **Capnografia com forma de onda ($EtCO_2$)** associada à ausculta epigástrica (negativa) e axilar bilateral (positiva). Como a Succinilcolina dura 8 min, o Rocurônio dura **45 a 60 minutos** e o Etomidato dura apenas **5 a 10 minutos**, é **imperativo iniciar imediatamente a analgesia e sedação contínua (Fentanil + Midazolam ou Propofol em BIC)** no minuto seguinte à fixação do tubo, evitando a catástrofe ética e hemodinâmica do paciente **acordado e curarizado** no ventilador.

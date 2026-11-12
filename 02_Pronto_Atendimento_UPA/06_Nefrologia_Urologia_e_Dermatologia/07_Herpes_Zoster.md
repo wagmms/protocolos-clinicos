@@ -23,7 +23,7 @@
     - Nega paralisia ou fraqueza na mímica facial (mímica facial simétrica).
     - Nega dor intensa no ouvido com vesículas no conduto auditivo externo ou vertigem súbita.
 - Histórico: [Passado de catapora/varicela na infância / Imunossupressão / Idade > 50 anos].
-- Alergias: [Nega / [ ]].
+- Alergias: [Nega /].
 
 # OBJETIVO (EXAME FÍSICO DERMATOLÓGICO & NEUROLÓGICO):
 - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Afebril.
@@ -64,5 +64,42 @@
 
 ---
 
-### [ERRO MAIS COMUM NA PRESCRIÇÃO DO ACICLOVIR]
-- **A Dose de 200 mg Não Trata Herpes Zoster:** O erro de prescrição mais frequente no pronto atendimento é prescrever Aciclovir 200 mg ou 400 mg para Herpes Zoster. A dose de 200 mg 5x/dia serve apenas para Herpes Simples genital/labial. O vírus da Varicela-Zoster é muito menos sensível ao aciclovir e exige obrigatoriamente a dose plena de **800 mg por via oral, 5 vezes ao dia**. Prescrever doses menores é subdosagem ineficaz que não impede a destruição neuronal nem previne a dor neuropática crônica.
+## 💊 Receita Domiciliar / Alta (Pronta para Copiar)
+
+> **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
+
+```text
+USO ORAL (INICIAR PREFERENCIALMENTE EM ATÉ 72H DO SURGIMENTO DAS VESÍCULAS):
+
+1. Aciclovir 400 mg -------------------------------------------- 70 comprimidos
+   Tomar 02 comprimidos (800 mg) por via oral, 5 vezes ao dia (às 06h, 10h, 14h, 18h e 22h — pulando a dose da madrugada), durante 7 dias. Ingerir bastante água durante o tratamento.
+   (Alternativa de maior comodidade posológica: Valaciclovir 500 mg — tomar 02 comprimidos [1.000 mg] VO de 8/8h por 7 dias).
+
+2. Dipirona Sódica 1 g ----------------------------------------- 20 comprimidos
+   Tomar 01 comprimido por via oral de 6/6 horas para controle da dor aguda.
+
+3. Cloridrato de Tramadol 50 mg (se dor neurítica moderada/intensa) -- 10 cápsulas
+   Tomar 01 cápsula por via oral de 8/8 horas se dor intensa refratária à dipirona.
+
+4. Gabapentina 300 mg (ou Pregabalina 75 mg) — se dor neuropática intensa:
+   Tomar 01 cápsula à noite nos primeiros 3 dias, progredindo conforme tolerância e acompanhamento ambulatorial.
+
+CUIDADOS LOCAIS E SINAIS DE ALERTA:
+- Lavar as lesões suavemente com água e sabonete neutro; não estourar as vesículas e evitar contato das lesões ativas com gestantes, recém-nascidos e imunossuprimidos não vacinados contra varicela.
+- RETORNO IMEDIATO se surgirem lesões na ponta do nariz (Sinal de Hutchinson), vermelhidão ocular, dor no olho, visão turva, paralisia facial ou dor de cabeça intensa com rigidez de nuca.
+```
+
+---
+
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Reativação no Gânglio Dorsal: Por Que a Janela de Ouro de 72 Horas dos Antivirais É Crítica?
+O Herpes-Zóster decorre da reativação do vírus Varicela-Zóster (VZV) latente nos gânglios sensitivos das raízes dorsais ou nervos cranianos, migrando pelo axônio até a pele de um **único dermátomo unilateral que respeita rigorosamente a linha média**. O início de **Aciclovir (800 mg VO 5x/dia por 7 dias) ou Valaciclovir (1.000 mg VO 8/8h por 7 dias)** nas primeiras **72 horas** da erupção bloqueia a replicação viral ativa, acelera a crostificação das vesículas e reduz a gravidade da lesão axonal aguda. Contudo, o antiviral **ainda deve ser iniciado após 72h** sempre que houver surgimento contínuo de novas vesículas, idade > 50 anos, imunossupressão ou acometimento de nervos cranianos (oftálmico/ótico).
+
+### 💊 2. Sinal de Hutchinson (Zóster Oftálmico) e Síndrome de Ramsay Hunt (Zóster Ótico)
+Duas topografias cranianas são emergências de alto risco de sequela permanente:
+- **Herpes-Zóster Oftálmico (ramo $V_1$ do Trigêmeo)**: a presença de vesículas na ponta ou asa do nariz (**Sinal de Hutchinson**) indica acometimento do ramo nasociliar, que compartilha inervação com o globo ocular (risco altíssimo de ceratite dendrítica, uveíte e necrose retiniana com cegueira), exigindo antiviral imediato e **avaliação oftalmológica de urgência**.
+- **Síndrome de Ramsay Hunt (Gânglio Geniculado do VII par)**: tríade de **paralisia facial periférica unilateral + otalgia intensa + vesículas no pavilhão auricular/conduto auditivo externo** (podendo cursar com vertigem e hipoacusia por extensão ao VIII par), tratada com Aciclovir/Valaciclovir + Corticoide sistêmico.
+
+### 🧭 3. Manejo da Dor Neurítica Aguda e Indicação de Aciclovir Venoso
+A dor do zóster é mista (nociceptiva inflamatória + neuropática por desmielinização ganglionar) e frequentemente subtratada. O controle escalonado combina analgésicos comuns/opioides fracos (Tramadol) com moduladores de canais de cálcio $lpha_2\delta$ (**Gabapentina ou Pregabalina**) ou tricíclicos (Amitriptilina à noite, evitando-se em idosos). **Interna-se para Aciclovir IV (10 mg/kg de 8/8h, com hidratação venosa para prevenir nefropatia cristalúrica)** todo paciente com **Zóster Disseminado** (> 20 lesões fora do dermátomo primário ou ≥ 3 dermátomos), imunossuprimidos graves (HIV/transplantados/quimioterapia) ou encefalite/meningite herpética.

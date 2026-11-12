@@ -34,11 +34,11 @@
 - Ectoscopia: [Mau / Regular] estado geral, [sonolento / torporoso / confuso / lúcido], descorado, taquipneico.
 - Perfusão Periférica: Extremidades [frias e mal perfundidas / quentes com vasodilatação distributiva]. Tempo de enchimento capilar (TEC): [ ] segundos (alterado se > 3 segundos). Presença de livedo em joelhos: [Sim / Não].
 - Aparelho Cardiovascular: Ritmo cardíaco taquicárdico regular em 2 tempos, bulhas normofonéticas, sem sopros.
-- Aparelho Respiratório: Murmúrio vesicular [reduzido em bases / com presença de estertores crepitantes em [ ] / sem ruídos adventícios].
+- Aparelho Respiratório: Murmúrio vesicular [reduzido em bases / com presença de estertores crepitantes em / sem ruídos adventícios].
 - Abdome: Flácido, [indolor / dor difusa / dor à palpação de fossa ilíaca / sinais de irritação peritoneal].
-- Pele: Ausência de lesões bolhosas, crepitação subcutânea ou áreas necróticas extensas [se presente: [ ]].
+- Pele: Ausência de lesões bolhosas, crepitação subcutânea ou áreas necróticas extensas [se presente: ( )].
 
-# PACOTE DA 1ª HORA (BUNDLE SURVIVING SEPSIS CAMPAIGN):
+# PLANO / CONDUTA (PACOTE DA 1ª HORA — SURVIVING SEPSIS & METAS DE 6 HORAS):
 1. Lactato Sérico Inicial: Coletado às [HH:MM] -> Resultado: [ ] mmol/L (Alerta se > 2 mmol/L | Hipoperfusão tecidual grave se >= 4 mmol/L). Programada redosagem em 2 a 4 horas para avaliar clareamento do lactato.
 2. Hemoculturas Prévias ao Antibiótico: Coletados 2 pares de hemoculturas (frascos aeróbio e anaeróbio) de sítios de punção periférica distintos às [HH:MM] (sem atrasar a infusão do antimicrobiano).
 3. Coleta de Culturas do Foco Provável: [Urocultura com antibiograma / Cultura de escarro / Swab ou aspirado de secreção].
@@ -71,7 +71,17 @@
 
 ---
 
-### [REGRAS DE CONDUTA NA SEPSE E CHOQUE SÉPTICO]
-- **Hora de Ouro do Antibiótico:** A cada 60 minutos de atraso na primeira dose do antibiótico endovenoso após o reconhecimento do choque séptico, a mortalidade aumenta linearmente em cerca de **7% a 8%**. Coletar as hemoculturas imediatamente, mas NUNCA adiar o início da droga se houver dificuldade de acesso laboratorial.
-- **Ringer Lactato vs Soro Fisiológico:** Cristaloides balanceados (como o Ringer Lactato) são formalmente preferíveis ao Soro Fisiológico a 0,9%. Grandes volumes de SF 0,9% provocam **acidose metabólica hiperclorêmica grave**, vasoconstrição da arteríola renal e aumento da taxa de insuficiência renal aguda com necessidade de diálise.
-- **Vasopressor Periférico Precoce:** Se a pressão arterial média (PAM) estiver francamente baixa (< 65 mmHg), NÃO espere terminar os 30 mL/kg de volume nem aguarde um cateter venoso central para ligar a Noradrenalina. Iniciar precocemente em veia periférica calibrosa de membro superior (antecubital) enquanto o acesso central é providenciado.
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Sepse-3: Do Triagem pelo qSOFA/NEWS ao Diagnóstico de Disfunção Orgânica (SOFA ≥ 2)
+Pelo consenso **Sepsis-3**, sepse não é mais apenas "infecção + SIRS", mas uma **disfunção orgânica ameaçadora à vida causada por resposta desregulada do hospedeiro à infecção** (aumento agudo ≥ 2 pontos no escore **SOFA**: $PaO_2/FiO_2 < 400$, Plaquetas < 150.000, Bilirrubina ≥ 1,2, PAM < 70, Glasgow < 15 ou Creatinina ≥ 1,2 / Oligúria). Já o **Choque Séptico** é o subgrupo de maior mortalidade (~40%), definido pela necessidade de **vasopressor para manter PAM ≥ 65 mmHg E Lactato arterial > 2 mmol/L (> 18 mg/dL)** apesar de ressuscitação volêmica adequada.
+
+### 💊 2. O Pacote da 1ª Hora (*Surviving Sepsis Campaign*): Por Que Cada Hora de Atraso no Antibiótico Aumenta a Mortalidade em 7,6%?
+O manejo inicial é cronometrado desde a triagem (**Hora Zero**):
+1. **Medir o Lactato arterial** (marcador de hipoperfusão oculta e metabolismo anaeróbio; se > 2 mmol/L, repetir em 2–4h para guiar o *clearance* de lactato).
+2. **Colher 2 pares de Hemoculturas** (aeróbio + anaeróbio de sítios distintos) + culturas do foco **ANTES do antibiótico**, desde que a coleta não atrase o antimicrobiano em mais de 45 minutos.
+3. **Antimicrobiano IV bactericida de amplo espectro na 1ª hora** (ex: Ceftriaxona + Claritromicina para foco pulmonar comunitário; Piperacilina-Tazobactam ou Cefepime/Meropenem para foco abdominal/urinário/nosocomial).
+4. **Expansão volêmica com 30 mL/kg de Cristaloide Balanceado (Ringer Lactato)** se hipotensão (PAS < 90 ou PAM < 65) ou **Lactato ≥ 4 mmol/L**.
+
+### 🧭 3. Noradrenalina Precoce (Mesmo em Acesso Periférico!) e Quando Associar Vasopressina + Hidrocortisona
+Se a PAM permanecer < 65 mmHg durante ou logo após a expansão volêmica, **inicia-se Noradrenalina imediatamente** — a *Surviving Sepsis Campaign* autoriza o início da Noradrenalina em **acesso venoso periférico calibroso proximal (fossa antecubital)** por curto período enquanto se providencia o cateter central, pois cada minuto de PAM < 65 mmHg agrava a necrose tubular aguda e a lesão miocárdica. No choque refratário a doses crescentes de Noradrenalina (> 0,25–0,5 mcg/kg/min), associa-se **Vasopressina (0,03 UI/min)** como 2º vasopressor e **Hidrocortisona 200 mg/dia IV** (50 mg de 6/6h) para restaurar a sensibilidade dos receptores $lpha_1$-adrenérgicos.

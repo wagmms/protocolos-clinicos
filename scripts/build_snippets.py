@@ -215,11 +215,15 @@ for mod in modules:
             has_split = False
 
         # Receita Médica
-        receita_match = re.search(r'##\s+💊\s*Receita[^\n]*\n+```(?:markdown|text)?\n(.*?)\n```', content, re.DOTALL)
-        receita_text = receita_match.group(1).strip() if receita_match else ""
+        receita_match = re.search(r'##\s+💊\s*Receita[^\n]*\n+(?:>[^\n]*\n+)*```(?:markdown|text)?\n(.*?)\n```', content, re.DOTALL)
+        if receita_match:
+            receita_text = receita_match.group(1).strip()
+        else:
+            rec_inline = re.search(r'^>>\s*(?:PRESCRIÇÃO DOMICILIAR|RECEITA DE ALTA|RECEITA MÉDICA)[^\n]*\n([\s\S]+)$', snippet_pep, re.M | re.I)
+            receita_text = rec_inline.group(1).strip() if rec_inline else ""
 
-        # Guia de Conduta / Bolso
-        guia_match = re.search(r'(?:##\s+🎯\s*Guia de Bolso|###\s+\[REGRAS DE CONDUTA|###\s+\[DIRETRIZES|###\s+\[PONTOS CRÍTICOS)(.*)', content, re.DOTALL)
+        # Guia de Conduta / Bolso / Diretrizes Editoriais
+        guia_match = re.search(r'(?:##\s+🎯\s*Diretrizes[^\n]*\n+|##\s+🎯\s*Guia de Bolso[^\n]*\n+|###\s+\[REGRAS DE CONDUTA|###\s+\[DIRETRIZES|###\s+\[PONTOS CRÍTICOS)(.*)', content, re.DOTALL)
         guia_text = guia_match.group(1).strip() if guia_match else ""
 
         rel_path = os.path.relpath(f, BASE_PROJECT)

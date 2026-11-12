@@ -85,7 +85,15 @@
 
 ---
 
-### [REGRAS DE CONDUTA NOS DISTÚRBIOS ELETROLÍTICOS]
-- **Gluconato de Cálcio Não Abaixa o Potássio:** O gluconato de cálcio atua antagonizando o efeito eletrofisiológico do potássio na excitabilidade da célula miocárdica, prevenindo Fibrilação Ventricular e Assistolia. Sua duração é de apenas **30 a 60 minutos**. É indispensável associar as medidas de shift celular (glicoinsulina) e espoliação definitiva simultaneamente.
-- **Prevenção da Síndrome de Desmielinização Osmótica (SDO):** Na hiponatremia crônica, o cérebro adapta-se extrudando osmolitos orgânicos. A elevação excessivamente rápida do sódio (> 10 mEq/L em 24h) provoca desidratação osmótica violenta dos oligodendrócitos, gerando destruição irreversível da bainha de mielina na ponte cerebral (paraparesia, disartria, disfagia e síndrome do encarceramento / *locked-in syndrome*).
-- **Tratar Sintomas Neurológicos, Não Números:** Na hiponatremia grave, o objetivo na emergência NÃO é normalizar o sódio para 135-140 mEq/L em poucas horas. A meta imediata é elevar o sódio em apenas **4 a 6 mEq/L**, índice suficiente para reverter o edema citotóxico cerebral agudo e cessar as convulsões.
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Os 3 Pilares da Hipercalemia: Por Que o Gluconato de Cálcio NÃO Baixa o Potássio, Mas Salva a Vida?
+O potássio extracelular elevado reduz o potencial de repouso da membrana miocárdica, gerando evolução eletrocardiográfica clássica: **ondas T apiculadas ("em tenda") → achatamento/perda da onda P e alargamento do PR → alargamento bizarro do QRS → padrão sinusoidal → Assistolia/FV**. Diante de **$K^+ > 6,5$ mEq/L ou qualquer alteração no ECG**, o manejo segue 3 etapas simultâneas:
+1. **Estabilizar a membrana cardíaca (Ação em 1–3 min)**: **Gluconato de Cálcio 10% — 10 a 30 mL IV lento em 5 min**. O cálcio **não altera o $K^+$ sérico**, mas restaura o limiar de excitabilidade do miócito, protegendo contra PCR por 30–60 minutos.
+2. **Desviar o $K^+$ para o intracelular (*Shift* — Ação em 15–30 min)**: **Solução Polarizante (10 UI de Insulina Regular + 50 g de Glicose = 100 mL de SG 50% IV em 15–30 min)** + **Salbutamol nebulizado em dose alta (10–20 mg = 40–80 gotas)** + $HCO_3^-$ IV (se acidose metabólica associada).
+3. **Espoliar o $K^+$ do corpo**: **Furosemida IV** (se houver diurese/hipervolemia), **Sorcal/Ciclossilicato de Zircônio** ou **Hemodiálise de urgência** (em anúricos/refratários).
+
+### 💊 2. Hiponatremia Aguda Sintomática vs. Crônica: O Limite Seguro de 8 a 10 mEq/L em 24 Horas
+Na hiponatremia ($Na^+ < 135$ mEq/L), o cérebro adapta-se à hipotonicidade em 48 horas expulsando osmóis orgânicos das células gliais. Por isso:
+- **Salina Hipertônica (NaCl 3% — 100 a 150 mL IV em 10–20 min)** é reservada **exclusivamente para Hiponatremia Grave com Sintomas Neurológicos Ameaçadores à Vida** (convulsões, coma, rebaixamento torporoso, sinais de herniação), visando elevar o $Na^+$ em **4 a 6 mEq/L nas primeiras horas** (o suficiente para reduzir o edema cerebral em 50% e cessar a convulsão).
+- **A Regra de Ouro da Segurança**: a elevação total do sódio sérico **NUNCA deve ultrapassar 8 a 10 mEq/L em 24 horas** (ou 6 a 8 mEq/L em 24h em etilistas, desnutridos, cirróticos e hipocalêmicos), sob pena de desencadear a devastadora **Síndrome de Desmielinização Osmótica (Mielinólise Pontina Central)** com tetraparesia espástica e síndrome do encarceramento (*locked-in*).

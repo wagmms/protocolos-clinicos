@@ -1,11 +1,10 @@
 # Atendimento de Pronto Atendimento - Dispepsia Aguda e DRGE
-
-> **Atalho sugerido:** `;drge`  
-> **Finalidade:** Manejo da dor epigástrica e pirose, descarte de síndrome coronariana aguda (infarto inferior) e identificação de sinais de alarme para EDA.
+**Categoria:** Pronto Atendimento / UPA Adulto  
+**Atalho Recomendado:** `;drge`
 
 ---
 
-### [SNIPPET DE PRONTUÁRIO - COPIAR ABAIXO]
+## 📋 Snippet para Prontuário Eletrônico (PEP)
 
 ```text
 ###### ATENDIMENTO UPA: DISPEPSIA AGUDA / DRGE ######
@@ -26,7 +25,7 @@
     - Nega vômitos recorrentes ou hematêmese (vômitos com sangue ou borra de café).
     - Nega fezes pretas com cheiro podre característico (melena).
     - Nega história familiar de câncer gástrico em parentes de 1º grau.
-- Alergias: [Nega / [ ]].
+- Alergias: [Nega /].
 - Medicações: [Nega uso recente de AINEs / Em uso crônico de AAS, Cetoprofeno, Ibuprofeno ou Diclofenaco].
 
 # OBJETIVO (EXAME FÍSICO DIRIGIDO):
@@ -46,10 +45,10 @@
 # PLANO / CONDUTA:
 
 >> CONDUTA NA UNIDADE (SALA DE MEDICAÇÃO):
-1. [ ] Inibidor de Bomba de Prótons: Omeprazol 40 mg EV diluído em 100 mL de SF 0,9% correr em 15 minutos agora.
-2. [ ] Antiemético / Pró-cinético (se náuseas ou plenitude): Bromoprida 10 mg EV lento agora.
-3. [ ] Antiflatulento (se distensão por gases): Simeticona gotas (75 mg/mL) - 40 a 50 gotas VO agora.
-4. [ ] Reavaliação clínica após 30 a 40 minutos com alívio do sintoma antes da alta.
+1. Inibidor de Bomba de Prótons: Omeprazol 40 mg EV diluído em 100 mL de SF 0,9% correr em 15 minutos agora.
+2. Antiemético / Pró-cinético (se náuseas ou plenitude): Bromoprida 10 mg EV lento agora.
+3. Antiflatulento (se distensão por gases): Simeticona gotas (75 mg/mL) - 40 a 50 gotas VO agora.
+4. Reavaliação clínica após 30 a 40 minutos com alívio do sintoma antes da alta.
 
 >> PRESCRIÇÃO DOMICILIAR:
 1. Inibidor de Bomba de Prótons (IBP):
@@ -69,5 +68,50 @@
 
 ---
 
-### [ARMADILHA CLÍNICA: O INFARTO QUE PARECE AZIA]
-- **Infarto Agudo do Miocárdio de Parede Inferior:** A isquemia da parede inferior do ventrículo esquerdo (irrigada pela artéria coronária direita) estimula diretamente as fibras do nervo vago próximas ao diafragma, manifestando-se frequentemente com epigastralgia em queimação, náuseas, vômitos e azia, sem dor torácica típica. Todo paciente com mais de 40 anos, diabético, hipertenso ou tabagista que der entrada na UPA com "dor no estômago" DEVE realizar um ECG de 12 derivações em até 10 minutos da chegada.
+## 💊 Receita Domiciliar / Alta
+
+```text
+RECEITUÁRIO MÉDICO — DISPEPSIA AGUDA / GASTRITE E REFLUXO GASTROESOFÁGICO (DRGE)
+Paciente: [Nome] | Idade: [ ] anos | Data: [DD/MM/AAAA]
+
+USO ORAL:
+1. Omeprazol 20 mg (ou Pantoprazol 40 mg / Esomeprazol 40 mg) ---------------- 1 caixa (28 a 30 cápsulas)
+   Tomar 1 cápsula por via oral **EM JEJUM**, com meio copo de água, exatamente **30 minutos antes do café da manhã**, todos os dias, durante 4 a 8 semanas.
+   *(Nota: Tomar em jejum 30 minutos antes da primeira refeição é indispensável para ativar o medicamento nas bombas de ácido do estômago).*
+
+2. Hidróxido de Alumínio + Hidróxido de Magnésio + Simeticona Suspensão Oral -- 1 frasco
+   Tomar 1 colher de sopa (10 a 15 mL) por via oral 1 hora após as refeições principais e ao deitar (ou se houver queimação/azia aguda), por 5 a 7 dias.
+
+3. Bromoprida 10 mg (ou Domperidona 10 mg) ----------------------------------- 1 caixa
+   Tomar 1 comprimido por via oral 20 minutos antes do almoço e do jantar por 5 a 7 dias se houver sensação de estufamento (empachamento) ou náuseas.
+
+MEDIDAS COMPORTAMENTAIS E ALIMENTARES INDISPENSÁVEIS:
+- Não se deitar logo após comer: aguardar no mínimo **2 a 3 horas após o jantar** antes de se deitar na cama.
+- Elevar a cabeceira da cama em 15 cm (colocar calços embaixo dos pés da cabeceira da cama; apenas usar mais travesseiros dobra o pescoço e aumenta a pressão no estômago).
+- SUSPENDER imediatamente o uso de qualquer anti-inflamatório (Ibuprofeno, Diclofenaco, Nimesulida, Cetoprofeno, AAS), além de evitar café em excesso, refrigerantes, bebidas alcoólicas, frituras, molho de tomate ácido, chocolate, menta e tabagismo.
+- Encaminhado(a) à UBS / Gastroenterologia para realização de **Endoscopia Digestiva Alta (EDA)** e pesquisa de *Helicobacter pylori* (Lembrar de suspender o Omeprazol 14 dias antes da endoscopia se orientado pelo endoscopista para não dar falso-negativo no teste da bactéria).
+
+SINAIS DE ALARME (RETORNO IMEDIATO À UPA):
+- Dor na boca do estômago que aperta, sobe para o peito, costas, pescoço ou braço esquerdo, acompanhada de suor frio ou falta de ar.
+- Vômitos com sangue vivo ou escuro ("borra de café"), fezes pretas com cheiro muito forte (melena), dificuldade ou engasgo para engolir alimentos sólidos (disfagia) ou dor abdominal intensa que deixa a barriga dura.
+```
+
+---
+
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que Toda "Queimação Epigástrica" em Idosos, Diabéticos e Mulheres Exige um ECG Antes do Omeprazol? (Fisiopatologia & Raciocínio)
+- **A armadilha mais letal do pronto-socorro (O Infarto de Parede Inferior que simula Gastrite):** A face diafragmática (inferior) do ventrículo esquerdo, irrigada na maioria das pessoas pela Artéria Coronária Direita (ACD), repousa diretamente sobre o hemidiafragma e próxima à cárdia gástrica, compartilhando aferências nervosas autonômicas vagais e simpáticas torácicas baixas (`T5–T9`). Por isso, um **Infarto Agudo do Miocárdio de Parede Inferior (`DII, DIII e aVF`)** frequentemente se manifesta como **dor ou queimação epigástrica acompanhada de náuseas, eructações ("arrotos") e sudorese fria**!
+- **Regra de ouro inviolável na UPA:** Em todo paciente com **`> 40–45 anos`, diabético, hipertenso, tabagista ou mulher** que chega à UPA com dor epigástrica aguda ou "indigestão súbita", **realize um ECG de 12 derivações nos primeiros 10 minutos** antes de rotular como gastrite!
+
+### 💊 2. Por Que o Omeprazol Deve Ser Tomado 30 Minutos Antes do Café da Manhã e Quando Solicitar Endoscopia (EDA)? (Racional Farmacológico)
+- **A farmacocinética dos Inibidores da Bomba de Prótons (IBP = Pró-fármacos dependentes de ativação ácida):** O Omeprazol/Pantoprazol é absorvido no duodeno e chega pela corrente sanguínea ao canalículo secretor da célula parietal gástrica, onde precisa ser protonado pelo ácido para se ligar irreversivelmente às bombas `H+/K+-ATPase` **que estão ativas**. Durante a noite em jejum, novas bombas são sintetizadas e ficam guardadas em vesículas citoplasmáticas inativas; quando o paciente toma o IBP em jejum e **30 minutos depois toma o café da manhã**, o alimento estimula a histamina/gastrina a colocar todas as bombas na membrana exatamente no momento do pico plasmático do Omeprazol (bloqueando `> 70%` das bombas)! Tomar Omeprazol "antes de dormir" ou "depois do almoço" reduz sua eficácia pela metade.
+
+### 🧭 3. Sinais de Alarme Dispepsia (*Red Flags* para Endoscopia Digestiva Alta Urgente) vs Diagnósticos Diferenciais Epigástricos
+| Sinais de Alarme na Dispepsia (Exigem EDA Prioritária) | Diagnósticos Diferenciais Graves de Dor Epigástrica na UPA | Como Diferenciar na Beira do Leito |
+| :--- | :--- | :--- |
+| **1. Idade de início `≥ 40–45 anos`** (Diretriz Brasileira — FBG) | **1. IAM de Parede Inferior (`DII, DIII, aVF`)** | Dor opressiva/queimação sem relação alimentar, sudorese fria, náuseas → **ECG 12 derivações + Troponina**. |
+| **2. Disfagia progressiva ou Odinofagia** | **2. Pancreatite Aguda Biliar/Alcoólica** | Dor epigástrica **em barra irradiando para o dorso**, vômitos persistentes → **Amilase/Lipase (`> 3x LSN`)**. |
+| **3. Sangramento Digestivo** (Hematêmese, melena ou anemia ferropriva) | **3. Colecistite / Cólica Biliar** | Dor em epigástrio/HCD após refeição gordurosa durando `> 4–6h`, **Sinal de Murphy positivo** → USG de abdome. |
+| **4. Perda ponderal involuntária (`> 5%`) ou Vômitos persistentes** | **4. Úlcera Péptica Perfurada** | Dor epigástrica **súbita em facada**, **abdome em tábua** (rigidez peritoneal) → **RX de tórax em pé (pneumoperitônio)**. |
+| **5. História familiar de Câncer Gástrico** em parente de 1º grau | **5. Apendicite Aguda Inicial (Fase Visceral)** | Inicia como dor epigástrica/periumbilical visceral vaga que **migra para a Fossa Ilíaca Direita** após 6–12h. |

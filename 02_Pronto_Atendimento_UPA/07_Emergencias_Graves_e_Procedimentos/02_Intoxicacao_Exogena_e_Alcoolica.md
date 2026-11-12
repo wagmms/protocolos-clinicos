@@ -22,12 +22,12 @@
   * [ ] 3. TOXIDROME COLINÉRGICA (Organofosforados / Carbamatos / Chumbinho): Miose puntiforme, bradicardia acentuada, sialorreia profusa ("baba contínua"), broncorreia intensa com estertores ("afogando nas próprias secreções"), sudorese, fasciculações musculares e diarreia.
   * [ ] 4. TOXIDROME SIMPATICOMIMÉTICA (Cocaína, Crack, Anfetaminas): Agitação psicomotora violenta, midríase bilateral fotorreagente, taquicardia extrema, pico hipertensivo grave, sudorese profusa e hipertermia.
   * [ ] 5. TOXIDROME ANTICOLINÉRGICA (Tricíclicos, Anti-histamínicos): Midríase paralítica fixa, pele seca e quente, taquicardia, retenção urinária aguda (bexigoma) e delírio agitado.
-- Alergias: [Nega / [ ]].
+- Alergias: [Nega /].
 
 # OBJETIVO (EXAME FÍSICO DA SALA DE EMERGÊNCIA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax: [ ] °C.
 - GLICEMIA CAPILAR (HGT) IMEDIATA: [ ] mg/dL (CONFERIDA NA ADMISSÃO).
-- Ectoscopia & Nível de Consciência: [Sonolento / Em torpor / Comatoso com Glasgow [ ] / Agitado], hálito com odor etílico característico [ou odor de pesticida/solventes].
+- Ectoscopia & Nível de Consciência: [Sonolento / Em torpor / Comatoso com Glasgow / Agitado], hálito com odor etílico característico [ou odor de pesticida/solventes].
 - Pupilas: [Isocóricas e fotorreagentes / Mióticas puntiformes bilaterais / Midriáticas bilaterais].
 - Vias Aéreas & Respiração: [Vias aéreas pérvias com reflexos protetores de tosse e deglutição preservados / Queda da base da língua com roncos e respiração superficial / Broncorreia exuberante difusa com estertores bolhosos].
 - Aparelho Cardiovascular: Ritmo cardíaco [sinusal / taquicárdico / bradicárdico], pulsos periféricos palpáveis; perfusão periférica com enchimento capilar < 2s.
@@ -63,6 +63,22 @@
 
 ---
 
-### [PERIGOS CLÍNICOS EM TOXICOLOGIA DE EMERGÊNCIA]
-- **O Perigo do Flumazenil em Overdose Mista:** O Flumazenil é o antídoto dos benzodiazepínicos, mas deve ser evitado na UPA na suspeita de tentativa de suicídio com múltiplos medicamentos. Se o paciente tiver ingerido um antidepressivo tricíclico junto com o calmante, o benzodiazepínico estava prevenindo a convulsão induzida pelo tricíclico. Ao aplicar o Flumazenil, desencadeia-se um **Estado de Mal Epiléptico convulsivo intratável e arritmias ventriculares fatais**. Em overdose de benzodiazepínicos puros, o tratamento correto é apenas suporte de via aérea e hidratação.
-- **Tiamina Antes da Glicose:** Regra inviolável: em todo paciente etilista desnutrido admitido com rebaixamento na emergência, a **Tiamina 100 mg EV** vem antes da glicose.
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que o Reconhecimento Rápido das Toxíndromes Guia o Manejo na Sala Vermelha?
+Na maioria das intoxicações exógenas, o agente exato ou a dose são desconhecidos; por isso, o diagnóstico guia-se pela **Toxíndrome autonômica e pupilar**:
+- **Colinesterásica ("Chumbinho"/Carbamatos e Organofosforados)**: **mnemônico DUMBBELS** (Diarreia, Urinação, **Miose puntiforme**, Broncorreia/Broncoespasmo, **Bradicardia**, Êmese, Lacrimejamento, Sialorreia) + fasciculações musculares.
+- **Anticolinérgica (Tricíclicos, Anti-histamínicos, Biperideno)**: *"seco como osso, quente como brasa, vermelho como beterraba, cego como morcego, louco como chapeleiro"* (midríase, pele seca/quente, taquicardia, retenção urinária, delirium).
+- **Opioide (Morfina, Fentanil, Metadona)**: tríade de **miose puntiforme + depressão respiratória (FR < 8–10 irpm) + rebaixamento do nível de consciência**.
+- **Simpaticomimética (Cocaína, Crack, Anfetaminas)**: midríase, **diaforese profusa (pele úmida — diferencia da anticolinérgica!)**, taquicardia, hipertensão e agitação/convulsão.
+
+### 💊 2. Carvão Ativado (Janela de 1 Hora) e os Antídotos Salvadores de Vida
+A descontaminação gastrointestinal com **Carvão Ativado (1 g/kg, máx 50 g em 250 mL de SF/água)** só tem benefício real até **1 a 2 horas** da ingestão, com **via aérea protegida (Glasgow 15 ou paciente intubado)**, sendo **proscrita** em cáusticos, derivados de petróleo e metais pesados/lítio/álcool (**mnemônico PHAILS**). Entre os antídotos críticos:
+- **Chumbinho/Organofosforado**: **Atropina 2 a 5 mg IV a cada 5 min** dobrando a dose até **secar as secreções brônquicas** ("atropinização pulmonar", independentemente da FC ou do tamanho da pupila).
+- **Paracetamol (> 150 mg/kg ou > 7,5–10 g)**: **N-Acetilcisteína (NAC)** regenera a glutationa hepática neutralizando o metabólito hepatotóxico NAPQI (eficácia de quase 100% se iniciada em < 8h).
+- **Tricíclicos com QRS > 100 ms**: **Bicarbonato de Sódio 8,4% 1–2 mEq/kg IV em bolus** para reverter o bloqueio de canais de sódio cardíacos.
+
+### 🧭 3. Intoxicação Alcoólica Aguda: A Regra da Tiamina Antes da Glicose e a Exclusão de TCE
+No paciente etilista com rebaixamento do sensório, duas armadilhas fatais devem ser evitadas:
+1. **Encefalopatia de Wernicke iatrogênica**: a glicose consome tiamina (vitamina B1) como cofator da piruvato-desidrogenase no ciclo de Krebs; por isso, administra-se **Tiamina 100 a 500 mg IV/IM antes ou concomitantemente à Glicose hipertônica**.
+2. **Hematoma Subdural Agudo oculto**: etilistas sofrem quedas frequentes e têm atrofia cortical que estira as veias-ponte; qualquer sinal de trauma craniano, anisocoria ou ausência de melhora do Glasgow após 3–4h de observação exige **TC de Crânio imediata**.

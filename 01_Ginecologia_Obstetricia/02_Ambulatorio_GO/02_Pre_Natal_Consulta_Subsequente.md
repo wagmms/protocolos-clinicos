@@ -10,7 +10,7 @@
 ```text
 ###### CONSULTA DE PRÉ-NATAL — SEGUIMENTO / RETORNO ######
 # IDENTIFICAÇÃO & CRONOLOGIA:
-Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], TS/Rh: [O+ / A+ / B+ / AB+ / O- / A- / Aguarda] | Risco: [Risco Habitual / Alto Risco por: [ ]].
+Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], TS/Rh: [O+ / A+ / B+ / AB+ / O- / A- / Aguarda] | Risco: [Risco Habitual / Alto Risco por:].
 - IG Atual: [ ] semanas e [ ] dias (por [USG de 1º tri / DUM confiável]) | DPP: [DD/MM/AAAA].
 
 # SUBJETIVO (EVOLUÇÃO & ALARME OBSTÉTRICO):
@@ -35,7 +35,7 @@ Paciente [Nome], [Idade] anos, G[ ] P[ ] A[ ], TS/Rh: [O+ / A+ / B+ / AB+ / O- /
 
 # AVALIAÇÃO DIAGNÓSTICA:
 1. Gestação tópica de [ ] semanas e [ ] dias, feto vital e crescimento adequado (CID-10: Z34.8).
-2. Exames e curvas [dentro da normalidade para a idade gestacional / com alteração de: [ ]].
+2. Exames e curvas [dentro da normalidade para a idade gestacional / com alteração de:].
 
 # PLANO / CONDUTA:
 >> CONDUTA & SOLICITAÇÕES POR IDADE GESTACIONAL:
@@ -69,7 +69,8 @@ ORIENTAÇÕES DE SINAIS DE ALARME:
 
 ### 🧠 1. Por Que Examinamos Assim a Cada Retorno? (Semiologia Obstétrica Explicada)
 - **Por que a Altura Uterina (AU) equivale à IG entre 20 e 32 semanas?** Nesse intervalo, o crescimento uterino é linear (`~1 cm/semana`), guardando correlação direta com a idade gestacional (`± 2 a 3 cm`, entre os percentis 10 e 90 da curva).
-  - **AU abaixo do esperado para a IG:** Pensar em **Restrição de Crescimento Fetal (RCIU)**, **Oligoâmnio**, erro de datação ou óbito fetal $ightarrow$ solicitar USG Obstétrica com Doppler (artéria umbilical e cerebral média).
+  - **AU abaixo do esperado para a IG:** Pensar em **Restrição de Crescimento Fetal (RCIU)**, **Oligoâmnio**, erro de datação ou óbito fetal $
+ightarrow$ solicitar USG Obstétrica com Doppler (artéria umbilical e cerebral média).
   - **AU acima do esperado para a IG:** Pensar em **Macrossomia (DMG descompensado)**, **Polidrâmnio**, **Gemelaridade** ou miomatose uterina.
 - **O Porquê de Cada Tempo das 4 Manobras de Leopold-Zweifel:**
   1. **1ª Manobra (Fundo Uterino):** Define a **Situação** (Longitudinal vs. Transversa) palpando qual polo ocupa o fundo (o polo pélvico é grande, irregular, macio e não rechaça; o cefálico é duro, liso e globoso).

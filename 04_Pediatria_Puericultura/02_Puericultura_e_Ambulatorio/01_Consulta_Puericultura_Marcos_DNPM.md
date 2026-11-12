@@ -7,94 +7,98 @@
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
 ```text
-CONSULTA DE PUERICULTURA - ROTINA DA ATENÇÃO BÁSICA
+###### CONSULTA DE PUERICULTURA & VIGILÂNCIA DO DNPM (0 A 24 MESES) ######
+# IDENTIFICAÇÃO & CRONOLOGIA:
+- Criança: [Nome] | Sexo: [Masculino / Feminino] | DN: [DD/MM/AAAA]
+- Idade Cronológica: [ ] meses e [ ] dias ([Nascido a termo / Prematuro de [ ] semanas -> Idade Corrigida: [ ] meses])
+- Acompanhante: [Mãe / Pai / Ambos os pais / Cuidador(a):]
 
-IDENTIFICAÇÃO:
-- Criança: [ ] | Sexo: [ Masculino / Feminino ] | DN: [ ]/[ ]/[ ]
-- Idade Cronológica: [ ] meses [ se prematuro: Idade Corrigida = ... semanas/meses ]
-- Informante: [Mãe / Pai / Cuidador principal: ]
+# SUBJETIVO (ANAMNESE DE PUERICULTURA, NUTRIÇÃO & ROTINA):
+- Intercorrências desde a última consulta: [Assintomático(a), em excelente evolução / Apresentou quadro leve de].
+- Alimentação e Prática Nutricional:
+  * Lactente < 6 meses: [Aleitamento Materno Exclusivo (AME) em livre demanda, boa pega e sucção efetiva / Aleitamento misto / Fórmula infantil de partida () na diluição correta de 1 medida rasa para cada 30 mL de água].
+  * Criança ≥ 6 meses: [Aleitamento materno complementado + Introdução alimentar oportuna / Dieta da família consistente (5 grupos alimentares no almoço e jantar + frutas in natura), sem açúcar, mel ou ultraprocessados]. Oferta de água potável: [Adequada / Baixa].
+- Sono Seguro & Hábitos: Dorme em [berço próprio em decúbito dorsal (barriga para cima), colchão firme e sem objetos soltos / cama compartilhada — orientado risco de sufocamento e SMSL].
+- Eliminações Fisiológicas: Diurese [ampla, > 5–6 fraldas molhadas/dia] | Evacuações [aspecto e frequência habituais para a idade, sem esforço doloroso ou sangue].
+- Saúde Bucal & Exposição a Telas: Higiene oral [com escova macia e pasta fluoretada ≥ 1.000 ppm (quantidade de 1 grão de arroz cru) / ainda sem erupção dentária]; Tempo de telas (celular/TV): [Zero telas conforme recomendação SBP (< 2 anos) / Exposição inadequada — orientada suspensão].
 
-ANTROPOMETRIA & CURVAS DE CRESCIMENTO (PADRÃO OMS):
-- Peso atual: [ ] g | Ganho ponderal recente: [ ] g/dia (Esperado: 1º trim: 25-30g/dia; 2º trim: 20g/dia; 3º trim: 15g/dia; 4º trim: 10-12g/dia).
-  * Z-Escore Peso/Idade: [ Eutrofia (Z -2 a +2) / Baixo peso (Z < -2) / Peso elevado (Z > +2) ].
-- Comprimento/Estatura atual: [ ] cm
-  * Z-Escore Estatura/Idade: [ Estatura adequada (Z ≥ -2) / Baixa estatura (Z < -2) ].
-- Perímetro Cefálico atual (< 2 anos): [ ] cm
-  * Z-Escore PC/Idade: [ Normocefalia (Z -2 a +2) / Microcefalia (Z < -2) / Macrocefalia (Z > +2) ].
-- Índice de Massa Corporal (IMC para Idade): [ ] kg/m²
-  * Classificação IMC/I: [ Eutrofia / Risco de sobrepeso / Sobrepeso / Obesidade ].
+# OBJETIVO (ANTROPOMETRIA OMS, TRIAGENS, EXAME FÍSICO & MARCOS DO DNPM):
+- Dados Antropométricos e Curvas da OMS (Caderneta da Criança):
+  * Peso Atual: **[ ] g ([ ] kg)** | Ganho Ponderal Médio: **[ ] g/dia** (Alvo: 1º tri 25–30 g/d | 2º tri 20 g/d | 3º tri 15 g/d | 4º tri 10–12 g/d).
+    - Escore-Z Peso/Idade: [Peso adequado para a idade (Z entre -2 e +2) / Baixo peso (Z < -2) / Peso elevado (Z > +2)].
+  * Comprimento / Estatura: **[ ] cm** -> Escore-Z Estatura/Idade: [Adequada (Z ≥ -2) / Baixa estatura (Z < -2)].
+  * Perímetro Cefálico (< 2 anos): **[ ] cm** -> Escore-Z PC/Idade: [Normocefalia (Z entre -2 e +2) / Alerta (< -2 ou > +2)].
+  * IMC para a Idade: **[ ] kg/m²** -> Classificação: [Eutrofia (Z entre -2 e +1) / Risco de sobrepeso (Z > +1) / Sobrepeso (Z > +2)].
+- Triagens Neonatais & Caderneta de Vacinação (PNI):
+  * Triagens: Pezinho: [Normal] | Olhinho (Reflexo Vermelho): [Presente e simétrico] | Orelhinha (EOA): [Passou bilateralmente] | Coraçãozinho: [Normal] | Linguinha: [Normal].
+  * Situação Vacinal: [Completa e rigorosamente em dia para a idade / Vacinas pendentes encaminhadas hoje:].
+- Exame FÍSICO Segmentar Completo:
+  * Ectoscopia: BEG, ativo, reativo, corado, hidratado, anictérico, acianótico. Fontanela anterior [plana e normotensa / fechada fisiologicamente].
+  * Cardiopulmonar: RCR em 2T, BNF sem sopros, pulsos femorais palpáveis e simétricos; MV presente bilateralmente sem ruídos adventícios.
+  * Abdome & Genitália/Quadril: Abdome flácido e indolor sem visceromegalias; coto/cicatriz umbilical íntegra. Manobras de Ortolani e Barlow [negativas, abdução simétrica dos quadris]. Genitália [masculina com testículos tópicos na bolsa escrotal bilateralmente / feminina sem sinéquia de pequenos lábios].
+- Vigilância dos Marcos do Desenvolvimento Neuropsicomotor (DNPM):
+  * Motricidade Grossa: [Adequado para a idade: sustenta cabeça (2–4m) / senta sem apoio (6–9m) / anda (12–15m) / corre (18–24m)].
+  * Motricidade Fina: [Adequado para a idade: abre as mãos e pega objetos (4m) / transfere objetos (6m) / pinça polegar-indicador (9–12m) / rabisca e empilha blocos (18–24m)].
+  * Linguagem e Comunicação: [Adequado para a idade: vocaliza e sorri (2–4m) / balbucia sílabas (6–9m) / primeiras palavras com sentido (12m) / junta 2 palavras (18–24m)].
+  * Pessoal-Social (Sinais de Alerta TEA / M-CHAT): [Contato visual sustentado, sorriso social recíproco, atende pelo nome e compartilha atenção apontando / Alerta identificado:].
 
-ALIMENTAÇÃO & NUTRIÇÃO:
-- Regime alimentar atual:
-  [ ] Aleitamento Materno Exclusivo (AME) sob livre demanda (Meta até os 6 meses). Boa pega e posicionamento, sem fissuras ou dor materna.
-  [ ] Aleitamento Materno Complementado (após 6 meses) com introdução gradual de alimentos in natura.
-  [ ] Fórmula Infantil de partida/seguimento: [ Nome da fórmula: ... | Diluição correta confirmada: 1 medida rasa para cada 30 mL de água fervida ].
-- Introdução Alimentar (se ≥ 6 meses):
-  * Frutas in natura amassadas/raspadas no intervalo das mamadas (sem adição de açúcar ou mel).
-  * Papa salgada / refeição principal balanceada (com 5 grupos: carboidrato/tubérculo, leguminosa/feijão, proteína animal/ovo, hortaliças/folhas e legumes).
-  * Água potável oferecida ativamente após os 6 meses (estimada em ~800 mL a 1 L/dia total de líquidos).
-  * Proscrição absoluta: Açúcar, achocolatados, gelatinas, sucos (mesmo naturais) e ultraprocessados até os 2 anos. Mel proibido antes de 1 ano (risco de botulismo).
+# AVALIAÇÃO DE PUERICULTURA:
+1. Criança [eutrófica com velocidade de crescimento e desenvolvimento neuropsicomotor adequados para a idade (CID-10: Z00.1) / com alerta nutricional ou de desenvolvimento em acompanhamento].
+2. Profilaxia de micronutrientes (Vitamina D e Ferro) e calendário vacinal revisados.
 
-AVALIAÇÃO DO DESENVOLVIMENTO NEUROPSICOMOTOR (MARCOS DO DNPM - MS/OMS):
-Marcos esperados para a faixa etária atual ([ ] meses):
-- [ ] Postura e Motricidade Grossa: [ Eleva cabeça em prona (2m) / Sustenta cabeça (4m) / Senta com apoio (6m) / Senta sem apoio (9m) / Anda com apoio (12m) / Anda sozinho (15m) / Corre bem e sobe degraus (24m) ].
-- [ ] Motricidade Fina / Adaptação: [ Segura objetos (4m) / Transfere de uma mão para a outra (6m) / Pinça imperfeita (9m) / Pinça fina polegar-indicador (12m) / Constrói torre de 3 blocos (18m) ].
-- [ ] Linguagem & Audição: [ Reage a sons (1m) / Vocaliza sons/gorgolejos (2-4m) / Balbucia sílabas 'da-da' (6-9m) / Fala 1-2 palavras com significado (12m) / Vocabulário de 10-20 palavras (18m) / Frases de 2 palavras (24m) ].
-- [ ] Social & Interativo: [ Sorriso social responsivo (2m) / Interage ativamente (4m) / Estranha estranhos (9m) / Dá tchau e bate palmas (9-12m) / Mostra o que quer apontando (12-18m) / Brincadeira simbólica e imitação (24m) ].
-- Conclusão do DNPM: [ Desenvolvimento adequado para a idade cronológica / Alerta no desenvolvimento - agendada reavaliação precoce em 30 dias ].
+# PLANO / CONDUTA:
 
-HÁBITOS DE VIDA, SONO & ELIMINAÇÕES:
-- Sono: Dorme em berço próprio, SEMPRE em decúbito dorsal (barriga para cima), em colchão firme, sem travesseiros soltos, cobertores frouxos, protetores de berço ou bichos de pelúcia.
-- Diurese: [ Presente, clara, > 5-6 fraldas pesadas ao dia ].
-- Evacuações: [ Frequência habitual: ...x/dia, consistência pastosa, sem esforço doloroso ou sangue ].
-- Saúde bucal: Higiene oral com escova de cerdas macias e pasta com flúor (≥ 1.000 ppm de flúor em quantidade de grão de arroz cru) a partir do primeiro dente de leite.
-
-VACINAÇÃO & EXAMES DE TRIAGEM NEONATAL:
-- Caderneta de Vacinação: [Em dia conforme o calendário PNI / Pendente vacina: ].
-- Triagens Neonatais checadas:
-  * Teste do Pezinho (PKU, TSH, Hb, FC, 17-OHP, Biot): [ Normal / Realizado em D... ].
-  * Teste do Olhinho (Reflexo Vermelho): [ Presente e simétrico bilateralmente ].
-  * Teste da Orelhinha (EOA): [ Passou bilateralmente ].
-  * Teste do Coraçãozinho (Oximetria): [ Normal (SpO2 MSD e MI ≥ 95% e diferença < 3%) ].
-  * Teste da Linguinha: [ Frênulo lingual normal, sem anquiloglossia ].
-
-SUPLEMENTAÇÃO PROFILÁTICA (SBP / MINISTÉRIO DA SAÚDE):
-1. Vitamina D:
-   - [ Iniciar / Manter ]: 400 UI/dia por via oral (do 7º dia de vida até 12 meses); ou 600 UI/dia dos 12 aos 24 meses.
-2. Ferro Elementar:
-   - [ Indicado a partir dos 6 meses se a termo em AME ]: 1 mg/kg/dia de ferro elementar por via oral até os 24 meses.
-   - [ Ou se prematuro / baixo peso ]: 2 mg/kg/dia a partir do 30º dia de vida.
-
----
-
-PRESCRIÇÃO DE PUERICULTURA:
-1. Colecalciferol (Vitamina D) solução gotas (ex: 200 UI/gota) ------ Administrar 2 gotas VO 1x ao dia pela manhã.
-2. Sulfato Ferroso / Ferro Quelato gotas (se ≥ 6 meses):
-   - Administrar [ ] gotas VO 1x ao dia, 30 a 60 minutos antes do almoço (ou com fruta cítrica rica em vitamina C).
-
-ORIENTAÇÕES DE SEGURANÇA & PREVENÇÃO DE ACIDENTES:
-1. Transporte veicular: Uso obrigatório de bebê conforto virado para trás no banco traseiro até pelo menos 1 ano de idade (ou 13 kg).
-2. Quedas: NUNCA deixar o bebê sozinho em trocadores, camas, sofás ou mesas, nem por um segundo. Proibido o uso de andador infantil (risco de traumatismo craniano grave e atraso motor).
-3. Queimaduras e afogamentos: Testar temperatura da água do banho com o dorso da mão/antebraço; nunca deixar a criança sozinha na banheira ou perto de baldes de água.
-4. Próxima Consulta de Puericultura agendada para: [ ]/[ ]/[ ] (Calendário preconizado: 1ª semana, 1m, 2m, 4m, 6m, 9m, 12m, 18m, 24m).
+>> CONDUTA DE PUERICULTURA & PREVENÇÃO DE ACIDENTES:
+1. Manter [Aleitamento Materno Exclusivo em livre demanda até o 6º mês / Aleitamento materno + alimentação complementar saudável in natura].
+2. Suplementação Profilática (SBP / Ministério da Saúde):
+   - Vitamina D3 (Colecalciferol): [400 UI/dia VO (< 12 meses) / 600 UI/dia VO (12 a 24 meses)].
+   - Ferro Elementar Profilático: [Ainda não iniciado (< 6m a termo em AME) / Iniciar ou manter 1 mg/kg/dia VO de ferro elementar (termo ≥ 6m) / 2 mg/kg/dia VO desde 30 dias de vida (prematuro ou baixo peso < 2.500 g)].
+3. Prevenção de Acidentes Domésticos e Sono Seguro: Orientados decúbito dorsal estrito no berço, transporte veicular no bebê-conforto/cadeirinha de costas para o painel, prevenção de quedas de trocador/cama, queimaduras, afogamentos e engasgos (proibição de grãos inteiros e peças pequenas).
+4. Agendado retorno de Puericultura para [ ] meses de idade (Cronograma MS: 1ª sem, 1m, 2m, 4m, 6m, 9m, 12m, 18m e 24m).
 ```
 
 ---
 
-## 🎯 Guia de Bolso: Suplementação Profilática de Ferro e Vitamina D (SBP)
+## 💊 Receita Domiciliar / Alta
 
-### 1. Vitamina D Profilática
-- **Idade:** Desde a primeira semana de vida até 12 meses: **400 UI/dia** por via oral.
-- **Dos 12 aos 24 meses:** **600 UI/dia** por via oral.
-- *Indicação:* Universal, para todas as crianças, em aleitamento materno ou fórmula infantil (a menos que a criança ingira comprovadamente > 1.000 mL/dia de fórmula infantil enriquecida).
+```text
+RECEITUÁRIO MÉDICO DE PUERICULTURA — SUPLEMENTAÇÃO PROFILÁTICA (SBP)
+Criança: [Nome] | Peso Atual: [ ] kg | Idade: [ ] meses | Data: [DD/MM/AAAA]
 
-### 2. Ferro Elementar Profilático (SBP / MS Atualizado)
+USO ORAL DIÁRIO:
+1. Colecalciferol (Vitamina D3) Gotas (200 UI por gota) ------------------------ 1 frasco
+   Dar [2 gotas (= 400 UI/dia para menores de 1 ano) / 3 gotas (= 600 UI/dia de 1 a 2 anos)] por via oral, 1 vez ao dia, todos os dias, até completar 24 meses de idade.
 
-| Condição Neonatal | Idade de Início | Dose de Ferro Elementar | Duração |
-| :--- | :---: | :---: | :---: |
-| **Recém-nascido a termo, peso ≥ 2.500g** (em AME ou misto) | **Aos 6 meses** | **1 mg/kg/dia** | Até os 24 meses |
-| **Prematuro ou Baixo Peso (< 2.500g até 1.500g)** | **Aos 30 dias de vida** | **2 mg/kg/dia** | Por 1 ano (depois 1 mg/kg até 2 anos) |
-| **Muito Baixo Peso (< 1.500g até 1.000g)** | **Aos 30 dias de vida** | **3 mg/kg/dia** | Por 1 ano (depois 1 mg/kg até 2 anos) |
-| **Extremo Baixo Peso (< 1.000g)** | **Aos 30 dias de vida** | **4 mg/kg/dia** | Por 1 ano (depois 1 mg/kg até 2 anos) |
+2. Sulfato Ferroso (ou Ferro Polimaltosado / Quelato) Solução Gotas ------------ 1 frasco
+   (Concentração padrão: 25 mg de Ferro Elementar/mL ≈ 1 mg de Ferro Elementar por gota)
+   Dar [ ] gotas (Dose: [1 mg/kg/dia para nascidos a termo a partir dos 6 meses / 2 mg/kg/dia para prematuros ou baixo peso < 2.500 g a partir de 30 dias de vida]) por via oral, 1 vez ao dia, 30 minutos antes do almoço (preferencialmente junto com fruta cítrica rica em vitamina C, longe do leite), até os 24 meses.
 
-*Apresentação prática:* Sulfato ferroso gotas (cada 1 mL costuma ter 25 mg de ferro elementar; 1 gota ≈ 1 a 1,25 mg de ferro elementar).
+3. Soro Fisiológico 0,9% ------------------------------------------------------- 1 frasco
+   Para higiene nasal com seringa de 3 a 5 mL em cada narina antes das mamadas e antes de dormir se houver congestão nasal.
+
+ORIENTAÇÕES NUTRICIONAIS E DE SEGURANÇA (SBP / MINISTÉRIO DA SAÚDE):
+- Zero açúcar, zero mel (risco de botulismo intestinal em < 1 ano), zero sucos (mesmo naturais) no 1º ano de vida e zero alimentos ultraprocessados (biscoitos, iogurtes açucarados, embutidos) nos primeiros 2 anos.
+- Posição de Sono Seguro: Sempre de barriga para cima (decúbito dorsal), em colchão firme, sem travesseiros fofos, protetores de berço ou cobertores soltos.
+- Zero exposição a telas (celular, tablet, televisão) antes dos 2 anos de idade.
+```
+
+---
+
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que os Primeiros 1.000 Dias (Gestação aos 24 Meses) Determinam o Potencial Neurológico? (Fisiopatologia & Raciocínio)
+- **Por que a anemia ferropriva no lactente causa déficit cognitivo irreversível mesmo após correção posterior:** Nos primeiros 24 meses de vida ocorre o pico de mielinização do sistema nervoso central, sinaptogênese do hipocampo e maturação das vias dopaminérgicas estriatais — processos estritamente dependentes de enzimas que contêm **ferro**. Como o estoque de ferro recebido da mãe no 3º trimestre esgota-se por volta do 4º ao 6º mês de vida (e no 1º mês no prematuro!), a suplementação profilática universal impede que a deficiência de ferro se instale durante a janela crítica de desenvolvimento cerebral.
+- **Por que proscrevemos mel (< 1 ano), sucos (< 1 ano) e açúcar/ultraprocessados (< 2 anos):** O mel pode conter esporos de *Clostridium botulinum*; como a microbiota intestinal do lactente `< 12 meses` ainda é imatura, os esporos germinam na luz colônica e liberam toxina botulínica (**botulismo infantil** com paralisia flácida descendente). Já o suco de fruta (mesmo natural sem açúcar) perde as fibras da fruta inteira, gerando pico glicêmico/insulínico rápido, saciedade precoce que substitui refeições salgadas ricas em ferro e programação metabólica para obesidade.
+
+### 💊 2. Por Que Suplementamos Vitamina D Desde a 1ª Semana e Ferro Conforme Peso/Idade Gestacional?
+- **Por que Vitamina D3 (400 UI < 1 ano; 600 UI de 1 a 2 anos) é universal:** O leite materno contém baixíssimas concentrações de vitamina D (`< 25 a 40 UI/L`), e a exposição solar direta desprotegida é restrita no lactente jovem pelo risco dermatológico. A suplementação de colecalciferol previne o raquitismo carencial e modula a imunidade inata.
+- **Como corrigir a idade do prematuro (< 37 semanas) na puericultura:** Em todo prematuro, devemos usar a **Idade Corrigida** (`Idade Cronológica − [40 semanas − IG ao nascer]`) até os **24 meses de idade** (ou 36 meses se extremo baixo peso `< 28 semanas`) para avaliar Peso, Estatura, Perímetro Cefálico e Marcos do DNPM — mas **NUNCA corrigimos a idade para o Calendário Vacinal** (as vacinas seguem a idade cronológica real de nascimento!).
+
+### 🧭 3. Esquema de Profilaxia de Ferro Elementar (SBP) e Marcos Essenciais do DNPM
+| Grupo de Risco Neonatal | Quando Iniciar o Ferro Elementar | Dose Diária Recomendada (SBP) | Duração da Profilaxia |
+| :--- | :---: | :---: | :--- |
+| **RN a Termo (Peso ≥ 2.500 g) sem fatores de risco** | **Aos 6 meses** (180 dias) | **`1 mg/kg/dia`** de ferro elementar | Até os 24 meses de idade |
+| **RN a Termo com Fator de Risco** (clampeamento `< 1 min`, mãe anêmica/DM, `< 500 mL` fórmula) | **Aos 3 meses** (90 dias) | **`1 mg/kg/dia`** de ferro elementar | Até os 24 meses de idade |
+| **RN Pré-Termo ou Baixo Peso (`1.500 g a 2.499 g`)** | **Aos 30 dias de vida** | **`2 mg/kg/dia`** de ferro elementar | Por 12 meses; depois `1 mg/kg/dia` até 24 meses |
+| **RN Muito Baixo Peso (`1.000 g a 1.499 g`)** | **Aos 30 dias de vida** | **`3 mg/kg/dia`** de ferro elementar | Por 12 meses; depois `1 mg/kg/dia` até 24 meses |
+| **RN Extremo Baixo Peso (`< 1.000 g`)** | **Aos 30 dias de vida** | **`4 mg/kg/dia`** de ferro elementar | Por 12 meses; depois `1 mg/kg/dia` até 24 meses |

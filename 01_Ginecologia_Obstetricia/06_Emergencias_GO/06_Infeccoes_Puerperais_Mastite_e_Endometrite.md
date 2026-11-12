@@ -11,7 +11,7 @@
 ###### ATENDIMENTO DE EMERGÊNCIA OBSTÉTRICA — INFECÇÕES PUERPERAIS (MASTITE vs ENDOMETRITE) ######
 # IDENTIFICAÇÃO & CONTEXTO PUERPERAL:
 - Paciente: [Nome], [Idade] anos, G[ ] P[ ] (PN [ ] / PC [ ]) A[ ], no **[ ]º dia de puerpério** de [Parto Normal / Cesariana].
-- Quadro Atual: **[MODALIDADE A — MASTITE PUERPERAL AGUDA / MODALIDADE B — ENDOMETRITE PUERPERAL]** | Alergias: [Nega alergias medicamentosas / Alérgica a: [ ]].
+- Quadro Atual: **[MODALIDADE A — MASTITE PUERPERAL AGUDA / MODALIDADE B — ENDOMETRITE PUERPERAL]** | Alergias: [Nega alergias medicamentosas / Alérgica a:].
 
 # SUBJETIVO (QD & HMA):
 - Queixa Principal & HMA:

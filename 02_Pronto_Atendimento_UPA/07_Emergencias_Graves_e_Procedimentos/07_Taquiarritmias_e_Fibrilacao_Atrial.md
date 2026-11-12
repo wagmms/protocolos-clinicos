@@ -84,7 +84,17 @@
 
 ---
 
-### [REGRAS DE CONDUTA NAS TAQUIARRITMIAS]
-- **Sincronização Obrigatória na Cardioversão:** NUNCA disparar o choque em taquicardia com pulso sem checar se o botão **SYNC** está ativo no monitor do desfibrilador. O choque não sincronizado caindo no período vulnerável da onda T deflagra Fibrilação Ventricular imediata e parada cardiorrespiratória em assistolia.
-- **Técnica de Infusão da Adenosina:** A meia-vida sérica da adenosina é de menos de **10 segundos**. Se for aplicada lentamente ou em veia distal de mão sem flush rápido de soro e elevação do membro, a droga é metabolizada pelas hemácias antes de atingir o nó atrioventricular e o efeito é nulo.
-- **O Perigo da Reversão em FA com mais de 48 Horas:** Na Fibrilação Atrial de duração superior a 48 horas (ou tempo incerto), trombos formam-se frequentemente no apêndice atrial esquerdo. Tentar reverter o ritmo para sinusal sem anticoagulação prévia projeta o trombo diretamente na circulação sistêmica gerando AVC isquêmico maciço. O objetivo seguro na UPA é apenas controlar a frequência cardíaca (FC < 110 bpm).
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que a Primeira Pergunta Diante de Qualquer FC > 150 bpm É Estável vs. Instável (*5 Ds*)?
+Antes de olhar se o QRS é estreito ou largo, avalia-se a repercussão hemodinâmica pelos **5 Ds da Instabilidade**: **D**iminuição da PA (**Choque/Hipotensão** com má perfusão), **D**or torácica anginosa isquêmica, **D**ispneia por **Edema Agudo de Pulmão**, **D**iminuição do nível de consciência (confusão/síncope) ou **D**escompensação aguda de insuficiência cardíaca. Se houver **qualquer critério de instabilidade** causado pela taquiarritmia, o tratamento imediato é a **Cardioversão Elétrica Sincronizada** (após sedoanalgesia com Fentanil + Etomidato/Midazolam se consciente) — o botão **SYNC** garante que o choque caia sobre a onda R e nunca sobre a onda T (período refratário relativo), evitando induzir Fibrilação Ventricular.
+
+### 💊 2. Taquicardia Estável: Como Manejar TSV (Manobra de Valsalva Modificada + Adenosina) e TV Monomórfica
+Se o paciente está hemodinamicamente estável, classifica-se a largura do QRS (< 120 ms vs. ≥ 120 ms) e a regularidade do intervalo R-R:
+- **QRS Estreito e Regular (TSV por reentrada nodal/atrioventricular)**: inicia-se com a **Manobra de Valsalva Modificada (estudo *REVERT*)** — soprar seringa de 10 mL por 15s sentado e imediatamente deitar a 0° elevando as pernas a 45° por 15s (taxa de reversão ~43%). Se persistir, faz-se **Adenosina 6 mg IV em bolus ultrarrápido** na prega cubital seguido de *flush* de 20 mL de SF 0,9% com elevação do membro (se não reverter, **12 mg IV**).
+- **QRS Largo e Regular**: toda taquicardia de QRS largo é **Taquicardia Ventricular (TV)** até prova em contrário (80% dos casos; 95% se IAM prévio), tratada no paciente estável com **Amiodarona 150 mg IV em 10 minutos** (jamais usar Verapamil em QRS largo!).
+
+### 🧭 3. Fibrilação Atrial (QRS Estreito e R-R Irregular): A Regra das 48 Horas e o Escore $CHA_2DS_2$-VASc
+Na **Fibrilação Atrial (FA) estável**, reverter o ritmo na sala de emergência sem critério pode causar **AVC cardioembólico iatrogênico** por deslocamento de trombo do apêndice atrial esquerdo:
+- **FA com início comprovadamente < 48 horas** (ou paciente já anticoagulado há ≥ 3 semanas): pode-se realizar cardioversão química (Amiodarona/Propafenona) ou elétrica, seguida de anticoagulação por no mínimo 4 semanas.
+- **FA com duração ≥ 48 horas ou tempo indeterminado**: **PROIBIDO cardioverter (nem com Amiodarona!)** sem ETE prévio descartando trombo ou 3 semanas de anticoagulação efetiva; a conduta na UPA é **apenas Controle da Frequência Cardíaca (alvo FC < 110 bpm)** com **Metoprolol IV/VO** (ou Deslanosídeo se IC descompensada) e início de anticoagulação oral (DOAC: Rivaroxabana/Apixabana) conforme o escore **$CHA_2DS_2$-VASc**.

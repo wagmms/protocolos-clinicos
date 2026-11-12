@@ -13,7 +13,7 @@
 # SUBJETIVO:
 - Queixa Principal: Dor na coluna lombar / Dor que desce para a perna há [ ] dias/horas.
 - HMA: Relata quadro de dor lombar de início após esforço físico / levantamento de carga / movimento de torção do tronco há cerca de [ ] dias.
-  * Localização & Irradiação: [Dor estritamente lombar baixa sem irradiação (Lombalgia mecânica pura) / Dor irradiando para glúteo, face posterior da coxa, perna e dorso/planta do pé [direito / esquerdo] (Lombociatalgia com radiculopatia)].
+  * Localização & Irradiação: [Dor estritamente lombar baixa sem irradiação (Lombalgia mecânica pura) / Dor irradiando para glúteo, face posterior da coxa, perna e dorso/planta do pé (direito / esquerdo) (Lombociatalgia com radiculopatia)].
   * Caráter: Dor em pontada profunda associada a sensação de espasmo/trava muscular, intensidade [ ]/10.
   * Fatores de Piora/Melhora: Piora ao fletir a coluna para a frente, permanecer sentado ou tossir; alívio parcial em decúbito dorsal com pernas dobradas sobre travesseiros.
 - RASTREAMENTO OBRIGATÓRIO DE SINAIS DE ALARME (RED FLAGS DA COLUNA):
@@ -21,7 +21,7 @@
   * [ ] NEOPLASIA / METÁSTASE ÓSSEA: Nega histórico pessoal prévio de câncer (mama, próstata, pulmão); nega dor contínua em repouso que piora de madrugada na cama sem alívio em qualquer posição; nega perda ponderal inexplicada.
   * [ ] INFECÇÃO DA COLUNA (ESPONDILODISCITE / ABSCESSO EPIDURAL): Nega febre, calafrios ou sudorese noturna; nega uso de drogas endovenosas ou infecção urinária/cutânea recente.
   * [ ] RISCO DE FRATURA OSTEOPORÓTICA: Idade < 65 anos, nega uso crônico prolongado de corticoides orais e nega trauma contuso de alto impacto.
-- Alergias: [Nega / [ ]].
+- Alergias: [Nega /].
 
 # OBJETIVO (EXAME FÍSICO OSTEOMUSCULAR & NEUROLÓGICO DIRIGIDO):
 - Sinais Vitais: PA: [ ]x[ ] mmHg | FC: [ ] bpm | Tax: [ ] °C (afebril).
@@ -72,5 +72,37 @@
 
 ---
 
-### [CUIDADO COM EXAMES DE IMAGEM DESNECESSÁRIOS]
-- **Por que Não Pedir Raio-X de Coluna Lombar na UPA:** Diretrizes internacionais (como as do *Choosing Wisely* e Colégio Americano de Médicos) recomendam **não realizar radiografia ou tomografia de rotina** nas primeiras 4 a 6 semanas de lombalgia aguda sem sinais de alarme. O raio-X expõe o paciente a radiação desnecessária e só mostra alterações degenerativas comuns da idade (bicos de papagaio, desidratação discal) que existem em pessoas assintomáticas e não mudam a conduta clínica da crise aguda. Exame de imagem na urgência fica restrito a suspeita de fratura, infecção, neoplasia ou cauda equina.
+## 💊 Receita Domiciliar / Alta (Pronta para Copiar)
+
+> **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
+
+```text
+USO ORAL:
+
+1. Ciclobenzaprina 5 mg (ou 10 mg) ----------------------------- 10 comprimidos
+   Tomar 01 comprimido por via oral à noite, 1 hora antes de dormir, por 5 a 7 dias. Atenção: causa sonolência; evitar dirigir ou operar máquinas.
+
+2. Dipirona Sódica 1 g ----------------------------------------- 20 comprimidos
+   Tomar 01 comprimido por via oral de 6/6 horas por 3 a 5 dias para controle álgico de base.
+
+3. Naproxeno 500 mg (ou Ibuprofeno 600 mg) --------------------- 10 comprimidos
+   Tomar 01 comprimido por via oral de 12/12 horas (Naproxeno) ou de 8/8 horas (Ibuprofeno), após as refeições, por no máximo 5 dias.
+
+ORIENTAÇÕES E SINAIS DE ALERTA (CAUDA EQUINA):
+- Aplicar compressa morna na região lombar por 20 minutos, 3x/dia.
+- Evitar repouso absoluto na cama (manter caminhadas leves conforme tolerância acelera a recuperação).
+- RETORNO IMEDIATO se: perda de força no pé (pé caído/tropeços), dormência na região genital/perineal ("anestesia em sela") ou retenção/incontinência urinária ou fecal.
+```
+
+---
+
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Lombalgia Mecânica vs. Sinais de Alarme (*Red Flags*): Por Que Não Solicitar Imagem de Rotina na UPA?
+Mais de 90% das lombalgias agudas no pronto-socorro são **mecânico-posturais ou miofasciais autolimitadas**, nas quais radiografias ou tomografias precoces (< 4–6 semanas) não mudam a conduta e aumentam intervenções desnecessárias. Exames de imagem na urgência são reservados exclusivamente para pacientes com **Red Flags (mnemônico TUNA FISH)**: **T**rauma significativo, **U**so de corticoide/Osteoporose, **N**eurologia alterada (**Síndrome da Cauda Equina**), **A**ge (< 20 ou > 50 anos com dor nova), **F**ebre/uso de drogas IV (espondilodiscite/abscesso epidural), **I**nexplicada perda ponderal e **H**istória de câncer (metástase óssea, dor noturna que não melhora ao repouso).
+
+### 💊 2. Manobra de Lasègue, Exame Miotomal Rápido e o Mito do Corticoide Sistêmico
+Para diferenciar dor lombar axial de compressão radicular verdadeira (hérnia discal L4-L5 ou L5-S1), a **Manobra de Lasègue** só é positiva quando reproduz dor irradiada abaixo do joelho entre **30° e 70°** de elevação da perna estendida (dor apenas na coxa posterior é encurtamento de isquiotibiais). Em 30 segundos, testa-se a integridade motora: **andar nos calcanhares (raiz L5 — dorsiflexão)** e **andar na ponta dos pés (raiz S1 — flexão plantar)**. No manejo farmacológico, **corticoides sistêmicos (Dexametasona IM/Prednisona) não têm eficácia comprovada na lombalgia mecânica pura**, sendo a base o retorno precoce ao movimento + Analgésico + AINE em ciclo curto + Relaxante muscular (Ciclobenzaprina).
+
+### 🧭 3. Síndrome da Cauda Equina: A Emergência Neurocirúrgica que Não Pode Esperar
+A compressão maciça das raízes lombossacrais abaixo do cone medular manifesta-se por **anestesia em sela** (perda de sensibilidade no períneo, nádegas e face interna das coxas), **retenção urinária com incontinência por transbordamento** (o sinal mais sensível), hiporreflexia aquileia bilateral e déficit motor progressivo (*pé caído*). Qualquer suspeita exige **Ressonância Magnética de Coluna Lombossacra de emergência** e descompressão cirúrgica em até 24–48h para evitar paraparesia e bexiga neurogênica definitivas.

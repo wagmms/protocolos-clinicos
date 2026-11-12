@@ -79,5 +79,45 @@
 
 ---
 
-### [MUDANÇA DE CONDUTA: O FIM DA COLCHICINA DE HORA EM HORA]
-- **Abandono do Esquema Antigo de Colchicina:** Antigamente, prescrevia-se 1 comprimido de Colchicina a cada 1 ou 2 horas até o paciente ter diarreia. Esse esquema antigo é tóxico e ultrapassado. Grandes ensaios clínicos demonstraram que o **esquema de baixa dose (1,0 mg agora + 0,5 mg em 1 hora)** tem exatamente a mesma eficácia analgésica que a dose alta, mas com incidência de diarreia e vômitos comparável ao placebo.
+## 💊 Receita Domiciliar / Alta (Pronta para Copiar)
+
+> **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
+
+```text
+USO ORAL (ABORTAMENTO DA CRISE AGUDA DE GOTA):
+
+[OPÇÃO 1 - FUNÇÃO RENAL NORMAL E SEM ÚLCERA GÁSTRICA (AINE EM DOSE PLENA)]:
+1. Naproxeno 500 mg (ou Indometacina 50 mg) -------------------- 14 comprimidos
+   Tomar 01 comprimido por via oral de 12/12 horas (Naproxeno) ou de 8/8 horas (Indometacina), após as refeições, por 5 a 7 dias até resolução da artrite.
+
+[OPÇÃO 2 - ESQUEMA DE COLCHICINA EM BAIXA DOSE (ESQUEMA ACR/EULAR — SEM INTOXICAÇÃO GI)]:
+1. Colchicina 0,5 mg ------------------------------------------- 20 comprimidos
+   No 1º dia (início precoce): tomar 02 comprimidos (1,0 mg) juntos de ataque e, 1 hora depois, tomar mais 01 comprimido (0,5 mg). Não tomar mais nenhuma dose no 1º dia.
+   A partir do 2º dia: manter 01 comprimido (0,5 mg) de 12/12 horas até o desaparecimento da crise. Suspender imediatamente se surgir diarreia.
+
+[OPÇÃO 3 - SE DOENÇA RENAL CRÔNICA, IDOSO OU CONTRAINDICAÇÃO A AINE/COLCHICINA]:
+1. Prednisolona 20 mg ------------------------------------------ 15 comprimidos
+   Tomar 01 e meio a 02 comprimidos (30 a 40 mg) pela manhã por 5 dias, seguido de desmame gradual.
+
+REGRAS DE OURO NA CRISE AGUDA:
+- NUNCA iniciar nem suspender o Alopurinol durante a crise aguda de gota (se já usava continuamente, manter na mesma dose; se não usava, aguardar 2 semanas após a resolução da crise para iniciar no ambulatório).
+- Aplicar gelo envolto em pano na articulação por 15-20 min, 3x/dia, manter o membro elevado, hidratar-se bem e suspender cerveja, destilados e refrigerantes adoçados com frutose.
+```
+
+---
+
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Gota Aguda vs. Artrite Séptica: A Armadilha Diagnóstica na Monoartrite Quente
+A crise aguda de gota decorre da fagocitose de cristais de monourato de sódio pelos macrófagos sinoviais, ativando o **inflamassoma NLRP3** e liberando uma tempestade de **Interleucina-1$eta$ ($IL-1eta$)** que produz monoartrite hiperaguda (pico em < 24h), eritema violáceo e dor ao mínimo toque do lençol (classicamenente na 1ª metatarsofalangeana — **Podagra** —, tornozelo ou joelho). Contudo, **ácido úrico sérico normal na vigência da crise NÃO descarta gota** (a $IL-6$ tem efeito uricosúrico agudo, reduzindo a uricemia durante o ataque) e **hiperuricemia NÃO exclui Artrite Séptica**. Na dúvida diante de monoartrite aguda com febre alta ou porta de entrada, a **artrocentese diagnóstica** (contagem celular, Gram, cultura e pesquisa de cristais com birrefringência negativa) é mandatória.
+
+### 💊 2. Por Que NUNCA Iniciar nem Suspender o Alopurinol Durante a Crise Aguda?
+Qualquer oscilação brusca na concentração sérica de ácido úrico desestabiliza os microtofos sinoviais, promovendo dissolução parcial e **desprendimento (*shedding*) de novos cristais para a cavidade articular**, o que perpetua e agrava a crise inflamatória. Por isso, vale a regra de ouro:
+- Se o paciente **NÃO usa Alopurinol**: **não iniciar** na UPA; tratar apenas a inflamação aguda e iniciar o hipouricemiante ambulatorialmente 2 semanas após a resolução da crise.
+- Se o paciente **JÁ usa Alopurinol regularmente**: **manter na mesma dose habitual** sem interromper.
+
+### 🧭 3. Escolha da Droga Abortiva: AINE, Colchicina em Baixa Dose ou Corticoide?
+As três classes têm eficácia equivalente quando iniciadas precocemente (< 24–36h):
+1. **AINE em dose plena (Naproxeno, Indometacina ou Cetoprofeno)**: 1ª escolha em jovens hígidos sem DRC ou doença ulcerosa péptica.
+2. **Colchicina em regime de baixa dose (*estudo AGREE*)**: **1,0 mg (2 cp) de ataque seguido de 0,5 mg (1 cp) 1 hora depois no Dia 1** — possui a mesma eficácia do regime antigo de tomadas de hora em hora, mas sem causar diarreia tóxica incapacitante.
+3. **Corticoide (Prednisolona 30–40 mg/dia por 5 dias ou infiltração intra-articular)**: 1ª escolha absoluta em idosos, portadores de **Doença Renal Crônica (TFG < 60)**, cirróticos, cardiopatas ou anticoagulados.

@@ -10,16 +10,16 @@
 ```text
 ###### CONSULTA AMBULATORIAL — GINECOLOGIA GERAL & PREVENÇÃO ######
 # IDENTIFICAÇÃO & HISTÓRIA REPRODUTIVA:
-Paciente [Nome], [Idade] anos, G[ ] P[ ] (PN [ ] / PC [ ]) A[ ], Status: [Menacme / Climatério / Pós-menopausa há [ ] anos].
+Paciente [Nome], [Idade] anos, G[ ] P[ ] (PN [ ] / PC [ ]) A[ ], Status: [Menacme / Climatério / Pós-menopausa há anos].
 - DUM: [DD/MM/AAAA] | Ciclos: [Regulares 28/28d, fluxo 4–5d normal / Irregulares / Sangramento uterino aumentado com coágulos / Amenorreia].
-- Contracepção / TRH Atual: [Nenhum / ACO: [ ] / DIU de Cobre / SIU-LNG Mirena / Implanon / Injetável mensal ou trimestral / Preservativo].
+- Contracepção / TRH Atual: [Nenhum / ACO: / DIU de Cobre / SIU-LNG Mirena / Implanon / Injetável mensal ou trimestral / Preservativo].
 - Rastreio Oncológico Prévio:
-  * Citopatológico / DNA-HPV: Último em [MM/AAAA] -> [Normal (NILM) / Alterado: [ ] / Nunca realizou].
+  * Citopatológico / DNA-HPV: Último em [MM/AAAA] -> [Normal (NILM) / Alterado: / Nunca realizou].
   * Mamografia Bilateral: Última em [MM/AAAA] -> [BI-RADS 1 ou 2 / BI-RADS 0 / BI-RADS 3 / Não aplicável pela idade].
-  * USG Transvaginal: Última em [MM/AAAA] -> [Sem alterações / Miomatose uterina / Eco endometrial de [ ] mm].
+  * USG Transvaginal: Última em [MM/AAAA] -> [Sem alterações / Miomatose uterina / Eco endometrial de mm].
 
 # ANTECEDENTES & SUBJETIVO (QD & HMA):
-- Comorbidades, HF & Alergias: [Hígida / HAS / DM2 / Dislipidemia / Hipotireoidismo] | HF Câncer (Mama < 50a / Ovário / Endométrio em 1º grau): [Nega / Positivo em: [ ]] | Alergias: [Nega alergias medicamentosas / Alérgica a: [ ]] | Tabagismo: [Nega / Sim].
+- Comorbidades, HF & Alergias: [Hígida / HAS / DM2 / Dislipidemia / Hipotireoidismo] | HF Câncer (Mama < 50a / Ovário / Endométrio em 1º grau): [Nega / Positivo em:] | Alergias: [Nega alergias medicamentosas / Alérgica a:] | Tabagismo: [Nega / Sim].
 - Queixa Principal & HMA: Comparece para [rotina ginecológica preventiva anual assintomática / queixa de corrimento vaginal com prurido / queixa de corrimento com odor fétido (peixe) / sangramento uterino anormal / fogachos e ressecamento vaginal].
 - Negativas Mandatórias Ginecológicas: Nega sinusorragia (sangramento pós-coito), sangramento pós-menopausa, dor pélvica aguda, dispareunia profunda, febre ou perda urinária.
 

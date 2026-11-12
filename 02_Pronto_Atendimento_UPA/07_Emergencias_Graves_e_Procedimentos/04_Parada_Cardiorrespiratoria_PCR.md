@@ -24,7 +24,7 @@ CICLOS DE RESSUSCITAÇÃO CARDIOPULMONAR (ACLS):
 - Monitorização conectada / Pás posicionadas.
 - RITMO INICIAL: [ FV / TV sem pulso / Assistolia / AESP ]
 
-EVOLUÇÃO DOS CICLOS E INTERVENÇÕES:
+# PLANO / CONDUTA (CICLOS DE RCP, DROGAS, CAUSAS REVERSÍVEIS & DESFECHO PÓS-RCE):
 * Ciclo 1 ([ ]h[ ]): Ritmo [ ] | [ Choque de 200J Bifásico / Não chocável ] | RCP 2 min.
 * Ciclo 2 ([ ]h[ ]): Ritmo [ ] | Droga: Adrenalina 1mg EV/IO + flush 20ml SF 0,9%.
 * Ciclo 3 ([ ]h[ ]): Ritmo [ ] | [ Choque 200J ] | Droga: [ Amiodarona 300mg EV / Não indicado ].
@@ -40,9 +40,9 @@ INVESTIGAÇÃO ATIVA DE CAUSAS REVERSÍVEIS (5 Hs e 5 Ts):
 - Hipovolemia: [ Descartada / Infundido 1000ml SF 0,9% ]
 - Hipóxia: [ Via aérea pérvia, FiO2 100% ]
 - Hidrogênio (acidose): [ Corrigida ventilação / Bicarbonato de sódio se acidose grave/hipercalemia ]
-- Hipo/Hipercalemia: [ Glicemia capilar: [ ] mg/dL / Gluconato de cálcio 10% administrado se suspeita de hiperK ]
-- Hipotermia: [ Temperatura axilar [ ] °C ]
-- Tensão no tórax (Pneumotórax hipertensivo): [ Ausculta simétrica / Descompressão por toracocentese [ ] ]
+- Hipo/Hipercalemia: [ Glicemia capilar: mg/dL / Gluconato de cálcio 10% administrado se suspeita de hiperK ]
+- Hipotermia: [ Temperatura axilar ( ) °C ]
+- Tensão no tórax (Pneumotórax hipertensivo): [ Ausculta simétrica / Descompressão por toracocentese ]
 - Tamponamento cardíaco: [ FAST negativo / Sem turgência jugular ]
 - Toxinas: [ Investigado histórico de intoxicação exógena ]
 - Trombose coronária (IAM): [ Suspeita clínica de SCA prévia ]
@@ -62,84 +62,17 @@ DESFECHO DO ATENDIMENTO:
 
 ---
 
-## 🎯 Guia de Bolso & Conduta Imediata
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
 
-### 1. Dinâmica da RCP de Alta Qualidade (ACLS)
-- **Frequência:** 100 a 120 compressões por minuto.
-- **Profundidade:** 5 a 6 cm no adulto (evitar comprimir > 6 cm).
-- **Retorno do tórax:** Permitir descompressão torácica completa a cada ciclo; não permanecer debruçado sobre o tórax do paciente.
-- **Minimizar interrupções:** Máximo de 10 segundos para troca de compressor e checagem de ritmo/pulso a cada 2 minutos.
-- **Troca de função:** Trocar de compressor a cada 2 minutos ou antes se exaustão.
-- **Monitorização por Capnografia (ETCO2):**
-  - Se ETCO2 < 10 mmHg durante a RCP: tentar melhorar qualidade das compressões.
-  - Se aumento súbito e sustentado do ETCO2 (para ≥ 35-40 mmHg): sinal fidedigno de **RCE** (não interromper compressões imediatamente; aguardar o fim do ciclo de 2 minutos para checar pulso).
+### 🧠 1. Ritmos Chocáveis (FV/TVsp) vs. Não Chocáveis (AESP/Assistolia): Por Que Compressão e Choque Precoce Salvam no ACLS?
+Apenas duas intervenções têm nível de evidência A incontestável de aumento da sobrevida neurológica intacta na PCR: **compressões torácicas de alta qualidade** (100–120/min, 5–6 cm de profundidade, retorno completo do tórax e fração de compressão > 80%) e **desfibrilação precoce nos ritmos chocáveis**.
+- Em **FV / TV sem pulso**: a prioridade absoluta é o **Choque Bifásico (200 J)** imediato seguido de 2 min de RCP; a **Adrenalina 1 mg IV** entra após o **2º choque**, e a **Amiodarona 300 mg IV** (1ª dose) / **150 mg IV** (2ª dose) entra na refração após o **3º choque**.
+- Em **AESP / Assistolia**: o choque é proscrito (em assistolia, realiza-se o **Protocolo da Linha Reta**: *Cabos conectados? Ganho aumentado? Derivação trocada?* para excluir FV fina) e a **Adrenalina 1 mg IV/IO deve ser feita o mais rápido possível (no 1º ciclo)**, repetida a cada 3–5 minutos.
 
----
+### 💊 2. Como Caçar e Tratar Ativamente os 5Hs e 5Ts Durante os 2 Minutos de RCP
+Uma AESP raramente reverte apenas com adrenalina se a causa mecânica ou metabólica subjacente não for corrigida durante o atendimento:
+- **5 Hs**: **H**ipovolemia (bolus de cristaloide/hemotransfusão), **H**ipóxia (IOT sem hiperventilar — 1 ventilação a cada 6s), **H**idrogênio/Acidose ($HCO_3^- 1$ mEq/kg IV se acidose prévia grave ou tricíclico), **H**ipo/Hipercalemia (**Gluconato de Cálcio 10% 30 mL IV + $HCO_3^-$** na suspeita de hiper-K em renal crônico) e **H**ipotermia.
+- **5 Ts**: **T**ensão no tórax/Pneumotórax hipertensivo (toracocentese de alívio), **T**amponamento cardíaco (pericardiocentese), **T**oxinas, **T**rombose coronariana (IAM) e **T**rombose pulmonar (TEP maciço — considerar trombólise com Alteplase 50 mg IV em bolus na PCR).
 
-### 2. Algoritmo por Ritmo
-
-#### A. Ritmos Chocáveis: Fibrilação Ventricular (FV) e Taquicardia Ventricular sem Pulso (TVSP)
-1. **Identificou FV/TVSP:** Carregar desfibrilador em **200 Joules** (Bifásico) ou **360 Joules** (Monofásico).
-2. **Choque imediato:** Afastar todos ("Afastem-se do leito, choque em 3, 2, 1, CHOQUE").
-3. **Reiniciar RCP IMEDIATAMENTE após o choque** por 2 minutos (NÃO checar pulso nem ritmo logo após o choque).
-4. **Após o 2º choque:** **Adrenalina 1 mg EV/IO** em bólus + 20 ml SF 0,9% flush + elevar membro por 20 segundos (repetir a cada 3 a 5 minutos).
-5. **Após o 3º choque:** Antiarrítmico:
-   - **Amiodarona 300 mg EV/IO** em bólus (1ª dose).
-   - *Alternativa no 5º choque:* **Amiodarona 150 mg EV/IO** (2ª dose).
-   - *(Se Lidocaína em vez de Amiodarona: 1ª dose 1,0 a 1,5 mg/kg EV; 2ª dose 0,5 a 0,75 mg/kg EV).*
-6. **Sulfato de Magnésio:** 1 a 2 g EV diluídos em 10 ml de SG 5% em bólus se *Torsades de Pointes* (TV polimórfica associada a QT longo).
-
-#### B. Ritmos Não Chocáveis: Assistolia e Atividade Elétrica Sem Pulso (AESP)
-1. **Identificou Assistolia ou AESP:** **NÃO CHOCAR. NÃO USAR AMIODARONA.**
-2. **Reiniciar RCP IMEDIATAMENTE por 2 minutos.**
-3. **Adrenalina 1 mg EV/IO:** Administrar **o mais rápido possível** (no 1º ciclo) e repetir a cada 3 a 5 minutos.
-4. **Assistolia - Protocolo da Linha Reta:**
-   - Conferir se os cabos e eletrodos estão conectados.
-   - Aumentar o ganho do monitor.
-   - Trocar de derivação (ex: DII para DIII/V1) para descartar FV fina mascarada.
-5. **Busca e Tratamento das Causas Reversíveis (5Hs e 5Ts):**
-   - **Hipovolemia:** Prova volêmica com cristaloides em bólus.
-   - **Hipóxia:** O2 100%, checar posicionamento de tubo orotraqueal e aspiração de vias aéreas.
-   - **Hidrogênio (Acidose metabólica):** Otimizar ventilação; Bicarbonato de sódio 8,4% 1 mEq/kg EV se acidose preexistente grave ou hipercalemia.
-   - **Hipo/Hipercalemia:** Gluconato de Cálcio 10% 1 a 2 ampolas EV para estabilização de membrana miocárdica na suspeita de hipercalemia (paciente renal crônico/dialítico).
-   - **Hipotermia:** Manta térmica, infusão de soluções aquecidas.
-   - **Tensão no tórax (Pneumotórax):** Toracocentese de alívio por punção no 4º/5º espaço intercostal entre a linha axilar anterior e média (ou 2º EIC linha hemiclavicular).
-   - **Tamponamento cardíaco:** Pericardiocentese de alívio se suspeita/ultrassom (FAST) compatível.
-   - **Toxinas:** Antídotos específicos (Naloxona se opioides, Flumazenil proscrito de rotina, Bicarbonato se antidepressivo tricíclico).
-   - **Trombose coronária:** Trombólise ou encaminhamento emergencial para cineangiocoronariografia (angioplastia primária).
-   - **Tromboembolismo Pulmonar:** Considerar Alteplase (rtPA) 50 mg EV em bólus se alta suspeita de TEP maciço durante a PCR (manter RCP por pelo menos 15-30 min após).
-
----
-
-### 3. Cuidados Pós-Ressuscitação (Pós-RCE)
-
-```markdown
-CONDUTAS IMEDIATAS PÓS-RCE:
-1. Otimização Hemodinâmica:
-   - Alvo: Pressão Arterial Média (PAM) ≥ 65 mmHg e PAS ≥ 90 mmHg.
-   - Se hipotensão: Noradrenalina em bomba de infusão contínua:
-     * Noradrenalina (4mg/4ml) 4 ampolas + SG 5% 234 ml (concentração 64 mcg/ml).
-     * Iniciar em 5 a 10 ml/h e titular rapidamente pela PAM.
-
-2. Otimização Respiratória e Ventilatória:
-   - Evitar hipoxemia (alvo SpO2 92% a 98%, nunca 100% contínuo para evitar hiperóxia deletéria).
-   - Ventilação protetora: Volume corrente 6 ml/kg de peso predito; frequência respiratória 10-12/min; PEEP 5 a 8 cmH2O.
-   - Evitar hipocapnia excessiva (alvo PaCO2 35-45 mmHg / ETCO2 35-40 mmHg). A hiperventilação causa vasoconstrição cerebral e agrava a lesão isquêmica cerebral.
-
-3. Avaliação Coronariana Urgente:
-   - ECG de 12 derivações realizado imediatamente à beira do leito.
-   - Se Supra de ST ou suspeita clínica altíssima de IAM: Acionar Cateterismo Cardíaco / Hemodinâmica com urgência (meta porta-balão < 90 min).
-
-4. Manejo Neuroprotetor & Controle Direcionado de Temperatura (CDT):
-   - Se o paciente não responde a comandos após a RCE (em coma / Glasgow < 8):
-     * Manter controle térmico rigoroso com alvo constante entre 32°C e 36°C (ou prevenção estrita de febre com T < 37,5°C) por pelo menos 24 a 72 horas.
-     * Prevenir tremores com sedação contínua (ex: Fentanil + Midazolam ou Propofol) e bloqueador neuromuscular se necessário.
-
-5. Investigação Diagnóstica Complementar:
-   - Gasometria arterial com lactato sérico.
-   - Eletrólitos completos (Na, K, Ca iônico, Mg, Cl).
-   - Troponina I/T, CK-MB, CPK total.
-   - Hemograma completo, coagulograma, ureia e creatinina.
-   - Radiografia de tórax no leito (conferir altura do TOT e afastar complicações de compressão torácica / pneumotórax).
-   - TC de crânio sem contraste se ECG sem supra e etiologia da PCR não elucidada.
-```
+### 🧭 3. Capnografia na PCR e o Pacote de Cuidados Pós-Retorno da Circulação Espontânea (RCE)
+Com via aérea avançada instalada, a **Capnografia quantitativa ($EtCO_2$)** é o termômetro em tempo real do débito cardíaco gerado pela massagem: **$EtCO_2 < 10$ mmHg** exige melhorar imediatamente a qualidade da compressão, enquanto um **salto abrupto do $EtCO_2$ para > 35–40 mmHg** é o primeiro sinal de **Retorno da Circulação Espontânea (RCE)**. Após o RCE, aplica-se a regra dos 5 passos: titular $FiO_2$ para **$SpO_2$ 92–98%** (evitar hiperóxia), manter $PaCO_2$ 35–45 mmHg, garantir **PAM ≥ 65 mmHg** com Noradrenalina, rodar **ECG de 12 derivações** (para CATE se Supra de ST) e prevenir febre ($Tax < 37,5^\circ C$) nos comatosos.

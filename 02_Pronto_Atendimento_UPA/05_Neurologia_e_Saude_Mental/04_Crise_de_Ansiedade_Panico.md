@@ -21,7 +21,7 @@
   * EXCLUSÃO DE SÍNDROME CORONARIANA AGUDA: Nega dor precordial em aperto com irradiação para mandíbula ou dorso; nega histórico de cardiopatia isquêmica.
   * EXCLUSÃO DE TEP E ASMA: Nega dor pleurítica aguda em pontada, nega tosse ou chiado no peito; nega imobilização recente ou TVP prévia.
   * EXCLUSÃO DE INTOXICAÇÃO: Nega uso de drogas simpaticomiméticas ilícitas (cocaína, ecstasy, anfetaminas) ou anorexígenos.
-- Alergias: [Nega / [ ]].
+- Alergias: [Nega /].
 
 # OBJETIVO (EXAME FÍSICO DA EMERGÊNCIA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg (discretamente elevada por tônus adrenérgico) | FC: [ ] bpm (taquicardia sinusal) | FR: [ ] irpm (padrão taquipneico suspiroso) | SpO2: 99% a 100% em ar ambiente | Tax: [ ] °C.
@@ -62,5 +62,35 @@
 
 ---
 
-### [ERRO HISTÓRICO: O MITO DO SACO DE PAPEL]
-- **Nunca Mandar o Paciente Hiperventilar em Saco de Papel:** A antiga prática de mandar o paciente respirar dentro de um saco plástico ou de papel fechado para reinalar CO2 é formalmente contraindicada. Se o paciente tiver na verdade um TEP, crise asmática ou pneumotórax mascarado, a hipóxia gerada pela reinalação em saco fechado pode provocar parada cardiorrespiratória súbita. O padrão-ouro é a **respiração diafragmática lenta ao ar livre**.
+## 💊 Receita Domiciliar / Alta (Pronta para Copiar)
+
+> **Como usar:** Clique no botão **`💊 Receita`** no topo do card ou na aba **Receita** para copiar apenas a prescrição de alta pronta para impressão/entrega ao paciente.
+
+```text
+USO ORAL:
+
+1. Cloridrato de Sertralina 50 mg ------------------------------ 30 comprimidos
+   Tomar meio comprimido (25 mg) pela manhã após o café nos primeiros 7 dias, passando para 01 comprimido (50 mg) pela manhã a partir do 8º dia, continuamente, até avaliação psiquiátrica/ambulatorial.
+
+2. Cloridrato de Hidroxizina 25 mg ----------------------------- 10 comprimidos
+   Tomar 01 comprimido por via oral à noite ou em caso de crise aguda de ansiedade/insônia (máximo de 2 comprimidos ao dia). Atenção: pode causar sonolência.
+
+ORIENTAÇÕES NÃO FARMACOLÓGICAS E SINAIS DE ALERTA:
+- Praticar respiração diafragmática quadrada (inspirar em 4s, segurar 4s, expirar lentamente pela boca em 6s) aos primeiros sinais de taquicardia ou formigamento.
+- Reduzir consumo de cafeína, energéticos, pré-treinos e nicotina.
+- Buscar acompanhamento longitudinal em Saúde Mental (UBS / CAPS / Psicoterapia Cognitivo-Comportamental).
+- Retornar imediatamente se dor torácica opressiva ao esforço, desmaio ou ideação de autoextermínio.
+```
+
+---
+
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que o Ataque de Pânico É um Diagnóstico de Exclusão Orgânica na Sala de Emergência?
+A descarga simpática aguda do ataque de pânico (*locus coeruleus* e amígdala) libera catecolaminas que causam dor torácica, taquicardia, sudorese e dispneia idênticas às de uma **Síndrome Coronariana Aguda, Tromboembolismo Pulmonar (TEP), Taquiarritmia Supraventricular, Hipoglicemia ou Crise Tireotóxica**. Por isso, o protocolo seguro exige sinais vitais completos, $SpO_2$, HGT e ECG em pacientes com dor torácica ou fatores de risco antes de atribuir o quadro à ansiedade. A parestesia perioral e o espasmo carpopedal ("mão de parteiro") decorrem da **alcalose respiratória aguda por hiperventilação** (queda da $PaCO_2$ reduz o cálcio iônico livre por aumento da ligação à albumina, hiperexcitando nervos periféricos).
+
+### 💊 2. Por Que a Respiração Diafragmática Supera a Sedação Venosa e Quando Usar Benzodiazepínico?
+Orientar a **respiração lenta com expiração prolongada (4s-4s-6s)** corrige a hipocapnia e ativa o reflexo vagal barorreceptor sem iatrogenia (nota: respirar em saco de papel é contraindicado caso haja hipóxia ou TEP oculto). Se o sofrimento agudo persistir, utiliza-se benzodiazepínico por via oral ou sublingual (Clonazepam 0,25–0,5 mg ou Diazepam 5 mg VO) apenas como resgate pontual na sala de observação, evitando-se prescrição contínua de benzodiazepínicos na alta pelo alto risco de dependência e efeito rebote, priorizando-se ISRS (Sertralina/Escitalopram) com titulação lenta nos primeiros 7 dias.
+
+### 🧭 3. Estratificação de Risco de Suicídio e Redirecionamento à Rede de Saúde Mental
+Mesmo após a remissão completa dos sintomas autonômicos na UPA, nenhum paciente com crise psiquiátrica aguda deve receber alta sem **avaliação ativa e empática de ideação suicida** (presença de plano estruturado, acesso a meios letais, tentativa prévia, desesperança grave ou ausência de suporte familiar). Na ausência de risco iminente, a alta é segura com validação do sofrimento (evitando frases minimizadoras como *"você não tem nada"*), plano escrito de manejo de crise e referência para UBS/CAPS.

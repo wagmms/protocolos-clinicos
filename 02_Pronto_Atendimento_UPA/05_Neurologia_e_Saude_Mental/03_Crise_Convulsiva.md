@@ -15,8 +15,8 @@
 # SUBJETIVO (DADOS FORNECIDOS POR FAMILIARES / SOCORRISTAS DO SAMU):
 - Descrição da Crise: Presenciada crise convulsiva generalizada caracterizada por abalos tônico-clônicos nos 4 membros, desvio do olhar para cima, sialorreia ("espuma na boca"), mordedura de borda lateral de língua e perda súbita da consciência. Duração estimada da crise: cerca de [ ] minutos.
 - Eventos Ictais: [Liberação esfincteriana urinária e/ou fecal presente / Ausente].
-- Fatores Desencadeantes: [Abandono recente de anticonvulsivantes (Fenobarbital/Carbamazepina/Valproato) / Febre alta prévia / Abstinência alcoólica aguda há [ ] horas / Privação severa de sono / Uso de drogas ilícitas (cocaína/crack) / TCE recente].
-- Alergias: [Nega / [ ]].
+- Fatores Desencadeantes: [Abandono recente de anticonvulsivantes (Fenobarbital/Carbamazepina/Valproato) / Febre alta prévia / Abstinência alcoólica aguda há horas / Privação severa de sono / Uso de drogas ilícitas (cocaína/crack) / TCE recente].
+- Alergias: [Nega /].
 
 # OBJETIVO (EXAME FÍSICO NA SALA DE EMERGÊNCIA):
 - SINAIS VITAIS: PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% | Tax: [ ] °C.
@@ -25,7 +25,7 @@
   * Nível de Consciência: [Sonolento, despertável ao chamado verbal / Confuso / Em torpor / Lúcido].
   * Escala de Coma de Glasgow: [ ] / 15 pontos.
   * Oroscopia: Presença de ferimento cortocontuso recente na borda lateral da língua com estrias hemáticas (sinal característico de crise epiléptica motora generalizada).
-  * Exame Neurológico Pós-Ictal: Pupilas isocóricas e fotorreagentes, ausência de assimetria de reflexos, reflexo cutâneo-plantar em flexão bilateral [ou Paralisia de Todd transitória em hemicorpo [ ] com recuperação gradual]. Ausência de rigidez de nuca.
+  * Exame Neurológico Pós-Ictal: Pupilas isocóricas e fotorreagentes, ausência de assimetria de reflexos, reflexo cutâneo-plantar em flexão bilateral [ou Paralisia de Todd transitória em hemicorpo ( ) com recuperação gradual]. Ausência de rigidez de nuca.
   * Inspeção Corporal: Ausência de estigmas de trauma cranioencefálico grave ou fraturas por queda.
 
 # AVALIAÇÃO DIAGNÓSTICA:
@@ -62,6 +62,13 @@
 
 ---
 
-### [REGRAS DE SEGURANÇA ABSOLUTA NA CONVULSÃO]
-- **Tiamina Antes da Glicose em Etilistas:** Administrar glicose hipertônica em paciente etilista crônico desnutrido sem antes repor Tiamina (Vitamina B1) consome o restante da reserva de tiamina cerebral como cofator da glicólise, precipitando **Encefalopatia de Wernicke aguda irreversível** (tríade de confusão mental, oftalmoplegia/nistagmo e ataxia).
-- **A Fenitoína Precipita no Soro Glicosado:** A Fenitoína é formulada em pH muito alcalino (pH ~12). Ao entrar em contato com Soro Glicosado 5% (pH ácido ~4), o fármaco se cristaliza imediatamente, entupindo o equipo venoso e causando flebite química e embolia por cristais. Diluir **apenas em Soro Fisiológico 0,9%**.
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que o Estado de Mal Epiléptico Exige Benzodiazepínico nos Primeiros 5 Minutos?
+Toda crise epiléptica tônico-clônica generalizada que dura **≥ 5 minutos** (ou duas crises sem recuperação completa da consciência entre elas — *T1 operacional da ILAE*) define **Estado de Mal Epiléptico (EME)**. Fisiopatologicamente, nos primeiros minutos de descarga neuronal hipersincrônica contínua, ocorre **internalização endocítica dos receptores sinápticos inibitórios $GABA_A$** e migração de receptores excitatórios NMDA/AMPA para a membrana pós-sináptica. Isso explica a perda progressiva de potência dos benzodiazepínicos quanto mais se demora a administrá-los e por que jamais se deve aguardar acesso venoso difícil: na ausência de veia pérvia imediata, o **Midazolam 10 mg IM** (estudo *RAMPART*) é tão ou mais rápido para abortar a crise quanto o Diazepam IV.
+
+### 💊 2. Por Que a Fenitoína É Diluída Apenas em SF 0,9% e Por Que Checar Glicemia + Sódio Antes de Tudo?
+Antes de rotular uma crise como epiléptica primária, a **glicemia capilar (HGT)** é o "quinto sinal vital": a hipoglicemia neuroglicopênica mimetiza EME refratário e só cessa com **Glicose 50% IV** (precedida de **Tiamina 100 mg IV** em etilistas ou desnutridos para prevenir encefalopatia de Wernicke). Na 2ª linha (crise refratária a 2 doses de benzodiazepínico), a **Fenitoína (20 mg/kg IV)** estabiliza canais de sódio voltagem-dependentes, mas possui pH altamente alcalino (~12): se diluída em Soro Glicosado 5%, precipita em microcristais insolúveis; se infundida a **> 50 mg/min**, bloqueia canais de sódio miocárdicos causando bradiarritmia grave e hipotensão.
+
+### 🧭 3. Primeira Crise no Adulto: Quem Precisa de TC de Crânio no PS e Quem Vai de Alta?
+Todo adulto com **primeira crise não provocada** requer investigação metabólica (Na, Ca, Mg, função renal, glicemia) e **TC de Crânio sem contraste na urgência** para excluir lesão estrutural aguda (AVCh, neoplasia, neurocisticercose, trombose venosa cerebral). Em crise única autolimitada, com retorno completo ao Glasgow 15 basal, exame neurológico sem déficit focal (excluída paralisia pós-ictal de Todd transitória) e TC/eletrólitos normais, **não se inicia anticonvulsivante de manutenção no PS** na primeira crise sem lesão estrutural, orientando-se proibição de direção veicular, trabalho em altura e encaminhamento ao neurologista.

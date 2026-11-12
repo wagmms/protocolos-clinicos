@@ -11,10 +11,10 @@
 ###### ATENDIMENTO DE EMERGÊNCIA GINECOLÓGICA — DOENÇA INFLAMATÓRIA PÉLVICA (DIP) ######
 # IDENTIFICAÇÃO & FATORES DE RISCO:
 - Paciente: [Nome], [Idade] anos, G[ ] P[ ] A[ ] | DUM: [DD/MM/AAAA] | **β-hCG: NEGATIVO (obrigatório)**.
-- Contexto & Alergias: [Sem método de barreira / Nova parceria / Uso de DIU / Episódio prévio de IST] | Alergias: [Nega alergias medicamentosas / Alérgica a: [ ]].
+- Contexto & Alergias: [Sem método de barreira / Nova parceria / Uso de DIU / Episódio prévio de IST] | Alergias: [Nega alergias medicamentosas / Alérgica a:].
 
 # SUBJETIVO (QD & HMA):
-- Queixa Principal & HMA: Dor pélvica/baixo ventre bilateral progressiva há [ ] dias, associada a corrimento vaginal purulento, dispareunia de profundidade e [febre aferida de [ ]°C / calafrios / disúria].
+- Queixa Principal & HMA: Dor pélvica/baixo ventre bilateral progressiva há [ ] dias, associada a corrimento vaginal purulento, dispareunia de profundidade e [febre aferida de°C / calafrios / disúria].
 - Negativas Mandatórias: Nega atraso menstrual (β-hCG negativo — afastada ectópica). [Nega vômitos incoercíveis, peritonismo difuso ou instabilidade hemodinâmica (elegível para Monif I ambulatorial) / Apresenta febre alta, vômitos e peritonismo (indicada internação — Monif II/III)].
 
 # OBJETIVO (EXAME FÍSICO GINECOLÓGICO & EXAMES):
@@ -28,7 +28,7 @@
 - Exames Complementares:
   * **Teste Rápido / β-hCG sérico: NEGATIVO** | Testes Rápidos (HIV, Sífilis, Hep B e C): [Não reagentes].
   * Laboratório: Leucócitos: [ ]/mm³, PCR: [ ] mg/L, EAS: [ ].
-  * USG Pélvica Transvaginal: [Útero e ovários sem coleções pélvicas (Monif I/II) / Imagem complexa heterogênea retrouterina/anexial de [ ] cm compatível com Abscesso Tubo-Ovariano (Monif III)].
+  * USG Pélvica Transvaginal: [Útero e ovários sem coleções pélvicas (Monif I/II) / Imagem complexa heterogênea retrouterina/anexial de cm compatível com Abscesso Tubo-Ovariano (Monif III)].
 
 # AVALIAÇÃO DIAGNÓSTICA:
 1. Doença Inflamatória Pélvica Aguda (CID-10: N73.0 / N73.9) — **Estágio [Monif I (Leve — Ambulatorial) / Monif II (Moderada com peritonismo — Hospitalar) / Monif III (Abscesso Tubo-Ovariano — Hospitalar) / Monif IV (Abscesso Roto/Sepse — Cirúrgico)]**.

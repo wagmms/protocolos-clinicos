@@ -7,85 +7,102 @@
 ## 📋 Snippet para Prontuário Eletrônico (PEP)
 
 ```text
-EVOLUÇÃO MÉDICA DIÁRIA - PÓS-OPERATÓRIO (SOAP)
+###### EVOLUÇÃO MÉDICA DIÁRIA — PÓS-OPERATÓRIO CIRÚRGICO (SOAP) ######
+# IDENTIFICAÇÃO & PROCEDIMENTO:
+- Paciente: [Nome], [Idade] anos | Leito: [ ] | **[ ]º Dia Pós-Operatório (DPO)**
+- Procedimento Realizado: [ ] | Via de Acesso: [Videolaparoscópica / Convencional aberta / Ortopédica / Urológica]
+- Antimicrobiano Pós-Operatório: [Profilaxia cirúrgica suspensa em < 24h / Antibioticoterapia terapêutica com [ ] — D[ ] de [ ] dias]
 
-MANCHETE DA VISITA:
-- Paciente: [ ] | Idade: [ ] anos | Leito: [ ]
-- Procedimento Realizado: [ ] (Técnica: [ Laparoscópica / Aberta / Ortopédica ])
-- Tempo Pós-Operatório: [ ]º dia pós-operatório (DPO)
-- Especialidade: [ Cirurgia Geral / Ortopedia / Urologia / Vascular / Plástica ]
+# SUBJETIVO (S — RECUPERAÇÃO FUNCIONAL & MARCOS PÓS-OPERATÓRIOS):
+- Estado Geral no Período: Passou as últimas 24h [bem, sem intercorrências agudas / com queixa de].
+- Controle da Dor Pós-Operatória (EVA 0–10): [EVA [0–2] restrita à ferida operatória, bem controlada com analgesia regular / Dor moderada (EVA [ ]) controlada após resgate].
+- Tolerância Alimentar & Retorno do Trânsito Intestinal:
+  * Dieta atual: [Líquida / Pastosa / Branda / Geral] -> [Boa aceitação plena, nega náuseas ou vômitos / Apresentou náusea isolada controlada com antiemético].
+  * Eliminação de Flatos: [Presentes desde oº DPO / Ainda ausentes, sem distensão].
+  * Evacuação: [Presente de aspecto habitual / Ausente desde o procedimento, sem dor em cólica ou empachamento].
+- Mobilidade & Deambulação: [Deambulando ativamente no quarto e corredor / Deambulação com auxílio / Restrito ao leito por recomendação cirúrgica específica].
+- Diurese: [Espontânea, clara e sem disúria após retirada de SVD / Por SVD com débito límpido].
 
-S - SUBJETIVO:
-- Estado Geral Referido: Passou a noite [ bem, com boa adaptação / com queixa de ... ].
-- Dor Pós-Operatória (Escala EVA 0 a 10): [ ] em [ sítio cirúrgico / dor referida ], [ bem controlada com analgesia em curso / com necessidade de resgate opioide ocasional ].
-- Tolerância Alimentar & Trânsito Digestivo:
-  * Dieta atual: [ Líquida restrita / Líquida completa / Pastosa / Branda / Geral ].
-  * Aceitação da dieta: [ Boa aceitação, nega náuseas ou plenitude gástrica precoce / Nega vômitos / Episódio isolado de náusea responsivo a ondansetrona ].
-  * Eliminações: Flatos [ presentes e frequentes / ausentes ]; Evacuação [ presente, fezes habituais / ausente desde a cirurgia, sem distensão ou dor em cólica ].
-- Mobilidade e Deambulação: [ Já deambulando no corredor com auxílio / Deambulação independente / Restrito ao leito por orientação cirúrgica ].
-- Diurese: [ Espontânea, clara, bom débito sem disúria / SVD mantida com débito claro [ ] ml/24h ].
-
-O - OBJETIVO:
-- Sinais Vitais & Curvas das Últimas 24h:
-  * PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% ar ambiente
-  * Curva Térmica: Tax máx 24h: [ ] °C (Afebril nas últimas 24h)
-  * Balanço Hídrico das 24h: [ Positivo em ... ml / Negativo em ... ml / Diurese total: ... ml ].
-- Ectoscopia: Consciente, orientado, eupnéico em ar ambiente, mucosas coradas e hidratadas, anictérico, perfusão capilar periférica < 2 segundos.
-- Exame Respiratório: Expansibilidade torácica preservada bilateralmente. Murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Sem esforço ventilatório.
-- Exame Cardiovascular: Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros. Pulsos periféricos simétricos.
-- Exame Abdominal (se cirurgia abdominal/geral):
-  * Abdome plano/globoso, flácido, depressível, indolor difusamente, desconforto restrito às incisões cirúrgicas.
-  * Ausência de sinais de peritonite (descompressão brusca negativa / Blumberg ausente).
-  * Ruídos hidroaéreos presentes e normoativos.
-- Avaliação da Ferida Operatória / Incisões Cirúrgicas:
-  * Curativo: [ Oclusivo limpo e seco / Aberto, ferida limpa e seca exposta ].
-  * Bordas: Bem coaptadas, sutura íntegra (pontos simples / grampos metálicos íntegros).
-  * Sinais flogísticos: Sem hiperemia perilesional, sem calor local, sem edema tenso, sem hematoma ou coleções palpáveis.
-  * Secreção: [ Ausência de secreção / Discreta secreção serosa fisiológica contida / Sem secreção purulenta ou fétida ].
+# OBJETIVO (O — EXAME FÍSICO, FERIDA OPERATÓRIA & DRENOS):
+- Sinais Vitais & Curvas (24h): PA: [ ]x[ ] mmHg | FC: [ ] bpm | FR: [ ] irpm | SpO2: [ ]% em AA | Tax máx 24h: [ ] °C (Afebril) | Diurese 24h: [ ] mL | BH 24h: [Neutro / +[ ] mL / -[ ] mL].
+- Ectoscopia: Bom estado geral, lúcido(a) e orientado(a), corado(a), hidratado(a), anictérico(a), eupneico(a) em ar ambiente, TEC < 2 segundos.
+- Aparelho Cardiopulmonar: Ritmo cardíaco regular em 2T, bulhas normofonéticas sem sopros; murmúrio vesicular presente bilateralmente sem estertores ou atelectasias basais.
+- Exame Abdominal: Abdome [plano / globoso], flácido, depressível, dor leve restrita à linha incisional, sem defesa involuntária ou descompressão brusca dolorosa (Blumberg negativo). Ruídos hidroaéreos presentes e normoativos.
+- Inspeção da Ferida Operatória (FO):
+  * Curativo: [Aberto, ferida limpa e seca exposta / Oclusivo limpo e seco externamente].
+  * Bordas e Sutura: Bordas cirúrgicas bem coaptadas, [pontos simples / sutura intradérmica / grampos metálicos] íntegros.
+  * Sinais Flogísticos: Ausência de eritema perilesional, calor local, edema tenso, hematoma, flutuação ou deiscência. Ausência de secreção purulenta.
 - Avaliação de Drenos Cirúrgicos:
-  * Dreno [ Tipo: Portovac / Blake / Tubular Penrose / Sem drenos ]:
-  * Débito nas últimas 24h: [ ] mL.
-  * Aspecto do líquido drenado: [ Sero-hemático límpido / Seroso claro / Bilioso / Sem grumos ou secreção purulenta ].
-- Extremidades: Pulsos periféricos amplos e simétricos. Sem edema de membros inferiores, panturrilhas livres e indolores à palpação/dorsiflexão (Homans negativo).
+  * [Sem drenos cirúrgicos / Dreno [Portovac / Blake / Penrose] em [ ] com débito de [ ] mL/24h de aspecto [seroso claro / sero-hemático fluido], sem pus, bile ou conteúdo entérico].
+- Extremidades: Pulsos periféricos simétricos, sem edema de MMII, panturrilhas livres e indolores (Homans negativo).
 
-A - AVALIAÇÃO:
-1. Pós-operatório de [ Procedimento ] em [ ]º DPO evoluindo de forma [favorável e dentro do esperado / com intercorrência: ].
-2. Retorno do trânsito gastrointestinal: [ Confirmado com presença de RHA e flatos / Aguardando evacuação ].
-3. Débito de drenos: [ Em curva descendente favorável / Dentro dos critérios para retirada de dreno ].
-4. Controle álgico: [ Eficaz com esquema multimodal via oral / Necessitando de ajustes ].
+# AVALIAÇÃO (A — IMPRESSÃO DO PÓS-OPERATÓRIO):
+1. [ ]º DPO de [ ] evoluindo satisfatoriamente, estável hemodinamicamente e afebril.
+2. Trânsito gastrointestinal [restabelecido com boa aceitação de dieta oral / em retorno fisiológico].
+3. Ferida operatória limpa, íntegra e sem sinais de infecção de sítio cirúrgico (ISC).
 
-P - PLANO (CONDUTA DO DPO):
-1. Dieta: [ Progredir para dieta branda/geral conforme tolerância / Manter líquida ].
-2. Hidratação Venosa: [ Suspender soroterapia de manutenção / Manter salinização de acesso ].
-3. Analgesia Multimodal:
-   - Transicionar medicações analgésicas para via oral (Dipirona 1g VO 6/6h + Cetoprofeno 100mg VO 12/12h conforme protocolo).
-   - Manter antiemético (Ondansetrona 4-8mg EV/VO) se necessário.
-4. Profilaxia de TEV: Enoxaparina 40mg SC 1x/dia mantida + estímulo vigoroso à deambulação ativa.
-5. Manejo de Ferida & Drenos:
-   - Manter curativo diário com soro fisiológico e clorexidina degermante se troca.
-   - [ Programada retirada de dreno hoje se débito < [ ] ml/24h / Manter dreno em observação ].
-   - [ Programada retirada de sonda vesical de demora ].
-6. Previsão de Alta Hospitalar: [ Programada alta hospitalar para amanhã com receitas e orientações domiciliares / Alta hoje com encaminhamento ambulatorial ].
+# PLANO / CONDUTA:
+
+>> CONDUTA DO DIA NA ENFERMARIA CIRÚRGICA:
+1. Dieta: [Progredir dieta para branda/geral por via oral / Manter dieta atual].
+2. Hidratação Venosa: [Suspender soroterapia de manutenção; manter acesso salinizado / Sacar acesso venoso se em programação de alta].
+3. Analgesia Multimodal & Antiemético:
+   - [Transicionar para via oral: Dipirona 1 g VO 6/6h + Cetoprofeno 100 mg VO 12/12h (ou Tramadol 50 mg VO se dor moderada)].
+   - Ondansetrona 4 a 8 mg EV/VO de 8/8h se náuseas.
+4. Profilaxia de TEV & Fisioterapia: Manter [Enoxaparina 40 mg SC 1x/dia] + deambulação precoce no corredor e espirometria de incentivo.
+5. Cuidados com Ferida & Dispositivos:
+   - Higienizar ferida operatória com água corrente e sabonete neutro no banho; manter seca e descoberta.
+   - [Sacar dreno cirúrgico hoje (débito < 30–50 mL/24h seroso) / Manter dreno com aferição de débito / Retirar SVD hoje].
+6. Desospitalização: [Alta hospitalar concedida hoje com receita, cuidados com os pontos e retorno cirúrgico agendado / Previsão de alta para amanhã].
 ```
 
 ---
 
-## 🎯 Guia de Bolso: A Regra dos "5 Ws" da Febre Pós-Operatória
+## 💊 Receita Domiciliar / Alta
 
-Quando o paciente apresentar febre (Tax ≥ 37,8°C) no pós-operatório, investigar sistematicamente a causa conforme a cronologia:
+```text
+RECEITUÁRIO MÉDICO — ALTA PÓS-OPERATÓRIA CIRÚRGICA
+Paciente: [Nome] | Procedimento: [ ] | Data: [DD/MM/AAAA]
 
-| "W" Mnemônico | Causa Mais Provável | Cronologia Típica | Abordagem & Diagnóstico |
-| :--- | :--- | :--- | :--- |
-| **Wind (Vento)** | **Atelectasia pulmonar** | **D1 a D2** de pós-operatório | Tosse ineficaz por dor, redução de expansibilidade. Tratamento: analgesia adequada, fisioterapia respiratória com espirometria de incentivo (Respiron) e deambulação precoce. |
-| **Water (Água)** | **Infecção do Trato Urinário (ITU)** | **D3** de pós-operatório | Frequentemente associada a Sonda Vesical de Demora (ITU-AC). Solicitar Urina tipo 1 e Urocultura. **Ação prioritária:** RETIRAR A SONDA VESICAL o mais rápido possível. |
-| **Wound (Ferida)** | **Infecção do Sítio Cirúrgico (ISC)** | **D5 a D7** de pós-operatório | Hiperemia, dor local desproporcional, calor, edema, deiscência ou saída de secreção purulenta pela incisão. Tratamento: abertura de pontos para drenagem de coleções, lavagem abundante e antibioticoterapia dirigida. |
-| **Walking (Caminhada)** | **Trombose Venosa Profunda (TVP) / TEP** | **D7 a D10** de pós-operatório | Dor em panturrilha, assimetria de membros (> 3 cm), empastamento, ou dispneia/taquicardia súbita (TEP). Solicitar USG Doppler de membros inferiores ou Angiotomografia de tórax. |
-| **Wonder drugs (Drogas)** | **Febre medicamentosa** | **Qualquer momento** (frequente > D7) | Febre persistente com paciente em bom estado geral e sem foco infeccioso evidente. Causas comuns: antibióticos (betalactâmicos, sulfas), heparina, anticonvulsivantes. Tratamento: suspensão do fármaco suspeito. |
+USO ORAL:
+1. Dipirona Monoidratada 500 mg (ou 1 g) ------------------------------------- 1 caixa
+   Tomar 1 comprimido de 1 g (ou 2 comprimidos de 500 mg) por via oral de 6 em 6 horas em horário fixo nos primeiros 3 dias, e depois se houver dor.
+
+2. Cetoprofeno 100 mg (ou Ibuprofeno 600 mg) --------------------------------- 1 caixa
+   Tomar 1 comprimido por via oral de 12 em 12 horas, sempre após as refeições, durante 3 a 5 dias (Suspender se histórico de gastrite, úlcera ou doença renal).
+
+3. Cloridrato de Tramadol 50 mg (Resgate para dor forte) --------------------- 1 caixa
+   Tomar 1 comprimido por via oral até de 8 em 8 horas APENAS se dor moderada a intensa que não ceda com a Dipirona.
+
+4. Ondansetrona 4 mg (ou Bromoprida 10 mg) ----------------------------------- 1 caixa
+   Tomar 1 comprimido por via oral de 8 em 8 horas se apresentar náuseas ou enjoos.
+
+CUIDADOS COM A FERIDA OPERATÓRIA & ORIENTAÇÕES PÓS-ALTA:
+- Lavar a incisão cirúrgica diariamente durante o banho com água corrente e sabonete neutro, secando suavemente com toalha limpa (sem esfregar). Não aplicar pomadas caseiras, óleos ou pós sobre os pontos.
+- Caminhar dentro de casa várias vezes ao dia para prevenir trombose nas pernas; evitar esforço físico intenso, pegar peso (> 5 kg) ou dirigir por [15 a 30] dias.
+- Retorno agendado no Ambulatório de Cirurgia / UBS em [7 a 14] dias para revisão cirúrgica e retirada de pontos.
+- SINAIS DE ALARME (RETORNO IMEDIATO AO PRONTO-SOCORRO): Febre aferida (≥ 37,8 °C), vermelhidão quente que se espalha ao redor do corte, saída de pus ou abertura dos pontos, dor abdominal progressiva, vômitos persistentes, parada de eliminação de gases/fezes, dor/inchaço na panturrilha ou falta de ar súbita.
+```
 
 ---
 
-### Critérios Práticos para Retirada de Drenos Cirúrgicos
-- **Dreno de Sucção Fechada (Portovac / Blake):**
-  - Retirar quando o débito em 24 horas for inferior a **30 a 50 mL/dia** e o aspecto for seroso límpido (sem débito purulento, fecalóide ou hemático vivo).
-- **Dreno Tubular de Penrose:**
-  - Mobilizar/tracionar 2 a 3 cm por dia a partir de 48-72h, retirando totalmente quando não houver mais saída de secreção.
+## 🎯 Diretrizes & Raciocínio Clínico (O Porquê das Condutas)
+
+### 🧠 1. Por Que Realimentamos e Mobilizamos Precocemente o Paciente Cirúrgico? (Protocolo ACERTO / ERAS)
+- **Por que o jejum prolongado pós-operatório e o repouso no leito foram abolidos (Protocolo ACERTO/ERAS):** A antiga prática de aguardar a presença de flatos ou evacuação para iniciar dieta oral após cirurgias eletivas aumentava o catabolismo proteico, a resistência insulínica e a translocação bacteriana intestinal. A realimentação oral precoce (nas primeiras 6–24h na maioria das cirurgias) estimula o reflexo gastrocólico, reduz o íleo paralítico pós-operatório e acelera a cicatrização anastomótica.
+- **Por que a deambulação no 1º DPO previne atelectasia e TEP:** A dor incisional abdominal/torácica reduz o volume corrente inspiratório, colabando os alvéolos basais (atelectasia). Sentar fora do leito e caminhar restaura a capacidade residual funcional pulmonar e ativa a bomba muscular da panturrilha.
+
+### 💊 2. Por Que Suspender a Profilaxia Antibiótica em 24h e Usar Analgesia Multimodal?
+- **Por que o antibiótico profilático (Cefazolina) NÃO deve continuar na enfermaria:** A antibiótico-profilaxia cirúrgica serve exclusivamente para garantir nível tecidual bactericida durante a incisão até o fechamento da pele. Manter Cefazolina ou Ceftriaxona no 1º, 2º e 3º DPO em cirurgias limpas ou potencialmente contaminadas sem infecção ativa **não reduz a taxa de infecção de sítio cirúrgico (ISC)** e seleciona bactérias multirresistentes e *C. difficile*.
+- **Por que combinamos Dipirona + AINE em vez de opioides isolados:** A dor pós-operatória é mediada por prostaglandinas periféricas na ferida cirúrgica. O uso de opioides (Morfina/Tramadol) em altas doses paralisa o plexo mioentérico de Auerbach, agravando o **íleo paralítico pós-operatório**, náuseas e retenção urinária. A analgesia multimodal poupadora de opioides permite retorno intestinal precoce.
+
+### 🧭 3. Os "5 Ws" da Febre Pós-Operatória e Critérios para Retirada de Drenos
+| Mnemônico ("5 Ws") | Cronologia Típica | Etiologia Principal | Conduta Diagnóstica e Terapêutica |
+| :--- | :---: | :--- | :--- |
+| **1. Wind (Pulmão)** | **D1 a D2** (24–48h) | **Atelectasia pulmonar** (ou resposta inflamatória cirúrgica benigna) | Analgesia eficaz, fisioterapia respiratória, espirometria de incentivo e deambulação (NÃO dar antibiótico para atelectasia!). |
+| **2. Water (Urina)** | **D3 a D5** | **Infecção do Trato Urinário (ITU-AC)** associada a sonda vesical | Solicitar EAS + Urocultura e **retirar a Sonda Vesical de Demora imediatamente**. |
+| **3. Wound (Ferida)** | **D5 a D7** | **Infecção de Sítio Cirúrgico (ISC)** (*S. aureus*, estreptococos, flora entérica) | Inspecionar incisão: se hiperemia, flutuação ou pus → **abrir pontos na beira do leito**, drenar coleção, lavar com SF 0,9% e iniciar ATB se celulite extensa/febre. |
+| **4. Walking (Vasos)** | **D7 a D10+** | **Trombose Venosa Profunda (TVP) / Embolia Pulmonar (TEP)** | Avaliar assimetria de panturrilha, taquicardia inexplicada ou hipoxemia → USG Doppler venoso de MMII / Angio-TC de tórax. |
+| **5. Wonder Drugs** | **Qualquer DPO** (> D7) | **Febre medicamentosa** ou flebite de cateter venoso | Inspecionar todos os acessos venosos (trocar se flebite) e revisar antimicrobianos/anticonvulsivantes em uso. |
+
+- **Quando retirar drenos cirúrgicos:** Drenos de sucção fechada (`Portovac` / `Blake`) devem ser sacados assim que o débito for **`< 30 a 50 mL/24h`** de aspecto seroso ou sero-hemático claro (descartadas fístula biliar, entérica, quilosa ou sangramento ativo).

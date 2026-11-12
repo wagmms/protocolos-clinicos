@@ -15,7 +15,7 @@
 - Extensão Anatômica Verificada: Comprometimento de mucosa vaginal, fúrcula e musculatura do corpo perineal (transverso superficial e bulbocavernoso). Toque retal pré-sutura confirmando **integridade do complexo do esfíncter anal externo/interno e da mucosa anorretal** (afastada lesão de 3º/4º grau).
 
 # TEMPOS TÉCNICOS DA REVISÃO E PERINEORRAFIA:
-1. Exposição & Revisão de Canal: Paciente em litotomia sob foco cirúrgico, antissepsia com Clorexidina Aquosa 0,5% e campos estéreis. Revisão de colo uterino em 360° com pinças de Foerster (DeLee) e paredes vaginais: [íntegras e sem hematomas / suturada laceração cervical em lábio [ ]]. Posicionado tampão de gaze estéril com reparo para manter campo seco.
+1. Exposição & Revisão de Canal: Paciente em litotomia sob foco cirúrgico, antissepsia com Clorexidina Aquosa 0,5% e campos estéreis. Revisão de colo uterino em 360° com pinças de Foerster (DeLee) e paredes vaginais: [íntegras e sem hematomas / suturada laceração cervical em lábio]. Posicionado tampão de gaze estéril com reparo para manter campo seco.
 2. Anestesia Local: Infiltração em leque nos planos mucoso, muscular e subcutâneo com **10 a 15 mL de Lidocaína 2% sem vasoconstritor** (aspiração prévia negativa).
 3. Síntese da Mucosa Vaginal (1º Plano):
    - Identificado o ápice da laceração vaginal; dado **1º ponto de ancoragem 0,5 a 1,0 cm ACIMA (cranial) do ápice** para ligadura de vasos submucosos retraídos.

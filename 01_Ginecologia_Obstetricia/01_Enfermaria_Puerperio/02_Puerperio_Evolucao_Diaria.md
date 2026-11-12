@@ -11,8 +11,8 @@
 ###### EVOLUÇÃO DIÁRIA DE ENFERMARIA — PUERPÉRIO (ALOJAMENTO CONJUNTO) ######
 # IDENTIFICAÇÃO & PARTO:
 Paciente [Nome], [Idade] anos, Leito [ ], G[ ] P[ ] A[ ], TS Materna: [O+ / A+ / B+ / Rh negativo] | TS RN: [ ] (Coombs Direto: [Negativo / Positivo]).
-Em [1º / 2º / 3º] dia de puerpério de [Parto Normal sem laceração / Parto Normal com rafia de laceração de 2º grau / Parto Normal com episiotomia / Cesárea por indicação de [ ]] realizado em [DD/MM às HH:MM] com IG de [ ]s[ ]d.
-Comorbidades & Alergias: [Hígida / HAG / Pré-eclâmpsia / DMG sob dieta / Anemia] | Alergias: [Nega alergias medicamentosas / Alérgica a: [ ]].
+Em [1º / 2º / 3º] dia de puerpério de [Parto Normal sem laceração / Parto Normal com rafia de laceração de 2º grau / Parto Normal com episiotomia / Cesárea por indicação de] realizado em [DD/MM às HH:MM] com IG de [ ]s[ ]d.
+Comorbidades & Alergias: [Hígida / HAG / Pré-eclâmpsia / DMG sob dieta / Anemia] | Alergias: [Nega alergias medicamentosas / Alérgica a:].
 
 # SUBJETIVO (EVOLUÇÃO NAS 24H & AMAMENTAÇÃO):
 Encontro puérpera no leito com RN em alojamento conjunto.
@@ -24,11 +24,11 @@ Encontro puérpera no leito com RN em alojamento conjunto.
 # OBJETIVO (EXAME FÍSICO DIRIGIDO & CONTROLES):
 - Sinais Vitais: PA: [110x70] mmHg | FC: [78] bpm | FR: [16] irpm | SpO2: [99]% AA | Tax: [36,5] °C.
 - Ectoscopia: BEG, lúcida, corada, hidratada, anictérica, acianótica, afebril e eupneica.
-- Mamas: [Flácidas / Túrgidas fisiológicas], indolores, sem áreas de hiperemia, calor ou ingurgitamento patológico. Papilas [íntegras sem fissuras / com fissura superficial em mama [ ]]. Colostro presente à expressão bilateral.
+- Mamas: [Flácidas / Túrgidas fisiológicas], indolores, sem áreas de hiperemia, calor ou ingurgitamento patológico. Papilas [íntegras sem fissuras / com fissura superficial em mama]. Colostro presente à expressão bilateral.
 - Abdome & Útero: Abdome flácido, RHA+, indolor, sem bexigoma palpável. Útero globoso, firme e bem contraído (Globo de Pinard presente), centrado, involuindo a [1 a 2] cm abaixo da cicatriz umbilical, indolor à mobilização.
 - Sítio Cirúrgico / Períneo: [Períneo íntegro sem edema ou hematoma / Rafia perineal com bordas coaptadas, pontos íntegros, limpa e sem hematoma / Ferida operatória de Pfannenstiel limpa, seca, bordas coaptadas, sem flogose ou hematoma]. Lóquios rubros fisiológicos sem odor.
 - Extremidades: Aquecidas, TEC < 2s, pulsos distais simétricos, [sem edema / edema maleolar leve +/4+ simétrico], panturrilhas livres e indolores.
-- Controles & Exames: Sorologias de admissão (HIV, VDRL, HBsAg, Toxo) [todas não reagentes / checadas]. [Curva pressórica normotensa / Perfil glicêmico no alvo / Hb pós-parto: [ ] g/dL].
+- Controles & Exames: Sorologias de admissão (HIV, VDRL, HBsAg, Toxo) [todas não reagentes / checadas]. [Curva pressórica normotensa / Perfil glicêmico no alvo / Hb pós-parto: g/dL].
 
 # AVALIAÇÃO DIAGNÓSTICA:
 1. [1º / 2º / 3º] dia de puerpério de [Parto Normal / Cesariana] com evolução favorável (CID-10: Z39.0).
