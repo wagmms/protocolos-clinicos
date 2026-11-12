@@ -456,9 +456,6 @@ for idx, s in enumerate(cockpit_items):
         <div class="btn-group">
           {''.join(segment_buttons)}
         </div>
-        <button class="btn btn-detail" onclick="event.stopPropagation(); openInspector({idx})" title="Visualizar e personalizar">
-          Abrir
-        </button>
       </div>
     </article>
     """)
